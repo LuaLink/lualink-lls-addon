@@ -1,0 +1,62 @@
+--- Vanilla keys for RegistryKey#DAMAGE_TYPE.
+---@meta
+-- io.papermc.paper.registry.keys.DamageTypeKeys
+---@class DamageTypeKeys
+---@field public ARROW TypedKey<DamageType>
+---@field public BAD_RESPAWN_POINT TypedKey<DamageType>
+---@field public CACTUS TypedKey<DamageType>
+---@field public CAMPFIRE TypedKey<DamageType>
+---@field public CRAMMING TypedKey<DamageType>
+---@field public DRAGON_BREATH TypedKey<DamageType>
+---@field public DROWN TypedKey<DamageType>
+---@field public DRY_OUT TypedKey<DamageType>
+---@field public ENDER_PEARL TypedKey<DamageType>
+---@field public EXPLOSION TypedKey<DamageType>
+---@field public FALL TypedKey<DamageType>
+---@field public FALLING_ANVIL TypedKey<DamageType>
+---@field public FALLING_BLOCK TypedKey<DamageType>
+---@field public FALLING_STALACTITE TypedKey<DamageType>
+---@field public FIREBALL TypedKey<DamageType>
+---@field public FIREWORKS TypedKey<DamageType>
+---@field public FLY_INTO_WALL TypedKey<DamageType>
+---@field public FREEZE TypedKey<DamageType>
+---@field public GENERIC TypedKey<DamageType>
+---@field public GENERIC_KILL TypedKey<DamageType>
+---@field public HOT_FLOOR TypedKey<DamageType>
+---@field public IN_FIRE TypedKey<DamageType>
+---@field public IN_WALL TypedKey<DamageType>
+---@field public INDIRECT_MAGIC TypedKey<DamageType>
+---@field public LAVA TypedKey<DamageType>
+---@field public LIGHTNING_BOLT TypedKey<DamageType>
+---@field public MACE_SMASH TypedKey<DamageType>
+---@field public MAGIC TypedKey<DamageType>
+---@field public MOB_ATTACK TypedKey<DamageType>
+---@field public MOB_ATTACK_NO_AGGRO TypedKey<DamageType>
+---@field public MOB_PROJECTILE TypedKey<DamageType>
+---@field public ON_FIRE TypedKey<DamageType>
+---@field public OUT_OF_WORLD TypedKey<DamageType>
+---@field public OUTSIDE_BORDER TypedKey<DamageType>
+---@field public PLAYER_ATTACK TypedKey<DamageType>
+---@field public PLAYER_EXPLOSION TypedKey<DamageType>
+---@field public SONIC_BOOM TypedKey<DamageType>
+---@field public SPIT TypedKey<DamageType>
+---@field public STALAGMITE TypedKey<DamageType>
+---@field public STARVE TypedKey<DamageType>
+---@field public STING TypedKey<DamageType>
+---@field public SWEET_BERRY_BUSH TypedKey<DamageType>
+---@field public THORNS TypedKey<DamageType>
+---@field public THROWN TypedKey<DamageType>
+---@field public TRIDENT TypedKey<DamageType>
+---@field public UNATTRIBUTED_FIREBALL TypedKey<DamageType>
+---@field public WIND_CHARGE TypedKey<DamageType>
+---@field public WITHER TypedKey<DamageType>
+---@field public WITHER_SKULL TypedKey<DamageType>
+---@overload fun(): DamageTypeKeys 
+local DamageTypeKeys = {}
+
+---@param key Key 
+---@public
+---@return TypedKey<DamageType> 
+--- Creates a typed key for DamageType in the registry minecraft:damage_type.
+function DamageTypeKeys:create(key) end
+

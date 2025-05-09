@@ -1,0 +1,25 @@
+--- Represents the face of a block
+---@meta
+-- org.bukkit.block.BlockFace
+---@class BlockFace
+---@field public NORTH BlockFace
+---@field public EAST BlockFace
+---@field public SOUTH BlockFace
+---@field public WEST BlockFace
+---@field public UP BlockFace
+---@field public DOWN BlockFace
+---@field public NORTH_EAST BlockFace
+---@field public NORTH_WEST BlockFace
+---@field public SOUTH_EAST BlockFace
+---@field public SOUTH_WEST BlockFace
+---@field public WEST_NORTH_WEST BlockFace
+---@field public NORTH_NORTH_WEST BlockFace
+---@field public NORTH_NORTH_EAST BlockFace
+---@field public EAST_NORTH_EAST BlockFace
+---@field public EAST_SOUTH_EAST BlockFace
+---@field public SOUTH_SOUTH_EAST BlockFace
+---@field public SOUTH_SOUTH_WEST BlockFace
+---@field public WEST_SOUTH_WEST BlockFace
+---@field public SELF BlockFace
+local BlockFace = {}
+

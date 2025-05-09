@@ -1,0 +1,85 @@
+--- Vanilla tag keys for RegistryKey#BIOME.
+---@meta
+-- io.papermc.paper.registry.keys.tags.BiomeTagKeys
+---@class BiomeTagKeys
+---@field public ALLOWS_SURFACE_SLIME_SPAWNS TagKey<Biome>
+---@field public ALLOWS_TROPICAL_FISH_SPAWNS_AT_ANY_HEIGHT TagKey<Biome>
+---@field public HAS_CLOSER_WATER_FOG TagKey<Biome>
+---@field public HAS_STRUCTURE_ANCIENT_CITY TagKey<Biome>
+---@field public HAS_STRUCTURE_BASTION_REMNANT TagKey<Biome>
+---@field public HAS_STRUCTURE_BURIED_TREASURE TagKey<Biome>
+---@field public HAS_STRUCTURE_DESERT_PYRAMID TagKey<Biome>
+---@field public HAS_STRUCTURE_END_CITY TagKey<Biome>
+---@field public HAS_STRUCTURE_IGLOO TagKey<Biome>
+---@field public HAS_STRUCTURE_JUNGLE_TEMPLE TagKey<Biome>
+---@field public HAS_STRUCTURE_MINESHAFT TagKey<Biome>
+---@field public HAS_STRUCTURE_MINESHAFT_MESA TagKey<Biome>
+---@field public HAS_STRUCTURE_NETHER_FORTRESS TagKey<Biome>
+---@field public HAS_STRUCTURE_NETHER_FOSSIL TagKey<Biome>
+---@field public HAS_STRUCTURE_OCEAN_MONUMENT TagKey<Biome>
+---@field public HAS_STRUCTURE_OCEAN_RUIN_COLD TagKey<Biome>
+---@field public HAS_STRUCTURE_OCEAN_RUIN_WARM TagKey<Biome>
+---@field public HAS_STRUCTURE_PILLAGER_OUTPOST TagKey<Biome>
+---@field public HAS_STRUCTURE_RUINED_PORTAL_DESERT TagKey<Biome>
+---@field public HAS_STRUCTURE_RUINED_PORTAL_JUNGLE TagKey<Biome>
+---@field public HAS_STRUCTURE_RUINED_PORTAL_MOUNTAIN TagKey<Biome>
+---@field public HAS_STRUCTURE_RUINED_PORTAL_NETHER TagKey<Biome>
+---@field public HAS_STRUCTURE_RUINED_PORTAL_OCEAN TagKey<Biome>
+---@field public HAS_STRUCTURE_RUINED_PORTAL_STANDARD TagKey<Biome>
+---@field public HAS_STRUCTURE_RUINED_PORTAL_SWAMP TagKey<Biome>
+---@field public HAS_STRUCTURE_SHIPWRECK TagKey<Biome>
+---@field public HAS_STRUCTURE_SHIPWRECK_BEACHED TagKey<Biome>
+---@field public HAS_STRUCTURE_STRONGHOLD TagKey<Biome>
+---@field public HAS_STRUCTURE_SWAMP_HUT TagKey<Biome>
+---@field public HAS_STRUCTURE_TRAIL_RUINS TagKey<Biome>
+---@field public HAS_STRUCTURE_TRIAL_CHAMBERS TagKey<Biome>
+---@field public HAS_STRUCTURE_VILLAGE_DESERT TagKey<Biome>
+---@field public HAS_STRUCTURE_VILLAGE_PLAINS TagKey<Biome>
+---@field public HAS_STRUCTURE_VILLAGE_SAVANNA TagKey<Biome>
+---@field public HAS_STRUCTURE_VILLAGE_SNOWY TagKey<Biome>
+---@field public HAS_STRUCTURE_VILLAGE_TAIGA TagKey<Biome>
+---@field public HAS_STRUCTURE_WOODLAND_MANSION TagKey<Biome>
+---@field public INCREASED_FIRE_BURNOUT TagKey<Biome>
+---@field public IS_BADLANDS TagKey<Biome>
+---@field public IS_BEACH TagKey<Biome>
+---@field public IS_DEEP_OCEAN TagKey<Biome>
+---@field public IS_END TagKey<Biome>
+---@field public IS_FOREST TagKey<Biome>
+---@field public IS_HILL TagKey<Biome>
+---@field public IS_JUNGLE TagKey<Biome>
+---@field public IS_MOUNTAIN TagKey<Biome>
+---@field public IS_NETHER TagKey<Biome>
+---@field public IS_OCEAN TagKey<Biome>
+---@field public IS_OVERWORLD TagKey<Biome>
+---@field public IS_RIVER TagKey<Biome>
+---@field public IS_SAVANNA TagKey<Biome>
+---@field public IS_TAIGA TagKey<Biome>
+---@field public MINESHAFT_BLOCKING TagKey<Biome>
+---@field public MORE_FREQUENT_DROWNED_SPAWNS TagKey<Biome>
+---@field public PLAYS_UNDERWATER_MUSIC TagKey<Biome>
+---@field public POLAR_BEARS_SPAWN_ON_ALTERNATE_BLOCKS TagKey<Biome>
+---@field public PRODUCES_CORALS_FROM_BONEMEAL TagKey<Biome>
+---@field public REDUCE_WATER_AMBIENT_SPAWNS TagKey<Biome>
+---@field public REQUIRED_OCEAN_MONUMENT_SURROUNDING TagKey<Biome>
+---@field public SNOW_GOLEM_MELTS TagKey<Biome>
+---@field public SPAWNS_COLD_VARIANT_FARM_ANIMALS TagKey<Biome>
+---@field public SPAWNS_COLD_VARIANT_FROGS TagKey<Biome>
+---@field public SPAWNS_GOLD_RABBITS TagKey<Biome>
+---@field public SPAWNS_SNOW_FOXES TagKey<Biome>
+---@field public SPAWNS_WARM_VARIANT_FARM_ANIMALS TagKey<Biome>
+---@field public SPAWNS_WARM_VARIANT_FROGS TagKey<Biome>
+---@field public SPAWNS_WHITE_RABBITS TagKey<Biome>
+---@field public STRONGHOLD_BIASED_TO TagKey<Biome>
+---@field public WATER_ON_MAP_OUTLINES TagKey<Biome>
+---@field public WITHOUT_PATROL_SPAWNS TagKey<Biome>
+---@field public WITHOUT_WANDERING_TRADER_SPAWNS TagKey<Biome>
+---@field public WITHOUT_ZOMBIE_SIEGES TagKey<Biome>
+---@overload fun(): BiomeTagKeys 
+local BiomeTagKeys = {}
+
+---@param key Key 
+---@public
+---@return TagKey<Biome> 
+--- Creates a tag key for Biome in the registry minecraft:worldgen/biome.
+function BiomeTagKeys:create(key) end
+

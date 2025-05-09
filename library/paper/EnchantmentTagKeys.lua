@@ -1,0 +1,49 @@
+--- Vanilla tag keys for RegistryKey#ENCHANTMENT.
+---@meta
+-- io.papermc.paper.registry.keys.tags.EnchantmentTagKeys
+---@class EnchantmentTagKeys
+---@field public CURSE TagKey<Enchantment>
+---@field public DOUBLE_TRADE_PRICE TagKey<Enchantment>
+---@field public EXCLUSIVE_SET_ARMOR TagKey<Enchantment>
+---@field public EXCLUSIVE_SET_BOOTS TagKey<Enchantment>
+---@field public EXCLUSIVE_SET_BOW TagKey<Enchantment>
+---@field public EXCLUSIVE_SET_CROSSBOW TagKey<Enchantment>
+---@field public EXCLUSIVE_SET_DAMAGE TagKey<Enchantment>
+---@field public EXCLUSIVE_SET_MINING TagKey<Enchantment>
+---@field public EXCLUSIVE_SET_RIPTIDE TagKey<Enchantment>
+---@field public IN_ENCHANTING_TABLE TagKey<Enchantment>
+---@field public NON_TREASURE TagKey<Enchantment>
+---@field public ON_MOB_SPAWN_EQUIPMENT TagKey<Enchantment>
+---@field public ON_RANDOM_LOOT TagKey<Enchantment>
+---@field public ON_TRADED_EQUIPMENT TagKey<Enchantment>
+---@field public PREVENTS_BEE_SPAWNS_WHEN_MINING TagKey<Enchantment>
+---@field public PREVENTS_DECORATED_POT_SHATTERING TagKey<Enchantment>
+---@field public PREVENTS_ICE_MELTING TagKey<Enchantment>
+---@field public PREVENTS_INFESTED_SPAWNS TagKey<Enchantment>
+---@field public SMELTS_LOOT TagKey<Enchantment>
+---@field public TOOLTIP_ORDER TagKey<Enchantment>
+---@field public TRADEABLE TagKey<Enchantment>
+---@field public TRADES_DESERT_COMMON TagKey<Enchantment>
+---@field public TRADES_DESERT_SPECIAL TagKey<Enchantment>
+---@field public TRADES_JUNGLE_COMMON TagKey<Enchantment>
+---@field public TRADES_JUNGLE_SPECIAL TagKey<Enchantment>
+---@field public TRADES_PLAINS_COMMON TagKey<Enchantment>
+---@field public TRADES_PLAINS_SPECIAL TagKey<Enchantment>
+---@field public TRADES_SAVANNA_COMMON TagKey<Enchantment>
+---@field public TRADES_SAVANNA_SPECIAL TagKey<Enchantment>
+---@field public TRADES_SNOW_COMMON TagKey<Enchantment>
+---@field public TRADES_SNOW_SPECIAL TagKey<Enchantment>
+---@field public TRADES_SWAMP_COMMON TagKey<Enchantment>
+---@field public TRADES_SWAMP_SPECIAL TagKey<Enchantment>
+---@field public TRADES_TAIGA_COMMON TagKey<Enchantment>
+---@field public TRADES_TAIGA_SPECIAL TagKey<Enchantment>
+---@field public TREASURE TagKey<Enchantment>
+---@overload fun(): EnchantmentTagKeys 
+local EnchantmentTagKeys = {}
+
+---@param key Key 
+---@public
+---@return TagKey<Enchantment> 
+--- Creates a tag key for Enchantment in the registry minecraft:enchantment.
+function EnchantmentTagKeys:create(key) end
+

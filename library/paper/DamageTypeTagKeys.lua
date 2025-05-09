@@ -1,0 +1,46 @@
+--- Vanilla tag keys for RegistryKey#DAMAGE_TYPE.
+---@meta
+-- io.papermc.paper.registry.keys.tags.DamageTypeTagKeys
+---@class DamageTypeTagKeys
+---@field public ALWAYS_HURTS_ENDER_DRAGONS TagKey<DamageType>
+---@field public ALWAYS_KILLS_ARMOR_STANDS TagKey<DamageType>
+---@field public ALWAYS_MOST_SIGNIFICANT_FALL TagKey<DamageType>
+---@field public ALWAYS_TRIGGERS_SILVERFISH TagKey<DamageType>
+---@field public AVOIDS_GUARDIAN_THORNS TagKey<DamageType>
+---@field public BURN_FROM_STEPPING TagKey<DamageType>
+---@field public BURNS_ARMOR_STANDS TagKey<DamageType>
+---@field public BYPASSES_ARMOR TagKey<DamageType>
+---@field public BYPASSES_EFFECTS TagKey<DamageType>
+---@field public BYPASSES_ENCHANTMENTS TagKey<DamageType>
+---@field public BYPASSES_INVULNERABILITY TagKey<DamageType>
+---@field public BYPASSES_RESISTANCE TagKey<DamageType>
+---@field public BYPASSES_SHIELD TagKey<DamageType>
+---@field public BYPASSES_WOLF_ARMOR TagKey<DamageType>
+---@field public CAN_BREAK_ARMOR_STAND TagKey<DamageType>
+---@field public DAMAGES_HELMET TagKey<DamageType>
+---@field public IGNITES_ARMOR_STANDS TagKey<DamageType>
+---@field public IS_DROWNING TagKey<DamageType>
+---@field public IS_EXPLOSION TagKey<DamageType>
+---@field public IS_FALL TagKey<DamageType>
+---@field public IS_FIRE TagKey<DamageType>
+---@field public IS_FREEZING TagKey<DamageType>
+---@field public IS_LIGHTNING TagKey<DamageType>
+---@field public IS_PLAYER_ATTACK TagKey<DamageType>
+---@field public IS_PROJECTILE TagKey<DamageType>
+---@field public MACE_SMASH TagKey<DamageType>
+---@field public NO_ANGER TagKey<DamageType>
+---@field public NO_IMPACT TagKey<DamageType>
+---@field public NO_KNOCKBACK TagKey<DamageType>
+---@field public PANIC_CAUSES TagKey<DamageType>
+---@field public PANIC_ENVIRONMENTAL_CAUSES TagKey<DamageType>
+---@field public WITCH_RESISTANT_TO TagKey<DamageType>
+---@field public WITHER_IMMUNE_TO TagKey<DamageType>
+---@overload fun(): DamageTypeTagKeys 
+local DamageTypeTagKeys = {}
+
+---@param key Key 
+---@public
+---@return TagKey<DamageType> 
+--- Creates a tag key for DamageType in the registry minecraft:damage_type.
+function DamageTypeTagKeys:create(key) end
+

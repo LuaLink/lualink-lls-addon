@@ -1,0 +1,47 @@
+--- Vanilla keys for RegistryKey#STRUCTURE.
+---@meta
+-- io.papermc.paper.registry.keys.StructureKeys
+---@class StructureKeys
+---@field public ANCIENT_CITY TypedKey<Structure>
+---@field public BASTION_REMNANT TypedKey<Structure>
+---@field public BURIED_TREASURE TypedKey<Structure>
+---@field public DESERT_PYRAMID TypedKey<Structure>
+---@field public END_CITY TypedKey<Structure>
+---@field public FORTRESS TypedKey<Structure>
+---@field public IGLOO TypedKey<Structure>
+---@field public JUNGLE_PYRAMID TypedKey<Structure>
+---@field public MANSION TypedKey<Structure>
+---@field public MINESHAFT TypedKey<Structure>
+---@field public MINESHAFT_MESA TypedKey<Structure>
+---@field public MONUMENT TypedKey<Structure>
+---@field public NETHER_FOSSIL TypedKey<Structure>
+---@field public OCEAN_RUIN_COLD TypedKey<Structure>
+---@field public OCEAN_RUIN_WARM TypedKey<Structure>
+---@field public PILLAGER_OUTPOST TypedKey<Structure>
+---@field public RUINED_PORTAL TypedKey<Structure>
+---@field public RUINED_PORTAL_DESERT TypedKey<Structure>
+---@field public RUINED_PORTAL_JUNGLE TypedKey<Structure>
+---@field public RUINED_PORTAL_MOUNTAIN TypedKey<Structure>
+---@field public RUINED_PORTAL_NETHER TypedKey<Structure>
+---@field public RUINED_PORTAL_OCEAN TypedKey<Structure>
+---@field public RUINED_PORTAL_SWAMP TypedKey<Structure>
+---@field public SHIPWRECK TypedKey<Structure>
+---@field public SHIPWRECK_BEACHED TypedKey<Structure>
+---@field public STRONGHOLD TypedKey<Structure>
+---@field public SWAMP_HUT TypedKey<Structure>
+---@field public TRAIL_RUINS TypedKey<Structure>
+---@field public TRIAL_CHAMBERS TypedKey<Structure>
+---@field public VILLAGE_DESERT TypedKey<Structure>
+---@field public VILLAGE_PLAINS TypedKey<Structure>
+---@field public VILLAGE_SAVANNA TypedKey<Structure>
+---@field public VILLAGE_SNOWY TypedKey<Structure>
+---@field public VILLAGE_TAIGA TypedKey<Structure>
+---@overload fun(): StructureKeys 
+local StructureKeys = {}
+
+---@param key Key 
+---@public
+---@return TypedKey<Structure> 
+--- Creates a typed key for Structure in the registry minecraft:worldgen/structure.
+function StructureKeys:create(key) end
+

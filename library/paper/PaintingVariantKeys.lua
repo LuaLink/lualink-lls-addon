@@ -1,0 +1,63 @@
+--- Vanilla keys for RegistryKey#PAINTING_VARIANT.
+---@meta
+-- io.papermc.paper.registry.keys.PaintingVariantKeys
+---@class PaintingVariantKeys
+---@field public ALBAN TypedKey<Art>
+---@field public AZTEC TypedKey<Art>
+---@field public AZTEC2 TypedKey<Art>
+---@field public BACKYARD TypedKey<Art>
+---@field public BAROQUE TypedKey<Art>
+---@field public BOMB TypedKey<Art>
+---@field public BOUQUET TypedKey<Art>
+---@field public BURNING_SKULL TypedKey<Art>
+---@field public BUST TypedKey<Art>
+---@field public CAVEBIRD TypedKey<Art>
+---@field public CHANGING TypedKey<Art>
+---@field public COTAN TypedKey<Art>
+---@field public COURBET TypedKey<Art>
+---@field public CREEBET TypedKey<Art>
+---@field public DONKEY_KONG TypedKey<Art>
+---@field public EARTH TypedKey<Art>
+---@field public ENDBOSS TypedKey<Art>
+---@field public FERN TypedKey<Art>
+---@field public FIGHTERS TypedKey<Art>
+---@field public FINDING TypedKey<Art>
+---@field public FIRE TypedKey<Art>
+---@field public GRAHAM TypedKey<Art>
+---@field public HUMBLE TypedKey<Art>
+---@field public KEBAB TypedKey<Art>
+---@field public LOWMIST TypedKey<Art>
+---@field public MATCH TypedKey<Art>
+---@field public MEDITATIVE TypedKey<Art>
+---@field public ORB TypedKey<Art>
+---@field public OWLEMONS TypedKey<Art>
+---@field public PASSAGE TypedKey<Art>
+---@field public PIGSCENE TypedKey<Art>
+---@field public PLANT TypedKey<Art>
+---@field public POINTER TypedKey<Art>
+---@field public POND TypedKey<Art>
+---@field public POOL TypedKey<Art>
+---@field public PRAIRIE_RIDE TypedKey<Art>
+---@field public SEA TypedKey<Art>
+---@field public SKELETON TypedKey<Art>
+---@field public SKULL_AND_ROSES TypedKey<Art>
+---@field public STAGE TypedKey<Art>
+---@field public SUNFLOWERS TypedKey<Art>
+---@field public SUNSET TypedKey<Art>
+---@field public TIDES TypedKey<Art>
+---@field public UNPACKED TypedKey<Art>
+---@field public VOID TypedKey<Art>
+---@field public WANDERER TypedKey<Art>
+---@field public WASTELAND TypedKey<Art>
+---@field public WATER TypedKey<Art>
+---@field public WIND TypedKey<Art>
+---@field public WITHER TypedKey<Art>
+---@overload fun(): PaintingVariantKeys 
+local PaintingVariantKeys = {}
+
+---@param key Key 
+---@public
+---@return TypedKey<Art> 
+--- Creates a typed key for Art in the registry minecraft:painting_variant.
+function PaintingVariantKeys:create(key) end
+

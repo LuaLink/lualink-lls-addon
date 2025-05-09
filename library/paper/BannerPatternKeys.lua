@@ -1,0 +1,56 @@
+--- Vanilla keys for RegistryKey#BANNER_PATTERN.
+---@meta
+-- io.papermc.paper.registry.keys.BannerPatternKeys
+---@class BannerPatternKeys
+---@field public BASE TypedKey<PatternType>
+---@field public BORDER TypedKey<PatternType>
+---@field public BRICKS TypedKey<PatternType>
+---@field public CIRCLE TypedKey<PatternType>
+---@field public CREEPER TypedKey<PatternType>
+---@field public CROSS TypedKey<PatternType>
+---@field public CURLY_BORDER TypedKey<PatternType>
+---@field public DIAGONAL_LEFT TypedKey<PatternType>
+---@field public DIAGONAL_RIGHT TypedKey<PatternType>
+---@field public DIAGONAL_UP_LEFT TypedKey<PatternType>
+---@field public DIAGONAL_UP_RIGHT TypedKey<PatternType>
+---@field public FLOW TypedKey<PatternType>
+---@field public FLOWER TypedKey<PatternType>
+---@field public GLOBE TypedKey<PatternType>
+---@field public GRADIENT TypedKey<PatternType>
+---@field public GRADIENT_UP TypedKey<PatternType>
+---@field public GUSTER TypedKey<PatternType>
+---@field public HALF_HORIZONTAL TypedKey<PatternType>
+---@field public HALF_HORIZONTAL_BOTTOM TypedKey<PatternType>
+---@field public HALF_VERTICAL TypedKey<PatternType>
+---@field public HALF_VERTICAL_RIGHT TypedKey<PatternType>
+---@field public MOJANG TypedKey<PatternType>
+---@field public PIGLIN TypedKey<PatternType>
+---@field public RHOMBUS TypedKey<PatternType>
+---@field public SKULL TypedKey<PatternType>
+---@field public SMALL_STRIPES TypedKey<PatternType>
+---@field public SQUARE_BOTTOM_LEFT TypedKey<PatternType>
+---@field public SQUARE_BOTTOM_RIGHT TypedKey<PatternType>
+---@field public SQUARE_TOP_LEFT TypedKey<PatternType>
+---@field public SQUARE_TOP_RIGHT TypedKey<PatternType>
+---@field public STRAIGHT_CROSS TypedKey<PatternType>
+---@field public STRIPE_BOTTOM TypedKey<PatternType>
+---@field public STRIPE_CENTER TypedKey<PatternType>
+---@field public STRIPE_DOWNLEFT TypedKey<PatternType>
+---@field public STRIPE_DOWNRIGHT TypedKey<PatternType>
+---@field public STRIPE_LEFT TypedKey<PatternType>
+---@field public STRIPE_MIDDLE TypedKey<PatternType>
+---@field public STRIPE_RIGHT TypedKey<PatternType>
+---@field public STRIPE_TOP TypedKey<PatternType>
+---@field public TRIANGLE_BOTTOM TypedKey<PatternType>
+---@field public TRIANGLE_TOP TypedKey<PatternType>
+---@field public TRIANGLES_BOTTOM TypedKey<PatternType>
+---@field public TRIANGLES_TOP TypedKey<PatternType>
+---@overload fun(): BannerPatternKeys 
+local BannerPatternKeys = {}
+
+---@param key Key 
+---@public
+---@return TypedKey<PatternType> 
+--- Creates a typed key for PatternType in the registry minecraft:banner_pattern.
+function BannerPatternKeys:create(key) end
+

@@ -1,0 +1,108 @@
+--- Vanilla keys for RegistryKey#DATA_COMPONENT_TYPE.
+---@meta
+-- io.papermc.paper.registry.keys.DataComponentTypeKeys
+---@class DataComponentTypeKeys
+---@field public ATTRIBUTE_MODIFIERS TypedKey<DataComponentType>
+---@field public AXOLOTL_VARIANT TypedKey<DataComponentType>
+---@field public BANNER_PATTERNS TypedKey<DataComponentType>
+---@field public BASE_COLOR TypedKey<DataComponentType>
+---@field public BEES TypedKey<DataComponentType>
+---@field public BLOCK_ENTITY_DATA TypedKey<DataComponentType>
+---@field public BLOCK_STATE TypedKey<DataComponentType>
+---@field public BLOCKS_ATTACKS TypedKey<DataComponentType>
+---@field public BREAK_SOUND TypedKey<DataComponentType>
+---@field public BUCKET_ENTITY_DATA TypedKey<DataComponentType>
+---@field public BUNDLE_CONTENTS TypedKey<DataComponentType>
+---@field public CAN_BREAK TypedKey<DataComponentType>
+---@field public CAN_PLACE_ON TypedKey<DataComponentType>
+---@field public CAT_COLLAR TypedKey<DataComponentType>
+---@field public CAT_VARIANT TypedKey<DataComponentType>
+---@field public CHARGED_PROJECTILES TypedKey<DataComponentType>
+---@field public CHICKEN_VARIANT TypedKey<DataComponentType>
+---@field public CONSUMABLE TypedKey<DataComponentType>
+---@field public CONTAINER TypedKey<DataComponentType>
+---@field public CONTAINER_LOOT TypedKey<DataComponentType>
+---@field public COW_VARIANT TypedKey<DataComponentType>
+---@field public CREATIVE_SLOT_LOCK TypedKey<DataComponentType>
+---@field public CUSTOM_DATA TypedKey<DataComponentType>
+---@field public CUSTOM_MODEL_DATA TypedKey<DataComponentType>
+---@field public CUSTOM_NAME TypedKey<DataComponentType>
+---@field public DAMAGE TypedKey<DataComponentType>
+---@field public DAMAGE_RESISTANT TypedKey<DataComponentType>
+---@field public DEATH_PROTECTION TypedKey<DataComponentType>
+---@field public DEBUG_STICK_STATE TypedKey<DataComponentType>
+---@field public DYED_COLOR TypedKey<DataComponentType>
+---@field public ENCHANTABLE TypedKey<DataComponentType>
+---@field public ENCHANTMENT_GLINT_OVERRIDE TypedKey<DataComponentType>
+---@field public ENCHANTMENTS TypedKey<DataComponentType>
+---@field public ENTITY_DATA TypedKey<DataComponentType>
+---@field public EQUIPPABLE TypedKey<DataComponentType>
+---@field public FIREWORK_EXPLOSION TypedKey<DataComponentType>
+---@field public FIREWORKS TypedKey<DataComponentType>
+---@field public FOOD TypedKey<DataComponentType>
+---@field public FOX_VARIANT TypedKey<DataComponentType>
+---@field public FROG_VARIANT TypedKey<DataComponentType>
+---@field public GLIDER TypedKey<DataComponentType>
+---@field public HORSE_VARIANT TypedKey<DataComponentType>
+---@field public INSTRUMENT TypedKey<DataComponentType>
+---@field public INTANGIBLE_PROJECTILE TypedKey<DataComponentType>
+---@field public ITEM_MODEL TypedKey<DataComponentType>
+---@field public ITEM_NAME TypedKey<DataComponentType>
+---@field public JUKEBOX_PLAYABLE TypedKey<DataComponentType>
+---@field public LLAMA_VARIANT TypedKey<DataComponentType>
+---@field public LOCK TypedKey<DataComponentType>
+---@field public LODESTONE_TRACKER TypedKey<DataComponentType>
+---@field public LORE TypedKey<DataComponentType>
+---@field public MAP_COLOR TypedKey<DataComponentType>
+---@field public MAP_DECORATIONS TypedKey<DataComponentType>
+---@field public MAP_ID TypedKey<DataComponentType>
+---@field public MAP_POST_PROCESSING TypedKey<DataComponentType>
+---@field public MAX_DAMAGE TypedKey<DataComponentType>
+---@field public MAX_STACK_SIZE TypedKey<DataComponentType>
+---@field public MOOSHROOM_VARIANT TypedKey<DataComponentType>
+---@field public NOTE_BLOCK_SOUND TypedKey<DataComponentType>
+---@field public OMINOUS_BOTTLE_AMPLIFIER TypedKey<DataComponentType>
+---@field public PAINTING_VARIANT TypedKey<DataComponentType>
+---@field public PARROT_VARIANT TypedKey<DataComponentType>
+---@field public PIG_VARIANT TypedKey<DataComponentType>
+---@field public POT_DECORATIONS TypedKey<DataComponentType>
+---@field public POTION_CONTENTS TypedKey<DataComponentType>
+---@field public POTION_DURATION_SCALE TypedKey<DataComponentType>
+---@field public PROFILE TypedKey<DataComponentType>
+---@field public PROVIDES_BANNER_PATTERNS TypedKey<DataComponentType>
+---@field public PROVIDES_TRIM_MATERIAL TypedKey<DataComponentType>
+---@field public RABBIT_VARIANT TypedKey<DataComponentType>
+---@field public RARITY TypedKey<DataComponentType>
+---@field public RECIPES TypedKey<DataComponentType>
+---@field public REPAIR_COST TypedKey<DataComponentType>
+---@field public REPAIRABLE TypedKey<DataComponentType>
+---@field public SALMON_SIZE TypedKey<DataComponentType>
+---@field public SHEEP_COLOR TypedKey<DataComponentType>
+---@field public SHULKER_COLOR TypedKey<DataComponentType>
+---@field public STORED_ENCHANTMENTS TypedKey<DataComponentType>
+---@field public SUSPICIOUS_STEW_EFFECTS TypedKey<DataComponentType>
+---@field public TOOL TypedKey<DataComponentType>
+---@field public TOOLTIP_DISPLAY TypedKey<DataComponentType>
+---@field public TOOLTIP_STYLE TypedKey<DataComponentType>
+---@field public TRIM TypedKey<DataComponentType>
+---@field public TROPICAL_FISH_BASE_COLOR TypedKey<DataComponentType>
+---@field public TROPICAL_FISH_PATTERN TypedKey<DataComponentType>
+---@field public TROPICAL_FISH_PATTERN_COLOR TypedKey<DataComponentType>
+---@field public UNBREAKABLE TypedKey<DataComponentType>
+---@field public USE_COOLDOWN TypedKey<DataComponentType>
+---@field public USE_REMAINDER TypedKey<DataComponentType>
+---@field public VILLAGER_VARIANT TypedKey<DataComponentType>
+---@field public WEAPON TypedKey<DataComponentType>
+---@field public WOLF_COLLAR TypedKey<DataComponentType>
+---@field public WOLF_SOUND_VARIANT TypedKey<DataComponentType>
+---@field public WOLF_VARIANT TypedKey<DataComponentType>
+---@field public WRITABLE_BOOK_CONTENT TypedKey<DataComponentType>
+---@field public WRITTEN_BOOK_CONTENT TypedKey<DataComponentType>
+---@overload fun(): DataComponentTypeKeys 
+local DataComponentTypeKeys = {}
+
+---@param key Key 
+---@private
+---@return TypedKey<DataComponentType> 
+function DataComponentTypeKeys:create(key) end
+

@@ -1,0 +1,55 @@
+--- Vanilla keys for RegistryKey#ENCHANTMENT.
+---@meta
+-- io.papermc.paper.registry.keys.EnchantmentKeys
+---@class EnchantmentKeys
+---@field public AQUA_AFFINITY TypedKey<Enchantment>
+---@field public BANE_OF_ARTHROPODS TypedKey<Enchantment>
+---@field public BINDING_CURSE TypedKey<Enchantment>
+---@field public BLAST_PROTECTION TypedKey<Enchantment>
+---@field public BREACH TypedKey<Enchantment>
+---@field public CHANNELING TypedKey<Enchantment>
+---@field public DENSITY TypedKey<Enchantment>
+---@field public DEPTH_STRIDER TypedKey<Enchantment>
+---@field public EFFICIENCY TypedKey<Enchantment>
+---@field public FEATHER_FALLING TypedKey<Enchantment>
+---@field public FIRE_ASPECT TypedKey<Enchantment>
+---@field public FIRE_PROTECTION TypedKey<Enchantment>
+---@field public FLAME TypedKey<Enchantment>
+---@field public FORTUNE TypedKey<Enchantment>
+---@field public FROST_WALKER TypedKey<Enchantment>
+---@field public IMPALING TypedKey<Enchantment>
+---@field public INFINITY TypedKey<Enchantment>
+---@field public KNOCKBACK TypedKey<Enchantment>
+---@field public LOOTING TypedKey<Enchantment>
+---@field public LOYALTY TypedKey<Enchantment>
+---@field public LUCK_OF_THE_SEA TypedKey<Enchantment>
+---@field public LURE TypedKey<Enchantment>
+---@field public MENDING TypedKey<Enchantment>
+---@field public MULTISHOT TypedKey<Enchantment>
+---@field public PIERCING TypedKey<Enchantment>
+---@field public POWER TypedKey<Enchantment>
+---@field public PROJECTILE_PROTECTION TypedKey<Enchantment>
+---@field public PROTECTION TypedKey<Enchantment>
+---@field public PUNCH TypedKey<Enchantment>
+---@field public QUICK_CHARGE TypedKey<Enchantment>
+---@field public RESPIRATION TypedKey<Enchantment>
+---@field public RIPTIDE TypedKey<Enchantment>
+---@field public SHARPNESS TypedKey<Enchantment>
+---@field public SILK_TOUCH TypedKey<Enchantment>
+---@field public SMITE TypedKey<Enchantment>
+---@field public SOUL_SPEED TypedKey<Enchantment>
+---@field public SWEEPING_EDGE TypedKey<Enchantment>
+---@field public SWIFT_SNEAK TypedKey<Enchantment>
+---@field public THORNS TypedKey<Enchantment>
+---@field public UNBREAKING TypedKey<Enchantment>
+---@field public VANISHING_CURSE TypedKey<Enchantment>
+---@field public WIND_BURST TypedKey<Enchantment>
+---@overload fun(): EnchantmentKeys 
+local EnchantmentKeys = {}
+
+---@param key Key 
+---@public
+---@return TypedKey<Enchantment> 
+--- Creates a typed key for Enchantment in the registry minecraft:enchantment.
+function EnchantmentKeys:create(key) end
+

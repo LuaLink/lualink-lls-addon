@@ -1,0 +1,1230 @@
+--- While this API is in a public interface, it is not intended for use by plugins until further notice. The purpose of these types is to make Material more maintenance friendly, but will in due time be the official replacement for the aforementioned enum. Entirely incompatible changes may occur. Do not use this API in plugins.
+---@meta
+-- org.bukkit.block.BlockType
+---@class BlockType: Keyed, Translatable, net.kyori.adventure.translation.Translatable, io.papermc.paper.world.flag.FeatureDependant
+---@field public ACACIA_BUTTON Typed<Switch>
+---@field public ACACIA_DOOR Typed<Door>
+---@field public ACACIA_FENCE Typed<Fence>
+---@field public ACACIA_FENCE_GATE Typed<Gate>
+---@field public ACACIA_HANGING_SIGN Typed<HangingSign>
+---@field public ACACIA_LEAVES Typed<Leaves>
+---@field public ACACIA_LOG Typed<Orientable>
+---@field public ACACIA_PLANKS Typed<BlockData>
+---@field public ACACIA_PRESSURE_PLATE Typed<Powerable>
+---@field public ACACIA_SAPLING Typed<Sapling>
+---@field public ACACIA_SIGN Typed<Sign>
+---@field public ACACIA_SLAB Typed<Slab>
+---@field public ACACIA_STAIRS Typed<Stairs>
+---@field public ACACIA_TRAPDOOR Typed<TrapDoor>
+---@field public ACACIA_WALL_HANGING_SIGN Typed<WallHangingSign>
+---@field public ACACIA_WALL_SIGN Typed<WallSign>
+---@field public ACACIA_WOOD Typed<Orientable>
+---@field public ACTIVATOR_RAIL Typed<RedstoneRail>
+---@field public AIR Typed<BlockData>
+---@field public ALLIUM Typed<BlockData>
+---@field public AMETHYST_BLOCK Typed<BlockData>
+---@field public AMETHYST_CLUSTER Typed<AmethystCluster>
+---@field public ANCIENT_DEBRIS Typed<BlockData>
+---@field public ANDESITE Typed<BlockData>
+---@field public ANDESITE_SLAB Typed<Slab>
+---@field public ANDESITE_STAIRS Typed<Stairs>
+---@field public ANDESITE_WALL Typed<Wall>
+---@field public ANVIL Typed<Directional>
+---@field public ATTACHED_MELON_STEM Typed<Directional>
+---@field public ATTACHED_PUMPKIN_STEM Typed<Directional>
+---@field public AZALEA Typed<BlockData>
+---@field public AZALEA_LEAVES Typed<Leaves>
+---@field public AZURE_BLUET Typed<BlockData>
+---@field public BAMBOO Typed<Bamboo>
+---@field public BAMBOO_BLOCK Typed<Orientable>
+---@field public BAMBOO_BUTTON Typed<Switch>
+---@field public BAMBOO_DOOR Typed<Door>
+---@field public BAMBOO_FENCE Typed<Fence>
+---@field public BAMBOO_FENCE_GATE Typed<Gate>
+---@field public BAMBOO_HANGING_SIGN Typed<HangingSign>
+---@field public BAMBOO_MOSAIC Typed<BlockData>
+---@field public BAMBOO_MOSAIC_SLAB Typed<Slab>
+---@field public BAMBOO_MOSAIC_STAIRS Typed<Stairs>
+---@field public BAMBOO_PLANKS Typed<BlockData>
+---@field public BAMBOO_PRESSURE_PLATE Typed<Powerable>
+---@field public BAMBOO_SAPLING Typed<BlockData>
+---@field public BAMBOO_SIGN Typed<Sign>
+---@field public BAMBOO_SLAB Typed<Slab>
+---@field public BAMBOO_STAIRS Typed<Stairs>
+---@field public BAMBOO_TRAPDOOR Typed<TrapDoor>
+---@field public BAMBOO_WALL_HANGING_SIGN Typed<WallHangingSign>
+---@field public BAMBOO_WALL_SIGN Typed<WallSign>
+---@field public BARREL Typed<Barrel>
+---@field public BARRIER Typed<Waterlogged>
+---@field public BASALT Typed<Orientable>
+---@field public BEACON Typed<BlockData>
+---@field public BEDROCK Typed<BlockData>
+---@field public BEE_NEST Typed<Beehive>
+---@field public BEEHIVE Typed<Beehive>
+---@field public BEETROOTS Typed<Ageable>
+---@field public BELL Typed<Bell>
+---@field public BIG_DRIPLEAF Typed<BigDripleaf>
+---@field public BIG_DRIPLEAF_STEM Typed<Dripleaf>
+---@field public BIRCH_BUTTON Typed<Switch>
+---@field public BIRCH_DOOR Typed<Door>
+---@field public BIRCH_FENCE Typed<Fence>
+---@field public BIRCH_FENCE_GATE Typed<Gate>
+---@field public BIRCH_HANGING_SIGN Typed<HangingSign>
+---@field public BIRCH_LEAVES Typed<Leaves>
+---@field public BIRCH_LOG Typed<Orientable>
+---@field public BIRCH_PLANKS Typed<BlockData>
+---@field public BIRCH_PRESSURE_PLATE Typed<Powerable>
+---@field public BIRCH_SAPLING Typed<Sapling>
+---@field public BIRCH_SIGN Typed<Sign>
+---@field public BIRCH_SLAB Typed<Slab>
+---@field public BIRCH_STAIRS Typed<Stairs>
+---@field public BIRCH_TRAPDOOR Typed<TrapDoor>
+---@field public BIRCH_WALL_HANGING_SIGN Typed<WallHangingSign>
+---@field public BIRCH_WALL_SIGN Typed<WallSign>
+---@field public BIRCH_WOOD Typed<Orientable>
+---@field public BLACK_BANNER Typed<Rotatable>
+---@field public BLACK_BED Typed<Bed>
+---@field public BLACK_CANDLE Typed<Candle>
+---@field public BLACK_CANDLE_CAKE Typed<Lightable>
+---@field public BLACK_CARPET Typed<BlockData>
+---@field public BLACK_CONCRETE Typed<BlockData>
+---@field public BLACK_CONCRETE_POWDER Typed<BlockData>
+---@field public BLACK_GLAZED_TERRACOTTA Typed<Directional>
+---@field public BLACK_SHULKER_BOX Typed<Directional>
+---@field public BLACK_STAINED_GLASS Typed<BlockData>
+---@field public BLACK_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public BLACK_TERRACOTTA Typed<BlockData>
+---@field public BLACK_WALL_BANNER Typed<Directional>
+---@field public BLACK_WOOL Typed<BlockData>
+---@field public BLACKSTONE Typed<BlockData>
+---@field public BLACKSTONE_SLAB Typed<Slab>
+---@field public BLACKSTONE_STAIRS Typed<Stairs>
+---@field public BLACKSTONE_WALL Typed<Wall>
+---@field public BLAST_FURNACE Typed<Furnace>
+---@field public BLUE_BANNER Typed<Rotatable>
+---@field public BLUE_BED Typed<Bed>
+---@field public BLUE_CANDLE Typed<Candle>
+---@field public BLUE_CANDLE_CAKE Typed<Lightable>
+---@field public BLUE_CARPET Typed<BlockData>
+---@field public BLUE_CONCRETE Typed<BlockData>
+---@field public BLUE_CONCRETE_POWDER Typed<BlockData>
+---@field public BLUE_GLAZED_TERRACOTTA Typed<Directional>
+---@field public BLUE_ICE Typed<BlockData>
+---@field public BLUE_ORCHID Typed<BlockData>
+---@field public BLUE_SHULKER_BOX Typed<Directional>
+---@field public BLUE_STAINED_GLASS Typed<BlockData>
+---@field public BLUE_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public BLUE_TERRACOTTA Typed<BlockData>
+---@field public BLUE_WALL_BANNER Typed<Directional>
+---@field public BLUE_WOOL Typed<BlockData>
+---@field public BONE_BLOCK Typed<Orientable>
+---@field public BOOKSHELF Typed<BlockData>
+---@field public BRAIN_CORAL Typed<Waterlogged>
+---@field public BRAIN_CORAL_BLOCK Typed<BlockData>
+---@field public BRAIN_CORAL_FAN Typed<Waterlogged>
+---@field public BRAIN_CORAL_WALL_FAN Typed<CoralWallFan>
+---@field public BREWING_STAND Typed<BrewingStand>
+---@field public BRICK_SLAB Typed<Slab>
+---@field public BRICK_STAIRS Typed<Stairs>
+---@field public BRICK_WALL Typed<Wall>
+---@field public BRICKS Typed<BlockData>
+---@field public BROWN_BANNER Typed<Rotatable>
+---@field public BROWN_BED Typed<Bed>
+---@field public BROWN_CANDLE Typed<Candle>
+---@field public BROWN_CANDLE_CAKE Typed<Lightable>
+---@field public BROWN_CARPET Typed<BlockData>
+---@field public BROWN_CONCRETE Typed<BlockData>
+---@field public BROWN_CONCRETE_POWDER Typed<BlockData>
+---@field public BROWN_GLAZED_TERRACOTTA Typed<Directional>
+---@field public BROWN_MUSHROOM Typed<BlockData>
+---@field public BROWN_MUSHROOM_BLOCK Typed<MultipleFacing>
+---@field public BROWN_SHULKER_BOX Typed<Directional>
+---@field public BROWN_STAINED_GLASS Typed<BlockData>
+---@field public BROWN_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public BROWN_TERRACOTTA Typed<BlockData>
+---@field public BROWN_WALL_BANNER Typed<Directional>
+---@field public BROWN_WOOL Typed<BlockData>
+---@field public BUBBLE_COLUMN Typed<BubbleColumn>
+---@field public BUBBLE_CORAL Typed<Waterlogged>
+---@field public BUBBLE_CORAL_BLOCK Typed<BlockData>
+---@field public BUBBLE_CORAL_FAN Typed<Waterlogged>
+---@field public BUBBLE_CORAL_WALL_FAN Typed<CoralWallFan>
+---@field public BUDDING_AMETHYST Typed<BlockData>
+---@field public BUSH Typed<BlockData>
+---@field public CACTUS Typed<Ageable>
+---@field public CACTUS_FLOWER Typed<BlockData>
+---@field public CAKE Typed<Cake>
+---@field public CALCITE Typed<BlockData>
+---@field public CALIBRATED_SCULK_SENSOR Typed<CalibratedSculkSensor>
+---@field public CAMPFIRE Typed<Campfire>
+---@field public CANDLE Typed<Candle>
+---@field public CANDLE_CAKE Typed<Lightable>
+---@field public CARROTS Typed<Ageable>
+---@field public CARTOGRAPHY_TABLE Typed<BlockData>
+---@field public CARVED_PUMPKIN Typed<Directional>
+---@field public CAULDRON Typed<BlockData>
+---@field public CAVE_AIR Typed<BlockData>
+---@field public CAVE_VINES Typed<CaveVines>
+---@field public CAVE_VINES_PLANT Typed<CaveVinesPlant>
+---@field public CHAIN Typed<Chain>
+---@field public CHAIN_COMMAND_BLOCK Typed<CommandBlock>
+---@field public CHERRY_BUTTON Typed<Switch>
+---@field public CHERRY_DOOR Typed<Door>
+---@field public CHERRY_FENCE Typed<Fence>
+---@field public CHERRY_FENCE_GATE Typed<Gate>
+---@field public CHERRY_HANGING_SIGN Typed<HangingSign>
+---@field public CHERRY_LEAVES Typed<Leaves>
+---@field public CHERRY_LOG Typed<Orientable>
+---@field public CHERRY_PLANKS Typed<BlockData>
+---@field public CHERRY_PRESSURE_PLATE Typed<Powerable>
+---@field public CHERRY_SAPLING Typed<Sapling>
+---@field public CHERRY_SIGN Typed<Sign>
+---@field public CHERRY_SLAB Typed<Slab>
+---@field public CHERRY_STAIRS Typed<Stairs>
+---@field public CHERRY_TRAPDOOR Typed<TrapDoor>
+---@field public CHERRY_WALL_HANGING_SIGN Typed<WallHangingSign>
+---@field public CHERRY_WALL_SIGN Typed<WallSign>
+---@field public CHERRY_WOOD Typed<Orientable>
+---@field public CHEST Typed<Chest>
+---@field public CHIPPED_ANVIL Typed<Directional>
+---@field public CHISELED_BOOKSHELF Typed<ChiseledBookshelf>
+---@field public CHISELED_COPPER Typed<BlockData>
+---@field public CHISELED_DEEPSLATE Typed<BlockData>
+---@field public CHISELED_NETHER_BRICKS Typed<BlockData>
+---@field public CHISELED_POLISHED_BLACKSTONE Typed<BlockData>
+---@field public CHISELED_QUARTZ_BLOCK Typed<BlockData>
+---@field public CHISELED_RED_SANDSTONE Typed<BlockData>
+---@field public CHISELED_RESIN_BRICKS Typed<BlockData>
+---@field public CHISELED_SANDSTONE Typed<BlockData>
+---@field public CHISELED_STONE_BRICKS Typed<BlockData>
+---@field public CHISELED_TUFF Typed<BlockData>
+---@field public CHISELED_TUFF_BRICKS Typed<BlockData>
+---@field public CHORUS_FLOWER Typed<Ageable>
+---@field public CHORUS_PLANT Typed<MultipleFacing>
+---@field public CLAY Typed<BlockData>
+---@field public CLOSED_EYEBLOSSOM Typed<BlockData>
+---@field public COAL_BLOCK Typed<BlockData>
+---@field public COAL_ORE Typed<BlockData>
+---@field public COARSE_DIRT Typed<BlockData>
+---@field public COBBLED_DEEPSLATE Typed<BlockData>
+---@field public COBBLED_DEEPSLATE_SLAB Typed<Slab>
+---@field public COBBLED_DEEPSLATE_STAIRS Typed<Stairs>
+---@field public COBBLED_DEEPSLATE_WALL Typed<Wall>
+---@field public COBBLESTONE Typed<BlockData>
+---@field public COBBLESTONE_SLAB Typed<Slab>
+---@field public COBBLESTONE_STAIRS Typed<Stairs>
+---@field public COBBLESTONE_WALL Typed<Wall>
+---@field public COBWEB Typed<BlockData>
+---@field public COCOA Typed<Cocoa>
+---@field public COMMAND_BLOCK Typed<CommandBlock>
+---@field public COMPARATOR Typed<Comparator>
+---@field public COMPOSTER Typed<Levelled>
+---@field public CONDUIT Typed<Waterlogged>
+---@field public COPPER_BLOCK Typed<BlockData>
+---@field public COPPER_BULB Typed<CopperBulb>
+---@field public COPPER_DOOR Typed<Door>
+---@field public COPPER_GRATE Typed<Waterlogged>
+---@field public COPPER_ORE Typed<BlockData>
+---@field public COPPER_TRAPDOOR Typed<TrapDoor>
+---@field public CORNFLOWER Typed<BlockData>
+---@field public CRACKED_DEEPSLATE_BRICKS Typed<BlockData>
+---@field public CRACKED_DEEPSLATE_TILES Typed<BlockData>
+---@field public CRACKED_NETHER_BRICKS Typed<BlockData>
+---@field public CRACKED_POLISHED_BLACKSTONE_BRICKS Typed<BlockData>
+---@field public CRACKED_STONE_BRICKS Typed<BlockData>
+---@field public CRAFTER Typed<Crafter>
+---@field public CRAFTING_TABLE Typed<BlockData>
+---@field public CREAKING_HEART Typed<CreakingHeart>
+---@field public CREEPER_HEAD Typed<Skull>
+---@field public CREEPER_WALL_HEAD Typed<WallSkull>
+---@field public CRIMSON_BUTTON Typed<Switch>
+---@field public CRIMSON_DOOR Typed<Door>
+---@field public CRIMSON_FENCE Typed<Fence>
+---@field public CRIMSON_FENCE_GATE Typed<Gate>
+---@field public CRIMSON_FUNGUS Typed<BlockData>
+---@field public CRIMSON_HANGING_SIGN Typed<HangingSign>
+---@field public CRIMSON_HYPHAE Typed<Orientable>
+---@field public CRIMSON_NYLIUM Typed<BlockData>
+---@field public CRIMSON_PLANKS Typed<BlockData>
+---@field public CRIMSON_PRESSURE_PLATE Typed<Powerable>
+---@field public CRIMSON_ROOTS Typed<BlockData>
+---@field public CRIMSON_SIGN Typed<Sign>
+---@field public CRIMSON_SLAB Typed<Slab>
+---@field public CRIMSON_STAIRS Typed<Stairs>
+---@field public CRIMSON_STEM Typed<Orientable>
+---@field public CRIMSON_TRAPDOOR Typed<TrapDoor>
+---@field public CRIMSON_WALL_HANGING_SIGN Typed<WallHangingSign>
+---@field public CRIMSON_WALL_SIGN Typed<WallSign>
+---@field public CRYING_OBSIDIAN Typed<BlockData>
+---@field public CUT_COPPER Typed<BlockData>
+---@field public CUT_COPPER_SLAB Typed<Slab>
+---@field public CUT_COPPER_STAIRS Typed<Stairs>
+---@field public CUT_RED_SANDSTONE Typed<BlockData>
+---@field public CUT_RED_SANDSTONE_SLAB Typed<Slab>
+---@field public CUT_SANDSTONE Typed<BlockData>
+---@field public CUT_SANDSTONE_SLAB Typed<Slab>
+---@field public CYAN_BANNER Typed<Rotatable>
+---@field public CYAN_BED Typed<Bed>
+---@field public CYAN_CANDLE Typed<Candle>
+---@field public CYAN_CANDLE_CAKE Typed<Lightable>
+---@field public CYAN_CARPET Typed<BlockData>
+---@field public CYAN_CONCRETE Typed<BlockData>
+---@field public CYAN_CONCRETE_POWDER Typed<BlockData>
+---@field public CYAN_GLAZED_TERRACOTTA Typed<Directional>
+---@field public CYAN_SHULKER_BOX Typed<Directional>
+---@field public CYAN_STAINED_GLASS Typed<BlockData>
+---@field public CYAN_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public CYAN_TERRACOTTA Typed<BlockData>
+---@field public CYAN_WALL_BANNER Typed<Directional>
+---@field public CYAN_WOOL Typed<BlockData>
+---@field public DAMAGED_ANVIL Typed<Directional>
+---@field public DANDELION Typed<BlockData>
+---@field public DARK_OAK_BUTTON Typed<Switch>
+---@field public DARK_OAK_DOOR Typed<Door>
+---@field public DARK_OAK_FENCE Typed<Fence>
+---@field public DARK_OAK_FENCE_GATE Typed<Gate>
+---@field public DARK_OAK_HANGING_SIGN Typed<HangingSign>
+---@field public DARK_OAK_LEAVES Typed<Leaves>
+---@field public DARK_OAK_LOG Typed<Orientable>
+---@field public DARK_OAK_PLANKS Typed<BlockData>
+---@field public DARK_OAK_PRESSURE_PLATE Typed<Powerable>
+---@field public DARK_OAK_SAPLING Typed<Sapling>
+---@field public DARK_OAK_SIGN Typed<Sign>
+---@field public DARK_OAK_SLAB Typed<Slab>
+---@field public DARK_OAK_STAIRS Typed<Stairs>
+---@field public DARK_OAK_TRAPDOOR Typed<TrapDoor>
+---@field public DARK_OAK_WALL_HANGING_SIGN Typed<WallHangingSign>
+---@field public DARK_OAK_WALL_SIGN Typed<WallSign>
+---@field public DARK_OAK_WOOD Typed<Orientable>
+---@field public DARK_PRISMARINE Typed<BlockData>
+---@field public DARK_PRISMARINE_SLAB Typed<Slab>
+---@field public DARK_PRISMARINE_STAIRS Typed<Stairs>
+---@field public DAYLIGHT_DETECTOR Typed<DaylightDetector>
+---@field public DEAD_BRAIN_CORAL Typed<Waterlogged>
+---@field public DEAD_BRAIN_CORAL_BLOCK Typed<BlockData>
+---@field public DEAD_BRAIN_CORAL_FAN Typed<Waterlogged>
+---@field public DEAD_BRAIN_CORAL_WALL_FAN Typed<CoralWallFan>
+---@field public DEAD_BUBBLE_CORAL Typed<Waterlogged>
+---@field public DEAD_BUBBLE_CORAL_BLOCK Typed<BlockData>
+---@field public DEAD_BUBBLE_CORAL_FAN Typed<Waterlogged>
+---@field public DEAD_BUBBLE_CORAL_WALL_FAN Typed<CoralWallFan>
+---@field public DEAD_BUSH Typed<BlockData>
+---@field public DEAD_FIRE_CORAL Typed<Waterlogged>
+---@field public DEAD_FIRE_CORAL_BLOCK Typed<BlockData>
+---@field public DEAD_FIRE_CORAL_FAN Typed<Waterlogged>
+---@field public DEAD_FIRE_CORAL_WALL_FAN Typed<CoralWallFan>
+---@field public DEAD_HORN_CORAL Typed<Waterlogged>
+---@field public DEAD_HORN_CORAL_BLOCK Typed<BlockData>
+---@field public DEAD_HORN_CORAL_FAN Typed<Waterlogged>
+---@field public DEAD_HORN_CORAL_WALL_FAN Typed<CoralWallFan>
+---@field public DEAD_TUBE_CORAL Typed<Waterlogged>
+---@field public DEAD_TUBE_CORAL_BLOCK Typed<BlockData>
+---@field public DEAD_TUBE_CORAL_FAN Typed<Waterlogged>
+---@field public DEAD_TUBE_CORAL_WALL_FAN Typed<CoralWallFan>
+---@field public DECORATED_POT Typed<DecoratedPot>
+---@field public DEEPSLATE Typed<Orientable>
+---@field public DEEPSLATE_BRICK_SLAB Typed<Slab>
+---@field public DEEPSLATE_BRICK_STAIRS Typed<Stairs>
+---@field public DEEPSLATE_BRICK_WALL Typed<Wall>
+---@field public DEEPSLATE_BRICKS Typed<BlockData>
+---@field public DEEPSLATE_COAL_ORE Typed<BlockData>
+---@field public DEEPSLATE_COPPER_ORE Typed<BlockData>
+---@field public DEEPSLATE_DIAMOND_ORE Typed<BlockData>
+---@field public DEEPSLATE_EMERALD_ORE Typed<BlockData>
+---@field public DEEPSLATE_GOLD_ORE Typed<BlockData>
+---@field public DEEPSLATE_IRON_ORE Typed<BlockData>
+---@field public DEEPSLATE_LAPIS_ORE Typed<BlockData>
+---@field public DEEPSLATE_REDSTONE_ORE Typed<Lightable>
+---@field public DEEPSLATE_TILE_SLAB Typed<Slab>
+---@field public DEEPSLATE_TILE_STAIRS Typed<Stairs>
+---@field public DEEPSLATE_TILE_WALL Typed<Wall>
+---@field public DEEPSLATE_TILES Typed<BlockData>
+---@field public DETECTOR_RAIL Typed<RedstoneRail>
+---@field public DIAMOND_BLOCK Typed<BlockData>
+---@field public DIAMOND_ORE Typed<BlockData>
+---@field public DIORITE Typed<BlockData>
+---@field public DIORITE_SLAB Typed<Slab>
+---@field public DIORITE_STAIRS Typed<Stairs>
+---@field public DIORITE_WALL Typed<Wall>
+---@field public DIRT Typed<BlockData>
+---@field public DIRT_PATH Typed<BlockData>
+---@field public DISPENSER Typed<Dispenser>
+---@field public DRAGON_EGG Typed<BlockData>
+---@field public DRAGON_HEAD Typed<Skull>
+---@field public DRAGON_WALL_HEAD Typed<WallSkull>
+---@field public DRIED_KELP_BLOCK Typed<BlockData>
+---@field public DRIPSTONE_BLOCK Typed<BlockData>
+---@field public DROPPER Typed<Dispenser>
+---@field public EMERALD_BLOCK Typed<BlockData>
+---@field public EMERALD_ORE Typed<BlockData>
+---@field public ENCHANTING_TABLE Typed<BlockData>
+---@field public END_GATEWAY Typed<BlockData>
+---@field public END_PORTAL Typed<BlockData>
+---@field public END_PORTAL_FRAME Typed<EndPortalFrame>
+---@field public END_ROD Typed<Directional>
+---@field public END_STONE Typed<BlockData>
+---@field public END_STONE_BRICK_SLAB Typed<Slab>
+---@field public END_STONE_BRICK_STAIRS Typed<Stairs>
+---@field public END_STONE_BRICK_WALL Typed<Wall>
+---@field public END_STONE_BRICKS Typed<BlockData>
+---@field public ENDER_CHEST Typed<EnderChest>
+---@field public EXPOSED_CHISELED_COPPER Typed<BlockData>
+---@field public EXPOSED_COPPER Typed<BlockData>
+---@field public EXPOSED_COPPER_BULB Typed<CopperBulb>
+---@field public EXPOSED_COPPER_DOOR Typed<Door>
+---@field public EXPOSED_COPPER_GRATE Typed<Waterlogged>
+---@field public EXPOSED_COPPER_TRAPDOOR Typed<TrapDoor>
+---@field public EXPOSED_CUT_COPPER Typed<BlockData>
+---@field public EXPOSED_CUT_COPPER_SLAB Typed<Slab>
+---@field public EXPOSED_CUT_COPPER_STAIRS Typed<Stairs>
+---@field public FARMLAND Typed<Farmland>
+---@field public FERN Typed<BlockData>
+---@field public FIRE Typed<Fire>
+---@field public FIRE_CORAL Typed<Waterlogged>
+---@field public FIRE_CORAL_BLOCK Typed<BlockData>
+---@field public FIRE_CORAL_FAN Typed<Waterlogged>
+---@field public FIRE_CORAL_WALL_FAN Typed<CoralWallFan>
+---@field public FIREFLY_BUSH Typed<BlockData>
+---@field public FLETCHING_TABLE Typed<BlockData>
+---@field public FLOWER_POT Typed<BlockData>
+---@field public FLOWERING_AZALEA Typed<BlockData>
+---@field public FLOWERING_AZALEA_LEAVES Typed<Leaves>
+---@field public FROGSPAWN Typed<BlockData>
+---@field public FROSTED_ICE Typed<Ageable>
+---@field public FURNACE Typed<Furnace>
+---@field public GILDED_BLACKSTONE Typed<BlockData>
+---@field public GLASS Typed<BlockData>
+---@field public GLASS_PANE Typed<Fence>
+---@field public GLOW_LICHEN Typed<GlowLichen>
+---@field public GLOWSTONE Typed<BlockData>
+---@field public GOLD_BLOCK Typed<BlockData>
+---@field public GOLD_ORE Typed<BlockData>
+---@field public GRANITE Typed<BlockData>
+---@field public GRANITE_SLAB Typed<Slab>
+---@field public GRANITE_STAIRS Typed<Stairs>
+---@field public GRANITE_WALL Typed<Wall>
+---@field public GRASS_BLOCK Typed<Snowable>
+---@field public GRAVEL Typed<BlockData>
+---@field public GRAY_BANNER Typed<Rotatable>
+---@field public GRAY_BED Typed<Bed>
+---@field public GRAY_CANDLE Typed<Candle>
+---@field public GRAY_CANDLE_CAKE Typed<Lightable>
+---@field public GRAY_CARPET Typed<BlockData>
+---@field public GRAY_CONCRETE Typed<BlockData>
+---@field public GRAY_CONCRETE_POWDER Typed<BlockData>
+---@field public GRAY_GLAZED_TERRACOTTA Typed<Directional>
+---@field public GRAY_SHULKER_BOX Typed<Directional>
+---@field public GRAY_STAINED_GLASS Typed<BlockData>
+---@field public GRAY_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public GRAY_TERRACOTTA Typed<BlockData>
+---@field public GRAY_WALL_BANNER Typed<Directional>
+---@field public GRAY_WOOL Typed<BlockData>
+---@field public GREEN_BANNER Typed<Rotatable>
+---@field public GREEN_BED Typed<Bed>
+---@field public GREEN_CANDLE Typed<Candle>
+---@field public GREEN_CANDLE_CAKE Typed<Lightable>
+---@field public GREEN_CARPET Typed<BlockData>
+---@field public GREEN_CONCRETE Typed<BlockData>
+---@field public GREEN_CONCRETE_POWDER Typed<BlockData>
+---@field public GREEN_GLAZED_TERRACOTTA Typed<Directional>
+---@field public GREEN_SHULKER_BOX Typed<Directional>
+---@field public GREEN_STAINED_GLASS Typed<BlockData>
+---@field public GREEN_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public GREEN_TERRACOTTA Typed<BlockData>
+---@field public GREEN_WALL_BANNER Typed<Directional>
+---@field public GREEN_WOOL Typed<BlockData>
+---@field public GRINDSTONE Typed<Grindstone>
+---@field public HANGING_ROOTS Typed<Waterlogged>
+---@field public HAY_BLOCK Typed<Orientable>
+---@field public HEAVY_CORE Typed<Waterlogged>
+---@field public HEAVY_WEIGHTED_PRESSURE_PLATE Typed<AnaloguePowerable>
+---@field public HONEY_BLOCK Typed<BlockData>
+---@field public HONEYCOMB_BLOCK Typed<BlockData>
+---@field public HOPPER Typed<Hopper>
+---@field public HORN_CORAL Typed<Waterlogged>
+---@field public HORN_CORAL_BLOCK Typed<BlockData>
+---@field public HORN_CORAL_FAN Typed<Waterlogged>
+---@field public HORN_CORAL_WALL_FAN Typed<CoralWallFan>
+---@field public ICE Typed<BlockData>
+---@field public INFESTED_CHISELED_STONE_BRICKS Typed<BlockData>
+---@field public INFESTED_COBBLESTONE Typed<BlockData>
+---@field public INFESTED_CRACKED_STONE_BRICKS Typed<BlockData>
+---@field public INFESTED_DEEPSLATE Typed<Orientable>
+---@field public INFESTED_MOSSY_STONE_BRICKS Typed<BlockData>
+---@field public INFESTED_STONE Typed<BlockData>
+---@field public INFESTED_STONE_BRICKS Typed<BlockData>
+---@field public IRON_BARS Typed<Fence>
+---@field public IRON_BLOCK Typed<BlockData>
+---@field public IRON_DOOR Typed<Door>
+---@field public IRON_ORE Typed<BlockData>
+---@field public IRON_TRAPDOOR Typed<TrapDoor>
+---@field public JACK_O_LANTERN Typed<Directional>
+---@field public JIGSAW Typed<Jigsaw>
+---@field public JUKEBOX Typed<Jukebox>
+---@field public JUNGLE_BUTTON Typed<Switch>
+---@field public JUNGLE_DOOR Typed<Door>
+---@field public JUNGLE_FENCE Typed<Fence>
+---@field public JUNGLE_FENCE_GATE Typed<Gate>
+---@field public JUNGLE_HANGING_SIGN Typed<HangingSign>
+---@field public JUNGLE_LEAVES Typed<Leaves>
+---@field public JUNGLE_LOG Typed<Orientable>
+---@field public JUNGLE_PLANKS Typed<BlockData>
+---@field public JUNGLE_PRESSURE_PLATE Typed<Powerable>
+---@field public JUNGLE_SAPLING Typed<Sapling>
+---@field public JUNGLE_SIGN Typed<Sign>
+---@field public JUNGLE_SLAB Typed<Slab>
+---@field public JUNGLE_STAIRS Typed<Stairs>
+---@field public JUNGLE_TRAPDOOR Typed<TrapDoor>
+---@field public JUNGLE_WALL_HANGING_SIGN Typed<WallHangingSign>
+---@field public JUNGLE_WALL_SIGN Typed<WallSign>
+---@field public JUNGLE_WOOD Typed<Orientable>
+---@field public KELP Typed<Ageable>
+---@field public KELP_PLANT Typed<BlockData>
+---@field public LADDER Typed<Ladder>
+---@field public LANTERN Typed<Lantern>
+---@field public LAPIS_BLOCK Typed<BlockData>
+---@field public LAPIS_ORE Typed<BlockData>
+---@field public LARGE_AMETHYST_BUD Typed<AmethystCluster>
+---@field public LARGE_FERN Typed<Bisected>
+---@field public LAVA Typed<Levelled>
+---@field public LAVA_CAULDRON Typed<BlockData>
+---@field public LEAF_LITTER Typed<LeafLitter>
+---@field public LECTERN Typed<Lectern>
+---@field public LEVER Typed<Switch>
+---@field public LIGHT Typed<Light>
+---@field public LIGHT_BLUE_BANNER Typed<Rotatable>
+---@field public LIGHT_BLUE_BED Typed<Bed>
+---@field public LIGHT_BLUE_CANDLE Typed<Candle>
+---@field public LIGHT_BLUE_CANDLE_CAKE Typed<Lightable>
+---@field public LIGHT_BLUE_CARPET Typed<BlockData>
+---@field public LIGHT_BLUE_CONCRETE Typed<BlockData>
+---@field public LIGHT_BLUE_CONCRETE_POWDER Typed<BlockData>
+---@field public LIGHT_BLUE_GLAZED_TERRACOTTA Typed<Directional>
+---@field public LIGHT_BLUE_SHULKER_BOX Typed<Directional>
+---@field public LIGHT_BLUE_STAINED_GLASS Typed<BlockData>
+---@field public LIGHT_BLUE_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public LIGHT_BLUE_TERRACOTTA Typed<BlockData>
+---@field public LIGHT_BLUE_WALL_BANNER Typed<Directional>
+---@field public LIGHT_BLUE_WOOL Typed<BlockData>
+---@field public LIGHT_GRAY_BANNER Typed<Rotatable>
+---@field public LIGHT_GRAY_BED Typed<Bed>
+---@field public LIGHT_GRAY_CANDLE Typed<Candle>
+---@field public LIGHT_GRAY_CANDLE_CAKE Typed<Lightable>
+---@field public LIGHT_GRAY_CARPET Typed<BlockData>
+---@field public LIGHT_GRAY_CONCRETE Typed<BlockData>
+---@field public LIGHT_GRAY_CONCRETE_POWDER Typed<BlockData>
+---@field public LIGHT_GRAY_GLAZED_TERRACOTTA Typed<Directional>
+---@field public LIGHT_GRAY_SHULKER_BOX Typed<Directional>
+---@field public LIGHT_GRAY_STAINED_GLASS Typed<BlockData>
+---@field public LIGHT_GRAY_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public LIGHT_GRAY_TERRACOTTA Typed<BlockData>
+---@field public LIGHT_GRAY_WALL_BANNER Typed<Directional>
+---@field public LIGHT_GRAY_WOOL Typed<BlockData>
+---@field public LIGHT_WEIGHTED_PRESSURE_PLATE Typed<AnaloguePowerable>
+---@field public LIGHTNING_ROD Typed<LightningRod>
+---@field public LILAC Typed<Bisected>
+---@field public LILY_OF_THE_VALLEY Typed<BlockData>
+---@field public LILY_PAD Typed<BlockData>
+---@field public LIME_BANNER Typed<Rotatable>
+---@field public LIME_BED Typed<Bed>
+---@field public LIME_CANDLE Typed<Candle>
+---@field public LIME_CANDLE_CAKE Typed<Lightable>
+---@field public LIME_CARPET Typed<BlockData>
+---@field public LIME_CONCRETE Typed<BlockData>
+---@field public LIME_CONCRETE_POWDER Typed<BlockData>
+---@field public LIME_GLAZED_TERRACOTTA Typed<Directional>
+---@field public LIME_SHULKER_BOX Typed<Directional>
+---@field public LIME_STAINED_GLASS Typed<BlockData>
+---@field public LIME_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public LIME_TERRACOTTA Typed<BlockData>
+---@field public LIME_WALL_BANNER Typed<Directional>
+---@field public LIME_WOOL Typed<BlockData>
+---@field public LODESTONE Typed<BlockData>
+---@field public LOOM Typed<Directional>
+---@field public MAGENTA_BANNER Typed<Rotatable>
+---@field public MAGENTA_BED Typed<Bed>
+---@field public MAGENTA_CANDLE Typed<Candle>
+---@field public MAGENTA_CANDLE_CAKE Typed<Lightable>
+---@field public MAGENTA_CARPET Typed<BlockData>
+---@field public MAGENTA_CONCRETE Typed<BlockData>
+---@field public MAGENTA_CONCRETE_POWDER Typed<BlockData>
+---@field public MAGENTA_GLAZED_TERRACOTTA Typed<Directional>
+---@field public MAGENTA_SHULKER_BOX Typed<Directional>
+---@field public MAGENTA_STAINED_GLASS Typed<BlockData>
+---@field public MAGENTA_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public MAGENTA_TERRACOTTA Typed<BlockData>
+---@field public MAGENTA_WALL_BANNER Typed<Directional>
+---@field public MAGENTA_WOOL Typed<BlockData>
+---@field public MAGMA_BLOCK Typed<BlockData>
+---@field public MANGROVE_BUTTON Typed<Switch>
+---@field public MANGROVE_DOOR Typed<Door>
+---@field public MANGROVE_FENCE Typed<Fence>
+---@field public MANGROVE_FENCE_GATE Typed<Gate>
+---@field public MANGROVE_HANGING_SIGN Typed<HangingSign>
+---@field public MANGROVE_LEAVES Typed<Leaves>
+---@field public MANGROVE_LOG Typed<Orientable>
+---@field public MANGROVE_PLANKS Typed<BlockData>
+---@field public MANGROVE_PRESSURE_PLATE Typed<Powerable>
+---@field public MANGROVE_PROPAGULE Typed<MangrovePropagule>
+---@field public MANGROVE_ROOTS Typed<Waterlogged>
+---@field public MANGROVE_SIGN Typed<Sign>
+---@field public MANGROVE_SLAB Typed<Slab>
+---@field public MANGROVE_STAIRS Typed<Stairs>
+---@field public MANGROVE_TRAPDOOR Typed<TrapDoor>
+---@field public MANGROVE_WALL_HANGING_SIGN Typed<WallHangingSign>
+---@field public MANGROVE_WALL_SIGN Typed<WallSign>
+---@field public MANGROVE_WOOD Typed<Orientable>
+---@field public MEDIUM_AMETHYST_BUD Typed<AmethystCluster>
+---@field public MELON Typed<BlockData>
+---@field public MELON_STEM Typed<Ageable>
+---@field public MOSS_BLOCK Typed<BlockData>
+---@field public MOSS_CARPET Typed<BlockData>
+---@field public MOSSY_COBBLESTONE Typed<BlockData>
+---@field public MOSSY_COBBLESTONE_SLAB Typed<Slab>
+---@field public MOSSY_COBBLESTONE_STAIRS Typed<Stairs>
+---@field public MOSSY_COBBLESTONE_WALL Typed<Wall>
+---@field public MOSSY_STONE_BRICK_SLAB Typed<Slab>
+---@field public MOSSY_STONE_BRICK_STAIRS Typed<Stairs>
+---@field public MOSSY_STONE_BRICK_WALL Typed<Wall>
+---@field public MOSSY_STONE_BRICKS Typed<BlockData>
+---@field public MOVING_PISTON Typed<TechnicalPiston>
+---@field public MUD Typed<BlockData>
+---@field public MUD_BRICK_SLAB Typed<Slab>
+---@field public MUD_BRICK_STAIRS Typed<Stairs>
+---@field public MUD_BRICK_WALL Typed<Wall>
+---@field public MUD_BRICKS Typed<BlockData>
+---@field public MUDDY_MANGROVE_ROOTS Typed<Orientable>
+---@field public MUSHROOM_STEM Typed<MultipleFacing>
+---@field public MYCELIUM Typed<Snowable>
+---@field public NETHER_BRICK_FENCE Typed<Fence>
+---@field public NETHER_BRICK_SLAB Typed<Slab>
+---@field public NETHER_BRICK_STAIRS Typed<Stairs>
+---@field public NETHER_BRICK_WALL Typed<Wall>
+---@field public NETHER_BRICKS Typed<BlockData>
+---@field public NETHER_GOLD_ORE Typed<BlockData>
+---@field public NETHER_PORTAL Typed<Orientable>
+---@field public NETHER_QUARTZ_ORE Typed<BlockData>
+---@field public NETHER_SPROUTS Typed<BlockData>
+---@field public NETHER_WART Typed<Ageable>
+---@field public NETHER_WART_BLOCK Typed<BlockData>
+---@field public NETHERITE_BLOCK Typed<BlockData>
+---@field public NETHERRACK Typed<BlockData>
+---@field public NOTE_BLOCK Typed<NoteBlock>
+---@field public OAK_BUTTON Typed<Switch>
+---@field public OAK_DOOR Typed<Door>
+---@field public OAK_FENCE Typed<Fence>
+---@field public OAK_FENCE_GATE Typed<Gate>
+---@field public OAK_HANGING_SIGN Typed<HangingSign>
+---@field public OAK_LEAVES Typed<Leaves>
+---@field public OAK_LOG Typed<Orientable>
+---@field public OAK_PLANKS Typed<BlockData>
+---@field public OAK_PRESSURE_PLATE Typed<Powerable>
+---@field public OAK_SAPLING Typed<Sapling>
+---@field public OAK_SIGN Typed<Sign>
+---@field public OAK_SLAB Typed<Slab>
+---@field public OAK_STAIRS Typed<Stairs>
+---@field public OAK_TRAPDOOR Typed<TrapDoor>
+---@field public OAK_WALL_HANGING_SIGN Typed<WallHangingSign>
+---@field public OAK_WALL_SIGN Typed<WallSign>
+---@field public OAK_WOOD Typed<Orientable>
+---@field public OBSERVER Typed<Observer>
+---@field public OBSIDIAN Typed<BlockData>
+---@field public OCHRE_FROGLIGHT Typed<Orientable>
+---@field public OPEN_EYEBLOSSOM Typed<BlockData>
+---@field public ORANGE_BANNER Typed<Rotatable>
+---@field public ORANGE_BED Typed<Bed>
+---@field public ORANGE_CANDLE Typed<Candle>
+---@field public ORANGE_CANDLE_CAKE Typed<Lightable>
+---@field public ORANGE_CARPET Typed<BlockData>
+---@field public ORANGE_CONCRETE Typed<BlockData>
+---@field public ORANGE_CONCRETE_POWDER Typed<BlockData>
+---@field public ORANGE_GLAZED_TERRACOTTA Typed<Directional>
+---@field public ORANGE_SHULKER_BOX Typed<Directional>
+---@field public ORANGE_STAINED_GLASS Typed<BlockData>
+---@field public ORANGE_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public ORANGE_TERRACOTTA Typed<BlockData>
+---@field public ORANGE_TULIP Typed<BlockData>
+---@field public ORANGE_WALL_BANNER Typed<Directional>
+---@field public ORANGE_WOOL Typed<BlockData>
+---@field public OXEYE_DAISY Typed<BlockData>
+---@field public OXIDIZED_CHISELED_COPPER Typed<BlockData>
+---@field public OXIDIZED_COPPER Typed<BlockData>
+---@field public OXIDIZED_COPPER_BULB Typed<CopperBulb>
+---@field public OXIDIZED_COPPER_DOOR Typed<Door>
+---@field public OXIDIZED_COPPER_GRATE Typed<Waterlogged>
+---@field public OXIDIZED_COPPER_TRAPDOOR Typed<TrapDoor>
+---@field public OXIDIZED_CUT_COPPER Typed<BlockData>
+---@field public OXIDIZED_CUT_COPPER_SLAB Typed<Slab>
+---@field public OXIDIZED_CUT_COPPER_STAIRS Typed<Stairs>
+---@field public PACKED_ICE Typed<BlockData>
+---@field public PACKED_MUD Typed<BlockData>
+---@field public PALE_HANGING_MOSS Typed<HangingMoss>
+---@field public PALE_MOSS_BLOCK Typed<BlockData>
+---@field public PALE_MOSS_CARPET Typed<MossyCarpet>
+---@field public PALE_OAK_BUTTON Typed<Switch>
+---@field public PALE_OAK_DOOR Typed<Door>
+---@field public PALE_OAK_FENCE Typed<Fence>
+---@field public PALE_OAK_FENCE_GATE Typed<Gate>
+---@field public PALE_OAK_HANGING_SIGN Typed<HangingSign>
+---@field public PALE_OAK_LEAVES Typed<Leaves>
+---@field public PALE_OAK_LOG Typed<Orientable>
+---@field public PALE_OAK_PLANKS Typed<BlockData>
+---@field public PALE_OAK_PRESSURE_PLATE Typed<Powerable>
+---@field public PALE_OAK_SAPLING Typed<Sapling>
+---@field public PALE_OAK_SIGN Typed<Sign>
+---@field public PALE_OAK_SLAB Typed<Slab>
+---@field public PALE_OAK_STAIRS Typed<Stairs>
+---@field public PALE_OAK_TRAPDOOR Typed<TrapDoor>
+---@field public PALE_OAK_WALL_HANGING_SIGN Typed<WallHangingSign>
+---@field public PALE_OAK_WALL_SIGN Typed<WallSign>
+---@field public PALE_OAK_WOOD Typed<Orientable>
+---@field public PEARLESCENT_FROGLIGHT Typed<Orientable>
+---@field public PEONY Typed<Bisected>
+---@field public PETRIFIED_OAK_SLAB Typed<Slab>
+---@field public PIGLIN_HEAD Typed<Skull>
+---@field public PIGLIN_WALL_HEAD Typed<WallSkull>
+---@field public PINK_BANNER Typed<Rotatable>
+---@field public PINK_BED Typed<Bed>
+---@field public PINK_CANDLE Typed<Candle>
+---@field public PINK_CANDLE_CAKE Typed<Lightable>
+---@field public PINK_CARPET Typed<BlockData>
+---@field public PINK_CONCRETE Typed<BlockData>
+---@field public PINK_CONCRETE_POWDER Typed<BlockData>
+---@field public PINK_GLAZED_TERRACOTTA Typed<Directional>
+---@field public PINK_PETALS Typed<FlowerBed>
+---@field public PINK_SHULKER_BOX Typed<Directional>
+---@field public PINK_STAINED_GLASS Typed<BlockData>
+---@field public PINK_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public PINK_TERRACOTTA Typed<BlockData>
+---@field public PINK_TULIP Typed<BlockData>
+---@field public PINK_WALL_BANNER Typed<Directional>
+---@field public PINK_WOOL Typed<BlockData>
+---@field public PISTON Typed<Piston>
+---@field public PISTON_HEAD Typed<PistonHead>
+---@field public PITCHER_CROP Typed<PitcherCrop>
+---@field public PITCHER_PLANT Typed<Bisected>
+---@field public PLAYER_HEAD Typed<Skull>
+---@field public PLAYER_WALL_HEAD Typed<WallSkull>
+---@field public PODZOL Typed<Snowable>
+---@field public POINTED_DRIPSTONE Typed<PointedDripstone>
+---@field public POLISHED_ANDESITE Typed<BlockData>
+---@field public POLISHED_ANDESITE_SLAB Typed<Slab>
+---@field public POLISHED_ANDESITE_STAIRS Typed<Stairs>
+---@field public POLISHED_BASALT Typed<Orientable>
+---@field public POLISHED_BLACKSTONE Typed<BlockData>
+---@field public POLISHED_BLACKSTONE_BRICK_SLAB Typed<Slab>
+---@field public POLISHED_BLACKSTONE_BRICK_STAIRS Typed<Stairs>
+---@field public POLISHED_BLACKSTONE_BRICK_WALL Typed<Wall>
+---@field public POLISHED_BLACKSTONE_BRICKS Typed<BlockData>
+---@field public POLISHED_BLACKSTONE_BUTTON Typed<Switch>
+---@field public POLISHED_BLACKSTONE_PRESSURE_PLATE Typed<Powerable>
+---@field public POLISHED_BLACKSTONE_SLAB Typed<Slab>
+---@field public POLISHED_BLACKSTONE_STAIRS Typed<Stairs>
+---@field public POLISHED_BLACKSTONE_WALL Typed<Wall>
+---@field public POLISHED_DEEPSLATE Typed<BlockData>
+---@field public POLISHED_DEEPSLATE_SLAB Typed<Slab>
+---@field public POLISHED_DEEPSLATE_STAIRS Typed<Stairs>
+---@field public POLISHED_DEEPSLATE_WALL Typed<Wall>
+---@field public POLISHED_DIORITE Typed<BlockData>
+---@field public POLISHED_DIORITE_SLAB Typed<Slab>
+---@field public POLISHED_DIORITE_STAIRS Typed<Stairs>
+---@field public POLISHED_GRANITE Typed<BlockData>
+---@field public POLISHED_GRANITE_SLAB Typed<Slab>
+---@field public POLISHED_GRANITE_STAIRS Typed<Stairs>
+---@field public POLISHED_TUFF Typed<BlockData>
+---@field public POLISHED_TUFF_SLAB Typed<Slab>
+---@field public POLISHED_TUFF_STAIRS Typed<Stairs>
+---@field public POLISHED_TUFF_WALL Typed<Wall>
+---@field public POPPY Typed<BlockData>
+---@field public POTATOES Typed<Ageable>
+---@field public POTTED_ACACIA_SAPLING Typed<BlockData>
+---@field public POTTED_ALLIUM Typed<BlockData>
+---@field public POTTED_AZALEA_BUSH Typed<BlockData>
+---@field public POTTED_AZURE_BLUET Typed<BlockData>
+---@field public POTTED_BAMBOO Typed<BlockData>
+---@field public POTTED_BIRCH_SAPLING Typed<BlockData>
+---@field public POTTED_BLUE_ORCHID Typed<BlockData>
+---@field public POTTED_BROWN_MUSHROOM Typed<BlockData>
+---@field public POTTED_CACTUS Typed<BlockData>
+---@field public POTTED_CHERRY_SAPLING Typed<BlockData>
+---@field public POTTED_CLOSED_EYEBLOSSOM Typed<BlockData>
+---@field public POTTED_CORNFLOWER Typed<BlockData>
+---@field public POTTED_CRIMSON_FUNGUS Typed<BlockData>
+---@field public POTTED_CRIMSON_ROOTS Typed<BlockData>
+---@field public POTTED_DANDELION Typed<BlockData>
+---@field public POTTED_DARK_OAK_SAPLING Typed<BlockData>
+---@field public POTTED_DEAD_BUSH Typed<BlockData>
+---@field public POTTED_FERN Typed<BlockData>
+---@field public POTTED_FLOWERING_AZALEA_BUSH Typed<BlockData>
+---@field public POTTED_JUNGLE_SAPLING Typed<BlockData>
+---@field public POTTED_LILY_OF_THE_VALLEY Typed<BlockData>
+---@field public POTTED_MANGROVE_PROPAGULE Typed<BlockData>
+---@field public POTTED_OAK_SAPLING Typed<BlockData>
+---@field public POTTED_OPEN_EYEBLOSSOM Typed<BlockData>
+---@field public POTTED_ORANGE_TULIP Typed<BlockData>
+---@field public POTTED_OXEYE_DAISY Typed<BlockData>
+---@field public POTTED_PALE_OAK_SAPLING Typed<BlockData>
+---@field public POTTED_PINK_TULIP Typed<BlockData>
+---@field public POTTED_POPPY Typed<BlockData>
+---@field public POTTED_RED_MUSHROOM Typed<BlockData>
+---@field public POTTED_RED_TULIP Typed<BlockData>
+---@field public POTTED_SPRUCE_SAPLING Typed<BlockData>
+---@field public POTTED_TORCHFLOWER Typed<BlockData>
+---@field public POTTED_WARPED_FUNGUS Typed<BlockData>
+---@field public POTTED_WARPED_ROOTS Typed<BlockData>
+---@field public POTTED_WHITE_TULIP Typed<BlockData>
+---@field public POTTED_WITHER_ROSE Typed<BlockData>
+---@field public POWDER_SNOW Typed<BlockData>
+---@field public POWDER_SNOW_CAULDRON Typed<Levelled>
+---@field public POWERED_RAIL Typed<RedstoneRail>
+---@field public PRISMARINE Typed<BlockData>
+---@field public PRISMARINE_BRICK_SLAB Typed<Slab>
+---@field public PRISMARINE_BRICK_STAIRS Typed<Stairs>
+---@field public PRISMARINE_BRICKS Typed<BlockData>
+---@field public PRISMARINE_SLAB Typed<Slab>
+---@field public PRISMARINE_STAIRS Typed<Stairs>
+---@field public PRISMARINE_WALL Typed<Wall>
+---@field public PUMPKIN Typed<BlockData>
+---@field public PUMPKIN_STEM Typed<Ageable>
+---@field public PURPLE_BANNER Typed<Rotatable>
+---@field public PURPLE_BED Typed<Bed>
+---@field public PURPLE_CANDLE Typed<Candle>
+---@field public PURPLE_CANDLE_CAKE Typed<Lightable>
+---@field public PURPLE_CARPET Typed<BlockData>
+---@field public PURPLE_CONCRETE Typed<BlockData>
+---@field public PURPLE_CONCRETE_POWDER Typed<BlockData>
+---@field public PURPLE_GLAZED_TERRACOTTA Typed<Directional>
+---@field public PURPLE_SHULKER_BOX Typed<Directional>
+---@field public PURPLE_STAINED_GLASS Typed<BlockData>
+---@field public PURPLE_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public PURPLE_TERRACOTTA Typed<BlockData>
+---@field public PURPLE_WALL_BANNER Typed<Directional>
+---@field public PURPLE_WOOL Typed<BlockData>
+---@field public PURPUR_BLOCK Typed<BlockData>
+---@field public PURPUR_PILLAR Typed<Orientable>
+---@field public PURPUR_SLAB Typed<Slab>
+---@field public PURPUR_STAIRS Typed<Stairs>
+---@field public QUARTZ_BLOCK Typed<BlockData>
+---@field public QUARTZ_BRICKS Typed<BlockData>
+---@field public QUARTZ_PILLAR Typed<Orientable>
+---@field public QUARTZ_SLAB Typed<Slab>
+---@field public QUARTZ_STAIRS Typed<Stairs>
+---@field public RAIL Typed<Rail>
+---@field public RAW_COPPER_BLOCK Typed<BlockData>
+---@field public RAW_GOLD_BLOCK Typed<BlockData>
+---@field public RAW_IRON_BLOCK Typed<BlockData>
+---@field public RED_BANNER Typed<Rotatable>
+---@field public RED_BED Typed<Bed>
+---@field public RED_CANDLE Typed<Candle>
+---@field public RED_CANDLE_CAKE Typed<Lightable>
+---@field public RED_CARPET Typed<BlockData>
+---@field public RED_CONCRETE Typed<BlockData>
+---@field public RED_CONCRETE_POWDER Typed<BlockData>
+---@field public RED_GLAZED_TERRACOTTA Typed<Directional>
+---@field public RED_MUSHROOM Typed<BlockData>
+---@field public RED_MUSHROOM_BLOCK Typed<MultipleFacing>
+---@field public RED_NETHER_BRICK_SLAB Typed<Slab>
+---@field public RED_NETHER_BRICK_STAIRS Typed<Stairs>
+---@field public RED_NETHER_BRICK_WALL Typed<Wall>
+---@field public RED_NETHER_BRICKS Typed<BlockData>
+---@field public RED_SAND Typed<BlockData>
+---@field public RED_SANDSTONE Typed<BlockData>
+---@field public RED_SANDSTONE_SLAB Typed<Slab>
+---@field public RED_SANDSTONE_STAIRS Typed<Stairs>
+---@field public RED_SANDSTONE_WALL Typed<Wall>
+---@field public RED_SHULKER_BOX Typed<Directional>
+---@field public RED_STAINED_GLASS Typed<BlockData>
+---@field public RED_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public RED_TERRACOTTA Typed<BlockData>
+---@field public RED_TULIP Typed<BlockData>
+---@field public RED_WALL_BANNER Typed<Directional>
+---@field public RED_WOOL Typed<BlockData>
+---@field public REDSTONE_BLOCK Typed<BlockData>
+---@field public REDSTONE_LAMP Typed<Lightable>
+---@field public REDSTONE_ORE Typed<Lightable>
+---@field public REDSTONE_TORCH Typed<Lightable>
+---@field public REDSTONE_WALL_TORCH Typed<RedstoneWallTorch>
+---@field public REDSTONE_WIRE Typed<RedstoneWire>
+---@field public REINFORCED_DEEPSLATE Typed<BlockData>
+---@field public REPEATER Typed<Repeater>
+---@field public REPEATING_COMMAND_BLOCK Typed<CommandBlock>
+---@field public RESIN_BLOCK Typed<BlockData>
+---@field public RESIN_BRICK_SLAB Typed<Slab>
+---@field public RESIN_BRICK_STAIRS Typed<Stairs>
+---@field public RESIN_BRICK_WALL Typed<Wall>
+---@field public RESIN_BRICKS Typed<BlockData>
+---@field public RESIN_CLUMP Typed<ResinClump>
+---@field public RESPAWN_ANCHOR Typed<RespawnAnchor>
+---@field public ROOTED_DIRT Typed<BlockData>
+---@field public ROSE_BUSH Typed<Bisected>
+---@field public SAND Typed<BlockData>
+---@field public SANDSTONE Typed<BlockData>
+---@field public SANDSTONE_SLAB Typed<Slab>
+---@field public SANDSTONE_STAIRS Typed<Stairs>
+---@field public SANDSTONE_WALL Typed<Wall>
+---@field public SCAFFOLDING Typed<Scaffolding>
+---@field public SCULK Typed<BlockData>
+---@field public SCULK_CATALYST Typed<SculkCatalyst>
+---@field public SCULK_SENSOR Typed<SculkSensor>
+---@field public SCULK_SHRIEKER Typed<SculkShrieker>
+---@field public SCULK_VEIN Typed<SculkVein>
+---@field public SEA_LANTERN Typed<BlockData>
+---@field public SEA_PICKLE Typed<SeaPickle>
+---@field public SEAGRASS Typed<BlockData>
+---@field public SHORT_DRY_GRASS Typed<BlockData>
+---@field public SHORT_GRASS Typed<BlockData>
+---@field public SHROOMLIGHT Typed<BlockData>
+---@field public SHULKER_BOX Typed<Directional>
+---@field public SKELETON_SKULL Typed<Skull>
+---@field public SKELETON_WALL_SKULL Typed<WallSkull>
+---@field public SLIME_BLOCK Typed<BlockData>
+---@field public SMALL_AMETHYST_BUD Typed<AmethystCluster>
+---@field public SMALL_DRIPLEAF Typed<SmallDripleaf>
+---@field public SMITHING_TABLE Typed<BlockData>
+---@field public SMOKER Typed<Furnace>
+---@field public SMOOTH_BASALT Typed<BlockData>
+---@field public SMOOTH_QUARTZ Typed<BlockData>
+---@field public SMOOTH_QUARTZ_SLAB Typed<Slab>
+---@field public SMOOTH_QUARTZ_STAIRS Typed<Stairs>
+---@field public SMOOTH_RED_SANDSTONE Typed<BlockData>
+---@field public SMOOTH_RED_SANDSTONE_SLAB Typed<Slab>
+---@field public SMOOTH_RED_SANDSTONE_STAIRS Typed<Stairs>
+---@field public SMOOTH_SANDSTONE Typed<BlockData>
+---@field public SMOOTH_SANDSTONE_SLAB Typed<Slab>
+---@field public SMOOTH_SANDSTONE_STAIRS Typed<Stairs>
+---@field public SMOOTH_STONE Typed<BlockData>
+---@field public SMOOTH_STONE_SLAB Typed<Slab>
+---@field public SNIFFER_EGG Typed<Hatchable>
+---@field public SNOW Typed<Snow>
+---@field public SNOW_BLOCK Typed<BlockData>
+---@field public SOUL_CAMPFIRE Typed<Campfire>
+---@field public SOUL_FIRE Typed<BlockData>
+---@field public SOUL_LANTERN Typed<Lantern>
+---@field public SOUL_SAND Typed<BlockData>
+---@field public SOUL_SOIL Typed<BlockData>
+---@field public SOUL_TORCH Typed<BlockData>
+---@field public SOUL_WALL_TORCH Typed<Directional>
+---@field public SPAWNER Typed<BlockData>
+---@field public SPONGE Typed<BlockData>
+---@field public SPORE_BLOSSOM Typed<BlockData>
+---@field public SPRUCE_BUTTON Typed<Switch>
+---@field public SPRUCE_DOOR Typed<Door>
+---@field public SPRUCE_FENCE Typed<Fence>
+---@field public SPRUCE_FENCE_GATE Typed<Gate>
+---@field public SPRUCE_HANGING_SIGN Typed<HangingSign>
+---@field public SPRUCE_LEAVES Typed<Leaves>
+---@field public SPRUCE_LOG Typed<Orientable>
+---@field public SPRUCE_PLANKS Typed<BlockData>
+---@field public SPRUCE_PRESSURE_PLATE Typed<Powerable>
+---@field public SPRUCE_SAPLING Typed<Sapling>
+---@field public SPRUCE_SIGN Typed<Sign>
+---@field public SPRUCE_SLAB Typed<Slab>
+---@field public SPRUCE_STAIRS Typed<Stairs>
+---@field public SPRUCE_TRAPDOOR Typed<TrapDoor>
+---@field public SPRUCE_WALL_HANGING_SIGN Typed<WallHangingSign>
+---@field public SPRUCE_WALL_SIGN Typed<WallSign>
+---@field public SPRUCE_WOOD Typed<Orientable>
+---@field public STICKY_PISTON Typed<Piston>
+---@field public STONE Typed<BlockData>
+---@field public STONE_BRICK_SLAB Typed<Slab>
+---@field public STONE_BRICK_STAIRS Typed<Stairs>
+---@field public STONE_BRICK_WALL Typed<Wall>
+---@field public STONE_BRICKS Typed<BlockData>
+---@field public STONE_BUTTON Typed<Switch>
+---@field public STONE_PRESSURE_PLATE Typed<Powerable>
+---@field public STONE_SLAB Typed<Slab>
+---@field public STONE_STAIRS Typed<Stairs>
+---@field public STONECUTTER Typed<Directional>
+---@field public STRIPPED_ACACIA_LOG Typed<Orientable>
+---@field public STRIPPED_ACACIA_WOOD Typed<Orientable>
+---@field public STRIPPED_BAMBOO_BLOCK Typed<Orientable>
+---@field public STRIPPED_BIRCH_LOG Typed<Orientable>
+---@field public STRIPPED_BIRCH_WOOD Typed<Orientable>
+---@field public STRIPPED_CHERRY_LOG Typed<Orientable>
+---@field public STRIPPED_CHERRY_WOOD Typed<Orientable>
+---@field public STRIPPED_CRIMSON_HYPHAE Typed<Orientable>
+---@field public STRIPPED_CRIMSON_STEM Typed<Orientable>
+---@field public STRIPPED_DARK_OAK_LOG Typed<Orientable>
+---@field public STRIPPED_DARK_OAK_WOOD Typed<Orientable>
+---@field public STRIPPED_JUNGLE_LOG Typed<Orientable>
+---@field public STRIPPED_JUNGLE_WOOD Typed<Orientable>
+---@field public STRIPPED_MANGROVE_LOG Typed<Orientable>
+---@field public STRIPPED_MANGROVE_WOOD Typed<Orientable>
+---@field public STRIPPED_OAK_LOG Typed<Orientable>
+---@field public STRIPPED_OAK_WOOD Typed<Orientable>
+---@field public STRIPPED_PALE_OAK_LOG Typed<Orientable>
+---@field public STRIPPED_PALE_OAK_WOOD Typed<Orientable>
+---@field public STRIPPED_SPRUCE_LOG Typed<Orientable>
+---@field public STRIPPED_SPRUCE_WOOD Typed<Orientable>
+---@field public STRIPPED_WARPED_HYPHAE Typed<Orientable>
+---@field public STRIPPED_WARPED_STEM Typed<Orientable>
+---@field public STRUCTURE_BLOCK Typed<StructureBlock>
+---@field public STRUCTURE_VOID Typed<BlockData>
+---@field public SUGAR_CANE Typed<Ageable>
+---@field public SUNFLOWER Typed<Bisected>
+---@field public SUSPICIOUS_GRAVEL Typed<Brushable>
+---@field public SUSPICIOUS_SAND Typed<Brushable>
+---@field public SWEET_BERRY_BUSH Typed<Ageable>
+---@field public TALL_DRY_GRASS Typed<BlockData>
+---@field public TALL_GRASS Typed<Bisected>
+---@field public TALL_SEAGRASS Typed<Bisected>
+---@field public TARGET Typed<AnaloguePowerable>
+---@field public TERRACOTTA Typed<BlockData>
+---@field public TEST_BLOCK Typed<TestBlock>
+---@field public TEST_INSTANCE_BLOCK Typed<BlockData>
+---@field public TINTED_GLASS Typed<BlockData>
+---@field public TNT Typed<TNT>
+---@field public TORCH Typed<BlockData>
+---@field public TORCHFLOWER Typed<BlockData>
+---@field public TORCHFLOWER_CROP Typed<Ageable>
+---@field public TRAPPED_CHEST Typed<Chest>
+---@field public TRIAL_SPAWNER Typed<TrialSpawner>
+---@field public TRIPWIRE Typed<Tripwire>
+---@field public TRIPWIRE_HOOK Typed<TripwireHook>
+---@field public TUBE_CORAL Typed<Waterlogged>
+---@field public TUBE_CORAL_BLOCK Typed<BlockData>
+---@field public TUBE_CORAL_FAN Typed<Waterlogged>
+---@field public TUBE_CORAL_WALL_FAN Typed<CoralWallFan>
+---@field public TUFF Typed<BlockData>
+---@field public TUFF_BRICK_SLAB Typed<Slab>
+---@field public TUFF_BRICK_STAIRS Typed<Stairs>
+---@field public TUFF_BRICK_WALL Typed<Wall>
+---@field public TUFF_BRICKS Typed<BlockData>
+---@field public TUFF_SLAB Typed<Slab>
+---@field public TUFF_STAIRS Typed<Stairs>
+---@field public TUFF_WALL Typed<Wall>
+---@field public TURTLE_EGG Typed<TurtleEgg>
+---@field public TWISTING_VINES Typed<Ageable>
+---@field public TWISTING_VINES_PLANT Typed<BlockData>
+---@field public VAULT Typed<Vault>
+---@field public VERDANT_FROGLIGHT Typed<Orientable>
+---@field public VINE Typed<MultipleFacing>
+---@field public VOID_AIR Typed<BlockData>
+---@field public WALL_TORCH Typed<Directional>
+---@field public WARPED_BUTTON Typed<Switch>
+---@field public WARPED_DOOR Typed<Door>
+---@field public WARPED_FENCE Typed<Fence>
+---@field public WARPED_FENCE_GATE Typed<Gate>
+---@field public WARPED_FUNGUS Typed<BlockData>
+---@field public WARPED_HANGING_SIGN Typed<HangingSign>
+---@field public WARPED_HYPHAE Typed<Orientable>
+---@field public WARPED_NYLIUM Typed<BlockData>
+---@field public WARPED_PLANKS Typed<BlockData>
+---@field public WARPED_PRESSURE_PLATE Typed<Powerable>
+---@field public WARPED_ROOTS Typed<BlockData>
+---@field public WARPED_SIGN Typed<Sign>
+---@field public WARPED_SLAB Typed<Slab>
+---@field public WARPED_STAIRS Typed<Stairs>
+---@field public WARPED_STEM Typed<Orientable>
+---@field public WARPED_TRAPDOOR Typed<TrapDoor>
+---@field public WARPED_WALL_HANGING_SIGN Typed<WallHangingSign>
+---@field public WARPED_WALL_SIGN Typed<WallSign>
+---@field public WARPED_WART_BLOCK Typed<BlockData>
+---@field public WATER Typed<Levelled>
+---@field public WATER_CAULDRON Typed<Levelled>
+---@field public WAXED_CHISELED_COPPER Typed<BlockData>
+---@field public WAXED_COPPER_BLOCK Typed<BlockData>
+---@field public WAXED_COPPER_BULB Typed<CopperBulb>
+---@field public WAXED_COPPER_DOOR Typed<Door>
+---@field public WAXED_COPPER_GRATE Typed<Waterlogged>
+---@field public WAXED_COPPER_TRAPDOOR Typed<TrapDoor>
+---@field public WAXED_CUT_COPPER Typed<BlockData>
+---@field public WAXED_CUT_COPPER_SLAB Typed<Slab>
+---@field public WAXED_CUT_COPPER_STAIRS Typed<Stairs>
+---@field public WAXED_EXPOSED_CHISELED_COPPER Typed<BlockData>
+---@field public WAXED_EXPOSED_COPPER Typed<BlockData>
+---@field public WAXED_EXPOSED_COPPER_BULB Typed<CopperBulb>
+---@field public WAXED_EXPOSED_COPPER_DOOR Typed<Door>
+---@field public WAXED_EXPOSED_COPPER_GRATE Typed<Waterlogged>
+---@field public WAXED_EXPOSED_COPPER_TRAPDOOR Typed<TrapDoor>
+---@field public WAXED_EXPOSED_CUT_COPPER Typed<BlockData>
+---@field public WAXED_EXPOSED_CUT_COPPER_SLAB Typed<Slab>
+---@field public WAXED_EXPOSED_CUT_COPPER_STAIRS Typed<Stairs>
+---@field public WAXED_OXIDIZED_CHISELED_COPPER Typed<BlockData>
+---@field public WAXED_OXIDIZED_COPPER Typed<BlockData>
+---@field public WAXED_OXIDIZED_COPPER_BULB Typed<CopperBulb>
+---@field public WAXED_OXIDIZED_COPPER_DOOR Typed<Door>
+---@field public WAXED_OXIDIZED_COPPER_GRATE Typed<Waterlogged>
+---@field public WAXED_OXIDIZED_COPPER_TRAPDOOR Typed<TrapDoor>
+---@field public WAXED_OXIDIZED_CUT_COPPER Typed<BlockData>
+---@field public WAXED_OXIDIZED_CUT_COPPER_SLAB Typed<Slab>
+---@field public WAXED_OXIDIZED_CUT_COPPER_STAIRS Typed<Stairs>
+---@field public WAXED_WEATHERED_CHISELED_COPPER Typed<BlockData>
+---@field public WAXED_WEATHERED_COPPER Typed<BlockData>
+---@field public WAXED_WEATHERED_COPPER_BULB Typed<CopperBulb>
+---@field public WAXED_WEATHERED_COPPER_DOOR Typed<Door>
+---@field public WAXED_WEATHERED_COPPER_GRATE Typed<Waterlogged>
+---@field public WAXED_WEATHERED_COPPER_TRAPDOOR Typed<TrapDoor>
+---@field public WAXED_WEATHERED_CUT_COPPER Typed<BlockData>
+---@field public WAXED_WEATHERED_CUT_COPPER_SLAB Typed<Slab>
+---@field public WAXED_WEATHERED_CUT_COPPER_STAIRS Typed<Stairs>
+---@field public WEATHERED_CHISELED_COPPER Typed<BlockData>
+---@field public WEATHERED_COPPER Typed<BlockData>
+---@field public WEATHERED_COPPER_BULB Typed<CopperBulb>
+---@field public WEATHERED_COPPER_DOOR Typed<Door>
+---@field public WEATHERED_COPPER_GRATE Typed<Waterlogged>
+---@field public WEATHERED_COPPER_TRAPDOOR Typed<TrapDoor>
+---@field public WEATHERED_CUT_COPPER Typed<BlockData>
+---@field public WEATHERED_CUT_COPPER_SLAB Typed<Slab>
+---@field public WEATHERED_CUT_COPPER_STAIRS Typed<Stairs>
+---@field public WEEPING_VINES Typed<Ageable>
+---@field public WEEPING_VINES_PLANT Typed<BlockData>
+---@field public WET_SPONGE Typed<BlockData>
+---@field public WHEAT Typed<Ageable>
+---@field public WHITE_BANNER Typed<Rotatable>
+---@field public WHITE_BED Typed<Bed>
+---@field public WHITE_CANDLE Typed<Candle>
+---@field public WHITE_CANDLE_CAKE Typed<Lightable>
+---@field public WHITE_CARPET Typed<BlockData>
+---@field public WHITE_CONCRETE Typed<BlockData>
+---@field public WHITE_CONCRETE_POWDER Typed<BlockData>
+---@field public WHITE_GLAZED_TERRACOTTA Typed<Directional>
+---@field public WHITE_SHULKER_BOX Typed<Directional>
+---@field public WHITE_STAINED_GLASS Typed<BlockData>
+---@field public WHITE_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public WHITE_TERRACOTTA Typed<BlockData>
+---@field public WHITE_TULIP Typed<BlockData>
+---@field public WHITE_WALL_BANNER Typed<Directional>
+---@field public WHITE_WOOL Typed<BlockData>
+---@field public WILDFLOWERS Typed<FlowerBed>
+---@field public WITHER_ROSE Typed<BlockData>
+---@field public WITHER_SKELETON_SKULL Typed<Skull>
+---@field public WITHER_SKELETON_WALL_SKULL Typed<WallSkull>
+---@field public YELLOW_BANNER Typed<Rotatable>
+---@field public YELLOW_BED Typed<Bed>
+---@field public YELLOW_CANDLE Typed<Candle>
+---@field public YELLOW_CANDLE_CAKE Typed<Lightable>
+---@field public YELLOW_CARPET Typed<BlockData>
+---@field public YELLOW_CONCRETE Typed<BlockData>
+---@field public YELLOW_CONCRETE_POWDER Typed<BlockData>
+---@field public YELLOW_GLAZED_TERRACOTTA Typed<Directional>
+---@field public YELLOW_SHULKER_BOX Typed<Directional>
+---@field public YELLOW_STAINED_GLASS Typed<BlockData>
+---@field public YELLOW_STAINED_GLASS_PANE Typed<GlassPane>
+---@field public YELLOW_TERRACOTTA Typed<BlockData>
+---@field public YELLOW_WALL_BANNER Typed<Directional>
+---@field public YELLOW_WOOL Typed<BlockData>
+---@field public ZOMBIE_HEAD Typed<Skull>
+---@field public ZOMBIE_WALL_HEAD Typed<WallSkull>
+local BlockType = {}
+
+---@param key string 
+---@private
+---@return B 
+function BlockType:getBlockType(key) end
+
+---@public
+---@return Typed<BlockData> 
+--- Yields this block type as a typed version of itself with a plain BlockData representing it.
+function BlockType:typed() end
+
+---@param blockDataType optional<B> 
+---@public
+---@return Typed<B> 
+--- Yields this block type as a typed version of itself with a specific BlockData representing it.
+function BlockType:typed(blockDataType) end
+
+---@public
+---@return boolean 
+--- Returns true if this BlockType has a corresponding ItemType.
+function BlockType:hasItemType() end
+
+---@public
+---@return ItemType 
+--- Returns the corresponding ItemType for the given BlockType. If there is no corresponding ItemType an error will be thrown.
+function BlockType:getItemType() end
+
+---@public
+---@return optional<BlockData> 
+--- Gets the BlockData class of this BlockType
+function BlockType:getBlockDataClass() end
+
+---@public
+---@return BlockData 
+--- Creates a new BlockData instance for this block type, with all properties initialized to unspecified defaults.
+function BlockType:createBlockData() end
+
+---@public
+---@return Collection<? extends BlockData> 
+--- Creates a collection of BlockData instances for this block type, with all possible combinations of properties values.
+function BlockType:createBlockDataStates() end
+
+---@param data string 
+---@public
+---@return BlockData 
+--- Creates a new BlockData instance for this block type, with all properties initialized to unspecified defaults, except for those provided in data.
+function BlockType:createBlockData(data) end
+
+---@public
+---@return boolean 
+--- Check if the blockt type is solid (can be built upon)
+function BlockType:isSolid() end
+
+---@public
+---@return boolean 
+--- Check if the block type can catch fire
+function BlockType:isFlammable() end
+
+---@public
+---@return boolean 
+--- Check if the block type can burn away
+function BlockType:isBurnable() end
+
+---@public
+---@return boolean 
+--- Check if the block type is occludes light in the lighting engine. Generally speaking, most full blocks will occlude light. Non-full blocks are not occluding (e.g. anvils, chests, tall grass, stairs, etc.), nor are specific full blocks such as barriers or spawners which block light despite their texture. An occluding block will have the following effects: Chests cannot be opened if an occluding block is above it. Mobs cannot spawn inside of occluding blocks. Only occluding blocks can be "powered" (Block#isBlockPowered()). This list may be inconclusive. For a full list of the side effects of an occluding block, see the Minecraft Wiki.
+function BlockType:isOccluding() end
+
+---@public
+---@return boolean 
+function BlockType:hasGravity() end
+
+---@deprecated
+---@public
+---@return boolean 
+--- Checks if this block type can be interacted with. Interactable block types include those with functionality when they are interacted with by a player such as chests, furnaces, etc. Some blocks such as piston heads and stairs are considered interactable though may not perform any additional functionality. Note that the interactability of some block types may be dependant on their state as well. This method will return true if there is at least one state in which additional interact handling is performed for the block type.
+function BlockType:isInteractable() end
+
+---@public
+---@return number 
+--- Obtains the block's hardness level (also known as "strength"). This number is used to calculate the time required to break each block.
+function BlockType:getHardness() end
+
+---@public
+---@return number 
+--- Obtains the blast resistance value (also known as block "durability"). This value is used in explosions to calculate whether a block should be broken or not.
+function BlockType:getBlastResistance() end
+
+---@public
+---@return number 
+--- Returns a value that represents how 'slippery' the block is. Blocks with higher slipperiness, like BlockType#ICE can be slid on further by the player and other entities. Most blocks have a default slipperiness of 0.6f.
+function BlockType:getSlipperiness() end
+
+---@public
+---@return boolean 
+--- Check if the block type is an air block.
+function BlockType:isAir() end
+
+---@deprecated
+---@param world World 
+---@public
+---@return boolean 
+--- Gets if the BlockType is enabled by the features in a world.
+function BlockType:isEnabledByFeature(world) end
+
+---@deprecated
+---@public
+---@return Material 
+--- Tries to convert this BlockType into a Material
+function BlockType:asMaterial() end
+
+---@deprecated
+---@public
+---@return string 
+function BlockType:getTranslationKey() end
+
+---@public
+---@return boolean 
+--- Checks if this block type has collision.
+function BlockType:hasCollision() end
+

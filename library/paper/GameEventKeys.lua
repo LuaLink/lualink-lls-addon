@@ -1,0 +1,73 @@
+--- Vanilla keys for RegistryKey#GAME_EVENT.
+---@meta
+-- io.papermc.paper.registry.keys.GameEventKeys
+---@class GameEventKeys
+---@field public BLOCK_ACTIVATE TypedKey<GameEvent>
+---@field public BLOCK_ATTACH TypedKey<GameEvent>
+---@field public BLOCK_CHANGE TypedKey<GameEvent>
+---@field public BLOCK_CLOSE TypedKey<GameEvent>
+---@field public BLOCK_DEACTIVATE TypedKey<GameEvent>
+---@field public BLOCK_DESTROY TypedKey<GameEvent>
+---@field public BLOCK_DETACH TypedKey<GameEvent>
+---@field public BLOCK_OPEN TypedKey<GameEvent>
+---@field public BLOCK_PLACE TypedKey<GameEvent>
+---@field public CONTAINER_CLOSE TypedKey<GameEvent>
+---@field public CONTAINER_OPEN TypedKey<GameEvent>
+---@field public DRINK TypedKey<GameEvent>
+---@field public EAT TypedKey<GameEvent>
+---@field public ELYTRA_GLIDE TypedKey<GameEvent>
+---@field public ENTITY_ACTION TypedKey<GameEvent>
+---@field public ENTITY_DAMAGE TypedKey<GameEvent>
+---@field public ENTITY_DIE TypedKey<GameEvent>
+---@field public ENTITY_DISMOUNT TypedKey<GameEvent>
+---@field public ENTITY_INTERACT TypedKey<GameEvent>
+---@field public ENTITY_MOUNT TypedKey<GameEvent>
+---@field public ENTITY_PLACE TypedKey<GameEvent>
+---@field public EQUIP TypedKey<GameEvent>
+---@field public EXPLODE TypedKey<GameEvent>
+---@field public FLAP TypedKey<GameEvent>
+---@field public FLUID_PICKUP TypedKey<GameEvent>
+---@field public FLUID_PLACE TypedKey<GameEvent>
+---@field public HIT_GROUND TypedKey<GameEvent>
+---@field public INSTRUMENT_PLAY TypedKey<GameEvent>
+---@field public ITEM_INTERACT_FINISH TypedKey<GameEvent>
+---@field public ITEM_INTERACT_START TypedKey<GameEvent>
+---@field public JUKEBOX_PLAY TypedKey<GameEvent>
+---@field public JUKEBOX_STOP_PLAY TypedKey<GameEvent>
+---@field public LIGHTNING_STRIKE TypedKey<GameEvent>
+---@field public NOTE_BLOCK_PLAY TypedKey<GameEvent>
+---@field public PRIME_FUSE TypedKey<GameEvent>
+---@field public PROJECTILE_LAND TypedKey<GameEvent>
+---@field public PROJECTILE_SHOOT TypedKey<GameEvent>
+---@field public RESONATE_1 TypedKey<GameEvent>
+---@field public RESONATE_2 TypedKey<GameEvent>
+---@field public RESONATE_3 TypedKey<GameEvent>
+---@field public RESONATE_4 TypedKey<GameEvent>
+---@field public RESONATE_5 TypedKey<GameEvent>
+---@field public RESONATE_6 TypedKey<GameEvent>
+---@field public RESONATE_7 TypedKey<GameEvent>
+---@field public RESONATE_8 TypedKey<GameEvent>
+---@field public RESONATE_9 TypedKey<GameEvent>
+---@field public RESONATE_10 TypedKey<GameEvent>
+---@field public RESONATE_11 TypedKey<GameEvent>
+---@field public RESONATE_12 TypedKey<GameEvent>
+---@field public RESONATE_13 TypedKey<GameEvent>
+---@field public RESONATE_14 TypedKey<GameEvent>
+---@field public RESONATE_15 TypedKey<GameEvent>
+---@field public SCULK_SENSOR_TENDRILS_CLICKING TypedKey<GameEvent>
+---@field public SHEAR TypedKey<GameEvent>
+---@field public SHRIEK TypedKey<GameEvent>
+---@field public SPLASH TypedKey<GameEvent>
+---@field public STEP TypedKey<GameEvent>
+---@field public SWIM TypedKey<GameEvent>
+---@field public TELEPORT TypedKey<GameEvent>
+---@field public UNEQUIP TypedKey<GameEvent>
+---@overload fun(): GameEventKeys 
+local GameEventKeys = {}
+
+---@param key Key 
+---@public
+---@return TypedKey<GameEvent> 
+--- Creates a typed key for GameEvent in the registry minecraft:game_event.
+function GameEventKeys:create(key) end
+

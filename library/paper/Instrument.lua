@@ -1,0 +1,28 @@
+---@meta
+-- org.bukkit.Instrument
+---@class Instrument
+---@field public PIANO Instrument
+---@field public BASS_DRUM Instrument
+---@field public SNARE_DRUM Instrument
+---@field public STICKS Instrument
+---@field public BASS_GUITAR Instrument
+---@field public FLUTE Instrument
+---@field public BELL Instrument
+---@field public GUITAR Instrument
+---@field public CHIME Instrument
+---@field public XYLOPHONE Instrument
+---@field public IRON_XYLOPHONE Instrument
+---@field public COW_BELL Instrument
+---@field public DIDGERIDOO Instrument
+---@field public BIT Instrument
+---@field public BANJO Instrument
+---@field public PLING Instrument
+---@field public ZOMBIE Instrument
+---@field public SKELETON Instrument
+---@field public CREEPER Instrument
+---@field public DRAGON Instrument
+---@field public WITHER_SKELETON Instrument
+---@field public PIGLIN Instrument
+---@field public CUSTOM_HEAD Instrument
+local Instrument = {}
+
