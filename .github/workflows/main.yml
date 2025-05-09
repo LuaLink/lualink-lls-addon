@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 env:
-  STUBGEN_BUILD_NUM: 5
+  STUBGEN_BUILD_NUM: 6
   ADDITIONAL_DEFINITION_URLS: |
     https://raw.githubusercontent.com/LuaLink/LuaLinkV2/master/src/main/resources/lua/script.lua
     https://raw.githubusercontent.com/LuaLink/LuaLinkV2/master/src/main/resources/lua/scheduler.lua
@@ -31,7 +31,7 @@ jobs:
         run: |
           # Download to a temporary location
           mkdir -p $RUNNER_TEMP/stubgen
-          curl -L -o $RUNNER_TEMP/stubgen/LuaStubGen.jar https://github.com/LuaLink/LuaStubGen/releases/download/$STUBGEN_BUILD_NUM/LuaStubGen-1.0-SNAPSHOT.jar
+          curl -L -o $RUNNER_TEMP/stubgen/LuaStubGen.jar https://github.com/LuaLink/LuaStubGen/releases/download/$STUBGEN_BUILD_NUM/LuaStubGen-1.0-SNAPSHOT-all.jar
       - name: Download Source JARs
         run: |
           # Download source JARs
