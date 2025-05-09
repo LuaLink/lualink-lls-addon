@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 env:
-  STUBGEN_BUILD_NUM: 4
+  STUBGEN_BUILD_NUM: 5
   ADDITIONAL_DEFINITION_URLS: |
     https://raw.githubusercontent.com/LuaLink/LuaLinkV2/master/src/main/resources/lua/script.lua
     https://raw.githubusercontent.com/LuaLink/LuaLinkV2/master/src/main/resources/lua/scheduler.lua
@@ -45,7 +45,9 @@ jobs:
         run: |
           # Generate Lua definitions
           mkdir -p library/paper
-          java -jar $RUNNER_TEMP/stubgen/LuaStubGen.jar --output-dir=library/paper
+          # Get a space separated list of JAR files from the downloaded source JARs
+          jar_files=$(ls $RUNNER_TEMP/sources/*.jar | tr '\n' ' ')
+          java -jar $RUNNER_TEMP/stubgen/LuaStubGen.jar --output-dir=library/paper $jar_files
       - name: Download additional definitions
         run: |
           # Download additional definitions
