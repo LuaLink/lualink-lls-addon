@@ -1,0 +1,23 @@
+--- Optional.empty
+---@meta
+-- net.kyori.adventure.text.logger.slf4j.UnpackedComponentThrowable
+---@class net.kyori.adventure.text.logger.slf4j.UnpackedComponentThrowable: java.lang.Throwable
+---@field private serialVersionUID number
+---@field private backingType java.lang.Class
+---@overload fun(backingType: Throwable?, serializedMessage: string, cause: Throwable): UnpackedComponentThrowable
+local UnpackedComponentThrowable = {}
+
+---@param maybeRich java.lang.Throwable 
+---@param serializer java.util.function.Function 
+---@public
+---@return java.lang.Throwable 
+function UnpackedComponentThrowable:unpack(maybeRich, serializer) end
+
+---@public
+---@return string 
+function UnpackedComponentThrowable:toString() end
+
+---@public
+---@return java.lang.Throwable 
+function UnpackedComponentThrowable:fillInStackTrace() end
+

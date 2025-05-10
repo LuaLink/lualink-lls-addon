@@ -1,0 +1,32 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.event.vehicle.VehicleDestroyEvent
+---@class org.bukkit.event.vehicle.VehicleDestroyEvent: org.bukkit.event.vehicle.VehicleEvent, org.bukkit.event.Cancellable
+---@field private HANDLER_LIST org.bukkit.event.HandlerList
+---@field private attacker org.bukkit.entity.Entity
+---@field private cancelled boolean
+---@overload fun(vehicle: Vehicle, attacker: Entity): VehicleDestroyEvent
+local VehicleDestroyEvent = {}
+
+---@public
+---@return org.bukkit.entity.Entity the Entity that has destroyed the vehicle, potentially null
+--- Gets the Entity that has destroyed the vehicle, potentially null
+function VehicleDestroyEvent:getAttacker() end
+
+---@public
+---@return boolean 
+function VehicleDestroyEvent:isCancelled() end
+
+---@param cancel boolean 
+---@public
+---@return nil 
+function VehicleDestroyEvent:setCancelled(cancel) end
+
+---@public
+---@return org.bukkit.event.HandlerList 
+function VehicleDestroyEvent:getHandlers() end
+
+---@public
+---@return org.bukkit.event.HandlerList 
+function VehicleDestroyEvent:getHandlerList() end
+

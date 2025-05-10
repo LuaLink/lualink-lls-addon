@@ -1,0 +1,62 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.DamageTypeKeys
+---@class io.papermc.paper.registry.keys.DamageTypeKeys
+---@field public ARROW io.papermc.paper.registry.TypedKey
+---@field public BAD_RESPAWN_POINT io.papermc.paper.registry.TypedKey
+---@field public CACTUS io.papermc.paper.registry.TypedKey
+---@field public CAMPFIRE io.papermc.paper.registry.TypedKey
+---@field public CRAMMING io.papermc.paper.registry.TypedKey
+---@field public DRAGON_BREATH io.papermc.paper.registry.TypedKey
+---@field public DROWN io.papermc.paper.registry.TypedKey
+---@field public DRY_OUT io.papermc.paper.registry.TypedKey
+---@field public ENDER_PEARL io.papermc.paper.registry.TypedKey
+---@field public EXPLOSION io.papermc.paper.registry.TypedKey
+---@field public FALL io.papermc.paper.registry.TypedKey
+---@field public FALLING_ANVIL io.papermc.paper.registry.TypedKey
+---@field public FALLING_BLOCK io.papermc.paper.registry.TypedKey
+---@field public FALLING_STALACTITE io.papermc.paper.registry.TypedKey
+---@field public FIREBALL io.papermc.paper.registry.TypedKey
+---@field public FIREWORKS io.papermc.paper.registry.TypedKey
+---@field public FLY_INTO_WALL io.papermc.paper.registry.TypedKey
+---@field public FREEZE io.papermc.paper.registry.TypedKey
+---@field public GENERIC io.papermc.paper.registry.TypedKey
+---@field public GENERIC_KILL io.papermc.paper.registry.TypedKey
+---@field public HOT_FLOOR io.papermc.paper.registry.TypedKey
+---@field public IN_FIRE io.papermc.paper.registry.TypedKey
+---@field public IN_WALL io.papermc.paper.registry.TypedKey
+---@field public INDIRECT_MAGIC io.papermc.paper.registry.TypedKey
+---@field public LAVA io.papermc.paper.registry.TypedKey
+---@field public LIGHTNING_BOLT io.papermc.paper.registry.TypedKey
+---@field public MACE_SMASH io.papermc.paper.registry.TypedKey
+---@field public MAGIC io.papermc.paper.registry.TypedKey
+---@field public MOB_ATTACK io.papermc.paper.registry.TypedKey
+---@field public MOB_ATTACK_NO_AGGRO io.papermc.paper.registry.TypedKey
+---@field public MOB_PROJECTILE io.papermc.paper.registry.TypedKey
+---@field public ON_FIRE io.papermc.paper.registry.TypedKey
+---@field public OUT_OF_WORLD io.papermc.paper.registry.TypedKey
+---@field public OUTSIDE_BORDER io.papermc.paper.registry.TypedKey
+---@field public PLAYER_ATTACK io.papermc.paper.registry.TypedKey
+---@field public PLAYER_EXPLOSION io.papermc.paper.registry.TypedKey
+---@field public SONIC_BOOM io.papermc.paper.registry.TypedKey
+---@field public SPIT io.papermc.paper.registry.TypedKey
+---@field public STALAGMITE io.papermc.paper.registry.TypedKey
+---@field public STARVE io.papermc.paper.registry.TypedKey
+---@field public STING io.papermc.paper.registry.TypedKey
+---@field public SWEET_BERRY_BUSH io.papermc.paper.registry.TypedKey
+---@field public THORNS io.papermc.paper.registry.TypedKey
+---@field public THROWN io.papermc.paper.registry.TypedKey
+---@field public TRIDENT io.papermc.paper.registry.TypedKey
+---@field public UNATTRIBUTED_FIREBALL io.papermc.paper.registry.TypedKey
+---@field public WIND_CHARGE io.papermc.paper.registry.TypedKey
+---@field public WITHER io.papermc.paper.registry.TypedKey
+---@field public WITHER_SKULL io.papermc.paper.registry.TypedKey
+---@overload fun(): DamageTypeKeys
+local DamageTypeKeys = {}
+
+---@param key any the value's key in the registry
+---@public
+---@return io.papermc.paper.registry.TypedKey a new typed key
+--- Creates a typed key for {@link DamageType} in the registry {@code minecraft:damage_type}.
+function DamageTypeKeys:create(key) end
+

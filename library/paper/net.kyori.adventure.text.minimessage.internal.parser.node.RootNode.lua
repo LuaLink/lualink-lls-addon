@@ -1,0 +1,12 @@
+--- Optional.empty
+---@meta
+-- net.kyori.adventure.text.minimessage.internal.parser.node.RootNode
+---@class net.kyori.adventure.text.minimessage.internal.parser.node.RootNode: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode, net.kyori.adventure.text.minimessage.tree.Node.Root
+---@field private beforePreprocessing string
+---@overload fun(sourceMessage: string, beforePreprocessing: string): RootNode
+local RootNode = {}
+
+---@public
+---@return string 
+function RootNode:input() end
+

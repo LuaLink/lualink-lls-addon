@@ -1,0 +1,47 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.MapDecorationTypeKeys
+---@class io.papermc.paper.registry.keys.MapDecorationTypeKeys
+---@field public BANNER_BLACK io.papermc.paper.registry.TypedKey
+---@field public BANNER_BLUE io.papermc.paper.registry.TypedKey
+---@field public BANNER_BROWN io.papermc.paper.registry.TypedKey
+---@field public BANNER_CYAN io.papermc.paper.registry.TypedKey
+---@field public BANNER_GRAY io.papermc.paper.registry.TypedKey
+---@field public BANNER_GREEN io.papermc.paper.registry.TypedKey
+---@field public BANNER_LIGHT_BLUE io.papermc.paper.registry.TypedKey
+---@field public BANNER_LIGHT_GRAY io.papermc.paper.registry.TypedKey
+---@field public BANNER_LIME io.papermc.paper.registry.TypedKey
+---@field public BANNER_MAGENTA io.papermc.paper.registry.TypedKey
+---@field public BANNER_ORANGE io.papermc.paper.registry.TypedKey
+---@field public BANNER_PINK io.papermc.paper.registry.TypedKey
+---@field public BANNER_PURPLE io.papermc.paper.registry.TypedKey
+---@field public BANNER_RED io.papermc.paper.registry.TypedKey
+---@field public BANNER_WHITE io.papermc.paper.registry.TypedKey
+---@field public BANNER_YELLOW io.papermc.paper.registry.TypedKey
+---@field public BLUE_MARKER io.papermc.paper.registry.TypedKey
+---@field public FRAME io.papermc.paper.registry.TypedKey
+---@field public JUNGLE_TEMPLE io.papermc.paper.registry.TypedKey
+---@field public MANSION io.papermc.paper.registry.TypedKey
+---@field public MONUMENT io.papermc.paper.registry.TypedKey
+---@field public PLAYER io.papermc.paper.registry.TypedKey
+---@field public PLAYER_OFF_LIMITS io.papermc.paper.registry.TypedKey
+---@field public PLAYER_OFF_MAP io.papermc.paper.registry.TypedKey
+---@field public RED_MARKER io.papermc.paper.registry.TypedKey
+---@field public RED_X io.papermc.paper.registry.TypedKey
+---@field public SWAMP_HUT io.papermc.paper.registry.TypedKey
+---@field public TARGET_POINT io.papermc.paper.registry.TypedKey
+---@field public TARGET_X io.papermc.paper.registry.TypedKey
+---@field public TRIAL_CHAMBERS io.papermc.paper.registry.TypedKey
+---@field public VILLAGE_DESERT io.papermc.paper.registry.TypedKey
+---@field public VILLAGE_PLAINS io.papermc.paper.registry.TypedKey
+---@field public VILLAGE_SAVANNA io.papermc.paper.registry.TypedKey
+---@field public VILLAGE_SNOWY io.papermc.paper.registry.TypedKey
+---@field public VILLAGE_TAIGA io.papermc.paper.registry.TypedKey
+---@overload fun(): MapDecorationTypeKeys
+local MapDecorationTypeKeys = {}
+
+---@param key any 
+---@private
+---@return io.papermc.paper.registry.TypedKey 
+function MapDecorationTypeKeys:create(key) end
+

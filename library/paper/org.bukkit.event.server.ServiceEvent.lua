@@ -1,0 +1,12 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.event.server.ServiceEvent
+---@class org.bukkit.event.server.ServiceEvent: org.bukkit.event.server.ServerEvent
+---@field private provider org.bukkit.plugin.RegisteredServiceProvider
+---@overload fun(provider: RegisteredServiceProvider<?>): ServiceEvent
+local ServiceEvent = {}
+
+---@public
+---@return org.bukkit.plugin.RegisteredServiceProvider 
+function ServiceEvent:getProvider() end
+

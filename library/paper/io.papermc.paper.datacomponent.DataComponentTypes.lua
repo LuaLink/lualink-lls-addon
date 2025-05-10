@@ -1,0 +1,105 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.datacomponent.DataComponentTypes
+---@class io.papermc.paper.datacomponent.DataComponentTypes
+---@field public MAX_STACK_SIZE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public MAX_DAMAGE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public DAMAGE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public UNBREAKABLE io.papermc.paper.datacomponent.DataComponentType.NonValued
+---@field public CUSTOM_NAME io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public ITEM_NAME io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public ITEM_MODEL any
+---@field public LORE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public RARITY io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public ENCHANTMENTS io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public CAN_PLACE_ON io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public CAN_BREAK io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public ATTRIBUTE_MODIFIERS io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public CUSTOM_MODEL_DATA io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public TOOLTIP_DISPLAY io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public REPAIR_COST io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public ENCHANTMENT_GLINT_OVERRIDE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public INTANGIBLE_PROJECTILE io.papermc.paper.datacomponent.DataComponentType.NonValued
+---@field public FOOD io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public CONSUMABLE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public USE_REMAINDER io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public USE_COOLDOWN io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public DAMAGE_RESISTANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public TOOL io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public WEAPON io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public ENCHANTABLE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public EQUIPPABLE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public REPAIRABLE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public GLIDER io.papermc.paper.datacomponent.DataComponentType.NonValued
+---@field public TOOLTIP_STYLE any
+---@field public DEATH_PROTECTION io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public BLOCKS_ATTACKS io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public STORED_ENCHANTMENTS io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public DYED_COLOR io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public MAP_COLOR io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public MAP_ID io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public MAP_DECORATIONS io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public MAP_POST_PROCESSING io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public CHARGED_PROJECTILES io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public BUNDLE_CONTENTS io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public POTION_CONTENTS io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public POTION_DURATION_SCALE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public SUSPICIOUS_STEW_EFFECTS io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public WRITABLE_BOOK_CONTENT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public WRITTEN_BOOK_CONTENT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public TRIM io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public INSTRUMENT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public PROVIDES_TRIM_MATERIAL io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public OMINOUS_BOTTLE_AMPLIFIER io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public JUKEBOX_PLAYABLE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public PROVIDES_BANNER_PATTERNS io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public RECIPES any
+---@field public LODESTONE_TRACKER io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public FIREWORK_EXPLOSION io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public FIREWORKS io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public PROFILE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public NOTE_BLOCK_SOUND any
+---@field public BANNER_PATTERNS io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public BASE_COLOR io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public POT_DECORATIONS io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public CONTAINER io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public BLOCK_DATA io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public CONTAINER_LOOT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public BREAK_SOUND any
+---@field public VILLAGER_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public WOLF_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public WOLF_SOUND_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public WOLF_COLLAR io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public FOX_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public SALMON_SIZE io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public PARROT_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public TROPICAL_FISH_PATTERN io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public TROPICAL_FISH_BASE_COLOR io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public TROPICAL_FISH_PATTERN_COLOR io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public MOOSHROOM_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public RABBIT_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public PIG_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public COW_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public CHICKEN_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public FROG_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public HORSE_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public PAINTING_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public LLAMA_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public AXOLOTL_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public CAT_VARIANT io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public CAT_COLLAR io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public SHEEP_COLOR io.papermc.paper.datacomponent.DataComponentType.Valued
+---@field public SHULKER_COLOR io.papermc.paper.datacomponent.DataComponentType.Valued
+---@overload fun(): DataComponentTypes
+local DataComponentTypes = {}
+
+---@param name string 
+---@private
+---@return io.papermc.paper.datacomponent.DataComponentType.NonValued 
+function DataComponentTypes:unvalued(name) end
+
+---@param name string 
+---@private
+---@return io.papermc.paper.datacomponent.DataComponentType.Valued 
+function DataComponentTypes:valued(name) end
+

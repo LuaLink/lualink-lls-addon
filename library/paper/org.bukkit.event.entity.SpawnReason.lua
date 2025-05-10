@@ -1,0 +1,50 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.event.entity.SpawnReason
+---@class org.bukkit.event.entity.SpawnReason
+---@field public NATURAL SpawnReason
+---@field public JOCKEY SpawnReason
+---@field public CHUNK_GEN SpawnReason
+---@field public SPAWNER SpawnReason
+---@field public TRIAL_SPAWNER SpawnReason
+---@field public EGG SpawnReason
+---@field public SPAWNER_EGG SpawnReason
+---@field public LIGHTNING SpawnReason
+---@field public BUILD_SNOWMAN SpawnReason
+---@field public BUILD_IRONGOLEM SpawnReason
+---@field public BUILD_WITHER SpawnReason
+---@field public VILLAGE_DEFENSE SpawnReason
+---@field public VILLAGE_INVASION SpawnReason
+---@field public BREEDING SpawnReason
+---@field public SLIME_SPLIT SpawnReason
+---@field public REINFORCEMENTS SpawnReason
+---@field public NETHER_PORTAL SpawnReason
+---@field public DISPENSE_EGG SpawnReason
+---@field public INFECTION SpawnReason
+---@field public CURED SpawnReason
+---@field public OCELOT_BABY SpawnReason
+---@field public SILVERFISH_BLOCK SpawnReason
+---@field public MOUNT SpawnReason
+---@field public TRAP SpawnReason
+---@field public ENDER_PEARL SpawnReason
+---@field public SHOULDER_ENTITY SpawnReason
+---@field public DROWNED SpawnReason
+---@field public SHEARED SpawnReason
+---@field public EXPLOSION SpawnReason
+---@field public RAID SpawnReason
+---@field public PATROL SpawnReason
+---@field public BEEHIVE SpawnReason
+---@field public PIGLIN_ZOMBIFIED SpawnReason
+---@field public SPELL SpawnReason
+---@field public FROZEN SpawnReason
+---@field public METAMORPHOSIS SpawnReason
+---@field public DUPLICATION SpawnReason
+---@field public COMMAND SpawnReason
+---@field public ENCHANTMENT SpawnReason
+---@field public OMINOUS_ITEM_SPAWNER SpawnReason
+---@field public BUCKET SpawnReason
+---@field public POTION_EFFECT SpawnReason
+---@field public CUSTOM SpawnReason
+---@field public DEFAULT SpawnReason
+local SpawnReason = {}
+

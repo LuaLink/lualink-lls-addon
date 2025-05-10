@@ -1,0 +1,44 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.AttributeKeys
+---@class io.papermc.paper.registry.keys.AttributeKeys
+---@field public ARMOR io.papermc.paper.registry.TypedKey
+---@field public ARMOR_TOUGHNESS io.papermc.paper.registry.TypedKey
+---@field public ATTACK_DAMAGE io.papermc.paper.registry.TypedKey
+---@field public ATTACK_KNOCKBACK io.papermc.paper.registry.TypedKey
+---@field public ATTACK_SPEED io.papermc.paper.registry.TypedKey
+---@field public BLOCK_BREAK_SPEED io.papermc.paper.registry.TypedKey
+---@field public BLOCK_INTERACTION_RANGE io.papermc.paper.registry.TypedKey
+---@field public BURNING_TIME io.papermc.paper.registry.TypedKey
+---@field public ENTITY_INTERACTION_RANGE io.papermc.paper.registry.TypedKey
+---@field public EXPLOSION_KNOCKBACK_RESISTANCE io.papermc.paper.registry.TypedKey
+---@field public FALL_DAMAGE_MULTIPLIER io.papermc.paper.registry.TypedKey
+---@field public FLYING_SPEED io.papermc.paper.registry.TypedKey
+---@field public FOLLOW_RANGE io.papermc.paper.registry.TypedKey
+---@field public GRAVITY io.papermc.paper.registry.TypedKey
+---@field public JUMP_STRENGTH io.papermc.paper.registry.TypedKey
+---@field public KNOCKBACK_RESISTANCE io.papermc.paper.registry.TypedKey
+---@field public LUCK io.papermc.paper.registry.TypedKey
+---@field public MAX_ABSORPTION io.papermc.paper.registry.TypedKey
+---@field public MAX_HEALTH io.papermc.paper.registry.TypedKey
+---@field public MINING_EFFICIENCY io.papermc.paper.registry.TypedKey
+---@field public MOVEMENT_EFFICIENCY io.papermc.paper.registry.TypedKey
+---@field public MOVEMENT_SPEED io.papermc.paper.registry.TypedKey
+---@field public OXYGEN_BONUS io.papermc.paper.registry.TypedKey
+---@field public SAFE_FALL_DISTANCE io.papermc.paper.registry.TypedKey
+---@field public SCALE io.papermc.paper.registry.TypedKey
+---@field public SNEAKING_SPEED io.papermc.paper.registry.TypedKey
+---@field public SPAWN_REINFORCEMENTS io.papermc.paper.registry.TypedKey
+---@field public STEP_HEIGHT io.papermc.paper.registry.TypedKey
+---@field public SUBMERGED_MINING_SPEED io.papermc.paper.registry.TypedKey
+---@field public SWEEPING_DAMAGE_RATIO io.papermc.paper.registry.TypedKey
+---@field public TEMPT_RANGE io.papermc.paper.registry.TypedKey
+---@field public WATER_MOVEMENT_EFFICIENCY io.papermc.paper.registry.TypedKey
+---@overload fun(): AttributeKeys
+local AttributeKeys = {}
+
+---@param key any 
+---@private
+---@return io.papermc.paper.registry.TypedKey 
+function AttributeKeys:create(key) end
+

@@ -1,0 +1,108 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.DataComponentTypeKeys
+---@class io.papermc.paper.registry.keys.DataComponentTypeKeys
+---@field public ATTRIBUTE_MODIFIERS io.papermc.paper.registry.TypedKey
+---@field public AXOLOTL_VARIANT io.papermc.paper.registry.TypedKey
+---@field public BANNER_PATTERNS io.papermc.paper.registry.TypedKey
+---@field public BASE_COLOR io.papermc.paper.registry.TypedKey
+---@field public BEES io.papermc.paper.registry.TypedKey
+---@field public BLOCK_ENTITY_DATA io.papermc.paper.registry.TypedKey
+---@field public BLOCK_STATE io.papermc.paper.registry.TypedKey
+---@field public BLOCKS_ATTACKS io.papermc.paper.registry.TypedKey
+---@field public BREAK_SOUND io.papermc.paper.registry.TypedKey
+---@field public BUCKET_ENTITY_DATA io.papermc.paper.registry.TypedKey
+---@field public BUNDLE_CONTENTS io.papermc.paper.registry.TypedKey
+---@field public CAN_BREAK io.papermc.paper.registry.TypedKey
+---@field public CAN_PLACE_ON io.papermc.paper.registry.TypedKey
+---@field public CAT_COLLAR io.papermc.paper.registry.TypedKey
+---@field public CAT_VARIANT io.papermc.paper.registry.TypedKey
+---@field public CHARGED_PROJECTILES io.papermc.paper.registry.TypedKey
+---@field public CHICKEN_VARIANT io.papermc.paper.registry.TypedKey
+---@field public CONSUMABLE io.papermc.paper.registry.TypedKey
+---@field public CONTAINER io.papermc.paper.registry.TypedKey
+---@field public CONTAINER_LOOT io.papermc.paper.registry.TypedKey
+---@field public COW_VARIANT io.papermc.paper.registry.TypedKey
+---@field public CREATIVE_SLOT_LOCK io.papermc.paper.registry.TypedKey
+---@field public CUSTOM_DATA io.papermc.paper.registry.TypedKey
+---@field public CUSTOM_MODEL_DATA io.papermc.paper.registry.TypedKey
+---@field public CUSTOM_NAME io.papermc.paper.registry.TypedKey
+---@field public DAMAGE io.papermc.paper.registry.TypedKey
+---@field public DAMAGE_RESISTANT io.papermc.paper.registry.TypedKey
+---@field public DEATH_PROTECTION io.papermc.paper.registry.TypedKey
+---@field public DEBUG_STICK_STATE io.papermc.paper.registry.TypedKey
+---@field public DYED_COLOR io.papermc.paper.registry.TypedKey
+---@field public ENCHANTABLE io.papermc.paper.registry.TypedKey
+---@field public ENCHANTMENT_GLINT_OVERRIDE io.papermc.paper.registry.TypedKey
+---@field public ENCHANTMENTS io.papermc.paper.registry.TypedKey
+---@field public ENTITY_DATA io.papermc.paper.registry.TypedKey
+---@field public EQUIPPABLE io.papermc.paper.registry.TypedKey
+---@field public FIREWORK_EXPLOSION io.papermc.paper.registry.TypedKey
+---@field public FIREWORKS io.papermc.paper.registry.TypedKey
+---@field public FOOD io.papermc.paper.registry.TypedKey
+---@field public FOX_VARIANT io.papermc.paper.registry.TypedKey
+---@field public FROG_VARIANT io.papermc.paper.registry.TypedKey
+---@field public GLIDER io.papermc.paper.registry.TypedKey
+---@field public HORSE_VARIANT io.papermc.paper.registry.TypedKey
+---@field public INSTRUMENT io.papermc.paper.registry.TypedKey
+---@field public INTANGIBLE_PROJECTILE io.papermc.paper.registry.TypedKey
+---@field public ITEM_MODEL io.papermc.paper.registry.TypedKey
+---@field public ITEM_NAME io.papermc.paper.registry.TypedKey
+---@field public JUKEBOX_PLAYABLE io.papermc.paper.registry.TypedKey
+---@field public LLAMA_VARIANT io.papermc.paper.registry.TypedKey
+---@field public LOCK io.papermc.paper.registry.TypedKey
+---@field public LODESTONE_TRACKER io.papermc.paper.registry.TypedKey
+---@field public LORE io.papermc.paper.registry.TypedKey
+---@field public MAP_COLOR io.papermc.paper.registry.TypedKey
+---@field public MAP_DECORATIONS io.papermc.paper.registry.TypedKey
+---@field public MAP_ID io.papermc.paper.registry.TypedKey
+---@field public MAP_POST_PROCESSING io.papermc.paper.registry.TypedKey
+---@field public MAX_DAMAGE io.papermc.paper.registry.TypedKey
+---@field public MAX_STACK_SIZE io.papermc.paper.registry.TypedKey
+---@field public MOOSHROOM_VARIANT io.papermc.paper.registry.TypedKey
+---@field public NOTE_BLOCK_SOUND io.papermc.paper.registry.TypedKey
+---@field public OMINOUS_BOTTLE_AMPLIFIER io.papermc.paper.registry.TypedKey
+---@field public PAINTING_VARIANT io.papermc.paper.registry.TypedKey
+---@field public PARROT_VARIANT io.papermc.paper.registry.TypedKey
+---@field public PIG_VARIANT io.papermc.paper.registry.TypedKey
+---@field public POT_DECORATIONS io.papermc.paper.registry.TypedKey
+---@field public POTION_CONTENTS io.papermc.paper.registry.TypedKey
+---@field public POTION_DURATION_SCALE io.papermc.paper.registry.TypedKey
+---@field public PROFILE io.papermc.paper.registry.TypedKey
+---@field public PROVIDES_BANNER_PATTERNS io.papermc.paper.registry.TypedKey
+---@field public PROVIDES_TRIM_MATERIAL io.papermc.paper.registry.TypedKey
+---@field public RABBIT_VARIANT io.papermc.paper.registry.TypedKey
+---@field public RARITY io.papermc.paper.registry.TypedKey
+---@field public RECIPES io.papermc.paper.registry.TypedKey
+---@field public REPAIR_COST io.papermc.paper.registry.TypedKey
+---@field public REPAIRABLE io.papermc.paper.registry.TypedKey
+---@field public SALMON_SIZE io.papermc.paper.registry.TypedKey
+---@field public SHEEP_COLOR io.papermc.paper.registry.TypedKey
+---@field public SHULKER_COLOR io.papermc.paper.registry.TypedKey
+---@field public STORED_ENCHANTMENTS io.papermc.paper.registry.TypedKey
+---@field public SUSPICIOUS_STEW_EFFECTS io.papermc.paper.registry.TypedKey
+---@field public TOOL io.papermc.paper.registry.TypedKey
+---@field public TOOLTIP_DISPLAY io.papermc.paper.registry.TypedKey
+---@field public TOOLTIP_STYLE io.papermc.paper.registry.TypedKey
+---@field public TRIM io.papermc.paper.registry.TypedKey
+---@field public TROPICAL_FISH_BASE_COLOR io.papermc.paper.registry.TypedKey
+---@field public TROPICAL_FISH_PATTERN io.papermc.paper.registry.TypedKey
+---@field public TROPICAL_FISH_PATTERN_COLOR io.papermc.paper.registry.TypedKey
+---@field public UNBREAKABLE io.papermc.paper.registry.TypedKey
+---@field public USE_COOLDOWN io.papermc.paper.registry.TypedKey
+---@field public USE_REMAINDER io.papermc.paper.registry.TypedKey
+---@field public VILLAGER_VARIANT io.papermc.paper.registry.TypedKey
+---@field public WEAPON io.papermc.paper.registry.TypedKey
+---@field public WOLF_COLLAR io.papermc.paper.registry.TypedKey
+---@field public WOLF_SOUND_VARIANT io.papermc.paper.registry.TypedKey
+---@field public WOLF_VARIANT io.papermc.paper.registry.TypedKey
+---@field public WRITABLE_BOOK_CONTENT io.papermc.paper.registry.TypedKey
+---@field public WRITTEN_BOOK_CONTENT io.papermc.paper.registry.TypedKey
+---@overload fun(): DataComponentTypeKeys
+local DataComponentTypeKeys = {}
+
+---@param key any 
+---@private
+---@return io.papermc.paper.registry.TypedKey 
+function DataComponentTypeKeys:create(key) end
+

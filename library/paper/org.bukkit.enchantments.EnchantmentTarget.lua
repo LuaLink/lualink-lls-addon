@@ -1,0 +1,21 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.enchantments.EnchantmentTarget
+---@class org.bukkit.enchantments.EnchantmentTarget
+---@field public ALL EnchantmentTarget
+---@field public ARMOR EnchantmentTarget
+---@field public ARMOR_FEET EnchantmentTarget
+---@field public ARMOR_LEGS EnchantmentTarget
+---@field public ARMOR_TORSO EnchantmentTarget
+---@field public ARMOR_HEAD EnchantmentTarget
+---@field public WEAPON EnchantmentTarget
+---@field public TOOL EnchantmentTarget
+---@field public BOW EnchantmentTarget
+---@field public FISHING_ROD EnchantmentTarget
+---@field public BREAKABLE EnchantmentTarget
+---@field public WEARABLE EnchantmentTarget
+---@field public TRIDENT EnchantmentTarget
+---@field public CROSSBOW EnchantmentTarget
+---@field public VANISHABLE EnchantmentTarget
+local EnchantmentTarget = {}
+

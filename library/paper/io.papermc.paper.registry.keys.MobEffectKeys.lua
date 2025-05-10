@@ -1,0 +1,51 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.MobEffectKeys
+---@class io.papermc.paper.registry.keys.MobEffectKeys
+---@field public ABSORPTION io.papermc.paper.registry.TypedKey
+---@field public BAD_OMEN io.papermc.paper.registry.TypedKey
+---@field public BLINDNESS io.papermc.paper.registry.TypedKey
+---@field public CONDUIT_POWER io.papermc.paper.registry.TypedKey
+---@field public DARKNESS io.papermc.paper.registry.TypedKey
+---@field public DOLPHINS_GRACE io.papermc.paper.registry.TypedKey
+---@field public FIRE_RESISTANCE io.papermc.paper.registry.TypedKey
+---@field public GLOWING io.papermc.paper.registry.TypedKey
+---@field public HASTE io.papermc.paper.registry.TypedKey
+---@field public HEALTH_BOOST io.papermc.paper.registry.TypedKey
+---@field public HERO_OF_THE_VILLAGE io.papermc.paper.registry.TypedKey
+---@field public HUNGER io.papermc.paper.registry.TypedKey
+---@field public INFESTED io.papermc.paper.registry.TypedKey
+---@field public INSTANT_DAMAGE io.papermc.paper.registry.TypedKey
+---@field public INSTANT_HEALTH io.papermc.paper.registry.TypedKey
+---@field public INVISIBILITY io.papermc.paper.registry.TypedKey
+---@field public JUMP_BOOST io.papermc.paper.registry.TypedKey
+---@field public LEVITATION io.papermc.paper.registry.TypedKey
+---@field public LUCK io.papermc.paper.registry.TypedKey
+---@field public MINING_FATIGUE io.papermc.paper.registry.TypedKey
+---@field public NAUSEA io.papermc.paper.registry.TypedKey
+---@field public NIGHT_VISION io.papermc.paper.registry.TypedKey
+---@field public OOZING io.papermc.paper.registry.TypedKey
+---@field public POISON io.papermc.paper.registry.TypedKey
+---@field public RAID_OMEN io.papermc.paper.registry.TypedKey
+---@field public REGENERATION io.papermc.paper.registry.TypedKey
+---@field public RESISTANCE io.papermc.paper.registry.TypedKey
+---@field public SATURATION io.papermc.paper.registry.TypedKey
+---@field public SLOW_FALLING io.papermc.paper.registry.TypedKey
+---@field public SLOWNESS io.papermc.paper.registry.TypedKey
+---@field public SPEED io.papermc.paper.registry.TypedKey
+---@field public STRENGTH io.papermc.paper.registry.TypedKey
+---@field public TRIAL_OMEN io.papermc.paper.registry.TypedKey
+---@field public UNLUCK io.papermc.paper.registry.TypedKey
+---@field public WATER_BREATHING io.papermc.paper.registry.TypedKey
+---@field public WEAKNESS io.papermc.paper.registry.TypedKey
+---@field public WEAVING io.papermc.paper.registry.TypedKey
+---@field public WIND_CHARGED io.papermc.paper.registry.TypedKey
+---@field public WITHER io.papermc.paper.registry.TypedKey
+---@overload fun(): MobEffectKeys
+local MobEffectKeys = {}
+
+---@param key any 
+---@private
+---@return io.papermc.paper.registry.TypedKey 
+function MobEffectKeys:create(key) end
+

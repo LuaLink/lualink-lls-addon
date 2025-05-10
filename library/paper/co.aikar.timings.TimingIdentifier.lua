@@ -1,0 +1,31 @@
+--- Optional.empty
+---@meta
+-- co.aikar.timings.TimingIdentifier
+---@class co.aikar.timings.TimingIdentifier
+---@field public GROUP_MAP java.util.Map
+---@field private DEFAULT_GROUP co.aikar.timings.TimingIdentifier.TimingGroup
+---@field public group string
+---@field public name string
+---@field public groupHandler co.aikar.timings.TimingHandler
+---@field private hashCode number
+---@overload fun(group: string, name: string, groupHandler: Timing): TimingIdentifier
+local TimingIdentifier = {}
+
+---@param groupName string 
+---@public
+---@return co.aikar.timings.TimingIdentifier.TimingGroup 
+function TimingIdentifier:getGroup(groupName) end
+
+---@param o java.lang.Object 
+---@public
+---@return boolean 
+function TimingIdentifier:equals(o) end
+
+---@public
+---@return number 
+function TimingIdentifier:hashCode() end
+
+---@public
+---@return string 
+function TimingIdentifier:toString() end
+

@@ -1,0 +1,14 @@
+--- Optional.empty
+---@meta
+-- net.kyori.adventure.util.Nag
+---@class net.kyori.adventure.util.Nag: java.lang.RuntimeException
+---@field private serialVersionUID number
+---@overload fun(message: string): Nag
+local Nag = {}
+
+---@param nag net.kyori.adventure.util.Nag the nag
+---@public
+---@return nil 
+--- Prints a nag.
+function Nag:print(nag) end
+

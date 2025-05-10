@@ -1,0 +1,22 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.event.world.SpawnChangeEvent
+---@class org.bukkit.event.world.SpawnChangeEvent: org.bukkit.event.world.WorldEvent
+---@field private HANDLER_LIST org.bukkit.event.HandlerList
+---@field private previousLocation org.bukkit.Location
+---@overload fun(world: World, previousLocation: Location): SpawnChangeEvent
+local SpawnChangeEvent = {}
+
+---@public
+---@return org.bukkit.Location Location that used to be spawn
+--- Gets the previous spawn location
+function SpawnChangeEvent:getPreviousLocation() end
+
+---@public
+---@return org.bukkit.event.HandlerList 
+function SpawnChangeEvent:getHandlers() end
+
+---@public
+---@return org.bukkit.event.HandlerList 
+function SpawnChangeEvent:getHandlerList() end
+

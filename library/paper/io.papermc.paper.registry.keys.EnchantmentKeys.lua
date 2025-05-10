@@ -1,0 +1,55 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.EnchantmentKeys
+---@class io.papermc.paper.registry.keys.EnchantmentKeys
+---@field public AQUA_AFFINITY io.papermc.paper.registry.TypedKey
+---@field public BANE_OF_ARTHROPODS io.papermc.paper.registry.TypedKey
+---@field public BINDING_CURSE io.papermc.paper.registry.TypedKey
+---@field public BLAST_PROTECTION io.papermc.paper.registry.TypedKey
+---@field public BREACH io.papermc.paper.registry.TypedKey
+---@field public CHANNELING io.papermc.paper.registry.TypedKey
+---@field public DENSITY io.papermc.paper.registry.TypedKey
+---@field public DEPTH_STRIDER io.papermc.paper.registry.TypedKey
+---@field public EFFICIENCY io.papermc.paper.registry.TypedKey
+---@field public FEATHER_FALLING io.papermc.paper.registry.TypedKey
+---@field public FIRE_ASPECT io.papermc.paper.registry.TypedKey
+---@field public FIRE_PROTECTION io.papermc.paper.registry.TypedKey
+---@field public FLAME io.papermc.paper.registry.TypedKey
+---@field public FORTUNE io.papermc.paper.registry.TypedKey
+---@field public FROST_WALKER io.papermc.paper.registry.TypedKey
+---@field public IMPALING io.papermc.paper.registry.TypedKey
+---@field public INFINITY io.papermc.paper.registry.TypedKey
+---@field public KNOCKBACK io.papermc.paper.registry.TypedKey
+---@field public LOOTING io.papermc.paper.registry.TypedKey
+---@field public LOYALTY io.papermc.paper.registry.TypedKey
+---@field public LUCK_OF_THE_SEA io.papermc.paper.registry.TypedKey
+---@field public LURE io.papermc.paper.registry.TypedKey
+---@field public MENDING io.papermc.paper.registry.TypedKey
+---@field public MULTISHOT io.papermc.paper.registry.TypedKey
+---@field public PIERCING io.papermc.paper.registry.TypedKey
+---@field public POWER io.papermc.paper.registry.TypedKey
+---@field public PROJECTILE_PROTECTION io.papermc.paper.registry.TypedKey
+---@field public PROTECTION io.papermc.paper.registry.TypedKey
+---@field public PUNCH io.papermc.paper.registry.TypedKey
+---@field public QUICK_CHARGE io.papermc.paper.registry.TypedKey
+---@field public RESPIRATION io.papermc.paper.registry.TypedKey
+---@field public RIPTIDE io.papermc.paper.registry.TypedKey
+---@field public SHARPNESS io.papermc.paper.registry.TypedKey
+---@field public SILK_TOUCH io.papermc.paper.registry.TypedKey
+---@field public SMITE io.papermc.paper.registry.TypedKey
+---@field public SOUL_SPEED io.papermc.paper.registry.TypedKey
+---@field public SWEEPING_EDGE io.papermc.paper.registry.TypedKey
+---@field public SWIFT_SNEAK io.papermc.paper.registry.TypedKey
+---@field public THORNS io.papermc.paper.registry.TypedKey
+---@field public UNBREAKING io.papermc.paper.registry.TypedKey
+---@field public VANISHING_CURSE io.papermc.paper.registry.TypedKey
+---@field public WIND_BURST io.papermc.paper.registry.TypedKey
+---@overload fun(): EnchantmentKeys
+local EnchantmentKeys = {}
+
+---@param key any the value's key in the registry
+---@public
+---@return io.papermc.paper.registry.TypedKey a new typed key
+--- Creates a typed key for {@link Enchantment} in the registry {@code minecraft:enchantment}.
+function EnchantmentKeys:create(key) end
+

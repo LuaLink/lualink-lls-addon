@@ -1,0 +1,28 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.ChatColor
+---@class org.bukkit.ChatColor
+---@field public BLACK ChatColor
+---@field public DARK_BLUE ChatColor
+---@field public DARK_GREEN ChatColor
+---@field public DARK_AQUA ChatColor
+---@field public DARK_RED ChatColor
+---@field public DARK_PURPLE ChatColor
+---@field public GOLD ChatColor
+---@field public GRAY ChatColor
+---@field public DARK_GRAY ChatColor
+---@field public BLUE ChatColor
+---@field public GREEN ChatColor
+---@field public AQUA ChatColor
+---@field public RED ChatColor
+---@field public LIGHT_PURPLE ChatColor
+---@field public YELLOW ChatColor
+---@field public WHITE ChatColor
+---@field public MAGIC ChatColor
+---@field public BOLD ChatColor
+---@field public STRIKETHROUGH ChatColor
+---@field public UNDERLINE ChatColor
+---@field public ITALIC ChatColor
+---@field public RESET ChatColor
+local ChatColor = {}
+

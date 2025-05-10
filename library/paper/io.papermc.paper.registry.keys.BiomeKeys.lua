@@ -1,0 +1,78 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.BiomeKeys
+---@class io.papermc.paper.registry.keys.BiomeKeys
+---@field public BADLANDS io.papermc.paper.registry.TypedKey
+---@field public BAMBOO_JUNGLE io.papermc.paper.registry.TypedKey
+---@field public BASALT_DELTAS io.papermc.paper.registry.TypedKey
+---@field public BEACH io.papermc.paper.registry.TypedKey
+---@field public BIRCH_FOREST io.papermc.paper.registry.TypedKey
+---@field public CHERRY_GROVE io.papermc.paper.registry.TypedKey
+---@field public COLD_OCEAN io.papermc.paper.registry.TypedKey
+---@field public CRIMSON_FOREST io.papermc.paper.registry.TypedKey
+---@field public DARK_FOREST io.papermc.paper.registry.TypedKey
+---@field public DEEP_COLD_OCEAN io.papermc.paper.registry.TypedKey
+---@field public DEEP_DARK io.papermc.paper.registry.TypedKey
+---@field public DEEP_FROZEN_OCEAN io.papermc.paper.registry.TypedKey
+---@field public DEEP_LUKEWARM_OCEAN io.papermc.paper.registry.TypedKey
+---@field public DEEP_OCEAN io.papermc.paper.registry.TypedKey
+---@field public DESERT io.papermc.paper.registry.TypedKey
+---@field public DRIPSTONE_CAVES io.papermc.paper.registry.TypedKey
+---@field public END_BARRENS io.papermc.paper.registry.TypedKey
+---@field public END_HIGHLANDS io.papermc.paper.registry.TypedKey
+---@field public END_MIDLANDS io.papermc.paper.registry.TypedKey
+---@field public ERODED_BADLANDS io.papermc.paper.registry.TypedKey
+---@field public FLOWER_FOREST io.papermc.paper.registry.TypedKey
+---@field public FOREST io.papermc.paper.registry.TypedKey
+---@field public FROZEN_OCEAN io.papermc.paper.registry.TypedKey
+---@field public FROZEN_PEAKS io.papermc.paper.registry.TypedKey
+---@field public FROZEN_RIVER io.papermc.paper.registry.TypedKey
+---@field public GROVE io.papermc.paper.registry.TypedKey
+---@field public ICE_SPIKES io.papermc.paper.registry.TypedKey
+---@field public JAGGED_PEAKS io.papermc.paper.registry.TypedKey
+---@field public JUNGLE io.papermc.paper.registry.TypedKey
+---@field public LUKEWARM_OCEAN io.papermc.paper.registry.TypedKey
+---@field public LUSH_CAVES io.papermc.paper.registry.TypedKey
+---@field public MANGROVE_SWAMP io.papermc.paper.registry.TypedKey
+---@field public MEADOW io.papermc.paper.registry.TypedKey
+---@field public MUSHROOM_FIELDS io.papermc.paper.registry.TypedKey
+---@field public NETHER_WASTES io.papermc.paper.registry.TypedKey
+---@field public OCEAN io.papermc.paper.registry.TypedKey
+---@field public OLD_GROWTH_BIRCH_FOREST io.papermc.paper.registry.TypedKey
+---@field public OLD_GROWTH_PINE_TAIGA io.papermc.paper.registry.TypedKey
+---@field public OLD_GROWTH_SPRUCE_TAIGA io.papermc.paper.registry.TypedKey
+---@field public PALE_GARDEN io.papermc.paper.registry.TypedKey
+---@field public PLAINS io.papermc.paper.registry.TypedKey
+---@field public RIVER io.papermc.paper.registry.TypedKey
+---@field public SAVANNA io.papermc.paper.registry.TypedKey
+---@field public SAVANNA_PLATEAU io.papermc.paper.registry.TypedKey
+---@field public SMALL_END_ISLANDS io.papermc.paper.registry.TypedKey
+---@field public SNOWY_BEACH io.papermc.paper.registry.TypedKey
+---@field public SNOWY_PLAINS io.papermc.paper.registry.TypedKey
+---@field public SNOWY_SLOPES io.papermc.paper.registry.TypedKey
+---@field public SNOWY_TAIGA io.papermc.paper.registry.TypedKey
+---@field public SOUL_SAND_VALLEY io.papermc.paper.registry.TypedKey
+---@field public SPARSE_JUNGLE io.papermc.paper.registry.TypedKey
+---@field public STONY_PEAKS io.papermc.paper.registry.TypedKey
+---@field public STONY_SHORE io.papermc.paper.registry.TypedKey
+---@field public SUNFLOWER_PLAINS io.papermc.paper.registry.TypedKey
+---@field public SWAMP io.papermc.paper.registry.TypedKey
+---@field public TAIGA io.papermc.paper.registry.TypedKey
+---@field public THE_END io.papermc.paper.registry.TypedKey
+---@field public THE_VOID io.papermc.paper.registry.TypedKey
+---@field public WARM_OCEAN io.papermc.paper.registry.TypedKey
+---@field public WARPED_FOREST io.papermc.paper.registry.TypedKey
+---@field public WINDSWEPT_FOREST io.papermc.paper.registry.TypedKey
+---@field public WINDSWEPT_GRAVELLY_HILLS io.papermc.paper.registry.TypedKey
+---@field public WINDSWEPT_HILLS io.papermc.paper.registry.TypedKey
+---@field public WINDSWEPT_SAVANNA io.papermc.paper.registry.TypedKey
+---@field public WOODED_BADLANDS io.papermc.paper.registry.TypedKey
+---@overload fun(): BiomeKeys
+local BiomeKeys = {}
+
+---@param key any the value's key in the registry
+---@public
+---@return io.papermc.paper.registry.TypedKey a new typed key
+--- Creates a typed key for {@link Biome} in the registry {@code minecraft:worldgen/biome}.
+function BiomeKeys:create(key) end
+

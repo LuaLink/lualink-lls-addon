@@ -1,0 +1,49 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.tags.EnchantmentTagKeys
+---@class io.papermc.paper.registry.keys.tags.EnchantmentTagKeys
+---@field public CURSE io.papermc.paper.registry.tag.TagKey
+---@field public DOUBLE_TRADE_PRICE io.papermc.paper.registry.tag.TagKey
+---@field public EXCLUSIVE_SET_ARMOR io.papermc.paper.registry.tag.TagKey
+---@field public EXCLUSIVE_SET_BOOTS io.papermc.paper.registry.tag.TagKey
+---@field public EXCLUSIVE_SET_BOW io.papermc.paper.registry.tag.TagKey
+---@field public EXCLUSIVE_SET_CROSSBOW io.papermc.paper.registry.tag.TagKey
+---@field public EXCLUSIVE_SET_DAMAGE io.papermc.paper.registry.tag.TagKey
+---@field public EXCLUSIVE_SET_MINING io.papermc.paper.registry.tag.TagKey
+---@field public EXCLUSIVE_SET_RIPTIDE io.papermc.paper.registry.tag.TagKey
+---@field public IN_ENCHANTING_TABLE io.papermc.paper.registry.tag.TagKey
+---@field public NON_TREASURE io.papermc.paper.registry.tag.TagKey
+---@field public ON_MOB_SPAWN_EQUIPMENT io.papermc.paper.registry.tag.TagKey
+---@field public ON_RANDOM_LOOT io.papermc.paper.registry.tag.TagKey
+---@field public ON_TRADED_EQUIPMENT io.papermc.paper.registry.tag.TagKey
+---@field public PREVENTS_BEE_SPAWNS_WHEN_MINING io.papermc.paper.registry.tag.TagKey
+---@field public PREVENTS_DECORATED_POT_SHATTERING io.papermc.paper.registry.tag.TagKey
+---@field public PREVENTS_ICE_MELTING io.papermc.paper.registry.tag.TagKey
+---@field public PREVENTS_INFESTED_SPAWNS io.papermc.paper.registry.tag.TagKey
+---@field public SMELTS_LOOT io.papermc.paper.registry.tag.TagKey
+---@field public TOOLTIP_ORDER io.papermc.paper.registry.tag.TagKey
+---@field public TRADEABLE io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_DESERT_COMMON io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_DESERT_SPECIAL io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_JUNGLE_COMMON io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_JUNGLE_SPECIAL io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_PLAINS_COMMON io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_PLAINS_SPECIAL io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_SAVANNA_COMMON io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_SAVANNA_SPECIAL io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_SNOW_COMMON io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_SNOW_SPECIAL io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_SWAMP_COMMON io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_SWAMP_SPECIAL io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_TAIGA_COMMON io.papermc.paper.registry.tag.TagKey
+---@field public TRADES_TAIGA_SPECIAL io.papermc.paper.registry.tag.TagKey
+---@field public TREASURE io.papermc.paper.registry.tag.TagKey
+---@overload fun(): EnchantmentTagKeys
+local EnchantmentTagKeys = {}
+
+---@param key any the tag key's key
+---@public
+---@return io.papermc.paper.registry.tag.TagKey a new tag key
+--- Creates a tag key for {@link Enchantment} in the registry {@code minecraft:enchantment}.
+function EnchantmentTagKeys:create(key) end
+

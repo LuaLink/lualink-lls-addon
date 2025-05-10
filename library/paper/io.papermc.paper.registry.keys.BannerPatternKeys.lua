@@ -1,0 +1,56 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.BannerPatternKeys
+---@class io.papermc.paper.registry.keys.BannerPatternKeys
+---@field public BASE io.papermc.paper.registry.TypedKey
+---@field public BORDER io.papermc.paper.registry.TypedKey
+---@field public BRICKS io.papermc.paper.registry.TypedKey
+---@field public CIRCLE io.papermc.paper.registry.TypedKey
+---@field public CREEPER io.papermc.paper.registry.TypedKey
+---@field public CROSS io.papermc.paper.registry.TypedKey
+---@field public CURLY_BORDER io.papermc.paper.registry.TypedKey
+---@field public DIAGONAL_LEFT io.papermc.paper.registry.TypedKey
+---@field public DIAGONAL_RIGHT io.papermc.paper.registry.TypedKey
+---@field public DIAGONAL_UP_LEFT io.papermc.paper.registry.TypedKey
+---@field public DIAGONAL_UP_RIGHT io.papermc.paper.registry.TypedKey
+---@field public FLOW io.papermc.paper.registry.TypedKey
+---@field public FLOWER io.papermc.paper.registry.TypedKey
+---@field public GLOBE io.papermc.paper.registry.TypedKey
+---@field public GRADIENT io.papermc.paper.registry.TypedKey
+---@field public GRADIENT_UP io.papermc.paper.registry.TypedKey
+---@field public GUSTER io.papermc.paper.registry.TypedKey
+---@field public HALF_HORIZONTAL io.papermc.paper.registry.TypedKey
+---@field public HALF_HORIZONTAL_BOTTOM io.papermc.paper.registry.TypedKey
+---@field public HALF_VERTICAL io.papermc.paper.registry.TypedKey
+---@field public HALF_VERTICAL_RIGHT io.papermc.paper.registry.TypedKey
+---@field public MOJANG io.papermc.paper.registry.TypedKey
+---@field public PIGLIN io.papermc.paper.registry.TypedKey
+---@field public RHOMBUS io.papermc.paper.registry.TypedKey
+---@field public SKULL io.papermc.paper.registry.TypedKey
+---@field public SMALL_STRIPES io.papermc.paper.registry.TypedKey
+---@field public SQUARE_BOTTOM_LEFT io.papermc.paper.registry.TypedKey
+---@field public SQUARE_BOTTOM_RIGHT io.papermc.paper.registry.TypedKey
+---@field public SQUARE_TOP_LEFT io.papermc.paper.registry.TypedKey
+---@field public SQUARE_TOP_RIGHT io.papermc.paper.registry.TypedKey
+---@field public STRAIGHT_CROSS io.papermc.paper.registry.TypedKey
+---@field public STRIPE_BOTTOM io.papermc.paper.registry.TypedKey
+---@field public STRIPE_CENTER io.papermc.paper.registry.TypedKey
+---@field public STRIPE_DOWNLEFT io.papermc.paper.registry.TypedKey
+---@field public STRIPE_DOWNRIGHT io.papermc.paper.registry.TypedKey
+---@field public STRIPE_LEFT io.papermc.paper.registry.TypedKey
+---@field public STRIPE_MIDDLE io.papermc.paper.registry.TypedKey
+---@field public STRIPE_RIGHT io.papermc.paper.registry.TypedKey
+---@field public STRIPE_TOP io.papermc.paper.registry.TypedKey
+---@field public TRIANGLE_BOTTOM io.papermc.paper.registry.TypedKey
+---@field public TRIANGLE_TOP io.papermc.paper.registry.TypedKey
+---@field public TRIANGLES_BOTTOM io.papermc.paper.registry.TypedKey
+---@field public TRIANGLES_TOP io.papermc.paper.registry.TypedKey
+---@overload fun(): BannerPatternKeys
+local BannerPatternKeys = {}
+
+---@param key any the value's key in the registry
+---@public
+---@return io.papermc.paper.registry.TypedKey a new typed key
+--- Creates a typed key for {@link PatternType} in the registry {@code minecraft:banner_pattern}.
+function BannerPatternKeys:create(key) end
+

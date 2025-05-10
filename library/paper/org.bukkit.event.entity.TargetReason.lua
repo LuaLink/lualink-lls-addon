@@ -1,0 +1,25 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.event.entity.TargetReason
+---@class org.bukkit.event.entity.TargetReason
+---@field public TARGET_DIED TargetReason
+---@field public CLOSEST_PLAYER TargetReason
+---@field public TARGET_ATTACKED_ENTITY TargetReason
+---@field public PIG_ZOMBIE_TARGET TargetReason
+---@field public FORGOT_TARGET TargetReason
+---@field public TARGET_ATTACKED_OWNER TargetReason
+---@field public OWNER_ATTACKED_TARGET TargetReason
+---@field public RANDOM_TARGET TargetReason
+---@field public DEFEND_VILLAGE TargetReason
+---@field public TARGET_ATTACKED_NEARBY_ENTITY TargetReason
+---@field public REINFORCEMENT_TARGET TargetReason
+---@field public COLLISION TargetReason
+---@field public CUSTOM TargetReason
+---@field public CLOSEST_ENTITY TargetReason
+---@field public FOLLOW_LEADER TargetReason
+---@field public TEMPT TargetReason
+---@field public TARGET_OTHER_LEVEL TargetReason
+---@field public TARGET_INVALID TargetReason
+---@field public UNKNOWN TargetReason
+local TargetReason = {}
+

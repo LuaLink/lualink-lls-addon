@@ -1,0 +1,47 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.StructureKeys
+---@class io.papermc.paper.registry.keys.StructureKeys
+---@field public ANCIENT_CITY io.papermc.paper.registry.TypedKey
+---@field public BASTION_REMNANT io.papermc.paper.registry.TypedKey
+---@field public BURIED_TREASURE io.papermc.paper.registry.TypedKey
+---@field public DESERT_PYRAMID io.papermc.paper.registry.TypedKey
+---@field public END_CITY io.papermc.paper.registry.TypedKey
+---@field public FORTRESS io.papermc.paper.registry.TypedKey
+---@field public IGLOO io.papermc.paper.registry.TypedKey
+---@field public JUNGLE_PYRAMID io.papermc.paper.registry.TypedKey
+---@field public MANSION io.papermc.paper.registry.TypedKey
+---@field public MINESHAFT io.papermc.paper.registry.TypedKey
+---@field public MINESHAFT_MESA io.papermc.paper.registry.TypedKey
+---@field public MONUMENT io.papermc.paper.registry.TypedKey
+---@field public NETHER_FOSSIL io.papermc.paper.registry.TypedKey
+---@field public OCEAN_RUIN_COLD io.papermc.paper.registry.TypedKey
+---@field public OCEAN_RUIN_WARM io.papermc.paper.registry.TypedKey
+---@field public PILLAGER_OUTPOST io.papermc.paper.registry.TypedKey
+---@field public RUINED_PORTAL io.papermc.paper.registry.TypedKey
+---@field public RUINED_PORTAL_DESERT io.papermc.paper.registry.TypedKey
+---@field public RUINED_PORTAL_JUNGLE io.papermc.paper.registry.TypedKey
+---@field public RUINED_PORTAL_MOUNTAIN io.papermc.paper.registry.TypedKey
+---@field public RUINED_PORTAL_NETHER io.papermc.paper.registry.TypedKey
+---@field public RUINED_PORTAL_OCEAN io.papermc.paper.registry.TypedKey
+---@field public RUINED_PORTAL_SWAMP io.papermc.paper.registry.TypedKey
+---@field public SHIPWRECK io.papermc.paper.registry.TypedKey
+---@field public SHIPWRECK_BEACHED io.papermc.paper.registry.TypedKey
+---@field public STRONGHOLD io.papermc.paper.registry.TypedKey
+---@field public SWAMP_HUT io.papermc.paper.registry.TypedKey
+---@field public TRAIL_RUINS io.papermc.paper.registry.TypedKey
+---@field public TRIAL_CHAMBERS io.papermc.paper.registry.TypedKey
+---@field public VILLAGE_DESERT io.papermc.paper.registry.TypedKey
+---@field public VILLAGE_PLAINS io.papermc.paper.registry.TypedKey
+---@field public VILLAGE_SAVANNA io.papermc.paper.registry.TypedKey
+---@field public VILLAGE_SNOWY io.papermc.paper.registry.TypedKey
+---@field public VILLAGE_TAIGA io.papermc.paper.registry.TypedKey
+---@overload fun(): StructureKeys
+local StructureKeys = {}
+
+---@param key any the value's key in the registry
+---@public
+---@return io.papermc.paper.registry.TypedKey a new typed key
+--- Creates a typed key for {@link Structure} in the registry {@code minecraft:worldgen/structure}.
+function StructureKeys:create(key) end
+

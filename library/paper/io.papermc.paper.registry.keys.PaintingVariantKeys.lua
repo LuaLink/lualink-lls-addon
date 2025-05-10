@@ -1,0 +1,63 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.PaintingVariantKeys
+---@class io.papermc.paper.registry.keys.PaintingVariantKeys
+---@field public ALBAN io.papermc.paper.registry.TypedKey
+---@field public AZTEC io.papermc.paper.registry.TypedKey
+---@field public AZTEC2 io.papermc.paper.registry.TypedKey
+---@field public BACKYARD io.papermc.paper.registry.TypedKey
+---@field public BAROQUE io.papermc.paper.registry.TypedKey
+---@field public BOMB io.papermc.paper.registry.TypedKey
+---@field public BOUQUET io.papermc.paper.registry.TypedKey
+---@field public BURNING_SKULL io.papermc.paper.registry.TypedKey
+---@field public BUST io.papermc.paper.registry.TypedKey
+---@field public CAVEBIRD io.papermc.paper.registry.TypedKey
+---@field public CHANGING io.papermc.paper.registry.TypedKey
+---@field public COTAN io.papermc.paper.registry.TypedKey
+---@field public COURBET io.papermc.paper.registry.TypedKey
+---@field public CREEBET io.papermc.paper.registry.TypedKey
+---@field public DONKEY_KONG io.papermc.paper.registry.TypedKey
+---@field public EARTH io.papermc.paper.registry.TypedKey
+---@field public ENDBOSS io.papermc.paper.registry.TypedKey
+---@field public FERN io.papermc.paper.registry.TypedKey
+---@field public FIGHTERS io.papermc.paper.registry.TypedKey
+---@field public FINDING io.papermc.paper.registry.TypedKey
+---@field public FIRE io.papermc.paper.registry.TypedKey
+---@field public GRAHAM io.papermc.paper.registry.TypedKey
+---@field public HUMBLE io.papermc.paper.registry.TypedKey
+---@field public KEBAB io.papermc.paper.registry.TypedKey
+---@field public LOWMIST io.papermc.paper.registry.TypedKey
+---@field public MATCH io.papermc.paper.registry.TypedKey
+---@field public MEDITATIVE io.papermc.paper.registry.TypedKey
+---@field public ORB io.papermc.paper.registry.TypedKey
+---@field public OWLEMONS io.papermc.paper.registry.TypedKey
+---@field public PASSAGE io.papermc.paper.registry.TypedKey
+---@field public PIGSCENE io.papermc.paper.registry.TypedKey
+---@field public PLANT io.papermc.paper.registry.TypedKey
+---@field public POINTER io.papermc.paper.registry.TypedKey
+---@field public POND io.papermc.paper.registry.TypedKey
+---@field public POOL io.papermc.paper.registry.TypedKey
+---@field public PRAIRIE_RIDE io.papermc.paper.registry.TypedKey
+---@field public SEA io.papermc.paper.registry.TypedKey
+---@field public SKELETON io.papermc.paper.registry.TypedKey
+---@field public SKULL_AND_ROSES io.papermc.paper.registry.TypedKey
+---@field public STAGE io.papermc.paper.registry.TypedKey
+---@field public SUNFLOWERS io.papermc.paper.registry.TypedKey
+---@field public SUNSET io.papermc.paper.registry.TypedKey
+---@field public TIDES io.papermc.paper.registry.TypedKey
+---@field public UNPACKED io.papermc.paper.registry.TypedKey
+---@field public VOID io.papermc.paper.registry.TypedKey
+---@field public WANDERER io.papermc.paper.registry.TypedKey
+---@field public WASTELAND io.papermc.paper.registry.TypedKey
+---@field public WATER io.papermc.paper.registry.TypedKey
+---@field public WIND io.papermc.paper.registry.TypedKey
+---@field public WITHER io.papermc.paper.registry.TypedKey
+---@overload fun(): PaintingVariantKeys
+local PaintingVariantKeys = {}
+
+---@param key any the value's key in the registry
+---@public
+---@return io.papermc.paper.registry.TypedKey a new typed key
+--- Creates a typed key for {@link Art} in the registry {@code minecraft:painting_variant}.
+function PaintingVariantKeys:create(key) end
+

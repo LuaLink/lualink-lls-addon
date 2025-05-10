@@ -1,0 +1,29 @@
+---@meta
+-- net.kyori.adventure.text.minimessage.tag.InsertingImpl
+---@class net.kyori.adventure.text.minimessage.tag.InsertingImpl: net.kyori.adventure.text.minimessage.tag.AbstractTag, net.kyori.adventure.text.minimessage.tag.Inserting
+---@field private allowsChildren boolean
+---@field private value net.kyori.adventure.text.Component
+---@overload fun(allowsChildren: boolean, value: Component): InsertingImpl
+local InsertingImpl = {}
+
+---@public
+---@return boolean 
+function InsertingImpl:allowsChildren() end
+
+---@public
+---@return net.kyori.adventure.text.Component 
+function InsertingImpl:value() end
+
+---@public
+---@return number 
+function InsertingImpl:hashCode() end
+
+---@param other java.lang.Object 
+---@public
+---@return boolean 
+function InsertingImpl:equals(other) end
+
+---@public
+---@return any 
+function InsertingImpl:examinableProperties() end
+

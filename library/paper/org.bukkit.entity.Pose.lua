@@ -1,0 +1,24 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.entity.Pose
+---@class org.bukkit.entity.Pose
+---@field public STANDING Pose
+---@field public FALL_FLYING Pose
+---@field public SLEEPING Pose
+---@field public SWIMMING Pose
+---@field public SPIN_ATTACK Pose
+---@field public SNEAKING Pose
+---@field public LONG_JUMPING Pose
+---@field public DYING Pose
+---@field public CROAKING Pose
+---@field public USING_TONGUE Pose
+---@field public SITTING Pose
+---@field public ROARING Pose
+---@field public SNIFFING Pose
+---@field public EMERGING Pose
+---@field public DIGGING Pose
+---@field public SLIDING Pose
+---@field public SHOOTING Pose
+---@field public INHALING Pose
+local Pose = {}
+

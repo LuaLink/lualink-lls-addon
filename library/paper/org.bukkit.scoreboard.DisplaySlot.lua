@@ -1,0 +1,25 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.scoreboard.DisplaySlot
+---@class org.bukkit.scoreboard.DisplaySlot
+---@field public PLAYER_LIST DisplaySlot
+---@field public SIDEBAR DisplaySlot
+---@field public BELOW_NAME DisplaySlot
+---@field public SIDEBAR_TEAM_BLACK DisplaySlot
+---@field public SIDEBAR_TEAM_DARK_BLUE DisplaySlot
+---@field public SIDEBAR_TEAM_DARK_GREEN DisplaySlot
+---@field public SIDEBAR_TEAM_DARK_AQUA DisplaySlot
+---@field public SIDEBAR_TEAM_DARK_RED DisplaySlot
+---@field public SIDEBAR_TEAM_DARK_PURPLE DisplaySlot
+---@field public SIDEBAR_TEAM_GOLD DisplaySlot
+---@field public SIDEBAR_TEAM_GRAY DisplaySlot
+---@field public SIDEBAR_TEAM_DARK_GRAY DisplaySlot
+---@field public SIDEBAR_TEAM_BLUE DisplaySlot
+---@field public SIDEBAR_TEAM_GREEN DisplaySlot
+---@field public SIDEBAR_TEAM_AQUA DisplaySlot
+---@field public SIDEBAR_TEAM_RED DisplaySlot
+---@field public SIDEBAR_TEAM_LIGHT_PURPLE DisplaySlot
+---@field public SIDEBAR_TEAM_YELLOW DisplaySlot
+---@field public SIDEBAR_TEAM_WHITE DisplaySlot
+local DisplaySlot = {}
+

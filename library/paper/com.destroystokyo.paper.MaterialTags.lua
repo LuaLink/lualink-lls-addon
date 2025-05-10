@@ -1,0 +1,107 @@
+--- Optional.empty
+---@meta
+-- com.destroystokyo.paper.MaterialTags
+---@class com.destroystokyo.paper.MaterialTags
+---@field public ARROWS com.destroystokyo.paper.MaterialSetTag
+---@field public BEDS com.destroystokyo.paper.MaterialSetTag
+---@field public BUCKETS com.destroystokyo.paper.MaterialSetTag
+---@field public COALS com.destroystokyo.paper.MaterialSetTag
+---@field public COBBLESTONE_WALLS com.destroystokyo.paper.MaterialSetTag
+---@field public COBBLESTONES com.destroystokyo.paper.MaterialSetTag
+---@field public CONCRETES com.destroystokyo.paper.MaterialSetTag
+---@field public CONCRETE_POWDER com.destroystokyo.paper.MaterialSetTag
+---@field public COOKED_FISH com.destroystokyo.paper.MaterialSetTag
+---@field public DOORS com.destroystokyo.paper.MaterialSetTag
+---@field public DYES com.destroystokyo.paper.MaterialSetTag
+---@field public FENCE_GATES com.destroystokyo.paper.MaterialSetTag
+---@field public FENCES com.destroystokyo.paper.MaterialSetTag
+---@field public FISH_BUCKETS com.destroystokyo.paper.MaterialSetTag
+---@field public GLASS com.destroystokyo.paper.MaterialSetTag
+---@field public GLASS_PANES com.destroystokyo.paper.MaterialSetTag
+---@field public GLAZED_TERRACOTTA com.destroystokyo.paper.MaterialSetTag
+---@field public STAINED_TERRACOTTA com.destroystokyo.paper.MaterialSetTag
+---@field public TERRACOTTA com.destroystokyo.paper.MaterialSetTag
+---@field public GOLDEN_APPLES com.destroystokyo.paper.MaterialSetTag
+---@field public HORSE_ARMORS com.destroystokyo.paper.MaterialSetTag
+---@field public INFESTED_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public MUSHROOM_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public MUSHROOMS com.destroystokyo.paper.MaterialSetTag
+---@field public MUSIC_DISCS com.destroystokyo.paper.MaterialSetTag
+---@field public ORES com.destroystokyo.paper.MaterialSetTag
+---@field public PISTONS com.destroystokyo.paper.MaterialSetTag
+---@field public POTATOES com.destroystokyo.paper.MaterialSetTag
+---@field public PRESSURE_PLATES com.destroystokyo.paper.MaterialSetTag
+---@field public PRISMARINE com.destroystokyo.paper.MaterialSetTag
+---@field public PRISMARINE_SLABS com.destroystokyo.paper.MaterialSetTag
+---@field public PRISMARINE_STAIRS com.destroystokyo.paper.MaterialSetTag
+---@field public PUMPKINS com.destroystokyo.paper.MaterialSetTag
+---@field public QUARTZ_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public RAW_FISH com.destroystokyo.paper.MaterialSetTag
+---@field public RED_SANDSTONES com.destroystokyo.paper.MaterialSetTag
+---@field public SANDSTONES com.destroystokyo.paper.MaterialSetTag
+---@field public SPONGES com.destroystokyo.paper.MaterialSetTag
+---@field public SHULKER_BOXES com.destroystokyo.paper.MaterialSetTag
+---@field public SKULLS com.destroystokyo.paper.MaterialSetTag
+---@field public SPAWN_EGGS com.destroystokyo.paper.MaterialSetTag
+---@field public STAINED_GLASS com.destroystokyo.paper.MaterialSetTag
+---@field public STAINED_GLASS_PANES com.destroystokyo.paper.MaterialSetTag
+---@field public TRAPDOORS com.destroystokyo.paper.MaterialSetTag
+---@field public WOODEN_DOORS com.destroystokyo.paper.MaterialSetTag
+---@field public WOODEN_FENCES com.destroystokyo.paper.MaterialSetTag
+---@field public WOODEN_TRAPDOORS com.destroystokyo.paper.MaterialSetTag
+---@field public WOODEN_GATES com.destroystokyo.paper.MaterialSetTag
+---@field public PURPUR com.destroystokyo.paper.MaterialSetTag
+---@field public SIGNS com.destroystokyo.paper.MaterialSetTag
+---@field public TORCH com.destroystokyo.paper.MaterialSetTag
+---@field public REDSTONE_TORCH com.destroystokyo.paper.MaterialSetTag
+---@field public SOUL_TORCH com.destroystokyo.paper.MaterialSetTag
+---@field public TORCHES com.destroystokyo.paper.MaterialSetTag
+---@field public LANTERNS com.destroystokyo.paper.MaterialSetTag
+---@field public RAILS com.destroystokyo.paper.MaterialSetTag
+---@field public SWORDS com.destroystokyo.paper.MaterialSetTag
+---@field public SHOVELS com.destroystokyo.paper.MaterialSetTag
+---@field public PICKAXES com.destroystokyo.paper.MaterialSetTag
+---@field public AXES com.destroystokyo.paper.MaterialSetTag
+---@field public HOES com.destroystokyo.paper.MaterialSetTag
+---@field public HELMETS com.destroystokyo.paper.MaterialSetTag
+---@field public HEAD_EQUIPPABLE com.destroystokyo.paper.MaterialSetTag
+---@field public CHESTPLATES com.destroystokyo.paper.MaterialSetTag
+---@field public CHEST_EQUIPPABLE com.destroystokyo.paper.MaterialSetTag
+---@field public LEGGINGS com.destroystokyo.paper.MaterialSetTag
+---@field public BOOTS com.destroystokyo.paper.MaterialSetTag
+---@field public ARMOR com.destroystokyo.paper.MaterialSetTag
+---@field public BOWS com.destroystokyo.paper.MaterialSetTag
+---@field public THROWABLE_PROJECTILES com.destroystokyo.paper.MaterialSetTag
+---@field public COLORABLE com.destroystokyo.paper.MaterialSetTag
+---@field public CORAL com.destroystokyo.paper.MaterialSetTag
+---@field public CORAL_FANS com.destroystokyo.paper.MaterialSetTag
+---@field public CORAL_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public ENCHANTABLE com.destroystokyo.paper.MaterialSetTag
+---@field public RAW_ORES com.destroystokyo.paper.MaterialSetTag
+---@field public COMMAND_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public DEEPSLATE_ORES com.destroystokyo.paper.MaterialSetTag
+---@field public RAW_ORE_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public OXIDIZED_COPPER_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public WEATHERED_COPPER_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public EXPOSED_COPPER_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public UNAFFECTED_COPPER_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public WAXED_COPPER_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public UNWAXED_COPPER_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public COPPER_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public FULL_COPPER_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public CUT_COPPER_BLOCKS com.destroystokyo.paper.MaterialSetTag
+---@field public CUT_COPPER_STAIRS com.destroystokyo.paper.MaterialSetTag
+---@field public CUT_COPPER_SLABS com.destroystokyo.paper.MaterialSetTag
+---@field public WOODEN_TOOLS com.destroystokyo.paper.MaterialSetTag
+---@field public STONE_TOOLS com.destroystokyo.paper.MaterialSetTag
+---@field public IRON_TOOLS com.destroystokyo.paper.MaterialSetTag
+---@field public GOLDEN_TOOLS com.destroystokyo.paper.MaterialSetTag
+---@field public DIAMOND_TOOLS com.destroystokyo.paper.MaterialSetTag
+---@field public NETHERITE_TOOLS com.destroystokyo.paper.MaterialSetTag
+local MaterialTags = {}
+
+---@param key string 
+---@private
+---@return org.bukkit.NamespacedKey 
+function MaterialTags:keyFor(key) end
+

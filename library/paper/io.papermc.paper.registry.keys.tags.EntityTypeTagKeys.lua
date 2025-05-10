@@ -1,0 +1,50 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.tags.EntityTypeTagKeys
+---@class io.papermc.paper.registry.keys.tags.EntityTypeTagKeys
+---@field public AQUATIC io.papermc.paper.registry.tag.TagKey
+---@field public ARROWS io.papermc.paper.registry.tag.TagKey
+---@field public ARTHROPOD io.papermc.paper.registry.tag.TagKey
+---@field public AXOLOTL_ALWAYS_HOSTILES io.papermc.paper.registry.tag.TagKey
+---@field public AXOLOTL_HUNT_TARGETS io.papermc.paper.registry.tag.TagKey
+---@field public BEEHIVE_INHABITORS io.papermc.paper.registry.tag.TagKey
+---@field public BOAT io.papermc.paper.registry.tag.TagKey
+---@field public CAN_BREATHE_UNDER_WATER io.papermc.paper.registry.tag.TagKey
+---@field public CAN_EQUIP_SADDLE io.papermc.paper.registry.tag.TagKey
+---@field public CAN_TURN_IN_BOATS io.papermc.paper.registry.tag.TagKey
+---@field public CAN_WEAR_HORSE_ARMOR io.papermc.paper.registry.tag.TagKey
+---@field public DEFLECTS_PROJECTILES io.papermc.paper.registry.tag.TagKey
+---@field public DISMOUNTS_UNDERWATER io.papermc.paper.registry.tag.TagKey
+---@field public FALL_DAMAGE_IMMUNE io.papermc.paper.registry.tag.TagKey
+---@field public FREEZE_HURTS_EXTRA_TYPES io.papermc.paper.registry.tag.TagKey
+---@field public FREEZE_IMMUNE_ENTITY_TYPES io.papermc.paper.registry.tag.TagKey
+---@field public FROG_FOOD io.papermc.paper.registry.tag.TagKey
+---@field public IGNORES_POISON_AND_REGEN io.papermc.paper.registry.tag.TagKey
+---@field public ILLAGER io.papermc.paper.registry.tag.TagKey
+---@field public ILLAGER_FRIENDS io.papermc.paper.registry.tag.TagKey
+---@field public IMMUNE_TO_INFESTED io.papermc.paper.registry.tag.TagKey
+---@field public IMMUNE_TO_OOZING io.papermc.paper.registry.tag.TagKey
+---@field public IMPACT_PROJECTILES io.papermc.paper.registry.tag.TagKey
+---@field public INVERTED_HEALING_AND_HARM io.papermc.paper.registry.tag.TagKey
+---@field public NO_ANGER_FROM_WIND_CHARGE io.papermc.paper.registry.tag.TagKey
+---@field public NON_CONTROLLING_RIDER io.papermc.paper.registry.tag.TagKey
+---@field public NOT_SCARY_FOR_PUFFERFISH io.papermc.paper.registry.tag.TagKey
+---@field public POWDER_SNOW_WALKABLE_MOBS io.papermc.paper.registry.tag.TagKey
+---@field public RAIDERS io.papermc.paper.registry.tag.TagKey
+---@field public REDIRECTABLE_PROJECTILE io.papermc.paper.registry.tag.TagKey
+---@field public SENSITIVE_TO_BANE_OF_ARTHROPODS io.papermc.paper.registry.tag.TagKey
+---@field public SENSITIVE_TO_IMPALING io.papermc.paper.registry.tag.TagKey
+---@field public SENSITIVE_TO_SMITE io.papermc.paper.registry.tag.TagKey
+---@field public SKELETONS io.papermc.paper.registry.tag.TagKey
+---@field public UNDEAD io.papermc.paper.registry.tag.TagKey
+---@field public WITHER_FRIENDS io.papermc.paper.registry.tag.TagKey
+---@field public ZOMBIES io.papermc.paper.registry.tag.TagKey
+---@overload fun(): EntityTypeTagKeys
+local EntityTypeTagKeys = {}
+
+---@param key any the tag key's key
+---@public
+---@return io.papermc.paper.registry.tag.TagKey a new tag key
+--- Creates a tag key for {@link EntityType} in the registry {@code minecraft:entity_type}.
+function EntityTypeTagKeys:create(key) end
+

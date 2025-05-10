@@ -1,0 +1,52 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.potion.PotionType
+---@class org.bukkit.potion.PotionType
+---@field public AWKWARD PotionType
+---@field public FIRE_RESISTANCE PotionType
+---@field public HARMING PotionType
+---@field public HEALING PotionType
+---@field public INFESTED PotionType
+---@field public INVISIBILITY PotionType
+---@field public LEAPING PotionType
+---@field public LONG_FIRE_RESISTANCE PotionType
+---@field public LONG_INVISIBILITY PotionType
+---@field public LONG_LEAPING PotionType
+---@field public LONG_NIGHT_VISION PotionType
+---@field public LONG_POISON PotionType
+---@field public LONG_REGENERATION PotionType
+---@field public LONG_SLOW_FALLING PotionType
+---@field public LONG_SLOWNESS PotionType
+---@field public LONG_STRENGTH PotionType
+---@field public LONG_SWIFTNESS PotionType
+---@field public LONG_TURTLE_MASTER PotionType
+---@field public LONG_WATER_BREATHING PotionType
+---@field public LONG_WEAKNESS PotionType
+---@field public LUCK PotionType
+---@field public MUNDANE PotionType
+---@field public NIGHT_VISION PotionType
+---@field public OOZING PotionType
+---@field public POISON PotionType
+---@field public REGENERATION PotionType
+---@field public SLOW_FALLING PotionType
+---@field public SLOWNESS PotionType
+---@field public STRENGTH PotionType
+---@field public STRONG_HARMING PotionType
+---@field public STRONG_HEALING PotionType
+---@field public STRONG_LEAPING PotionType
+---@field public STRONG_POISON PotionType
+---@field public STRONG_REGENERATION PotionType
+---@field public STRONG_SLOWNESS PotionType
+---@field public STRONG_STRENGTH PotionType
+---@field public STRONG_SWIFTNESS PotionType
+---@field public STRONG_TURTLE_MASTER PotionType
+---@field public SWIFTNESS PotionType
+---@field public THICK PotionType
+---@field public TURTLE_MASTER PotionType
+---@field public WATER PotionType
+---@field public WATER_BREATHING PotionType
+---@field public WEAKNESS PotionType
+---@field public WEAVING PotionType
+---@field public WIND_CHARGED PotionType
+local PotionType = {}
+

@@ -1,0 +1,57 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.event.player.PlayerShearEntityEvent
+---@class org.bukkit.event.player.PlayerShearEntityEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@field private HANDLER_LIST org.bukkit.event.HandlerList
+---@field private entity org.bukkit.entity.Entity
+---@field private item org.bukkit.inventory.ItemStack
+---@field private hand org.bukkit.inventory.EquipmentSlot
+---@field private drops java.util.List
+---@field private cancelled boolean
+---@overload fun(player: Player, entity: Entity, item: ItemStack, hand: EquipmentSlot, drops: table<ItemStack>): PlayerShearEntityEvent
+---@overload fun(player: Player, entity: Entity): PlayerShearEntityEvent
+local PlayerShearEntityEvent = {}
+
+---@public
+---@return org.bukkit.entity.Entity the entity the player is shearing
+--- Gets the entity the player is shearing
+function PlayerShearEntityEvent:getEntity() end
+
+---@public
+---@return org.bukkit.inventory.ItemStack the shears
+--- Gets the item used to shear the entity.
+function PlayerShearEntityEvent:getItem() end
+
+---@public
+---@return org.bukkit.inventory.EquipmentSlot the hand
+--- Gets the hand used to shear the entity.
+function PlayerShearEntityEvent:getHand() end
+
+---@public
+---@return java.util.List the shearing drops
+--- Get an immutable list of drops for this shearing.
+function PlayerShearEntityEvent:getDrops() end
+
+---@param drops java.util.List the shear drops
+---@public
+---@return nil 
+--- Sets the drops for the shearing.
+function PlayerShearEntityEvent:setDrops(drops) end
+
+---@public
+---@return boolean 
+function PlayerShearEntityEvent:isCancelled() end
+
+---@param cancel boolean 
+---@public
+---@return nil 
+function PlayerShearEntityEvent:setCancelled(cancel) end
+
+---@public
+---@return org.bukkit.event.HandlerList 
+function PlayerShearEntityEvent:getHandlers() end
+
+---@public
+---@return org.bukkit.event.HandlerList 
+function PlayerShearEntityEvent:getHandlerList() end
+

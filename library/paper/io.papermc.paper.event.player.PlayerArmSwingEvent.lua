@@ -1,0 +1,12 @@
+---@meta
+-- io.papermc.paper.event.player.PlayerArmSwingEvent
+---@class io.papermc.paper.event.player.PlayerArmSwingEvent: org.bukkit.event.player.PlayerAnimationEvent
+---@field private equipmentSlot org.bukkit.inventory.EquipmentSlot
+---@overload fun(player: Player, equipmentSlot: EquipmentSlot): PlayerArmSwingEvent
+local PlayerArmSwingEvent = {}
+
+---@public
+---@return org.bukkit.inventory.EquipmentSlot the hand
+--- Returns the hand of the arm swing.
+function PlayerArmSwingEvent:getHand() end
+

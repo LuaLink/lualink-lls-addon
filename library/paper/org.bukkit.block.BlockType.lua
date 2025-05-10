@@ -1,0 +1,1230 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.block.BlockType
+---@class org.bukkit.block.BlockType: org.bukkit.Keyed, org.bukkit.Translatable, net.kyori.adventure.translation.Translatable, io.papermc.paper.world.flag.FeatureDependant
+---@field public ACACIA_BUTTON org.bukkit.block.BlockType.Typed
+---@field public ACACIA_DOOR org.bukkit.block.BlockType.Typed
+---@field public ACACIA_FENCE org.bukkit.block.BlockType.Typed
+---@field public ACACIA_FENCE_GATE org.bukkit.block.BlockType.Typed
+---@field public ACACIA_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public ACACIA_LEAVES org.bukkit.block.BlockType.Typed
+---@field public ACACIA_LOG org.bukkit.block.BlockType.Typed
+---@field public ACACIA_PLANKS org.bukkit.block.BlockType.Typed
+---@field public ACACIA_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public ACACIA_SAPLING org.bukkit.block.BlockType.Typed
+---@field public ACACIA_SIGN org.bukkit.block.BlockType.Typed
+---@field public ACACIA_SLAB org.bukkit.block.BlockType.Typed
+---@field public ACACIA_STAIRS org.bukkit.block.BlockType.Typed
+---@field public ACACIA_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public ACACIA_WALL_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public ACACIA_WALL_SIGN org.bukkit.block.BlockType.Typed
+---@field public ACACIA_WOOD org.bukkit.block.BlockType.Typed
+---@field public ACTIVATOR_RAIL org.bukkit.block.BlockType.Typed
+---@field public AIR org.bukkit.block.BlockType.Typed
+---@field public ALLIUM org.bukkit.block.BlockType.Typed
+---@field public AMETHYST_BLOCK org.bukkit.block.BlockType.Typed
+---@field public AMETHYST_CLUSTER org.bukkit.block.BlockType.Typed
+---@field public ANCIENT_DEBRIS org.bukkit.block.BlockType.Typed
+---@field public ANDESITE org.bukkit.block.BlockType.Typed
+---@field public ANDESITE_SLAB org.bukkit.block.BlockType.Typed
+---@field public ANDESITE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public ANDESITE_WALL org.bukkit.block.BlockType.Typed
+---@field public ANVIL org.bukkit.block.BlockType.Typed
+---@field public ATTACHED_MELON_STEM org.bukkit.block.BlockType.Typed
+---@field public ATTACHED_PUMPKIN_STEM org.bukkit.block.BlockType.Typed
+---@field public AZALEA org.bukkit.block.BlockType.Typed
+---@field public AZALEA_LEAVES org.bukkit.block.BlockType.Typed
+---@field public AZURE_BLUET org.bukkit.block.BlockType.Typed
+---@field public BAMBOO org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_BLOCK org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_BUTTON org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_DOOR org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_FENCE org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_FENCE_GATE org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_MOSAIC org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_MOSAIC_SLAB org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_MOSAIC_STAIRS org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_PLANKS org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_SAPLING org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_SIGN org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_SLAB org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_STAIRS org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_WALL_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public BAMBOO_WALL_SIGN org.bukkit.block.BlockType.Typed
+---@field public BARREL org.bukkit.block.BlockType.Typed
+---@field public BARRIER org.bukkit.block.BlockType.Typed
+---@field public BASALT org.bukkit.block.BlockType.Typed
+---@field public BEACON org.bukkit.block.BlockType.Typed
+---@field public BEDROCK org.bukkit.block.BlockType.Typed
+---@field public BEE_NEST org.bukkit.block.BlockType.Typed
+---@field public BEEHIVE org.bukkit.block.BlockType.Typed
+---@field public BEETROOTS org.bukkit.block.BlockType.Typed
+---@field public BELL org.bukkit.block.BlockType.Typed
+---@field public BIG_DRIPLEAF org.bukkit.block.BlockType.Typed
+---@field public BIG_DRIPLEAF_STEM org.bukkit.block.BlockType.Typed
+---@field public BIRCH_BUTTON org.bukkit.block.BlockType.Typed
+---@field public BIRCH_DOOR org.bukkit.block.BlockType.Typed
+---@field public BIRCH_FENCE org.bukkit.block.BlockType.Typed
+---@field public BIRCH_FENCE_GATE org.bukkit.block.BlockType.Typed
+---@field public BIRCH_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public BIRCH_LEAVES org.bukkit.block.BlockType.Typed
+---@field public BIRCH_LOG org.bukkit.block.BlockType.Typed
+---@field public BIRCH_PLANKS org.bukkit.block.BlockType.Typed
+---@field public BIRCH_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public BIRCH_SAPLING org.bukkit.block.BlockType.Typed
+---@field public BIRCH_SIGN org.bukkit.block.BlockType.Typed
+---@field public BIRCH_SLAB org.bukkit.block.BlockType.Typed
+---@field public BIRCH_STAIRS org.bukkit.block.BlockType.Typed
+---@field public BIRCH_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public BIRCH_WALL_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public BIRCH_WALL_SIGN org.bukkit.block.BlockType.Typed
+---@field public BIRCH_WOOD org.bukkit.block.BlockType.Typed
+---@field public BLACK_BANNER org.bukkit.block.BlockType.Typed
+---@field public BLACK_BED org.bukkit.block.BlockType.Typed
+---@field public BLACK_CANDLE org.bukkit.block.BlockType.Typed
+---@field public BLACK_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public BLACK_CARPET org.bukkit.block.BlockType.Typed
+---@field public BLACK_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public BLACK_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public BLACK_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public BLACK_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public BLACK_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public BLACK_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public BLACK_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public BLACK_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public BLACK_WOOL org.bukkit.block.BlockType.Typed
+---@field public BLACKSTONE org.bukkit.block.BlockType.Typed
+---@field public BLACKSTONE_SLAB org.bukkit.block.BlockType.Typed
+---@field public BLACKSTONE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public BLACKSTONE_WALL org.bukkit.block.BlockType.Typed
+---@field public BLAST_FURNACE org.bukkit.block.BlockType.Typed
+---@field public BLUE_BANNER org.bukkit.block.BlockType.Typed
+---@field public BLUE_BED org.bukkit.block.BlockType.Typed
+---@field public BLUE_CANDLE org.bukkit.block.BlockType.Typed
+---@field public BLUE_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public BLUE_CARPET org.bukkit.block.BlockType.Typed
+---@field public BLUE_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public BLUE_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public BLUE_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public BLUE_ICE org.bukkit.block.BlockType.Typed
+---@field public BLUE_ORCHID org.bukkit.block.BlockType.Typed
+---@field public BLUE_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public BLUE_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public BLUE_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public BLUE_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public BLUE_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public BLUE_WOOL org.bukkit.block.BlockType.Typed
+---@field public BONE_BLOCK org.bukkit.block.BlockType.Typed
+---@field public BOOKSHELF org.bukkit.block.BlockType.Typed
+---@field public BRAIN_CORAL org.bukkit.block.BlockType.Typed
+---@field public BRAIN_CORAL_BLOCK org.bukkit.block.BlockType.Typed
+---@field public BRAIN_CORAL_FAN org.bukkit.block.BlockType.Typed
+---@field public BRAIN_CORAL_WALL_FAN org.bukkit.block.BlockType.Typed
+---@field public BREWING_STAND org.bukkit.block.BlockType.Typed
+---@field public BRICK_SLAB org.bukkit.block.BlockType.Typed
+---@field public BRICK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public BRICK_WALL org.bukkit.block.BlockType.Typed
+---@field public BRICKS org.bukkit.block.BlockType.Typed
+---@field public BROWN_BANNER org.bukkit.block.BlockType.Typed
+---@field public BROWN_BED org.bukkit.block.BlockType.Typed
+---@field public BROWN_CANDLE org.bukkit.block.BlockType.Typed
+---@field public BROWN_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public BROWN_CARPET org.bukkit.block.BlockType.Typed
+---@field public BROWN_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public BROWN_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public BROWN_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public BROWN_MUSHROOM org.bukkit.block.BlockType.Typed
+---@field public BROWN_MUSHROOM_BLOCK org.bukkit.block.BlockType.Typed
+---@field public BROWN_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public BROWN_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public BROWN_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public BROWN_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public BROWN_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public BROWN_WOOL org.bukkit.block.BlockType.Typed
+---@field public BUBBLE_COLUMN org.bukkit.block.BlockType.Typed
+---@field public BUBBLE_CORAL org.bukkit.block.BlockType.Typed
+---@field public BUBBLE_CORAL_BLOCK org.bukkit.block.BlockType.Typed
+---@field public BUBBLE_CORAL_FAN org.bukkit.block.BlockType.Typed
+---@field public BUBBLE_CORAL_WALL_FAN org.bukkit.block.BlockType.Typed
+---@field public BUDDING_AMETHYST org.bukkit.block.BlockType.Typed
+---@field public BUSH org.bukkit.block.BlockType.Typed
+---@field public CACTUS org.bukkit.block.BlockType.Typed
+---@field public CACTUS_FLOWER org.bukkit.block.BlockType.Typed
+---@field public CAKE org.bukkit.block.BlockType.Typed
+---@field public CALCITE org.bukkit.block.BlockType.Typed
+---@field public CALIBRATED_SCULK_SENSOR org.bukkit.block.BlockType.Typed
+---@field public CAMPFIRE org.bukkit.block.BlockType.Typed
+---@field public CANDLE org.bukkit.block.BlockType.Typed
+---@field public CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public CARROTS org.bukkit.block.BlockType.Typed
+---@field public CARTOGRAPHY_TABLE org.bukkit.block.BlockType.Typed
+---@field public CARVED_PUMPKIN org.bukkit.block.BlockType.Typed
+---@field public CAULDRON org.bukkit.block.BlockType.Typed
+---@field public CAVE_AIR org.bukkit.block.BlockType.Typed
+---@field public CAVE_VINES org.bukkit.block.BlockType.Typed
+---@field public CAVE_VINES_PLANT org.bukkit.block.BlockType.Typed
+---@field public CHAIN org.bukkit.block.BlockType.Typed
+---@field public CHAIN_COMMAND_BLOCK org.bukkit.block.BlockType.Typed
+---@field public CHERRY_BUTTON org.bukkit.block.BlockType.Typed
+---@field public CHERRY_DOOR org.bukkit.block.BlockType.Typed
+---@field public CHERRY_FENCE org.bukkit.block.BlockType.Typed
+---@field public CHERRY_FENCE_GATE org.bukkit.block.BlockType.Typed
+---@field public CHERRY_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public CHERRY_LEAVES org.bukkit.block.BlockType.Typed
+---@field public CHERRY_LOG org.bukkit.block.BlockType.Typed
+---@field public CHERRY_PLANKS org.bukkit.block.BlockType.Typed
+---@field public CHERRY_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public CHERRY_SAPLING org.bukkit.block.BlockType.Typed
+---@field public CHERRY_SIGN org.bukkit.block.BlockType.Typed
+---@field public CHERRY_SLAB org.bukkit.block.BlockType.Typed
+---@field public CHERRY_STAIRS org.bukkit.block.BlockType.Typed
+---@field public CHERRY_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public CHERRY_WALL_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public CHERRY_WALL_SIGN org.bukkit.block.BlockType.Typed
+---@field public CHERRY_WOOD org.bukkit.block.BlockType.Typed
+---@field public CHEST org.bukkit.block.BlockType.Typed
+---@field public CHIPPED_ANVIL org.bukkit.block.BlockType.Typed
+---@field public CHISELED_BOOKSHELF org.bukkit.block.BlockType.Typed
+---@field public CHISELED_COPPER org.bukkit.block.BlockType.Typed
+---@field public CHISELED_DEEPSLATE org.bukkit.block.BlockType.Typed
+---@field public CHISELED_NETHER_BRICKS org.bukkit.block.BlockType.Typed
+---@field public CHISELED_POLISHED_BLACKSTONE org.bukkit.block.BlockType.Typed
+---@field public CHISELED_QUARTZ_BLOCK org.bukkit.block.BlockType.Typed
+---@field public CHISELED_RED_SANDSTONE org.bukkit.block.BlockType.Typed
+---@field public CHISELED_RESIN_BRICKS org.bukkit.block.BlockType.Typed
+---@field public CHISELED_SANDSTONE org.bukkit.block.BlockType.Typed
+---@field public CHISELED_STONE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public CHISELED_TUFF org.bukkit.block.BlockType.Typed
+---@field public CHISELED_TUFF_BRICKS org.bukkit.block.BlockType.Typed
+---@field public CHORUS_FLOWER org.bukkit.block.BlockType.Typed
+---@field public CHORUS_PLANT org.bukkit.block.BlockType.Typed
+---@field public CLAY org.bukkit.block.BlockType.Typed
+---@field public CLOSED_EYEBLOSSOM org.bukkit.block.BlockType.Typed
+---@field public COAL_BLOCK org.bukkit.block.BlockType.Typed
+---@field public COAL_ORE org.bukkit.block.BlockType.Typed
+---@field public COARSE_DIRT org.bukkit.block.BlockType.Typed
+---@field public COBBLED_DEEPSLATE org.bukkit.block.BlockType.Typed
+---@field public COBBLED_DEEPSLATE_SLAB org.bukkit.block.BlockType.Typed
+---@field public COBBLED_DEEPSLATE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public COBBLED_DEEPSLATE_WALL org.bukkit.block.BlockType.Typed
+---@field public COBBLESTONE org.bukkit.block.BlockType.Typed
+---@field public COBBLESTONE_SLAB org.bukkit.block.BlockType.Typed
+---@field public COBBLESTONE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public COBBLESTONE_WALL org.bukkit.block.BlockType.Typed
+---@field public COBWEB org.bukkit.block.BlockType.Typed
+---@field public COCOA org.bukkit.block.BlockType.Typed
+---@field public COMMAND_BLOCK org.bukkit.block.BlockType.Typed
+---@field public COMPARATOR org.bukkit.block.BlockType.Typed
+---@field public COMPOSTER org.bukkit.block.BlockType.Typed
+---@field public CONDUIT org.bukkit.block.BlockType.Typed
+---@field public COPPER_BLOCK org.bukkit.block.BlockType.Typed
+---@field public COPPER_BULB org.bukkit.block.BlockType.Typed
+---@field public COPPER_DOOR org.bukkit.block.BlockType.Typed
+---@field public COPPER_GRATE org.bukkit.block.BlockType.Typed
+---@field public COPPER_ORE org.bukkit.block.BlockType.Typed
+---@field public COPPER_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public CORNFLOWER org.bukkit.block.BlockType.Typed
+---@field public CRACKED_DEEPSLATE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public CRACKED_DEEPSLATE_TILES org.bukkit.block.BlockType.Typed
+---@field public CRACKED_NETHER_BRICKS org.bukkit.block.BlockType.Typed
+---@field public CRACKED_POLISHED_BLACKSTONE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public CRACKED_STONE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public CRAFTER org.bukkit.block.BlockType.Typed
+---@field public CRAFTING_TABLE org.bukkit.block.BlockType.Typed
+---@field public CREAKING_HEART org.bukkit.block.BlockType.Typed
+---@field public CREEPER_HEAD org.bukkit.block.BlockType.Typed
+---@field public CREEPER_WALL_HEAD org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_BUTTON org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_DOOR org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_FENCE org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_FENCE_GATE org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_FUNGUS org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_HYPHAE org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_NYLIUM org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_PLANKS org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_ROOTS org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_SIGN org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_SLAB org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_STAIRS org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_STEM org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_WALL_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public CRIMSON_WALL_SIGN org.bukkit.block.BlockType.Typed
+---@field public CRYING_OBSIDIAN org.bukkit.block.BlockType.Typed
+---@field public CUT_COPPER org.bukkit.block.BlockType.Typed
+---@field public CUT_COPPER_SLAB org.bukkit.block.BlockType.Typed
+---@field public CUT_COPPER_STAIRS org.bukkit.block.BlockType.Typed
+---@field public CUT_RED_SANDSTONE org.bukkit.block.BlockType.Typed
+---@field public CUT_RED_SANDSTONE_SLAB org.bukkit.block.BlockType.Typed
+---@field public CUT_SANDSTONE org.bukkit.block.BlockType.Typed
+---@field public CUT_SANDSTONE_SLAB org.bukkit.block.BlockType.Typed
+---@field public CYAN_BANNER org.bukkit.block.BlockType.Typed
+---@field public CYAN_BED org.bukkit.block.BlockType.Typed
+---@field public CYAN_CANDLE org.bukkit.block.BlockType.Typed
+---@field public CYAN_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public CYAN_CARPET org.bukkit.block.BlockType.Typed
+---@field public CYAN_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public CYAN_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public CYAN_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public CYAN_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public CYAN_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public CYAN_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public CYAN_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public CYAN_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public CYAN_WOOL org.bukkit.block.BlockType.Typed
+---@field public DAMAGED_ANVIL org.bukkit.block.BlockType.Typed
+---@field public DANDELION org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_BUTTON org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_DOOR org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_FENCE org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_FENCE_GATE org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_LEAVES org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_LOG org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_PLANKS org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_SAPLING org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_SIGN org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_SLAB org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_WALL_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_WALL_SIGN org.bukkit.block.BlockType.Typed
+---@field public DARK_OAK_WOOD org.bukkit.block.BlockType.Typed
+---@field public DARK_PRISMARINE org.bukkit.block.BlockType.Typed
+---@field public DARK_PRISMARINE_SLAB org.bukkit.block.BlockType.Typed
+---@field public DARK_PRISMARINE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public DAYLIGHT_DETECTOR org.bukkit.block.BlockType.Typed
+---@field public DEAD_BRAIN_CORAL org.bukkit.block.BlockType.Typed
+---@field public DEAD_BRAIN_CORAL_BLOCK org.bukkit.block.BlockType.Typed
+---@field public DEAD_BRAIN_CORAL_FAN org.bukkit.block.BlockType.Typed
+---@field public DEAD_BRAIN_CORAL_WALL_FAN org.bukkit.block.BlockType.Typed
+---@field public DEAD_BUBBLE_CORAL org.bukkit.block.BlockType.Typed
+---@field public DEAD_BUBBLE_CORAL_BLOCK org.bukkit.block.BlockType.Typed
+---@field public DEAD_BUBBLE_CORAL_FAN org.bukkit.block.BlockType.Typed
+---@field public DEAD_BUBBLE_CORAL_WALL_FAN org.bukkit.block.BlockType.Typed
+---@field public DEAD_BUSH org.bukkit.block.BlockType.Typed
+---@field public DEAD_FIRE_CORAL org.bukkit.block.BlockType.Typed
+---@field public DEAD_FIRE_CORAL_BLOCK org.bukkit.block.BlockType.Typed
+---@field public DEAD_FIRE_CORAL_FAN org.bukkit.block.BlockType.Typed
+---@field public DEAD_FIRE_CORAL_WALL_FAN org.bukkit.block.BlockType.Typed
+---@field public DEAD_HORN_CORAL org.bukkit.block.BlockType.Typed
+---@field public DEAD_HORN_CORAL_BLOCK org.bukkit.block.BlockType.Typed
+---@field public DEAD_HORN_CORAL_FAN org.bukkit.block.BlockType.Typed
+---@field public DEAD_HORN_CORAL_WALL_FAN org.bukkit.block.BlockType.Typed
+---@field public DEAD_TUBE_CORAL org.bukkit.block.BlockType.Typed
+---@field public DEAD_TUBE_CORAL_BLOCK org.bukkit.block.BlockType.Typed
+---@field public DEAD_TUBE_CORAL_FAN org.bukkit.block.BlockType.Typed
+---@field public DEAD_TUBE_CORAL_WALL_FAN org.bukkit.block.BlockType.Typed
+---@field public DECORATED_POT org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_BRICK_SLAB org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_BRICK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_BRICK_WALL org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_COAL_ORE org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_COPPER_ORE org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_DIAMOND_ORE org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_EMERALD_ORE org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_GOLD_ORE org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_IRON_ORE org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_LAPIS_ORE org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_REDSTONE_ORE org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_TILE_SLAB org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_TILE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_TILE_WALL org.bukkit.block.BlockType.Typed
+---@field public DEEPSLATE_TILES org.bukkit.block.BlockType.Typed
+---@field public DETECTOR_RAIL org.bukkit.block.BlockType.Typed
+---@field public DIAMOND_BLOCK org.bukkit.block.BlockType.Typed
+---@field public DIAMOND_ORE org.bukkit.block.BlockType.Typed
+---@field public DIORITE org.bukkit.block.BlockType.Typed
+---@field public DIORITE_SLAB org.bukkit.block.BlockType.Typed
+---@field public DIORITE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public DIORITE_WALL org.bukkit.block.BlockType.Typed
+---@field public DIRT org.bukkit.block.BlockType.Typed
+---@field public DIRT_PATH org.bukkit.block.BlockType.Typed
+---@field public DISPENSER org.bukkit.block.BlockType.Typed
+---@field public DRAGON_EGG org.bukkit.block.BlockType.Typed
+---@field public DRAGON_HEAD org.bukkit.block.BlockType.Typed
+---@field public DRAGON_WALL_HEAD org.bukkit.block.BlockType.Typed
+---@field public DRIED_KELP_BLOCK org.bukkit.block.BlockType.Typed
+---@field public DRIPSTONE_BLOCK org.bukkit.block.BlockType.Typed
+---@field public DROPPER org.bukkit.block.BlockType.Typed
+---@field public EMERALD_BLOCK org.bukkit.block.BlockType.Typed
+---@field public EMERALD_ORE org.bukkit.block.BlockType.Typed
+---@field public ENCHANTING_TABLE org.bukkit.block.BlockType.Typed
+---@field public END_GATEWAY org.bukkit.block.BlockType.Typed
+---@field public END_PORTAL org.bukkit.block.BlockType.Typed
+---@field public END_PORTAL_FRAME org.bukkit.block.BlockType.Typed
+---@field public END_ROD org.bukkit.block.BlockType.Typed
+---@field public END_STONE org.bukkit.block.BlockType.Typed
+---@field public END_STONE_BRICK_SLAB org.bukkit.block.BlockType.Typed
+---@field public END_STONE_BRICK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public END_STONE_BRICK_WALL org.bukkit.block.BlockType.Typed
+---@field public END_STONE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public ENDER_CHEST org.bukkit.block.BlockType.Typed
+---@field public EXPOSED_CHISELED_COPPER org.bukkit.block.BlockType.Typed
+---@field public EXPOSED_COPPER org.bukkit.block.BlockType.Typed
+---@field public EXPOSED_COPPER_BULB org.bukkit.block.BlockType.Typed
+---@field public EXPOSED_COPPER_DOOR org.bukkit.block.BlockType.Typed
+---@field public EXPOSED_COPPER_GRATE org.bukkit.block.BlockType.Typed
+---@field public EXPOSED_COPPER_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public EXPOSED_CUT_COPPER org.bukkit.block.BlockType.Typed
+---@field public EXPOSED_CUT_COPPER_SLAB org.bukkit.block.BlockType.Typed
+---@field public EXPOSED_CUT_COPPER_STAIRS org.bukkit.block.BlockType.Typed
+---@field public FARMLAND org.bukkit.block.BlockType.Typed
+---@field public FERN org.bukkit.block.BlockType.Typed
+---@field public FIRE org.bukkit.block.BlockType.Typed
+---@field public FIRE_CORAL org.bukkit.block.BlockType.Typed
+---@field public FIRE_CORAL_BLOCK org.bukkit.block.BlockType.Typed
+---@field public FIRE_CORAL_FAN org.bukkit.block.BlockType.Typed
+---@field public FIRE_CORAL_WALL_FAN org.bukkit.block.BlockType.Typed
+---@field public FIREFLY_BUSH org.bukkit.block.BlockType.Typed
+---@field public FLETCHING_TABLE org.bukkit.block.BlockType.Typed
+---@field public FLOWER_POT org.bukkit.block.BlockType.Typed
+---@field public FLOWERING_AZALEA org.bukkit.block.BlockType.Typed
+---@field public FLOWERING_AZALEA_LEAVES org.bukkit.block.BlockType.Typed
+---@field public FROGSPAWN org.bukkit.block.BlockType.Typed
+---@field public FROSTED_ICE org.bukkit.block.BlockType.Typed
+---@field public FURNACE org.bukkit.block.BlockType.Typed
+---@field public GILDED_BLACKSTONE org.bukkit.block.BlockType.Typed
+---@field public GLASS org.bukkit.block.BlockType.Typed
+---@field public GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public GLOW_LICHEN org.bukkit.block.BlockType.Typed
+---@field public GLOWSTONE org.bukkit.block.BlockType.Typed
+---@field public GOLD_BLOCK org.bukkit.block.BlockType.Typed
+---@field public GOLD_ORE org.bukkit.block.BlockType.Typed
+---@field public GRANITE org.bukkit.block.BlockType.Typed
+---@field public GRANITE_SLAB org.bukkit.block.BlockType.Typed
+---@field public GRANITE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public GRANITE_WALL org.bukkit.block.BlockType.Typed
+---@field public GRASS_BLOCK org.bukkit.block.BlockType.Typed
+---@field public GRAVEL org.bukkit.block.BlockType.Typed
+---@field public GRAY_BANNER org.bukkit.block.BlockType.Typed
+---@field public GRAY_BED org.bukkit.block.BlockType.Typed
+---@field public GRAY_CANDLE org.bukkit.block.BlockType.Typed
+---@field public GRAY_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public GRAY_CARPET org.bukkit.block.BlockType.Typed
+---@field public GRAY_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public GRAY_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public GRAY_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public GRAY_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public GRAY_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public GRAY_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public GRAY_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public GRAY_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public GRAY_WOOL org.bukkit.block.BlockType.Typed
+---@field public GREEN_BANNER org.bukkit.block.BlockType.Typed
+---@field public GREEN_BED org.bukkit.block.BlockType.Typed
+---@field public GREEN_CANDLE org.bukkit.block.BlockType.Typed
+---@field public GREEN_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public GREEN_CARPET org.bukkit.block.BlockType.Typed
+---@field public GREEN_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public GREEN_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public GREEN_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public GREEN_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public GREEN_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public GREEN_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public GREEN_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public GREEN_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public GREEN_WOOL org.bukkit.block.BlockType.Typed
+---@field public GRINDSTONE org.bukkit.block.BlockType.Typed
+---@field public HANGING_ROOTS org.bukkit.block.BlockType.Typed
+---@field public HAY_BLOCK org.bukkit.block.BlockType.Typed
+---@field public HEAVY_CORE org.bukkit.block.BlockType.Typed
+---@field public HEAVY_WEIGHTED_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public HONEY_BLOCK org.bukkit.block.BlockType.Typed
+---@field public HONEYCOMB_BLOCK org.bukkit.block.BlockType.Typed
+---@field public HOPPER org.bukkit.block.BlockType.Typed
+---@field public HORN_CORAL org.bukkit.block.BlockType.Typed
+---@field public HORN_CORAL_BLOCK org.bukkit.block.BlockType.Typed
+---@field public HORN_CORAL_FAN org.bukkit.block.BlockType.Typed
+---@field public HORN_CORAL_WALL_FAN org.bukkit.block.BlockType.Typed
+---@field public ICE org.bukkit.block.BlockType.Typed
+---@field public INFESTED_CHISELED_STONE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public INFESTED_COBBLESTONE org.bukkit.block.BlockType.Typed
+---@field public INFESTED_CRACKED_STONE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public INFESTED_DEEPSLATE org.bukkit.block.BlockType.Typed
+---@field public INFESTED_MOSSY_STONE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public INFESTED_STONE org.bukkit.block.BlockType.Typed
+---@field public INFESTED_STONE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public IRON_BARS org.bukkit.block.BlockType.Typed
+---@field public IRON_BLOCK org.bukkit.block.BlockType.Typed
+---@field public IRON_DOOR org.bukkit.block.BlockType.Typed
+---@field public IRON_ORE org.bukkit.block.BlockType.Typed
+---@field public IRON_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public JACK_O_LANTERN org.bukkit.block.BlockType.Typed
+---@field public JIGSAW org.bukkit.block.BlockType.Typed
+---@field public JUKEBOX org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_BUTTON org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_DOOR org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_FENCE org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_FENCE_GATE org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_LEAVES org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_LOG org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_PLANKS org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_SAPLING org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_SIGN org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_SLAB org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_WALL_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_WALL_SIGN org.bukkit.block.BlockType.Typed
+---@field public JUNGLE_WOOD org.bukkit.block.BlockType.Typed
+---@field public KELP org.bukkit.block.BlockType.Typed
+---@field public KELP_PLANT org.bukkit.block.BlockType.Typed
+---@field public LADDER org.bukkit.block.BlockType.Typed
+---@field public LANTERN org.bukkit.block.BlockType.Typed
+---@field public LAPIS_BLOCK org.bukkit.block.BlockType.Typed
+---@field public LAPIS_ORE org.bukkit.block.BlockType.Typed
+---@field public LARGE_AMETHYST_BUD org.bukkit.block.BlockType.Typed
+---@field public LARGE_FERN org.bukkit.block.BlockType.Typed
+---@field public LAVA org.bukkit.block.BlockType.Typed
+---@field public LAVA_CAULDRON org.bukkit.block.BlockType.Typed
+---@field public LEAF_LITTER org.bukkit.block.BlockType.Typed
+---@field public LECTERN org.bukkit.block.BlockType.Typed
+---@field public LEVER org.bukkit.block.BlockType.Typed
+---@field public LIGHT org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_BANNER org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_BED org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_CANDLE org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_CARPET org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public LIGHT_BLUE_WOOL org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_BANNER org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_BED org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_CANDLE org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_CARPET org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public LIGHT_GRAY_WOOL org.bukkit.block.BlockType.Typed
+---@field public LIGHT_WEIGHTED_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public LIGHTNING_ROD org.bukkit.block.BlockType.Typed
+---@field public LILAC org.bukkit.block.BlockType.Typed
+---@field public LILY_OF_THE_VALLEY org.bukkit.block.BlockType.Typed
+---@field public LILY_PAD org.bukkit.block.BlockType.Typed
+---@field public LIME_BANNER org.bukkit.block.BlockType.Typed
+---@field public LIME_BED org.bukkit.block.BlockType.Typed
+---@field public LIME_CANDLE org.bukkit.block.BlockType.Typed
+---@field public LIME_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public LIME_CARPET org.bukkit.block.BlockType.Typed
+---@field public LIME_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public LIME_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public LIME_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public LIME_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public LIME_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public LIME_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public LIME_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public LIME_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public LIME_WOOL org.bukkit.block.BlockType.Typed
+---@field public LODESTONE org.bukkit.block.BlockType.Typed
+---@field public LOOM org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_BANNER org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_BED org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_CANDLE org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_CARPET org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public MAGENTA_WOOL org.bukkit.block.BlockType.Typed
+---@field public MAGMA_BLOCK org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_BUTTON org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_DOOR org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_FENCE org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_FENCE_GATE org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_LEAVES org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_LOG org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_PLANKS org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_PROPAGULE org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_ROOTS org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_SIGN org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_SLAB org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_WALL_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_WALL_SIGN org.bukkit.block.BlockType.Typed
+---@field public MANGROVE_WOOD org.bukkit.block.BlockType.Typed
+---@field public MEDIUM_AMETHYST_BUD org.bukkit.block.BlockType.Typed
+---@field public MELON org.bukkit.block.BlockType.Typed
+---@field public MELON_STEM org.bukkit.block.BlockType.Typed
+---@field public MOSS_BLOCK org.bukkit.block.BlockType.Typed
+---@field public MOSS_CARPET org.bukkit.block.BlockType.Typed
+---@field public MOSSY_COBBLESTONE org.bukkit.block.BlockType.Typed
+---@field public MOSSY_COBBLESTONE_SLAB org.bukkit.block.BlockType.Typed
+---@field public MOSSY_COBBLESTONE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public MOSSY_COBBLESTONE_WALL org.bukkit.block.BlockType.Typed
+---@field public MOSSY_STONE_BRICK_SLAB org.bukkit.block.BlockType.Typed
+---@field public MOSSY_STONE_BRICK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public MOSSY_STONE_BRICK_WALL org.bukkit.block.BlockType.Typed
+---@field public MOSSY_STONE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public MOVING_PISTON org.bukkit.block.BlockType.Typed
+---@field public MUD org.bukkit.block.BlockType.Typed
+---@field public MUD_BRICK_SLAB org.bukkit.block.BlockType.Typed
+---@field public MUD_BRICK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public MUD_BRICK_WALL org.bukkit.block.BlockType.Typed
+---@field public MUD_BRICKS org.bukkit.block.BlockType.Typed
+---@field public MUDDY_MANGROVE_ROOTS org.bukkit.block.BlockType.Typed
+---@field public MUSHROOM_STEM org.bukkit.block.BlockType.Typed
+---@field public MYCELIUM org.bukkit.block.BlockType.Typed
+---@field public NETHER_BRICK_FENCE org.bukkit.block.BlockType.Typed
+---@field public NETHER_BRICK_SLAB org.bukkit.block.BlockType.Typed
+---@field public NETHER_BRICK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public NETHER_BRICK_WALL org.bukkit.block.BlockType.Typed
+---@field public NETHER_BRICKS org.bukkit.block.BlockType.Typed
+---@field public NETHER_GOLD_ORE org.bukkit.block.BlockType.Typed
+---@field public NETHER_PORTAL org.bukkit.block.BlockType.Typed
+---@field public NETHER_QUARTZ_ORE org.bukkit.block.BlockType.Typed
+---@field public NETHER_SPROUTS org.bukkit.block.BlockType.Typed
+---@field public NETHER_WART org.bukkit.block.BlockType.Typed
+---@field public NETHER_WART_BLOCK org.bukkit.block.BlockType.Typed
+---@field public NETHERITE_BLOCK org.bukkit.block.BlockType.Typed
+---@field public NETHERRACK org.bukkit.block.BlockType.Typed
+---@field public NOTE_BLOCK org.bukkit.block.BlockType.Typed
+---@field public OAK_BUTTON org.bukkit.block.BlockType.Typed
+---@field public OAK_DOOR org.bukkit.block.BlockType.Typed
+---@field public OAK_FENCE org.bukkit.block.BlockType.Typed
+---@field public OAK_FENCE_GATE org.bukkit.block.BlockType.Typed
+---@field public OAK_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public OAK_LEAVES org.bukkit.block.BlockType.Typed
+---@field public OAK_LOG org.bukkit.block.BlockType.Typed
+---@field public OAK_PLANKS org.bukkit.block.BlockType.Typed
+---@field public OAK_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public OAK_SAPLING org.bukkit.block.BlockType.Typed
+---@field public OAK_SIGN org.bukkit.block.BlockType.Typed
+---@field public OAK_SLAB org.bukkit.block.BlockType.Typed
+---@field public OAK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public OAK_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public OAK_WALL_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public OAK_WALL_SIGN org.bukkit.block.BlockType.Typed
+---@field public OAK_WOOD org.bukkit.block.BlockType.Typed
+---@field public OBSERVER org.bukkit.block.BlockType.Typed
+---@field public OBSIDIAN org.bukkit.block.BlockType.Typed
+---@field public OCHRE_FROGLIGHT org.bukkit.block.BlockType.Typed
+---@field public OPEN_EYEBLOSSOM org.bukkit.block.BlockType.Typed
+---@field public ORANGE_BANNER org.bukkit.block.BlockType.Typed
+---@field public ORANGE_BED org.bukkit.block.BlockType.Typed
+---@field public ORANGE_CANDLE org.bukkit.block.BlockType.Typed
+---@field public ORANGE_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public ORANGE_CARPET org.bukkit.block.BlockType.Typed
+---@field public ORANGE_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public ORANGE_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public ORANGE_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public ORANGE_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public ORANGE_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public ORANGE_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public ORANGE_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public ORANGE_TULIP org.bukkit.block.BlockType.Typed
+---@field public ORANGE_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public ORANGE_WOOL org.bukkit.block.BlockType.Typed
+---@field public OXEYE_DAISY org.bukkit.block.BlockType.Typed
+---@field public OXIDIZED_CHISELED_COPPER org.bukkit.block.BlockType.Typed
+---@field public OXIDIZED_COPPER org.bukkit.block.BlockType.Typed
+---@field public OXIDIZED_COPPER_BULB org.bukkit.block.BlockType.Typed
+---@field public OXIDIZED_COPPER_DOOR org.bukkit.block.BlockType.Typed
+---@field public OXIDIZED_COPPER_GRATE org.bukkit.block.BlockType.Typed
+---@field public OXIDIZED_COPPER_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public OXIDIZED_CUT_COPPER org.bukkit.block.BlockType.Typed
+---@field public OXIDIZED_CUT_COPPER_SLAB org.bukkit.block.BlockType.Typed
+---@field public OXIDIZED_CUT_COPPER_STAIRS org.bukkit.block.BlockType.Typed
+---@field public PACKED_ICE org.bukkit.block.BlockType.Typed
+---@field public PACKED_MUD org.bukkit.block.BlockType.Typed
+---@field public PALE_HANGING_MOSS org.bukkit.block.BlockType.Typed
+---@field public PALE_MOSS_BLOCK org.bukkit.block.BlockType.Typed
+---@field public PALE_MOSS_CARPET org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_BUTTON org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_DOOR org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_FENCE org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_FENCE_GATE org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_LEAVES org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_LOG org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_PLANKS org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_SAPLING org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_SIGN org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_SLAB org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_WALL_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_WALL_SIGN org.bukkit.block.BlockType.Typed
+---@field public PALE_OAK_WOOD org.bukkit.block.BlockType.Typed
+---@field public PEARLESCENT_FROGLIGHT org.bukkit.block.BlockType.Typed
+---@field public PEONY org.bukkit.block.BlockType.Typed
+---@field public PETRIFIED_OAK_SLAB org.bukkit.block.BlockType.Typed
+---@field public PIGLIN_HEAD org.bukkit.block.BlockType.Typed
+---@field public PIGLIN_WALL_HEAD org.bukkit.block.BlockType.Typed
+---@field public PINK_BANNER org.bukkit.block.BlockType.Typed
+---@field public PINK_BED org.bukkit.block.BlockType.Typed
+---@field public PINK_CANDLE org.bukkit.block.BlockType.Typed
+---@field public PINK_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public PINK_CARPET org.bukkit.block.BlockType.Typed
+---@field public PINK_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public PINK_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public PINK_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public PINK_PETALS org.bukkit.block.BlockType.Typed
+---@field public PINK_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public PINK_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public PINK_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public PINK_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public PINK_TULIP org.bukkit.block.BlockType.Typed
+---@field public PINK_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public PINK_WOOL org.bukkit.block.BlockType.Typed
+---@field public PISTON org.bukkit.block.BlockType.Typed
+---@field public PISTON_HEAD org.bukkit.block.BlockType.Typed
+---@field public PITCHER_CROP org.bukkit.block.BlockType.Typed
+---@field public PITCHER_PLANT org.bukkit.block.BlockType.Typed
+---@field public PLAYER_HEAD org.bukkit.block.BlockType.Typed
+---@field public PLAYER_WALL_HEAD org.bukkit.block.BlockType.Typed
+---@field public PODZOL org.bukkit.block.BlockType.Typed
+---@field public POINTED_DRIPSTONE org.bukkit.block.BlockType.Typed
+---@field public POLISHED_ANDESITE org.bukkit.block.BlockType.Typed
+---@field public POLISHED_ANDESITE_SLAB org.bukkit.block.BlockType.Typed
+---@field public POLISHED_ANDESITE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public POLISHED_BASALT org.bukkit.block.BlockType.Typed
+---@field public POLISHED_BLACKSTONE org.bukkit.block.BlockType.Typed
+---@field public POLISHED_BLACKSTONE_BRICK_SLAB org.bukkit.block.BlockType.Typed
+---@field public POLISHED_BLACKSTONE_BRICK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public POLISHED_BLACKSTONE_BRICK_WALL org.bukkit.block.BlockType.Typed
+---@field public POLISHED_BLACKSTONE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public POLISHED_BLACKSTONE_BUTTON org.bukkit.block.BlockType.Typed
+---@field public POLISHED_BLACKSTONE_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public POLISHED_BLACKSTONE_SLAB org.bukkit.block.BlockType.Typed
+---@field public POLISHED_BLACKSTONE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public POLISHED_BLACKSTONE_WALL org.bukkit.block.BlockType.Typed
+---@field public POLISHED_DEEPSLATE org.bukkit.block.BlockType.Typed
+---@field public POLISHED_DEEPSLATE_SLAB org.bukkit.block.BlockType.Typed
+---@field public POLISHED_DEEPSLATE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public POLISHED_DEEPSLATE_WALL org.bukkit.block.BlockType.Typed
+---@field public POLISHED_DIORITE org.bukkit.block.BlockType.Typed
+---@field public POLISHED_DIORITE_SLAB org.bukkit.block.BlockType.Typed
+---@field public POLISHED_DIORITE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public POLISHED_GRANITE org.bukkit.block.BlockType.Typed
+---@field public POLISHED_GRANITE_SLAB org.bukkit.block.BlockType.Typed
+---@field public POLISHED_GRANITE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public POLISHED_TUFF org.bukkit.block.BlockType.Typed
+---@field public POLISHED_TUFF_SLAB org.bukkit.block.BlockType.Typed
+---@field public POLISHED_TUFF_STAIRS org.bukkit.block.BlockType.Typed
+---@field public POLISHED_TUFF_WALL org.bukkit.block.BlockType.Typed
+---@field public POPPY org.bukkit.block.BlockType.Typed
+---@field public POTATOES org.bukkit.block.BlockType.Typed
+---@field public POTTED_ACACIA_SAPLING org.bukkit.block.BlockType.Typed
+---@field public POTTED_ALLIUM org.bukkit.block.BlockType.Typed
+---@field public POTTED_AZALEA_BUSH org.bukkit.block.BlockType.Typed
+---@field public POTTED_AZURE_BLUET org.bukkit.block.BlockType.Typed
+---@field public POTTED_BAMBOO org.bukkit.block.BlockType.Typed
+---@field public POTTED_BIRCH_SAPLING org.bukkit.block.BlockType.Typed
+---@field public POTTED_BLUE_ORCHID org.bukkit.block.BlockType.Typed
+---@field public POTTED_BROWN_MUSHROOM org.bukkit.block.BlockType.Typed
+---@field public POTTED_CACTUS org.bukkit.block.BlockType.Typed
+---@field public POTTED_CHERRY_SAPLING org.bukkit.block.BlockType.Typed
+---@field public POTTED_CLOSED_EYEBLOSSOM org.bukkit.block.BlockType.Typed
+---@field public POTTED_CORNFLOWER org.bukkit.block.BlockType.Typed
+---@field public POTTED_CRIMSON_FUNGUS org.bukkit.block.BlockType.Typed
+---@field public POTTED_CRIMSON_ROOTS org.bukkit.block.BlockType.Typed
+---@field public POTTED_DANDELION org.bukkit.block.BlockType.Typed
+---@field public POTTED_DARK_OAK_SAPLING org.bukkit.block.BlockType.Typed
+---@field public POTTED_DEAD_BUSH org.bukkit.block.BlockType.Typed
+---@field public POTTED_FERN org.bukkit.block.BlockType.Typed
+---@field public POTTED_FLOWERING_AZALEA_BUSH org.bukkit.block.BlockType.Typed
+---@field public POTTED_JUNGLE_SAPLING org.bukkit.block.BlockType.Typed
+---@field public POTTED_LILY_OF_THE_VALLEY org.bukkit.block.BlockType.Typed
+---@field public POTTED_MANGROVE_PROPAGULE org.bukkit.block.BlockType.Typed
+---@field public POTTED_OAK_SAPLING org.bukkit.block.BlockType.Typed
+---@field public POTTED_OPEN_EYEBLOSSOM org.bukkit.block.BlockType.Typed
+---@field public POTTED_ORANGE_TULIP org.bukkit.block.BlockType.Typed
+---@field public POTTED_OXEYE_DAISY org.bukkit.block.BlockType.Typed
+---@field public POTTED_PALE_OAK_SAPLING org.bukkit.block.BlockType.Typed
+---@field public POTTED_PINK_TULIP org.bukkit.block.BlockType.Typed
+---@field public POTTED_POPPY org.bukkit.block.BlockType.Typed
+---@field public POTTED_RED_MUSHROOM org.bukkit.block.BlockType.Typed
+---@field public POTTED_RED_TULIP org.bukkit.block.BlockType.Typed
+---@field public POTTED_SPRUCE_SAPLING org.bukkit.block.BlockType.Typed
+---@field public POTTED_TORCHFLOWER org.bukkit.block.BlockType.Typed
+---@field public POTTED_WARPED_FUNGUS org.bukkit.block.BlockType.Typed
+---@field public POTTED_WARPED_ROOTS org.bukkit.block.BlockType.Typed
+---@field public POTTED_WHITE_TULIP org.bukkit.block.BlockType.Typed
+---@field public POTTED_WITHER_ROSE org.bukkit.block.BlockType.Typed
+---@field public POWDER_SNOW org.bukkit.block.BlockType.Typed
+---@field public POWDER_SNOW_CAULDRON org.bukkit.block.BlockType.Typed
+---@field public POWERED_RAIL org.bukkit.block.BlockType.Typed
+---@field public PRISMARINE org.bukkit.block.BlockType.Typed
+---@field public PRISMARINE_BRICK_SLAB org.bukkit.block.BlockType.Typed
+---@field public PRISMARINE_BRICK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public PRISMARINE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public PRISMARINE_SLAB org.bukkit.block.BlockType.Typed
+---@field public PRISMARINE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public PRISMARINE_WALL org.bukkit.block.BlockType.Typed
+---@field public PUMPKIN org.bukkit.block.BlockType.Typed
+---@field public PUMPKIN_STEM org.bukkit.block.BlockType.Typed
+---@field public PURPLE_BANNER org.bukkit.block.BlockType.Typed
+---@field public PURPLE_BED org.bukkit.block.BlockType.Typed
+---@field public PURPLE_CANDLE org.bukkit.block.BlockType.Typed
+---@field public PURPLE_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public PURPLE_CARPET org.bukkit.block.BlockType.Typed
+---@field public PURPLE_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public PURPLE_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public PURPLE_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public PURPLE_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public PURPLE_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public PURPLE_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public PURPLE_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public PURPLE_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public PURPLE_WOOL org.bukkit.block.BlockType.Typed
+---@field public PURPUR_BLOCK org.bukkit.block.BlockType.Typed
+---@field public PURPUR_PILLAR org.bukkit.block.BlockType.Typed
+---@field public PURPUR_SLAB org.bukkit.block.BlockType.Typed
+---@field public PURPUR_STAIRS org.bukkit.block.BlockType.Typed
+---@field public QUARTZ_BLOCK org.bukkit.block.BlockType.Typed
+---@field public QUARTZ_BRICKS org.bukkit.block.BlockType.Typed
+---@field public QUARTZ_PILLAR org.bukkit.block.BlockType.Typed
+---@field public QUARTZ_SLAB org.bukkit.block.BlockType.Typed
+---@field public QUARTZ_STAIRS org.bukkit.block.BlockType.Typed
+---@field public RAIL org.bukkit.block.BlockType.Typed
+---@field public RAW_COPPER_BLOCK org.bukkit.block.BlockType.Typed
+---@field public RAW_GOLD_BLOCK org.bukkit.block.BlockType.Typed
+---@field public RAW_IRON_BLOCK org.bukkit.block.BlockType.Typed
+---@field public RED_BANNER org.bukkit.block.BlockType.Typed
+---@field public RED_BED org.bukkit.block.BlockType.Typed
+---@field public RED_CANDLE org.bukkit.block.BlockType.Typed
+---@field public RED_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public RED_CARPET org.bukkit.block.BlockType.Typed
+---@field public RED_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public RED_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public RED_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public RED_MUSHROOM org.bukkit.block.BlockType.Typed
+---@field public RED_MUSHROOM_BLOCK org.bukkit.block.BlockType.Typed
+---@field public RED_NETHER_BRICK_SLAB org.bukkit.block.BlockType.Typed
+---@field public RED_NETHER_BRICK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public RED_NETHER_BRICK_WALL org.bukkit.block.BlockType.Typed
+---@field public RED_NETHER_BRICKS org.bukkit.block.BlockType.Typed
+---@field public RED_SAND org.bukkit.block.BlockType.Typed
+---@field public RED_SANDSTONE org.bukkit.block.BlockType.Typed
+---@field public RED_SANDSTONE_SLAB org.bukkit.block.BlockType.Typed
+---@field public RED_SANDSTONE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public RED_SANDSTONE_WALL org.bukkit.block.BlockType.Typed
+---@field public RED_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public RED_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public RED_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public RED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public RED_TULIP org.bukkit.block.BlockType.Typed
+---@field public RED_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public RED_WOOL org.bukkit.block.BlockType.Typed
+---@field public REDSTONE_BLOCK org.bukkit.block.BlockType.Typed
+---@field public REDSTONE_LAMP org.bukkit.block.BlockType.Typed
+---@field public REDSTONE_ORE org.bukkit.block.BlockType.Typed
+---@field public REDSTONE_TORCH org.bukkit.block.BlockType.Typed
+---@field public REDSTONE_WALL_TORCH org.bukkit.block.BlockType.Typed
+---@field public REDSTONE_WIRE org.bukkit.block.BlockType.Typed
+---@field public REINFORCED_DEEPSLATE org.bukkit.block.BlockType.Typed
+---@field public REPEATER org.bukkit.block.BlockType.Typed
+---@field public REPEATING_COMMAND_BLOCK org.bukkit.block.BlockType.Typed
+---@field public RESIN_BLOCK org.bukkit.block.BlockType.Typed
+---@field public RESIN_BRICK_SLAB org.bukkit.block.BlockType.Typed
+---@field public RESIN_BRICK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public RESIN_BRICK_WALL org.bukkit.block.BlockType.Typed
+---@field public RESIN_BRICKS org.bukkit.block.BlockType.Typed
+---@field public RESIN_CLUMP org.bukkit.block.BlockType.Typed
+---@field public RESPAWN_ANCHOR org.bukkit.block.BlockType.Typed
+---@field public ROOTED_DIRT org.bukkit.block.BlockType.Typed
+---@field public ROSE_BUSH org.bukkit.block.BlockType.Typed
+---@field public SAND org.bukkit.block.BlockType.Typed
+---@field public SANDSTONE org.bukkit.block.BlockType.Typed
+---@field public SANDSTONE_SLAB org.bukkit.block.BlockType.Typed
+---@field public SANDSTONE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public SANDSTONE_WALL org.bukkit.block.BlockType.Typed
+---@field public SCAFFOLDING org.bukkit.block.BlockType.Typed
+---@field public SCULK org.bukkit.block.BlockType.Typed
+---@field public SCULK_CATALYST org.bukkit.block.BlockType.Typed
+---@field public SCULK_SENSOR org.bukkit.block.BlockType.Typed
+---@field public SCULK_SHRIEKER org.bukkit.block.BlockType.Typed
+---@field public SCULK_VEIN org.bukkit.block.BlockType.Typed
+---@field public SEA_LANTERN org.bukkit.block.BlockType.Typed
+---@field public SEA_PICKLE org.bukkit.block.BlockType.Typed
+---@field public SEAGRASS org.bukkit.block.BlockType.Typed
+---@field public SHORT_DRY_GRASS org.bukkit.block.BlockType.Typed
+---@field public SHORT_GRASS org.bukkit.block.BlockType.Typed
+---@field public SHROOMLIGHT org.bukkit.block.BlockType.Typed
+---@field public SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public SKELETON_SKULL org.bukkit.block.BlockType.Typed
+---@field public SKELETON_WALL_SKULL org.bukkit.block.BlockType.Typed
+---@field public SLIME_BLOCK org.bukkit.block.BlockType.Typed
+---@field public SMALL_AMETHYST_BUD org.bukkit.block.BlockType.Typed
+---@field public SMALL_DRIPLEAF org.bukkit.block.BlockType.Typed
+---@field public SMITHING_TABLE org.bukkit.block.BlockType.Typed
+---@field public SMOKER org.bukkit.block.BlockType.Typed
+---@field public SMOOTH_BASALT org.bukkit.block.BlockType.Typed
+---@field public SMOOTH_QUARTZ org.bukkit.block.BlockType.Typed
+---@field public SMOOTH_QUARTZ_SLAB org.bukkit.block.BlockType.Typed
+---@field public SMOOTH_QUARTZ_STAIRS org.bukkit.block.BlockType.Typed
+---@field public SMOOTH_RED_SANDSTONE org.bukkit.block.BlockType.Typed
+---@field public SMOOTH_RED_SANDSTONE_SLAB org.bukkit.block.BlockType.Typed
+---@field public SMOOTH_RED_SANDSTONE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public SMOOTH_SANDSTONE org.bukkit.block.BlockType.Typed
+---@field public SMOOTH_SANDSTONE_SLAB org.bukkit.block.BlockType.Typed
+---@field public SMOOTH_SANDSTONE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public SMOOTH_STONE org.bukkit.block.BlockType.Typed
+---@field public SMOOTH_STONE_SLAB org.bukkit.block.BlockType.Typed
+---@field public SNIFFER_EGG org.bukkit.block.BlockType.Typed
+---@field public SNOW org.bukkit.block.BlockType.Typed
+---@field public SNOW_BLOCK org.bukkit.block.BlockType.Typed
+---@field public SOUL_CAMPFIRE org.bukkit.block.BlockType.Typed
+---@field public SOUL_FIRE org.bukkit.block.BlockType.Typed
+---@field public SOUL_LANTERN org.bukkit.block.BlockType.Typed
+---@field public SOUL_SAND org.bukkit.block.BlockType.Typed
+---@field public SOUL_SOIL org.bukkit.block.BlockType.Typed
+---@field public SOUL_TORCH org.bukkit.block.BlockType.Typed
+---@field public SOUL_WALL_TORCH org.bukkit.block.BlockType.Typed
+---@field public SPAWNER org.bukkit.block.BlockType.Typed
+---@field public SPONGE org.bukkit.block.BlockType.Typed
+---@field public SPORE_BLOSSOM org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_BUTTON org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_DOOR org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_FENCE org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_FENCE_GATE org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_LEAVES org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_LOG org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_PLANKS org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_SAPLING org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_SIGN org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_SLAB org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_WALL_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_WALL_SIGN org.bukkit.block.BlockType.Typed
+---@field public SPRUCE_WOOD org.bukkit.block.BlockType.Typed
+---@field public STICKY_PISTON org.bukkit.block.BlockType.Typed
+---@field public STONE org.bukkit.block.BlockType.Typed
+---@field public STONE_BRICK_SLAB org.bukkit.block.BlockType.Typed
+---@field public STONE_BRICK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public STONE_BRICK_WALL org.bukkit.block.BlockType.Typed
+---@field public STONE_BRICKS org.bukkit.block.BlockType.Typed
+---@field public STONE_BUTTON org.bukkit.block.BlockType.Typed
+---@field public STONE_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public STONE_SLAB org.bukkit.block.BlockType.Typed
+---@field public STONE_STAIRS org.bukkit.block.BlockType.Typed
+---@field public STONECUTTER org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_ACACIA_LOG org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_ACACIA_WOOD org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_BAMBOO_BLOCK org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_BIRCH_LOG org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_BIRCH_WOOD org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_CHERRY_LOG org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_CHERRY_WOOD org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_CRIMSON_HYPHAE org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_CRIMSON_STEM org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_DARK_OAK_LOG org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_DARK_OAK_WOOD org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_JUNGLE_LOG org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_JUNGLE_WOOD org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_MANGROVE_LOG org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_MANGROVE_WOOD org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_OAK_LOG org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_OAK_WOOD org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_PALE_OAK_LOG org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_PALE_OAK_WOOD org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_SPRUCE_LOG org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_SPRUCE_WOOD org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_WARPED_HYPHAE org.bukkit.block.BlockType.Typed
+---@field public STRIPPED_WARPED_STEM org.bukkit.block.BlockType.Typed
+---@field public STRUCTURE_BLOCK org.bukkit.block.BlockType.Typed
+---@field public STRUCTURE_VOID org.bukkit.block.BlockType.Typed
+---@field public SUGAR_CANE org.bukkit.block.BlockType.Typed
+---@field public SUNFLOWER org.bukkit.block.BlockType.Typed
+---@field public SUSPICIOUS_GRAVEL org.bukkit.block.BlockType.Typed
+---@field public SUSPICIOUS_SAND org.bukkit.block.BlockType.Typed
+---@field public SWEET_BERRY_BUSH org.bukkit.block.BlockType.Typed
+---@field public TALL_DRY_GRASS org.bukkit.block.BlockType.Typed
+---@field public TALL_GRASS org.bukkit.block.BlockType.Typed
+---@field public TALL_SEAGRASS org.bukkit.block.BlockType.Typed
+---@field public TARGET org.bukkit.block.BlockType.Typed
+---@field public TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public TEST_BLOCK org.bukkit.block.BlockType.Typed
+---@field public TEST_INSTANCE_BLOCK org.bukkit.block.BlockType.Typed
+---@field public TINTED_GLASS org.bukkit.block.BlockType.Typed
+---@field public TNT org.bukkit.block.BlockType.Typed
+---@field public TORCH org.bukkit.block.BlockType.Typed
+---@field public TORCHFLOWER org.bukkit.block.BlockType.Typed
+---@field public TORCHFLOWER_CROP org.bukkit.block.BlockType.Typed
+---@field public TRAPPED_CHEST org.bukkit.block.BlockType.Typed
+---@field public TRIAL_SPAWNER org.bukkit.block.BlockType.Typed
+---@field public TRIPWIRE org.bukkit.block.BlockType.Typed
+---@field public TRIPWIRE_HOOK org.bukkit.block.BlockType.Typed
+---@field public TUBE_CORAL org.bukkit.block.BlockType.Typed
+---@field public TUBE_CORAL_BLOCK org.bukkit.block.BlockType.Typed
+---@field public TUBE_CORAL_FAN org.bukkit.block.BlockType.Typed
+---@field public TUBE_CORAL_WALL_FAN org.bukkit.block.BlockType.Typed
+---@field public TUFF org.bukkit.block.BlockType.Typed
+---@field public TUFF_BRICK_SLAB org.bukkit.block.BlockType.Typed
+---@field public TUFF_BRICK_STAIRS org.bukkit.block.BlockType.Typed
+---@field public TUFF_BRICK_WALL org.bukkit.block.BlockType.Typed
+---@field public TUFF_BRICKS org.bukkit.block.BlockType.Typed
+---@field public TUFF_SLAB org.bukkit.block.BlockType.Typed
+---@field public TUFF_STAIRS org.bukkit.block.BlockType.Typed
+---@field public TUFF_WALL org.bukkit.block.BlockType.Typed
+---@field public TURTLE_EGG org.bukkit.block.BlockType.Typed
+---@field public TWISTING_VINES org.bukkit.block.BlockType.Typed
+---@field public TWISTING_VINES_PLANT org.bukkit.block.BlockType.Typed
+---@field public VAULT org.bukkit.block.BlockType.Typed
+---@field public VERDANT_FROGLIGHT org.bukkit.block.BlockType.Typed
+---@field public VINE org.bukkit.block.BlockType.Typed
+---@field public VOID_AIR org.bukkit.block.BlockType.Typed
+---@field public WALL_TORCH org.bukkit.block.BlockType.Typed
+---@field public WARPED_BUTTON org.bukkit.block.BlockType.Typed
+---@field public WARPED_DOOR org.bukkit.block.BlockType.Typed
+---@field public WARPED_FENCE org.bukkit.block.BlockType.Typed
+---@field public WARPED_FENCE_GATE org.bukkit.block.BlockType.Typed
+---@field public WARPED_FUNGUS org.bukkit.block.BlockType.Typed
+---@field public WARPED_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public WARPED_HYPHAE org.bukkit.block.BlockType.Typed
+---@field public WARPED_NYLIUM org.bukkit.block.BlockType.Typed
+---@field public WARPED_PLANKS org.bukkit.block.BlockType.Typed
+---@field public WARPED_PRESSURE_PLATE org.bukkit.block.BlockType.Typed
+---@field public WARPED_ROOTS org.bukkit.block.BlockType.Typed
+---@field public WARPED_SIGN org.bukkit.block.BlockType.Typed
+---@field public WARPED_SLAB org.bukkit.block.BlockType.Typed
+---@field public WARPED_STAIRS org.bukkit.block.BlockType.Typed
+---@field public WARPED_STEM org.bukkit.block.BlockType.Typed
+---@field public WARPED_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public WARPED_WALL_HANGING_SIGN org.bukkit.block.BlockType.Typed
+---@field public WARPED_WALL_SIGN org.bukkit.block.BlockType.Typed
+---@field public WARPED_WART_BLOCK org.bukkit.block.BlockType.Typed
+---@field public WATER org.bukkit.block.BlockType.Typed
+---@field public WATER_CAULDRON org.bukkit.block.BlockType.Typed
+---@field public WAXED_CHISELED_COPPER org.bukkit.block.BlockType.Typed
+---@field public WAXED_COPPER_BLOCK org.bukkit.block.BlockType.Typed
+---@field public WAXED_COPPER_BULB org.bukkit.block.BlockType.Typed
+---@field public WAXED_COPPER_DOOR org.bukkit.block.BlockType.Typed
+---@field public WAXED_COPPER_GRATE org.bukkit.block.BlockType.Typed
+---@field public WAXED_COPPER_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public WAXED_CUT_COPPER org.bukkit.block.BlockType.Typed
+---@field public WAXED_CUT_COPPER_SLAB org.bukkit.block.BlockType.Typed
+---@field public WAXED_CUT_COPPER_STAIRS org.bukkit.block.BlockType.Typed
+---@field public WAXED_EXPOSED_CHISELED_COPPER org.bukkit.block.BlockType.Typed
+---@field public WAXED_EXPOSED_COPPER org.bukkit.block.BlockType.Typed
+---@field public WAXED_EXPOSED_COPPER_BULB org.bukkit.block.BlockType.Typed
+---@field public WAXED_EXPOSED_COPPER_DOOR org.bukkit.block.BlockType.Typed
+---@field public WAXED_EXPOSED_COPPER_GRATE org.bukkit.block.BlockType.Typed
+---@field public WAXED_EXPOSED_COPPER_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public WAXED_EXPOSED_CUT_COPPER org.bukkit.block.BlockType.Typed
+---@field public WAXED_EXPOSED_CUT_COPPER_SLAB org.bukkit.block.BlockType.Typed
+---@field public WAXED_EXPOSED_CUT_COPPER_STAIRS org.bukkit.block.BlockType.Typed
+---@field public WAXED_OXIDIZED_CHISELED_COPPER org.bukkit.block.BlockType.Typed
+---@field public WAXED_OXIDIZED_COPPER org.bukkit.block.BlockType.Typed
+---@field public WAXED_OXIDIZED_COPPER_BULB org.bukkit.block.BlockType.Typed
+---@field public WAXED_OXIDIZED_COPPER_DOOR org.bukkit.block.BlockType.Typed
+---@field public WAXED_OXIDIZED_COPPER_GRATE org.bukkit.block.BlockType.Typed
+---@field public WAXED_OXIDIZED_COPPER_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public WAXED_OXIDIZED_CUT_COPPER org.bukkit.block.BlockType.Typed
+---@field public WAXED_OXIDIZED_CUT_COPPER_SLAB org.bukkit.block.BlockType.Typed
+---@field public WAXED_OXIDIZED_CUT_COPPER_STAIRS org.bukkit.block.BlockType.Typed
+---@field public WAXED_WEATHERED_CHISELED_COPPER org.bukkit.block.BlockType.Typed
+---@field public WAXED_WEATHERED_COPPER org.bukkit.block.BlockType.Typed
+---@field public WAXED_WEATHERED_COPPER_BULB org.bukkit.block.BlockType.Typed
+---@field public WAXED_WEATHERED_COPPER_DOOR org.bukkit.block.BlockType.Typed
+---@field public WAXED_WEATHERED_COPPER_GRATE org.bukkit.block.BlockType.Typed
+---@field public WAXED_WEATHERED_COPPER_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public WAXED_WEATHERED_CUT_COPPER org.bukkit.block.BlockType.Typed
+---@field public WAXED_WEATHERED_CUT_COPPER_SLAB org.bukkit.block.BlockType.Typed
+---@field public WAXED_WEATHERED_CUT_COPPER_STAIRS org.bukkit.block.BlockType.Typed
+---@field public WEATHERED_CHISELED_COPPER org.bukkit.block.BlockType.Typed
+---@field public WEATHERED_COPPER org.bukkit.block.BlockType.Typed
+---@field public WEATHERED_COPPER_BULB org.bukkit.block.BlockType.Typed
+---@field public WEATHERED_COPPER_DOOR org.bukkit.block.BlockType.Typed
+---@field public WEATHERED_COPPER_GRATE org.bukkit.block.BlockType.Typed
+---@field public WEATHERED_COPPER_TRAPDOOR org.bukkit.block.BlockType.Typed
+---@field public WEATHERED_CUT_COPPER org.bukkit.block.BlockType.Typed
+---@field public WEATHERED_CUT_COPPER_SLAB org.bukkit.block.BlockType.Typed
+---@field public WEATHERED_CUT_COPPER_STAIRS org.bukkit.block.BlockType.Typed
+---@field public WEEPING_VINES org.bukkit.block.BlockType.Typed
+---@field public WEEPING_VINES_PLANT org.bukkit.block.BlockType.Typed
+---@field public WET_SPONGE org.bukkit.block.BlockType.Typed
+---@field public WHEAT org.bukkit.block.BlockType.Typed
+---@field public WHITE_BANNER org.bukkit.block.BlockType.Typed
+---@field public WHITE_BED org.bukkit.block.BlockType.Typed
+---@field public WHITE_CANDLE org.bukkit.block.BlockType.Typed
+---@field public WHITE_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public WHITE_CARPET org.bukkit.block.BlockType.Typed
+---@field public WHITE_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public WHITE_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public WHITE_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public WHITE_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public WHITE_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public WHITE_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public WHITE_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public WHITE_TULIP org.bukkit.block.BlockType.Typed
+---@field public WHITE_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public WHITE_WOOL org.bukkit.block.BlockType.Typed
+---@field public WILDFLOWERS org.bukkit.block.BlockType.Typed
+---@field public WITHER_ROSE org.bukkit.block.BlockType.Typed
+---@field public WITHER_SKELETON_SKULL org.bukkit.block.BlockType.Typed
+---@field public WITHER_SKELETON_WALL_SKULL org.bukkit.block.BlockType.Typed
+---@field public YELLOW_BANNER org.bukkit.block.BlockType.Typed
+---@field public YELLOW_BED org.bukkit.block.BlockType.Typed
+---@field public YELLOW_CANDLE org.bukkit.block.BlockType.Typed
+---@field public YELLOW_CANDLE_CAKE org.bukkit.block.BlockType.Typed
+---@field public YELLOW_CARPET org.bukkit.block.BlockType.Typed
+---@field public YELLOW_CONCRETE org.bukkit.block.BlockType.Typed
+---@field public YELLOW_CONCRETE_POWDER org.bukkit.block.BlockType.Typed
+---@field public YELLOW_GLAZED_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public YELLOW_SHULKER_BOX org.bukkit.block.BlockType.Typed
+---@field public YELLOW_STAINED_GLASS org.bukkit.block.BlockType.Typed
+---@field public YELLOW_STAINED_GLASS_PANE org.bukkit.block.BlockType.Typed
+---@field public YELLOW_TERRACOTTA org.bukkit.block.BlockType.Typed
+---@field public YELLOW_WALL_BANNER org.bukkit.block.BlockType.Typed
+---@field public YELLOW_WOOL org.bukkit.block.BlockType.Typed
+---@field public ZOMBIE_HEAD org.bukkit.block.BlockType.Typed
+---@field public ZOMBIE_WALL_HEAD org.bukkit.block.BlockType.Typed
+local BlockType = {}
+
+---@param key string 
+---@private
+---@return B 
+function BlockType:getBlockType(key) end
+
+---@public
+---@return org.bukkit.block.BlockType.Typed the typed block type.
+--- Yields this block type as a typed version of itself with a plain {@link BlockData} representing it.
+function BlockType:typed() end
+
+---@param blockDataType java.lang.Class the class type of the {@link BlockData} to type this {@link BlockType} with.
+---@public
+---@return org.bukkit.block.BlockType.Typed the typed block type.
+--- Yields this block type as a typed version of itself with a specific {@link BlockData} representing it.
+function BlockType:typed(blockDataType) end
+
+---@public
+---@return boolean true if there is a corresponding ItemType, otherwise false
+--- Returns true if this BlockType has a corresponding {@link ItemType}.
+function BlockType:hasItemType() end
+
+---@public
+---@return org.bukkit.inventory.ItemType the corresponding ItemType
+--- Returns the corresponding {@link ItemType} for the given BlockType. <p> If there is no corresponding {@link ItemType} an error will be thrown.
+function BlockType:getItemType() end
+
+---@public
+---@return java.lang.Class the BlockData class of this BlockType
+--- Gets the BlockData class of this BlockType
+function BlockType:getBlockDataClass() end
+
+---@public
+---@return org.bukkit.block.data.BlockData new data instance
+--- Creates a new {@link BlockData} instance for this block type, with all properties initialized to unspecified defaults.
+function BlockType:createBlockData() end
+
+---@public
+---@return java.util.Collection new block data collection
+--- Creates a collection of {@link BlockData} instances for this block type, with all possible combinations of properties values.
+function BlockType:createBlockDataStates() end
+
+---@param data string data string
+---@public
+---@return org.bukkit.block.data.BlockData new data instance
+--- Creates a new {@link BlockData} instance for this block type, with all properties initialized to unspecified defaults, except for those provided in data.
+function BlockType:createBlockData(data) end
+
+---@public
+---@return boolean True if this block type is solid
+--- Check if the blockt type is solid (can be built upon)
+function BlockType:isSolid() end
+
+---@public
+---@return boolean True if this block type can catch fire
+--- Check if the block type can catch fire
+function BlockType:isFlammable() end
+
+---@public
+---@return boolean True if this block type can burn away
+--- Check if the block type can burn away
+function BlockType:isBurnable() end
+
+---@public
+---@return boolean True if this block type occludes light
+--- Check if the block type is occludes light in the lighting engine. <p> Generally speaking, most full blocks will occlude light. Non-full blocks are not occluding (e.g. anvils, chests, tall grass, stairs, etc.), nor are specific full blocks such as barriers or spawners which block light despite their texture. <p> An occluding block will have the following effects: <ul>   <li>Chests cannot be opened if an occluding block is above it.   <li>Mobs cannot spawn inside of occluding blocks.   <li>Only occluding blocks can be "powered" ({@link Block#isBlockPowered()}). </ul> This list may be inconclusive. For a full list of the side effects of an occluding block, see the <a href="https://minecraft.fandom.com/wiki/Opacity">Minecraft Wiki</a>.
+function BlockType:isOccluding() end
+
+---@public
+---@return boolean True if this block type is affected by gravity.
+function BlockType:hasGravity() end
+
+---@deprecated
+---@public
+---@return boolean true if this block type can be interacted with.
+--- Checks if this block type can be interacted with. <p> Interactable block types include those with functionality when they are interacted with by a player such as chests, furnaces, etc. <p> Some blocks such as piston heads and stairs are considered interactable though may not perform any additional functionality. <p> Note that the interactability of some block types may be dependant on their state as well. This method will return true if there is at least one state in which additional interact handling is performed for the block type.
+function BlockType:isInteractable() end
+
+---@public
+---@return number the hardness of that block type.
+--- Obtains the block's hardness level (also known as "strength"). <br> This number is used to calculate the time required to break each block.
+function BlockType:getHardness() end
+
+---@public
+---@return number the blast resistance of that block type.
+--- Obtains the blast resistance value (also known as block "durability"). <br> This value is used in explosions to calculate whether a block should be broken or not.
+function BlockType:getBlastResistance() end
+
+---@public
+---@return number the slipperiness of this block
+--- Returns a value that represents how 'slippery' the block is. <p> Blocks with higher slipperiness, like {@link BlockType#ICE} can be slid on further by the player and other entities. <p> Most blocks have a default slipperiness of {@code 0.6f}.
+function BlockType:getSlipperiness() end
+
+---@public
+---@return boolean True if this block type is an air block.
+--- Check if the block type is an air block.
+function BlockType:isAir() end
+
+---@deprecated
+---@param world org.bukkit.World the world to check
+---@public
+---@return boolean true if this BlockType can be used in this World.
+--- Gets if the BlockType is enabled by the features in a world.
+function BlockType:isEnabledByFeature(world) end
+
+---@deprecated
+---@public
+---@return org.bukkit.Material the converted Material or null
+--- Tries to convert this BlockType into a Material
+function BlockType:asMaterial() end
+
+---@deprecated
+---@public
+---@return string 
+function BlockType:getTranslationKey() end
+
+---@public
+---@return boolean false if this block never has collision, true if it <b>might</b> have collision
+--- Checks if this block type has collision. <p>
+function BlockType:hasCollision() end
+

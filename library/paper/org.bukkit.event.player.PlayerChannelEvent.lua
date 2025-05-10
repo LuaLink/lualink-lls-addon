@@ -1,0 +1,21 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.event.player.PlayerChannelEvent
+---@class org.bukkit.event.player.PlayerChannelEvent: org.bukkit.event.player.PlayerEvent
+---@field private HANDLER_LIST org.bukkit.event.HandlerList
+---@field private channel string
+---@overload fun(player: Player, channel: string): PlayerChannelEvent
+local PlayerChannelEvent = {}
+
+---@public
+---@return string 
+function PlayerChannelEvent:getChannel() end
+
+---@public
+---@return org.bukkit.event.HandlerList 
+function PlayerChannelEvent:getHandlers() end
+
+---@public
+---@return org.bukkit.event.HandlerList 
+function PlayerChannelEvent:getHandlerList() end
+

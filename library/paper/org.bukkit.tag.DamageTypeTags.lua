@@ -1,0 +1,47 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.tag.DamageTypeTags
+---@class org.bukkit.tag.DamageTypeTags
+---@field public ALWAYS_HURTS_ENDER_DRAGONS org.bukkit.Tag
+---@field public ALWAYS_KILLS_ARMOR_STANDS org.bukkit.Tag
+---@field public ALWAYS_MOST_SIGNIFICANT_FALL org.bukkit.Tag
+---@field public ALWAYS_TRIGGERS_SILVERFISH org.bukkit.Tag
+---@field public AVOIDS_GUARDIAN_THORNS org.bukkit.Tag
+---@field public BURN_FROM_STEPPING org.bukkit.Tag
+---@field public BURNS_ARMOR_STANDS org.bukkit.Tag
+---@field public BYPASSES_ARMOR org.bukkit.Tag
+---@field public BYPASSES_EFFECTS org.bukkit.Tag
+---@field public BYPASSES_ENCHANTMENTS org.bukkit.Tag
+---@field public BYPASSES_INVULNERABILITY org.bukkit.Tag
+---@field public BYPASSES_RESISTANCE org.bukkit.Tag
+---@field public BYPASSES_SHIELD org.bukkit.Tag
+---@field public BYPASSES_WOLF_ARMOR org.bukkit.Tag
+---@field public CAN_BREAK_ARMOR_STAND org.bukkit.Tag
+---@field public DAMAGES_HELMET org.bukkit.Tag
+---@field public IGNITES_ARMOR_STANDS org.bukkit.Tag
+---@field public IS_DROWNING org.bukkit.Tag
+---@field public IS_EXPLOSION org.bukkit.Tag
+---@field public IS_FALL org.bukkit.Tag
+---@field public IS_FIRE org.bukkit.Tag
+---@field public IS_FREEZING org.bukkit.Tag
+---@field public IS_LIGHTNING org.bukkit.Tag
+---@field public IS_PLAYER_ATTACK org.bukkit.Tag
+---@field public IS_PROJECTILE org.bukkit.Tag
+---@field public MACE_SMASH org.bukkit.Tag
+---@field public NO_ANGER org.bukkit.Tag
+---@field public NO_IMPACT org.bukkit.Tag
+---@field public NO_KNOCKBACK org.bukkit.Tag
+---@field public PANIC_CAUSES org.bukkit.Tag
+---@field public PANIC_ENVIRONMENTAL_CAUSES org.bukkit.Tag
+---@field public WITCH_RESISTANT_TO org.bukkit.Tag
+---@field public WITHER_IMMUNE_TO org.bukkit.Tag
+---@field public IS_MACE_SMASH org.bukkit.Tag
+---@field public REGISTRY_DAMAGE_TYPES string
+---@overload fun(): DamageTypeTags
+local DamageTypeTags = {}
+
+---@param key string 
+---@private
+---@return org.bukkit.Tag 
+function DamageTypeTags:getTag(key) end
+

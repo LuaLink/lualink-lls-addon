@@ -1,0 +1,37 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.event.inventory.InventoryType
+---@class org.bukkit.event.inventory.InventoryType
+---@field public CHEST InventoryType
+---@field public DISPENSER InventoryType
+---@field public DROPPER InventoryType
+---@field public FURNACE InventoryType
+---@field public WORKBENCH InventoryType
+---@field public CRAFTING InventoryType
+---@field public ENCHANTING InventoryType
+---@field public BREWING InventoryType
+---@field public PLAYER InventoryType
+---@field public CREATIVE InventoryType
+---@field public MERCHANT InventoryType
+---@field public ENDER_CHEST InventoryType
+---@field public ANVIL InventoryType
+---@field public SMITHING InventoryType
+---@field public BEACON InventoryType
+---@field public HOPPER InventoryType
+---@field public SHULKER_BOX InventoryType
+---@field public BARREL InventoryType
+---@field public BLAST_FURNACE InventoryType
+---@field public LECTERN InventoryType
+---@field public SMOKER InventoryType
+---@field public LOOM InventoryType
+---@field public CARTOGRAPHY InventoryType
+---@field public GRINDSTONE InventoryType
+---@field public STONECUTTER InventoryType
+---@field public COMPOSTER InventoryType
+---@field public CHISELED_BOOKSHELF InventoryType
+---@field public JUKEBOX InventoryType
+---@field public DECORATED_POT InventoryType
+---@field public CRAFTER InventoryType
+---@field public SMITHING_NEW InventoryType
+local InventoryType = {}
+

@@ -1,0 +1,29 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.material.NetherWarts
+---@class org.bukkit.material.NetherWarts: org.bukkit.material.MaterialData
+---@overload fun(): NetherWarts
+---@overload fun(state: NetherWartsState): NetherWarts
+---@overload fun(type: Material): NetherWarts
+---@overload fun(type: Material, data: number): NetherWarts
+local NetherWarts = {}
+
+---@public
+---@return org.bukkit.NetherWartsState NetherWartsState of this nether wart
+--- Gets the current growth state of this nether wart
+function NetherWarts:getState() end
+
+---@param state org.bukkit.NetherWartsState New growth state of this nether wart
+---@public
+---@return nil 
+--- Sets the growth state of this nether wart
+function NetherWarts:setState(state) end
+
+---@public
+---@return string 
+function NetherWarts:toString() end
+
+---@public
+---@return org.bukkit.material.NetherWarts 
+function NetherWarts:clone() end
+

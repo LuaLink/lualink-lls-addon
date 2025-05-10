@@ -1,0 +1,27 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.inventory.Property
+---@class org.bukkit.inventory.Property
+---@field public BREW_TIME Property
+---@field public FUEL_TIME Property
+---@field public BURN_TIME Property
+---@field public TICKS_FOR_CURRENT_FUEL Property
+---@field public COOK_TIME Property
+---@field public TICKS_FOR_CURRENT_SMELTING Property
+---@field public ENCHANT_BUTTON1 Property
+---@field public ENCHANT_BUTTON2 Property
+---@field public ENCHANT_BUTTON3 Property
+---@field public ENCHANT_XP_SEED Property
+---@field public ENCHANT_ID1 Property
+---@field public ENCHANT_ID2 Property
+---@field public ENCHANT_ID3 Property
+---@field public ENCHANT_LEVEL1 Property
+---@field public ENCHANT_LEVEL2 Property
+---@field public ENCHANT_LEVEL3 Property
+---@field public LEVELS Property
+---@field public PRIMARY_EFFECT Property
+---@field public SECONDARY_EFFECT Property
+---@field public REPAIR_COST Property
+---@field public BOOK_PAGE Property
+local Property = {}
+

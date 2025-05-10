@@ -1,0 +1,73 @@
+--- Optional.empty
+---@meta
+-- io.papermc.paper.registry.keys.GameEventKeys
+---@class io.papermc.paper.registry.keys.GameEventKeys
+---@field public BLOCK_ACTIVATE io.papermc.paper.registry.TypedKey
+---@field public BLOCK_ATTACH io.papermc.paper.registry.TypedKey
+---@field public BLOCK_CHANGE io.papermc.paper.registry.TypedKey
+---@field public BLOCK_CLOSE io.papermc.paper.registry.TypedKey
+---@field public BLOCK_DEACTIVATE io.papermc.paper.registry.TypedKey
+---@field public BLOCK_DESTROY io.papermc.paper.registry.TypedKey
+---@field public BLOCK_DETACH io.papermc.paper.registry.TypedKey
+---@field public BLOCK_OPEN io.papermc.paper.registry.TypedKey
+---@field public BLOCK_PLACE io.papermc.paper.registry.TypedKey
+---@field public CONTAINER_CLOSE io.papermc.paper.registry.TypedKey
+---@field public CONTAINER_OPEN io.papermc.paper.registry.TypedKey
+---@field public DRINK io.papermc.paper.registry.TypedKey
+---@field public EAT io.papermc.paper.registry.TypedKey
+---@field public ELYTRA_GLIDE io.papermc.paper.registry.TypedKey
+---@field public ENTITY_ACTION io.papermc.paper.registry.TypedKey
+---@field public ENTITY_DAMAGE io.papermc.paper.registry.TypedKey
+---@field public ENTITY_DIE io.papermc.paper.registry.TypedKey
+---@field public ENTITY_DISMOUNT io.papermc.paper.registry.TypedKey
+---@field public ENTITY_INTERACT io.papermc.paper.registry.TypedKey
+---@field public ENTITY_MOUNT io.papermc.paper.registry.TypedKey
+---@field public ENTITY_PLACE io.papermc.paper.registry.TypedKey
+---@field public EQUIP io.papermc.paper.registry.TypedKey
+---@field public EXPLODE io.papermc.paper.registry.TypedKey
+---@field public FLAP io.papermc.paper.registry.TypedKey
+---@field public FLUID_PICKUP io.papermc.paper.registry.TypedKey
+---@field public FLUID_PLACE io.papermc.paper.registry.TypedKey
+---@field public HIT_GROUND io.papermc.paper.registry.TypedKey
+---@field public INSTRUMENT_PLAY io.papermc.paper.registry.TypedKey
+---@field public ITEM_INTERACT_FINISH io.papermc.paper.registry.TypedKey
+---@field public ITEM_INTERACT_START io.papermc.paper.registry.TypedKey
+---@field public JUKEBOX_PLAY io.papermc.paper.registry.TypedKey
+---@field public JUKEBOX_STOP_PLAY io.papermc.paper.registry.TypedKey
+---@field public LIGHTNING_STRIKE io.papermc.paper.registry.TypedKey
+---@field public NOTE_BLOCK_PLAY io.papermc.paper.registry.TypedKey
+---@field public PRIME_FUSE io.papermc.paper.registry.TypedKey
+---@field public PROJECTILE_LAND io.papermc.paper.registry.TypedKey
+---@field public PROJECTILE_SHOOT io.papermc.paper.registry.TypedKey
+---@field public RESONATE_1 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_2 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_3 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_4 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_5 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_6 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_7 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_8 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_9 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_10 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_11 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_12 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_13 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_14 io.papermc.paper.registry.TypedKey
+---@field public RESONATE_15 io.papermc.paper.registry.TypedKey
+---@field public SCULK_SENSOR_TENDRILS_CLICKING io.papermc.paper.registry.TypedKey
+---@field public SHEAR io.papermc.paper.registry.TypedKey
+---@field public SHRIEK io.papermc.paper.registry.TypedKey
+---@field public SPLASH io.papermc.paper.registry.TypedKey
+---@field public STEP io.papermc.paper.registry.TypedKey
+---@field public SWIM io.papermc.paper.registry.TypedKey
+---@field public TELEPORT io.papermc.paper.registry.TypedKey
+---@field public UNEQUIP io.papermc.paper.registry.TypedKey
+---@overload fun(): GameEventKeys
+local GameEventKeys = {}
+
+---@param key any the value's key in the registry
+---@public
+---@return io.papermc.paper.registry.TypedKey a new typed key
+--- Creates a typed key for {@link GameEvent} in the registry {@code minecraft:game_event}.
+function GameEventKeys:create(key) end
+
