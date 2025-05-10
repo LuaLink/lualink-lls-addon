@@ -2,14 +2,14 @@
 ---@meta
 -- org.bukkit.event.entity.RegainReason
 ---@class org.bukkit.event.entity.RegainReason
----@field public REGEN Optional[org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason]
----@field public SATIATED Optional[org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason]
----@field public EATING Optional[org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason]
----@field public ENDER_CRYSTAL Optional[org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason]
----@field public MAGIC Optional[org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason]
----@field public MAGIC_REGEN Optional[org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason]
----@field public WITHER_SPAWN Optional[org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason]
----@field public WITHER Optional[org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason]
----@field public CUSTOM Optional[org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason]
+---@field public REGEN org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason
+---@field public SATIATED org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason
+---@field public EATING org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason
+---@field public ENDER_CRYSTAL org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason
+---@field public MAGIC org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason
+---@field public MAGIC_REGEN org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason
+---@field public WITHER_SPAWN org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason
+---@field public WITHER org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason
+---@field public CUSTOM org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason
 local RegainReason = {}
 

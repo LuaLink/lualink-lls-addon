@@ -2,11 +2,11 @@
 ---@meta
 -- io.papermc.paper.threadedregions.scheduler.CancelledState
 ---@class io.papermc.paper.threadedregions.scheduler.CancelledState
----@field public CANCELLED_BY_CALLER Optional[io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState]
----@field public CANCELLED_ALREADY Optional[io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState]
----@field public RUNNING Optional[io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState]
----@field public ALREADY_EXECUTED Optional[io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState]
----@field public NEXT_RUNS_CANCELLED Optional[io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState]
----@field public NEXT_RUNS_CANCELLED_ALREADY Optional[io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState]
+---@field public CANCELLED_BY_CALLER io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState
+---@field public CANCELLED_ALREADY io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState
+---@field public RUNNING io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState
+---@field public ALREADY_EXECUTED io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState
+---@field public NEXT_RUNS_CANCELLED io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState
+---@field public NEXT_RUNS_CANCELLED_ALREADY io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState
 local CancelledState = {}
 

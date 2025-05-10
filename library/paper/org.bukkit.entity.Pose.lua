@@ -2,23 +2,23 @@
 ---@meta
 -- org.bukkit.entity.Pose
 ---@class org.bukkit.entity.Pose
----@field public STANDING Optional[org.bukkit.entity.Pose]
----@field public FALL_FLYING Optional[org.bukkit.entity.Pose]
----@field public SLEEPING Optional[org.bukkit.entity.Pose]
----@field public SWIMMING Optional[org.bukkit.entity.Pose]
----@field public SPIN_ATTACK Optional[org.bukkit.entity.Pose]
----@field public SNEAKING Optional[org.bukkit.entity.Pose]
----@field public LONG_JUMPING Optional[org.bukkit.entity.Pose]
----@field public DYING Optional[org.bukkit.entity.Pose]
----@field public CROAKING Optional[org.bukkit.entity.Pose]
----@field public USING_TONGUE Optional[org.bukkit.entity.Pose]
----@field public SITTING Optional[org.bukkit.entity.Pose]
----@field public ROARING Optional[org.bukkit.entity.Pose]
----@field public SNIFFING Optional[org.bukkit.entity.Pose]
----@field public EMERGING Optional[org.bukkit.entity.Pose]
----@field public DIGGING Optional[org.bukkit.entity.Pose]
----@field public SLIDING Optional[org.bukkit.entity.Pose]
----@field public SHOOTING Optional[org.bukkit.entity.Pose]
----@field public INHALING Optional[org.bukkit.entity.Pose]
+---@field public STANDING org.bukkit.entity.Pose
+---@field public FALL_FLYING org.bukkit.entity.Pose
+---@field public SLEEPING org.bukkit.entity.Pose
+---@field public SWIMMING org.bukkit.entity.Pose
+---@field public SPIN_ATTACK org.bukkit.entity.Pose
+---@field public SNEAKING org.bukkit.entity.Pose
+---@field public LONG_JUMPING org.bukkit.entity.Pose
+---@field public DYING org.bukkit.entity.Pose
+---@field public CROAKING org.bukkit.entity.Pose
+---@field public USING_TONGUE org.bukkit.entity.Pose
+---@field public SITTING org.bukkit.entity.Pose
+---@field public ROARING org.bukkit.entity.Pose
+---@field public SNIFFING org.bukkit.entity.Pose
+---@field public EMERGING org.bukkit.entity.Pose
+---@field public DIGGING org.bukkit.entity.Pose
+---@field public SLIDING org.bukkit.entity.Pose
+---@field public SHOOTING org.bukkit.entity.Pose
+---@field public INHALING org.bukkit.entity.Pose
 local Pose = {}
 

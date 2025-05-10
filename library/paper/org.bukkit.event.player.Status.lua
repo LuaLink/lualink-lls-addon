@@ -2,13 +2,13 @@
 ---@meta
 -- org.bukkit.event.player.Status
 ---@class org.bukkit.event.player.Status
----@field public SUCCESSFULLY_LOADED Optional[org.bukkit.event.player.PlayerResourcePackStatusEvent.Status]
----@field public DECLINED Optional[org.bukkit.event.player.PlayerResourcePackStatusEvent.Status]
----@field public FAILED_DOWNLOAD Optional[org.bukkit.event.player.PlayerResourcePackStatusEvent.Status]
----@field public ACCEPTED Optional[org.bukkit.event.player.PlayerResourcePackStatusEvent.Status]
----@field public DOWNLOADED Optional[org.bukkit.event.player.PlayerResourcePackStatusEvent.Status]
----@field public INVALID_URL Optional[org.bukkit.event.player.PlayerResourcePackStatusEvent.Status]
----@field public FAILED_RELOAD Optional[org.bukkit.event.player.PlayerResourcePackStatusEvent.Status]
----@field public DISCARDED Optional[org.bukkit.event.player.PlayerResourcePackStatusEvent.Status]
+---@field public SUCCESSFULLY_LOADED org.bukkit.event.player.PlayerResourcePackStatusEvent.Status
+---@field public DECLINED org.bukkit.event.player.PlayerResourcePackStatusEvent.Status
+---@field public FAILED_DOWNLOAD org.bukkit.event.player.PlayerResourcePackStatusEvent.Status
+---@field public ACCEPTED org.bukkit.event.player.PlayerResourcePackStatusEvent.Status
+---@field public DOWNLOADED org.bukkit.event.player.PlayerResourcePackStatusEvent.Status
+---@field public INVALID_URL org.bukkit.event.player.PlayerResourcePackStatusEvent.Status
+---@field public FAILED_RELOAD org.bukkit.event.player.PlayerResourcePackStatusEvent.Status
+---@field public DISCARDED org.bukkit.event.player.PlayerResourcePackStatusEvent.Status
 local Status = {}
 

@@ -2,24 +2,24 @@
 ---@meta
 -- org.bukkit.scoreboard.DisplaySlot
 ---@class org.bukkit.scoreboard.DisplaySlot
----@field public PLAYER_LIST Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public BELOW_NAME Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_BLACK Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_DARK_BLUE Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_DARK_GREEN Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_DARK_AQUA Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_DARK_RED Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_DARK_PURPLE Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_GOLD Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_GRAY Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_DARK_GRAY Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_BLUE Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_GREEN Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_AQUA Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_RED Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_LIGHT_PURPLE Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_YELLOW Optional[org.bukkit.scoreboard.DisplaySlot]
----@field public SIDEBAR_TEAM_WHITE Optional[org.bukkit.scoreboard.DisplaySlot]
+---@field public PLAYER_LIST org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR org.bukkit.scoreboard.DisplaySlot
+---@field public BELOW_NAME org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_BLACK org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_DARK_BLUE org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_DARK_GREEN org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_DARK_AQUA org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_DARK_RED org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_DARK_PURPLE org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_GOLD org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_GRAY org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_DARK_GRAY org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_BLUE org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_GREEN org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_AQUA org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_RED org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_LIGHT_PURPLE org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_YELLOW org.bukkit.scoreboard.DisplaySlot
+---@field public SIDEBAR_TEAM_WHITE org.bukkit.scoreboard.DisplaySlot
 local DisplaySlot = {}
 

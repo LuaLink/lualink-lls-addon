@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.inventory.MainHand
 ---@class org.bukkit.inventory.MainHand
----@field public LEFT Optional[org.bukkit.inventory.MainHand]
----@field public RIGHT Optional[org.bukkit.inventory.MainHand]
+---@field public LEFT org.bukkit.inventory.MainHand
+---@field public RIGHT org.bukkit.inventory.MainHand
 local MainHand = {}
 

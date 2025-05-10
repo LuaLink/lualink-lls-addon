@@ -2,24 +2,24 @@
 ---@meta
 -- org.bukkit.event.entity.TargetReason
 ---@class org.bukkit.event.entity.TargetReason
----@field public TARGET_DIED Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public CLOSEST_PLAYER Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public TARGET_ATTACKED_ENTITY Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public PIG_ZOMBIE_TARGET Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public FORGOT_TARGET Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public TARGET_ATTACKED_OWNER Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public OWNER_ATTACKED_TARGET Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public RANDOM_TARGET Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public DEFEND_VILLAGE Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public TARGET_ATTACKED_NEARBY_ENTITY Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public REINFORCEMENT_TARGET Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public COLLISION Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public CUSTOM Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public CLOSEST_ENTITY Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public FOLLOW_LEADER Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public TEMPT Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public TARGET_OTHER_LEVEL Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public TARGET_INVALID Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
----@field public UNKNOWN Optional[org.bukkit.event.entity.EntityTargetEvent.TargetReason]
+---@field public TARGET_DIED org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public CLOSEST_PLAYER org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public TARGET_ATTACKED_ENTITY org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public PIG_ZOMBIE_TARGET org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public FORGOT_TARGET org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public TARGET_ATTACKED_OWNER org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public OWNER_ATTACKED_TARGET org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public RANDOM_TARGET org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public DEFEND_VILLAGE org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public TARGET_ATTACKED_NEARBY_ENTITY org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public REINFORCEMENT_TARGET org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public COLLISION org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public CUSTOM org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public CLOSEST_ENTITY org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public FOLLOW_LEADER org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public TEMPT org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public TARGET_OTHER_LEVEL org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public TARGET_INVALID org.bukkit.event.entity.EntityTargetEvent.TargetReason
+---@field public UNKNOWN org.bukkit.event.entity.EntityTargetEvent.TargetReason
 local TargetReason = {}
 

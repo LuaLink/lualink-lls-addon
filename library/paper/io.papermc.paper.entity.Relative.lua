@@ -2,9 +2,9 @@
 ---@meta
 -- io.papermc.paper.entity.Relative
 ---@class io.papermc.paper.entity.Relative
----@field public VELOCITY_X Optional[io.papermc.paper.entity.TeleportFlag.Relative]
----@field public VELOCITY_Y Optional[io.papermc.paper.entity.TeleportFlag.Relative]
----@field public VELOCITY_Z Optional[io.papermc.paper.entity.TeleportFlag.Relative]
----@field public VELOCITY_ROTATION Optional[io.papermc.paper.entity.TeleportFlag.Relative]
+---@field public VELOCITY_X io.papermc.paper.entity.TeleportFlag.Relative
+---@field public VELOCITY_Y io.papermc.paper.entity.TeleportFlag.Relative
+---@field public VELOCITY_Z io.papermc.paper.entity.TeleportFlag.Relative
+---@field public VELOCITY_ROTATION io.papermc.paper.entity.TeleportFlag.Relative
 local Relative = {}
 

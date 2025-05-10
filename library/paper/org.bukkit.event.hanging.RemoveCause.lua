@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.event.hanging.RemoveCause
 ---@class org.bukkit.event.hanging.RemoveCause
----@field public ENTITY Optional[org.bukkit.event.hanging.HangingBreakEvent.RemoveCause]
----@field public EXPLOSION Optional[org.bukkit.event.hanging.HangingBreakEvent.RemoveCause]
----@field public OBSTRUCTION Optional[org.bukkit.event.hanging.HangingBreakEvent.RemoveCause]
----@field public PHYSICS Optional[org.bukkit.event.hanging.HangingBreakEvent.RemoveCause]
----@field public DEFAULT Optional[org.bukkit.event.hanging.HangingBreakEvent.RemoveCause]
+---@field public ENTITY org.bukkit.event.hanging.HangingBreakEvent.RemoveCause
+---@field public EXPLOSION org.bukkit.event.hanging.HangingBreakEvent.RemoveCause
+---@field public OBSTRUCTION org.bukkit.event.hanging.HangingBreakEvent.RemoveCause
+---@field public PHYSICS org.bukkit.event.hanging.HangingBreakEvent.RemoveCause
+---@field public DEFAULT org.bukkit.event.hanging.HangingBreakEvent.RemoveCause
 local RemoveCause = {}
 

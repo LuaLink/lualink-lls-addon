@@ -2,24 +2,24 @@
 ---@meta
 -- org.bukkit.block.BlockFace
 ---@class org.bukkit.block.BlockFace
----@field public NORTH Optional[org.bukkit.block.BlockFace]
----@field public EAST Optional[org.bukkit.block.BlockFace]
----@field public SOUTH Optional[org.bukkit.block.BlockFace]
----@field public WEST Optional[org.bukkit.block.BlockFace]
----@field public UP Optional[org.bukkit.block.BlockFace]
----@field public DOWN Optional[org.bukkit.block.BlockFace]
----@field public NORTH_EAST Optional[org.bukkit.block.BlockFace]
----@field public NORTH_WEST Optional[org.bukkit.block.BlockFace]
----@field public SOUTH_EAST Optional[org.bukkit.block.BlockFace]
----@field public SOUTH_WEST Optional[org.bukkit.block.BlockFace]
----@field public WEST_NORTH_WEST Optional[org.bukkit.block.BlockFace]
----@field public NORTH_NORTH_WEST Optional[org.bukkit.block.BlockFace]
----@field public NORTH_NORTH_EAST Optional[org.bukkit.block.BlockFace]
----@field public EAST_NORTH_EAST Optional[org.bukkit.block.BlockFace]
----@field public EAST_SOUTH_EAST Optional[org.bukkit.block.BlockFace]
----@field public SOUTH_SOUTH_EAST Optional[org.bukkit.block.BlockFace]
----@field public SOUTH_SOUTH_WEST Optional[org.bukkit.block.BlockFace]
----@field public WEST_SOUTH_WEST Optional[org.bukkit.block.BlockFace]
----@field public SELF Optional[org.bukkit.block.BlockFace]
+---@field public NORTH org.bukkit.block.BlockFace
+---@field public EAST org.bukkit.block.BlockFace
+---@field public SOUTH org.bukkit.block.BlockFace
+---@field public WEST org.bukkit.block.BlockFace
+---@field public UP org.bukkit.block.BlockFace
+---@field public DOWN org.bukkit.block.BlockFace
+---@field public NORTH_EAST org.bukkit.block.BlockFace
+---@field public NORTH_WEST org.bukkit.block.BlockFace
+---@field public SOUTH_EAST org.bukkit.block.BlockFace
+---@field public SOUTH_WEST org.bukkit.block.BlockFace
+---@field public WEST_NORTH_WEST org.bukkit.block.BlockFace
+---@field public NORTH_NORTH_WEST org.bukkit.block.BlockFace
+---@field public NORTH_NORTH_EAST org.bukkit.block.BlockFace
+---@field public EAST_NORTH_EAST org.bukkit.block.BlockFace
+---@field public EAST_SOUTH_EAST org.bukkit.block.BlockFace
+---@field public SOUTH_SOUTH_EAST org.bukkit.block.BlockFace
+---@field public SOUTH_SOUTH_WEST org.bukkit.block.BlockFace
+---@field public WEST_SOUTH_WEST org.bukkit.block.BlockFace
+---@field public SELF org.bukkit.block.BlockFace
 local BlockFace = {}
 

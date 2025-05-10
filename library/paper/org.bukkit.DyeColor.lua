@@ -2,21 +2,21 @@
 ---@meta
 -- org.bukkit.DyeColor
 ---@class org.bukkit.DyeColor
----@field public WHITE Optional[org.bukkit.DyeColor]
----@field public ORANGE Optional[org.bukkit.DyeColor]
----@field public MAGENTA Optional[org.bukkit.DyeColor]
----@field public LIGHT_BLUE Optional[org.bukkit.DyeColor]
----@field public YELLOW Optional[org.bukkit.DyeColor]
----@field public LIME Optional[org.bukkit.DyeColor]
----@field public PINK Optional[org.bukkit.DyeColor]
----@field public GRAY Optional[org.bukkit.DyeColor]
----@field public LIGHT_GRAY Optional[org.bukkit.DyeColor]
----@field public CYAN Optional[org.bukkit.DyeColor]
----@field public PURPLE Optional[org.bukkit.DyeColor]
----@field public BLUE Optional[org.bukkit.DyeColor]
----@field public BROWN Optional[org.bukkit.DyeColor]
----@field public GREEN Optional[org.bukkit.DyeColor]
----@field public RED Optional[org.bukkit.DyeColor]
----@field public BLACK Optional[org.bukkit.DyeColor]
+---@field public WHITE org.bukkit.DyeColor
+---@field public ORANGE org.bukkit.DyeColor
+---@field public MAGENTA org.bukkit.DyeColor
+---@field public LIGHT_BLUE org.bukkit.DyeColor
+---@field public YELLOW org.bukkit.DyeColor
+---@field public LIME org.bukkit.DyeColor
+---@field public PINK org.bukkit.DyeColor
+---@field public GRAY org.bukkit.DyeColor
+---@field public LIGHT_GRAY org.bukkit.DyeColor
+---@field public CYAN org.bukkit.DyeColor
+---@field public PURPLE org.bukkit.DyeColor
+---@field public BLUE org.bukkit.DyeColor
+---@field public BROWN org.bukkit.DyeColor
+---@field public GREEN org.bukkit.DyeColor
+---@field public RED org.bukkit.DyeColor
+---@field public BLACK org.bukkit.DyeColor
 local DyeColor = {}
 

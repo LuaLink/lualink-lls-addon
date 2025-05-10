@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.block.BlockSupport
 ---@class org.bukkit.block.BlockSupport
----@field public FULL Optional[org.bukkit.block.BlockSupport]
----@field public CENTER Optional[org.bukkit.block.BlockSupport]
----@field public RIGID Optional[org.bukkit.block.BlockSupport]
+---@field public FULL org.bukkit.block.BlockSupport
+---@field public CENTER org.bukkit.block.BlockSupport
+---@field public RIGID org.bukkit.block.BlockSupport
 local BlockSupport = {}
 

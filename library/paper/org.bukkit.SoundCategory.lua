@@ -2,15 +2,15 @@
 ---@meta
 -- org.bukkit.SoundCategory
 ---@class org.bukkit.SoundCategory
----@field public MASTER Optional[org.bukkit.SoundCategory]
----@field public MUSIC Optional[org.bukkit.SoundCategory]
----@field public RECORDS Optional[org.bukkit.SoundCategory]
----@field public WEATHER Optional[org.bukkit.SoundCategory]
----@field public BLOCKS Optional[org.bukkit.SoundCategory]
----@field public HOSTILE Optional[org.bukkit.SoundCategory]
----@field public NEUTRAL Optional[org.bukkit.SoundCategory]
----@field public PLAYERS Optional[org.bukkit.SoundCategory]
----@field public AMBIENT Optional[org.bukkit.SoundCategory]
----@field public VOICE Optional[org.bukkit.SoundCategory]
+---@field public MASTER org.bukkit.SoundCategory
+---@field public MUSIC org.bukkit.SoundCategory
+---@field public RECORDS org.bukkit.SoundCategory
+---@field public WEATHER org.bukkit.SoundCategory
+---@field public BLOCKS org.bukkit.SoundCategory
+---@field public HOSTILE org.bukkit.SoundCategory
+---@field public NEUTRAL org.bukkit.SoundCategory
+---@field public PLAYERS org.bukkit.SoundCategory
+---@field public AMBIENT org.bukkit.SoundCategory
+---@field public VOICE org.bukkit.SoundCategory
 local SoundCategory = {}
 
