@@ -11,10 +11,10 @@
 ---@field private cause org.bukkit.event.entity.EntityDamageEvent.DamageCause
 ---@field private damageSource org.bukkit.damage.DamageSource
 ---@field private cancelled boolean
----@overload fun(damagee: Entity, cause: DamageCause, damage: number): EntityDamageEvent
----@overload fun(damagee: Entity, cause: DamageCause, damageSource: DamageSource, damage: number): EntityDamageEvent
----@overload fun(damagee: Entity, cause: DamageCause, modifiers: table<DamageModifier, Double>, modifierFunctions: table): EntityDamageEvent
----@overload fun(damagee: Entity, cause: DamageCause, damageSource: DamageSource, modifiers: table<DamageModifier, Double>, modifierFunctions: table): EntityDamageEvent
+---@overload fun(damagee: Entity, cause: DamageCause, damage: number): org.bukkit.event.entity.EntityDamageEvent
+---@overload fun(damagee: Entity, cause: DamageCause, damageSource: DamageSource, damage: number): org.bukkit.event.entity.EntityDamageEvent
+---@overload fun(damagee: Entity, cause: DamageCause, modifiers: table<DamageModifier, Double>, modifierFunctions: table): org.bukkit.event.entity.EntityDamageEvent
+---@overload fun(damagee: Entity, cause: DamageCause, damageSource: DamageSource, modifiers: table<DamageModifier, Double>, modifierFunctions: table): org.bukkit.event.entity.EntityDamageEvent
 local EntityDamageEvent = {}
 
 ---@param type org.bukkit.event.entity.EntityDamageEvent.DamageModifier the modifier

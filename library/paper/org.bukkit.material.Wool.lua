@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.material.Wool
 ---@class org.bukkit.material.Wool: org.bukkit.material.MaterialData, org.bukkit.material.Colorable
----@overload fun(): Wool
----@overload fun(color: DyeColor): Wool
----@overload fun(type: Material): Wool
----@overload fun(type: Material, data: number): Wool
+---@overload fun(): org.bukkit.material.Wool
+---@overload fun(color: DyeColor): org.bukkit.material.Wool
+---@overload fun(type: Material): org.bukkit.material.Wool
+---@overload fun(type: Material, data: number): org.bukkit.material.Wool
 local Wool = {}
 
 ---@public

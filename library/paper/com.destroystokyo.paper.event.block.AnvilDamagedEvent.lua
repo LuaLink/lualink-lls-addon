@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private damageState com.destroystokyo.paper.event.block.AnvilDamagedEvent.DamageState
 ---@field private cancelled boolean
----@overload fun(inventory: InventoryView, blockData: BlockData): AnvilDamagedEvent
+---@overload fun(inventory: InventoryView, blockData: BlockData): com.destroystokyo.paper.event.block.AnvilDamagedEvent
 local AnvilDamagedEvent = {}
 
 ---@public

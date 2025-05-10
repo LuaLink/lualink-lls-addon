@@ -1530,6 +1530,11 @@ function World:getWorldType() end
 function World:canGenerateStructures() end
 
 ---@public
+---@return boolean {@code true} if the bonus chest is enabled, {@code false} otherwise
+--- Checks if the bonus chest is enabled.
+function World:hasBonusChest() end
+
+---@public
 ---@return boolean hardcore status
 --- Gets whether the world is hardcore or not.  In a hardcore world the difficulty is locked to hard.
 function World:isHardcore() end

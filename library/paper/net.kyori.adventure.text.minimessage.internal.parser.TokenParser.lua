@@ -8,7 +8,7 @@
 ---@field public CLOSE_TAG string
 ---@field public SEPARATOR string
 ---@field public ESCAPE string
----@overload fun(): TokenParser
+---@overload fun(): net.kyori.adventure.text.minimessage.internal.parser.TokenParser
 local TokenParser = {}
 
 ---@param tagProvider net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider provides tags based on the available information

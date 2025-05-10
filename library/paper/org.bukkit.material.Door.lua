@@ -2,15 +2,15 @@
 ---@meta
 -- org.bukkit.material.Door
 ---@class org.bukkit.material.Door: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Openable
----@overload fun(): Door
----@overload fun(type: Material): Door
----@overload fun(type: Material, face: BlockFace): Door
----@overload fun(type: Material, face: BlockFace, isOpen: boolean): Door
----@overload fun(type: Material, isHingeRight: boolean): Door
----@overload fun(species: TreeSpecies, face: BlockFace): Door
----@overload fun(species: TreeSpecies, face: BlockFace, isOpen: boolean): Door
----@overload fun(species: TreeSpecies, isHingeRight: boolean): Door
----@overload fun(type: Material, data: number): Door
+---@overload fun(): org.bukkit.material.Door
+---@overload fun(type: Material): org.bukkit.material.Door
+---@overload fun(type: Material, face: BlockFace): org.bukkit.material.Door
+---@overload fun(type: Material, face: BlockFace, isOpen: boolean): org.bukkit.material.Door
+---@overload fun(type: Material, isHingeRight: boolean): org.bukkit.material.Door
+---@overload fun(species: TreeSpecies, face: BlockFace): org.bukkit.material.Door
+---@overload fun(species: TreeSpecies, face: BlockFace, isOpen: boolean): org.bukkit.material.Door
+---@overload fun(species: TreeSpecies, isHingeRight: boolean): org.bukkit.material.Door
+---@overload fun(type: Material, data: number): org.bukkit.material.Door
 local Door = {}
 
 ---@param species org.bukkit.TreeSpecies The species of wood door required.

@@ -7,7 +7,7 @@
 ---@field private gameRule org.bukkit.GameRule
 ---@field private value string
 ---@field private cancelled boolean
----@overload fun(world: World, commandSender: CommandSender, gameRule: GameRule<?>, value: string): WorldGameRuleChangeEvent
+---@overload fun(world: World, commandSender: CommandSender, gameRule: GameRule<?>, value: string): io.papermc.paper.event.world.WorldGameRuleChangeEvent
 local WorldGameRuleChangeEvent = {}
 
 ---@public

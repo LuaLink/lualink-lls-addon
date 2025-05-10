@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private raider org.bukkit.entity.Raider
 ---@field private cancelled boolean
----@overload fun(bell: Block, raider: Raider): BellRevealRaiderEvent
+---@overload fun(bell: Block, raider: Raider): io.papermc.paper.event.block.BellRevealRaiderEvent
 local BellRevealRaiderEvent = {}
 
 ---@public

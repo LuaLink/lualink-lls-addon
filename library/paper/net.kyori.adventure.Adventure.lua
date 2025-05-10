@@ -3,6 +3,6 @@
 -- net.kyori.adventure.Adventure
 ---@class net.kyori.adventure.Adventure
 ---@field public NAMESPACE string
----@overload fun(): Adventure
+---@overload fun(): net.kyori.adventure.Adventure
 local Adventure = {}
 

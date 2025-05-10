@@ -190,3 +190,9 @@ function FishHook:setTimeUntilBite(ticks) end
 --- Completely resets this fishing hook's fishing state, re-randomizing the time needed until a fish is lured and bites the hook. <p> This method takes all properties of the fishing hook into account when resetting said values, such as a lure enchantment.
 function FishHook:resetFishingState() end
 
+---@param slot org.bukkit.inventory.EquipmentSlot Slot holding the fishing rod (must be HAND/OFF_HAND)
+---@public
+---@return number The amount of damage which would be applied to the itemstack
+--- Retrieve this fishhook back to the casting player. <p> This method will trigger and respect API events, which may be subject to cancellation. Plugins listening to {@link org.bukkit.event.player.PlayerFishEvent} might for example cancel this action.
+function FishHook:retrieve(slot) end
+

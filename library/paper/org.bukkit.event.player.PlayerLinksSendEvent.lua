@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.player.PlayerLinksSendEvent: org.bukkit.event.player.PlayerEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private links org.bukkit.ServerLinks
----@overload fun(player: Player, links: ServerLinks): PlayerLinksSendEvent
+---@overload fun(player: Player, links: ServerLinks): org.bukkit.event.player.PlayerLinksSendEvent
 local PlayerLinksSendEvent = {}
 
 ---@public

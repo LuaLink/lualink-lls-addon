@@ -7,8 +7,8 @@
 ---@field private originalDamage number
 ---@field private damage number
 ---@field private cancelled boolean
----@overload fun(player: Player, item: ItemStack, damage: number): PlayerItemDamageEvent
----@overload fun(player: Player, item: ItemStack, damage: number, originalDamage: number): PlayerItemDamageEvent
+---@overload fun(player: Player, item: ItemStack, damage: number): org.bukkit.event.player.PlayerItemDamageEvent
+---@overload fun(player: Player, item: ItemStack, damage: number, originalDamage: number): org.bukkit.event.player.PlayerItemDamageEvent
 local PlayerItemDamageEvent = {}
 
 ---@public

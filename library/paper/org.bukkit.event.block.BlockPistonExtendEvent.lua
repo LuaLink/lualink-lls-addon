@@ -5,8 +5,8 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private length number
 ---@field private blocks java.util.List
----@overload fun(block: Block, length: number, direction: BlockFace): BlockPistonExtendEvent
----@overload fun(block: Block, blocks: table<Block>, direction: BlockFace): BlockPistonExtendEvent
+---@overload fun(block: Block, length: number, direction: BlockFace): org.bukkit.event.block.BlockPistonExtendEvent
+---@overload fun(block: Block, blocks: table<Block>, direction: BlockFace): org.bukkit.event.block.BlockPistonExtendEvent
 local BlockPistonExtendEvent = {}
 
 ---@deprecated

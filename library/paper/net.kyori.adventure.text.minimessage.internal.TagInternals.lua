@@ -3,7 +3,7 @@
 -- net.kyori.adventure.text.minimessage.internal.TagInternals
 ---@class net.kyori.adventure.text.minimessage.internal.TagInternals
 ---@field private TAG_NAME_PATTERN java.util.regex.Pattern
----@overload fun(): TagInternals
+---@overload fun(): net.kyori.adventure.text.minimessage.internal.TagInternals
 local TagInternals = {}
 
 ---@param tagName string the name of the tag

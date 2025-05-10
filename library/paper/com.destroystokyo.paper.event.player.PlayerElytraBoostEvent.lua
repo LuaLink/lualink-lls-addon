@@ -8,7 +8,7 @@
 ---@field private consume boolean
 ---@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field private cancelled boolean
----@overload fun(player: Player, itemStack: ItemStack, firework: Firework, hand: EquipmentSlot): PlayerElytraBoostEvent
+---@overload fun(player: Player, itemStack: ItemStack, firework: Firework, hand: EquipmentSlot): com.destroystokyo.paper.event.player.PlayerElytraBoostEvent
 local PlayerElytraBoostEvent = {}
 
 ---@public

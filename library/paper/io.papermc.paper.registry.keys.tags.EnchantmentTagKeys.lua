@@ -38,7 +38,7 @@
 ---@field public TRADES_TAIGA_COMMON io.papermc.paper.registry.tag.TagKey
 ---@field public TRADES_TAIGA_SPECIAL io.papermc.paper.registry.tag.TagKey
 ---@field public TREASURE io.papermc.paper.registry.tag.TagKey
----@overload fun(): EnchantmentTagKeys
+---@overload fun(): io.papermc.paper.registry.keys.tags.EnchantmentTagKeys
 local EnchantmentTagKeys = {}
 
 ---@param key any the tag key's key

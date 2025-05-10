@@ -4,7 +4,7 @@
 ---@class com.destroystokyo.paper.event.entity.EntityAddToWorldEvent: org.bukkit.event.entity.EntityEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private world org.bukkit.World
----@overload fun(entity: Entity, world: World): EntityAddToWorldEvent
+---@overload fun(entity: Entity, world: World): com.destroystokyo.paper.event.entity.EntityAddToWorldEvent
 local EntityAddToWorldEvent = {}
 
 ---@public

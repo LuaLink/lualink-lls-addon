@@ -6,7 +6,7 @@
 ---@field private bed org.bukkit.block.Block
 ---@field private setBedSpawn boolean
 ---@field private cancelled boolean
----@overload fun(player: Player, bed: Block, setBedSpawn: boolean): PlayerBedLeaveEvent
+---@overload fun(player: Player, bed: Block, setBedSpawn: boolean): org.bukkit.event.player.PlayerBedLeaveEvent
 local PlayerBedLeaveEvent = {}
 
 ---@public

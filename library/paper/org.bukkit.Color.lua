@@ -25,8 +25,8 @@
 ---@field private red number
 ---@field private green number
 ---@field private blue number
----@overload fun(red: number, green: number, blue: number): Color
----@overload fun(alpha: number, red: number, green: number, blue: number): Color
+---@overload fun(red: number, green: number, blue: number): org.bukkit.Color
+---@overload fun(alpha: number, red: number, green: number, blue: number): org.bukkit.Color
 local Color = {}
 
 ---@param alpha number integer from 0-255

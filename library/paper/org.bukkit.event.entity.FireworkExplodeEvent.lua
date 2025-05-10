@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.entity.FireworkExplodeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cancelled boolean
----@overload fun(firework: Firework): FireworkExplodeEvent
+---@overload fun(firework: Firework): org.bukkit.event.entity.FireworkExplodeEvent
 local FireworkExplodeEvent = {}
 
 ---@public

@@ -4,7 +4,7 @@
 ---@field private key string
 ---@field private fallback string
 ---@field private args java.util.List
----@overload fun(children: table<Component>, style: Style, key: string, fallback: string, args: table<TranslationArgument>): TranslatableComponentImpl
+---@overload fun(children: table<Component>, style: Style, key: string, fallback: string, args: table<TranslationArgument>): net.kyori.adventure.text.TranslatableComponentImpl
 local TranslatableComponentImpl = {}
 
 ---@param children java.util.List 

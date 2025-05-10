@@ -3,8 +3,8 @@
 -- org.bukkit.map.MapRenderer
 ---@class org.bukkit.map.MapRenderer
 ---@field private contextual boolean
----@overload fun(): MapRenderer
----@overload fun(contextual: boolean): MapRenderer
+---@overload fun(): org.bukkit.map.MapRenderer
+---@overload fun(contextual: boolean): org.bukkit.map.MapRenderer
 local MapRenderer = {}
 
 ---@public

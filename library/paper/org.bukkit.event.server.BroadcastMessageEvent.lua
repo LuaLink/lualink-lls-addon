@@ -6,10 +6,10 @@
 ---@field private recipients java.util.Set
 ---@field private message net.kyori.adventure.text.Component
 ---@field private cancelled boolean
----@overload fun(message: string, recipients: table<CommandSender>): BroadcastMessageEvent
----@overload fun(isAsync: boolean, message: string, recipients: table<CommandSender>): BroadcastMessageEvent
----@overload fun(message: Component, recipients: table<CommandSender>): BroadcastMessageEvent
----@overload fun(isAsync: boolean, message: Component, recipients: table<CommandSender>): BroadcastMessageEvent
+---@overload fun(message: string, recipients: table<CommandSender>): org.bukkit.event.server.BroadcastMessageEvent
+---@overload fun(isAsync: boolean, message: string, recipients: table<CommandSender>): org.bukkit.event.server.BroadcastMessageEvent
+---@overload fun(message: Component, recipients: table<CommandSender>): org.bukkit.event.server.BroadcastMessageEvent
+---@overload fun(isAsync: boolean, message: Component, recipients: table<CommandSender>): org.bukkit.event.server.BroadcastMessageEvent
 local BroadcastMessageEvent = {}
 
 ---@public

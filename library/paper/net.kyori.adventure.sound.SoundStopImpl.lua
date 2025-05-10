@@ -3,7 +3,7 @@
 ---@class net.kyori.adventure.sound.SoundStopImpl: net.kyori.adventure.sound.SoundStop
 ---@field public ALL net.kyori.adventure.sound.SoundStop
 ---@field private source net.kyori.adventure.sound.Sound.Source
----@overload fun(source: Sound.Source?): SoundStopImpl
+---@overload fun(source: Sound.Source?): net.kyori.adventure.sound.SoundStopImpl
 local SoundStopImpl = {}
 
 ---@public

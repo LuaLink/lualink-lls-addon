@@ -4,9 +4,9 @@
 ---@class org.bukkit.material.Cauldron: org.bukkit.material.MaterialData
 ---@field private CAULDRON_FULL number
 ---@field private CAULDRON_EMPTY number
----@overload fun(): Cauldron
----@overload fun(type: Material, data: number): Cauldron
----@overload fun(data: number): Cauldron
+---@overload fun(): org.bukkit.material.Cauldron
+---@overload fun(type: Material, data: number): org.bukkit.material.Cauldron
+---@overload fun(data: number): org.bukkit.material.Cauldron
 local Cauldron = {}
 
 ---@public

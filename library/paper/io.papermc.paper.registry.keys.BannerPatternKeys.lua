@@ -45,7 +45,7 @@
 ---@field public TRIANGLE_TOP io.papermc.paper.registry.TypedKey
 ---@field public TRIANGLES_BOTTOM io.papermc.paper.registry.TypedKey
 ---@field public TRIANGLES_TOP io.papermc.paper.registry.TypedKey
----@overload fun(): BannerPatternKeys
+---@overload fun(): io.papermc.paper.registry.keys.BannerPatternKeys
 local BannerPatternKeys = {}
 
 ---@param key any the value's key in the registry

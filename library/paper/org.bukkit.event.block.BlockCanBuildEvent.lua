@@ -7,9 +7,9 @@
 ---@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field protected blockData org.bukkit.block.data.BlockData
 ---@field protected buildable boolean
----@overload fun(block: Block, type: BlockData, canBuild: boolean): BlockCanBuildEvent
----@overload fun(block: Block, player: Player, type: BlockData, canBuild: boolean): BlockCanBuildEvent
----@overload fun(block: Block, player: Player, type: BlockData, canBuild: boolean, hand: org.bukkit.inventory.EquipmentSlot): BlockCanBuildEvent
+---@overload fun(block: Block, type: BlockData, canBuild: boolean): org.bukkit.event.block.BlockCanBuildEvent
+---@overload fun(block: Block, player: Player, type: BlockData, canBuild: boolean): org.bukkit.event.block.BlockCanBuildEvent
+---@overload fun(block: Block, player: Player, type: BlockData, canBuild: boolean, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.block.BlockCanBuildEvent
 local BlockCanBuildEvent = {}
 
 ---@public

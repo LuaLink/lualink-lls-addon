@@ -51,7 +51,7 @@
 ---@field public WIND_CHARGE io.papermc.paper.registry.TypedKey
 ---@field public WITHER io.papermc.paper.registry.TypedKey
 ---@field public WITHER_SKULL io.papermc.paper.registry.TypedKey
----@overload fun(): DamageTypeKeys
+---@overload fun(): io.papermc.paper.registry.keys.DamageTypeKeys
 local DamageTypeKeys = {}
 
 ---@param key any the value's key in the registry

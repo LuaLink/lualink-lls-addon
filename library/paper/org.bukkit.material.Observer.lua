@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.material.Observer
 ---@class org.bukkit.material.Observer: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Redstone
----@overload fun(): Observer
----@overload fun(direction: BlockFace): Observer
----@overload fun(type: Material): Observer
----@overload fun(type: Material, data: number): Observer
+---@overload fun(): org.bukkit.material.Observer
+---@overload fun(direction: BlockFace): org.bukkit.material.Observer
+---@overload fun(type: Material): org.bukkit.material.Observer
+---@overload fun(type: Material, data: number): org.bukkit.material.Observer
 local Observer = {}
 
 ---@public

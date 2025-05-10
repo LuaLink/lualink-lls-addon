@@ -8,7 +8,7 @@
 ---@field private burning boolean
 ---@field private consumeFuel boolean
 ---@field private cancelled boolean
----@overload fun(furnace: Block, fuel: ItemStack, burnTime: number): FurnaceBurnEvent
+---@overload fun(furnace: Block, fuel: ItemStack, burnTime: number): org.bukkit.event.inventory.FurnaceBurnEvent
 local FurnaceBurnEvent = {}
 
 ---@public

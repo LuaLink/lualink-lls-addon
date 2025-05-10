@@ -6,7 +6,7 @@
 ---@field private slotType com.destroystokyo.paper.event.player.PlayerArmorChangeEvent.SlotType
 ---@field private oldItem org.bukkit.inventory.ItemStack
 ---@field private newItem org.bukkit.inventory.ItemStack
----@overload fun(player: Player, slotType: SlotType, oldItem: ItemStack, newItem: ItemStack): PlayerArmorChangeEvent
+---@overload fun(player: Player, slotType: SlotType, oldItem: ItemStack, newItem: ItemStack): com.destroystokyo.paper.event.player.PlayerArmorChangeEvent
 local PlayerArmorChangeEvent = {}
 
 ---@deprecated

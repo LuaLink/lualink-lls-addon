@@ -36,7 +36,7 @@
 ---@field public VILLAGE_SAVANNA io.papermc.paper.registry.TypedKey
 ---@field public VILLAGE_SNOWY io.papermc.paper.registry.TypedKey
 ---@field public VILLAGE_TAIGA io.papermc.paper.registry.TypedKey
----@overload fun(): StructureKeys
+---@overload fun(): io.papermc.paper.registry.keys.StructureKeys
 local StructureKeys = {}
 
 ---@param key any the value's key in the registry

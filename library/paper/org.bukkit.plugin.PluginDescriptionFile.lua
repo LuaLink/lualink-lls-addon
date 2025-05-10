@@ -27,10 +27,10 @@
 ---@field private apiVersion string
 ---@field private libraries java.util.List
 ---@field private paperPluginLoader string
----@overload fun(rawName: string, name: string, provides: table<string>, main: string, classLoaderOf: string, depend: table<string>, softDepend: table<string>, loadBefore: table<string>, version: string, commands: table, description: string, authors: table<string>, contributors: table<string>, website: string, prefix: string, order: PluginLoadOrder, permissions: table<Permission>, defaultPerm: PermissionDefault, awareness: table<PluginAwareness>, apiVersion: string, libraries: table<string>): PluginDescriptionFile
----@overload fun(stream: InputStream): PluginDescriptionFile
----@overload fun(reader: Reader): PluginDescriptionFile
----@overload fun(pluginName: string, pluginVersion: string, mainClass: string): PluginDescriptionFile
+---@overload fun(rawName: string, name: string, provides: table<string>, main: string, classLoaderOf: string, depend: table<string>, softDepend: table<string>, loadBefore: table<string>, version: string, commands: table, description: string, authors: table<string>, contributors: table<string>, website: string, prefix: string, order: PluginLoadOrder, permissions: table<Permission>, defaultPerm: PermissionDefault, awareness: table<PluginAwareness>, apiVersion: string, libraries: table<string>): org.bukkit.plugin.PluginDescriptionFile
+---@overload fun(stream: InputStream): org.bukkit.plugin.PluginDescriptionFile
+---@overload fun(reader: Reader): org.bukkit.plugin.PluginDescriptionFile
+---@overload fun(pluginName: string, pluginVersion: string, mainClass: string): org.bukkit.plugin.PluginDescriptionFile
 local PluginDescriptionFile = {}
 
 ---@public

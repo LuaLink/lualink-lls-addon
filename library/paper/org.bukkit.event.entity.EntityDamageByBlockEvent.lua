@@ -4,10 +4,10 @@
 ---@class org.bukkit.event.entity.EntityDamageByBlockEvent: org.bukkit.event.entity.EntityDamageEvent
 ---@field private damager org.bukkit.block.Block
 ---@field private damagerState org.bukkit.block.BlockState
----@overload fun(damager: Block, damagee: Entity, cause: DamageCause, damage: number): EntityDamageByBlockEvent
----@overload fun(damager: Block, damagerState: BlockState, damagee: Entity, cause: DamageCause, damageSource: DamageSource, damage: number): EntityDamageByBlockEvent
----@overload fun(damager: Block, damagee: Entity, cause: DamageCause, modifiers: table<DamageModifier, Double>, modifierFunctions: table): EntityDamageByBlockEvent
----@overload fun(damager: Block, damagerState: BlockState, damagee: Entity, cause: DamageCause, damageSource: DamageSource, modifiers: table<DamageModifier, Double>, modifierFunctions: table): EntityDamageByBlockEvent
+---@overload fun(damager: Block, damagee: Entity, cause: DamageCause, damage: number): org.bukkit.event.entity.EntityDamageByBlockEvent
+---@overload fun(damager: Block, damagerState: BlockState, damagee: Entity, cause: DamageCause, damageSource: DamageSource, damage: number): org.bukkit.event.entity.EntityDamageByBlockEvent
+---@overload fun(damager: Block, damagee: Entity, cause: DamageCause, modifiers: table<DamageModifier, Double>, modifierFunctions: table): org.bukkit.event.entity.EntityDamageByBlockEvent
+---@overload fun(damager: Block, damagerState: BlockState, damagee: Entity, cause: DamageCause, damageSource: DamageSource, modifiers: table<DamageModifier, Double>, modifierFunctions: table): org.bukkit.event.entity.EntityDamageByBlockEvent
 local EntityDamageByBlockEvent = {}
 
 ---@public

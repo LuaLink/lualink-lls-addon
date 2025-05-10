@@ -5,8 +5,8 @@
 ---@field private name string
 ---@field private value string
 ---@field private signature string
----@overload fun(name: string, value: string): ProfileProperty
----@overload fun(name: string, value: string, signature: string): ProfileProperty
+---@overload fun(name: string, value: string): com.destroystokyo.paper.profile.ProfileProperty
+---@overload fun(name: string, value: string, signature: string): com.destroystokyo.paper.profile.ProfileProperty
 local ProfileProperty = {}
 
 ---@public

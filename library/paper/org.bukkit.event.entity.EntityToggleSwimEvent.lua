@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private isSwimming boolean
 ---@field private cancelled boolean
----@overload fun(livingEntity: LivingEntity, isSwimming: boolean): EntityToggleSwimEvent
+---@overload fun(livingEntity: LivingEntity, isSwimming: boolean): org.bukkit.event.entity.EntityToggleSwimEvent
 local EntityToggleSwimEvent = {}
 
 ---@public

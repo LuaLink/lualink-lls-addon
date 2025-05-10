@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.block.InventoryBlockStartEvent: org.bukkit.event.block.BlockEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field protected source org.bukkit.inventory.ItemStack
----@overload fun(block: Block, source: ItemStack): InventoryBlockStartEvent
+---@overload fun(block: Block, source: ItemStack): org.bukkit.event.block.InventoryBlockStartEvent
 local InventoryBlockStartEvent = {}
 
 ---@public

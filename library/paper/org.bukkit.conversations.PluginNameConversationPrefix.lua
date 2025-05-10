@@ -6,8 +6,8 @@
 ---@field protected prefixColor org.bukkit.ChatColor
 ---@field protected plugin org.bukkit.plugin.Plugin
 ---@field private cachedPrefix string
----@overload fun(plugin: Plugin): PluginNameConversationPrefix
----@overload fun(plugin: Plugin, separator: string, prefixColor: ChatColor): PluginNameConversationPrefix
+---@overload fun(plugin: Plugin): org.bukkit.conversations.PluginNameConversationPrefix
+---@overload fun(plugin: Plugin, separator: string, prefixColor: ChatColor): org.bukkit.conversations.PluginNameConversationPrefix
 local PluginNameConversationPrefix = {}
 
 ---@param context org.bukkit.conversations.ConversationContext Context information about the conversation.

@@ -2,7 +2,7 @@
 -- net.kyori.adventure.text.KeybindComponentImpl
 ---@class net.kyori.adventure.text.KeybindComponentImpl: net.kyori.adventure.text.AbstractComponent, net.kyori.adventure.text.KeybindComponent
 ---@field private keybind string
----@overload fun(children: table<Component>, style: Style, keybind: string): KeybindComponentImpl
+---@overload fun(children: table<Component>, style: Style, keybind: string): net.kyori.adventure.text.KeybindComponentImpl
 local KeybindComponentImpl = {}
 
 ---@param children java.util.List 

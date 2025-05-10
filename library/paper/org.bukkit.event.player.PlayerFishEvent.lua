@@ -9,8 +9,8 @@
 ---@field private state org.bukkit.event.player.PlayerFishEvent.State
 ---@field private exp number
 ---@field private cancelled boolean
----@overload fun(player: Player, entity: Entity, hookEntity: FishHook, hand: EquipmentSlot, state: State): PlayerFishEvent
----@overload fun(player: Player, entity: Entity, hookEntity: FishHook, state: State): PlayerFishEvent
+---@overload fun(player: Player, entity: Entity, hookEntity: FishHook, hand: EquipmentSlot, state: State): org.bukkit.event.player.PlayerFishEvent
+---@overload fun(player: Player, entity: Entity, hookEntity: FishHook, state: State): org.bukkit.event.player.PlayerFishEvent
 local PlayerFishEvent = {}
 
 ---@public

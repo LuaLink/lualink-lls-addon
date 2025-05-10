@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.inventory.TradeSelectEvent: org.bukkit.event.inventory.InventoryInteractEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private index number
----@overload fun(transaction: MerchantView, newIndex: number): TradeSelectEvent
+---@overload fun(transaction: MerchantView, newIndex: number): org.bukkit.event.inventory.TradeSelectEvent
 local TradeSelectEvent = {}
 
 ---@public

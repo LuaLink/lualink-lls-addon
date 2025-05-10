@@ -3,7 +3,7 @@
 -- io.papermc.paper.event.block.BeaconActivatedEvent
 ---@class io.papermc.paper.event.block.BeaconActivatedEvent: org.bukkit.event.block.BlockEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
----@overload fun(beacon: Block): BeaconActivatedEvent
+---@overload fun(beacon: Block): io.papermc.paper.event.block.BeaconActivatedEvent
 local BeaconActivatedEvent = {}
 
 ---@public

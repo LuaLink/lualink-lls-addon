@@ -6,7 +6,7 @@
 ---@field private attackedEntity org.bukkit.entity.Entity
 ---@field private cooledAttackStrength number
 ---@field private cancelled boolean
----@overload fun(player: Player, attackedEntity: Entity, cooledAttackStrength: number): PlayerAttackEntityCooldownResetEvent
+---@overload fun(player: Player, attackedEntity: Entity, cooledAttackStrength: number): com.destroystokyo.paper.event.player.PlayerAttackEntityCooldownResetEvent
 local PlayerAttackEntityCooldownResetEvent = {}
 
 ---@public

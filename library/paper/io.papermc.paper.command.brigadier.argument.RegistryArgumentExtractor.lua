@@ -2,7 +2,7 @@
 ---@meta
 -- io.papermc.paper.command.brigadier.argument.RegistryArgumentExtractor
 ---@class io.papermc.paper.command.brigadier.argument.RegistryArgumentExtractor
----@overload fun(): RegistryArgumentExtractor
+---@overload fun(): io.papermc.paper.command.brigadier.argument.RegistryArgumentExtractor
 local RegistryArgumentExtractor = {}
 
 ---@param context any the command context

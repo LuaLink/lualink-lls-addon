@@ -6,9 +6,9 @@
 ---@field private searchRadius number
 ---@field private canCreatePortal boolean
 ---@field private creationRadius number
----@overload fun(player: Player, from: Location, to: Location): PlayerPortalEvent
----@overload fun(player: Player, from: Location, to: Location, cause: TeleportCause): PlayerPortalEvent
----@overload fun(player: Player, from: Location, to: Location, cause: TeleportCause, searchRadius: number, canCreatePortal: boolean, creationRadius: number): PlayerPortalEvent
+---@overload fun(player: Player, from: Location, to: Location): org.bukkit.event.player.PlayerPortalEvent
+---@overload fun(player: Player, from: Location, to: Location, cause: TeleportCause): org.bukkit.event.player.PlayerPortalEvent
+---@overload fun(player: Player, from: Location, to: Location, cause: TeleportCause, searchRadius: number, canCreatePortal: boolean, creationRadius: number): org.bukkit.event.player.PlayerPortalEvent
 local PlayerPortalEvent = {}
 
 ---@public

@@ -6,7 +6,7 @@
 ---@field private parent org.bukkit.permissions.Permissible
 ---@field private attachments java.util.List
 ---@field private permissions java.util.Map
----@overload fun(opable: ServerOperator): PermissibleBase
+---@overload fun(opable: ServerOperator): org.bukkit.permissions.PermissibleBase
 local PermissibleBase = {}
 
 ---@public

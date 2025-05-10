@@ -3,7 +3,7 @@
 -- org.bukkit.event.block.EntityBlockFormEvent
 ---@class org.bukkit.event.block.EntityBlockFormEvent: org.bukkit.event.block.BlockFormEvent
 ---@field private entity org.bukkit.entity.Entity
----@overload fun(entity: Entity, block: Block, blockstate: BlockState): EntityBlockFormEvent
+---@overload fun(entity: Entity, block: Block, blockstate: BlockState): org.bukkit.event.block.EntityBlockFormEvent
 local EntityBlockFormEvent = {}
 
 ---@public

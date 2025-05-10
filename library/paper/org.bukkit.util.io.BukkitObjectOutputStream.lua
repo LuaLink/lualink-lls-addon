@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.util.io.BukkitObjectOutputStream
 ---@class org.bukkit.util.io.BukkitObjectOutputStream: java.io.ObjectOutputStream
----@overload fun(): BukkitObjectOutputStream
----@overload fun(out: OutputStream): BukkitObjectOutputStream
+---@overload fun(): org.bukkit.util.io.BukkitObjectOutputStream
+---@overload fun(out: OutputStream): org.bukkit.util.io.BukkitObjectOutputStream
 local BukkitObjectOutputStream = {}
 
 ---@param obj java.lang.Object 

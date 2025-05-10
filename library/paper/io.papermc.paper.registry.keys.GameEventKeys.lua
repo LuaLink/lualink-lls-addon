@@ -62,7 +62,7 @@
 ---@field public SWIM io.papermc.paper.registry.TypedKey
 ---@field public TELEPORT io.papermc.paper.registry.TypedKey
 ---@field public UNEQUIP io.papermc.paper.registry.TypedKey
----@overload fun(): GameEventKeys
+---@overload fun(): io.papermc.paper.registry.keys.GameEventKeys
 local GameEventKeys = {}
 
 ---@param key any the value's key in the registry

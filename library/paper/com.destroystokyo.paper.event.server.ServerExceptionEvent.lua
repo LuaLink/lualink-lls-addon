@@ -4,7 +4,7 @@
 ---@class com.destroystokyo.paper.event.server.ServerExceptionEvent: org.bukkit.event.Event
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private exception com.destroystokyo.paper.exception.ServerException
----@overload fun(exception: ServerException): ServerExceptionEvent
+---@overload fun(exception: ServerException): com.destroystokyo.paper.event.server.ServerExceptionEvent
 local ServerExceptionEvent = {}
 
 ---@public

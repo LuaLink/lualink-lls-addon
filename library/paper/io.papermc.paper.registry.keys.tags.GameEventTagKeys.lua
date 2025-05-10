@@ -7,7 +7,7 @@
 ---@field public SHRIEKER_CAN_LISTEN io.papermc.paper.registry.tag.TagKey
 ---@field public VIBRATIONS io.papermc.paper.registry.tag.TagKey
 ---@field public WARDEN_CAN_LISTEN io.papermc.paper.registry.tag.TagKey
----@overload fun(): GameEventTagKeys
+---@overload fun(): io.papermc.paper.registry.keys.tags.GameEventTagKeys
 local GameEventTagKeys = {}
 
 ---@param key any the tag key's key

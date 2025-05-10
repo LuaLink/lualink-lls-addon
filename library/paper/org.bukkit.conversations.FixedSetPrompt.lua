@@ -3,8 +3,8 @@
 -- org.bukkit.conversations.FixedSetPrompt
 ---@class org.bukkit.conversations.FixedSetPrompt: org.bukkit.conversations.ValidatingPrompt
 ---@field protected fixedSet java.util.List
----@overload fun(fixedSet: string): FixedSetPrompt
----@overload fun(): FixedSetPrompt
+---@overload fun(fixedSet: string): org.bukkit.conversations.FixedSetPrompt
+---@overload fun(): org.bukkit.conversations.FixedSetPrompt
 local FixedSetPrompt = {}
 
 ---@param context org.bukkit.conversations.ConversationContext 

@@ -5,8 +5,8 @@
 ---@field private origin org.bukkit.Location
 ---@field private destination org.bukkit.Vibration.Destination
 ---@field private arrivalTime number
----@overload fun(destination: Destination, arrivalTime: number): Vibration
----@overload fun(origin: Location, destination: Destination, arrivalTime: number): Vibration
+---@overload fun(destination: Destination, arrivalTime: number): org.bukkit.Vibration
+---@overload fun(origin: Location, destination: Destination, arrivalTime: number): org.bukkit.Vibration
 local Vibration = {}
 
 ---@deprecated

@@ -1,10 +1,10 @@
 ---@meta
 -- io.papermc.paper.tag.EntitySetTag
 ---@class io.papermc.paper.tag.EntitySetTag: io.papermc.paper.tag.BaseTag
----@overload fun(key: NamespacedKey, filter: Predicate<EntityType>): EntitySetTag
----@overload fun(key: NamespacedKey, values: EntityType): EntitySetTag
----@overload fun(key: NamespacedKey, values: Collection<EntityType>): EntitySetTag
----@overload fun(key: NamespacedKey, values: Collection<EntityType>, globalPredicates: Predicate<EntityType>): EntitySetTag
+---@overload fun(key: NamespacedKey, filter: Predicate<EntityType>): io.papermc.paper.tag.EntitySetTag
+---@overload fun(key: NamespacedKey, values: EntityType): io.papermc.paper.tag.EntitySetTag
+---@overload fun(key: NamespacedKey, values: Collection<EntityType>): io.papermc.paper.tag.EntitySetTag
+---@overload fun(key: NamespacedKey, values: Collection<EntityType>, globalPredicates: Predicate<EntityType>): io.papermc.paper.tag.EntitySetTag
 local EntitySetTag = {}
 
 ---@protected

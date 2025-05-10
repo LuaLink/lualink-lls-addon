@@ -6,18 +6,18 @@
 ---@field private to org.bukkit.Location
 ---@field private from org.bukkit.Location
 ---@field private cancelled boolean
----@overload fun(player: Player, from: Location, to: Location): PlayerJumpEvent
+---@overload fun(player: Player, from: Location, to: Location): com.destroystokyo.paper.event.player.PlayerJumpEvent
 local PlayerJumpEvent = {}
 
 ---@public
 ---@return boolean {@code true} if this event is cancelled
---- {@inheritDoc} <p> If a jump event is cancelled, the player will be moved or teleported back to the Location as defined by {@link #getFrom()}. This will not fire an event
+--- {@inheritDoc} <p> If this event is cancelled, the player will be moved or teleported back to the Location as defined by {@link #getFrom()}. This will not fire an event
 function PlayerJumpEvent:isCancelled() end
 
 ---@param cancel boolean {@code true} if you wish to cancel this event
 ---@public
 ---@return nil 
---- {@inheritDoc} <p> If a jump event is cancelled, the player will be moved or teleported back to the Location as defined by {@link #getFrom()}. This will not fire an event
+--- {@inheritDoc} <p> If this event is cancelled, the player will be moved or teleported back to the Location as defined by {@link #getFrom()}. This will not fire an event
 function PlayerJumpEvent:setCancelled(cancel) end
 
 ---@public

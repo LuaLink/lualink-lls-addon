@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.material.Ladder
 ---@class org.bukkit.material.Ladder: org.bukkit.material.SimpleAttachableMaterialData
----@overload fun(): Ladder
----@overload fun(type: Material): Ladder
----@overload fun(type: Material, data: number): Ladder
+---@overload fun(): org.bukkit.material.Ladder
+---@overload fun(type: Material): org.bukkit.material.Ladder
+---@overload fun(type: Material, data: number): org.bukkit.material.Ladder
 local Ladder = {}
 
 ---@public

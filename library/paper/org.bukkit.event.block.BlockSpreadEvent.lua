@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.block.BlockSpreadEvent: org.bukkit.event.block.BlockFormEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private source org.bukkit.block.Block
----@overload fun(block: Block, source: Block, newState: BlockState): BlockSpreadEvent
+---@overload fun(block: Block, source: Block, newState: BlockState): org.bukkit.event.block.BlockSpreadEvent
 local BlockSpreadEvent = {}
 
 ---@public

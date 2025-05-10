@@ -2,7 +2,7 @@
 -- net.kyori.adventure.nbt.api.BinaryTagHolderImpl
 ---@class net.kyori.adventure.nbt.api.BinaryTagHolderImpl: net.kyori.adventure.nbt.api.BinaryTagHolder
 ---@field private string string
----@overload fun(string: string): BinaryTagHolderImpl
+---@overload fun(string: string): net.kyori.adventure.nbt.api.BinaryTagHolderImpl
 local BinaryTagHolderImpl = {}
 
 ---@public

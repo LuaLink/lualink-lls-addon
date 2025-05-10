@@ -6,7 +6,7 @@
 ---@field private humanEntity org.bukkit.entity.HumanEntity
 ---@field private ticksInLove number
 ---@field private cancelled boolean
----@overload fun(animalInLove: Animals, humanEntity: HumanEntity, ticksInLove: number): EntityEnterLoveModeEvent
+---@overload fun(animalInLove: Animals, humanEntity: HumanEntity, ticksInLove: number): org.bukkit.event.entity.EntityEnterLoveModeEvent
 local EntityEnterLoveModeEvent = {}
 
 ---@public

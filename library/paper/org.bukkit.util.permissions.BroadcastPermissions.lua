@@ -3,7 +3,7 @@
 ---@class org.bukkit.util.permissions.BroadcastPermissions
 ---@field private ROOT string
 ---@field private PREFIX string
----@overload fun(): BroadcastPermissions
+---@overload fun(): org.bukkit.util.permissions.BroadcastPermissions
 local BroadcastPermissions = {}
 
 ---@param parent org.bukkit.permissions.Permission 

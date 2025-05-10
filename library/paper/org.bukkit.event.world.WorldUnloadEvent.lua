@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.world.WorldUnloadEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cancelled boolean
----@overload fun(world: World): WorldUnloadEvent
+---@overload fun(world: World): org.bukkit.event.world.WorldUnloadEvent
 local WorldUnloadEvent = {}
 
 ---@public

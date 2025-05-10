@@ -336,3 +336,13 @@ function UnsafeValues:computeTooltipLines(itemStack, tooltipContext, player) end
 ---@return org.bukkit.inventory.ItemStack 
 function UnsafeValues:createEmptyStack() end
 
+---@param itemStack org.bukkit.inventory.ItemStack 
+---@public
+---@return java.util.Map 
+function UnsafeValues:serializeStack(itemStack) end
+
+---@param args java.util.Map 
+---@public
+---@return org.bukkit.inventory.ItemStack 
+function UnsafeValues:deserializeStack(args) end
+

@@ -7,7 +7,7 @@
 ---@field private oldAmount number
 ---@field private newAmount number
 ---@field private cancelled boolean
----@overload fun(entity: LivingEntity, oldAmount: number, newAmount: number, reset: boolean): ArrowBodyCountChangeEvent
+---@overload fun(entity: LivingEntity, oldAmount: number, newAmount: number, reset: boolean): org.bukkit.event.entity.ArrowBodyCountChangeEvent
 local ArrowBodyCountChangeEvent = {}
 
 ---@public

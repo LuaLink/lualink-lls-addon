@@ -3,7 +3,7 @@
 -- org.bukkit.event.weather.WeatherEvent
 ---@class org.bukkit.event.weather.WeatherEvent: org.bukkit.event.Event
 ---@field protected world org.bukkit.World
----@overload fun(where: World): WeatherEvent
+---@overload fun(where: World): org.bukkit.event.weather.WeatherEvent
 local WeatherEvent = {}
 
 ---@public

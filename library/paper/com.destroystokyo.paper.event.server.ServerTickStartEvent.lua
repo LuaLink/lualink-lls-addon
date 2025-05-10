@@ -3,7 +3,7 @@
 ---@class com.destroystokyo.paper.event.server.ServerTickStartEvent: org.bukkit.event.Event
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private tickNumber number
----@overload fun(tickNumber: number): ServerTickStartEvent
+---@overload fun(tickNumber: number): com.destroystokyo.paper.event.server.ServerTickStartEvent
 local ServerTickStartEvent = {}
 
 ---@public

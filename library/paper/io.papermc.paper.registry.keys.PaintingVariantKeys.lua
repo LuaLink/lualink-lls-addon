@@ -52,7 +52,7 @@
 ---@field public WATER io.papermc.paper.registry.TypedKey
 ---@field public WIND io.papermc.paper.registry.TypedKey
 ---@field public WITHER io.papermc.paper.registry.TypedKey
----@overload fun(): PaintingVariantKeys
+---@overload fun(): io.papermc.paper.registry.keys.PaintingVariantKeys
 local PaintingVariantKeys = {}
 
 ---@param key any the value's key in the registry

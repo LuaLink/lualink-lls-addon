@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private entered org.bukkit.entity.Entity
 ---@field private cancelled boolean
----@overload fun(vehicle: Vehicle, entered: Entity): VehicleEnterEvent
+---@overload fun(vehicle: Vehicle, entered: Entity): org.bukkit.event.vehicle.VehicleEnterEvent
 local VehicleEnterEvent = {}
 
 ---@public

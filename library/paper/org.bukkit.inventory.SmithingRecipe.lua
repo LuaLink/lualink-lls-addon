@@ -7,8 +7,8 @@
 ---@field private base org.bukkit.inventory.RecipeChoice
 ---@field private addition org.bukkit.inventory.RecipeChoice
 ---@field private copyDataComponents boolean
----@overload fun(key: NamespacedKey, result: ItemStack, base: RecipeChoice, addition: RecipeChoice): SmithingRecipe
----@overload fun(key: NamespacedKey, result: ItemStack, base: RecipeChoice, addition: RecipeChoice, copyDataComponents: boolean): SmithingRecipe
+---@overload fun(key: NamespacedKey, result: ItemStack, base: RecipeChoice, addition: RecipeChoice): org.bukkit.inventory.SmithingRecipe
+---@overload fun(key: NamespacedKey, result: ItemStack, base: RecipeChoice, addition: RecipeChoice, copyDataComponents: boolean): org.bukkit.inventory.SmithingRecipe
 local SmithingRecipe = {}
 
 ---@public

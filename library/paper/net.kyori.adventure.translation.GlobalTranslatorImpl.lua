@@ -5,7 +5,7 @@
 ---@field public INSTANCE net.kyori.adventure.translation.GlobalTranslatorImpl
 ---@field public renderer net.kyori.adventure.text.renderer.TranslatableComponentRenderer
 ---@field private sources java.util.Set
----@overload fun(): GlobalTranslatorImpl
+---@overload fun(): net.kyori.adventure.translation.GlobalTranslatorImpl
 local GlobalTranslatorImpl = {}
 
 ---@public

@@ -6,7 +6,7 @@
 ---@field private loomInventory org.bukkit.inventory.LoomInventory
 ---@field private patternType org.bukkit.block.banner.PatternType
 ---@field private cancelled boolean
----@overload fun(player: Player, loomInventory: LoomInventory, patternType: PatternType): PlayerLoomPatternSelectEvent
+---@overload fun(player: Player, loomInventory: LoomInventory, patternType: PatternType): io.papermc.paper.event.player.PlayerLoomPatternSelectEvent
 local PlayerLoomPatternSelectEvent = {}
 
 ---@public

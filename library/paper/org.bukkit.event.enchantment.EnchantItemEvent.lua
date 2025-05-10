@@ -12,7 +12,7 @@
 ---@field private levelHint number
 ---@field private button number
 ---@field private cancelled boolean
----@overload fun(enchanter: Player, view: InventoryView, table: Block, item: ItemStack, level: number, enchants: table<Enchantment, Integer>, enchantmentHint: Enchantment, levelHint: number, button: number): EnchantItemEvent
+---@overload fun(enchanter: Player, view: InventoryView, table: Block, item: ItemStack, level: number, enchants: table<Enchantment, Integer>, enchantmentHint: Enchantment, levelHint: number, button: number): org.bukkit.event.enchantment.EnchantItemEvent
 local EnchantItemEvent = {}
 
 ---@public

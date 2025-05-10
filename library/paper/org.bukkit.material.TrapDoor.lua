@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.material.TrapDoor
 ---@class org.bukkit.material.TrapDoor: org.bukkit.material.SimpleAttachableMaterialData, org.bukkit.material.Openable
----@overload fun(): TrapDoor
----@overload fun(type: Material): TrapDoor
----@overload fun(type: Material, data: number): TrapDoor
+---@overload fun(): org.bukkit.material.TrapDoor
+---@overload fun(type: Material): org.bukkit.material.TrapDoor
+---@overload fun(type: Material, data: number): org.bukkit.material.TrapDoor
 local TrapDoor = {}
 
 ---@public

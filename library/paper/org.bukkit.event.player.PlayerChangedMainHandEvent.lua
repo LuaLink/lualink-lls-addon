@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.player.PlayerChangedMainHandEvent: org.bukkit.event.player.PlayerEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private newMainHand org.bukkit.inventory.MainHand
----@overload fun(player: Player, newMainHand: MainHand): PlayerChangedMainHandEvent
+---@overload fun(player: Player, newMainHand: MainHand): org.bukkit.event.player.PlayerChangedMainHandEvent
 local PlayerChangedMainHandEvent = {}
 
 ---@deprecated

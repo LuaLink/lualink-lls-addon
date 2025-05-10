@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.material.Chest
 ---@class org.bukkit.material.Chest: org.bukkit.material.DirectionalContainer
----@overload fun(): Chest
----@overload fun(direction: BlockFace): Chest
----@overload fun(type: Material): Chest
----@overload fun(type: Material, data: number): Chest
+---@overload fun(): org.bukkit.material.Chest
+---@overload fun(direction: BlockFace): org.bukkit.material.Chest
+---@overload fun(type: Material): org.bukkit.material.Chest
+---@overload fun(type: Material, data: number): org.bukkit.material.Chest
 local Chest = {}
 
 ---@public

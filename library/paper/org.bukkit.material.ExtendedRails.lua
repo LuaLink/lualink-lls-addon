@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.material.ExtendedRails
 ---@class org.bukkit.material.ExtendedRails: org.bukkit.material.Rails
----@overload fun(type: Material): ExtendedRails
----@overload fun(type: Material, data: number): ExtendedRails
+---@overload fun(type: Material): org.bukkit.material.ExtendedRails
+---@overload fun(type: Material, data: number): org.bukkit.material.ExtendedRails
 local ExtendedRails = {}
 
 ---@public

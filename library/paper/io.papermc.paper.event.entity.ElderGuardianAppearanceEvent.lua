@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private affectedPlayer org.bukkit.entity.Player
 ---@field private cancelled boolean
----@overload fun(guardian: ElderGuardian, affectedPlayer: Player): ElderGuardianAppearanceEvent
+---@overload fun(guardian: ElderGuardian, affectedPlayer: Player): io.papermc.paper.event.entity.ElderGuardianAppearanceEvent
 local ElderGuardianAppearanceEvent = {}
 
 ---@public

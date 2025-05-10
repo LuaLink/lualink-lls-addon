@@ -6,7 +6,7 @@
 ---@field private target org.bukkit.entity.LivingEntity
 ---@field private potion org.bukkit.inventory.ItemStack
 ---@field private cancelled boolean
----@overload fun(witch: Witch, target: LivingEntity, potion: ItemStack): WitchThrowPotionEvent
+---@overload fun(witch: Witch, target: LivingEntity, potion: ItemStack): com.destroystokyo.paper.event.entity.WitchThrowPotionEvent
 local WitchThrowPotionEvent = {}
 
 ---@public

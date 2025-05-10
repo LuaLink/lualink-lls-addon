@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.inventory.PrepareInventoryResultEvent: org.bukkit.event.inventory.InventoryEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private result org.bukkit.inventory.ItemStack
----@overload fun(inventory: InventoryView, result: ItemStack): PrepareInventoryResultEvent
+---@overload fun(inventory: InventoryView, result: ItemStack): org.bukkit.event.inventory.PrepareInventoryResultEvent
 local PrepareInventoryResultEvent = {}
 
 ---@public

@@ -8,8 +8,8 @@
 ---@field private player org.bukkit.entity.Player
 ---@field private instaBreak boolean
 ---@field private cancelled boolean
----@overload fun(player: Player, block: Block, itemInHand: ItemStack, instaBreak: boolean): BlockDamageEvent
----@overload fun(player: Player, block: Block, blockFace: BlockFace, itemInHand: ItemStack, instaBreak: boolean): BlockDamageEvent
+---@overload fun(player: Player, block: Block, itemInHand: ItemStack, instaBreak: boolean): org.bukkit.event.block.BlockDamageEvent
+---@overload fun(player: Player, block: Block, blockFace: BlockFace, itemInHand: ItemStack, instaBreak: boolean): org.bukkit.event.block.BlockDamageEvent
 local BlockDamageEvent = {}
 
 ---@public

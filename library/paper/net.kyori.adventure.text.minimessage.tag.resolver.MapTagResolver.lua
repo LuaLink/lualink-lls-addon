@@ -2,7 +2,7 @@
 -- net.kyori.adventure.text.minimessage.tag.resolver.MapTagResolver
 ---@class net.kyori.adventure.text.minimessage.tag.resolver.MapTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments, net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver
 ---@field private tagMap java.util.Map
----@overload fun(placeholderMap: table<string, ? extends Tag>): MapTagResolver
+---@overload fun(placeholderMap: table<string, ? extends Tag>): net.kyori.adventure.text.minimessage.tag.resolver.MapTagResolver
 local MapTagResolver = {}
 
 ---@param name string 

@@ -13,8 +13,8 @@
 ---@field private deathSoundVolume number
 ---@field private deathSoundPitch number
 ---@field private cancelled boolean
----@overload fun(livingEntity: LivingEntity, damageSource: DamageSource, drops: table<ItemStack>): EntityDeathEvent
----@overload fun(livingEntity: LivingEntity, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number): EntityDeathEvent
+---@overload fun(livingEntity: LivingEntity, damageSource: DamageSource, drops: table<ItemStack>): org.bukkit.event.entity.EntityDeathEvent
+---@overload fun(livingEntity: LivingEntity, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number): org.bukkit.event.entity.EntityDeathEvent
 local EntityDeathEvent = {}
 
 ---@public

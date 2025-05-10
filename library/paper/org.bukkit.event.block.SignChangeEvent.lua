@@ -7,10 +7,10 @@
 ---@field private adventure$lines java.util.List
 ---@field private side org.bukkit.block.sign.Side
 ---@field private cancelled boolean
----@overload fun(sign: Block, player: Player, adventure$lines: java.util.List<net.kyori.adventure.text.Component>, side: Side): SignChangeEvent
----@overload fun(sign: Block, player: Player, adventure$lines: java.util.List<net.kyori.adventure.text.Component>): SignChangeEvent
----@overload fun(sign: Block, thePlayer: Player, theLines: table<string>): SignChangeEvent
----@overload fun(sign: Block, thePlayer: Player, theLines: table<string>, side: Side): SignChangeEvent
+---@overload fun(sign: Block, player: Player, adventure$lines: java.util.List<net.kyori.adventure.text.Component>, side: Side): org.bukkit.event.block.SignChangeEvent
+---@overload fun(sign: Block, player: Player, adventure$lines: java.util.List<net.kyori.adventure.text.Component>): org.bukkit.event.block.SignChangeEvent
+---@overload fun(sign: Block, thePlayer: Player, theLines: table<string>): org.bukkit.event.block.SignChangeEvent
+---@overload fun(sign: Block, thePlayer: Player, theLines: table<string>, side: Side): org.bukkit.event.block.SignChangeEvent
 local SignChangeEvent = {}
 
 ---@public

@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.text.minimessage.internal.parser.match.StringResolvingMatchedTokenConsumer: net.kyori.adventure.text.minimessage.internal.parser.match.MatchedTokenConsumer
 ---@field private builder java.lang.StringBuilder
 ---@field private tagProvider net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider
----@overload fun(input: string, tagProvider: TagProvider): StringResolvingMatchedTokenConsumer
+---@overload fun(input: string, tagProvider: TagProvider): net.kyori.adventure.text.minimessage.internal.parser.match.StringResolvingMatchedTokenConsumer
 local StringResolvingMatchedTokenConsumer = {}
 
 ---@param start number 

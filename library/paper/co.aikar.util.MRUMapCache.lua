@@ -5,7 +5,7 @@
 ---@field public backingMap java.util.Map
 ---@field public cacheKey java.lang.Object
 ---@field public cacheValue V
----@overload fun(backingMap: table<K, V>): MRUMapCache
+---@overload fun(backingMap: table<K, V>): co.aikar.util.MRUMapCache
 local MRUMapCache = {}
 
 ---@public

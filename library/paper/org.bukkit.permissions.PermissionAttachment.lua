@@ -6,7 +6,7 @@
 ---@field private permissions java.util.Map
 ---@field private permissible org.bukkit.permissions.Permissible
 ---@field private plugin org.bukkit.plugin.Plugin
----@overload fun(plugin: Plugin, permissible: Permissible): PermissionAttachment
+---@overload fun(plugin: Plugin, permissible: Permissible): org.bukkit.permissions.PermissionAttachment
 local PermissionAttachment = {}
 
 ---@public

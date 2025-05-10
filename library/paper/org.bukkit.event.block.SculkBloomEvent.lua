@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private charge number
 ---@field private cancelled boolean
----@overload fun(block: Block, charge: number): SculkBloomEvent
+---@overload fun(block: Block, charge: number): org.bukkit.event.block.SculkBloomEvent
 local SculkBloomEvent = {}
 
 ---@public

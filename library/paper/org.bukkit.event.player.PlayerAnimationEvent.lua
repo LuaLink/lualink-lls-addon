@@ -5,8 +5,8 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private animationType org.bukkit.event.player.PlayerAnimationType
 ---@field private cancelled boolean
----@overload fun(player: Player): PlayerAnimationEvent
----@overload fun(player: Player, playerAnimationType: PlayerAnimationType): PlayerAnimationEvent
+---@overload fun(player: Player): org.bukkit.event.player.PlayerAnimationEvent
+---@overload fun(player: Player, playerAnimationType: PlayerAnimationType): org.bukkit.event.player.PlayerAnimationEvent
 local PlayerAnimationEvent = {}
 
 ---@public

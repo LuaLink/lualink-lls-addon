@@ -8,8 +8,8 @@
 ---@field private blockFace org.bukkit.block.BlockFace
 ---@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field private cancelled boolean
----@overload fun(entity: Entity, player: Player, block: Block, blockFace: BlockFace, hand: EquipmentSlot): EntityPlaceEvent
----@overload fun(entity: Entity, player: Player, block: Block, blockFace: BlockFace): EntityPlaceEvent
+---@overload fun(entity: Entity, player: Player, block: Block, blockFace: BlockFace, hand: EquipmentSlot): org.bukkit.event.entity.EntityPlaceEvent
+---@overload fun(entity: Entity, player: Player, block: Block, blockFace: BlockFace): org.bukkit.event.entity.EntityPlaceEvent
 local EntityPlaceEvent = {}
 
 ---@public

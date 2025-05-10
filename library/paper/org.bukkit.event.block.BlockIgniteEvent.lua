@@ -7,9 +7,9 @@
 ---@field private ignitingEntity org.bukkit.entity.Entity
 ---@field private ignitingBlock org.bukkit.block.Block
 ---@field private cancelled boolean
----@overload fun(block: Block, cause: IgniteCause, ignitingEntity: Entity): BlockIgniteEvent
----@overload fun(block: Block, cause: IgniteCause, ignitingBlock: Block): BlockIgniteEvent
----@overload fun(block: Block, cause: IgniteCause, ignitingEntity: Entity, ignitingBlock: Block): BlockIgniteEvent
+---@overload fun(block: Block, cause: IgniteCause, ignitingEntity: Entity): org.bukkit.event.block.BlockIgniteEvent
+---@overload fun(block: Block, cause: IgniteCause, ignitingBlock: Block): org.bukkit.event.block.BlockIgniteEvent
+---@overload fun(block: Block, cause: IgniteCause, ignitingEntity: Entity, ignitingBlock: Block): org.bukkit.event.block.BlockIgniteEvent
 local BlockIgniteEvent = {}
 
 ---@public

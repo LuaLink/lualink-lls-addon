@@ -3,7 +3,7 @@
 -- org.bukkit.event.entity.ProjectileLaunchEvent
 ---@class org.bukkit.event.entity.ProjectileLaunchEvent: org.bukkit.event.entity.EntitySpawnEvent, org.bukkit.event.Cancellable
 ---@field private cancelled boolean
----@overload fun(entity: Entity): ProjectileLaunchEvent
+---@overload fun(entity: Entity): org.bukkit.event.entity.ProjectileLaunchEvent
 local ProjectileLaunchEvent = {}
 
 ---@public

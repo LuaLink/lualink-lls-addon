@@ -5,7 +5,7 @@
 ---@field public COLD io.papermc.paper.registry.TypedKey
 ---@field public TEMPERATE io.papermc.paper.registry.TypedKey
 ---@field public WARM io.papermc.paper.registry.TypedKey
----@overload fun(): PigVariantKeys
+---@overload fun(): io.papermc.paper.registry.keys.PigVariantKeys
 local PigVariantKeys = {}
 
 ---@param key any the value's key in the registry

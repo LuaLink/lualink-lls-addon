@@ -3,7 +3,7 @@
 -- org.bukkit.event.entity.EntityKnockbackByEntityEvent
 ---@class org.bukkit.event.entity.EntityKnockbackByEntityEvent: org.bukkit.event.entity.EntityKnockbackEvent
 ---@field private source org.bukkit.entity.Entity
----@overload fun(entity: LivingEntity, source: Entity, cause: KnockbackCause, force: number, rawKnockback: Vector, knockback: Vector): EntityKnockbackByEntityEvent
+---@overload fun(entity: LivingEntity, source: Entity, cause: KnockbackCause, force: number, rawKnockback: Vector, knockback: Vector): org.bukkit.event.entity.EntityKnockbackByEntityEvent
 local EntityKnockbackByEntityEvent = {}
 
 ---@public

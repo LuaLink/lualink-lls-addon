@@ -7,7 +7,7 @@
 ---@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field private consumeItem boolean
 ---@field private cancelled boolean
----@overload fun(entity: LivingEntity, crossbow: ItemStack, hand: EquipmentSlot): EntityLoadCrossbowEvent
+---@overload fun(entity: LivingEntity, crossbow: ItemStack, hand: EquipmentSlot): io.papermc.paper.event.entity.EntityLoadCrossbowEvent
 local EntityLoadCrossbowEvent = {}
 
 ---@public

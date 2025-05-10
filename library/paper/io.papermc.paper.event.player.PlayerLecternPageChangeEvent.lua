@@ -8,7 +8,7 @@
 ---@field private oldPage number
 ---@field private newPage number
 ---@field private cancelled boolean
----@overload fun(player: Player, lectern: Lectern, book: ItemStack, pageChangeDirection: PageChangeDirection, oldPage: number, newPage: number): PlayerLecternPageChangeEvent
+---@overload fun(player: Player, lectern: Lectern, book: ItemStack, pageChangeDirection: PageChangeDirection, oldPage: number, newPage: number): io.papermc.paper.event.player.PlayerLecternPageChangeEvent
 local PlayerLecternPageChangeEvent = {}
 
 ---@public

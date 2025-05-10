@@ -21,7 +21,7 @@
 ---@field public STRAD io.papermc.paper.registry.TypedKey
 ---@field public WAIT io.papermc.paper.registry.TypedKey
 ---@field public WARD io.papermc.paper.registry.TypedKey
----@overload fun(): JukeboxSongKeys
+---@overload fun(): io.papermc.paper.registry.keys.JukeboxSongKeys
 local JukeboxSongKeys = {}
 
 ---@param key any the value's key in the registry

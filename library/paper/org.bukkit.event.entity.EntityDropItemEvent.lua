@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private drop org.bukkit.entity.Item
 ---@field private cancelled boolean
----@overload fun(entity: Entity, drop: Item): EntityDropItemEvent
+---@overload fun(entity: Entity, drop: Item): org.bukkit.event.entity.EntityDropItemEvent
 local EntityDropItemEvent = {}
 
 ---@public

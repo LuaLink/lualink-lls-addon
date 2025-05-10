@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private progress number
 ---@field private entity org.bukkit.entity.Entity
----@overload fun(block: Block, progress: number, entity: Entity): BlockBreakProgressUpdateEvent
+---@overload fun(block: Block, progress: number, entity: Entity): io.papermc.paper.event.block.BlockBreakProgressUpdateEvent
 local BlockBreakProgressUpdateEvent = {}
 
 ---@public

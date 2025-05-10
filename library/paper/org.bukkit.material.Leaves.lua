@@ -4,13 +4,13 @@
 ---@class org.bukkit.material.Leaves: org.bukkit.material.Wood
 ---@field protected DEFAULT_TYPE org.bukkit.Material
 ---@field protected DEFAULT_DECAYABLE boolean
----@overload fun(): Leaves
----@overload fun(species: TreeSpecies): Leaves
----@overload fun(species: TreeSpecies, isDecayable: boolean): Leaves
----@overload fun(type: Material): Leaves
----@overload fun(type: Material, species: TreeSpecies): Leaves
----@overload fun(type: Material, species: TreeSpecies, isDecayable: boolean): Leaves
----@overload fun(type: Material, data: number): Leaves
+---@overload fun(): org.bukkit.material.Leaves
+---@overload fun(species: TreeSpecies): org.bukkit.material.Leaves
+---@overload fun(species: TreeSpecies, isDecayable: boolean): org.bukkit.material.Leaves
+---@overload fun(type: Material): org.bukkit.material.Leaves
+---@overload fun(type: Material, species: TreeSpecies): org.bukkit.material.Leaves
+---@overload fun(type: Material, species: TreeSpecies, isDecayable: boolean): org.bukkit.material.Leaves
+---@overload fun(type: Material, data: number): org.bukkit.material.Leaves
 local Leaves = {}
 
 ---@public

@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private location org.bukkit.Location
 ---@field private cancelled boolean
----@overload fun(despawnee: Item, location: Location): ItemDespawnEvent
+---@overload fun(despawnee: Item, location: Location): org.bukkit.event.entity.ItemDespawnEvent
 local ItemDespawnEvent = {}
 
 ---@public

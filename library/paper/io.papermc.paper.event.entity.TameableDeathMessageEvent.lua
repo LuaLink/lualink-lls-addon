@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private deathMessage net.kyori.adventure.text.Component
 ---@field private cancelled boolean
----@overload fun(tameable: Tameable, deathMessage: Component): TameableDeathMessageEvent
+---@overload fun(tameable: Tameable, deathMessage: Component): io.papermc.paper.event.entity.TameableDeathMessageEvent
 local TameableDeathMessageEvent = {}
 
 ---@param deathMessage net.kyori.adventure.text.Component Death message to appear

@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private oldCurrent number
 ---@field private newCurrent number
----@overload fun(block: Block, oldCurrent: number, newCurrent: number): BlockRedstoneEvent
+---@overload fun(block: Block, oldCurrent: number, newCurrent: number): org.bukkit.event.block.BlockRedstoneEvent
 local BlockRedstoneEvent = {}
 
 ---@public

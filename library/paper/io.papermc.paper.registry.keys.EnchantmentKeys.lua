@@ -44,7 +44,7 @@
 ---@field public UNBREAKING io.papermc.paper.registry.TypedKey
 ---@field public VANISHING_CURSE io.papermc.paper.registry.TypedKey
 ---@field public WIND_BURST io.papermc.paper.registry.TypedKey
----@overload fun(): EnchantmentKeys
+---@overload fun(): io.papermc.paper.registry.keys.EnchantmentKeys
 local EnchantmentKeys = {}
 
 ---@param key any the value's key in the registry

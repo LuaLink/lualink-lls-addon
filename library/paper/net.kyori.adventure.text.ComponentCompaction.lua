@@ -2,7 +2,7 @@
 -- net.kyori.adventure.text.ComponentCompaction
 ---@class net.kyori.adventure.text.ComponentCompaction
 ---@field public SIMPLIFY_STYLE_FOR_BLANK_COMPONENTS boolean
----@overload fun(): ComponentCompaction
+---@overload fun(): net.kyori.adventure.text.ComponentCompaction
 local ComponentCompaction = {}
 
 ---@param self net.kyori.adventure.text.Component 

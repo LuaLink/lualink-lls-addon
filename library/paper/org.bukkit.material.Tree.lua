@@ -4,13 +4,13 @@
 ---@class org.bukkit.material.Tree: org.bukkit.material.Wood
 ---@field protected DEFAULT_TYPE org.bukkit.Material
 ---@field protected DEFAULT_DIRECTION org.bukkit.block.BlockFace
----@overload fun(): Tree
----@overload fun(species: TreeSpecies): Tree
----@overload fun(species: TreeSpecies, dir: BlockFace): Tree
----@overload fun(type: Material): Tree
----@overload fun(type: Material, species: TreeSpecies): Tree
----@overload fun(type: Material, species: TreeSpecies, dir: BlockFace): Tree
----@overload fun(type: Material, data: number): Tree
+---@overload fun(): org.bukkit.material.Tree
+---@overload fun(species: TreeSpecies): org.bukkit.material.Tree
+---@overload fun(species: TreeSpecies, dir: BlockFace): org.bukkit.material.Tree
+---@overload fun(type: Material): org.bukkit.material.Tree
+---@overload fun(type: Material, species: TreeSpecies): org.bukkit.material.Tree
+---@overload fun(type: Material, species: TreeSpecies, dir: BlockFace): org.bukkit.material.Tree
+---@overload fun(type: Material, data: number): org.bukkit.material.Tree
 local Tree = {}
 
 ---@public

@@ -3,7 +3,7 @@
 -- org.spigotmc.CustomTimingsHandler
 ---@class org.spigotmc.CustomTimingsHandler
 ---@field private handler co.aikar.timings.Timing
----@overload fun(name: string): CustomTimingsHandler
+---@overload fun(name: string): org.spigotmc.CustomTimingsHandler
 local CustomTimingsHandler = {}
 
 ---@public

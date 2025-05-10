@@ -8,7 +8,7 @@
 ---@field public name string
 ---@field public groupHandler co.aikar.timings.TimingHandler
 ---@field private hashCode number
----@overload fun(group: string, name: string, groupHandler: Timing): TimingIdentifier
+---@overload fun(group: string, name: string, groupHandler: Timing): co.aikar.timings.TimingIdentifier
 local TimingIdentifier = {}
 
 ---@param groupName string 

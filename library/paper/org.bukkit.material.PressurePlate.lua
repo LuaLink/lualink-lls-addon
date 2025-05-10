@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.material.PressurePlate
 ---@class org.bukkit.material.PressurePlate: org.bukkit.material.MaterialData, org.bukkit.material.PressureSensor
----@overload fun(): PressurePlate
----@overload fun(type: Material): PressurePlate
----@overload fun(type: Material, data: number): PressurePlate
+---@overload fun(): org.bukkit.material.PressurePlate
+---@overload fun(type: Material): org.bukkit.material.PressurePlate
+---@overload fun(type: Material, data: number): org.bukkit.material.PressurePlate
 local PressurePlate = {}
 
 ---@public

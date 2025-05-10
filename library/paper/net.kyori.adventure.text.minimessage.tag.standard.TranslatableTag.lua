@@ -6,7 +6,7 @@
 ---@field private TRANSLATE string
 ---@field private LANG string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(): TranslatableTag
+---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.TranslatableTag
 local TranslatableTag = {}
 
 ---@param args net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue 

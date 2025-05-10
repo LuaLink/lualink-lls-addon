@@ -6,8 +6,8 @@
 ---@field private output org.bukkit.inventory.ItemStack
 ---@field private ingredient org.bukkit.inventory.RecipeChoice
 ---@field private group string
----@overload fun(key: NamespacedKey, result: ItemStack, source: Material): StonecuttingRecipe
----@overload fun(key: NamespacedKey, result: ItemStack, input: RecipeChoice): StonecuttingRecipe
+---@overload fun(key: NamespacedKey, result: ItemStack, source: Material): org.bukkit.inventory.StonecuttingRecipe
+---@overload fun(key: NamespacedKey, result: ItemStack, input: RecipeChoice): org.bukkit.inventory.StonecuttingRecipe
 local StonecuttingRecipe = {}
 
 ---@param input org.bukkit.Material The input material.

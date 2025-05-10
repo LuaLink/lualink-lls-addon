@@ -3,7 +3,7 @@
 -- org.bukkit.event.vehicle.VehicleCollisionEvent
 ---@class org.bukkit.event.vehicle.VehicleCollisionEvent: org.bukkit.event.vehicle.VehicleEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
----@overload fun(vehicle: Vehicle): VehicleCollisionEvent
+---@overload fun(vehicle: Vehicle): org.bukkit.event.vehicle.VehicleCollisionEvent
 local VehicleCollisionEvent = {}
 
 ---@public

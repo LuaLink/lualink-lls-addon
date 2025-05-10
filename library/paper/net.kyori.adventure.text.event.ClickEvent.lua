@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.text.event.ClickEvent: any, net.kyori.adventure.text.format.StyleBuilderApplicable
 ---@field private action net.kyori.adventure.text.event.ClickEvent.Action
 ---@field private value string
----@overload fun(action: Action, value: string): ClickEvent
+---@overload fun(action: Action, value: string): net.kyori.adventure.text.event.ClickEvent
 local ClickEvent = {}
 
 ---@param url string the url to open

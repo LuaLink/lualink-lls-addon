@@ -2,7 +2,7 @@
 -- net.kyori.adventure.text.serializer.gson.KeySerializer
 ---@class net.kyori.adventure.text.serializer.gson.KeySerializer: any
 ---@field public INSTANCE any
----@overload fun(): KeySerializer
+---@overload fun(): net.kyori.adventure.text.serializer.gson.KeySerializer
 local KeySerializer = {}
 
 ---@param out any 

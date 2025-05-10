@@ -3,9 +3,9 @@
 -- com.destroystokyo.paper.exception.ServerPluginException
 ---@class com.destroystokyo.paper.exception.ServerPluginException: com.destroystokyo.paper.exception.ServerException
 ---@field private responsiblePlugin org.bukkit.plugin.Plugin
----@overload fun(message: string, cause: Throwable, responsiblePlugin: Plugin): ServerPluginException
----@overload fun(cause: Throwable, responsiblePlugin: Plugin): ServerPluginException
----@overload fun(message: string, cause: Throwable, enableSuppression: boolean, writableStackTrace: boolean, responsiblePlugin: Plugin): ServerPluginException
+---@overload fun(message: string, cause: Throwable, responsiblePlugin: Plugin): com.destroystokyo.paper.exception.ServerPluginException
+---@overload fun(cause: Throwable, responsiblePlugin: Plugin): com.destroystokyo.paper.exception.ServerPluginException
+---@overload fun(message: string, cause: Throwable, enableSuppression: boolean, writableStackTrace: boolean, responsiblePlugin: Plugin): com.destroystokyo.paper.exception.ServerPluginException
 local ServerPluginException = {}
 
 ---@public

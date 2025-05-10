@@ -5,7 +5,7 @@
 ---@field private TRUE_INPUTS java.util.Set
 ---@field private FALSE_INPUTS java.util.Set
 ---@field private VALID_INPUTS java.util.Set
----@overload fun(): BooleanPrompt
+---@overload fun(): org.bukkit.conversations.BooleanPrompt
 local BooleanPrompt = {}
 
 ---@param context org.bukkit.conversations.ConversationContext 

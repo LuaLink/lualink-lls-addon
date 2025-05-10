@@ -10,8 +10,8 @@
 ---@field protected canBuild boolean
 ---@field protected hand org.bukkit.inventory.EquipmentSlot
 ---@field protected cancelled boolean
----@overload fun(placedBlock: Block, replacedBlockState: BlockState, placedAgainst: Block, itemInHand: ItemStack, thePlayer: Player, canBuild: boolean): BlockPlaceEvent
----@overload fun(placedBlock: Block, replacedBlockState: BlockState, placedAgainst: Block, itemInHand: ItemStack, thePlayer: Player, canBuild: boolean, hand: EquipmentSlot): BlockPlaceEvent
+---@overload fun(placedBlock: Block, replacedBlockState: BlockState, placedAgainst: Block, itemInHand: ItemStack, thePlayer: Player, canBuild: boolean): org.bukkit.event.block.BlockPlaceEvent
+---@overload fun(placedBlock: Block, replacedBlockState: BlockState, placedAgainst: Block, itemInHand: ItemStack, thePlayer: Player, canBuild: boolean, hand: EquipmentSlot): org.bukkit.event.block.BlockPlaceEvent
 local BlockPlaceEvent = {}
 
 ---@public

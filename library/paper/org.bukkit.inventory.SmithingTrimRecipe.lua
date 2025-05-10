@@ -4,10 +4,10 @@
 ---@class org.bukkit.inventory.SmithingTrimRecipe: org.bukkit.inventory.SmithingRecipe, org.bukkit.inventory.ComplexRecipe
 ---@field private template org.bukkit.inventory.RecipeChoice
 ---@field private pattern org.bukkit.inventory.meta.trim.TrimPattern
----@overload fun(key: NamespacedKey, template: RecipeChoice, base: RecipeChoice, addition: RecipeChoice, pattern: TrimPattern): SmithingTrimRecipe
----@overload fun(key: NamespacedKey, template: RecipeChoice, base: RecipeChoice, addition: RecipeChoice, pattern: TrimPattern, copyDataComponents: boolean): SmithingTrimRecipe
----@overload fun(key: NamespacedKey, template: RecipeChoice, base: RecipeChoice, addition: RecipeChoice): SmithingTrimRecipe
----@overload fun(key: NamespacedKey, template: RecipeChoice, base: RecipeChoice, addition: RecipeChoice, copyDataComponents: boolean): SmithingTrimRecipe
+---@overload fun(key: NamespacedKey, template: RecipeChoice, base: RecipeChoice, addition: RecipeChoice, pattern: TrimPattern): org.bukkit.inventory.SmithingTrimRecipe
+---@overload fun(key: NamespacedKey, template: RecipeChoice, base: RecipeChoice, addition: RecipeChoice, pattern: TrimPattern, copyDataComponents: boolean): org.bukkit.inventory.SmithingTrimRecipe
+---@overload fun(key: NamespacedKey, template: RecipeChoice, base: RecipeChoice, addition: RecipeChoice): org.bukkit.inventory.SmithingTrimRecipe
+---@overload fun(key: NamespacedKey, template: RecipeChoice, base: RecipeChoice, addition: RecipeChoice, copyDataComponents: boolean): org.bukkit.inventory.SmithingTrimRecipe
 local SmithingTrimRecipe = {}
 
 ---@public

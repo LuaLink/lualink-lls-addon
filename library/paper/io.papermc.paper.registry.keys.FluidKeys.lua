@@ -7,7 +7,7 @@
 ---@field public FLOWING_WATER io.papermc.paper.registry.TypedKey
 ---@field public LAVA io.papermc.paper.registry.TypedKey
 ---@field public WATER io.papermc.paper.registry.TypedKey
----@overload fun(): FluidKeys
+---@overload fun(): io.papermc.paper.registry.keys.FluidKeys
 local FluidKeys = {}
 
 ---@param key any 

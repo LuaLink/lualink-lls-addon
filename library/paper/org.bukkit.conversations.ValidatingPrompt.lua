@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.conversations.ValidatingPrompt
 ---@class org.bukkit.conversations.ValidatingPrompt: org.bukkit.conversations.Prompt
----@overload fun(): ValidatingPrompt
+---@overload fun(): org.bukkit.conversations.ValidatingPrompt
 local ValidatingPrompt = {}
 
 ---@param context org.bukkit.conversations.ConversationContext Context information about the conversation.

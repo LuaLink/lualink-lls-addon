@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Entity
----@class org.bukkit.entity.Entity: org.bukkit.metadata.Metadatable, org.bukkit.command.CommandSender, org.bukkit.Nameable, org.bukkit.persistence.PersistentDataHolder, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.sound.Sound.Emitter
+---@class org.bukkit.entity.Entity: org.bukkit.metadata.Metadatable, org.bukkit.command.CommandSender, org.bukkit.Nameable, org.bukkit.persistence.PersistentDataHolder, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.sound.Sound.Emitter, io.papermc.paper.datacomponent.DataComponentView
 local Entity = {}
 
 ---@public
@@ -173,16 +173,29 @@ function Entity:getMaxFireTicks() end
 --- Sets the entity's current fire ticks (ticks before the entity stops being on fire).
 function Entity:setFireTicks(ticks) end
 
+---@deprecated
 ---@param fire boolean whether visual fire is enabled
 ---@public
 ---@return nil 
 --- Sets if the entity has visual fire (it will always appear to be on fire).
 function Entity:setVisualFire(fire) end
 
+---@param fire net.kyori.adventure.util.TriState a TriState value representing the state of the visual fire.
+---@public
+---@return nil 
+--- Sets if the entity has visual fire (it will always appear to be on fire). <ul>     <li>{@link TriState#NOT_SET} – will revert the entity's visual fire to default</li>     <li>{@link TriState#TRUE} – will make the entity appear to be on fire</li>     <li>{@link TriState#FALSE} – will make the entity appear to be not on fire</li> </ul>
+function Entity:setVisualFire(fire) end
+
+---@deprecated
 ---@public
 ---@return boolean whether visual fire is enabled
 --- Gets if the entity has visual fire (it will always appear to be on fire).
 function Entity:isVisualFire() end
+
+---@public
+---@return net.kyori.adventure.util.TriState A TriState indicating the current visual fire state.
+--- Retrieves the visual fire state of the object.
+function Entity:getVisualFire() end
 
 ---@public
 ---@return number int freeze ticks
@@ -415,6 +428,12 @@ function Entity:isVisibleByDefault() end
 ---@return java.util.Set the players tracking this entity, or an empty set if none
 --- Get all players that are currently tracking this entity. <p> 'Tracking' means that this entity has been sent to the player and that they are receiving updates on its state. Note that the client's {@code 'Entity Distance'} setting does not affect the range at which entities are tracked.
 function Entity:getTrackedBy() end
+
+---@param player org.bukkit.entity.Player the player to check
+---@public
+---@return boolean if the player is currently tracking this entity
+--- Checks to see if a player is currently tracking this entity.
+function Entity:isTrackedBy(player) end
 
 ---@param flag boolean if the entity is glowing
 ---@public

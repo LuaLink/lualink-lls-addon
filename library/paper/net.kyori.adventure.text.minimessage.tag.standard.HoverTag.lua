@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.text.minimessage.tag.standard.HoverTag
 ---@field private HOVER string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(): HoverTag
+---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.HoverTag
 local HoverTag = {}
 
 ---@param args net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue 

@@ -13,7 +13,7 @@
 ---@field public SIAMESE io.papermc.paper.registry.TypedKey
 ---@field public TABBY io.papermc.paper.registry.TypedKey
 ---@field public WHITE io.papermc.paper.registry.TypedKey
----@overload fun(): CatVariantKeys
+---@overload fun(): io.papermc.paper.registry.keys.CatVariantKeys
 local CatVariantKeys = {}
 
 ---@param key any the value's key in the registry

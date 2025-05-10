@@ -1106,7 +1106,7 @@
 ---@field public YELLOW_WOOL io.papermc.paper.registry.TypedKey
 ---@field public ZOMBIE_HEAD io.papermc.paper.registry.TypedKey
 ---@field public ZOMBIE_WALL_HEAD io.papermc.paper.registry.TypedKey
----@overload fun(): BlockTypeKeys
+---@overload fun(): io.papermc.paper.registry.keys.BlockTypeKeys
 local BlockTypeKeys = {}
 
 ---@param key any 

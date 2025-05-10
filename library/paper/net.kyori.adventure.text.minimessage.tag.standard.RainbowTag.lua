@@ -11,7 +11,7 @@
 ---@field private width number
 ---@field private frequency number
 ---@field private colorIndex number
----@overload fun(reversed: boolean, phase: number): RainbowTag
+---@overload fun(reversed: boolean, phase: number): net.kyori.adventure.text.minimessage.tag.standard.RainbowTag
 local RainbowTag = {}
 
 ---@param args net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue 

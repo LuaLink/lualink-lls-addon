@@ -4,7 +4,7 @@
 ---@class io.papermc.paper.event.player.PlayerSignCommandPreprocessEvent: org.bukkit.event.player.PlayerCommandPreprocessEvent
 ---@field private sign org.bukkit.block.Sign
 ---@field private side org.bukkit.block.sign.Side
----@overload fun(player: Player, message: string, recipients: table<Player>, sign: Sign, side: Side): PlayerSignCommandPreprocessEvent
+---@overload fun(player: Player, message: string, recipients: table<Player>, sign: Sign, side: Side): io.papermc.paper.event.player.PlayerSignCommandPreprocessEvent
 local PlayerSignCommandPreprocessEvent = {}
 
 ---@public

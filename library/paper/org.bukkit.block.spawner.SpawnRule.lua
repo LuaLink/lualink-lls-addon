@@ -6,7 +6,7 @@
 ---@field private maxBlockLight number
 ---@field private minSkyLight number
 ---@field private maxSkyLight number
----@overload fun(minBlockLight: number, maxBlockLight: number, minSkyLight: number, maxSkyLight: number): SpawnRule
+---@overload fun(minBlockLight: number, maxBlockLight: number, minSkyLight: number, maxSkyLight: number): org.bukkit.block.spawner.SpawnRule
 local SpawnRule = {}
 
 ---@public

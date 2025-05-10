@@ -7,11 +7,11 @@
 ---@field private hitBlock org.bukkit.block.Block
 ---@field private hitFace org.bukkit.block.BlockFace
 ---@field private cancelled boolean
----@overload fun(projectile: Projectile): ProjectileHitEvent
----@overload fun(projectile: Projectile, hitEntity: Entity): ProjectileHitEvent
----@overload fun(projectile: Projectile, hitBlock: Block): ProjectileHitEvent
----@overload fun(projectile: Projectile, hitEntity: Entity, hitBlock: Block): ProjectileHitEvent
----@overload fun(projectile: Projectile, hitEntity: Entity, hitBlock: Block, hitFace: BlockFace): ProjectileHitEvent
+---@overload fun(projectile: Projectile): org.bukkit.event.entity.ProjectileHitEvent
+---@overload fun(projectile: Projectile, hitEntity: Entity): org.bukkit.event.entity.ProjectileHitEvent
+---@overload fun(projectile: Projectile, hitBlock: Block): org.bukkit.event.entity.ProjectileHitEvent
+---@overload fun(projectile: Projectile, hitEntity: Entity, hitBlock: Block): org.bukkit.event.entity.ProjectileHitEvent
+---@overload fun(projectile: Projectile, hitEntity: Entity, hitBlock: Block, hitFace: BlockFace): org.bukkit.event.entity.ProjectileHitEvent
 local ProjectileHitEvent = {}
 
 ---@public

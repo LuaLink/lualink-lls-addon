@@ -3,7 +3,7 @@
 -- org.bukkit.conversations.ExactMatchConversationCanceller
 ---@class org.bukkit.conversations.ExactMatchConversationCanceller: org.bukkit.conversations.ConversationCanceller
 ---@field private escapeSequence string
----@overload fun(escapeSequence: string): ExactMatchConversationCanceller
+---@overload fun(escapeSequence: string): org.bukkit.conversations.ExactMatchConversationCanceller
 local ExactMatchConversationCanceller = {}
 
 ---@param conversation org.bukkit.conversations.Conversation 

@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.event.inventory.PrepareSmithingEvent
 ---@class org.bukkit.event.inventory.PrepareSmithingEvent: com.destroystokyo.paper.event.inventory.PrepareResultEvent
----@overload fun(inventory: InventoryView, result: ItemStack): PrepareSmithingEvent
+---@overload fun(inventory: InventoryView, result: ItemStack): org.bukkit.event.inventory.PrepareSmithingEvent
 local PrepareSmithingEvent = {}
 
 ---@public

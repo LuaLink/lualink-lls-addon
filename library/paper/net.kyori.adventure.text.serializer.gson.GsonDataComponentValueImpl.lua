@@ -2,7 +2,7 @@
 -- net.kyori.adventure.text.serializer.gson.GsonDataComponentValueImpl
 ---@class net.kyori.adventure.text.serializer.gson.GsonDataComponentValueImpl: net.kyori.adventure.text.serializer.gson.GsonDataComponentValue
 ---@field private element any
----@overload fun(element: JsonElement): GsonDataComponentValueImpl
+---@overload fun(element: JsonElement): net.kyori.adventure.text.serializer.gson.GsonDataComponentValueImpl
 local GsonDataComponentValueImpl = {}
 
 ---@public

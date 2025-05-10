@@ -7,12 +7,12 @@
 ---@field private amount number
 ---@field private operation org.bukkit.attribute.AttributeModifier.Operation
 ---@field private slot org.bukkit.inventory.EquipmentSlotGroup
----@overload fun(name: string, amount: number, operation: Operation): AttributeModifier
----@overload fun(uuid: UUID, name: string, amount: number, operation: Operation): AttributeModifier
----@overload fun(uuid: UUID, name: string, amount: number, operation: Operation, slot: EquipmentSlot): AttributeModifier
----@overload fun(uuid: UUID, name: string, amount: number, operation: Operation, slot: EquipmentSlotGroup): AttributeModifier
----@overload fun(key: NamespacedKey, amount: number, operation: Operation): AttributeModifier
----@overload fun(key: NamespacedKey, amount: number, operation: Operation, slot: EquipmentSlotGroup): AttributeModifier
+---@overload fun(name: string, amount: number, operation: Operation): org.bukkit.attribute.AttributeModifier
+---@overload fun(uuid: UUID, name: string, amount: number, operation: Operation): org.bukkit.attribute.AttributeModifier
+---@overload fun(uuid: UUID, name: string, amount: number, operation: Operation, slot: EquipmentSlot): org.bukkit.attribute.AttributeModifier
+---@overload fun(uuid: UUID, name: string, amount: number, operation: Operation, slot: EquipmentSlotGroup): org.bukkit.attribute.AttributeModifier
+---@overload fun(key: NamespacedKey, amount: number, operation: Operation): org.bukkit.attribute.AttributeModifier
+---@overload fun(key: NamespacedKey, amount: number, operation: Operation, slot: EquipmentSlotGroup): org.bukkit.attribute.AttributeModifier
 local AttributeModifier = {}
 
 ---@deprecated

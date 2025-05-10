@@ -8,8 +8,8 @@
 ---@field private z number
 ---@field private pitch number
 ---@field private yaw number
----@overload fun(world: World, x: number, y: number, z: number): Location
----@overload fun(world: World, x: number, y: number, z: number, yaw: number, pitch: number): Location
+---@overload fun(world: World, x: number, y: number, z: number): org.bukkit.Location
+---@overload fun(world: World, x: number, y: number, z: number, yaw: number, pitch: number): org.bukkit.Location
 local Location = {}
 
 ---@param world org.bukkit.World New world that this location resides in

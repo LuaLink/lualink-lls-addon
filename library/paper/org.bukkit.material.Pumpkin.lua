@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.material.Pumpkin
 ---@class org.bukkit.material.Pumpkin: org.bukkit.material.MaterialData, org.bukkit.material.Directional
----@overload fun(): Pumpkin
----@overload fun(direction: BlockFace): Pumpkin
----@overload fun(type: Material): Pumpkin
----@overload fun(type: Material, data: number): Pumpkin
+---@overload fun(): org.bukkit.material.Pumpkin
+---@overload fun(direction: BlockFace): org.bukkit.material.Pumpkin
+---@overload fun(type: Material): org.bukkit.material.Pumpkin
+---@overload fun(type: Material, data: number): org.bukkit.material.Pumpkin
 local Pumpkin = {}
 
 ---@public

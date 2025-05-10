@@ -3,9 +3,9 @@
 -- org.bukkit.material.SmoothBrick
 ---@class org.bukkit.material.SmoothBrick: org.bukkit.material.TexturedMaterial
 ---@field private textures java.util.List
----@overload fun(): SmoothBrick
----@overload fun(type: Material): SmoothBrick
----@overload fun(type: Material, data: number): SmoothBrick
+---@overload fun(): org.bukkit.material.SmoothBrick
+---@overload fun(type: Material): org.bukkit.material.SmoothBrick
+---@overload fun(type: Material, data: number): org.bukkit.material.SmoothBrick
 local SmoothBrick = {}
 
 ---@public

@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.material.TexturedMaterial
 ---@class org.bukkit.material.TexturedMaterial: org.bukkit.material.MaterialData
----@overload fun(m: Material): TexturedMaterial
----@overload fun(type: Material, data: number): TexturedMaterial
+---@overload fun(m: Material): org.bukkit.material.TexturedMaterial
+---@overload fun(type: Material, data: number): org.bukkit.material.TexturedMaterial
 local TexturedMaterial = {}
 
 ---@public

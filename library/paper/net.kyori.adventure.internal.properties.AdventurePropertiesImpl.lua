@@ -4,7 +4,7 @@
 ---@field private FILESYSTEM_DIRECTORY_NAME string
 ---@field private FILESYSTEM_FILE_NAME string
 ---@field private PROPERTIES java.util.Properties
----@overload fun(): AdventurePropertiesImpl
+---@overload fun(): net.kyori.adventure.internal.properties.AdventurePropertiesImpl
 local AdventurePropertiesImpl = {}
 
 ---@param ex java.lang.Throwable 

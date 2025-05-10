@@ -7,8 +7,8 @@
 ---@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field private itemsHarvested java.util.List
 ---@field private cancelled boolean
----@overload fun(player: Player, harvestedBlock: Block, hand: EquipmentSlot, itemsHarvested: table<ItemStack>): PlayerHarvestBlockEvent
----@overload fun(player: Player, harvestedBlock: Block, itemsHarvested: table<ItemStack>): PlayerHarvestBlockEvent
+---@overload fun(player: Player, harvestedBlock: Block, hand: EquipmentSlot, itemsHarvested: table<ItemStack>): org.bukkit.event.player.PlayerHarvestBlockEvent
+---@overload fun(player: Player, harvestedBlock: Block, itemsHarvested: table<ItemStack>): org.bukkit.event.player.PlayerHarvestBlockEvent
 local PlayerHarvestBlockEvent = {}
 
 ---@public

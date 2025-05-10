@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.material.Stairs
 ---@class org.bukkit.material.Stairs: org.bukkit.material.MaterialData, org.bukkit.material.Directional
----@overload fun(type: Material): Stairs
----@overload fun(type: Material, data: number): Stairs
+---@overload fun(type: Material): org.bukkit.material.Stairs
+---@overload fun(type: Material, data: number): org.bukkit.material.Stairs
 local Stairs = {}
 
 ---@public

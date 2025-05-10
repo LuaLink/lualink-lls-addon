@@ -4,8 +4,8 @@
 ---@field protected nbtPath string
 ---@field protected interpret boolean
 ---@field protected separator net.kyori.adventure.text.Component
----@overload fun(): AbstractNBTComponentBuilder
----@overload fun(component: C): AbstractNBTComponentBuilder
+---@overload fun(): net.kyori.adventure.text.AbstractNBTComponentBuilder
+---@overload fun(component: C): net.kyori.adventure.text.AbstractNBTComponentBuilder
 local AbstractNBTComponentBuilder = {}
 
 ---@param nbtPath string 

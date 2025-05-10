@@ -3,7 +3,7 @@
 -- org.bukkit.event.player.AsyncPlayerChatPreviewEvent
 ---@class org.bukkit.event.player.AsyncPlayerChatPreviewEvent: org.bukkit.event.player.AsyncPlayerChatEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
----@overload fun(async: boolean, player: Player, message: string, players: table<Player>): AsyncPlayerChatPreviewEvent
+---@overload fun(async: boolean, player: Player, message: string, players: table<Player>): org.bukkit.event.player.AsyncPlayerChatPreviewEvent
 local AsyncPlayerChatPreviewEvent = {}
 
 ---@public

@@ -4,8 +4,8 @@
 ---@class org.bukkit.event.vehicle.VehicleBlockCollisionEvent: org.bukkit.event.vehicle.VehicleCollisionEvent
 ---@field private block org.bukkit.block.Block
 ---@field private velocity org.bukkit.util.Vector
----@overload fun(vehicle: Vehicle, block: Block): VehicleBlockCollisionEvent
----@overload fun(vehicle: Vehicle, block: Block, velocity: Vector): VehicleBlockCollisionEvent
+---@overload fun(vehicle: Vehicle, block: Block): org.bukkit.event.vehicle.VehicleBlockCollisionEvent
+---@overload fun(vehicle: Vehicle, block: Block, velocity: Vector): org.bukkit.event.vehicle.VehicleBlockCollisionEvent
 local VehicleBlockCollisionEvent = {}
 
 ---@public

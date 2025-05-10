@@ -9,7 +9,7 @@
 ---@field private bredWith org.bukkit.inventory.ItemStack
 ---@field private experience number
 ---@field private cancelled boolean
----@overload fun(child: LivingEntity, mother: LivingEntity, father: LivingEntity, breeder: LivingEntity, bredWith: ItemStack, experience: number): EntityBreedEvent
+---@overload fun(child: LivingEntity, mother: LivingEntity, father: LivingEntity, breeder: LivingEntity, bredWith: ItemStack, experience: number): org.bukkit.event.entity.EntityBreedEvent
 local EntityBreedEvent = {}
 
 ---@public

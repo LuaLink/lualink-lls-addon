@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private source org.bukkit.block.Block
 ---@field private drops java.util.List
----@overload fun(block: Block, source: Block, drops: table<ItemStack>): BlockBreakBlockEvent
+---@overload fun(block: Block, source: Block, drops: table<ItemStack>): io.papermc.paper.event.block.BlockBreakBlockEvent
 local BlockBreakBlockEvent = {}
 
 ---@public

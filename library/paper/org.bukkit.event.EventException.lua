@@ -3,10 +3,10 @@
 ---@class org.bukkit.event.EventException: java.lang.Exception
 ---@field private serialVersionUID number
 ---@field private cause java.lang.Throwable
----@overload fun(throwable: Throwable): EventException
----@overload fun(): EventException
----@overload fun(cause: Throwable, message: string): EventException
----@overload fun(message: string): EventException
+---@overload fun(throwable: Throwable): org.bukkit.event.EventException
+---@overload fun(): org.bukkit.event.EventException
+---@overload fun(cause: Throwable, message: string): org.bukkit.event.EventException
+---@overload fun(message: string): org.bukkit.event.EventException
 local EventException = {}
 
 ---@public

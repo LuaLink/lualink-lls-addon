@@ -3,7 +3,7 @@
 -- net.kyori.adventure.audience.Audiences
 ---@class net.kyori.adventure.audience.Audiences
 ---@field public COLLECTOR java.util.stream.Collector
----@overload fun(): Audiences
+---@overload fun(): net.kyori.adventure.audience.Audiences
 local Audiences = {}
 
 ---@param message net.kyori.adventure.text.ComponentLike the message to send

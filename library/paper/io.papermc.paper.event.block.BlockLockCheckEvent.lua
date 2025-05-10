@@ -8,7 +8,7 @@
 ---@field private lockedSound net.kyori.adventure.sound.Sound
 ---@field private itemStack org.bukkit.inventory.ItemStack
 ---@field private result org.bukkit.event.Event.Result
----@overload fun(block: Block, player: Player, lockedMessage: Component, lockedSound: Sound): BlockLockCheckEvent
+---@overload fun(block: Block, player: Player, lockedMessage: Component, lockedSound: Sound): io.papermc.paper.event.block.BlockLockCheckEvent
 local BlockLockCheckEvent = {}
 
 ---@public

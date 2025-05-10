@@ -9,9 +9,9 @@
 ---@field private consumedExperience number
 ---@field private repairAmount number
 ---@field private cancelled boolean
----@overload fun(player: Player, item: ItemStack, slot: EquipmentSlot, experienceOrb: ExperienceOrb, repairAmount: number): PlayerItemMendEvent
----@overload fun(player: Player, item: ItemStack, slot: EquipmentSlot, experienceOrb: ExperienceOrb, repairAmount: number, consumedExperience: number): PlayerItemMendEvent
----@overload fun(player: Player, item: ItemStack, experienceOrb: ExperienceOrb, repairAmount: number): PlayerItemMendEvent
+---@overload fun(player: Player, item: ItemStack, slot: EquipmentSlot, experienceOrb: ExperienceOrb, repairAmount: number): org.bukkit.event.player.PlayerItemMendEvent
+---@overload fun(player: Player, item: ItemStack, slot: EquipmentSlot, experienceOrb: ExperienceOrb, repairAmount: number, consumedExperience: number): org.bukkit.event.player.PlayerItemMendEvent
+---@overload fun(player: Player, item: ItemStack, experienceOrb: ExperienceOrb, repairAmount: number): org.bukkit.event.player.PlayerItemMendEvent
 local PlayerItemMendEvent = {}
 
 ---@public

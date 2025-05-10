@@ -7,7 +7,7 @@
 ---@field private attack boolean
 ---@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field private clickedPosition org.bukkit.util.Vector
----@overload fun(player: Player, entityId: number, attack: boolean, hand: EquipmentSlot, clickedPosition: Vector): PlayerUseUnknownEntityEvent
+---@overload fun(player: Player, entityId: number, attack: boolean, hand: EquipmentSlot, clickedPosition: Vector): com.destroystokyo.paper.event.player.PlayerUseUnknownEntityEvent
 local PlayerUseUnknownEntityEvent = {}
 
 ---@public

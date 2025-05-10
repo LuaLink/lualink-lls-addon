@@ -4,8 +4,8 @@
 ---@class org.bukkit.event.player.PlayerJoinEvent: org.bukkit.event.player.PlayerEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private joinMessage net.kyori.adventure.text.Component
----@overload fun(playerJoined: Player, joinMessage: Component): PlayerJoinEvent
----@overload fun(playerJoined: Player, joinMessage: string): PlayerJoinEvent
+---@overload fun(playerJoined: Player, joinMessage: Component): org.bukkit.event.player.PlayerJoinEvent
+---@overload fun(playerJoined: Player, joinMessage: string): org.bukkit.event.player.PlayerJoinEvent
 local PlayerJoinEvent = {}
 
 ---@public

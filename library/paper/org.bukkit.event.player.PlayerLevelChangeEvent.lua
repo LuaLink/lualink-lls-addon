@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private oldLevel number
 ---@field private newLevel number
----@overload fun(player: Player, oldLevel: number, newLevel: number): PlayerLevelChangeEvent
+---@overload fun(player: Player, oldLevel: number, newLevel: number): org.bukkit.event.player.PlayerLevelChangeEvent
 local PlayerLevelChangeEvent = {}
 
 ---@public

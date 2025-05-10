@@ -11,7 +11,7 @@
 ---@field protected playerOnlyMessage string
 ---@field protected cancellers java.util.List
 ---@field protected abandonedListeners java.util.List
----@overload fun(plugin: Plugin): ConversationFactory
+---@overload fun(plugin: Plugin): org.bukkit.conversations.ConversationFactory
 local ConversationFactory = {}
 
 ---@param modal boolean The modality of all conversations to be created.

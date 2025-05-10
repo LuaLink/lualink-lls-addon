@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.material.Rails
 ---@class org.bukkit.material.Rails: org.bukkit.material.MaterialData
----@overload fun(): Rails
----@overload fun(type: Material): Rails
----@overload fun(type: Material, data: number): Rails
+---@overload fun(): org.bukkit.material.Rails
+---@overload fun(type: Material): org.bukkit.material.Rails
+---@overload fun(type: Material, data: number): org.bukkit.material.Rails
 local Rails = {}
 
 ---@public

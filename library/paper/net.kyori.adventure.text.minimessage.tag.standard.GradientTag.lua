@@ -10,7 +10,7 @@
 ---@field private colors net.kyori.adventure.text.format.TextColor
 ---@field private phase number
 ---@field private negativePhase boolean
----@overload fun(phase: number, colors: table<TextColor>): GradientTag
+---@overload fun(phase: number, colors: table<TextColor>): net.kyori.adventure.text.minimessage.tag.standard.GradientTag
 local GradientTag = {}
 
 ---@param args net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue 

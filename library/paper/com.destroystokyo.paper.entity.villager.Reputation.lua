@@ -3,8 +3,8 @@
 -- com.destroystokyo.paper.entity.villager.Reputation
 ---@class com.destroystokyo.paper.entity.villager.Reputation
 ---@field private reputation java.util.Map
----@overload fun(): Reputation
----@overload fun(reputation: table<ReputationType, Integer>): Reputation
+---@overload fun(): com.destroystokyo.paper.entity.villager.Reputation
+---@overload fun(reputation: table<ReputationType, Integer>): com.destroystokyo.paper.entity.villager.Reputation
 local Reputation = {}
 
 ---@param type com.destroystokyo.paper.entity.villager.ReputationType The {@link ReputationType type} of reputation to get.

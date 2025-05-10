@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.material.SimpleAttachableMaterialData
 ---@class org.bukkit.material.SimpleAttachableMaterialData: org.bukkit.material.MaterialData, org.bukkit.material.Attachable
----@overload fun(type: Material, direction: BlockFace): SimpleAttachableMaterialData
----@overload fun(type: Material): SimpleAttachableMaterialData
----@overload fun(type: Material, data: number): SimpleAttachableMaterialData
+---@overload fun(type: Material, direction: BlockFace): org.bukkit.material.SimpleAttachableMaterialData
+---@overload fun(type: Material): org.bukkit.material.SimpleAttachableMaterialData
+---@overload fun(type: Material, data: number): org.bukkit.material.SimpleAttachableMaterialData
 local SimpleAttachableMaterialData = {}
 
 ---@public

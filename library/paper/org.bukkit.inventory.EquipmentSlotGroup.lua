@@ -17,7 +17,7 @@
 ---@field private key string
 ---@field private predicate java.util.function.Predicate
 ---@field private example org.bukkit.inventory.EquipmentSlot
----@overload fun(key: string, predicate: Predicate<EquipmentSlot>, example: EquipmentSlot): EquipmentSlotGroup
+---@overload fun(key: string, predicate: Predicate<EquipmentSlot>, example: EquipmentSlot): org.bukkit.inventory.EquipmentSlotGroup
 local EquipmentSlotGroup = {}
 
 ---@param test org.bukkit.inventory.EquipmentSlot 

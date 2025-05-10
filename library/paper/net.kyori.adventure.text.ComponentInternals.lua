@@ -2,6 +2,6 @@
 -- net.kyori.adventure.text.ComponentInternals
 ---@class net.kyori.adventure.text.ComponentInternals
 ---@field public CHILDREN_PROPERTY string
----@overload fun(): ComponentInternals
+---@overload fun(): net.kyori.adventure.text.ComponentInternals
 local ComponentInternals = {}
 

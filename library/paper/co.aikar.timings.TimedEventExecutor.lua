@@ -4,7 +4,7 @@
 ---@class co.aikar.timings.TimedEventExecutor: org.bukkit.plugin.EventExecutor
 ---@field private executor org.bukkit.plugin.EventExecutor
 ---@field private timings co.aikar.timings.Timing
----@overload fun(executor: EventExecutor, plugin: Plugin, method: Method, eventClass: Event?): TimedEventExecutor
+---@overload fun(executor: EventExecutor, plugin: Plugin, method: Method, eventClass: Event?): co.aikar.timings.TimedEventExecutor
 local TimedEventExecutor = {}
 
 ---@param listener org.bukkit.event.Listener 

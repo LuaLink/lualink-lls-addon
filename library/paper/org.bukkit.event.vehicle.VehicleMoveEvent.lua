@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private from org.bukkit.Location
 ---@field private to org.bukkit.Location
----@overload fun(vehicle: Vehicle, from: Location, to: Location): VehicleMoveEvent
+---@overload fun(vehicle: Vehicle, from: Location, to: Location): org.bukkit.event.vehicle.VehicleMoveEvent
 local VehicleMoveEvent = {}
 
 ---@public

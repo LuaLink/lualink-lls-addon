@@ -4,8 +4,8 @@
 ---@class org.bukkit.configuration.MemoryConfiguration: org.bukkit.configuration.MemorySection, org.bukkit.configuration.Configuration
 ---@field protected defaults org.bukkit.configuration.Configuration
 ---@field protected options org.bukkit.configuration.MemoryConfigurationOptions
----@overload fun(): MemoryConfiguration
----@overload fun(defaults: Configuration): MemoryConfiguration
+---@overload fun(): org.bukkit.configuration.MemoryConfiguration
+---@overload fun(defaults: Configuration): org.bukkit.configuration.MemoryConfiguration
 local MemoryConfiguration = {}
 
 ---@param path string 

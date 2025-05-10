@@ -6,7 +6,7 @@
 ---@field private originalRecipe org.bukkit.inventory.Recipe
 ---@field private recipe org.bukkit.inventory.Recipe
 ---@field private shiftClick boolean
----@overload fun(player: Player, recipe: Recipe, shiftClick: boolean): PlayerRecipeBookClickEvent
+---@overload fun(player: Player, recipe: Recipe, shiftClick: boolean): org.bukkit.event.player.PlayerRecipeBookClickEvent
 local PlayerRecipeBookClickEvent = {}
 
 ---@public

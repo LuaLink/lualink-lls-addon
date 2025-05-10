@@ -7,8 +7,8 @@
 ---@field private regainReason org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason
 ---@field private isFastRegen boolean
 ---@field private cancelled boolean
----@overload fun(entity: Entity, amount: number, regainReason: RegainReason): EntityRegainHealthEvent
----@overload fun(entity: Entity, amount: number, regainReason: RegainReason, isFastRegen: boolean): EntityRegainHealthEvent
+---@overload fun(entity: Entity, amount: number, regainReason: RegainReason): org.bukkit.event.entity.EntityRegainHealthEvent
+---@overload fun(entity: Entity, amount: number, regainReason: RegainReason, isFastRegen: boolean): org.bukkit.event.entity.EntityRegainHealthEvent
 local EntityRegainHealthEvent = {}
 
 ---@public

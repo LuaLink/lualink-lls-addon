@@ -7,7 +7,7 @@
 ---@field private converted org.bukkit.entity.Entity
 ---@field private transformReason org.bukkit.event.entity.EntityTransformEvent.TransformReason
 ---@field private cancelled boolean
----@overload fun(original: Entity, convertedList: table<Entity>, transformReason: TransformReason): EntityTransformEvent
+---@overload fun(original: Entity, convertedList: table<Entity>, transformReason: TransformReason): org.bukkit.event.entity.EntityTransformEvent
 local EntityTransformEvent = {}
 
 ---@public

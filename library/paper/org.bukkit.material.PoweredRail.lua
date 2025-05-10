@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.material.PoweredRail
 ---@class org.bukkit.material.PoweredRail: org.bukkit.material.ExtendedRails, org.bukkit.material.Redstone
----@overload fun(): PoweredRail
----@overload fun(type: Material): PoweredRail
----@overload fun(type: Material, data: number): PoweredRail
+---@overload fun(): org.bukkit.material.PoweredRail
+---@overload fun(type: Material): org.bukkit.material.PoweredRail
+---@overload fun(type: Material, data: number): org.bukkit.material.PoweredRail
 local PoweredRail = {}
 
 ---@public

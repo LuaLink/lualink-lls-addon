@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private collidedWith org.bukkit.entity.Entity
 ---@field private cancelled boolean
----@overload fun(projectile: Projectile, collidedWith: Entity): ProjectileCollideEvent
+---@overload fun(projectile: Projectile, collidedWith: Entity): com.destroystokyo.paper.event.entity.ProjectileCollideEvent
 local ProjectileCollideEvent = {}
 
 ---@public

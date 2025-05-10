@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private isGliding boolean
 ---@field private cancelled boolean
----@overload fun(livingEntity: LivingEntity, isGliding: boolean): EntityToggleGlideEvent
+---@overload fun(livingEntity: LivingEntity, isGliding: boolean): org.bukkit.event.entity.EntityToggleGlideEvent
 local EntityToggleGlideEvent = {}
 
 ---@public

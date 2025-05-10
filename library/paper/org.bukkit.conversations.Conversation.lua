@@ -11,8 +11,8 @@
 ---@field protected prefix org.bukkit.conversations.ConversationPrefix
 ---@field protected cancellers java.util.List
 ---@field protected abandonedListeners java.util.List
----@overload fun(plugin: Plugin, forWhom: Conversable, firstPrompt: Prompt): Conversation
----@overload fun(plugin: Plugin, forWhom: Conversable, firstPrompt: Prompt, initialSessionData: table<Object, Object>): Conversation
+---@overload fun(plugin: Plugin, forWhom: Conversable, firstPrompt: Prompt): org.bukkit.conversations.Conversation
+---@overload fun(plugin: Plugin, forWhom: Conversable, firstPrompt: Prompt, initialSessionData: table<Object, Object>): org.bukkit.conversations.Conversation
 local Conversation = {}
 
 ---@public

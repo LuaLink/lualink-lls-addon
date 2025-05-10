@@ -1704,7 +1704,7 @@
 ---@field public UI_TOAST_OUT io.papermc.paper.registry.TypedKey
 ---@field public WEATHER_RAIN io.papermc.paper.registry.TypedKey
 ---@field public WEATHER_RAIN_ABOVE io.papermc.paper.registry.TypedKey
----@overload fun(): SoundEventKeys
+---@overload fun(): io.papermc.paper.registry.keys.SoundEventKeys
 local SoundEventKeys = {}
 
 ---@param key any 

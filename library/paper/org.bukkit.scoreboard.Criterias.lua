@@ -6,6 +6,6 @@
 ---@field public PLAYER_KILLS string
 ---@field public TOTAL_KILLS string
 ---@field public DEATHS string
----@overload fun(): Criterias
+---@overload fun(): org.bukkit.scoreboard.Criterias
 local Criterias = {}
 

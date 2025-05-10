@@ -6,7 +6,7 @@
 ---@field protected xScale number
 ---@field protected yScale number
 ---@field protected zScale number
----@overload fun(octaves: table<NoiseGenerator @NotNull >): OctaveGenerator
+---@overload fun(octaves: table<NoiseGenerator @NotNull >): org.bukkit.util.noise.OctaveGenerator
 local OctaveGenerator = {}
 
 ---@param scale number New value to scale each coordinate by

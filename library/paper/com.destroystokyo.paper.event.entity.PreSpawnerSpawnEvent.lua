@@ -3,7 +3,7 @@
 -- com.destroystokyo.paper.event.entity.PreSpawnerSpawnEvent
 ---@class com.destroystokyo.paper.event.entity.PreSpawnerSpawnEvent: com.destroystokyo.paper.event.entity.PreCreatureSpawnEvent
 ---@field private spawnerLocation org.bukkit.Location
----@overload fun(location: Location, type: EntityType, spawnerLocation: Location): PreSpawnerSpawnEvent
+---@overload fun(location: Location, type: EntityType, spawnerLocation: Location): com.destroystokyo.paper.event.entity.PreSpawnerSpawnEvent
 local PreSpawnerSpawnEvent = {}
 
 ---@public

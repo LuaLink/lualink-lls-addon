@@ -7,8 +7,8 @@
 ---@field private remaining number
 ---@field private flyAtPlayer boolean
 ---@field private cancelled boolean
----@overload fun(player: Player, item: Item): PlayerAttemptPickupItemEvent
----@overload fun(player: Player, item: Item, remaining: number): PlayerAttemptPickupItemEvent
+---@overload fun(player: Player, item: Item): org.bukkit.event.player.PlayerAttemptPickupItemEvent
+---@overload fun(player: Player, item: Item, remaining: number): org.bukkit.event.player.PlayerAttemptPickupItemEvent
 local PlayerAttemptPickupItemEvent = {}
 
 ---@public

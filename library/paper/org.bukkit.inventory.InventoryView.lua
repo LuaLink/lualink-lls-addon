@@ -113,3 +113,8 @@ function InventoryView:getOriginalTitle() end
 --- Sets the title of this inventory window to the specified title if the inventory window supports it. <p> Note if the inventory does not support titles that can be changed (ie, it is not creatable or viewed by a player), then this method will throw an exception.
 function InventoryView:setTitle(title) end
 
+---@public
+---@return org.bukkit.inventory.MenuType the menu type of the inventory view or null if not applicable
+--- Gets the menu type of the inventory view if applicable. <p> Some inventory types do not support a menu type. In such cases, this method returns null. This typically applies to inventories belonging to entities like players or animals (e.g., a horse).
+function InventoryView:getMenuType() end
+

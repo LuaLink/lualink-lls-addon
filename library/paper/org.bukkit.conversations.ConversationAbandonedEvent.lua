@@ -4,8 +4,8 @@
 ---@class org.bukkit.conversations.ConversationAbandonedEvent: java.util.EventObject
 ---@field private context org.bukkit.conversations.ConversationContext
 ---@field private canceller org.bukkit.conversations.ConversationCanceller
----@overload fun(conversation: Conversation): ConversationAbandonedEvent
----@overload fun(conversation: Conversation, canceller: ConversationCanceller): ConversationAbandonedEvent
+---@overload fun(conversation: Conversation): org.bukkit.conversations.ConversationAbandonedEvent
+---@overload fun(conversation: Conversation, canceller: ConversationCanceller): org.bukkit.conversations.ConversationAbandonedEvent
 local ConversationAbandonedEvent = {}
 
 ---@public

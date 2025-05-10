@@ -7,8 +7,8 @@
 ---@field private cause org.bukkit.event.player.PlayerGameModeChangeEvent.Cause
 ---@field private cancelMessage net.kyori.adventure.text.Component
 ---@field private cancelled boolean
----@overload fun(player: Player, newGameMode: GameMode): PlayerGameModeChangeEvent
----@overload fun(player: Player, newGameMode: GameMode, cause: Cause, cancelMessage: net.kyori.adventure.text.Component): PlayerGameModeChangeEvent
+---@overload fun(player: Player, newGameMode: GameMode): org.bukkit.event.player.PlayerGameModeChangeEvent
+---@overload fun(player: Player, newGameMode: GameMode, cause: Cause, cancelMessage: net.kyori.adventure.text.Component): org.bukkit.event.player.PlayerGameModeChangeEvent
 local PlayerGameModeChangeEvent = {}
 
 ---@public

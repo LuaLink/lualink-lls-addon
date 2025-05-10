@@ -3,9 +3,9 @@
 -- org.bukkit.event.player.PlayerBucketFillEvent
 ---@class org.bukkit.event.player.PlayerBucketFillEvent: org.bukkit.event.player.PlayerBucketEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
----@overload fun(player: Player, blockClicked: Block, blockFace: BlockFace, bucket: Material, itemInHand: ItemStack): PlayerBucketFillEvent
----@overload fun(player: Player, block: Block, blockClicked: Block, blockFace: BlockFace, bucket: Material, itemInHand: ItemStack): PlayerBucketFillEvent
----@overload fun(player: Player, block: Block, blockClicked: Block, blockFace: BlockFace, bucket: Material, itemInHand: ItemStack, hand: EquipmentSlot): PlayerBucketFillEvent
+---@overload fun(player: Player, blockClicked: Block, blockFace: BlockFace, bucket: Material, itemInHand: ItemStack): org.bukkit.event.player.PlayerBucketFillEvent
+---@overload fun(player: Player, block: Block, blockClicked: Block, blockFace: BlockFace, bucket: Material, itemInHand: ItemStack): org.bukkit.event.player.PlayerBucketFillEvent
+---@overload fun(player: Player, block: Block, blockClicked: Block, blockFace: BlockFace, bucket: Material, itemInHand: ItemStack, hand: EquipmentSlot): org.bukkit.event.player.PlayerBucketFillEvent
 local PlayerBucketFillEvent = {}
 
 ---@public

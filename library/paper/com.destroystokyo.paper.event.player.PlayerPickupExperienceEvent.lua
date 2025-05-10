@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private experienceOrb org.bukkit.entity.ExperienceOrb
 ---@field private cancelled boolean
----@overload fun(player: Player, experienceOrb: ExperienceOrb): PlayerPickupExperienceEvent
+---@overload fun(player: Player, experienceOrb: ExperienceOrb): com.destroystokyo.paper.event.player.PlayerPickupExperienceEvent
 local PlayerPickupExperienceEvent = {}
 
 ---@public

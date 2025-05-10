@@ -10,7 +10,7 @@
 ---@field private historyInterval number
 ---@field private historyLength number
 ---@field private warnedAboutDeprecationOnEnable boolean
----@overload fun(): Timings
+---@overload fun(): co.aikar.timings.Timings
 local Timings = {}
 
 ---@param plugin org.bukkit.plugin.Plugin Plugin to own the Timing

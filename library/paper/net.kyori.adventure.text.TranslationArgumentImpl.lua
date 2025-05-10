@@ -4,7 +4,7 @@
 ---@field private TRUE net.kyori.adventure.text.Component
 ---@field private FALSE net.kyori.adventure.text.Component
 ---@field private value java.lang.Object
----@overload fun(value: Object): TranslationArgumentImpl
+---@overload fun(value: Object): net.kyori.adventure.text.TranslationArgumentImpl
 local TranslationArgumentImpl = {}
 
 ---@public

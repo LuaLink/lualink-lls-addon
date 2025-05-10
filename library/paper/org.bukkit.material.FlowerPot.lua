@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.material.FlowerPot
 ---@class org.bukkit.material.FlowerPot: org.bukkit.material.MaterialData
----@overload fun(): FlowerPot
----@overload fun(type: Material): FlowerPot
----@overload fun(type: Material, data: number): FlowerPot
+---@overload fun(): org.bukkit.material.FlowerPot
+---@overload fun(type: Material): org.bukkit.material.FlowerPot
+---@overload fun(type: Material, data: number): org.bukkit.material.FlowerPot
 local FlowerPot = {}
 
 ---@public

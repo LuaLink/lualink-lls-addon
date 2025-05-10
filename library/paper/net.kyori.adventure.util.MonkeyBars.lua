@@ -2,7 +2,7 @@
 ---@meta
 -- net.kyori.adventure.util.MonkeyBars
 ---@class net.kyori.adventure.util.MonkeyBars
----@overload fun(): MonkeyBars
+---@overload fun(): net.kyori.adventure.util.MonkeyBars
 local MonkeyBars = {}
 
 ---@param type java.lang.Class the enum type

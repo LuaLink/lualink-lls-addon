@@ -6,7 +6,7 @@
 ---@field private permission string
 ---@field private attachment org.bukkit.permissions.PermissionAttachment
 ---@field private value boolean
----@overload fun(permissible: Permissible, permission: string, attachment: PermissionAttachment, value: boolean): PermissionAttachmentInfo
+---@overload fun(permissible: Permissible, permission: string, attachment: PermissionAttachment, value: boolean): org.bukkit.permissions.PermissionAttachmentInfo
 local PermissionAttachmentInfo = {}
 
 ---@public

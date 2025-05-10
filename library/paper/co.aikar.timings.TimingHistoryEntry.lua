@@ -3,7 +3,7 @@
 ---@class co.aikar.timings.TimingHistoryEntry
 ---@field public data co.aikar.timings.TimingData
 ---@field private children co.aikar.timings.TimingData
----@overload fun(handler: TimingHandler): TimingHistoryEntry
+---@overload fun(handler: TimingHandler): co.aikar.timings.TimingHistoryEntry
 local TimingHistoryEntry = {}
 
 ---@public

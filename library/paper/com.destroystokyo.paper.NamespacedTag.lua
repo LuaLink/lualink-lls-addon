@@ -7,8 +7,8 @@
 ---@field private VALID_KEY java.util.regex.Pattern
 ---@field private namespace string
 ---@field private key string
----@overload fun(namespace: string, key: string): NamespacedTag
----@overload fun(plugin: Plugin, key: string): NamespacedTag
+---@overload fun(namespace: string, key: string): com.destroystokyo.paper.NamespacedTag
+---@overload fun(plugin: Plugin, key: string): com.destroystokyo.paper.NamespacedTag
 local NamespacedTag = {}
 
 ---@public

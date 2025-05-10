@@ -313,6 +313,11 @@ function Player:setSleepingIgnored(isSleeping) end
 --- Returns whether the player is sleeping ignored.
 function Player:isSleepingIgnored() end
 
+---@public
+---@return org.bukkit.Location respawn location if exists, otherwise {@code null}.
+--- Gets the Location where the player will spawn at, {@code null} if they don't have a valid respawn point. <br> Unlike offline players, the location if found will be loaded to validate by default.
+function Player:getRespawnLocation() end
+
 ---@deprecated
 ---@param location org.bukkit.Location where to set the respawn location
 ---@public

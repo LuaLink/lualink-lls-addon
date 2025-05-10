@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private player org.bukkit.entity.Player
 ---@field private cancelled boolean
----@overload fun(raid: Raid, world: World, player: Player): RaidTriggerEvent
+---@overload fun(raid: Raid, world: World, player: Player): org.bukkit.event.raid.RaidTriggerEvent
 local RaidTriggerEvent = {}
 
 ---@public

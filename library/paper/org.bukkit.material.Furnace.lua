@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.material.Furnace
 ---@class org.bukkit.material.Furnace: org.bukkit.material.FurnaceAndDispenser
----@overload fun(): Furnace
----@overload fun(direction: BlockFace): Furnace
----@overload fun(type: Material): Furnace
----@overload fun(type: Material, data: number): Furnace
+---@overload fun(): org.bukkit.material.Furnace
+---@overload fun(direction: BlockFace): org.bukkit.material.Furnace
+---@overload fun(type: Material): org.bukkit.material.Furnace
+---@overload fun(type: Material, data: number): org.bukkit.material.Furnace
 local Furnace = {}
 
 ---@public

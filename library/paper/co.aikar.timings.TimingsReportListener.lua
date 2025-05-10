@@ -5,10 +5,10 @@
 ---@field private senders java.util.List
 ---@field private onDone java.lang.Runnable
 ---@field private timingsURL string
----@overload fun(senders: CommandSender): TimingsReportListener
----@overload fun(sender: CommandSender, onDone: Runnable): TimingsReportListener
----@overload fun(senders: table<CommandSender>): TimingsReportListener
----@overload fun(senders: table<CommandSender>, onDone: Runnable): TimingsReportListener
+---@overload fun(senders: CommandSender): co.aikar.timings.TimingsReportListener
+---@overload fun(sender: CommandSender, onDone: Runnable): co.aikar.timings.TimingsReportListener
+---@overload fun(senders: table<CommandSender>): co.aikar.timings.TimingsReportListener
+---@overload fun(senders: table<CommandSender>, onDone: Runnable): co.aikar.timings.TimingsReportListener
 local TimingsReportListener = {}
 
 ---@public

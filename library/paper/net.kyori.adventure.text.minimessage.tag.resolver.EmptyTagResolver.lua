@@ -2,7 +2,7 @@
 -- net.kyori.adventure.text.minimessage.tag.resolver.EmptyTagResolver
 ---@class net.kyori.adventure.text.minimessage.tag.resolver.EmptyTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver
 ---@field public INSTANCE net.kyori.adventure.text.minimessage.tag.resolver.EmptyTagResolver
----@overload fun(): EmptyTagResolver
+---@overload fun(): net.kyori.adventure.text.minimessage.tag.resolver.EmptyTagResolver
 local EmptyTagResolver = {}
 
 ---@param name string 

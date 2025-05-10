@@ -152,11 +152,13 @@ function ItemMeta:setLore(lore) end
 --- Sets the lore for this item. Removes lore when given null.
 function ItemMeta:setLoreComponents(lore) end
 
+---@deprecated
 ---@public
 ---@return boolean true if this has custom model data
 --- Checks for existence of custom model data. <p> CustomModelData is an integer that may be associated client side with a custom item model.
 function ItemMeta:hasCustomModelData() end
 
+---@deprecated
 ---@public
 ---@return number the custom model data that is set
 --- Gets the custom model data that is set. <p> CustomModelData is an integer that may be associated client side with a custom item model. <p> Plugins should check that hasCustomModelData() returns <code>true</code> before calling this method.
@@ -167,11 +169,17 @@ function ItemMeta:getCustomModelData() end
 --- Gets the custom model data set on this item, or creates an empty custom model data instance. <p> The returned component is a snapshot of its current state and does not reflect a live view of what is on an item. After changing any value on this component, it must be set with {@link #setCustomModelDataComponent(CustomModelDataComponent)} to apply the changes.
 function ItemMeta:getCustomModelDataComponent() end
 
+---@deprecated
 ---@param data number the data to set, or null to clear
 ---@public
 ---@return nil 
 --- Sets the custom model data. <p> CustomModelData is an integer that may be associated client side with a custom item model.
 function ItemMeta:setCustomModelData(data) end
+
+---@public
+---@return boolean if a custom model data component is set
+--- Checks if the custom model data component is set.
+function ItemMeta:hasCustomModelDataComponent() end
 
 ---@param customModelData org.bukkit.inventory.meta.components.CustomModelDataComponent new component
 ---@public

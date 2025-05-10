@@ -18,7 +18,7 @@
 ---@field private logger java.util.logging.Logger
 ---@field private classLoaderGroup io.papermc.paper.plugin.provider.classloader.PluginClassLoaderGroup
 ---@field public dependencyContext io.papermc.paper.plugin.provider.entrypoint.DependencyContext
----@overload fun(parent: ClassLoader, description: PluginDescriptionFile, dataFolder: File, file: File, libraryLoader: ClassLoader, jarFile: JarFile, dependencyContext: io.papermc.paper.plugin.provider.entrypoint.DependencyContext): PluginClassLoader
+---@overload fun(parent: ClassLoader, description: PluginDescriptionFile, dataFolder: File, file: File, libraryLoader: ClassLoader, jarFile: JarFile, dependencyContext: io.papermc.paper.plugin.provider.entrypoint.DependencyContext): org.bukkit.plugin.java.PluginClassLoader
 local PluginClassLoader = {}
 
 ---@param name string 

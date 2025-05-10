@@ -2,7 +2,7 @@
 ---@meta
 -- io.papermc.paper.text.PaperComponents
 ---@class io.papermc.paper.text.PaperComponents
----@overload fun(): PaperComponents
+---@overload fun(): io.papermc.paper.text.PaperComponents
 local PaperComponents = {}
 
 ---@param input net.kyori.adventure.text.Component the component to resolve

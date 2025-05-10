@@ -8,7 +8,7 @@
 ---@field private itemStack org.bukkit.inventory.ItemStack
 ---@field private didSourceInitiate boolean
 ---@field private cancelled boolean
----@overload fun(sourceInventory: Inventory, itemStack: ItemStack, destinationInventory: Inventory, didSourceInitiate: boolean): InventoryMoveItemEvent
+---@overload fun(sourceInventory: Inventory, itemStack: ItemStack, destinationInventory: Inventory, didSourceInitiate: boolean): org.bukkit.event.inventory.InventoryMoveItemEvent
 local InventoryMoveItemEvent = {}
 
 ---@public

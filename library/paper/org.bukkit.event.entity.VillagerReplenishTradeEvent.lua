@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private recipe org.bukkit.inventory.MerchantRecipe
 ---@field private cancelled boolean
----@overload fun(villager: AbstractVillager, recipe: MerchantRecipe): VillagerReplenishTradeEvent
+---@overload fun(villager: AbstractVillager, recipe: MerchantRecipe): org.bukkit.event.entity.VillagerReplenishTradeEvent
 local VillagerReplenishTradeEvent = {}
 
 ---@public

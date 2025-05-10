@@ -5,7 +5,7 @@
 ---@field private stonecutterInventory org.bukkit.inventory.StonecutterInventory
 ---@field private stonecuttingRecipe org.bukkit.inventory.StonecuttingRecipe
 ---@field private cancelled boolean
----@overload fun(player: Player, stonecutterInventory: StonecutterInventory, stonecuttingRecipe: StonecuttingRecipe): PlayerStonecutterRecipeSelectEvent
+---@overload fun(player: Player, stonecutterInventory: StonecutterInventory, stonecuttingRecipe: StonecuttingRecipe): io.papermc.paper.event.player.PlayerStonecutterRecipeSelectEvent
 local PlayerStonecutterRecipeSelectEvent = {}
 
 ---@public

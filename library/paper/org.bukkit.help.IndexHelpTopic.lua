@@ -5,8 +5,8 @@
 ---@field protected permission string
 ---@field protected preamble string
 ---@field protected allTopics java.util.Collection
----@overload fun(name: string, shortText: string, permission: string, topics: Collection<HelpTopic>): IndexHelpTopic
----@overload fun(name: string, shortText: string, permission: string, topics: Collection<HelpTopic>, preamble: string): IndexHelpTopic
+---@overload fun(name: string, shortText: string, permission: string, topics: Collection<HelpTopic>): org.bukkit.help.IndexHelpTopic
+---@overload fun(name: string, shortText: string, permission: string, topics: Collection<HelpTopic>, preamble: string): org.bukkit.help.IndexHelpTopic
 local IndexHelpTopic = {}
 
 ---@param topics java.util.Collection The topics to set.

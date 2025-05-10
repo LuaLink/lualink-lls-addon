@@ -178,7 +178,7 @@
 ---@field public WOODEN_TRAPDOORS io.papermc.paper.registry.tag.TagKey
 ---@field public WOOL io.papermc.paper.registry.tag.TagKey
 ---@field public WOOL_CARPETS io.papermc.paper.registry.tag.TagKey
----@overload fun(): ItemTypeTagKeys
+---@overload fun(): io.papermc.paper.registry.keys.tags.ItemTypeTagKeys
 local ItemTypeTagKeys = {}
 
 ---@param key any the tag key's key

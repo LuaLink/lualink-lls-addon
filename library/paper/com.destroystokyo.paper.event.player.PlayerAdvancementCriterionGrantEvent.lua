@@ -7,7 +7,7 @@
 ---@field private criterion string
 ---@field private advancementProgress org.bukkit.advancement.AdvancementProgress
 ---@field private cancelled boolean
----@overload fun(player: Player, advancement: Advancement, criterion: string): PlayerAdvancementCriterionGrantEvent
+---@overload fun(player: Player, advancement: Advancement, criterion: string): com.destroystokyo.paper.event.player.PlayerAdvancementCriterionGrantEvent
 local PlayerAdvancementCriterionGrantEvent = {}
 
 ---@public

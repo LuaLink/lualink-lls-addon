@@ -5,7 +5,7 @@
 ---@field private logger any
 ---@field private isLocationAware boolean
 ---@field private serializer java.util.function.Function
----@overload fun(backing: Logger, serializer: Function<Component, String>): WrappingComponentLoggerImpl
+---@overload fun(backing: Logger, serializer: Function<Component, String>): net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl
 local WrappingComponentLoggerImpl = {}
 
 ---@param input net.kyori.adventure.text.Component 

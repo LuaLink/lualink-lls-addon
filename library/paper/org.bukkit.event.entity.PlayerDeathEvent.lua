@@ -5,24 +5,37 @@
 ---@field private newExp number
 ---@field private newLevel number
 ---@field private newTotalExp number
+---@field private showDeathMessages boolean
 ---@field private deathMessage net.kyori.adventure.text.Component
+---@field private deathScreenMessageOverride net.kyori.adventure.text.Component
 ---@field private doExpDrop boolean
 ---@field private keepLevel boolean
 ---@field private keepInventory boolean
 ---@field private itemsToKeep java.util.List
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, deathMessage: Component): PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, deathMessage: Component): PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: Component): PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: Component, doExpDrop: boolean): PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, deathMessage: string): PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, deathMessage: string): PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: string): PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: string, doExpDrop: boolean): PlayerDeathEvent
+---@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, deathMessage: Component, showDeathMessages: boolean): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, deathMessage: Component, showDeathMessages: boolean): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: Component, showDeathMessages: boolean): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: Component, showDeathMessages: boolean, doExpDrop: boolean): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, deathMessage: string): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, deathMessage: string): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: string): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: string, doExpDrop: boolean): org.bukkit.event.entity.PlayerDeathEvent
 local PlayerDeathEvent = {}
 
 ---@public
 ---@return org.bukkit.entity.Player 
 function PlayerDeathEvent:getEntity() end
+
+---@public
+---@return boolean whether the death message should be shown
+--- Get whether the death message should be shown. By default, this is determined by {@link org.bukkit.GameRule#SHOW_DEATH_MESSAGES}.
+function PlayerDeathEvent:getShowDeathMessages() end
+
+---@param displayDeathMessage boolean whether the death message should be shown
+---@public
+---@return nil 
+--- Set whether the death message should be shown. By default, this is determined by {@link org.bukkit.GameRule#SHOW_DEATH_MESSAGES}.
+function PlayerDeathEvent:setShowDeathMessages(displayDeathMessage) end
 
 ---@public
 ---@return org.bukkit.entity.Player Player who is involved in this event
@@ -74,7 +87,7 @@ function PlayerDeathEvent:deathMessage(deathMessage) end
 function PlayerDeathEvent:deathMessage() end
 
 ---@deprecated
----@param deathMessage string Message to appear to other players on the server.
+---@param deathMessage string message to appear to other players on the server.
 ---@public
 ---@return nil 
 --- Set the death message that will appear to everyone on the server.
@@ -85,6 +98,17 @@ function PlayerDeathEvent:setDeathMessage(deathMessage) end
 ---@return string Message to appear to other players on the server.
 --- Get the death message that will appear to everyone on the server.
 function PlayerDeathEvent:getDeathMessage() end
+
+---@param deathScreenMessageOverride net.kyori.adventure.text.Component Message to appear on the death screen to the dying player.
+---@public
+---@return nil 
+--- Overrides the death message that will appear on the death screen of the dying player. By default, this is null. <p> If set to null, death screen message will be same as {@code deathMessage()}. <p> If the message exceeds 256 characters it will be truncated.
+function PlayerDeathEvent:deathScreenMessageOverride(deathScreenMessageOverride) end
+
+---@public
+---@return net.kyori.adventure.text.Component Message to appear on the death screen to the dying player.
+--- Get the death message override that will appear on the death screen of the dying player. By default, this is null. <p> If set to null, death screen message will be same as {@code deathMessage()}. <p>
+function PlayerDeathEvent:deathScreenMessageOverride() end
 
 ---@public
 ---@return boolean should experience be dropped from this death
@@ -119,6 +143,6 @@ function PlayerDeathEvent:getKeepInventory() end
 
 ---@public
 ---@return java.util.List The list to hold items to keep
---- A mutable collection to add items that the player should retain in their inventory on death (Similar to KeepInventory game rule) <br> You <b>MUST</b> remove the item from the .getDrops() collection too or it will duplicate! <pre>{@code    {@literal @EventHandler(ignoreCancelled = true)}     public void onPlayerDeath(PlayerDeathEvent event) {         for (Iterator<ItemStack> iterator = event.getDrops().iterator(); iterator.hasNext(); ) {             ItemStack drop = iterator.next();             List<String> lore = drop.getLore();             if (lore != null && !lore.isEmpty()) {                 if (lore.get(0).contains("(SOULBOUND)")) {                     iterator.remove();                     event.getItemsToKeep().add(drop);                 }             }         }     } }</pre> <p> Adding an item to this list that the player did not previously have will give them the item on death. An example case could be a "Note" that "You died at X/Y/Z coordinates"
+--- A mutable collection to add items that the player should retain in their inventory on death (Similar to KeepInventory game rule) <br> You <b>MUST</b> remove the item from the .getDrops() collection too or it will duplicate! <pre>{@code private static final NamespacedKey SOULBOUND_KEY = new NamespacedKey("testplugin", "soulbound");
 function PlayerDeathEvent:getItemsToKeep() end
 

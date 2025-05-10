@@ -3,7 +3,7 @@
 -- net.kyori.adventure.util.Services
 ---@class net.kyori.adventure.util.Services
 ---@field private SERVICE_LOAD_FAILURES_ARE_FATAL boolean
----@overload fun(): Services
+---@overload fun(): net.kyori.adventure.util.Services
 local Services = {}
 
 ---@param type java.lang.Class the service type

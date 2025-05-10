@@ -12,10 +12,11 @@
 ---@field private generateStructures boolean
 ---@field private generatorSettings string
 ---@field private hardcore boolean
+---@field private bonusChest boolean
 ---@field private keepSpawnLoaded net.kyori.adventure.util.TriState
----@overload fun(name: string): WorldCreator
----@overload fun(levelName: string, worldKey: NamespacedKey): WorldCreator
----@overload fun(worldKey: NamespacedKey): WorldCreator
+---@overload fun(name: string): org.bukkit.WorldCreator
+---@overload fun(levelName: string, worldKey: NamespacedKey): org.bukkit.WorldCreator
+---@overload fun(worldKey: NamespacedKey): org.bukkit.WorldCreator
 local WorldCreator = {}
 
 ---@param name string 
@@ -169,8 +170,19 @@ function WorldCreator:hardcore(hardcore) end
 
 ---@public
 ---@return boolean hardcore status
---- Gets whether the world will be hardcore or not.  In a hardcore world the difficulty will be locked to hard.
+--- Gets whether the world will be hardcore or not. <p> In a hardcore world the difficulty will be locked to hard.
 function WorldCreator:hardcore() end
+
+---@param bonusChest boolean indicating whether the bonus chest should be generated
+---@public
+---@return org.bukkit.WorldCreator This object, for chaining
+--- Sets whether a bonus chest should be generated or not.
+function WorldCreator:bonusChest(bonusChest) end
+
+---@public
+---@return boolean true if the bonus chest is enabled, false otherwise.
+--- Gets whether the bonus chest feature is enabled.
+function WorldCreator:bonusChest() end
 
 ---@deprecated
 ---@param keepSpawnInMemory boolean Whether the spawn chunks will be kept loaded

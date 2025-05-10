@@ -7,7 +7,7 @@
 ---@field private plugin org.bukkit.plugin.Plugin
 ---@field private executor org.bukkit.plugin.EventExecutor
 ---@field private ignoreCancelled boolean
----@overload fun(listener: Listener, executor: EventExecutor, priority: EventPriority, plugin: Plugin, ignoreCancelled: boolean): RegisteredListener
+---@overload fun(listener: Listener, executor: EventExecutor, priority: EventPriority, plugin: Plugin, ignoreCancelled: boolean): org.bukkit.plugin.RegisteredListener
 local RegisteredListener = {}
 
 ---@public

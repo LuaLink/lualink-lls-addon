@@ -3,7 +3,7 @@
 ---@class org.bukkit.util.permissions.DefaultPermissions
 ---@field private ROOT string
 ---@field private LEGACY_PREFIX string
----@overload fun(): DefaultPermissions
+---@overload fun(): org.bukkit.util.permissions.DefaultPermissions
 local DefaultPermissions = {}
 
 ---@param perm org.bukkit.permissions.Permission 

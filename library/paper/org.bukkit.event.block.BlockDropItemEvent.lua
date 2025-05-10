@@ -7,7 +7,7 @@
 ---@field private blockState org.bukkit.block.BlockState
 ---@field private items java.util.List
 ---@field private cancelled boolean
----@overload fun(block: Block, blockState: BlockState, player: Player, items: table<Item>): BlockDropItemEvent
+---@overload fun(block: Block, blockState: BlockState, player: Player, items: table<Item>): org.bukkit.event.block.BlockDropItemEvent
 local BlockDropItemEvent = {}
 
 ---@public

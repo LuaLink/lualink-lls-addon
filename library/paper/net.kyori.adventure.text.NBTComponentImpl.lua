@@ -5,7 +5,7 @@
 ---@field public nbtPath string
 ---@field public interpret boolean
 ---@field public separator net.kyori.adventure.text.Component
----@overload fun(children: table<Component>, style: Style, nbtPath: string, interpret: boolean, separator: Component): NBTComponentImpl
+---@overload fun(children: table<Component>, style: Style, nbtPath: string, interpret: boolean, separator: Component): net.kyori.adventure.text.NBTComponentImpl
 local NBTComponentImpl = {}
 
 ---@public

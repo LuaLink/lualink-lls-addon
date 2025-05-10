@@ -98,7 +98,7 @@
 ---@field public WOLF_VARIANT io.papermc.paper.registry.TypedKey
 ---@field public WRITABLE_BOOK_CONTENT io.papermc.paper.registry.TypedKey
 ---@field public WRITTEN_BOOK_CONTENT io.papermc.paper.registry.TypedKey
----@overload fun(): DataComponentTypeKeys
+---@overload fun(): io.papermc.paper.registry.keys.DataComponentTypeKeys
 local DataComponentTypeKeys = {}
 
 ---@param key any 

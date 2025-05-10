@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private bolt org.bukkit.entity.LightningStrike
 ---@field private cancelled boolean
----@overload fun(entity: Entity, bolt: LightningStrike, replacementEntity: Entity): EntityZapEvent
+---@overload fun(entity: Entity, bolt: LightningStrike, replacementEntity: Entity): com.destroystokyo.paper.event.entity.EntityZapEvent
 local EntityZapEvent = {}
 
 ---@public

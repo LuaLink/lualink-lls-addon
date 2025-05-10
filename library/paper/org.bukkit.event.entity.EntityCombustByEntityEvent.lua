@@ -3,8 +3,8 @@
 -- org.bukkit.event.entity.EntityCombustByEntityEvent
 ---@class org.bukkit.event.entity.EntityCombustByEntityEvent: org.bukkit.event.entity.EntityCombustEvent
 ---@field private combuster org.bukkit.entity.Entity
----@overload fun(combuster: Entity, combustee: Entity, duration: number): EntityCombustByEntityEvent
----@overload fun(combuster: Entity, combustee: Entity, duration: number): EntityCombustByEntityEvent
+---@overload fun(combuster: Entity, combustee: Entity, duration: number): org.bukkit.event.entity.EntityCombustByEntityEvent
+---@overload fun(combuster: Entity, combustee: Entity, duration: number): org.bukkit.event.entity.EntityCombustByEntityEvent
 local EntityCombustByEntityEvent = {}
 
 ---@public

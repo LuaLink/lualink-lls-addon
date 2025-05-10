@@ -4,7 +4,7 @@
 ---@class co.aikar.timings.TimingsCommand: org.bukkit.command.defaults.BukkitCommand
 ---@field private TIMINGS_SUBCOMMANDS java.util.List
 ---@field private lastResetAttempt number
----@overload fun(name: string): TimingsCommand
+---@overload fun(name: string): co.aikar.timings.TimingsCommand
 local TimingsCommand = {}
 
 ---@param sender org.bukkit.command.CommandSender 

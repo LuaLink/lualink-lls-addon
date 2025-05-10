@@ -6,7 +6,7 @@
 ---@field private location org.bukkit.Location
 ---@field private eggCount number
 ---@field private cancelled boolean
----@overload fun(turtle: Turtle, location: Location, eggCount: number): TurtleLayEggEvent
+---@overload fun(turtle: Turtle, location: Location, eggCount: number): com.destroystokyo.paper.event.entity.TurtleLayEggEvent
 local TurtleLayEggEvent = {}
 
 ---@public

@@ -3,7 +3,7 @@
 -- net.kyori.adventure.text.minimessage.internal.parser.node.RootNode
 ---@class net.kyori.adventure.text.minimessage.internal.parser.node.RootNode: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode, net.kyori.adventure.text.minimessage.tree.Node.Root
 ---@field private beforePreprocessing string
----@overload fun(sourceMessage: string, beforePreprocessing: string): RootNode
+---@overload fun(sourceMessage: string, beforePreprocessing: string): net.kyori.adventure.text.minimessage.internal.parser.node.RootNode
 local RootNode = {}
 
 ---@public

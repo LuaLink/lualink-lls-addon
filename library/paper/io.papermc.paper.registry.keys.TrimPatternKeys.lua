@@ -20,7 +20,7 @@
 ---@field public WARD io.papermc.paper.registry.TypedKey
 ---@field public WAYFINDER io.papermc.paper.registry.TypedKey
 ---@field public WILD io.papermc.paper.registry.TypedKey
----@overload fun(): TrimPatternKeys
+---@overload fun(): io.papermc.paper.registry.keys.TrimPatternKeys
 local TrimPatternKeys = {}
 
 ---@param key any the value's key in the registry

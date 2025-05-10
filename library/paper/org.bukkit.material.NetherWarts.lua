@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.material.NetherWarts
 ---@class org.bukkit.material.NetherWarts: org.bukkit.material.MaterialData
----@overload fun(): NetherWarts
----@overload fun(state: NetherWartsState): NetherWarts
----@overload fun(type: Material): NetherWarts
----@overload fun(type: Material, data: number): NetherWarts
+---@overload fun(): org.bukkit.material.NetherWarts
+---@overload fun(state: NetherWartsState): org.bukkit.material.NetherWarts
+---@overload fun(type: Material): org.bukkit.material.NetherWarts
+---@overload fun(type: Material, data: number): org.bukkit.material.NetherWarts
 local NetherWarts = {}
 
 ---@public

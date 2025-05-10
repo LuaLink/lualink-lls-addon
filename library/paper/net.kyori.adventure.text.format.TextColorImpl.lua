@@ -2,7 +2,7 @@
 -- net.kyori.adventure.text.format.TextColorImpl
 ---@class net.kyori.adventure.text.format.TextColorImpl: net.kyori.adventure.text.format.TextColor
 ---@field private value number
----@overload fun(value: number): TextColorImpl
+---@overload fun(value: number): net.kyori.adventure.text.format.TextColorImpl
 local TextColorImpl = {}
 
 ---@public

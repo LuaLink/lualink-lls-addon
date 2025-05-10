@@ -3,7 +3,7 @@
 ---@class net.kyori.adventure.text.format.TextDecorationAndStateImpl: net.kyori.adventure.text.format.TextDecorationAndState
 ---@field private decoration net.kyori.adventure.text.format.TextDecoration
 ---@field private state net.kyori.adventure.text.format.TextDecoration.State
----@overload fun(decoration: TextDecoration, state: TextDecoration.State): TextDecorationAndStateImpl
+---@overload fun(decoration: TextDecoration, state: TextDecoration.State): net.kyori.adventure.text.format.TextDecorationAndStateImpl
 local TextDecorationAndStateImpl = {}
 
 ---@public

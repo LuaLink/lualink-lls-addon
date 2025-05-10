@@ -4,7 +4,7 @@
 ---@class co.aikar.util.LoadingMap: java.util.AbstractMap
 ---@field private backingMap java.util.Map
 ---@field private loader java.util.function.Function
----@overload fun(backingMap: table<K, V>, loader: java.util.function.Function<K, V>): LoadingMap
+---@overload fun(backingMap: table<K, V>, loader: java.util.function.Function<K, V>): co.aikar.util.LoadingMap
 local LoadingMap = {}
 
 ---@param backingMap java.util.Map Actual map being used.

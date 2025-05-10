@@ -27,7 +27,7 @@
 ---@field public SMITHING io.papermc.paper.registry.TypedKey
 ---@field public SMOKER io.papermc.paper.registry.TypedKey
 ---@field public STONECUTTER io.papermc.paper.registry.TypedKey
----@overload fun(): MenuTypeKeys
+---@overload fun(): io.papermc.paper.registry.keys.MenuTypeKeys
 local MenuTypeKeys = {}
 
 ---@param key any 

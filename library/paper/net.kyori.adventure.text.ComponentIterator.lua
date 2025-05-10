@@ -5,7 +5,7 @@
 ---@field private type net.kyori.adventure.text.ComponentIteratorType
 ---@field private flags java.util.Set
 ---@field private deque java.util.Deque
----@overload fun(component: Component, type: ComponentIteratorType, flags: table<ComponentIteratorFlag>): ComponentIterator
+---@overload fun(component: Component, type: ComponentIteratorType, flags: table<ComponentIteratorFlag>): net.kyori.adventure.text.ComponentIterator
 local ComponentIterator = {}
 
 ---@public

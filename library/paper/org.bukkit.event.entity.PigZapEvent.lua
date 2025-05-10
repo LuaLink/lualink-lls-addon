@@ -5,7 +5,7 @@
 ---@field private zombifiedPiglin org.bukkit.entity.PigZombie
 ---@field private bolt org.bukkit.entity.LightningStrike
 ---@field private cancelled boolean
----@overload fun(pig: Pig, bolt: LightningStrike, zombifiedPiglin: PigZombie): PigZapEvent
+---@overload fun(pig: Pig, bolt: LightningStrike, zombifiedPiglin: PigZombie): org.bukkit.event.entity.PigZapEvent
 local PigZapEvent = {}
 
 ---@public

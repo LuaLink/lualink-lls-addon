@@ -6,8 +6,8 @@
 ---@field public BUKKIT string
 ---@field private namespace string
 ---@field private key string
----@overload fun(namespace: string, key: string): NamespacedKey
----@overload fun(plugin: Plugin, key: string): NamespacedKey
+---@overload fun(namespace: string, key: string): org.bukkit.NamespacedKey
+---@overload fun(plugin: Plugin, key: string): org.bukkit.NamespacedKey
 local NamespacedKey = {}
 
 ---@param c string 

@@ -5,8 +5,8 @@
 ---@field private type org.bukkit.potion.PotionType
 ---@field private extended boolean
 ---@field private upgraded boolean
----@overload fun(type: PotionType, extended: boolean, upgraded: boolean): PotionData
----@overload fun(type: PotionType): PotionData
+---@overload fun(type: PotionType, extended: boolean, upgraded: boolean): org.bukkit.potion.PotionData
+---@overload fun(type: PotionType): org.bukkit.potion.PotionData
 local PotionData = {}
 
 ---@public

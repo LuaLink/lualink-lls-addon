@@ -5,7 +5,7 @@
 ---@field private owningPlugin org.bukkit.plugin.Plugin
 ---@field private executor org.bukkit.command.CommandExecutor
 ---@field private completer org.bukkit.command.TabCompleter
----@overload fun(name: string, owner: Plugin): PluginCommand
+---@overload fun(name: string, owner: Plugin): org.bukkit.command.PluginCommand
 local PluginCommand = {}
 
 ---@param sender org.bukkit.command.CommandSender Source object which is executing this command

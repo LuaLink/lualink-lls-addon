@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.text.minimessage.tag.standard.ClickTag
 ---@field private CLICK string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(): ClickTag
+---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.ClickTag
 local ClickTag = {}
 
 ---@param args net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue 

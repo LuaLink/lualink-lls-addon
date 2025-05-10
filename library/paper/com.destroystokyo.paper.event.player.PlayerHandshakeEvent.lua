@@ -12,8 +12,8 @@
 ---@field private failed boolean
 ---@field private failMessage net.kyori.adventure.text.Component
 ---@field private cancelled boolean
----@overload fun(originalHandshake: string, cancelled: boolean): PlayerHandshakeEvent
----@overload fun(originalHandshake: string, originalSocketAddressHostname: string, cancelled: boolean): PlayerHandshakeEvent
+---@overload fun(originalHandshake: string, cancelled: boolean): com.destroystokyo.paper.event.player.PlayerHandshakeEvent
+---@overload fun(originalHandshake: string, originalSocketAddressHostname: string, cancelled: boolean): com.destroystokyo.paper.event.player.PlayerHandshakeEvent
 local PlayerHandshakeEvent = {}
 
 ---@public

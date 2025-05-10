@@ -6,8 +6,8 @@
 ---@field private cause org.bukkit.event.entity.CreeperPowerEvent.PowerCause
 ---@field private bolt org.bukkit.entity.LightningStrike
 ---@field private cancelled boolean
----@overload fun(creeper: Creeper, bolt: LightningStrike, cause: PowerCause): CreeperPowerEvent
----@overload fun(creeper: Creeper, cause: PowerCause): CreeperPowerEvent
+---@overload fun(creeper: Creeper, bolt: LightningStrike, cause: PowerCause): org.bukkit.event.entity.CreeperPowerEvent
+---@overload fun(creeper: Creeper, cause: PowerCause): org.bukkit.event.entity.CreeperPowerEvent
 local CreeperPowerEvent = {}
 
 ---@public

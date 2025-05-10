@@ -6,7 +6,7 @@
 ---@field private oldSize number
 ---@field private newSize number
 ---@field private duration number
----@overload fun(world: World, worldBorder: WorldBorder, oldSize: number, newSize: number, duration: number): WorldBorderBoundsChangeFinishEvent
+---@overload fun(world: World, worldBorder: WorldBorder, oldSize: number, newSize: number, duration: number): io.papermc.paper.event.world.border.WorldBorderBoundsChangeFinishEvent
 local WorldBorderBoundsChangeFinishEvent = {}
 
 ---@public

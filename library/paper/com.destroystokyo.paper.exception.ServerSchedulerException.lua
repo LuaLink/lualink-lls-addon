@@ -3,9 +3,9 @@
 -- com.destroystokyo.paper.exception.ServerSchedulerException
 ---@class com.destroystokyo.paper.exception.ServerSchedulerException: com.destroystokyo.paper.exception.ServerPluginException
 ---@field private task org.bukkit.scheduler.BukkitTask
----@overload fun(message: string, cause: Throwable, task: BukkitTask): ServerSchedulerException
----@overload fun(cause: Throwable, task: BukkitTask): ServerSchedulerException
----@overload fun(message: string, cause: Throwable, enableSuppression: boolean, writableStackTrace: boolean, task: BukkitTask): ServerSchedulerException
+---@overload fun(message: string, cause: Throwable, task: BukkitTask): com.destroystokyo.paper.exception.ServerSchedulerException
+---@overload fun(cause: Throwable, task: BukkitTask): com.destroystokyo.paper.exception.ServerSchedulerException
+---@overload fun(message: string, cause: Throwable, enableSuppression: boolean, writableStackTrace: boolean, task: BukkitTask): com.destroystokyo.paper.exception.ServerSchedulerException
 local ServerSchedulerException = {}
 
 ---@public

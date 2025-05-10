@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.event.inventory.PrepareGrindstoneEvent
 ---@class org.bukkit.event.inventory.PrepareGrindstoneEvent: com.destroystokyo.paper.event.inventory.PrepareGrindstoneEvent
----@overload fun(inventory: InventoryView, result: ItemStack): PrepareGrindstoneEvent
+---@overload fun(inventory: InventoryView, result: ItemStack): org.bukkit.event.inventory.PrepareGrindstoneEvent
 local PrepareGrindstoneEvent = {}
 
 ---@public

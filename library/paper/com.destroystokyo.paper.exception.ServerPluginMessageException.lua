@@ -5,9 +5,9 @@
 ---@field private player org.bukkit.entity.Player
 ---@field private channel string
 ---@field private data number
----@overload fun(message: string, cause: Throwable, responsiblePlugin: Plugin, player: Player, channel: string, data: table<number>): ServerPluginMessageException
----@overload fun(cause: Throwable, responsiblePlugin: Plugin, player: Player, channel: string, data: table<number>): ServerPluginMessageException
----@overload fun(message: string, cause: Throwable, enableSuppression: boolean, writableStackTrace: boolean, responsiblePlugin: Plugin, player: Player, channel: string, data: table<number>): ServerPluginMessageException
+---@overload fun(message: string, cause: Throwable, responsiblePlugin: Plugin, player: Player, channel: string, data: table<number>): com.destroystokyo.paper.exception.ServerPluginMessageException
+---@overload fun(cause: Throwable, responsiblePlugin: Plugin, player: Player, channel: string, data: table<number>): com.destroystokyo.paper.exception.ServerPluginMessageException
+---@overload fun(message: string, cause: Throwable, enableSuppression: boolean, writableStackTrace: boolean, responsiblePlugin: Plugin, player: Player, channel: string, data: table<number>): com.destroystokyo.paper.exception.ServerPluginMessageException
 local ServerPluginMessageException = {}
 
 ---@public

@@ -74,7 +74,7 @@
 ---@field public WITHOUT_PATROL_SPAWNS io.papermc.paper.registry.tag.TagKey
 ---@field public WITHOUT_WANDERING_TRADER_SPAWNS io.papermc.paper.registry.tag.TagKey
 ---@field public WITHOUT_ZOMBIE_SIEGES io.papermc.paper.registry.tag.TagKey
----@overload fun(): BiomeTagKeys
+---@overload fun(): io.papermc.paper.registry.keys.tags.BiomeTagKeys
 local BiomeTagKeys = {}
 
 ---@param key any the tag key's key

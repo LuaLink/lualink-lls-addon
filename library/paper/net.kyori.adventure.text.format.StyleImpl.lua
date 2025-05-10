@@ -9,7 +9,7 @@
 ---@field public clickEvent net.kyori.adventure.text.event.ClickEvent
 ---@field public hoverEvent net.kyori.adventure.text.event.HoverEvent
 ---@field public insertion string
----@overload fun(font: Key, color: TextColor, shadowColor: ShadowColor, decorations: table<TextDecoration, TextDecoration.State>, clickEvent: ClickEvent, hoverEvent: HoverEvent<?>, insertion: string): StyleImpl
+---@overload fun(font: Key, color: TextColor, shadowColor: ShadowColor, decorations: table<TextDecoration, TextDecoration.State>, clickEvent: ClickEvent, hoverEvent: HoverEvent<?>, insertion: string): net.kyori.adventure.text.format.StyleImpl
 local StyleImpl = {}
 
 ---@public

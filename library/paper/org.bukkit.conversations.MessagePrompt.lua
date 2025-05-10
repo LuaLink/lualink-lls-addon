@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.conversations.MessagePrompt
 ---@class org.bukkit.conversations.MessagePrompt: org.bukkit.conversations.Prompt
----@overload fun(): MessagePrompt
+---@overload fun(): org.bukkit.conversations.MessagePrompt
 local MessagePrompt = {}
 
 ---@param context org.bukkit.conversations.ConversationContext Context information about the conversation.

@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.material.EnderChest
 ---@class org.bukkit.material.EnderChest: org.bukkit.material.DirectionalContainer
----@overload fun(): EnderChest
----@overload fun(direction: BlockFace): EnderChest
----@overload fun(type: Material): EnderChest
----@overload fun(type: Material, data: number): EnderChest
+---@overload fun(): org.bukkit.material.EnderChest
+---@overload fun(direction: BlockFace): org.bukkit.material.EnderChest
+---@overload fun(type: Material): org.bukkit.material.EnderChest
+---@overload fun(type: Material, data: number): org.bukkit.material.EnderChest
 local EnderChest = {}
 
 ---@public

@@ -37,7 +37,7 @@
 ---@field public WITHER_IMMUNE_TO org.bukkit.Tag
 ---@field public IS_MACE_SMASH org.bukkit.Tag
 ---@field public REGISTRY_DAMAGE_TYPES string
----@overload fun(): DamageTypeTags
+---@overload fun(): org.bukkit.tag.DamageTypeTags
 local DamageTypeTags = {}
 
 ---@param key string 

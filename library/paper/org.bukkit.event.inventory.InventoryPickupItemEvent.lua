@@ -6,7 +6,7 @@
 ---@field private inventory org.bukkit.inventory.Inventory
 ---@field private item org.bukkit.entity.Item
 ---@field private cancelled boolean
----@overload fun(inventory: Inventory, item: Item): InventoryPickupItemEvent
+---@overload fun(inventory: Inventory, item: Item): org.bukkit.event.inventory.InventoryPickupItemEvent
 local InventoryPickupItemEvent = {}
 
 ---@public

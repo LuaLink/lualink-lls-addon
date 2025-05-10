@@ -41,7 +41,7 @@
 ---@field public WEAVING io.papermc.paper.registry.TypedKey
 ---@field public WIND_CHARGED io.papermc.paper.registry.TypedKey
 ---@field public WITHER io.papermc.paper.registry.TypedKey
----@overload fun(): MobEffectKeys
+---@overload fun(): io.papermc.paper.registry.keys.MobEffectKeys
 local MobEffectKeys = {}
 
 ---@param key any 

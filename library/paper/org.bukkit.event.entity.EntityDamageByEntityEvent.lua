@@ -4,11 +4,11 @@
 ---@class org.bukkit.event.entity.EntityDamageByEntityEvent: org.bukkit.event.entity.EntityDamageEvent
 ---@field private damager org.bukkit.entity.Entity
 ---@field private critical boolean
----@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, damage: number): EntityDamageByEntityEvent
----@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, damageSource: DamageSource, damage: number): EntityDamageByEntityEvent
----@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, modifiers: table<DamageModifier, Double>, modifierFunctions: table): EntityDamageByEntityEvent
----@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, damageSource: DamageSource, modifiers: table<DamageModifier, Double>, modifierFunctions: table): EntityDamageByEntityEvent
----@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, damageSource: DamageSource, modifiers: table<DamageModifier, Double>, modifierFunctions: table, critical: boolean): EntityDamageByEntityEvent
+---@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, damage: number): org.bukkit.event.entity.EntityDamageByEntityEvent
+---@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, damageSource: DamageSource, damage: number): org.bukkit.event.entity.EntityDamageByEntityEvent
+---@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, modifiers: table<DamageModifier, Double>, modifierFunctions: table): org.bukkit.event.entity.EntityDamageByEntityEvent
+---@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, damageSource: DamageSource, modifiers: table<DamageModifier, Double>, modifierFunctions: table): org.bukkit.event.entity.EntityDamageByEntityEvent
+---@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, damageSource: DamageSource, modifiers: table<DamageModifier, Double>, modifierFunctions: table, critical: boolean): org.bukkit.event.entity.EntityDamageByEntityEvent
 local EntityDamageByEntityEvent = {}
 
 ---@public

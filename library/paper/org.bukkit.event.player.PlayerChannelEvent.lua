@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.player.PlayerChannelEvent: org.bukkit.event.player.PlayerEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private channel string
----@overload fun(player: Player, channel: string): PlayerChannelEvent
+---@overload fun(player: Player, channel: string): org.bukkit.event.player.PlayerChannelEvent
 local PlayerChannelEvent = {}
 
 ---@public

@@ -3,11 +3,17 @@
 -- io.papermc.paper.event.player.PlayerPickItemEvent
 ---@class io.papermc.paper.event.player.PlayerPickItemEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
+---@field private includeData boolean
 ---@field private targetSlot number
 ---@field private sourceSlot number
 ---@field private cancelled boolean
----@overload fun(player: Player, targetSlot: number, sourceSlot: number): PlayerPickItemEvent
+---@overload fun(player: Player, includeData: boolean, targetSlot: number, sourceSlot: number): io.papermc.paper.event.player.PlayerPickItemEvent
 local PlayerPickItemEvent = {}
+
+---@public
+---@return boolean {@code true} if data is included, otherwise {@code false}.
+--- Checks whether the player wants block/entity data included.
+function PlayerPickItemEvent:isIncludeData() end
 
 ---@public
 ---@return number hotbar slot (0-8 inclusive)

@@ -11,7 +11,7 @@
 ---@field private bitSet number
 ---@field private entrySet net.kyori.adventure.text.format.DecorationMap.EntrySet
 ---@field private values net.kyori.adventure.text.format.DecorationMap.Values
----@overload fun(bitSet: number): DecorationMap
+---@overload fun(bitSet: number): net.kyori.adventure.text.format.DecorationMap
 local DecorationMap = {}
 
 ---@param decorationMap java.util.Map 

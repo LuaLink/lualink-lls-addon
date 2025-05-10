@@ -6,7 +6,7 @@
 ---@field private fontChars string
 ---@field private fontData number
 ---@field public Font org.bukkit.map.MinecraftFont
----@overload fun(): MinecraftFont
----@overload fun(malleable: boolean): MinecraftFont
+---@overload fun(): org.bukkit.map.MinecraftFont
+---@overload fun(malleable: boolean): org.bukkit.map.MinecraftFont
 local MinecraftFont = {}
 

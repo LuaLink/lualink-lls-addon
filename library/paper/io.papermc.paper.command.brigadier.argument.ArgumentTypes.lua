@@ -2,7 +2,7 @@
 ---@meta
 -- io.papermc.paper.command.brigadier.argument.ArgumentTypes
 ---@class io.papermc.paper.command.brigadier.argument.ArgumentTypes
----@overload fun(): ArgumentTypes
+---@overload fun(): io.papermc.paper.command.brigadier.argument.ArgumentTypes
 local ArgumentTypes = {}
 
 ---@public

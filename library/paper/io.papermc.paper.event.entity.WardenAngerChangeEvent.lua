@@ -7,7 +7,7 @@
 ---@field private oldAnger number
 ---@field private newAnger number
 ---@field private cancelled boolean
----@overload fun(warden: Warden, target: Entity, oldAnger: number, newAnger: number): WardenAngerChangeEvent
+---@overload fun(warden: Warden, target: Entity, oldAnger: number, newAnger: number): io.papermc.paper.event.entity.WardenAngerChangeEvent
 local WardenAngerChangeEvent = {}
 
 ---@public

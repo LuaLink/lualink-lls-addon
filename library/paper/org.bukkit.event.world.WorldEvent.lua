@@ -3,8 +3,8 @@
 -- org.bukkit.event.world.WorldEvent
 ---@class org.bukkit.event.world.WorldEvent: org.bukkit.event.Event
 ---@field protected world org.bukkit.World
----@overload fun(world: World): WorldEvent
----@overload fun(world: World, isAsync: boolean): WorldEvent
+---@overload fun(world: World): org.bukkit.event.world.WorldEvent
+---@overload fun(world: World, isAsync: boolean): org.bukkit.event.world.WorldEvent
 local WorldEvent = {}
 
 ---@public

@@ -1,7 +1,7 @@
 ---@meta
 -- net.kyori.adventure.util.Services0
 ---@class net.kyori.adventure.util.Services0
----@overload fun(): Services0
+---@overload fun(): net.kyori.adventure.util.Services0
 local Services0 = {}
 
 ---@param type java.lang.Class 

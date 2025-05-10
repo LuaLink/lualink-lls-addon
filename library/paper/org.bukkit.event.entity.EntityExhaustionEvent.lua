@@ -6,7 +6,7 @@
 ---@field private exhaustionReason org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason
 ---@field private exhaustion number
 ---@field private cancelled boolean
----@overload fun(human: HumanEntity, exhaustionReason: ExhaustionReason, exhaustion: number): EntityExhaustionEvent
+---@overload fun(human: HumanEntity, exhaustionReason: ExhaustionReason, exhaustion: number): org.bukkit.event.entity.EntityExhaustionEvent
 local EntityExhaustionEvent = {}
 
 ---@public

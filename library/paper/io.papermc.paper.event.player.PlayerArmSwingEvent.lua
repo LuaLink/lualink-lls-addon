@@ -2,7 +2,7 @@
 -- io.papermc.paper.event.player.PlayerArmSwingEvent
 ---@class io.papermc.paper.event.player.PlayerArmSwingEvent: org.bukkit.event.player.PlayerAnimationEvent
 ---@field private equipmentSlot org.bukkit.inventory.EquipmentSlot
----@overload fun(player: Player, equipmentSlot: EquipmentSlot): PlayerArmSwingEvent
+---@overload fun(player: Player, equipmentSlot: EquipmentSlot): io.papermc.paper.event.player.PlayerArmSwingEvent
 local PlayerArmSwingEvent = {}
 
 ---@public

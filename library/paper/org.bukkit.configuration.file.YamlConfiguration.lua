@@ -9,7 +9,7 @@
 ---@field private constructor org.bukkit.configuration.file.YamlConstructor
 ---@field private representer org.bukkit.configuration.file.YamlRepresenter
 ---@field private yaml any
----@overload fun(): YamlConfiguration
+---@overload fun(): org.bukkit.configuration.file.YamlConfiguration
 local YamlConfiguration = {}
 
 ---@public

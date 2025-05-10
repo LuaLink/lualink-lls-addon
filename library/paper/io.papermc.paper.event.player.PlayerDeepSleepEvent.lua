@@ -4,7 +4,7 @@
 ---@class io.papermc.paper.event.player.PlayerDeepSleepEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cancelled boolean
----@overload fun(player: Player): PlayerDeepSleepEvent
+---@overload fun(player: Player): io.papermc.paper.event.player.PlayerDeepSleepEvent
 local PlayerDeepSleepEvent = {}
 
 ---@public

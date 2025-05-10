@@ -4,11 +4,11 @@
 ---@class org.bukkit.material.Crops: org.bukkit.material.MaterialData
 ---@field protected DEFAULT_TYPE org.bukkit.Material
 ---@field protected DEFAULT_STATE org.bukkit.CropState
----@overload fun(): Crops
----@overload fun(state: CropState): Crops
----@overload fun(type: Material, state: CropState): Crops
----@overload fun(type: Material): Crops
----@overload fun(type: Material, data: number): Crops
+---@overload fun(): org.bukkit.material.Crops
+---@overload fun(state: CropState): org.bukkit.material.Crops
+---@overload fun(type: Material, state: CropState): org.bukkit.material.Crops
+---@overload fun(type: Material): org.bukkit.material.Crops
+---@overload fun(type: Material, data: number): org.bukkit.material.Crops
 local Crops = {}
 
 ---@public

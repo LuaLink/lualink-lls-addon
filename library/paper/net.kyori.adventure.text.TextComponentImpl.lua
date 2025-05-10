@@ -7,7 +7,7 @@
 ---@field public NEWLINE net.kyori.adventure.text.TextComponent
 ---@field public SPACE net.kyori.adventure.text.TextComponent
 ---@field private content string
----@overload fun(children: table<Component>, style: Style, content: string): TextComponentImpl
+---@overload fun(children: table<Component>, style: Style, content: string): net.kyori.adventure.text.TextComponentImpl
 local TextComponentImpl = {}
 
 ---@param children java.util.List 

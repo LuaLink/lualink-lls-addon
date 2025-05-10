@@ -7,7 +7,7 @@
 ---@field private willExplode boolean
 ---@field private message net.kyori.adventure.text.Component
 ---@field private cancelled boolean
----@overload fun(player: Player, failReason: FailReason, bed: Block, willExplode: boolean, message: Component): PlayerBedFailEnterEvent
+---@overload fun(player: Player, failReason: FailReason, bed: Block, willExplode: boolean, message: Component): io.papermc.paper.event.player.PlayerBedFailEnterEvent
 local PlayerBedFailEnterEvent = {}
 
 ---@public

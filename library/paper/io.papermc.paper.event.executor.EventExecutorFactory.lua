@@ -2,7 +2,7 @@
 -- io.papermc.paper.event.executor.EventExecutorFactory
 ---@class io.papermc.paper.event.executor.EventExecutorFactory
 ---@field private TEMPLATE_CLASS_BYTES number
----@overload fun(): EventExecutorFactory
+---@overload fun(): io.papermc.paper.event.executor.EventExecutorFactory
 local EventExecutorFactory = {}
 
 ---@param method java.lang.reflect.Method the method to be invoked by the created event executor

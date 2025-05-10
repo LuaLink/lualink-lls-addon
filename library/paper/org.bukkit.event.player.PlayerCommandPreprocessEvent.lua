@@ -6,8 +6,8 @@
 ---@field private message string
 ---@field private recipients java.util.Set
 ---@field private cancelled boolean
----@overload fun(player: Player, message: string): PlayerCommandPreprocessEvent
----@overload fun(player: Player, message: string, recipients: table<Player>): PlayerCommandPreprocessEvent
+---@overload fun(player: Player, message: string): org.bukkit.event.player.PlayerCommandPreprocessEvent
+---@overload fun(player: Player, message: string, recipients: table<Player>): org.bukkit.event.player.PlayerCommandPreprocessEvent
 local PlayerCommandPreprocessEvent = {}
 
 ---@public

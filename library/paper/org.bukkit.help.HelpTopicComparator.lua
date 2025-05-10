@@ -4,7 +4,7 @@
 ---@class org.bukkit.help.HelpTopicComparator: java.util.Comparator
 ---@field private tnc org.bukkit.help.HelpTopicComparator.TopicNameComparator
 ---@field private htc org.bukkit.help.HelpTopicComparator
----@overload fun(): HelpTopicComparator
+---@overload fun(): org.bukkit.help.HelpTopicComparator
 local HelpTopicComparator = {}
 
 ---@public

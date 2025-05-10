@@ -1,7 +1,7 @@
 ---@meta
 -- org.bukkit.command.defaults.HelpCommand
 ---@class org.bukkit.command.defaults.HelpCommand: org.bukkit.command.defaults.BukkitCommand
----@overload fun(): HelpCommand
+---@overload fun(): org.bukkit.command.defaults.HelpCommand
 local HelpCommand = {}
 
 ---@param sender org.bukkit.command.CommandSender 

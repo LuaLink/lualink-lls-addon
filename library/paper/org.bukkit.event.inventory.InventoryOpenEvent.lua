@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private titleOverride net.kyori.adventure.text.Component
 ---@field private cancelled boolean
----@overload fun(transaction: InventoryView): InventoryOpenEvent
+---@overload fun(transaction: InventoryView): org.bukkit.event.inventory.InventoryOpenEvent
 local InventoryOpenEvent = {}
 
 ---@public
@@ -14,7 +14,7 @@ local InventoryOpenEvent = {}
 function InventoryOpenEvent:getPlayer() end
 
 ---@public
----@return net.kyori.adventure.text.Component the title override or null
+---@return net.kyori.adventure.text.Component the title override or {@code null}
 --- Gets the title override set by another event or {@code null} if not set.
 function InventoryOpenEvent:titleOverride() end
 
@@ -26,13 +26,13 @@ function InventoryOpenEvent:titleOverride(titleOverride) end
 
 ---@public
 ---@return boolean 
---- {@inheritDoc} <p> If an inventory open event is cancelled, the inventory screen will not show.
+--- {@inheritDoc} <p> If this event is cancelled, the inventory screen will not show.
 function InventoryOpenEvent:isCancelled() end
 
 ---@param cancel boolean 
 ---@public
 ---@return nil 
---- {@inheritDoc} <p> If an inventory open event is cancelled, the inventory screen will not show.
+--- {@inheritDoc} <p> If this event is cancelled, the inventory screen will not show.
 function InventoryOpenEvent:setCancelled(cancel) end
 
 ---@public

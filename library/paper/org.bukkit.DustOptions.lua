@@ -4,7 +4,7 @@
 ---@class org.bukkit.DustOptions
 ---@field private color org.bukkit.Color
 ---@field private size number
----@overload fun(color: Color, size: number): DustOptions
+---@overload fun(color: Color, size: number): org.bukkit.Particle.DustOptions
 local DustOptions = {}
 
 ---@public

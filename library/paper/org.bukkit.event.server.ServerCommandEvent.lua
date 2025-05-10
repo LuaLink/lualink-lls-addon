@@ -6,7 +6,7 @@
 ---@field private sender org.bukkit.command.CommandSender
 ---@field private command string
 ---@field private cancelled boolean
----@overload fun(sender: CommandSender, command: string): ServerCommandEvent
+---@overload fun(sender: CommandSender, command: string): org.bukkit.event.server.ServerCommandEvent
 local ServerCommandEvent = {}
 
 ---@public

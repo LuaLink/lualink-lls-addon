@@ -2,8 +2,8 @@
 -- net.kyori.adventure.text.minimessage.MiniMessageParser
 ---@class net.kyori.adventure.text.minimessage.MiniMessageParser
 ---@field public tagResolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(): MiniMessageParser
----@overload fun(tagResolver: TagResolver): MiniMessageParser
+---@overload fun(): net.kyori.adventure.text.minimessage.MiniMessageParser
+---@overload fun(tagResolver: TagResolver): net.kyori.adventure.text.minimessage.MiniMessageParser
 local MiniMessageParser = {}
 
 ---@param richMessage string 

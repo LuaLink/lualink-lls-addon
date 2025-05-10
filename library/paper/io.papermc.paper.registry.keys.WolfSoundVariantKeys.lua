@@ -9,7 +9,7 @@
 ---@field public GRUMPY io.papermc.paper.registry.TypedKey
 ---@field public PUGLIN io.papermc.paper.registry.TypedKey
 ---@field public SAD io.papermc.paper.registry.TypedKey
----@overload fun(): WolfSoundVariantKeys
+---@overload fun(): io.papermc.paper.registry.keys.WolfSoundVariantKeys
 local WolfSoundVariantKeys = {}
 
 ---@param key any the value's key in the registry

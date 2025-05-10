@@ -7,8 +7,8 @@
 ---@field private entity org.bukkit.entity.Entity
 ---@field private reason org.bukkit.event.world.PortalCreateEvent.CreateReason
 ---@field private cancelled boolean
----@overload fun(blocks: table<BlockState>, world: World, reason: CreateReason): PortalCreateEvent
----@overload fun(blocks: table<BlockState>, world: World, entity: Entity, reason: CreateReason): PortalCreateEvent
+---@overload fun(blocks: table<BlockState>, world: World, reason: CreateReason): org.bukkit.event.world.PortalCreateEvent
+---@overload fun(blocks: table<BlockState>, world: World, entity: Entity, reason: CreateReason): org.bukkit.event.world.PortalCreateEvent
 local PortalCreateEvent = {}
 
 ---@public

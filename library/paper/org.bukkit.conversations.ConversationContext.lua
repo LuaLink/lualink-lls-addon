@@ -5,7 +5,7 @@
 ---@field private forWhom org.bukkit.conversations.Conversable
 ---@field private sessionData java.util.Map
 ---@field private plugin org.bukkit.plugin.Plugin
----@overload fun(plugin: Plugin, forWhom: Conversable, initialSessionData: table<Object, Object>): ConversationContext
+---@overload fun(plugin: Plugin, forWhom: Conversable, initialSessionData: table<Object, Object>): org.bukkit.conversations.ConversationContext
 local ConversationContext = {}
 
 ---@public

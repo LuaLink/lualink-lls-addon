@@ -6,7 +6,7 @@
 ---@field private bow org.bukkit.inventory.ItemStack
 ---@field private arrow org.bukkit.inventory.ItemStack
 ---@field private cancelled boolean
----@overload fun(player: Player, bow: ItemStack, arrow: ItemStack): PlayerReadyArrowEvent
+---@overload fun(player: Player, bow: ItemStack, arrow: ItemStack): com.destroystokyo.paper.event.player.PlayerReadyArrowEvent
 local PlayerReadyArrowEvent = {}
 
 ---@public

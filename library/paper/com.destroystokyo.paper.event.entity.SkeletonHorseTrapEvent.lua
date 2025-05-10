@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private eligibleHumans java.util.List
 ---@field private cancelled boolean
----@overload fun(horse: SkeletonHorse, eligibleHumans: table<HumanEntity>): SkeletonHorseTrapEvent
+---@overload fun(horse: SkeletonHorse, eligibleHumans: table<HumanEntity>): com.destroystokyo.paper.event.entity.SkeletonHorseTrapEvent
 local SkeletonHorseTrapEvent = {}
 
 ---@public

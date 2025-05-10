@@ -6,7 +6,7 @@
 ---@field public minuteData co.aikar.timings.TimingData
 ---@field public avgFreeMemory number
 ---@field public avgUsedMemory number
----@overload fun(): FullServerTickHandler
+---@overload fun(): co.aikar.timings.FullServerTickHandler
 local FullServerTickHandler = {}
 
 ---@public

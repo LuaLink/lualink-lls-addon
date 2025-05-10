@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.inventory.InventoryEvent: org.bukkit.event.Event
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field protected transaction org.bukkit.inventory.InventoryView
----@overload fun(transaction: InventoryView): InventoryEvent
+---@overload fun(transaction: InventoryView): org.bukkit.event.inventory.InventoryEvent
 local InventoryEvent = {}
 
 ---@public

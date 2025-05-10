@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.player.PlayerChangedWorldEvent: org.bukkit.event.player.PlayerEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private from org.bukkit.World
----@overload fun(player: Player, from: World): PlayerChangedWorldEvent
+---@overload fun(player: Player, from: World): org.bukkit.event.player.PlayerChangedWorldEvent
 local PlayerChangedWorldEvent = {}
 
 ---@public

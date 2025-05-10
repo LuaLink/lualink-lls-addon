@@ -3,7 +3,7 @@
 ---@class org.bukkit.util.io.Wrapper: java.io.Serializable
 ---@field private serialVersionUID number
 ---@field public map T
----@overload fun(map: T): Wrapper
+---@overload fun(map: T): org.bukkit.util.io.Wrapper
 local Wrapper = {}
 
 ---@param obj org.bukkit.configuration.serialization.ConfigurationSerializable 

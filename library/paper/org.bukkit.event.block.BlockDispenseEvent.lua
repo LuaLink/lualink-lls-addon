@@ -6,7 +6,7 @@
 ---@field private item org.bukkit.inventory.ItemStack
 ---@field private velocity org.bukkit.util.Vector
 ---@field private cancelled boolean
----@overload fun(block: Block, item: ItemStack, velocity: Vector): BlockDispenseEvent
+---@overload fun(block: Block, item: ItemStack, velocity: Vector): org.bukkit.event.block.BlockDispenseEvent
 local BlockDispenseEvent = {}
 
 ---@public

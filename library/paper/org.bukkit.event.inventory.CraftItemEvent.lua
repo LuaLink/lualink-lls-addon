@@ -3,8 +3,8 @@
 -- org.bukkit.event.inventory.CraftItemEvent
 ---@class org.bukkit.event.inventory.CraftItemEvent: org.bukkit.event.inventory.InventoryClickEvent
 ---@field private recipe org.bukkit.inventory.Recipe
----@overload fun(recipe: Recipe, view: InventoryView, type: SlotType, slot: number, click: ClickType, action: InventoryAction): CraftItemEvent
----@overload fun(recipe: Recipe, view: InventoryView, type: SlotType, slot: number, click: ClickType, action: InventoryAction, key: number): CraftItemEvent
+---@overload fun(recipe: Recipe, view: InventoryView, type: SlotType, slot: number, click: ClickType, action: InventoryAction): org.bukkit.event.inventory.CraftItemEvent
+---@overload fun(recipe: Recipe, view: InventoryView, type: SlotType, slot: number, click: ClickType, action: InventoryAction, key: number): org.bukkit.event.inventory.CraftItemEvent
 local CraftItemEvent = {}
 
 ---@public

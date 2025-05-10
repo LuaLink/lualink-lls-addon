@@ -2,7 +2,7 @@
 ---@meta
 -- io.papermc.paper.brigadier.PaperBrigadier
 ---@class io.papermc.paper.brigadier.PaperBrigadier
----@overload fun(): PaperBrigadier
+---@overload fun(): io.papermc.paper.brigadier.PaperBrigadier
 local PaperBrigadier = {}
 
 ---@param componentLike net.kyori.adventure.text.ComponentLike The {@link ComponentLike} to use for the {@link Message} contents

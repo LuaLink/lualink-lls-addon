@@ -3,7 +3,7 @@
 -- org.bukkit.event.block.BlockFormEvent
 ---@class org.bukkit.event.block.BlockFormEvent: org.bukkit.event.block.BlockGrowEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
----@overload fun(block: Block, newState: BlockState): BlockFormEvent
+---@overload fun(block: Block, newState: BlockState): org.bukkit.event.block.BlockFormEvent
 local BlockFormEvent = {}
 
 ---@public

@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.material.Dye
 ---@class org.bukkit.material.Dye: org.bukkit.material.MaterialData, org.bukkit.material.Colorable
----@overload fun(): Dye
----@overload fun(type: Material): Dye
----@overload fun(type: Material, data: number): Dye
----@overload fun(color: DyeColor): Dye
+---@overload fun(): org.bukkit.material.Dye
+---@overload fun(type: Material): org.bukkit.material.Dye
+---@overload fun(type: Material, data: number): org.bukkit.material.Dye
+---@overload fun(color: DyeColor): org.bukkit.material.Dye
 local Dye = {}
 
 ---@public

@@ -3,7 +3,7 @@
 -- net.kyori.adventure.text.minimessage.internal.parser.match.TokenListProducingMatchedTokenConsumer
 ---@class net.kyori.adventure.text.minimessage.internal.parser.match.TokenListProducingMatchedTokenConsumer: net.kyori.adventure.text.minimessage.internal.parser.match.MatchedTokenConsumer
 ---@field private result java.util.List
----@overload fun(input: string): TokenListProducingMatchedTokenConsumer
+---@overload fun(input: string): net.kyori.adventure.text.minimessage.internal.parser.match.TokenListProducingMatchedTokenConsumer
 local TokenListProducingMatchedTokenConsumer = {}
 
 ---@param start number 

@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.player.PlayerInputEvent: org.bukkit.event.player.PlayerEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private input org.bukkit.Input
----@overload fun(player: Player, input: Input): PlayerInputEvent
+---@overload fun(player: Player, input: Input): org.bukkit.event.player.PlayerInputEvent
 local PlayerInputEvent = {}
 
 ---@public

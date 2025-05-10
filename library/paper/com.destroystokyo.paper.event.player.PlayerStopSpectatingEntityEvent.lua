@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private spectatorTarget org.bukkit.entity.Entity
 ---@field private cancelled boolean
----@overload fun(player: Player, spectatorTarget: Entity): PlayerStopSpectatingEntityEvent
+---@overload fun(player: Player, spectatorTarget: Entity): com.destroystokyo.paper.event.player.PlayerStopSpectatingEntityEvent
 local PlayerStopSpectatingEntityEvent = {}
 
 ---@public

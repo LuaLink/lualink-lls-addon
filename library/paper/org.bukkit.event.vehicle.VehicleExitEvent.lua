@@ -6,8 +6,8 @@
 ---@field private exited org.bukkit.entity.LivingEntity
 ---@field private isCancellable boolean
 ---@field private cancelled boolean
----@overload fun(vehicle: Vehicle, exited: LivingEntity, isCancellable: boolean): VehicleExitEvent
----@overload fun(vehicle: Vehicle, exited: LivingEntity): VehicleExitEvent
+---@overload fun(vehicle: Vehicle, exited: LivingEntity, isCancellable: boolean): org.bukkit.event.vehicle.VehicleExitEvent
+---@overload fun(vehicle: Vehicle, exited: LivingEntity): org.bukkit.event.vehicle.VehicleExitEvent
 local VehicleExitEvent = {}
 
 ---@public

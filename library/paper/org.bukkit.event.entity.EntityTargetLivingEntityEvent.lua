@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.event.entity.EntityTargetLivingEntityEvent
 ---@class org.bukkit.event.entity.EntityTargetLivingEntityEvent: org.bukkit.event.entity.EntityTargetEvent
----@overload fun(entity: Entity, target: LivingEntity, reason: TargetReason): EntityTargetLivingEntityEvent
+---@overload fun(entity: Entity, target: LivingEntity, reason: TargetReason): org.bukkit.event.entity.EntityTargetLivingEntityEvent
 local EntityTargetLivingEntityEvent = {}
 
 ---@public

@@ -5,7 +5,7 @@
 ---@field public SERIALIZED_TYPE_KEY string
 ---@field private clazz java.lang.Class
 ---@field private aliases java.util.Map
----@overload fun(clazz: ConfigurationSerializable?): ConfigurationSerialization
+---@overload fun(clazz: ConfigurationSerializable?): org.bukkit.configuration.serialization.ConfigurationSerialization
 local ConfigurationSerialization = {}
 
 ---@param name string 

@@ -4,8 +4,8 @@
 ---@class org.bukkit.event.inventory.FurnaceStartSmeltEvent: org.bukkit.event.block.InventoryBlockStartEvent
 ---@field private recipe org.bukkit.inventory.CookingRecipe
 ---@field private totalCookTime number
----@overload fun(furnace: Block, source: ItemStack, recipe: CookingRecipe<?>): FurnaceStartSmeltEvent
----@overload fun(furnace: Block, source: ItemStack, recipe: CookingRecipe<?>, cookingTime: number): FurnaceStartSmeltEvent
+---@overload fun(furnace: Block, source: ItemStack, recipe: CookingRecipe<?>): org.bukkit.event.inventory.FurnaceStartSmeltEvent
+---@overload fun(furnace: Block, source: ItemStack, recipe: CookingRecipe<?>, cookingTime: number): org.bukkit.event.inventory.FurnaceStartSmeltEvent
 local FurnaceStartSmeltEvent = {}
 
 ---@public

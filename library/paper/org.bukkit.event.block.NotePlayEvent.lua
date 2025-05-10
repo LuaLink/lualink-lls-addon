@@ -6,7 +6,7 @@
 ---@field private instrument org.bukkit.Instrument
 ---@field private note org.bukkit.Note
 ---@field private cancelled boolean
----@overload fun(block: Block, instrument: Instrument, note: Note): NotePlayEvent
+---@overload fun(block: Block, instrument: Instrument, note: Note): org.bukkit.event.block.NotePlayEvent
 local NotePlayEvent = {}
 
 ---@public

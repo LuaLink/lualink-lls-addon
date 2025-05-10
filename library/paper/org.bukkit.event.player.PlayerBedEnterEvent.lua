@@ -6,8 +6,8 @@
 ---@field private bed org.bukkit.block.Block
 ---@field private bedEnterResult org.bukkit.event.player.PlayerBedEnterEvent.BedEnterResult
 ---@field private useBed org.bukkit.event.Event.Result
----@overload fun(player: Player, bed: Block, bedEnterResult: BedEnterResult): PlayerBedEnterEvent
----@overload fun(player: Player, bed: Block): PlayerBedEnterEvent
+---@overload fun(player: Player, bed: Block, bedEnterResult: BedEnterResult): org.bukkit.event.player.PlayerBedEnterEvent
+---@overload fun(player: Player, bed: Block): org.bukkit.event.player.PlayerBedEnterEvent
 local PlayerBedEnterEvent = {}
 
 ---@public

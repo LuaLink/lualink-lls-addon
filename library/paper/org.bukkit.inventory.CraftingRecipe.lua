@@ -6,7 +6,7 @@
 ---@field private output org.bukkit.inventory.ItemStack
 ---@field private group string
 ---@field private category org.bukkit.inventory.recipe.CraftingBookCategory
----@overload fun(key: NamespacedKey, result: ItemStack): CraftingRecipe
+---@overload fun(key: NamespacedKey, result: ItemStack): org.bukkit.inventory.CraftingRecipe
 local CraftingRecipe = {}
 
 ---@public

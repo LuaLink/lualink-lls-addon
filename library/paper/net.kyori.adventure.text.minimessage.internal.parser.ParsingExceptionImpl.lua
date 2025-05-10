@@ -6,8 +6,8 @@
 ---@field private originalText string
 ---@field private tokens net.kyori.adventure.text.minimessage.internal.parser.Token
 ---@field private withStackTrace boolean
----@overload fun(message: string, originalText: string, tokens: Token): ParsingExceptionImpl
----@overload fun(message: string, originalText: string, cause: Throwable, withStackTrace: boolean, tokens: Token): ParsingExceptionImpl
+---@overload fun(message: string, originalText: string, tokens: Token): net.kyori.adventure.text.minimessage.internal.parser.ParsingExceptionImpl
+---@overload fun(message: string, originalText: string, cause: Throwable, withStackTrace: boolean, tokens: Token): net.kyori.adventure.text.minimessage.internal.parser.ParsingExceptionImpl
 local ParsingExceptionImpl = {}
 
 ---@public

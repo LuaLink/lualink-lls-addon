@@ -5,8 +5,8 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field protected affectedEntities java.util.Map
 ---@field private cancelled boolean
----@overload fun(potion: ThrownPotion, affectedEntities: table<LivingEntity, Double>): PotionSplashEvent
----@overload fun(potion: ThrownPotion, hitEntity: Entity, hitBlock: Block, hitFace: BlockFace, affectedEntities: table<LivingEntity, Double>): PotionSplashEvent
+---@overload fun(potion: ThrownPotion, affectedEntities: table<LivingEntity, Double>): org.bukkit.event.entity.PotionSplashEvent
+---@overload fun(potion: ThrownPotion, hitEntity: Entity, hitBlock: Block, hitFace: BlockFace, affectedEntities: table<LivingEntity, Double>): org.bukkit.event.entity.PotionSplashEvent
 local PotionSplashEvent = {}
 
 ---@public

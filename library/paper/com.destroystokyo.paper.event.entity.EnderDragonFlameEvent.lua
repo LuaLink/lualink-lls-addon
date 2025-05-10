@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private areaEffectCloud org.bukkit.entity.AreaEffectCloud
 ---@field private cancelled boolean
----@overload fun(enderDragon: EnderDragon, areaEffectCloud: AreaEffectCloud): EnderDragonFlameEvent
+---@overload fun(enderDragon: EnderDragon, areaEffectCloud: AreaEffectCloud): com.destroystokyo.paper.event.entity.EnderDragonFlameEvent
 local EnderDragonFlameEvent = {}
 
 ---@public

@@ -13,7 +13,7 @@
 ---@field private cancelled boolean
 ---@field private originalPlayerCount boolean
 ---@field private players java.lang.Object
----@overload fun(client: StatusClient, motd: net.kyori.adventure.text.Component, numPlayers: number, maxPlayers: number, version: string, protocolVersion: number, favicon: CachedServerIcon): PaperServerListPingEvent
+---@overload fun(client: StatusClient, motd: net.kyori.adventure.text.Component, numPlayers: number, maxPlayers: number, version: string, protocolVersion: number, favicon: CachedServerIcon): com.destroystokyo.paper.event.server.PaperServerListPingEvent
 local PaperServerListPingEvent = {}
 
 ---@public

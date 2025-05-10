@@ -14,7 +14,7 @@
 ---@field private INTEGER_ARRAY org.bukkit.persistence.ListPersistentDataType
 ---@field private LONG_ARRAY org.bukkit.persistence.ListPersistentDataType
 ---@field private DATA_CONTAINER org.bukkit.persistence.ListPersistentDataType
----@overload fun(): ListPersistentDataTypeProvider
+---@overload fun(): org.bukkit.persistence.ListPersistentDataTypeProvider
 local ListPersistentDataTypeProvider = {}
 
 ---@public

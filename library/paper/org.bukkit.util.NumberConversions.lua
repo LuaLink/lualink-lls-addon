@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.util.NumberConversions
 ---@class org.bukkit.util.NumberConversions
----@overload fun(): NumberConversions
+---@overload fun(): org.bukkit.util.NumberConversions
 local NumberConversions = {}
 
 ---@param num number 

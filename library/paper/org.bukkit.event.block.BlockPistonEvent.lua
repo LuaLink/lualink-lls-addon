@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.block.BlockPistonEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable
 ---@field private direction org.bukkit.block.BlockFace
 ---@field private cancelled boolean
----@overload fun(block: Block, direction: BlockFace): BlockPistonEvent
+---@overload fun(block: Block, direction: BlockFace): org.bukkit.event.block.BlockPistonEvent
 local BlockPistonEvent = {}
 
 ---@public

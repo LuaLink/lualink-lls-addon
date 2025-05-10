@@ -8,10 +8,10 @@
 ---@field protected x number
 ---@field protected y number
 ---@field protected z number
----@overload fun(): Vector
----@overload fun(x: number, y: number, z: number): Vector
----@overload fun(x: number, y: number, z: number): Vector
----@overload fun(x: number, y: number, z: number): Vector
+---@overload fun(): org.bukkit.util.Vector
+---@overload fun(x: number, y: number, z: number): org.bukkit.util.Vector
+---@overload fun(x: number, y: number, z: number): org.bukkit.util.Vector
+---@overload fun(x: number, y: number, z: number): org.bukkit.util.Vector
 local Vector = {}
 
 ---@param vec org.bukkit.util.Vector The other vector

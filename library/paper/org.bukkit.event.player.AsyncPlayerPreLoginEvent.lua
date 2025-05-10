@@ -10,12 +10,12 @@
 ---@field private result org.bukkit.event.player.AsyncPlayerPreLoginEvent.Result
 ---@field private message net.kyori.adventure.text.Component
 ---@field private profile com.destroystokyo.paper.profile.PlayerProfile
----@overload fun(name: string, ipAddress: InetAddress): AsyncPlayerPreLoginEvent
----@overload fun(name: string, ipAddress: InetAddress, uniqueId: UUID): AsyncPlayerPreLoginEvent
----@overload fun(name: string, ipAddress: InetAddress, uniqueId: UUID, transferred: boolean): AsyncPlayerPreLoginEvent
----@overload fun(name: string, ipAddress: InetAddress, uniqueId: UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile): AsyncPlayerPreLoginEvent
----@overload fun(name: string, ipAddress: InetAddress, rawAddress: InetAddress, uniqueId: UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile): AsyncPlayerPreLoginEvent
----@overload fun(name: string, ipAddress: InetAddress, rawAddress: InetAddress, uniqueId: UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile, hostname: string): AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: InetAddress): org.bukkit.event.player.AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: InetAddress, uniqueId: UUID): org.bukkit.event.player.AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: InetAddress, uniqueId: UUID, transferred: boolean): org.bukkit.event.player.AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: InetAddress, uniqueId: UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile): org.bukkit.event.player.AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: InetAddress, rawAddress: InetAddress, uniqueId: UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile): org.bukkit.event.player.AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: InetAddress, rawAddress: InetAddress, uniqueId: UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile, hostname: string): org.bukkit.event.player.AsyncPlayerPreLoginEvent
 local AsyncPlayerPreLoginEvent = {}
 
 ---@public

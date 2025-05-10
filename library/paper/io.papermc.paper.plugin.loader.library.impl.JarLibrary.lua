@@ -3,7 +3,7 @@
 -- io.papermc.paper.plugin.loader.library.impl.JarLibrary
 ---@class io.papermc.paper.plugin.loader.library.impl.JarLibrary: io.papermc.paper.plugin.loader.library.ClassPathLibrary
 ---@field private path java.nio.file.Path
----@overload fun(path: Path): JarLibrary
+---@overload fun(path: Path): io.papermc.paper.plugin.loader.library.impl.JarLibrary
 local JarLibrary = {}
 
 ---@param store io.papermc.paper.plugin.loader.library.LibraryStore 

@@ -1398,7 +1398,7 @@
 ---@field public ZOMBIE_SPAWN_EGG io.papermc.paper.registry.TypedKey
 ---@field public ZOMBIE_VILLAGER_SPAWN_EGG io.papermc.paper.registry.TypedKey
 ---@field public ZOMBIFIED_PIGLIN_SPAWN_EGG io.papermc.paper.registry.TypedKey
----@overload fun(): ItemTypeKeys
+---@overload fun(): io.papermc.paper.registry.keys.ItemTypeKeys
 local ItemTypeKeys = {}
 
 ---@param key any 

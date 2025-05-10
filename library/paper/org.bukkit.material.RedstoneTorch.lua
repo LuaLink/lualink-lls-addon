@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.material.RedstoneTorch
 ---@class org.bukkit.material.RedstoneTorch: org.bukkit.material.Torch, org.bukkit.material.Redstone
----@overload fun(): RedstoneTorch
----@overload fun(type: Material): RedstoneTorch
----@overload fun(type: Material, data: number): RedstoneTorch
+---@overload fun(): org.bukkit.material.RedstoneTorch
+---@overload fun(type: Material): org.bukkit.material.RedstoneTorch
+---@overload fun(type: Material, data: number): org.bukkit.material.RedstoneTorch
 local RedstoneTorch = {}
 
 ---@public

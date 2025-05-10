@@ -6,8 +6,8 @@
 ---@field private dismounted org.bukkit.entity.Entity
 ---@field private isCancellable boolean
 ---@field private cancelled boolean
----@overload fun(entity: Entity, dismounted: Entity): EntityDismountEvent
----@overload fun(entity: Entity, dismounted: Entity, isCancellable: boolean): EntityDismountEvent
+---@overload fun(entity: Entity, dismounted: Entity): org.bukkit.event.entity.EntityDismountEvent
+---@overload fun(entity: Entity, dismounted: Entity, isCancellable: boolean): org.bukkit.event.entity.EntityDismountEvent
 local EntityDismountEvent = {}
 
 ---@public

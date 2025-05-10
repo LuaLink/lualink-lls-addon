@@ -4,7 +4,7 @@
 ---@class io.papermc.paper.event.player.PlayerUntrackEntityEvent: org.bukkit.event.player.PlayerEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private entity org.bukkit.entity.Entity
----@overload fun(player: Player, entity: Entity): PlayerUntrackEntityEvent
+---@overload fun(player: Player, entity: Entity): io.papermc.paper.event.player.PlayerUntrackEntityEvent
 local PlayerUntrackEntityEvent = {}
 
 ---@public

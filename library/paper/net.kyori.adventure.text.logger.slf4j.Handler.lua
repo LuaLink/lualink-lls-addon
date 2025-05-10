@@ -3,7 +3,7 @@
 -- net.kyori.adventure.text.logger.slf4j.Handler
 ---@class net.kyori.adventure.text.logger.slf4j.Handler
 ---@field private PROVIDER net.kyori.adventure.text.logger.slf4j.ComponentLoggerProvider
----@overload fun(): Handler
+---@overload fun(): net.kyori.adventure.text.logger.slf4j.Handler
 local Handler = {}
 
 ---@param name string 

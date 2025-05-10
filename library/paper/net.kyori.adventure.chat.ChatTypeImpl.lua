@@ -2,7 +2,7 @@
 -- net.kyori.adventure.chat.ChatTypeImpl
 ---@class net.kyori.adventure.chat.ChatTypeImpl: net.kyori.adventure.chat.ChatType
 ---@field private key any
----@overload fun(key: Key): ChatTypeImpl
+---@overload fun(key: Key): net.kyori.adventure.chat.ChatTypeImpl
 local ChatTypeImpl = {}
 
 ---@public

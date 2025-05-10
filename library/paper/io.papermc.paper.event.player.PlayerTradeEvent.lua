@@ -3,7 +3,7 @@
 -- io.papermc.paper.event.player.PlayerTradeEvent
 ---@class io.papermc.paper.event.player.PlayerTradeEvent: io.papermc.paper.event.player.PlayerPurchaseEvent
 ---@field private villager org.bukkit.entity.AbstractVillager
----@overload fun(player: Player, villager: AbstractVillager, trade: MerchantRecipe, rewardExp: boolean, increaseTradeUses: boolean): PlayerTradeEvent
+---@overload fun(player: Player, villager: AbstractVillager, trade: MerchantRecipe, rewardExp: boolean, increaseTradeUses: boolean): io.papermc.paper.event.player.PlayerTradeEvent
 local PlayerTradeEvent = {}
 
 ---@public

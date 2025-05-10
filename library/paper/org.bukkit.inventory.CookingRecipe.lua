@@ -9,8 +9,8 @@
 ---@field private cookingTime number
 ---@field private group string
 ---@field private category org.bukkit.inventory.recipe.CookingBookCategory
----@overload fun(key: NamespacedKey, result: ItemStack, source: Material, experience: number, cookingTime: number): CookingRecipe
----@overload fun(key: NamespacedKey, result: ItemStack, input: RecipeChoice, experience: number, cookingTime: number): CookingRecipe
+---@overload fun(key: NamespacedKey, result: ItemStack, source: Material, experience: number, cookingTime: number): org.bukkit.inventory.CookingRecipe
+---@overload fun(key: NamespacedKey, result: ItemStack, input: RecipeChoice, experience: number, cookingTime: number): org.bukkit.inventory.CookingRecipe
 local CookingRecipe = {}
 
 ---@param input org.bukkit.Material The input material.

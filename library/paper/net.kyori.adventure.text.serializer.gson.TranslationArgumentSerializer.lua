@@ -2,7 +2,7 @@
 -- net.kyori.adventure.text.serializer.gson.TranslationArgumentSerializer
 ---@class net.kyori.adventure.text.serializer.gson.TranslationArgumentSerializer: any
 ---@field private gson any
----@overload fun(gson: Gson): TranslationArgumentSerializer
+---@overload fun(gson: Gson): net.kyori.adventure.text.serializer.gson.TranslationArgumentSerializer
 local TranslationArgumentSerializer = {}
 
 ---@param gson any 

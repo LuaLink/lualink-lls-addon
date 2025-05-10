@@ -3,7 +3,7 @@
 -- net.kyori.adventure.util.Nag
 ---@class net.kyori.adventure.util.Nag: java.lang.RuntimeException
 ---@field private serialVersionUID number
----@overload fun(message: string): Nag
+---@overload fun(message: string): net.kyori.adventure.util.Nag
 local Nag = {}
 
 ---@param nag net.kyori.adventure.util.Nag the nag

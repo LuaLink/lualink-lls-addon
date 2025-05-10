@@ -6,7 +6,7 @@
 ---@field private x number
 ---@field private y number
 ---@field private z number
----@overload fun(x: number, y: number, z: number): EulerAngle
+---@overload fun(x: number, y: number, z: number): org.bukkit.util.EulerAngle
 local EulerAngle = {}
 
 ---@public

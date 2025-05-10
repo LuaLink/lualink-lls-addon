@@ -4,7 +4,7 @@
 ---@field public INSTANCE any
 ---@field public DOWNSAMPLE_COLOR any
 ---@field private downsampleColor boolean
----@overload fun(downsampleColor: boolean): TextColorSerializer
+---@overload fun(downsampleColor: boolean): net.kyori.adventure.text.serializer.gson.TextColorSerializer
 local TextColorSerializer = {}
 
 ---@param out any 

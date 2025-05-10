@@ -5,8 +5,8 @@
 ---@field protected children java.util.List
 ---@field private style net.kyori.adventure.text.format.Style
 ---@field private styleBuilder net.kyori.adventure.text.format.Style.Builder
----@overload fun(): AbstractComponentBuilder
----@overload fun(component: C): AbstractComponentBuilder
+---@overload fun(): net.kyori.adventure.text.AbstractComponentBuilder
+---@overload fun(component: C): net.kyori.adventure.text.AbstractComponentBuilder
 local AbstractComponentBuilder = {}
 
 ---@param component net.kyori.adventure.text.Component 

@@ -6,7 +6,7 @@
 ---@field private targets java.util.Collection
 ---@field private areaEffectCloud org.bukkit.entity.AreaEffectCloud
 ---@field private cancelled boolean
----@overload fun(fireball: DragonFireball, targets: Collection<LivingEntity>, areaEffectCloud: AreaEffectCloud): EnderDragonFireballHitEvent
+---@overload fun(fireball: DragonFireball, targets: Collection<LivingEntity>, areaEffectCloud: AreaEffectCloud): com.destroystokyo.paper.event.entity.EnderDragonFireballHitEvent
 local EnderDragonFireballHitEvent = {}
 
 ---@public

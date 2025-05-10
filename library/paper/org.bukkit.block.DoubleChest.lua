@@ -3,7 +3,7 @@
 -- org.bukkit.block.DoubleChest
 ---@class org.bukkit.block.DoubleChest: org.bukkit.inventory.InventoryHolder
 ---@field private inventory org.bukkit.inventory.DoubleChestInventory
----@overload fun(chest: DoubleChestInventory): DoubleChest
+---@overload fun(chest: DoubleChestInventory): org.bukkit.block.DoubleChest
 local DoubleChest = {}
 
 ---@public

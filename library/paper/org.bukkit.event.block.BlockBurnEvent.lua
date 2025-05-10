@@ -5,8 +5,8 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private ignitingBlock org.bukkit.block.Block
 ---@field private cancelled boolean
----@overload fun(block: Block): BlockBurnEvent
----@overload fun(block: Block, ignitingBlock: Block): BlockBurnEvent
+---@overload fun(block: Block): org.bukkit.event.block.BlockBurnEvent
+---@overload fun(block: Block, ignitingBlock: Block): org.bukkit.event.block.BlockBurnEvent
 local BlockBurnEvent = {}
 
 ---@public

@@ -3,8 +3,8 @@
 -- org.bukkit.event.block.BlockMultiPlaceEvent
 ---@class org.bukkit.event.block.BlockMultiPlaceEvent: org.bukkit.event.block.BlockPlaceEvent
 ---@field private states java.util.List
----@overload fun(states: table<BlockState>, clicked: Block, itemInHand: ItemStack, thePlayer: Player, canBuild: boolean): BlockMultiPlaceEvent
----@overload fun(states: table<BlockState>, clicked: Block, itemInHand: ItemStack, thePlayer: Player, canBuild: boolean, hand: org.bukkit.inventory.EquipmentSlot): BlockMultiPlaceEvent
+---@overload fun(states: table<BlockState>, clicked: Block, itemInHand: ItemStack, thePlayer: Player, canBuild: boolean): org.bukkit.event.block.BlockMultiPlaceEvent
+---@overload fun(states: table<BlockState>, clicked: Block, itemInHand: ItemStack, thePlayer: Player, canBuild: boolean, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.block.BlockMultiPlaceEvent
 local BlockMultiPlaceEvent = {}
 
 ---@public

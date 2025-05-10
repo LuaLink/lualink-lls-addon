@@ -22,7 +22,7 @@
 ---@field public BASTION_REMNANT org.bukkit.StructureType
 ---@field private key org.bukkit.NamespacedKey
 ---@field private mapCursor org.bukkit.map.MapCursor.Type
----@overload fun(name: string, mapIcon: MapCursor.Type): StructureType
+---@overload fun(name: string, mapIcon: MapCursor.Type): org.bukkit.StructureType
 local StructureType = {}
 
 ---@public

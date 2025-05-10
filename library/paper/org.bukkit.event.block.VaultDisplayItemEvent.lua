@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private displayItem org.bukkit.inventory.ItemStack
 ---@field private cancelled boolean
----@overload fun(vault: Block, displayItem: ItemStack): VaultDisplayItemEvent
+---@overload fun(vault: Block, displayItem: ItemStack): org.bukkit.event.block.VaultDisplayItemEvent
 local VaultDisplayItemEvent = {}
 
 ---@public

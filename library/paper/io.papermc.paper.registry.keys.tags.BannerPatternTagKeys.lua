@@ -13,7 +13,7 @@
 ---@field public PATTERN_ITEM_MOJANG io.papermc.paper.registry.tag.TagKey
 ---@field public PATTERN_ITEM_PIGLIN io.papermc.paper.registry.tag.TagKey
 ---@field public PATTERN_ITEM_SKULL io.papermc.paper.registry.tag.TagKey
----@overload fun(): BannerPatternTagKeys
+---@overload fun(): io.papermc.paper.registry.keys.tags.BannerPatternTagKeys
 local BannerPatternTagKeys = {}
 
 ---@param key any the tag key's key

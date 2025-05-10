@@ -7,7 +7,7 @@
 ---@field private weapon org.bukkit.inventory.ItemStack
 ---@field private originalResult boolean
 ---@field private result org.bukkit.event.Event.Result
----@overload fun(attacker: LivingEntity, target: LivingEntity, weapon: ItemStack, originalResult: boolean): EntityAttemptSmashAttackEvent
+---@overload fun(attacker: LivingEntity, target: LivingEntity, weapon: ItemStack, originalResult: boolean): io.papermc.paper.event.entity.EntityAttemptSmashAttackEvent
 local EntityAttemptSmashAttackEvent = {}
 
 ---@public

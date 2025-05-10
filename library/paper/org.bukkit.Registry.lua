@@ -123,6 +123,11 @@ function Registry:getOrThrow(key) end
 --- Returns a new stream, which contains all registry items, which are registered to the registry.
 function Registry:stream() end
 
+---@public
+---@return java.util.stream.Stream a stream of all registry keys
+--- Returns a new stream, which contains all registry keys, which are registered to the registry.
+function Registry:keyStream() end
+
 ---@deprecated
 ---@param input string 
 ---@public

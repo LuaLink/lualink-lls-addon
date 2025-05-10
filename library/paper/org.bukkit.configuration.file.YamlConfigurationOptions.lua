@@ -5,7 +5,7 @@
 ---@field private indent number
 ---@field private width number
 ---@field private codePointLimit number
----@overload fun(configuration: YamlConfiguration): YamlConfigurationOptions
+---@overload fun(configuration: YamlConfiguration): org.bukkit.configuration.file.YamlConfigurationOptions
 local YamlConfigurationOptions = {}
 
 ---@public

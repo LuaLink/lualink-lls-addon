@@ -5,8 +5,8 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private duration number
 ---@field private cancelled boolean
----@overload fun(combustee: Entity, duration: number): EntityCombustEvent
----@overload fun(combustee: Entity, duration: number): EntityCombustEvent
+---@overload fun(combustee: Entity, duration: number): org.bukkit.event.entity.EntityCombustEvent
+---@overload fun(combustee: Entity, duration: number): org.bukkit.event.entity.EntityCombustEvent
 local EntityCombustEvent = {}
 
 ---@public

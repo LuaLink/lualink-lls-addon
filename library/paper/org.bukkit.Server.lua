@@ -376,9 +376,10 @@ function Server:getWorld(worldKey) end
 --- Create a new virtual {@link WorldBorder}. <p> Note that world borders created by the server will not respect any world scaling effects (i.e. coordinates are not divided by 8 in the nether).
 function Server:createWorldBorder() end
 
----@param id number 
+---@param id number the id of the map to get
 ---@public
----@return org.bukkit.map.MapView 
+---@return org.bukkit.map.MapView a map view if it exists, or null otherwise
+--- Gets the map from the given item ID.
 function Server:getMap(id) end
 
 ---@param world org.bukkit.World the world the map will belong to
@@ -602,6 +603,11 @@ function Server:getHideOnlinePlayers() end
 ---@return boolean true if the server authenticates clients, false otherwise
 --- Gets whether the Server is in online mode or not.
 function Server:getOnlineMode() end
+
+---@public
+---@return io.papermc.paper.configuration.ServerConfiguration the instance of ServerConfiguration containing the server's configuration details
+--- Retrieves the server configuration.
+function Server:getServerConfig() end
 
 ---@public
 ---@return boolean true if the server allows flight, false otherwise

@@ -4,7 +4,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private inventory com.destroystokyo.paper.loottable.LootableInventory
 ---@field private cancelled boolean
----@overload fun(player: Player, inventory: LootableInventory): LootableInventoryReplenishEvent
+---@overload fun(player: Player, inventory: LootableInventory): com.destroystokyo.paper.loottable.LootableInventoryReplenishEvent
 local LootableInventoryReplenishEvent = {}
 
 ---@public

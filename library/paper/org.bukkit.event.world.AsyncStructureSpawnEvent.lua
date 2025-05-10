@@ -8,7 +8,7 @@
 ---@field private chunkX number
 ---@field private chunkZ number
 ---@field private cancelled boolean
----@overload fun(world: World, structure: Structure, boundingBox: BoundingBox, chunkX: number, chunkZ: number): AsyncStructureSpawnEvent
+---@overload fun(world: World, structure: Structure, boundingBox: BoundingBox, chunkX: number, chunkZ: number): org.bukkit.event.world.AsyncStructureSpawnEvent
 local AsyncStructureSpawnEvent = {}
 
 ---@public

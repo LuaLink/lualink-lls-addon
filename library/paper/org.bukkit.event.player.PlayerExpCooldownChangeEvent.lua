@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private reason org.bukkit.event.player.PlayerExpCooldownChangeEvent.ChangeReason
 ---@field private newCooldown number
----@overload fun(player: Player, newCooldown: number, reason: ChangeReason): PlayerExpCooldownChangeEvent
+---@overload fun(player: Player, newCooldown: number, reason: ChangeReason): org.bukkit.event.player.PlayerExpCooldownChangeEvent
 local PlayerExpCooldownChangeEvent = {}
 
 ---@public

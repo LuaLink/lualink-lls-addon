@@ -2,7 +2,7 @@
 -- net.kyori.adventure.text.serializer.gson.ShadowColorSerializer
 ---@class net.kyori.adventure.text.serializer.gson.ShadowColorSerializer: any
 ---@field private emitArray boolean
----@overload fun(emitArray: boolean): ShadowColorSerializer
+---@overload fun(emitArray: boolean): net.kyori.adventure.text.serializer.gson.ShadowColorSerializer
 local ShadowColorSerializer = {}
 
 ---@param options any 

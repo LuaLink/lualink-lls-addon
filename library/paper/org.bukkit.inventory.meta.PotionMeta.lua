@@ -43,6 +43,11 @@ function PotionMeta:hasCustomEffects() end
 --- Gets an immutable list containing all custom potion effects applied to this potion. <p> Plugins should check that hasCustomEffects() returns true before calling this method.
 function PotionMeta:getCustomEffects() end
 
+---@public
+---@return java.util.List an unmodifiable list of all effects.
+--- All effects that this potion meta holds. <p> This is a combination of the base potion type and any custom effects.
+function PotionMeta:getAllEffects() end
+
 ---@param effect org.bukkit.potion.PotionEffect the potion effect to add
 ---@param overwrite boolean true if any existing effect of the same type should be overwritten
 ---@public
@@ -89,6 +94,11 @@ function PotionMeta:getColor() end
 ---@return nil 
 --- Sets the potion color. A custom potion color will alter the display of the potion in an inventory slot.
 function PotionMeta:setColor(color) end
+
+---@public
+---@return org.bukkit.Color the effective potion color
+--- Computes the effective colour of this potion meta. <p> This blends all custom effects, or uses a default fallback color.
+function PotionMeta:computeEffectiveColor() end
 
 ---@deprecated
 ---@public

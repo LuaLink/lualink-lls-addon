@@ -5,7 +5,7 @@
 ---@field public GOAT_HORNS io.papermc.paper.registry.tag.TagKey
 ---@field public REGULAR_GOAT_HORNS io.papermc.paper.registry.tag.TagKey
 ---@field public SCREAMING_GOAT_HORNS io.papermc.paper.registry.tag.TagKey
----@overload fun(): InstrumentTagKeys
+---@overload fun(): io.papermc.paper.registry.keys.tags.InstrumentTagKeys
 local InstrumentTagKeys = {}
 
 ---@param key any the tag key's key

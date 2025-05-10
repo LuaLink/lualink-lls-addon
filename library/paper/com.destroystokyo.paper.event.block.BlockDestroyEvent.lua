@@ -8,7 +8,7 @@
 ---@field private playEffect boolean
 ---@field private effectBlock org.bukkit.block.data.BlockData
 ---@field private cancelled boolean
----@overload fun(block: Block, newState: BlockData, effectBlock: BlockData, xp: number, willDrop: boolean): BlockDestroyEvent
+---@overload fun(block: Block, newState: BlockData, effectBlock: BlockData, xp: number, willDrop: boolean): com.destroystokyo.paper.event.block.BlockDestroyEvent
 local BlockDestroyEvent = {}
 
 ---@public

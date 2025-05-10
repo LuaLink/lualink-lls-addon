@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.entity.SheepRegrowWoolEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cancelled boolean
----@overload fun(sheep: Sheep): SheepRegrowWoolEvent
+---@overload fun(sheep: Sheep): org.bukkit.event.entity.SheepRegrowWoolEvent
 local SheepRegrowWoolEvent = {}
 
 ---@public

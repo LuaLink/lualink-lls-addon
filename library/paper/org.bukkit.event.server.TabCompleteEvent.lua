@@ -9,8 +9,8 @@
 ---@field private location org.bukkit.Location
 ---@field private completions java.util.List
 ---@field private cancelled boolean
----@overload fun(sender: CommandSender, buffer: string, completions: table<string>): TabCompleteEvent
----@overload fun(sender: CommandSender, buffer: string, completions: table<string>, isCommand: boolean, location: Location): TabCompleteEvent
+---@overload fun(sender: CommandSender, buffer: string, completions: table<string>): org.bukkit.event.server.TabCompleteEvent
+---@overload fun(sender: CommandSender, buffer: string, completions: table<string>, isCommand: boolean, location: Location): org.bukkit.event.server.TabCompleteEvent
 local TabCompleteEvent = {}
 
 ---@public

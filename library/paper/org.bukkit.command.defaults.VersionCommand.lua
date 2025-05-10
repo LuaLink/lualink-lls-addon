@@ -8,7 +8,7 @@
 ---@field private versionWaiters java.util.Set
 ---@field private versionTaskStarted boolean
 ---@field private lastCheck number
----@overload fun(name: string): VersionCommand
+---@overload fun(name: string): org.bukkit.command.defaults.VersionCommand
 local VersionCommand = {}
 
 ---@private

@@ -4,7 +4,7 @@
 ---@field private context net.kyori.adventure.text.minimessage.Context
 ---@field public args java.util.List
 ---@field private ptr number
----@overload fun(context: Context, args: table<T>): ArgumentQueueImpl
+---@overload fun(context: Context, args: table<T>): net.kyori.adventure.text.minimessage.ArgumentQueueImpl
 local ArgumentQueueImpl = {}
 
 ---@public

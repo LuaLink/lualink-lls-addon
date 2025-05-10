@@ -6,7 +6,7 @@
 ---@field private type org.bukkit.potion.PotionEffectType
 ---@field private amplifier number
 ---@field private cancelled boolean
----@overload fun(entity: LivingEntity, type: PotionEffectType, amplifier: number): EntityEffectTickEvent
+---@overload fun(entity: LivingEntity, type: PotionEffectType, amplifier: number): io.papermc.paper.event.entity.EntityEffectTickEvent
 local EntityEffectTickEvent = {}
 
 ---@public

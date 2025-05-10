@@ -28,3 +28,13 @@ function PotionContents:customEffects() end
 --- Suffix to the translation key of the potion item.
 function PotionContents:customName() end
 
+---@public
+---@return java.util.List an unmodifiable list of all effects.
+--- All effects that this component applies. <p> This is a combination of the base potion type and any custom effects.
+function PotionContents:allEffects() end
+
+---@public
+---@return org.bukkit.Color the effective colour this component would display with.
+--- Computes the effective colour of this potion contents component. <p> This blends all custom effects, or uses a default fallback colour. It may or may not have an alpha channel, used for tipped arrows.
+function PotionContents:computeEffectiveColor() end
+

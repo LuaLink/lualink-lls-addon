@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.entity.EntityRemoveEvent: org.bukkit.event.entity.EntityEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cause org.bukkit.event.entity.EntityRemoveEvent.Cause
----@overload fun(entity: Entity, cause: Cause): EntityRemoveEvent
+---@overload fun(entity: Entity, cause: Cause): org.bukkit.event.entity.EntityRemoveEvent
 local EntityRemoveEvent = {}
 
 ---@public

@@ -4,7 +4,7 @@
 ---@field public NONE_VALUE number
 ---@field public NONE net.kyori.adventure.text.format.ShadowColorImpl
 ---@field private value number
----@overload fun(value: number): ShadowColorImpl
+---@overload fun(value: number): net.kyori.adventure.text.format.ShadowColorImpl
 local ShadowColorImpl = {}
 
 ---@public

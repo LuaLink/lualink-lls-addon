@@ -2,7 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.Placeholder
 ---@class net.kyori.adventure.text.minimessage.tag.resolver.Placeholder
----@overload fun(): Placeholder
+---@overload fun(): net.kyori.adventure.text.minimessage.tag.resolver.Placeholder
 local Placeholder = {}
 
 ---@param key string the key

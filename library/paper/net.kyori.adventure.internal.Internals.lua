@@ -2,7 +2,7 @@
 ---@meta
 -- net.kyori.adventure.internal.Internals
 ---@class net.kyori.adventure.internal.Internals
----@overload fun(): Internals
+---@overload fun(): net.kyori.adventure.internal.Internals
 local Internals = {}
 
 ---@param examinable any the examinable

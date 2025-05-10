@@ -5,7 +5,7 @@
 ---@field private lens java.util.function.Function
 ---@field private filter java.util.function.Predicate
 ---@field private emitable java.util.function.BiConsumer
----@overload fun(claimKey: string, lens: Function<Style, V>?, filter: Predicate<V>, emitable: BiConsumer<V, TokenEmitter>): StyleClaimImpl
+---@overload fun(claimKey: string, lens: Function<Style, V>?, filter: Predicate<V>, emitable: BiConsumer<V, TokenEmitter>): net.kyori.adventure.text.minimessage.internal.serializer.StyleClaimImpl
 local StyleClaimImpl = {}
 
 ---@public

@@ -18,7 +18,7 @@
 ---@field public BLUE number
 ---@field public DARK_BROWN number
 ---@field private mapColorCache org.bukkit.map.MapPalette.MapColorCache
----@overload fun(): MapPalette
+---@overload fun(): org.bukkit.map.MapPalette
 local MapPalette = {}
 
 ---@param c1 java.awt.Color 

@@ -37,7 +37,7 @@
 ---@field public VILLAGE_SAVANNA io.papermc.paper.registry.TypedKey
 ---@field public VILLAGE_SNOWY io.papermc.paper.registry.TypedKey
 ---@field public VILLAGE_TAIGA io.papermc.paper.registry.TypedKey
----@overload fun(): MapDecorationTypeKeys
+---@overload fun(): io.papermc.paper.registry.keys.MapDecorationTypeKeys
 local MapDecorationTypeKeys = {}
 
 ---@param key any 

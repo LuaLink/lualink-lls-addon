@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.material.Bed
 ---@class org.bukkit.material.Bed: org.bukkit.material.MaterialData, org.bukkit.material.Directional
----@overload fun(): Bed
----@overload fun(direction: BlockFace): Bed
----@overload fun(type: Material): Bed
----@overload fun(type: Material, data: number): Bed
+---@overload fun(): org.bukkit.material.Bed
+---@overload fun(direction: BlockFace): org.bukkit.material.Bed
+---@overload fun(type: Material): org.bukkit.material.Bed
+---@overload fun(type: Material, data: number): org.bukkit.material.Bed
 local Bed = {}
 
 ---@public

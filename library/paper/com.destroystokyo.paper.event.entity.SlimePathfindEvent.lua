@@ -4,7 +4,7 @@
 ---@class com.destroystokyo.paper.event.entity.SlimePathfindEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cancelled boolean
----@overload fun(slime: Slime): SlimePathfindEvent
+---@overload fun(slime: Slime): com.destroystokyo.paper.event.entity.SlimePathfindEvent
 local SlimePathfindEvent = {}
 
 ---@public

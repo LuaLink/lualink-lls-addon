@@ -7,7 +7,7 @@
 ---@field private newSpawn org.bukkit.Location
 ---@field private forced boolean
 ---@field private cancelled boolean
----@overload fun(player: Player, newSpawn: Location, forced: boolean, cause: Cause): PlayerSpawnChangeEvent
+---@overload fun(player: Player, newSpawn: Location, forced: boolean, cause: Cause): org.bukkit.event.player.PlayerSpawnChangeEvent
 local PlayerSpawnChangeEvent = {}
 
 ---@public

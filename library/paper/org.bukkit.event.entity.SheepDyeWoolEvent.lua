@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.event.entity.SheepDyeWoolEvent
 ---@class org.bukkit.event.entity.SheepDyeWoolEvent: io.papermc.paper.event.entity.EntityDyeEvent
----@overload fun(sheep: Sheep, color: DyeColor): SheepDyeWoolEvent
----@overload fun(sheep: Sheep, color: DyeColor, player: Player): SheepDyeWoolEvent
+---@overload fun(sheep: Sheep, color: DyeColor): org.bukkit.event.entity.SheepDyeWoolEvent
+---@overload fun(sheep: Sheep, color: DyeColor, player: Player): org.bukkit.event.entity.SheepDyeWoolEvent
 local SheepDyeWoolEvent = {}
 
 ---@public

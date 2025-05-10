@@ -46,7 +46,7 @@
 ---@field public VISIBLE_ADULT_HOGLIN_COUNT org.bukkit.entity.memory.MemoryKey
 ---@field public VISIBLE_ADULT_PIGLIN_COUNT org.bukkit.entity.memory.MemoryKey
 ---@field public SNIFFER_EXPLORED_POSITIONS org.bukkit.entity.memory.MemoryKey
----@overload fun(namespacedKey: NamespacedKey, tClass: T?): MemoryKey
+---@overload fun(namespacedKey: NamespacedKey, tClass: T?): org.bukkit.entity.memory.MemoryKey
 local MemoryKey = {}
 
 ---@public

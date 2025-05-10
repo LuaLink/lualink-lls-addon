@@ -3,7 +3,7 @@
 -- org.bukkit.Bukkit
 ---@class org.bukkit.Bukkit
 ---@field private server org.bukkit.Server
----@overload fun(): Bukkit
+---@overload fun(): org.bukkit.Bukkit
 local Bukkit = {}
 
 ---@public
@@ -598,6 +598,11 @@ function Bukkit:getHideOnlinePlayers() end
 ---@return boolean true if the server authenticates clients, false otherwise
 --- Gets whether the Server is in online mode or not.
 function Bukkit:getOnlineMode() end
+
+---@public
+---@return io.papermc.paper.configuration.ServerConfiguration the instance of ServerConfiguration containing the server's configuration details
+--- Retrieves the server configuration.
+function Bukkit:getServerConfig() end
 
 ---@public
 ---@return boolean true if the server allows flight, false otherwise

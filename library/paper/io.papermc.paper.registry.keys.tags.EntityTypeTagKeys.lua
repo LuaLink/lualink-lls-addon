@@ -39,7 +39,7 @@
 ---@field public UNDEAD io.papermc.paper.registry.tag.TagKey
 ---@field public WITHER_FRIENDS io.papermc.paper.registry.tag.TagKey
 ---@field public ZOMBIES io.papermc.paper.registry.tag.TagKey
----@overload fun(): EntityTypeTagKeys
+---@overload fun(): io.papermc.paper.registry.keys.tags.EntityTypeTagKeys
 local EntityTypeTagKeys = {}
 
 ---@param key any the tag key's key

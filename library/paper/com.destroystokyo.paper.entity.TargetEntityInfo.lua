@@ -4,7 +4,7 @@
 ---@class com.destroystokyo.paper.entity.TargetEntityInfo
 ---@field private entity org.bukkit.entity.Entity
 ---@field private hitVec org.bukkit.util.Vector
----@overload fun(entity: Entity, hitVec: Vector): TargetEntityInfo
+---@overload fun(entity: Entity, hitVec: Vector): com.destroystokyo.paper.entity.TargetEntityInfo
 local TargetEntityInfo = {}
 
 ---@public

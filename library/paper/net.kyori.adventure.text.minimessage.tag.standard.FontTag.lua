@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.text.minimessage.tag.standard.FontTag
 ---@field public FONT string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(): FontTag
+---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.FontTag
 local FontTag = {}
 
 ---@param args net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue 

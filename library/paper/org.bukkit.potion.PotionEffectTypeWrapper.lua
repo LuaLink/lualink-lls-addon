@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.potion.PotionEffectTypeWrapper
 ---@class org.bukkit.potion.PotionEffectTypeWrapper: org.bukkit.potion.PotionEffectType
----@overload fun(): PotionEffectTypeWrapper
+---@overload fun(): org.bukkit.potion.PotionEffectTypeWrapper
 local PotionEffectTypeWrapper = {}
 
 ---@public

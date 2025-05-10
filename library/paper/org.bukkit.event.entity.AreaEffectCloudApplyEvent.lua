@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private affectedEntities java.util.List
 ---@field private cancelled boolean
----@overload fun(entity: AreaEffectCloud, affectedEntities: table<LivingEntity>): AreaEffectCloudApplyEvent
+---@overload fun(entity: AreaEffectCloud, affectedEntities: table<LivingEntity>): org.bukkit.event.entity.AreaEffectCloudApplyEvent
 local AreaEffectCloudApplyEvent = {}
 
 ---@public

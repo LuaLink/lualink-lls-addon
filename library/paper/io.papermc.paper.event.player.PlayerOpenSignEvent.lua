@@ -7,7 +7,7 @@
 ---@field private side org.bukkit.block.sign.Side
 ---@field private cause io.papermc.paper.event.player.PlayerOpenSignEvent.Cause
 ---@field private cancelled boolean
----@overload fun(editor: Player, sign: Sign, side: Side, cause: Cause): PlayerOpenSignEvent
+---@overload fun(editor: Player, sign: Sign, side: Side, cause: Cause): io.papermc.paper.event.player.PlayerOpenSignEvent
 local PlayerOpenSignEvent = {}
 
 ---@public

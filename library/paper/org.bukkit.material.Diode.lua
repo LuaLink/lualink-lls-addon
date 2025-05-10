@@ -5,12 +5,12 @@
 ---@field protected DEFAULT_DIRECTION org.bukkit.block.BlockFace
 ---@field protected DEFAULT_DELAY number
 ---@field protected DEFAULT_STATE boolean
----@overload fun(): Diode
----@overload fun(facingDirection: BlockFace): Diode
----@overload fun(facingDirection: BlockFace, delay: number): Diode
----@overload fun(facingDirection: BlockFace, delay: number, state: boolean): Diode
----@overload fun(type: Material): Diode
----@overload fun(type: Material, data: number): Diode
+---@overload fun(): org.bukkit.material.Diode
+---@overload fun(facingDirection: BlockFace): org.bukkit.material.Diode
+---@overload fun(facingDirection: BlockFace, delay: number): org.bukkit.material.Diode
+---@overload fun(facingDirection: BlockFace, delay: number, state: boolean): org.bukkit.material.Diode
+---@overload fun(type: Material): org.bukkit.material.Diode
+---@overload fun(type: Material, data: number): org.bukkit.material.Diode
 local Diode = {}
 
 ---@param delay number The new delay (1-4)

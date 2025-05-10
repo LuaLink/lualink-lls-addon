@@ -7,14 +7,14 @@
 ---@field private children java.util.Map
 ---@field private defaultValue org.bukkit.permissions.PermissionDefault
 ---@field private description string
----@overload fun(name: string): Permission
----@overload fun(name: string, description: string): Permission
----@overload fun(name: string, defaultValue: PermissionDefault): Permission
----@overload fun(name: string, description: string, defaultValue: PermissionDefault): Permission
----@overload fun(name: string, children: table<string, Boolean>): Permission
----@overload fun(name: string, description: string, children: table<string, Boolean>): Permission
----@overload fun(name: string, defaultValue: PermissionDefault, children: table<string, Boolean>): Permission
----@overload fun(name: string, description: string, defaultValue: PermissionDefault, children: table<string, Boolean>): Permission
+---@overload fun(name: string): org.bukkit.permissions.Permission
+---@overload fun(name: string, description: string): org.bukkit.permissions.Permission
+---@overload fun(name: string, defaultValue: PermissionDefault): org.bukkit.permissions.Permission
+---@overload fun(name: string, description: string, defaultValue: PermissionDefault): org.bukkit.permissions.Permission
+---@overload fun(name: string, children: table<string, Boolean>): org.bukkit.permissions.Permission
+---@overload fun(name: string, description: string, children: table<string, Boolean>): org.bukkit.permissions.Permission
+---@overload fun(name: string, defaultValue: PermissionDefault, children: table<string, Boolean>): org.bukkit.permissions.Permission
+---@overload fun(name: string, description: string, defaultValue: PermissionDefault, children: table<string, Boolean>): org.bukkit.permissions.Permission
 local Permission = {}
 
 ---@public

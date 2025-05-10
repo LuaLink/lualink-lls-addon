@@ -153,3 +153,8 @@ function BlockState:getDrops(tool) end
 --- Returns an immutable list of items which would drop by the entity destroying this block state with a specific tool
 function BlockState:getDrops(tool, entity) end
 
+---@public
+---@return boolean {@code true} if the block state can suffocate
+--- Checks if the block state can suffocate.
+function BlockState:isSuffocating() end
+

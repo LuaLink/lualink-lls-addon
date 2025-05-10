@@ -7,7 +7,7 @@
 ---@field private itemStack org.bukkit.inventory.ItemStack
 ---@field private consumeItem boolean
 ---@field private cancelled boolean
----@overload fun(shooter: Player, itemStack: ItemStack, projectile: Projectile): PlayerLaunchProjectileEvent
+---@overload fun(shooter: Player, itemStack: ItemStack, projectile: Projectile): com.destroystokyo.paper.event.player.PlayerLaunchProjectileEvent
 local PlayerLaunchProjectileEvent = {}
 
 ---@public

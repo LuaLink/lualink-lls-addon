@@ -3,7 +3,7 @@
 -- org.bukkit.event.server.PluginDisableEvent
 ---@class org.bukkit.event.server.PluginDisableEvent: org.bukkit.event.server.PluginEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
----@overload fun(plugin: Plugin): PluginDisableEvent
+---@overload fun(plugin: Plugin): org.bukkit.event.server.PluginDisableEvent
 local PluginDisableEvent = {}
 
 ---@public

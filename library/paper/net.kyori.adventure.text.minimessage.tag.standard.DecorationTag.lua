@@ -11,7 +11,7 @@
 ---@field public REVERT string
 ---@field public RESOLVERS java.util.Map
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(): DecorationTag
+---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.DecorationTag
 local DecorationTag = {}
 
 ---@param decoration net.kyori.adventure.text.format.TextDecoration 

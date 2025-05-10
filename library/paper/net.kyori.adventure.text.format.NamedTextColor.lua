@@ -39,7 +39,7 @@
 ---@field private name string
 ---@field private value number
 ---@field private hsv net.kyori.adventure.util.HSVLike
----@overload fun(name: string, value: number): NamedTextColor
+---@overload fun(name: string, value: number): net.kyori.adventure.text.format.NamedTextColor
 local NamedTextColor = {}
 
 ---@param value number the color to match

@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private power number
 ---@field private cancelled boolean
----@overload fun(horse: AbstractHorse, power: number): HorseJumpEvent
+---@overload fun(horse: AbstractHorse, power: number): org.bukkit.event.entity.HorseJumpEvent
 local HorseJumpEvent = {}
 
 ---@public

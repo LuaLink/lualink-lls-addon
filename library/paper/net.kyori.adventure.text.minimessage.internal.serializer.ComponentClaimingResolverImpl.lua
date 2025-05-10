@@ -4,7 +4,7 @@
 ---@field private names java.util.Set
 ---@field private handler java.util.function.BiFunction
 ---@field private componentClaim java.util.function.Function
----@overload fun(names: table<string>, handler: BiFunction<ArgumentQueue, Context, Tag>, componentClaim: Function<Component, Emitable>?): ComponentClaimingResolverImpl
+---@overload fun(names: table<string>, handler: BiFunction<ArgumentQueue, Context, Tag>, componentClaim: Function<Component, Emitable>?): net.kyori.adventure.text.minimessage.internal.serializer.ComponentClaimingResolverImpl
 local ComponentClaimingResolverImpl = {}
 
 ---@param name string 

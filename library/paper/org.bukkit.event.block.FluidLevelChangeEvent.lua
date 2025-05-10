@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private newData org.bukkit.block.data.BlockData
 ---@field private cancelled boolean
----@overload fun(fluid: Block, newData: BlockData): FluidLevelChangeEvent
+---@overload fun(fluid: Block, newData: BlockData): org.bukkit.event.block.FluidLevelChangeEvent
 local FluidLevelChangeEvent = {}
 
 ---@public

@@ -9,9 +9,9 @@
 ---@field private entityType org.bukkit.entity.EntityType
 ---@field private material org.bukkit.Material
 ---@field private cancelled boolean
----@overload fun(player: Player, statistic: Statistic, initialValue: number, newValue: number): PlayerStatisticIncrementEvent
----@overload fun(player: Player, statistic: Statistic, initialValue: number, newValue: number, entityType: EntityType): PlayerStatisticIncrementEvent
----@overload fun(player: Player, statistic: Statistic, initialValue: number, newValue: number, material: Material): PlayerStatisticIncrementEvent
+---@overload fun(player: Player, statistic: Statistic, initialValue: number, newValue: number): org.bukkit.event.player.PlayerStatisticIncrementEvent
+---@overload fun(player: Player, statistic: Statistic, initialValue: number, newValue: number, entityType: EntityType): org.bukkit.event.player.PlayerStatisticIncrementEvent
+---@overload fun(player: Player, statistic: Statistic, initialValue: number, newValue: number, material: Material): org.bukkit.event.player.PlayerStatisticIncrementEvent
 local PlayerStatisticIncrementEvent = {}
 
 ---@public

@@ -5,7 +5,7 @@
 ---@field private replacement java.util.function.BiFunction
 ---@field private continuer net.kyori.adventure.text.TextReplacementConfig.Condition
 ---@field private replaceInsideHoverEvents boolean
----@overload fun(builder: Builder): TextReplacementConfigImpl
+---@overload fun(builder: Builder): net.kyori.adventure.text.TextReplacementConfigImpl
 local TextReplacementConfigImpl = {}
 
 ---@public

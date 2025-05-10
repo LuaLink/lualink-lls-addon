@@ -4,7 +4,7 @@
 ---@class com.destroystokyo.paper.event.profile.LookupProfileEvent: org.bukkit.event.Event
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private profile com.destroystokyo.paper.profile.PlayerProfile
----@overload fun(profile: PlayerProfile): LookupProfileEvent
+---@overload fun(profile: PlayerProfile): com.destroystokyo.paper.event.profile.LookupProfileEvent
 local LookupProfileEvent = {}
 
 ---@public

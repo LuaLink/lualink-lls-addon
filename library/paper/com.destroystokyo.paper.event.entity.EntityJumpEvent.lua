@@ -4,7 +4,7 @@
 ---@class com.destroystokyo.paper.event.entity.EntityJumpEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cancelled boolean
----@overload fun(entity: LivingEntity): EntityJumpEvent
+---@overload fun(entity: LivingEntity): com.destroystokyo.paper.event.entity.EntityJumpEvent
 local EntityJumpEvent = {}
 
 ---@public

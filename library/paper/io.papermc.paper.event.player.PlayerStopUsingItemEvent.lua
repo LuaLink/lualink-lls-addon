@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private item org.bukkit.inventory.ItemStack
 ---@field private ticksHeldFor number
----@overload fun(player: Player, item: ItemStack, ticksHeldFor: number): PlayerStopUsingItemEvent
+---@overload fun(player: Player, item: ItemStack, ticksHeldFor: number): io.papermc.paper.event.player.PlayerStopUsingItemEvent
 local PlayerStopUsingItemEvent = {}
 
 ---@public

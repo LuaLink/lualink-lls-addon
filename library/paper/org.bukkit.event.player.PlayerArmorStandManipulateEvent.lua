@@ -6,8 +6,8 @@
 ---@field private playerItem org.bukkit.inventory.ItemStack
 ---@field private armorStandItem org.bukkit.inventory.ItemStack
 ---@field private slot org.bukkit.inventory.EquipmentSlot
----@overload fun(player: Player, clickedEntity: ArmorStand, playerItem: ItemStack, armorStandItem: ItemStack, slot: EquipmentSlot, hand: EquipmentSlot): PlayerArmorStandManipulateEvent
----@overload fun(player: Player, clickedEntity: ArmorStand, playerItem: ItemStack, armorStandItem: ItemStack, slot: EquipmentSlot): PlayerArmorStandManipulateEvent
+---@overload fun(player: Player, clickedEntity: ArmorStand, playerItem: ItemStack, armorStandItem: ItemStack, slot: EquipmentSlot, hand: EquipmentSlot): org.bukkit.event.player.PlayerArmorStandManipulateEvent
+---@overload fun(player: Player, clickedEntity: ArmorStand, playerItem: ItemStack, armorStandItem: ItemStack, slot: EquipmentSlot): org.bukkit.event.player.PlayerArmorStandManipulateEvent
 local PlayerArmorStandManipulateEvent = {}
 
 ---@public

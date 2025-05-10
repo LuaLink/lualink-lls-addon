@@ -425,3 +425,8 @@ function Block:getDestroySpeed(itemStack) end
 --- Gets the speed at which this block will be destroyed by a given {@link ItemStack} <p> Default value is 1.0
 function Block:getDestroySpeed(itemStack, considerEnchants) end
 
+---@public
+---@return boolean {@code true} if the block can suffocate
+--- Checks if the block can suffocate.
+function Block:isSuffocating() end
+

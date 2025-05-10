@@ -7,9 +7,9 @@
 ---@field private leaveMessage net.kyori.adventure.text.Component
 ---@field private cause org.bukkit.event.player.PlayerKickEvent.Cause
 ---@field private cancelled boolean
----@overload fun(playerKicked: Player, kickReason: string, leaveMessage: string): PlayerKickEvent
----@overload fun(playerKicked: Player, kickReason: Component, leaveMessage: Component): PlayerKickEvent
----@overload fun(playerKicked: Player, kickReason: Component, leaveMessage: Component, cause: Cause): PlayerKickEvent
+---@overload fun(playerKicked: Player, kickReason: string, leaveMessage: string): org.bukkit.event.player.PlayerKickEvent
+---@overload fun(playerKicked: Player, kickReason: Component, leaveMessage: Component): org.bukkit.event.player.PlayerKickEvent
+---@overload fun(playerKicked: Player, kickReason: Component, leaveMessage: Component, cause: Cause): org.bukkit.event.player.PlayerKickEvent
 local PlayerKickEvent = {}
 
 ---@public

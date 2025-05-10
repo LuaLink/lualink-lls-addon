@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.material.DetectorRail
 ---@class org.bukkit.material.DetectorRail: org.bukkit.material.ExtendedRails, org.bukkit.material.PressureSensor
----@overload fun(): DetectorRail
----@overload fun(type: Material): DetectorRail
----@overload fun(type: Material, data: number): DetectorRail
+---@overload fun(): org.bukkit.material.DetectorRail
+---@overload fun(type: Material): org.bukkit.material.DetectorRail
+---@overload fun(type: Material, data: number): org.bukkit.material.DetectorRail
 local DetectorRail = {}
 
 ---@public

@@ -9,7 +9,7 @@
 ---@field public SNOW io.papermc.paper.registry.TypedKey
 ---@field public SWAMP io.papermc.paper.registry.TypedKey
 ---@field public TAIGA io.papermc.paper.registry.TypedKey
----@overload fun(): VillagerTypeKeys
+---@overload fun(): io.papermc.paper.registry.keys.VillagerTypeKeys
 local VillagerTypeKeys = {}
 
 ---@param key any 

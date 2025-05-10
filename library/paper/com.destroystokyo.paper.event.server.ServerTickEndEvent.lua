@@ -6,7 +6,7 @@
 ---@field private tickNumber number
 ---@field private tickDuration number
 ---@field private timeEnd number
----@overload fun(tickNumber: number, tickDuration: number, timeRemaining: number): ServerTickEndEvent
+---@overload fun(tickNumber: number, tickDuration: number, timeRemaining: number): com.destroystokyo.paper.event.server.ServerTickEndEvent
 local ServerTickEndEvent = {}
 
 ---@public

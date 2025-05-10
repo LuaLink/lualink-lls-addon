@@ -3,7 +3,7 @@
 -- net.kyori.adventure.text.event.DataComponentValueConverterRegistry
 ---@class net.kyori.adventure.text.event.DataComponentValueConverterRegistry
 ---@field private PROVIDERS java.util.Set
----@overload fun(): DataComponentValueConverterRegistry
+---@overload fun(): net.kyori.adventure.text.event.DataComponentValueConverterRegistry
 local DataComponentValueConverterRegistry = {}
 
 ---@public

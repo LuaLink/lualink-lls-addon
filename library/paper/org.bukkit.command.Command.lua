@@ -13,8 +13,8 @@
 ---@field private permission string
 ---@field private permissionMessage net.kyori.adventure.text.Component
 ---@field public timings co.aikar.timings.Timing
----@overload fun(name: string): Command
----@overload fun(name: string, description: string, usageMessage: string, aliases: table<string>): Command
+---@overload fun(name: string): org.bukkit.command.Command
+---@overload fun(name: string, description: string, usageMessage: string, aliases: table<string>): org.bukkit.command.Command
 local Command = {}
 
 ---@deprecated

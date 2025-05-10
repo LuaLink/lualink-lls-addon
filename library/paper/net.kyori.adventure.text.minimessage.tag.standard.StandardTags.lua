@@ -3,7 +3,7 @@
 -- net.kyori.adventure.text.minimessage.tag.standard.StandardTags
 ---@class net.kyori.adventure.text.minimessage.tag.standard.StandardTags
 ---@field private ALL net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(): StandardTags
+---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.StandardTags
 local StandardTags = {}
 
 ---@param decoration net.kyori.adventure.text.format.TextDecoration the decoration to have a tag for

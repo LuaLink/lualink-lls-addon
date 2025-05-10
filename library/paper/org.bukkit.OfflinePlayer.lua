@@ -147,9 +147,15 @@ function OfflinePlayer:getLastLogin() end
 function OfflinePlayer:getLastSeen() end
 
 ---@public
----@return org.bukkit.Location respawn location if exists, otherwise null.
---- Gets the Location where the player will spawn at, null if they don't have a valid respawn point.
+---@return org.bukkit.Location respawn location if exists, otherwise {@code null}.
+--- Gets the Location where the player will spawn at, {@code null} if they don't have a valid respawn point. <br> Unlike online players, the location if found will not be loaded by default.
 function OfflinePlayer:getRespawnLocation() end
+
+---@param loadLocationAndValidate boolean load the expected respawn location to retrieve the exact position of the spawn                                block and check if this position is still valid or not. Loading the location                                will induce a sync chunk load and must hence be used with caution.
+---@public
+---@return org.bukkit.Location respawn location if exists, otherwise {@code null}.
+--- Gets the Location where the player will spawn at, {@code null} if they don't have a valid respawn point.
+function OfflinePlayer:getRespawnLocation(loadLocationAndValidate) end
 
 ---@param statistic org.bukkit.Statistic Statistic to increment
 ---@public

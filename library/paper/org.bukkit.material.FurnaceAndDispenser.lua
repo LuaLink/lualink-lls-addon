@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.material.FurnaceAndDispenser
 ---@class org.bukkit.material.FurnaceAndDispenser: org.bukkit.material.DirectionalContainer
----@overload fun(type: Material): FurnaceAndDispenser
----@overload fun(type: Material, data: number): FurnaceAndDispenser
+---@overload fun(type: Material): org.bukkit.material.FurnaceAndDispenser
+---@overload fun(type: Material, data: number): org.bukkit.material.FurnaceAndDispenser
 local FurnaceAndDispenser = {}
 
 ---@public

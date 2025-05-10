@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.event.inventory.PrepareAnvilEvent
 ---@class org.bukkit.event.inventory.PrepareAnvilEvent: com.destroystokyo.paper.event.inventory.PrepareResultEvent
----@overload fun(inventory: AnvilView, result: ItemStack): PrepareAnvilEvent
+---@overload fun(inventory: AnvilView, result: ItemStack): org.bukkit.event.inventory.PrepareAnvilEvent
 local PrepareAnvilEvent = {}
 
 ---@public

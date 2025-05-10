@@ -6,7 +6,7 @@
 ---@field private player org.bukkit.entity.Player
 ---@field private dispensedLoot java.util.List
 ---@field private cancelled boolean
----@overload fun(player: Player, block: Block, dispensedLoot: table<ItemStack>): BlockDispenseLootEvent
+---@overload fun(player: Player, block: Block, dispensedLoot: table<ItemStack>): org.bukkit.event.block.BlockDispenseLootEvent
 local BlockDispenseLootEvent = {}
 
 ---@public

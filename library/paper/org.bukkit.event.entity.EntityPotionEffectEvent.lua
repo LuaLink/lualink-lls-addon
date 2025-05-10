@@ -9,7 +9,7 @@
 ---@field private action org.bukkit.event.entity.EntityPotionEffectEvent.Action
 ---@field private override boolean
 ---@field private cancelled boolean
----@overload fun(livingEntity: LivingEntity, oldEffect: PotionEffect, newEffect: PotionEffect, cause: Cause, action: Action, override: boolean): EntityPotionEffectEvent
+---@overload fun(livingEntity: LivingEntity, oldEffect: PotionEffect, newEffect: PotionEffect, cause: Cause, action: Action, override: boolean): org.bukkit.event.entity.EntityPotionEffectEvent
 local EntityPotionEffectEvent = {}
 
 ---@public

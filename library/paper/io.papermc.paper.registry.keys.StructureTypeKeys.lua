@@ -18,7 +18,7 @@
 ---@field public STRONGHOLD io.papermc.paper.registry.TypedKey
 ---@field public SWAMP_HUT io.papermc.paper.registry.TypedKey
 ---@field public WOODLAND_MANSION io.papermc.paper.registry.TypedKey
----@overload fun(): StructureTypeKeys
+---@overload fun(): io.papermc.paper.registry.keys.StructureTypeKeys
 local StructureTypeKeys = {}
 
 ---@param key any 

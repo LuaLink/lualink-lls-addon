@@ -10,8 +10,8 @@
 ---@field private rawSlot number
 ---@field private current org.bukkit.inventory.ItemStack
 ---@field private hotbarKey number
----@overload fun(view: InventoryView, type: SlotType, slot: number, click: ClickType, action: InventoryAction): InventoryClickEvent
----@overload fun(view: InventoryView, type: SlotType, slot: number, click: ClickType, action: InventoryAction, key: number): InventoryClickEvent
+---@overload fun(view: InventoryView, type: SlotType, slot: number, click: ClickType, action: InventoryAction): org.bukkit.event.inventory.InventoryClickEvent
+---@overload fun(view: InventoryView, type: SlotType, slot: number, click: ClickType, action: InventoryAction, key: number): org.bukkit.event.inventory.InventoryClickEvent
 local InventoryClickEvent = {}
 
 ---@public
@@ -73,8 +73,8 @@ function InventoryClickEvent:getSlot() end
 function InventoryClickEvent:getRawSlot() end
 
 ---@public
----@return number the number on the key minus 1 (range 0-8); or -1 if not     a NUMBER_KEY action
---- If the ClickType is NUMBER_KEY, this method will return the index of the pressed key (0-8).
+---@return number the number on the key minus 1 (range 0-8); or -1 if ClickType is NUMBER_KEY and player did an off-hand swap. Is also -1 if ClickType is not NUMBER_KEY
+--- If the ClickType is NUMBER_KEY, this method will return the index of the pressed key (0-8) and -1 if player swapped with off-hand (or the action is not NUMBER_KEY).
 function InventoryClickEvent:getHotbarButton() end
 
 ---@public

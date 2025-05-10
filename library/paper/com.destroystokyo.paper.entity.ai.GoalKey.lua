@@ -4,7 +4,7 @@
 ---@class com.destroystokyo.paper.entity.ai.GoalKey
 ---@field private entityClass java.lang.Class
 ---@field private namespacedKey org.bukkit.NamespacedKey
----@overload fun(entityClass: T?, namespacedKey: NamespacedKey): GoalKey
+---@overload fun(entityClass: T?, namespacedKey: NamespacedKey): com.destroystokyo.paper.entity.ai.GoalKey
 local GoalKey = {}
 
 ---@public

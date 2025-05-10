@@ -12,7 +12,7 @@
 ---@field private allowsServerListings boolean
 ---@field private textFilteringEnabled boolean
 ---@field private particleVisibility com.destroystokyo.paper.ClientOption.ParticleVisibility
----@overload fun(player: Player, options: table<ClientOption<?>, ?>): PlayerClientOptionsChangeEvent
+---@overload fun(player: Player, options: table<ClientOption<?>, ?>): com.destroystokyo.paper.event.player.PlayerClientOptionsChangeEvent
 local PlayerClientOptionsChangeEvent = {}
 
 ---@public

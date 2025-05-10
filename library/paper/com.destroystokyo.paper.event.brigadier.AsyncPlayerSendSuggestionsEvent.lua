@@ -6,7 +6,7 @@
 ---@field private cancelled boolean
 ---@field private suggestions any
 ---@field private buffer string
----@overload fun(player: Player, suggestions: Suggestions, buffer: string): AsyncPlayerSendSuggestionsEvent
+---@overload fun(player: Player, suggestions: Suggestions, buffer: string): com.destroystokyo.paper.event.brigadier.AsyncPlayerSendSuggestionsEvent
 local AsyncPlayerSendSuggestionsEvent = {}
 
 ---@public

@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.text.AbstractComponent: net.kyori.adventure.text.Component
 ---@field protected children java.util.List
 ---@field protected style net.kyori.adventure.text.format.Style
----@overload fun(children: table<? extends ComponentLike>, style: Style): AbstractComponent
+---@overload fun(children: table<? extends ComponentLike>, style: Style): net.kyori.adventure.text.AbstractComponent
 local AbstractComponent = {}
 
 ---@public

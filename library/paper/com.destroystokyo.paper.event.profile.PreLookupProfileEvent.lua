@@ -6,7 +6,7 @@
 ---@field private name string
 ---@field private uuid java.util.UUID
 ---@field private properties java.util.Set
----@overload fun(name: string): PreLookupProfileEvent
+---@overload fun(name: string): com.destroystokyo.paper.event.profile.PreLookupProfileEvent
 local PreLookupProfileEvent = {}
 
 ---@public

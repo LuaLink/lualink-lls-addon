@@ -17,7 +17,7 @@
 ---@field public SHEPHERD io.papermc.paper.registry.TypedKey
 ---@field public TOOLSMITH io.papermc.paper.registry.TypedKey
 ---@field public WEAPONSMITH io.papermc.paper.registry.TypedKey
----@overload fun(): VillagerProfessionKeys
+---@overload fun(): io.papermc.paper.registry.keys.VillagerProfessionKeys
 local VillagerProfessionKeys = {}
 
 ---@param key any 

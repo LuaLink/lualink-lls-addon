@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private ignited boolean
 ---@field private cancelled boolean
----@overload fun(creeper: Creeper, ignited: boolean): CreeperIgniteEvent
+---@overload fun(creeper: Creeper, ignited: boolean): com.destroystokyo.paper.event.entity.CreeperIgniteEvent
 local CreeperIgniteEvent = {}
 
 ---@public

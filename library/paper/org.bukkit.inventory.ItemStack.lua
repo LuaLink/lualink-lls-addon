@@ -1,16 +1,16 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.ItemStack
----@class org.bukkit.inventory.ItemStack: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, org.bukkit.Translatable, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.translation.Translatable, io.papermc.paper.persistence.PersistentDataViewHolder
+---@class org.bukkit.inventory.ItemStack: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, org.bukkit.Translatable, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.translation.Translatable, io.papermc.paper.persistence.PersistentDataViewHolder, io.papermc.paper.datacomponent.DataComponentHolder
 ---@field private craftDelegate org.bukkit.inventory.ItemStack
 ---@field private data org.bukkit.material.MaterialData
 ---@field private ARRAY_SERIALIZATION_VERSION number
----@overload fun(): ItemStack
----@overload fun(type: Material): ItemStack
----@overload fun(type: Material, amount: number): ItemStack
----@overload fun(type: Material, amount: number, damage: number): ItemStack
----@overload fun(type: Material, amount: number, damage: number, data: Byte): ItemStack
----@overload fun(stack: ItemStack): ItemStack
+---@overload fun(): org.bukkit.inventory.ItemStack
+---@overload fun(type: Material): org.bukkit.inventory.ItemStack
+---@overload fun(type: Material, amount: number): org.bukkit.inventory.ItemStack
+---@overload fun(type: Material, amount: number, damage: number): org.bukkit.inventory.ItemStack
+---@overload fun(type: Material, amount: number, damage: number, data: Byte): org.bukkit.inventory.ItemStack
+---@overload fun(stack: ItemStack): org.bukkit.inventory.ItemStack
 local ItemStack = {}
 
 ---@param type org.bukkit.Material the item type to use
@@ -238,9 +238,10 @@ function ItemStack:enchantWithLevels(levels, allowTreasure, random) end
 --- Randomly enchants a copy of this {@link ItemStack} using the given experience levels.  <p>If the provided ItemStack is already enchanted, the existing enchants will be removed before enchanting.</p>  <p>Enchantment tables use levels in the range {@code [1, 30]}.</p>
 function ItemStack:enchantWithLevels(levels, keySet, random) end
 
----@param op java.util.function.UnaryOperator 
+---@param op java.util.function.UnaryOperator transformation on value
 ---@public
----@return net.kyori.adventure.text.event.HoverEvent 
+---@return net.kyori.adventure.text.event.HoverEvent a hover event
+--- {@inheritDoc}
 function ItemStack:asHoverEvent(op) end
 
 ---@public

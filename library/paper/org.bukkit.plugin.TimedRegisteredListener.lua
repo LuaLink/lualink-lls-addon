@@ -6,7 +6,7 @@
 ---@field private totalTime number
 ---@field private eventClass java.lang.Class
 ---@field private multiple boolean
----@overload fun(pluginListener: Listener, eventExecutor: EventExecutor, eventPriority: EventPriority, registeredPlugin: Plugin, listenCancelled: boolean): TimedRegisteredListener
+---@overload fun(pluginListener: Listener, eventExecutor: EventExecutor, eventPriority: EventPriority, registeredPlugin: Plugin, listenCancelled: boolean): org.bukkit.plugin.TimedRegisteredListener
 local TimedRegisteredListener = {}
 
 ---@param event org.bukkit.event.Event 

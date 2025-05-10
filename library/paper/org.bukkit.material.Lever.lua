@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.material.Lever
 ---@class org.bukkit.material.Lever: org.bukkit.material.SimpleAttachableMaterialData, org.bukkit.material.Redstone
----@overload fun(): Lever
----@overload fun(type: Material): Lever
----@overload fun(type: Material, data: number): Lever
+---@overload fun(): org.bukkit.material.Lever
+---@overload fun(type: Material): org.bukkit.material.Lever
+---@overload fun(type: Material, data: number): org.bukkit.material.Lever
 local Lever = {}
 
 ---@public

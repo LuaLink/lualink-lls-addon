@@ -3,7 +3,7 @@
 -- org.bukkit.event.world.ChunkEvent
 ---@class org.bukkit.event.world.ChunkEvent: org.bukkit.event.world.WorldEvent
 ---@field protected chunk org.bukkit.Chunk
----@overload fun(chunk: Chunk): ChunkEvent
+---@overload fun(chunk: Chunk): org.bukkit.event.world.ChunkEvent
 local ChunkEvent = {}
 
 ---@public

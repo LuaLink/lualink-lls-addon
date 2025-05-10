@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.world.ChunkLoadEvent: org.bukkit.event.world.ChunkEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private newChunk boolean
----@overload fun(chunk: Chunk, newChunk: boolean): ChunkLoadEvent
+---@overload fun(chunk: Chunk, newChunk: boolean): org.bukkit.event.world.ChunkLoadEvent
 local ChunkLoadEvent = {}
 
 ---@public

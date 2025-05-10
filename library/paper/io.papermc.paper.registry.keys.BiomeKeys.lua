@@ -67,7 +67,7 @@
 ---@field public WINDSWEPT_HILLS io.papermc.paper.registry.TypedKey
 ---@field public WINDSWEPT_SAVANNA io.papermc.paper.registry.TypedKey
 ---@field public WOODED_BADLANDS io.papermc.paper.registry.TypedKey
----@overload fun(): BiomeKeys
+---@overload fun(): io.papermc.paper.registry.keys.BiomeKeys
 local BiomeKeys = {}
 
 ---@param key any the value's key in the registry

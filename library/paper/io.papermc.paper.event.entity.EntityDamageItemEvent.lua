@@ -6,7 +6,7 @@
 ---@field private item org.bukkit.inventory.ItemStack
 ---@field private damage number
 ---@field private cancelled boolean
----@overload fun(entity: Entity, item: ItemStack, damage: number): EntityDamageItemEvent
+---@overload fun(entity: Entity, item: ItemStack, damage: number): io.papermc.paper.event.entity.EntityDamageItemEvent
 local EntityDamageItemEvent = {}
 
 ---@public

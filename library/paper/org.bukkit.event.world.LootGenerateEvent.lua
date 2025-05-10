@@ -10,7 +10,7 @@
 ---@field private loot java.util.List
 ---@field private plugin boolean
 ---@field private cancelled boolean
----@overload fun(world: World, entity: Entity, inventoryHolder: InventoryHolder, lootTable: LootTable, lootContext: LootContext, items: table<ItemStack>, plugin: boolean): LootGenerateEvent
+---@overload fun(world: World, entity: Entity, inventoryHolder: InventoryHolder, lootTable: LootTable, lootContext: LootContext, items: table<ItemStack>, plugin: boolean): org.bukkit.event.world.LootGenerateEvent
 local LootGenerateEvent = {}
 
 ---@public

@@ -34,7 +34,7 @@
 ---@field public SWEEPING_DAMAGE_RATIO io.papermc.paper.registry.TypedKey
 ---@field public TEMPT_RANGE io.papermc.paper.registry.TypedKey
 ---@field public WATER_MOVEMENT_EFFICIENCY io.papermc.paper.registry.TypedKey
----@overload fun(): AttributeKeys
+---@overload fun(): io.papermc.paper.registry.keys.AttributeKeys
 local AttributeKeys = {}
 
 ---@param key any 

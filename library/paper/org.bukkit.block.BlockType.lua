@@ -1157,7 +1157,7 @@ function BlockType:createBlockData(data) end
 
 ---@public
 ---@return boolean True if this block type is solid
---- Check if the blockt type is solid (can be built upon)
+--- Check if the block type is solid (can be built upon)
 function BlockType:isSolid() end
 
 ---@public
@@ -1172,7 +1172,7 @@ function BlockType:isBurnable() end
 
 ---@public
 ---@return boolean True if this block type occludes light
---- Check if the block type is occludes light in the lighting engine. <p> Generally speaking, most full blocks will occlude light. Non-full blocks are not occluding (e.g. anvils, chests, tall grass, stairs, etc.), nor are specific full blocks such as barriers or spawners which block light despite their texture. <p> An occluding block will have the following effects: <ul>   <li>Chests cannot be opened if an occluding block is above it.   <li>Mobs cannot spawn inside of occluding blocks.   <li>Only occluding blocks can be "powered" ({@link Block#isBlockPowered()}). </ul> This list may be inconclusive. For a full list of the side effects of an occluding block, see the <a href="https://minecraft.fandom.com/wiki/Opacity">Minecraft Wiki</a>.
+--- Check if the block type is occludes light in the lighting engine. <p> Generally speaking, most full blocks will occlude light. Non-full blocks are not occluding (e.g. anvils, chests, tall grass, stairs, etc.), nor are specific full blocks such as barriers or spawners which block light despite their texture. <p> An occluding block will have the following effects: <ul>   <li>Chests cannot be opened if an occluding block is above it.   <li>Mobs cannot spawn inside of occluding blocks.   <li>Only occluding blocks can be "powered" ({@link Block#isBlockPowered()}). </ul> This list may be inconclusive. For a full list of the side effects of an occluding block, see the <a href="https://minecraft.wiki/w/Opacity">Minecraft Wiki</a>.
 function BlockType:isOccluding() end
 
 ---@public

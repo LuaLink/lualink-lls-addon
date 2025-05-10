@@ -9,10 +9,10 @@
 ---@field private WEST_REMAINDER number
 ---@field private NORTH_SOUTH_MOD number
 ---@field private EAST_WEST_MOD number
----@overload fun(shroom: Material): Mushroom
----@overload fun(shroom: Material, capFace: BlockFace): Mushroom
----@overload fun(shroom: Material, texture: MushroomBlockTexture): Mushroom
----@overload fun(shroom: Material, data: number): Mushroom
+---@overload fun(shroom: Material): org.bukkit.material.Mushroom
+---@overload fun(shroom: Material, capFace: BlockFace): org.bukkit.material.Mushroom
+---@overload fun(shroom: Material, texture: MushroomBlockTexture): org.bukkit.material.Mushroom
+---@overload fun(shroom: Material, data: number): org.bukkit.material.Mushroom
 local Mushroom = {}
 
 ---@public

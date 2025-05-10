@@ -3,8 +3,8 @@
 -- org.bukkit.event.player.PlayerEvent
 ---@class org.bukkit.event.player.PlayerEvent: org.bukkit.event.Event
 ---@field protected player org.bukkit.entity.Player
----@overload fun(player: Player): PlayerEvent
----@overload fun(player: Player, async: boolean): PlayerEvent
+---@overload fun(player: Player): org.bukkit.event.player.PlayerEvent
+---@overload fun(player: Player, async: boolean): org.bukkit.event.player.PlayerEvent
 local PlayerEvent = {}
 
 ---@public

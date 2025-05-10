@@ -9,7 +9,7 @@
 ---@field private miniMessage net.kyori.adventure.text.minimessage.MiniMessage
 ---@field private tagResolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@field private postProcessor java.util.function.UnaryOperator
----@overload fun(strict: boolean, debugOutput: Consumer<String>, message: string, miniMessage: MiniMessage, extraTags: TagResolver, postProcessor: UnaryOperator<Component>): ContextImpl
+---@overload fun(strict: boolean, debugOutput: Consumer<String>, message: string, miniMessage: MiniMessage, extraTags: TagResolver, postProcessor: UnaryOperator<Component>): net.kyori.adventure.text.minimessage.ContextImpl
 local ContextImpl = {}
 
 ---@param strict boolean 

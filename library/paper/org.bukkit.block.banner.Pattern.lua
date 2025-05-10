@@ -5,8 +5,8 @@
 ---@field private PATTERN string
 ---@field private color org.bukkit.DyeColor
 ---@field private pattern org.bukkit.block.banner.PatternType
----@overload fun(color: DyeColor, pattern: PatternType): Pattern
----@overload fun(map: table<string, Object>): Pattern
+---@overload fun(color: DyeColor, pattern: PatternType): org.bukkit.block.banner.Pattern
+---@overload fun(map: table<string, Object>): org.bukkit.block.banner.Pattern
 local Pattern = {}
 
 ---@param map java.util.Map 

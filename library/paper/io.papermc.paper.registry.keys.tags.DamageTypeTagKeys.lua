@@ -35,7 +35,7 @@
 ---@field public PANIC_ENVIRONMENTAL_CAUSES io.papermc.paper.registry.tag.TagKey
 ---@field public WITCH_RESISTANT_TO io.papermc.paper.registry.tag.TagKey
 ---@field public WITHER_IMMUNE_TO io.papermc.paper.registry.tag.TagKey
----@overload fun(): DamageTypeTagKeys
+---@overload fun(): io.papermc.paper.registry.keys.tags.DamageTypeTagKeys
 local DamageTypeTagKeys = {}
 
 ---@param key any the tag key's key

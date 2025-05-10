@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private owner org.bukkit.entity.AnimalTamer
 ---@field private cancelled boolean
----@overload fun(entity: LivingEntity, owner: AnimalTamer): EntityTameEvent
+---@overload fun(entity: LivingEntity, owner: AnimalTamer): org.bukkit.event.entity.EntityTameEvent
 local EntityTameEvent = {}
 
 ---@public

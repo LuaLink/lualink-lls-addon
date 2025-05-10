@@ -4,7 +4,7 @@
 ---@class org.bukkit.inventory.TransmuteRecipe: org.bukkit.inventory.CraftingRecipe, org.bukkit.inventory.ComplexRecipe
 ---@field private input org.bukkit.inventory.RecipeChoice
 ---@field private material org.bukkit.inventory.RecipeChoice
----@overload fun(key: NamespacedKey, result: Material, input: RecipeChoice, material: RecipeChoice): TransmuteRecipe
+---@overload fun(key: NamespacedKey, result: Material, input: RecipeChoice, material: RecipeChoice): org.bukkit.inventory.TransmuteRecipe
 local TransmuteRecipe = {}
 
 ---@public

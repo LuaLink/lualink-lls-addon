@@ -7,7 +7,7 @@
 ---@field private results java.util.List
 ---@field private fuelLevel number
 ---@field private cancelled boolean
----@overload fun(brewer: Block, contents: BrewerInventory, results: table<ItemStack>, fuelLevel: number): BrewEvent
+---@overload fun(brewer: Block, contents: BrewerInventory, results: table<ItemStack>, fuelLevel: number): org.bukkit.event.inventory.BrewEvent
 local BrewEvent = {}
 
 ---@public

@@ -3,7 +3,7 @@
 -- org.bukkit.event.world.WorldSaveEvent
 ---@class org.bukkit.event.world.WorldSaveEvent: org.bukkit.event.world.WorldEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
----@overload fun(world: World): WorldSaveEvent
+---@overload fun(world: World): org.bukkit.event.world.WorldSaveEvent
 local WorldSaveEvent = {}
 
 ---@public

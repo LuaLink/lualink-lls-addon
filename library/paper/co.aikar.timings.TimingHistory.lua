@@ -19,7 +19,7 @@
 ---@field public tileEntityTypeSet java.util.Set
 ---@field public entityTypeSet java.util.Set
 ---@field private worlds java.util.Map
----@overload fun(): TimingHistory
+---@overload fun(): co.aikar.timings.TimingHistory
 local TimingHistory = {}
 
 ---@param fullReset boolean 

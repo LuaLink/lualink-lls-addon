@@ -22,7 +22,7 @@
 ---@field public RUINED_PORTAL io.papermc.paper.registry.tag.TagKey
 ---@field public SHIPWRECK io.papermc.paper.registry.tag.TagKey
 ---@field public VILLAGE io.papermc.paper.registry.tag.TagKey
----@overload fun(): StructureTagKeys
+---@overload fun(): io.papermc.paper.registry.keys.tags.StructureTagKeys
 local StructureTagKeys = {}
 
 ---@param key any the tag key's key

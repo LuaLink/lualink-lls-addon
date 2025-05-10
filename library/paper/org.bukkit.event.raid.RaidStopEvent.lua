@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.raid.RaidStopEvent: org.bukkit.event.raid.RaidEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private reason org.bukkit.event.raid.RaidStopEvent.Reason
----@overload fun(raid: Raid, world: World, reason: Reason): RaidStopEvent
+---@overload fun(raid: Raid, world: World, reason: Reason): org.bukkit.event.raid.RaidStopEvent
 local RaidStopEvent = {}
 
 ---@public

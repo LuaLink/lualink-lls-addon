@@ -8,9 +8,9 @@
 ---@field private GATE_WEST number
 ---@field private GATE_NORTH number
 ---@field private GATE_EAST number
----@overload fun(): Gate
----@overload fun(type: Material, data: number): Gate
----@overload fun(data: number): Gate
+---@overload fun(): org.bukkit.material.Gate
+---@overload fun(type: Material, data: number): org.bukkit.material.Gate
+---@overload fun(data: number): org.bukkit.material.Gate
 local Gate = {}
 
 ---@param face org.bukkit.block.BlockFace 

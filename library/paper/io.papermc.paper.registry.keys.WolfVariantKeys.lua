@@ -11,7 +11,7 @@
 ---@field public SPOTTED io.papermc.paper.registry.TypedKey
 ---@field public STRIPED io.papermc.paper.registry.TypedKey
 ---@field public WOODS io.papermc.paper.registry.TypedKey
----@overload fun(): WolfVariantKeys
+---@overload fun(): io.papermc.paper.registry.keys.WolfVariantKeys
 local WolfVariantKeys = {}
 
 ---@param key any the value's key in the registry

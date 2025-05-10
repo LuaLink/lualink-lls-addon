@@ -5,7 +5,7 @@
 ---@field public COMMANDS io.papermc.paper.plugin.lifecycle.event.types.LifecycleEventType.Prioritizable
 ---@field public TAGS io.papermc.paper.plugin.lifecycle.event.types.TagEventTypeProvider
 ---@field public DATAPACK_DISCOVERY io.papermc.paper.plugin.lifecycle.event.types.LifecycleEventType.Prioritizable
----@overload fun(): LifecycleEvents
+---@overload fun(): io.papermc.paper.plugin.lifecycle.event.types.LifecycleEvents
 local LifecycleEvents = {}
 
 ---@param name string 

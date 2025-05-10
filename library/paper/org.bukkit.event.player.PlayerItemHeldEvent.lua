@@ -6,7 +6,7 @@
 ---@field private previous number
 ---@field private current number
 ---@field private cancelled boolean
----@overload fun(player: Player, previous: number, current: number): PlayerItemHeldEvent
+---@overload fun(player: Player, previous: number, current: number): org.bukkit.event.player.PlayerItemHeldEvent
 local PlayerItemHeldEvent = {}
 
 ---@public

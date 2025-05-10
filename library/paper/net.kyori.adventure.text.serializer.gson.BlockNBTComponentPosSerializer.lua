@@ -2,7 +2,7 @@
 -- net.kyori.adventure.text.serializer.gson.BlockNBTComponentPosSerializer
 ---@class net.kyori.adventure.text.serializer.gson.BlockNBTComponentPosSerializer: any
 ---@field public INSTANCE any
----@overload fun(): BlockNBTComponentPosSerializer
+---@overload fun(): net.kyori.adventure.text.serializer.gson.BlockNBTComponentPosSerializer
 local BlockNBTComponentPosSerializer = {}
 
 ---@param in any 

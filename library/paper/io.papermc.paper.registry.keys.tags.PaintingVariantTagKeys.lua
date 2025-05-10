@@ -3,7 +3,7 @@
 -- io.papermc.paper.registry.keys.tags.PaintingVariantTagKeys
 ---@class io.papermc.paper.registry.keys.tags.PaintingVariantTagKeys
 ---@field public PLACEABLE io.papermc.paper.registry.tag.TagKey
----@overload fun(): PaintingVariantTagKeys
+---@overload fun(): io.papermc.paper.registry.keys.tags.PaintingVariantTagKeys
 local PaintingVariantTagKeys = {}
 
 ---@param key any the tag key's key

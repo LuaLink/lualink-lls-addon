@@ -1,7 +1,7 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.MiniMessageSerializer
 ---@class net.kyori.adventure.text.minimessage.MiniMessageSerializer
----@overload fun(): MiniMessageSerializer
+---@overload fun(): net.kyori.adventure.text.minimessage.MiniMessageSerializer
 local MiniMessageSerializer = {}
 
 ---@param component net.kyori.adventure.text.Component 

@@ -6,7 +6,7 @@
 ---@field private event org.bukkit.GameEvent
 ---@field private entity org.bukkit.entity.Entity
 ---@field private cancelled boolean
----@overload fun(event: GameEvent, block: Block, entity: Entity): BlockReceiveGameEvent
+---@overload fun(event: GameEvent, block: Block, entity: Entity): org.bukkit.event.block.BlockReceiveGameEvent
 local BlockReceiveGameEvent = {}
 
 ---@public

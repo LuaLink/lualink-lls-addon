@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.material.Coal
 ---@class org.bukkit.material.Coal: org.bukkit.material.MaterialData
----@overload fun(): Coal
----@overload fun(type: CoalType): Coal
----@overload fun(type: Material): Coal
----@overload fun(type: Material, data: number): Coal
+---@overload fun(): org.bukkit.material.Coal
+---@overload fun(type: CoalType): org.bukkit.material.Coal
+---@overload fun(type: Material): org.bukkit.material.Coal
+---@overload fun(type: Material, data: number): org.bukkit.material.Coal
 local Coal = {}
 
 ---@public

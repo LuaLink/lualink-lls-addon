@@ -2,6 +2,6 @@
 ---@meta
 -- org.bukkit.metadata.MetadataEvaluationException
 ---@class org.bukkit.metadata.MetadataEvaluationException: java.lang.RuntimeException
----@overload fun(cause: Throwable): MetadataEvaluationException
+---@overload fun(cause: Throwable): org.bukkit.metadata.MetadataEvaluationException
 local MetadataEvaluationException = {}
 

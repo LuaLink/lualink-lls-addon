@@ -785,3 +785,8 @@ function LivingEntity:setBodyYaw(bodyYaw) end
 --- Checks whether this entity can use the equipment slot. <br>For example, not all entities may have {@link org.bukkit.inventory.EquipmentSlot#BODY}.
 function LivingEntity:canUseEquipmentSlot(slot) end
 
+---@public
+---@return io.papermc.paper.world.damagesource.CombatTracker the entity's combat tracker
+--- Gets the entity's combat tracker
+function LivingEntity:getCombatTracker() end
+

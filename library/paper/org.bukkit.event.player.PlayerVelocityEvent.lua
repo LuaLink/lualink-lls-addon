@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private velocity org.bukkit.util.Vector
 ---@field private cancelled boolean
----@overload fun(player: Player, velocity: Vector): PlayerVelocityEvent
+---@overload fun(player: Player, velocity: Vector): org.bukkit.event.player.PlayerVelocityEvent
 local PlayerVelocityEvent = {}
 
 ---@public

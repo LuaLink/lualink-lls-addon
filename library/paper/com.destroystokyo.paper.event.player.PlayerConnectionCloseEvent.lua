@@ -6,7 +6,7 @@
 ---@field private playerUniqueId java.util.UUID
 ---@field private playerName string
 ---@field private ipAddress java.net.InetAddress
----@overload fun(playerUniqueId: UUID, playerName: string, ipAddress: InetAddress, async: boolean): PlayerConnectionCloseEvent
+---@overload fun(playerUniqueId: UUID, playerName: string, ipAddress: InetAddress, async: boolean): com.destroystokyo.paper.event.player.PlayerConnectionCloseEvent
 local PlayerConnectionCloseEvent = {}
 
 ---@public

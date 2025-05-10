@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.text.minimessage.internal.parser.match.MatchedTokenConsumer
 ---@field protected input string
 ---@field private lastIndex number
----@overload fun(input: string): MatchedTokenConsumer
+---@overload fun(input: string): net.kyori.adventure.text.minimessage.internal.parser.match.MatchedTokenConsumer
 local MatchedTokenConsumer = {}
 
 ---@param start number the start of the token

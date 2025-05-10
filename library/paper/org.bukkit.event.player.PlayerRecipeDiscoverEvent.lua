@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private recipe org.bukkit.NamespacedKey
 ---@field private cancelled boolean
----@overload fun(player: Player, recipe: NamespacedKey): PlayerRecipeDiscoverEvent
+---@overload fun(player: Player, recipe: NamespacedKey): org.bukkit.event.player.PlayerRecipeDiscoverEvent
 local PlayerRecipeDiscoverEvent = {}
 
 ---@public

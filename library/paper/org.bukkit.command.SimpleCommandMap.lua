@@ -3,7 +3,7 @@
 ---@class org.bukkit.command.SimpleCommandMap: org.bukkit.command.CommandMap
 ---@field protected knownCommands java.util.Map
 ---@field private server org.bukkit.Server
----@overload fun(server: Server, backing: table<string, Command>): SimpleCommandMap
+---@overload fun(server: Server, backing: table<string, Command>): org.bukkit.command.SimpleCommandMap
 local SimpleCommandMap = {}
 
 ---@private

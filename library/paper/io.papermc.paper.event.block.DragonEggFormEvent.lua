@@ -4,7 +4,7 @@
 ---@class io.papermc.paper.event.block.DragonEggFormEvent: org.bukkit.event.block.BlockFormEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private dragonBattle org.bukkit.boss.DragonBattle
----@overload fun(block: Block, newState: BlockState, dragonBattle: DragonBattle): DragonEggFormEvent
+---@overload fun(block: Block, newState: BlockState, dragonBattle: DragonBattle): io.papermc.paper.event.block.DragonEggFormEvent
 local DragonEggFormEvent = {}
 
 ---@public

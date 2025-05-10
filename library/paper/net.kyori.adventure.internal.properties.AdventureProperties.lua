@@ -6,7 +6,7 @@
 ---@field public DEFAULT_TRANSLATION_LOCALE net.kyori.adventure.internal.properties.AdventureProperties.Property
 ---@field public SERVICE_LOAD_FAILURES_ARE_FATAL net.kyori.adventure.internal.properties.AdventureProperties.Property
 ---@field public TEXT_WARN_WHEN_LEGACY_FORMATTING_DETECTED net.kyori.adventure.internal.properties.AdventureProperties.Property
----@overload fun(): AdventureProperties
+---@overload fun(): net.kyori.adventure.internal.properties.AdventureProperties
 local AdventureProperties = {}
 
 ---@param name string the property name

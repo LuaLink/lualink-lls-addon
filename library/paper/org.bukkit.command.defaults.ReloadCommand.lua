@@ -2,7 +2,7 @@
 -- org.bukkit.command.defaults.ReloadCommand
 ---@class org.bukkit.command.defaults.ReloadCommand: org.bukkit.command.defaults.BukkitCommand
 ---@field public RELOADING_DISABLED_MESSAGE string
----@overload fun(name: string): ReloadCommand
+---@overload fun(name: string): org.bukkit.command.defaults.ReloadCommand
 local ReloadCommand = {}
 
 ---@param sender org.bukkit.command.CommandSender 

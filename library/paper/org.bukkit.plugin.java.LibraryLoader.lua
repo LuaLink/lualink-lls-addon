@@ -7,7 +7,7 @@
 ---@field private repositories any
 ---@field public LIBRARY_LOADER_FACTORY java.util.function.BiFunction
 ---@field public REMAPPER java.util.function.Function
----@overload fun(logger: Logger): LibraryLoader
+---@overload fun(logger: Logger): org.bukkit.plugin.java.LibraryLoader
 local LibraryLoader = {}
 
 ---@param desc org.bukkit.plugin.PluginDescriptionFile 

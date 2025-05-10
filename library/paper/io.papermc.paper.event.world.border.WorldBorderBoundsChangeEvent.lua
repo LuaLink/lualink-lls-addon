@@ -8,7 +8,7 @@
 ---@field private newSize number
 ---@field private duration number
 ---@field private cancelled boolean
----@overload fun(world: World, worldBorder: WorldBorder, type: Type, oldSize: number, newSize: number, duration: number): WorldBorderBoundsChangeEvent
+---@overload fun(world: World, worldBorder: WorldBorder, type: Type, oldSize: number, newSize: number, duration: number): io.papermc.paper.event.world.border.WorldBorderBoundsChangeEvent
 local WorldBorderBoundsChangeEvent = {}
 
 ---@public

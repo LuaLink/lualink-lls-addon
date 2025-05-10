@@ -2,7 +2,7 @@
 -- org.bukkit.command.FormattedCommandAlias
 ---@class org.bukkit.command.FormattedCommandAlias: org.bukkit.command.Command
 ---@field private formatStrings string
----@overload fun(alias: string, formatStrings: table<string>): FormattedCommandAlias
+---@overload fun(alias: string, formatStrings: table<string>): org.bukkit.command.FormattedCommandAlias
 local FormattedCommandAlias = {}
 
 ---@param sender org.bukkit.command.CommandSender 

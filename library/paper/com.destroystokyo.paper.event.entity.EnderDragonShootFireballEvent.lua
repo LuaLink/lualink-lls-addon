@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private fireball org.bukkit.entity.DragonFireball
 ---@field private cancelled boolean
----@overload fun(entity: EnderDragon, fireball: DragonFireball): EnderDragonShootFireballEvent
+---@overload fun(entity: EnderDragon, fireball: DragonFireball): com.destroystokyo.paper.event.entity.EnderDragonShootFireballEvent
 local EnderDragonShootFireballEvent = {}
 
 ---@public

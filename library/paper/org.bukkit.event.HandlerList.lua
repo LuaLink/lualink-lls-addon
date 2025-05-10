@@ -6,7 +6,7 @@
 ---@field private handlerslots java.util.EnumMap
 ---@field private allLists java.util.ArrayList
 ---@field private EVENT_TYPES java.util.Set
----@overload fun(): HandlerList
+---@overload fun(): org.bukkit.event.HandlerList
 local HandlerList = {}
 
 ---@public

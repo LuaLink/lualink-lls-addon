@@ -6,7 +6,7 @@
 ---@field private declaredValues java.util.Map
 ---@field private strict boolean
 ---@field private cache java.util.concurrent.ConcurrentMap
----@overload fun(strict: boolean, declaredValues: table<C?, V>): InheritanceAwareMapImpl
+---@overload fun(strict: boolean, declaredValues: table<C?, V>): net.kyori.adventure.util.InheritanceAwareMapImpl
 local InheritanceAwareMapImpl = {}
 
 ---@param clazz java.lang.Class 

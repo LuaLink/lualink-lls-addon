@@ -4,7 +4,7 @@
 ---@field private data java.lang.Object
 ---@field private comments java.util.List
 ---@field private inlineComments java.util.List
----@overload fun(data: Object): SectionPathData
+---@overload fun(data: Object): org.bukkit.configuration.SectionPathData
 local SectionPathData = {}
 
 ---@public

@@ -6,7 +6,7 @@
 ---@field private message string
 ---@field private lastToken string
 ---@field private completions java.util.Collection
----@overload fun(player: Player, message: string, completions: Collection<String>): PlayerChatTabCompleteEvent
+---@overload fun(player: Player, message: string, completions: Collection<String>): org.bukkit.event.player.PlayerChatTabCompleteEvent
 local PlayerChatTabCompleteEvent = {}
 
 ---@public

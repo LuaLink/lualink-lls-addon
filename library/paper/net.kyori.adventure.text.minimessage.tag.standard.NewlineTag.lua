@@ -5,7 +5,7 @@
 ---@field private BR string
 ---@field private NEWLINE string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(): NewlineTag
+---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.NewlineTag
 local NewlineTag = {}
 
 ---@param args net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue 

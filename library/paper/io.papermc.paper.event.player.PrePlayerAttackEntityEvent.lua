@@ -6,7 +6,7 @@
 ---@field private attacked org.bukkit.entity.Entity
 ---@field private willAttack boolean
 ---@field private cancelled boolean
----@overload fun(player: Player, attacked: Entity, willAttack: boolean): PrePlayerAttackEntityEvent
+---@overload fun(player: Player, attacked: Entity, willAttack: boolean): io.papermc.paper.event.player.PrePlayerAttackEntityEvent
 local PrePlayerAttackEntityEvent = {}
 
 ---@public

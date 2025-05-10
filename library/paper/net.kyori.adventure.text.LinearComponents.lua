@@ -2,7 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.LinearComponents
 ---@class net.kyori.adventure.text.LinearComponents
----@overload fun(): LinearComponents
+---@overload fun(): net.kyori.adventure.text.LinearComponents
 local LinearComponents = {}
 
 ---@param applicables net.kyori.adventure.text.ComponentBuilderApplicable the things used to make the component

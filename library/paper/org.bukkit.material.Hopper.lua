@@ -4,11 +4,11 @@
 ---@class org.bukkit.material.Hopper: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Redstone
 ---@field protected DEFAULT_DIRECTION org.bukkit.block.BlockFace
 ---@field protected DEFAULT_ACTIVE boolean
----@overload fun(): Hopper
----@overload fun(facingDirection: BlockFace): Hopper
----@overload fun(facingDirection: BlockFace, isActive: boolean): Hopper
----@overload fun(type: Material): Hopper
----@overload fun(type: Material, data: number): Hopper
+---@overload fun(): org.bukkit.material.Hopper
+---@overload fun(facingDirection: BlockFace): org.bukkit.material.Hopper
+---@overload fun(facingDirection: BlockFace, isActive: boolean): org.bukkit.material.Hopper
+---@overload fun(type: Material): org.bukkit.material.Hopper
+---@overload fun(type: Material, data: number): org.bukkit.material.Hopper
 local Hopper = {}
 
 ---@param isActive boolean True if the hopper is active, false if deactivated as if powered by redstone

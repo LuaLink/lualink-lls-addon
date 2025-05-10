@@ -7,7 +7,7 @@
 ---@field private session any
 ---@field private repositories any
 ---@field private dependencies any
----@overload fun(): MavenLibraryResolver
+---@overload fun(): io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver
 local MavenLibraryResolver = {}
 
 ---@param dependency any the definition of the dependency the maven library resolver should resolve when running

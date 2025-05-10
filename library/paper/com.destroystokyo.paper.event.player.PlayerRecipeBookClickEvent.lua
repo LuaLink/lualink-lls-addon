@@ -6,7 +6,7 @@
 ---@field private recipe org.bukkit.NamespacedKey
 ---@field private makeAll boolean
 ---@field private cancelled boolean
----@overload fun(player: Player, recipe: NamespacedKey, makeAll: boolean): PlayerRecipeBookClickEvent
+---@overload fun(player: Player, recipe: NamespacedKey, makeAll: boolean): com.destroystokyo.paper.event.player.PlayerRecipeBookClickEvent
 local PlayerRecipeBookClickEvent = {}
 
 ---@public

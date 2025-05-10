@@ -1,7 +1,7 @@
 ---@meta
 -- net.kyori.adventure.translation.MessageFormatTranslationStore
 ---@class net.kyori.adventure.translation.MessageFormatTranslationStore: net.kyori.adventure.translation.AbstractTranslationStore.StringBased, net.kyori.adventure.translation.TranslationRegistry
----@overload fun(name: Key): MessageFormatTranslationStore
+---@overload fun(name: Key): net.kyori.adventure.translation.MessageFormatTranslationStore
 local MessageFormatTranslationStore = {}
 
 ---@param string string 

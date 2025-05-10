@@ -6,7 +6,7 @@
 ---@field private result org.bukkit.inventory.ItemStack
 ---@field private input org.bukkit.inventory.RecipeChoice
 ---@field private ingredient org.bukkit.inventory.RecipeChoice
----@overload fun(key: NamespacedKey, result: ItemStack, input: RecipeChoice, ingredient: RecipeChoice): PotionMix
+---@overload fun(key: NamespacedKey, result: ItemStack, input: RecipeChoice, ingredient: RecipeChoice): io.papermc.paper.potion.PotionMix
 local PotionMix = {}
 
 ---@param stackPredicate java.util.function.Predicate a predicate for an itemstack.

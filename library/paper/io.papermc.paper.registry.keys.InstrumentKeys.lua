@@ -10,7 +10,7 @@
 ---@field public SEEK_GOAT_HORN io.papermc.paper.registry.TypedKey
 ---@field public SING_GOAT_HORN io.papermc.paper.registry.TypedKey
 ---@field public YEARN_GOAT_HORN io.papermc.paper.registry.TypedKey
----@overload fun(): InstrumentKeys
+---@overload fun(): io.papermc.paper.registry.keys.InstrumentKeys
 local InstrumentKeys = {}
 
 ---@param key any the value's key in the registry

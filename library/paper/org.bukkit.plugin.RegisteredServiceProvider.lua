@@ -6,7 +6,7 @@
 ---@field private plugin org.bukkit.plugin.Plugin
 ---@field private provider T
 ---@field private priority org.bukkit.plugin.ServicePriority
----@overload fun(service: T?, provider: T, priority: ServicePriority, plugin: Plugin): RegisteredServiceProvider
+---@overload fun(service: T?, provider: T, priority: ServicePriority, plugin: Plugin): org.bukkit.plugin.RegisteredServiceProvider
 local RegisteredServiceProvider = {}
 
 ---@public

@@ -8,8 +8,8 @@
 ---@field private maxX number
 ---@field private maxY number
 ---@field private maxZ number
----@overload fun(): BoundingBox
----@overload fun(x1: number, y1: number, z1: number, x2: number, y2: number, z2: number): BoundingBox
+---@overload fun(): org.bukkit.util.BoundingBox
+---@overload fun(x1: number, y1: number, z1: number, x2: number, y2: number, z2: number): org.bukkit.util.BoundingBox
 local BoundingBox = {}
 
 ---@param corner1 org.bukkit.util.Vector the first corner

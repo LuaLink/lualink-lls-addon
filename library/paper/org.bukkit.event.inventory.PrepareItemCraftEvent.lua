@@ -4,7 +4,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private repair boolean
 ---@field private matrix org.bukkit.inventory.CraftingInventory
----@overload fun(matrix: CraftingInventory, view: InventoryView, isRepair: boolean): PrepareItemCraftEvent
+---@overload fun(matrix: CraftingInventory, view: InventoryView, isRepair: boolean): org.bukkit.event.inventory.PrepareItemCraftEvent
 local PrepareItemCraftEvent = {}
 
 ---@public

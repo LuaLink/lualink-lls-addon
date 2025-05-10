@@ -6,7 +6,7 @@
 ---@field private playerProfile com.destroystokyo.paper.profile.PlayerProfile
 ---@field private status io.papermc.paper.event.server.WhitelistStateUpdateEvent.WhitelistStatus
 ---@field private cancelled boolean
----@overload fun(playerProfile: PlayerProfile, status: WhitelistStatus): WhitelistStateUpdateEvent
+---@overload fun(playerProfile: PlayerProfile, status: WhitelistStatus): io.papermc.paper.event.server.WhitelistStateUpdateEvent
 local WhitelistStateUpdateEvent = {}
 
 ---@public

@@ -7,7 +7,7 @@
 ---@field private primary boolean
 ---@field private effect org.bukkit.potion.PotionEffect
 ---@field private cancelled boolean
----@overload fun(beacon: Block, effect: PotionEffect, player: Player, primary: boolean): BeaconEffectEvent
+---@overload fun(beacon: Block, effect: PotionEffect, player: Player, primary: boolean): com.destroystokyo.paper.event.block.BeaconEffectEvent
 local BeaconEffectEvent = {}
 
 ---@public

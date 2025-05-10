@@ -6,7 +6,7 @@
 ---@field private oldCenter org.bukkit.Location
 ---@field private newCenter org.bukkit.Location
 ---@field private cancelled boolean
----@overload fun(world: World, worldBorder: WorldBorder, oldCenter: Location, newCenter: Location): WorldBorderCenterChangeEvent
+---@overload fun(world: World, worldBorder: WorldBorder, oldCenter: Location, newCenter: Location): io.papermc.paper.event.world.border.WorldBorderCenterChangeEvent
 local WorldBorderCenterChangeEvent = {}
 
 ---@public

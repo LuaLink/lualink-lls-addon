@@ -2,7 +2,7 @@
 ---@meta
 -- com.destroystokyo.paper.utils.PaperPluginLogger
 ---@class com.destroystokyo.paper.utils.PaperPluginLogger: java.util.logging.Logger
----@overload fun(meta: PluginMeta): PaperPluginLogger
+---@overload fun(meta: PluginMeta): com.destroystokyo.paper.utils.PaperPluginLogger
 local PaperPluginLogger = {}
 
 ---@deprecated

@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.material.SpawnEgg
 ---@class org.bukkit.material.SpawnEgg: org.bukkit.material.MaterialData
----@overload fun(): SpawnEgg
----@overload fun(type: Material, data: number): SpawnEgg
----@overload fun(data: number): SpawnEgg
----@overload fun(type: EntityType): SpawnEgg
+---@overload fun(): org.bukkit.material.SpawnEgg
+---@overload fun(type: Material, data: number): org.bukkit.material.SpawnEgg
+---@overload fun(data: number): org.bukkit.material.SpawnEgg
+---@overload fun(type: EntityType): org.bukkit.material.SpawnEgg
 local SpawnEgg = {}
 
 ---@deprecated

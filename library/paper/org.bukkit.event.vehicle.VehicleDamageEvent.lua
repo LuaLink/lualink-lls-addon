@@ -6,7 +6,7 @@
 ---@field private attacker org.bukkit.entity.Entity
 ---@field private damage number
 ---@field private cancelled boolean
----@overload fun(vehicle: Vehicle, attacker: Entity, damage: number): VehicleDamageEvent
+---@overload fun(vehicle: Vehicle, attacker: Entity, damage: number): org.bukkit.event.vehicle.VehicleDamageEvent
 local VehicleDamageEvent = {}
 
 ---@public

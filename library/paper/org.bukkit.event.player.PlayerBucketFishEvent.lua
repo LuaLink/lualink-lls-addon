@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.event.player.PlayerBucketFishEvent
 ---@class org.bukkit.event.player.PlayerBucketFishEvent: org.bukkit.event.player.PlayerBucketEntityEvent
----@overload fun(player: Player, fish: Fish, waterBucket: ItemStack, fishBucket: ItemStack, hand: EquipmentSlot): PlayerBucketFishEvent
+---@overload fun(player: Player, fish: Fish, waterBucket: ItemStack, fishBucket: ItemStack, hand: EquipmentSlot): org.bukkit.event.player.PlayerBucketFishEvent
 local PlayerBucketFishEvent = {}
 
 ---@public

@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.player.PlayerCommandSendEvent: org.bukkit.event.player.PlayerEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private commands java.util.Collection
----@overload fun(player: Player, commands: Collection<String>): PlayerCommandSendEvent
+---@overload fun(player: Player, commands: Collection<String>): org.bukkit.event.player.PlayerCommandSendEvent
 local PlayerCommandSendEvent = {}
 
 ---@public

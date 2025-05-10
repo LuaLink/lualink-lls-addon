@@ -3,9 +3,9 @@
 -- org.bukkit.material.MonsterEggs
 ---@class org.bukkit.material.MonsterEggs: org.bukkit.material.TexturedMaterial
 ---@field private textures java.util.List
----@overload fun(): MonsterEggs
----@overload fun(type: Material): MonsterEggs
----@overload fun(type: Material, data: number): MonsterEggs
+---@overload fun(): org.bukkit.material.MonsterEggs
+---@overload fun(type: Material): org.bukkit.material.MonsterEggs
+---@overload fun(type: Material, data: number): org.bukkit.material.MonsterEggs
 local MonsterEggs = {}
 
 ---@public

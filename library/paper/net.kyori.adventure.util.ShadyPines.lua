@@ -2,7 +2,7 @@
 ---@meta
 -- net.kyori.adventure.util.ShadyPines
 ---@class net.kyori.adventure.util.ShadyPines
----@overload fun(): ShadyPines
+---@overload fun(): net.kyori.adventure.util.ShadyPines
 local ShadyPines = {}
 
 ---@deprecated

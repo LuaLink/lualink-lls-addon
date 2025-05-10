@@ -4,7 +4,7 @@
 ---@class io.papermc.paper.util.Tick: java.time.temporal.TemporalUnit
 ---@field private INSTANCE io.papermc.paper.util.Tick
 ---@field private milliseconds number
----@overload fun(length: number): Tick
+---@overload fun(length: number): io.papermc.paper.util.Tick
 local Tick = {}
 
 ---@public

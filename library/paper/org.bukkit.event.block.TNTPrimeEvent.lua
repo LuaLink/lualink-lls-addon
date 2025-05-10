@@ -7,7 +7,7 @@
 ---@field private primingEntity org.bukkit.entity.Entity
 ---@field private primingBlock org.bukkit.block.Block
 ---@field private cancelled boolean
----@overload fun(block: Block, igniteCause: PrimeCause, primingEntity: Entity, primingBlock: Block): TNTPrimeEvent
+---@overload fun(block: Block, igniteCause: PrimeCause, primingEntity: Entity, primingBlock: Block): org.bukkit.event.block.TNTPrimeEvent
 local TNTPrimeEvent = {}
 
 ---@public

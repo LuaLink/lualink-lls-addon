@@ -6,7 +6,7 @@
 ---@field private plugin org.bukkit.plugin.Plugin
 ---@field private channel string
 ---@field private listener org.bukkit.plugin.messaging.PluginMessageListener
----@overload fun(messenger: Messenger, plugin: Plugin, channel: string, listener: PluginMessageListener): PluginMessageListenerRegistration
+---@overload fun(messenger: Messenger, plugin: Plugin, channel: string, listener: PluginMessageListener): org.bukkit.plugin.messaging.PluginMessageListenerRegistration
 local PluginMessageListenerRegistration = {}
 
 ---@public

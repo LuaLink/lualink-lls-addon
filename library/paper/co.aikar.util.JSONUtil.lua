@@ -2,7 +2,7 @@
 ---@meta
 -- co.aikar.util.JSONUtil
 ---@class co.aikar.util.JSONUtil
----@overload fun(): JSONUtil
+---@overload fun(): co.aikar.util.JSONUtil
 local JSONUtil = {}
 
 ---@param key string Key to use

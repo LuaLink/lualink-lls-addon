@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.enchantments.EnchantmentWrapper
 ---@class org.bukkit.enchantments.EnchantmentWrapper: org.bukkit.enchantments.Enchantment
----@overload fun(): EnchantmentWrapper
+---@overload fun(): org.bukkit.enchantments.EnchantmentWrapper
 local EnchantmentWrapper = {}
 
 ---@public

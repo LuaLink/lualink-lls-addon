@@ -5,8 +5,8 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private advancement org.bukkit.advancement.Advancement
 ---@field private message net.kyori.adventure.text.Component
----@overload fun(player: Player, advancement: Advancement): PlayerAdvancementDoneEvent
----@overload fun(player: Player, advancement: Advancement, message: Component): PlayerAdvancementDoneEvent
+---@overload fun(player: Player, advancement: Advancement): org.bukkit.event.player.PlayerAdvancementDoneEvent
+---@overload fun(player: Player, advancement: Advancement, message: Component): org.bukkit.event.player.PlayerAdvancementDoneEvent
 local PlayerAdvancementDoneEvent = {}
 
 ---@public

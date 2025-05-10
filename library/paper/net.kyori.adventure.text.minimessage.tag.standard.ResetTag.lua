@@ -3,6 +3,6 @@
 ---@class net.kyori.adventure.text.minimessage.tag.standard.ResetTag
 ---@field private RESET string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(): ResetTag
+---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.ResetTag
 local ResetTag = {}
 

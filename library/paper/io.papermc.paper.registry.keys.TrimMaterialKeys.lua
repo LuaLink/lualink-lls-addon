@@ -13,7 +13,7 @@
 ---@field public QUARTZ io.papermc.paper.registry.TypedKey
 ---@field public REDSTONE io.papermc.paper.registry.TypedKey
 ---@field public RESIN io.papermc.paper.registry.TypedKey
----@overload fun(): TrimMaterialKeys
+---@overload fun(): io.papermc.paper.registry.keys.TrimMaterialKeys
 local TrimMaterialKeys = {}
 
 ---@param key any the value's key in the registry

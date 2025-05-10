@@ -16,7 +16,7 @@
 ---@field public historyStart number
 ---@field public needsFullReset boolean
 ---@field public needsRecheckEnabled boolean
----@overload fun(): TimingsManager
+---@overload fun(): co.aikar.timings.TimingsManager
 local TimingsManager = {}
 
 ---@public

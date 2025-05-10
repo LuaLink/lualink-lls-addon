@@ -4,7 +4,7 @@
 ---@class io.papermc.paper.registry.keys.tags.FluidTagKeys
 ---@field public LAVA io.papermc.paper.registry.tag.TagKey
 ---@field public WATER io.papermc.paper.registry.tag.TagKey
----@overload fun(): FluidTagKeys
+---@overload fun(): io.papermc.paper.registry.keys.tags.FluidTagKeys
 local FluidTagKeys = {}
 
 ---@param key any the tag key's key

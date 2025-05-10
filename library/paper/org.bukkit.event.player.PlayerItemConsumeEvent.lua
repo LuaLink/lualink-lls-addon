@@ -7,8 +7,8 @@
 ---@field private item org.bukkit.inventory.ItemStack
 ---@field private replacement org.bukkit.inventory.ItemStack
 ---@field private cancelled boolean
----@overload fun(player: Player, item: ItemStack, hand: EquipmentSlot): PlayerItemConsumeEvent
----@overload fun(player: Player, item: ItemStack): PlayerItemConsumeEvent
+---@overload fun(player: Player, item: ItemStack, hand: EquipmentSlot): org.bukkit.event.player.PlayerItemConsumeEvent
+---@overload fun(player: Player, item: ItemStack): org.bukkit.event.player.PlayerItemConsumeEvent
 local PlayerItemConsumeEvent = {}
 
 ---@public

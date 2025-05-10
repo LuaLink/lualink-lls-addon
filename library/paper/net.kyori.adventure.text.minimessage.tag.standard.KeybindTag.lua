@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.text.minimessage.tag.standard.KeybindTag
 ---@field public KEYBIND string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(): KeybindTag
+---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.KeybindTag
 local KeybindTag = {}
 
 ---@param args net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue 

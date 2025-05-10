@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.material.Skull
 ---@class org.bukkit.material.Skull: org.bukkit.material.MaterialData, org.bukkit.material.Directional
----@overload fun(): Skull
----@overload fun(direction: BlockFace): Skull
----@overload fun(type: Material): Skull
----@overload fun(type: Material, data: number): Skull
+---@overload fun(): org.bukkit.material.Skull
+---@overload fun(direction: BlockFace): org.bukkit.material.Skull
+---@overload fun(type: Material): org.bukkit.material.Skull
+---@overload fun(type: Material, data: number): org.bukkit.material.Skull
 local Skull = {}
 
 ---@param face org.bukkit.block.BlockFace 

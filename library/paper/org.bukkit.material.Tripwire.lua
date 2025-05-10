@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.material.Tripwire
 ---@class org.bukkit.material.Tripwire: org.bukkit.material.MaterialData
----@overload fun(): Tripwire
----@overload fun(type: Material, data: number): Tripwire
+---@overload fun(): org.bukkit.material.Tripwire
+---@overload fun(type: Material, data: number): org.bukkit.material.Tripwire
 local Tripwire = {}
 
 ---@public

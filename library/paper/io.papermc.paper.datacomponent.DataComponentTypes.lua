@@ -90,7 +90,7 @@
 ---@field public CAT_COLLAR io.papermc.paper.datacomponent.DataComponentType.Valued
 ---@field public SHEEP_COLOR io.papermc.paper.datacomponent.DataComponentType.Valued
 ---@field public SHULKER_COLOR io.papermc.paper.datacomponent.DataComponentType.Valued
----@overload fun(): DataComponentTypes
+---@overload fun(): io.papermc.paper.datacomponent.DataComponentTypes
 local DataComponentTypes = {}
 
 ---@param name string 

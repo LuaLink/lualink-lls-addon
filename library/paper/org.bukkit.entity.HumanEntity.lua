@@ -195,7 +195,7 @@ function HumanEntity:getCooldown(material) end
 ---@param ticks number the amount of ticks to set or 0 to remove
 ---@public
 ---@return nil 
---- Set a cooldown on the specified material for a certain amount of ticks. ticks. 0 ticks will result in the removal of the cooldown. <p> Cooldowns are used by the server for items such as ender pearls and shields to prevent them from being used repeatedly. <p> Note that cooldowns will not by themselves stop an item from being used for attacking.
+--- Set a cooldown on the specified material for a certain amount of ticks. 0 ticks will result in the removal of the cooldown. <p> Cooldowns are used by the server for items such as ender pearls and shields to prevent them from being used repeatedly. <p> Note that cooldowns will not by themselves stop an item from being used for attacking.
 function HumanEntity:setCooldown(material, ticks) end
 
 ---@param hurtDirection number hurt direction
@@ -225,8 +225,21 @@ function HumanEntity:getCooldown(item) end
 ---@param ticks number the amount of ticks to set or 0 to remove
 ---@public
 ---@return nil 
---- Set a cooldown on the specified item for a certain amount of ticks. ticks. 0 ticks will result in the removal of the cooldown. <p> Cooldowns are used by the server for items such as ender pearls and shields to prevent them from being used repeatedly. <p> Note that cooldowns will not by themselves stop an item from being used for attacking.
+--- Set a cooldown on the specified item for a certain amount of ticks. 0 ticks will result in the removal of the cooldown. <p> Cooldowns are used by the server for items such as ender pearls and shields to prevent them from being used repeatedly. <p> Note that cooldowns will not by themselves stop an item from being used for attacking.
 function HumanEntity:setCooldown(item, ticks) end
+
+---@param key any the cooldown group to check
+---@public
+---@return number the remaining cooldown time in ticks
+--- Get the cooldown time in ticks remaining for the specified cooldown group.
+function HumanEntity:getCooldown(key) end
+
+---@param key any cooldown group to set the cooldown for
+---@param ticks number the amount of ticks to set or 0 to remove
+---@public
+---@return nil 
+--- Set a cooldown on items with the specified cooldown group for a certain amount of ticks. 0 ticks will result in the removal of the cooldown. <p> Cooldowns are used by the server for items such as ender pearls and shields to prevent them from being used repeatedly. <p> Note that cooldowns will not by themselves stop an item from being used for attacking.
+function HumanEntity:setCooldown(key, ticks) end
 
 ---@public
 ---@return number slumber ticks
@@ -239,6 +252,7 @@ function HumanEntity:getSleepTicks() end
 --- Gets the Location of the player's bed, null if they have not slept in one. This method will not attempt to validate if the current bed is still valid.
 function HumanEntity:getPotentialBedLocation() end
 
+---@deprecated
 ---@public
 ---@return org.bukkit.Location respawn location if exists, otherwise null.
 --- Gets the Location where the player will spawn at, null if they don't have a valid respawn point. This method will not attempt to validate if the current respawn location is still valid.

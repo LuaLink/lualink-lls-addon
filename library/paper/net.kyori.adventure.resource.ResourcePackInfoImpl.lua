@@ -4,7 +4,7 @@
 ---@field private id java.util.UUID
 ---@field private uri java.net.URI
 ---@field private hash string
----@overload fun(id: UUID, uri: URI, hash: string): ResourcePackInfoImpl
+---@overload fun(id: UUID, uri: URI, hash: string): net.kyori.adventure.resource.ResourcePackInfoImpl
 local ResourcePackInfoImpl = {}
 
 ---@public

@@ -9,7 +9,7 @@
 ---@field public INSTANCE net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@field private STYLE net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim
 ---@field private COLOR_ALIASES java.util.Map
----@overload fun(): ColorTagResolver
+---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.ColorTagResolver
 local ColorTagResolver = {}
 
 ---@param name string 

@@ -9,7 +9,7 @@
 ---@field private radius number
 ---@field private findUnexplored boolean
 ---@field private cancelled boolean
----@overload fun(world: World, origin: Location, structures: table<Structure>, radius: number, findUnexplored: boolean): StructuresLocateEvent
+---@overload fun(world: World, origin: Location, structures: table<Structure>, radius: number, findUnexplored: boolean): io.papermc.paper.event.world.StructuresLocateEvent
 local StructuresLocateEvent = {}
 
 ---@public

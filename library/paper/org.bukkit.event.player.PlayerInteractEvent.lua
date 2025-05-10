@@ -11,9 +11,9 @@
 ---@field private clickedPosition org.bukkit.util.Vector
 ---@field private useItemInHand org.bukkit.event.Event.Result
 ---@field private useClickedBlock org.bukkit.event.Event.Result
----@overload fun(player: Player, action: Action, item: ItemStack, clickedBlock: Block, clickedFace: BlockFace): PlayerInteractEvent
----@overload fun(player: Player, action: Action, item: ItemStack, clickedBlock: Block, clickedFace: BlockFace, hand: EquipmentSlot): PlayerInteractEvent
----@overload fun(player: Player, action: Action, item: ItemStack, clickedBlock: Block, clickedFace: BlockFace, hand: EquipmentSlot, clickedPosition: Vector): PlayerInteractEvent
+---@overload fun(player: Player, action: Action, item: ItemStack, clickedBlock: Block, clickedFace: BlockFace): org.bukkit.event.player.PlayerInteractEvent
+---@overload fun(player: Player, action: Action, item: ItemStack, clickedBlock: Block, clickedFace: BlockFace, hand: EquipmentSlot): org.bukkit.event.player.PlayerInteractEvent
+---@overload fun(player: Player, action: Action, item: ItemStack, clickedBlock: Block, clickedFace: BlockFace, hand: EquipmentSlot, clickedPosition: Vector): org.bukkit.event.player.PlayerInteractEvent
 local PlayerInteractEvent = {}
 
 ---@public

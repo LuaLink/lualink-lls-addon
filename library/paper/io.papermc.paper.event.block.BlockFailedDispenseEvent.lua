@@ -4,7 +4,7 @@
 ---@class io.papermc.paper.event.block.BlockFailedDispenseEvent: org.bukkit.event.block.BlockEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private shouldPlayEffect boolean
----@overload fun(block: Block): BlockFailedDispenseEvent
+---@overload fun(block: Block): io.papermc.paper.event.block.BlockFailedDispenseEvent
 local BlockFailedDispenseEvent = {}
 
 ---@public
