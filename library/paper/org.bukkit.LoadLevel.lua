@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.LoadLevel
 ---@class org.bukkit.LoadLevel
----@field public INACCESSIBLE LoadLevel
----@field public BORDER LoadLevel
----@field public TICKING LoadLevel
----@field public ENTITY_TICKING LoadLevel
----@field public UNLOADED LoadLevel
+---@field public INACCESSIBLE Optional[org.bukkit.Chunk.LoadLevel]
+---@field public BORDER Optional[org.bukkit.Chunk.LoadLevel]
+---@field public TICKING Optional[org.bukkit.Chunk.LoadLevel]
+---@field public ENTITY_TICKING Optional[org.bukkit.Chunk.LoadLevel]
+---@field public UNLOADED Optional[org.bukkit.Chunk.LoadLevel]
 local LoadLevel = {}
 

@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.WarningState
 ---@class org.bukkit.WarningState
----@field public ON WarningState
----@field public OFF WarningState
----@field public DEFAULT WarningState
+---@field public ON Optional[org.bukkit.Warning.WarningState]
+---@field public OFF Optional[org.bukkit.Warning.WarningState]
+---@field public DEFAULT Optional[org.bukkit.Warning.WarningState]
 local WarningState = {}
 

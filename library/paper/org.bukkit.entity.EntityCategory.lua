@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.entity.EntityCategory
 ---@class org.bukkit.entity.EntityCategory
----@field public NONE EntityCategory
----@field public UNDEAD EntityCategory
----@field public ARTHROPOD EntityCategory
----@field public ILLAGER EntityCategory
----@field public WATER EntityCategory
+---@field public NONE Optional[org.bukkit.entity.EntityCategory]
+---@field public UNDEAD Optional[org.bukkit.entity.EntityCategory]
+---@field public ARTHROPOD Optional[org.bukkit.entity.EntityCategory]
+---@field public ILLAGER Optional[org.bukkit.entity.EntityCategory]
+---@field public WATER Optional[org.bukkit.entity.EntityCategory]
 local EntityCategory = {}
 

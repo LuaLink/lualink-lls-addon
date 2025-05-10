@@ -2,14 +2,14 @@
 ---@meta
 -- org.bukkit.event.entity.DamageModifier
 ---@class org.bukkit.event.entity.DamageModifier
----@field public BASE DamageModifier
----@field public INVULNERABILITY_REDUCTION DamageModifier
----@field public FREEZING DamageModifier
----@field public HARD_HAT DamageModifier
----@field public BLOCKING DamageModifier
----@field public ARMOR DamageModifier
----@field public RESISTANCE DamageModifier
----@field public MAGIC DamageModifier
----@field public ABSORPTION DamageModifier
+---@field public BASE Optional[org.bukkit.event.entity.EntityDamageEvent.DamageModifier]
+---@field public INVULNERABILITY_REDUCTION Optional[org.bukkit.event.entity.EntityDamageEvent.DamageModifier]
+---@field public FREEZING Optional[org.bukkit.event.entity.EntityDamageEvent.DamageModifier]
+---@field public HARD_HAT Optional[org.bukkit.event.entity.EntityDamageEvent.DamageModifier]
+---@field public BLOCKING Optional[org.bukkit.event.entity.EntityDamageEvent.DamageModifier]
+---@field public ARMOR Optional[org.bukkit.event.entity.EntityDamageEvent.DamageModifier]
+---@field public RESISTANCE Optional[org.bukkit.event.entity.EntityDamageEvent.DamageModifier]
+---@field public MAGIC Optional[org.bukkit.event.entity.EntityDamageEvent.DamageModifier]
+---@field public ABSORPTION Optional[org.bukkit.event.entity.EntityDamageEvent.DamageModifier]
 local DamageModifier = {}
 

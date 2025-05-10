@@ -2,12 +2,12 @@
 ---@meta
 -- org.bukkit.event.block.PrimeCause
 ---@class org.bukkit.event.block.PrimeCause
----@field public FIRE PrimeCause
----@field public REDSTONE PrimeCause
----@field public PLAYER PrimeCause
----@field public EXPLOSION PrimeCause
----@field public PROJECTILE PrimeCause
----@field public BLOCK_BREAK PrimeCause
----@field public DISPENSER PrimeCause
+---@field public FIRE Optional[org.bukkit.event.block.TNTPrimeEvent.PrimeCause]
+---@field public REDSTONE Optional[org.bukkit.event.block.TNTPrimeEvent.PrimeCause]
+---@field public PLAYER Optional[org.bukkit.event.block.TNTPrimeEvent.PrimeCause]
+---@field public EXPLOSION Optional[org.bukkit.event.block.TNTPrimeEvent.PrimeCause]
+---@field public PROJECTILE Optional[org.bukkit.event.block.TNTPrimeEvent.PrimeCause]
+---@field public BLOCK_BREAK Optional[org.bukkit.event.block.TNTPrimeEvent.PrimeCause]
+---@field public DISPENSER Optional[org.bukkit.event.block.TNTPrimeEvent.PrimeCause]
 local PrimeCause = {}
 

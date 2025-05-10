@@ -2,15 +2,15 @@
 ---@meta
 -- org.bukkit.Type
 ---@class org.bukkit.Type
----@field public REPORT_BUG Type
----@field public COMMUNITY_GUIDELINES Type
----@field public SUPPORT Type
----@field public STATUS Type
----@field public FEEDBACK Type
----@field public COMMUNITY Type
----@field public WEBSITE Type
----@field public FORUMS Type
----@field public NEWS Type
----@field public ANNOUNCEMENTS Type
+---@field public REPORT_BUG Optional[org.bukkit.ServerLinks.Type]
+---@field public COMMUNITY_GUIDELINES Optional[org.bukkit.ServerLinks.Type]
+---@field public SUPPORT Optional[org.bukkit.ServerLinks.Type]
+---@field public STATUS Optional[org.bukkit.ServerLinks.Type]
+---@field public FEEDBACK Optional[org.bukkit.ServerLinks.Type]
+---@field public COMMUNITY Optional[org.bukkit.ServerLinks.Type]
+---@field public WEBSITE Optional[org.bukkit.ServerLinks.Type]
+---@field public FORUMS Optional[org.bukkit.ServerLinks.Type]
+---@field public NEWS Optional[org.bukkit.ServerLinks.Type]
+---@field public ANNOUNCEMENTS Optional[org.bukkit.ServerLinks.Type]
 local Type = {}
 

@@ -2,14 +2,14 @@
 ---@meta
 -- org.bukkit.inventory.CreativeCategory
 ---@class org.bukkit.inventory.CreativeCategory
----@field public BUILDING_BLOCKS CreativeCategory
----@field public DECORATIONS CreativeCategory
----@field public REDSTONE CreativeCategory
----@field public TRANSPORTATION CreativeCategory
----@field public MISC CreativeCategory
----@field public FOOD CreativeCategory
----@field public TOOLS CreativeCategory
----@field public COMBAT CreativeCategory
----@field public BREWING CreativeCategory
+---@field public BUILDING_BLOCKS Optional[org.bukkit.inventory.CreativeCategory]
+---@field public DECORATIONS Optional[org.bukkit.inventory.CreativeCategory]
+---@field public REDSTONE Optional[org.bukkit.inventory.CreativeCategory]
+---@field public TRANSPORTATION Optional[org.bukkit.inventory.CreativeCategory]
+---@field public MISC Optional[org.bukkit.inventory.CreativeCategory]
+---@field public FOOD Optional[org.bukkit.inventory.CreativeCategory]
+---@field public TOOLS Optional[org.bukkit.inventory.CreativeCategory]
+---@field public COMBAT Optional[org.bukkit.inventory.CreativeCategory]
+---@field public BREWING Optional[org.bukkit.inventory.CreativeCategory]
 local CreativeCategory = {}
 

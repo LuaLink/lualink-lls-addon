@@ -1,12 +1,12 @@
 ---@meta
 -- org.bukkit.boss.BarColor
 ---@class org.bukkit.boss.BarColor
----@field public PINK BarColor
----@field public BLUE BarColor
----@field public RED BarColor
----@field public GREEN BarColor
----@field public YELLOW BarColor
----@field public PURPLE BarColor
----@field public WHITE BarColor
+---@field public PINK Optional[org.bukkit.boss.BarColor]
+---@field public BLUE Optional[org.bukkit.boss.BarColor]
+---@field public RED Optional[org.bukkit.boss.BarColor]
+---@field public GREEN Optional[org.bukkit.boss.BarColor]
+---@field public YELLOW Optional[org.bukkit.boss.BarColor]
+---@field public PURPLE Optional[org.bukkit.boss.BarColor]
+---@field public WHITE Optional[org.bukkit.boss.BarColor]
 local BarColor = {}
 

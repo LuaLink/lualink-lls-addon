@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.Environment
 ---@class org.bukkit.Environment
----@field public NORMAL Environment
----@field public NETHER Environment
----@field public THE_END Environment
----@field public CUSTOM Environment
+---@field public NORMAL Optional[org.bukkit.World.Environment]
+---@field public NETHER Optional[org.bukkit.World.Environment]
+---@field public THE_END Optional[org.bukkit.World.Environment]
+---@field public CUSTOM Optional[org.bukkit.World.Environment]
 local Environment = {}
 

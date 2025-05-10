@@ -2,10 +2,10 @@
 ---@meta
 -- com.destroystokyo.paper.entity.ai.GoalType
 ---@class com.destroystokyo.paper.entity.ai.GoalType
----@field public MOVE GoalType
----@field public LOOK GoalType
----@field public JUMP GoalType
----@field public TARGET GoalType
----@field public UNKNOWN_BEHAVIOR GoalType
+---@field public MOVE Optional[com.destroystokyo.paper.entity.ai.GoalType]
+---@field public LOOK Optional[com.destroystokyo.paper.entity.ai.GoalType]
+---@field public JUMP Optional[com.destroystokyo.paper.entity.ai.GoalType]
+---@field public TARGET Optional[com.destroystokyo.paper.entity.ai.GoalType]
+---@field public UNKNOWN_BEHAVIOR Optional[com.destroystokyo.paper.entity.ai.GoalType]
 local GoalType = {}
 

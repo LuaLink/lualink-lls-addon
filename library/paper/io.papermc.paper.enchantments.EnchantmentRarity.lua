@@ -2,9 +2,9 @@
 ---@meta
 -- io.papermc.paper.enchantments.EnchantmentRarity
 ---@class io.papermc.paper.enchantments.EnchantmentRarity
----@field public COMMON EnchantmentRarity
----@field public UNCOMMON EnchantmentRarity
----@field public RARE EnchantmentRarity
----@field public VERY_RARE EnchantmentRarity
+---@field public COMMON Optional[io.papermc.paper.enchantments.EnchantmentRarity]
+---@field public UNCOMMON Optional[io.papermc.paper.enchantments.EnchantmentRarity]
+---@field public RARE Optional[io.papermc.paper.enchantments.EnchantmentRarity]
+---@field public VERY_RARE Optional[io.papermc.paper.enchantments.EnchantmentRarity]
 local EnchantmentRarity = {}
 

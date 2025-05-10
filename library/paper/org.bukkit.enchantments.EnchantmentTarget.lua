@@ -2,20 +2,20 @@
 ---@meta
 -- org.bukkit.enchantments.EnchantmentTarget
 ---@class org.bukkit.enchantments.EnchantmentTarget
----@field public ALL EnchantmentTarget
----@field public ARMOR EnchantmentTarget
----@field public ARMOR_FEET EnchantmentTarget
----@field public ARMOR_LEGS EnchantmentTarget
----@field public ARMOR_TORSO EnchantmentTarget
----@field public ARMOR_HEAD EnchantmentTarget
----@field public WEAPON EnchantmentTarget
----@field public TOOL EnchantmentTarget
----@field public BOW EnchantmentTarget
----@field public FISHING_ROD EnchantmentTarget
----@field public BREAKABLE EnchantmentTarget
----@field public WEARABLE EnchantmentTarget
----@field public TRIDENT EnchantmentTarget
----@field public CROSSBOW EnchantmentTarget
----@field public VANISHABLE EnchantmentTarget
+---@field public ALL Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public ARMOR Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public ARMOR_FEET Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public ARMOR_LEGS Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public ARMOR_TORSO Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public ARMOR_HEAD Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public WEAPON Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public TOOL Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public BOW Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public FISHING_ROD Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public BREAKABLE Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public WEARABLE Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public TRIDENT Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public CROSSBOW Optional[org.bukkit.enchantments.EnchantmentTarget]
+---@field public VANISHABLE Optional[org.bukkit.enchantments.EnchantmentTarget]
 local EnchantmentTarget = {}
 

@@ -2,12 +2,12 @@
 ---@meta
 -- org.bukkit.SkullType
 ---@class org.bukkit.SkullType
----@field public SKELETON SkullType
----@field public WITHER SkullType
----@field public ZOMBIE SkullType
----@field public PLAYER SkullType
----@field public CREEPER SkullType
----@field public DRAGON SkullType
----@field public PIGLIN SkullType
+---@field public SKELETON Optional[org.bukkit.SkullType]
+---@field public WITHER Optional[org.bukkit.SkullType]
+---@field public ZOMBIE Optional[org.bukkit.SkullType]
+---@field public PLAYER Optional[org.bukkit.SkullType]
+---@field public CREEPER Optional[org.bukkit.SkullType]
+---@field public DRAGON Optional[org.bukkit.SkullType]
+---@field public PIGLIN Optional[org.bukkit.SkullType]
 local SkullType = {}
 

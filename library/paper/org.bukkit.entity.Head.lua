@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.entity.Head
 ---@class org.bukkit.entity.Head
----@field public CENTER Head
----@field public LEFT Head
----@field public RIGHT Head
+---@field public CENTER Optional[org.bukkit.entity.Wither.Head]
+---@field public LEFT Optional[org.bukkit.entity.Wither.Head]
+---@field public RIGHT Optional[org.bukkit.entity.Wither.Head]
 local Head = {}
 

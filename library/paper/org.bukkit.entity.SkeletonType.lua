@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.entity.SkeletonType
 ---@class org.bukkit.entity.SkeletonType
----@field public NORMAL SkeletonType
----@field public WITHER SkeletonType
----@field public STRAY SkeletonType
----@field public BOGGED SkeletonType
+---@field public NORMAL Optional[org.bukkit.entity.Skeleton.SkeletonType]
+---@field public WITHER Optional[org.bukkit.entity.Skeleton.SkeletonType]
+---@field public STRAY Optional[org.bukkit.entity.Skeleton.SkeletonType]
+---@field public BOGGED Optional[org.bukkit.entity.Skeleton.SkeletonType]
 local SkeletonType = {}
 

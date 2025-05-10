@@ -2,10 +2,10 @@
 ---@meta
 -- org.bukkit.plugin.ServicePriority
 ---@class org.bukkit.plugin.ServicePriority
----@field public Lowest ServicePriority
----@field public Low ServicePriority
----@field public Normal ServicePriority
----@field public High ServicePriority
----@field public Highest ServicePriority
+---@field public Lowest Optional[org.bukkit.plugin.ServicePriority]
+---@field public Low Optional[org.bukkit.plugin.ServicePriority]
+---@field public Normal Optional[org.bukkit.plugin.ServicePriority]
+---@field public High Optional[org.bukkit.plugin.ServicePriority]
+---@field public Highest Optional[org.bukkit.plugin.ServicePriority]
 local ServicePriority = {}
 

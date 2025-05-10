@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.entity.TextAlignment
 ---@class org.bukkit.entity.TextAlignment
----@field public CENTER TextAlignment
----@field public LEFT TextAlignment
----@field public RIGHT TextAlignment
+---@field public CENTER Optional[org.bukkit.entity.TextDisplay.TextAlignment]
+---@field public LEFT Optional[org.bukkit.entity.TextDisplay.TextAlignment]
+---@field public RIGHT Optional[org.bukkit.entity.TextDisplay.TextAlignment]
 local TextAlignment = {}
 

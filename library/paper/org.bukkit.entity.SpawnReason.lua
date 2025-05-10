@@ -2,16 +2,16 @@
 ---@meta
 -- org.bukkit.entity.SpawnReason
 ---@class org.bukkit.entity.SpawnReason
----@field public PLAYER_DEATH SpawnReason
----@field public ENTITY_DEATH SpawnReason
----@field public FURNACE SpawnReason
----@field public BREED SpawnReason
----@field public VILLAGER_TRADE SpawnReason
----@field public FISHING SpawnReason
----@field public BLOCK_BREAK SpawnReason
----@field public CUSTOM SpawnReason
----@field public EXP_BOTTLE SpawnReason
----@field public GRINDSTONE SpawnReason
----@field public UNKNOWN SpawnReason
+---@field public PLAYER_DEATH Optional[org.bukkit.entity.ExperienceOrb.SpawnReason]
+---@field public ENTITY_DEATH Optional[org.bukkit.entity.ExperienceOrb.SpawnReason]
+---@field public FURNACE Optional[org.bukkit.entity.ExperienceOrb.SpawnReason]
+---@field public BREED Optional[org.bukkit.entity.ExperienceOrb.SpawnReason]
+---@field public VILLAGER_TRADE Optional[org.bukkit.entity.ExperienceOrb.SpawnReason]
+---@field public FISHING Optional[org.bukkit.entity.ExperienceOrb.SpawnReason]
+---@field public BLOCK_BREAK Optional[org.bukkit.entity.ExperienceOrb.SpawnReason]
+---@field public CUSTOM Optional[org.bukkit.entity.ExperienceOrb.SpawnReason]
+---@field public EXP_BOTTLE Optional[org.bukkit.entity.ExperienceOrb.SpawnReason]
+---@field public GRINDSTONE Optional[org.bukkit.entity.ExperienceOrb.SpawnReason]
+---@field public UNKNOWN Optional[org.bukkit.entity.ExperienceOrb.SpawnReason]
 local SpawnReason = {}
 

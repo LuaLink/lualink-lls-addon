@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.inventory.recipe.CraftingBookCategory
 ---@class org.bukkit.inventory.recipe.CraftingBookCategory
----@field public BUILDING CraftingBookCategory
----@field public REDSTONE CraftingBookCategory
----@field public EQUIPMENT CraftingBookCategory
----@field public MISC CraftingBookCategory
+---@field public BUILDING Optional[org.bukkit.inventory.recipe.CraftingBookCategory]
+---@field public REDSTONE Optional[org.bukkit.inventory.recipe.CraftingBookCategory]
+---@field public EQUIPMENT Optional[org.bukkit.inventory.recipe.CraftingBookCategory]
+---@field public MISC Optional[org.bukkit.inventory.recipe.CraftingBookCategory]
 local CraftingBookCategory = {}
 

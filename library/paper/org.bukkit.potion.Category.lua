@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.potion.Category
 ---@class org.bukkit.potion.Category
----@field public BENEFICIAL Category
----@field public HARMFUL Category
----@field public NEUTRAL Category
+---@field public BENEFICIAL Optional[org.bukkit.potion.PotionEffectType.Category]
+---@field public HARMFUL Optional[org.bukkit.potion.PotionEffectType.Category]
+---@field public NEUTRAL Optional[org.bukkit.potion.PotionEffectType.Category]
 local Category = {}
 

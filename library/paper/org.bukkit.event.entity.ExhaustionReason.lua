@@ -2,19 +2,19 @@
 ---@meta
 -- org.bukkit.event.entity.ExhaustionReason
 ---@class org.bukkit.event.entity.ExhaustionReason
----@field public BLOCK_MINED ExhaustionReason
----@field public HUNGER_EFFECT ExhaustionReason
----@field public DAMAGED ExhaustionReason
----@field public ATTACK ExhaustionReason
----@field public JUMP_SPRINT ExhaustionReason
----@field public JUMP ExhaustionReason
----@field public SWIM ExhaustionReason
----@field public WALK_UNDERWATER ExhaustionReason
----@field public WALK_ON_WATER ExhaustionReason
----@field public SPRINT ExhaustionReason
----@field public CROUCH ExhaustionReason
----@field public WALK ExhaustionReason
----@field public REGEN ExhaustionReason
----@field public UNKNOWN ExhaustionReason
+---@field public BLOCK_MINED Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public HUNGER_EFFECT Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public DAMAGED Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public ATTACK Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public JUMP_SPRINT Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public JUMP Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public SWIM Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public WALK_UNDERWATER Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public WALK_ON_WATER Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public SPRINT Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public CROUCH Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public WALK Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public REGEN Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
+---@field public UNKNOWN Optional[org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason]
 local ExhaustionReason = {}
 

@@ -2,9 +2,9 @@
 ---@meta
 -- org.bukkit.block.structure.UsageMode
 ---@class org.bukkit.block.structure.UsageMode
----@field public SAVE UsageMode
----@field public LOAD UsageMode
----@field public CORNER UsageMode
----@field public DATA UsageMode
+---@field public SAVE Optional[org.bukkit.block.structure.UsageMode]
+---@field public LOAD Optional[org.bukkit.block.structure.UsageMode]
+---@field public CORNER Optional[org.bukkit.block.structure.UsageMode]
+---@field public DATA Optional[org.bukkit.block.structure.UsageMode]
 local UsageMode = {}
 

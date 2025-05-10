@@ -2,24 +2,24 @@
 ---@meta
 -- org.bukkit.block.BlockFace
 ---@class org.bukkit.block.BlockFace
----@field public NORTH BlockFace
----@field public EAST BlockFace
----@field public SOUTH BlockFace
----@field public WEST BlockFace
----@field public UP BlockFace
----@field public DOWN BlockFace
----@field public NORTH_EAST BlockFace
----@field public NORTH_WEST BlockFace
----@field public SOUTH_EAST BlockFace
----@field public SOUTH_WEST BlockFace
----@field public WEST_NORTH_WEST BlockFace
----@field public NORTH_NORTH_WEST BlockFace
----@field public NORTH_NORTH_EAST BlockFace
----@field public EAST_NORTH_EAST BlockFace
----@field public EAST_SOUTH_EAST BlockFace
----@field public SOUTH_SOUTH_EAST BlockFace
----@field public SOUTH_SOUTH_WEST BlockFace
----@field public WEST_SOUTH_WEST BlockFace
----@field public SELF BlockFace
+---@field public NORTH Optional[org.bukkit.block.BlockFace]
+---@field public EAST Optional[org.bukkit.block.BlockFace]
+---@field public SOUTH Optional[org.bukkit.block.BlockFace]
+---@field public WEST Optional[org.bukkit.block.BlockFace]
+---@field public UP Optional[org.bukkit.block.BlockFace]
+---@field public DOWN Optional[org.bukkit.block.BlockFace]
+---@field public NORTH_EAST Optional[org.bukkit.block.BlockFace]
+---@field public NORTH_WEST Optional[org.bukkit.block.BlockFace]
+---@field public SOUTH_EAST Optional[org.bukkit.block.BlockFace]
+---@field public SOUTH_WEST Optional[org.bukkit.block.BlockFace]
+---@field public WEST_NORTH_WEST Optional[org.bukkit.block.BlockFace]
+---@field public NORTH_NORTH_WEST Optional[org.bukkit.block.BlockFace]
+---@field public NORTH_NORTH_EAST Optional[org.bukkit.block.BlockFace]
+---@field public EAST_NORTH_EAST Optional[org.bukkit.block.BlockFace]
+---@field public EAST_SOUTH_EAST Optional[org.bukkit.block.BlockFace]
+---@field public SOUTH_SOUTH_EAST Optional[org.bukkit.block.BlockFace]
+---@field public SOUTH_SOUTH_WEST Optional[org.bukkit.block.BlockFace]
+---@field public WEST_SOUTH_WEST Optional[org.bukkit.block.BlockFace]
+---@field public SELF Optional[org.bukkit.block.BlockFace]
 local BlockFace = {}
 
