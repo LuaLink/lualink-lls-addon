@@ -18,7 +18,7 @@ function java.caught() end
 function java.detach(thread) end
 
 --- Import a Java class or package
---- @param className string
+--- @param className JavaClasses|string
 --- @return any
 function java.import(className) end
 
