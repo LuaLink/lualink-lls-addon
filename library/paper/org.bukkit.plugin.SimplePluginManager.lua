@@ -15,7 +15,7 @@
 ---@field public defSubs java.util.Map
 ---@field public paperPluginManager org.bukkit.plugin.PluginManager
 ---@field private useTimings boolean
----@overload fun(instance: Server, commandMap: SimpleCommandMap): org.bukkit.plugin.SimplePluginManager
+---@overload fun(instance: org.bukkit.Server, commandMap: org.bukkit.command.SimpleCommandMap): org.bukkit.plugin.SimplePluginManager
 local SimplePluginManager = {}
 
 ---@param loader java.lang.Class Class name of the PluginLoader to register

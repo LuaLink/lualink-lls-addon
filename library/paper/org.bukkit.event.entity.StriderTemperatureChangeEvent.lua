@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private shivering boolean
 ---@field private cancelled boolean
----@overload fun(strider: Strider, shivering: boolean): org.bukkit.event.entity.StriderTemperatureChangeEvent
+---@overload fun(strider: org.bukkit.entity.Strider, shivering: boolean): org.bukkit.event.entity.StriderTemperatureChangeEvent
 local StriderTemperatureChangeEvent = {}
 
 ---@public

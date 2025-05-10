@@ -3,9 +3,9 @@
 -- org.bukkit.material.CocoaPlant
 ---@class org.bukkit.material.CocoaPlant: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Attachable
 ---@overload fun(): org.bukkit.material.CocoaPlant
----@overload fun(type: Material, data: number): org.bukkit.material.CocoaPlant
----@overload fun(sz: CocoaPlantSize): org.bukkit.material.CocoaPlant
----@overload fun(sz: CocoaPlantSize, dir: BlockFace): org.bukkit.material.CocoaPlant
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.CocoaPlant
+---@overload fun(sz: org.bukkit.material.CocoaPlant.CocoaPlantSize): org.bukkit.material.CocoaPlant
+---@overload fun(sz: org.bukkit.material.CocoaPlant.CocoaPlantSize, dir: org.bukkit.block.BlockFace): org.bukkit.material.CocoaPlant
 local CocoaPlant = {}
 
 ---@public

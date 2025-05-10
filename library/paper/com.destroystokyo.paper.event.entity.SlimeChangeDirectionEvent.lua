@@ -3,7 +3,7 @@
 -- com.destroystokyo.paper.event.entity.SlimeChangeDirectionEvent
 ---@class com.destroystokyo.paper.event.entity.SlimeChangeDirectionEvent: com.destroystokyo.paper.event.entity.SlimePathfindEvent
 ---@field private yaw number
----@overload fun(slime: Slime, yaw: number): com.destroystokyo.paper.event.entity.SlimeChangeDirectionEvent
+---@overload fun(slime: org.bukkit.entity.Slime, yaw: number): com.destroystokyo.paper.event.entity.SlimeChangeDirectionEvent
 local SlimeChangeDirectionEvent = {}
 
 ---@public

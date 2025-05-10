@@ -6,7 +6,7 @@
 ---@field private sender org.bukkit.command.CommandSender
 ---@field private commandLine string
 ---@field private message net.kyori.adventure.text.Component
----@overload fun(sender: CommandSender, commandLine: string, message: Component): org.bukkit.event.command.UnknownCommandEvent
+---@overload fun(sender: org.bukkit.command.CommandSender, commandLine: string, message: net.kyori.adventure.text.Component): org.bukkit.event.command.UnknownCommandEvent
 local UnknownCommandEvent = {}
 
 ---@public

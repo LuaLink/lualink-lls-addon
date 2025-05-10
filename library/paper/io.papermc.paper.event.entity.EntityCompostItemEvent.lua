@@ -4,7 +4,7 @@
 ---@class io.papermc.paper.event.entity.EntityCompostItemEvent: io.papermc.paper.event.block.CompostItemEvent, org.bukkit.event.Cancellable
 ---@field private entity org.bukkit.entity.Entity
 ---@field private cancelled boolean
----@overload fun(entity: Entity, composter: Block, item: ItemStack, willRaiseLevel: boolean): io.papermc.paper.event.entity.EntityCompostItemEvent
+---@overload fun(entity: org.bukkit.entity.Entity, composter: org.bukkit.block.Block, item: org.bukkit.inventory.ItemStack, willRaiseLevel: boolean): io.papermc.paper.event.entity.EntityCompostItemEvent
 local EntityCompostItemEvent = {}
 
 ---@public

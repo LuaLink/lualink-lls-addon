@@ -6,7 +6,7 @@
 ---@field private replace boolean
 ---@field private required boolean
 ---@field private prompt net.kyori.adventure.text.Component
----@overload fun(packs: table<ResourcePackInfo>, cb: ResourcePackCallback, replace: boolean, required: boolean, prompt: Component): net.kyori.adventure.resource.ResourcePackRequestImpl
+---@overload fun(packs: java.util.List, cb: net.kyori.adventure.resource.ResourcePackCallback, replace: boolean, required: boolean, prompt: net.kyori.adventure.text.Component): net.kyori.adventure.resource.ResourcePackRequestImpl
 local ResourcePackRequestImpl = {}
 
 ---@public

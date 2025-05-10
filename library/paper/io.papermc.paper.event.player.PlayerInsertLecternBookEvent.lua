@@ -6,7 +6,7 @@
 ---@field private cancelled boolean
 ---@field private block org.bukkit.block.Block
 ---@field private book org.bukkit.inventory.ItemStack
----@overload fun(player: Player, block: Block, book: ItemStack): io.papermc.paper.event.player.PlayerInsertLecternBookEvent
+---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, book: org.bukkit.inventory.ItemStack): io.papermc.paper.event.player.PlayerInsertLecternBookEvent
 local PlayerInsertLecternBookEvent = {}
 
 ---@public

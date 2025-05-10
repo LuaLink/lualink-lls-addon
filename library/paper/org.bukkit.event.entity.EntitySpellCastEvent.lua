@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private spell org.bukkit.entity.Spellcaster.Spell
 ---@field private cancelled boolean
----@overload fun(spellcaster: Spellcaster, spell: Spellcaster.Spell): org.bukkit.event.entity.EntitySpellCastEvent
+---@overload fun(spellcaster: org.bukkit.entity.Spellcaster, spell: org.bukkit.entity.Spellcaster.Spell): org.bukkit.event.entity.EntitySpellCastEvent
 local EntitySpellCastEvent = {}
 
 ---@public

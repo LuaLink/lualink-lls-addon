@@ -6,7 +6,7 @@
 ---@field private mergeTarget org.bukkit.entity.ExperienceOrb
 ---@field private mergeSource org.bukkit.entity.ExperienceOrb
 ---@field private cancelled boolean
----@overload fun(mergeTarget: ExperienceOrb, mergeSource: ExperienceOrb): com.destroystokyo.paper.event.entity.ExperienceOrbMergeEvent
+---@overload fun(mergeTarget: org.bukkit.entity.ExperienceOrb, mergeSource: org.bukkit.entity.ExperienceOrb): com.destroystokyo.paper.event.entity.ExperienceOrbMergeEvent
 local ExperienceOrbMergeEvent = {}
 
 ---@public

@@ -8,7 +8,7 @@
 ---@field private renderer io.papermc.paper.chat.ChatRenderer
 ---@field private message net.kyori.adventure.text.Component
 ---@field private cancelled boolean
----@overload fun(async: boolean, player: Player, viewers: table<Audience>, renderer: ChatRenderer, message: Component, originalMessage: Component, signedMessage: SignedMessage): io.papermc.paper.event.player.AbstractChatEvent
+---@overload fun(async: boolean, player: org.bukkit.entity.Player, viewers: java.util.Set, renderer: io.papermc.paper.chat.ChatRenderer, message: net.kyori.adventure.text.Component, originalMessage: net.kyori.adventure.text.Component, signedMessage: net.kyori.adventure.chat.SignedMessage): io.papermc.paper.event.player.AbstractChatEvent
 local AbstractChatEvent = {}
 
 ---@public

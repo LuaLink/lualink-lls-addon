@@ -5,8 +5,8 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field private cancelled boolean
----@overload fun(livingEntity: LivingEntity, hand: EquipmentSlot): org.bukkit.event.entity.EntityResurrectEvent
----@overload fun(livingEntity: LivingEntity): org.bukkit.event.entity.EntityResurrectEvent
+---@overload fun(livingEntity: org.bukkit.entity.LivingEntity, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.entity.EntityResurrectEvent
+---@overload fun(livingEntity: org.bukkit.entity.LivingEntity): org.bukkit.event.entity.EntityResurrectEvent
 local EntityResurrectEvent = {}
 
 ---@public

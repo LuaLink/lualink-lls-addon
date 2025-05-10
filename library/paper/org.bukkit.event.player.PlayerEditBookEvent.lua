@@ -8,7 +8,7 @@
 ---@field private newBookMeta org.bukkit.inventory.meta.BookMeta
 ---@field private isSigning boolean
 ---@field private cancelled boolean
----@overload fun(player: Player, slot: number, previousBookMeta: BookMeta, newBookMeta: BookMeta, isSigning: boolean): org.bukkit.event.player.PlayerEditBookEvent
+---@overload fun(player: org.bukkit.entity.Player, slot: number, previousBookMeta: org.bukkit.inventory.meta.BookMeta, newBookMeta: org.bukkit.inventory.meta.BookMeta, isSigning: boolean): org.bukkit.event.player.PlayerEditBookEvent
 local PlayerEditBookEvent = {}
 
 ---@public

@@ -4,8 +4,8 @@
 ---@class org.bukkit.inventory.ShapedRecipe: org.bukkit.inventory.CraftingRecipe
 ---@field private rows string
 ---@field private ingredients java.util.Map
----@overload fun(result: ItemStack): org.bukkit.inventory.ShapedRecipe
----@overload fun(key: NamespacedKey, result: ItemStack): org.bukkit.inventory.ShapedRecipe
+---@overload fun(result: org.bukkit.inventory.ItemStack): org.bukkit.inventory.ShapedRecipe
+---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack): org.bukkit.inventory.ShapedRecipe
 local ShapedRecipe = {}
 
 ---@param shape string The rows of the recipe (up to 3 rows).

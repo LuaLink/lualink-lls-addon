@@ -8,7 +8,7 @@
 ---@field private rawKnockback org.bukkit.util.Vector
 ---@field private knockback org.bukkit.util.Vector
 ---@field private cancelled boolean
----@overload fun(entity: LivingEntity, cause: KnockbackCause, force: number, rawKnockback: Vector, knockback: Vector): org.bukkit.event.entity.EntityKnockbackEvent
+---@overload fun(entity: org.bukkit.entity.LivingEntity, cause: org.bukkit.event.entity.EntityKnockbackEvent.KnockbackCause, force: number, rawKnockback: org.bukkit.util.Vector, knockback: org.bukkit.util.Vector): org.bukkit.event.entity.EntityKnockbackEvent
 local EntityKnockbackEvent = {}
 
 ---@public

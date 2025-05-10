@@ -9,7 +9,7 @@
 ---@field private player org.bukkit.entity.Player
 ---@field private blocks java.util.List
 ---@field private cancelled boolean
----@overload fun(location: Location, species: TreeType, bonemeal: boolean, player: Player, blocks: table<BlockState>): org.bukkit.event.world.StructureGrowEvent
+---@overload fun(location: org.bukkit.Location, species: org.bukkit.TreeType, bonemeal: boolean, player: org.bukkit.entity.Player, blocks: java.util.List): org.bukkit.event.world.StructureGrowEvent
 local StructureGrowEvent = {}
 
 ---@public

@@ -5,9 +5,9 @@
 ---@field protected grad3 number
 ---@field private instance org.bukkit.util.noise.PerlinNoiseGenerator
 ---@overload fun(): org.bukkit.util.noise.PerlinNoiseGenerator
----@overload fun(world: World): org.bukkit.util.noise.PerlinNoiseGenerator
+---@overload fun(world: org.bukkit.World): org.bukkit.util.noise.PerlinNoiseGenerator
 ---@overload fun(seed: number): org.bukkit.util.noise.PerlinNoiseGenerator
----@overload fun(rand: Random): org.bukkit.util.noise.PerlinNoiseGenerator
+---@overload fun(rand: java.util.Random): org.bukkit.util.noise.PerlinNoiseGenerator
 local PerlinNoiseGenerator = {}
 
 ---@param x number X coordinate

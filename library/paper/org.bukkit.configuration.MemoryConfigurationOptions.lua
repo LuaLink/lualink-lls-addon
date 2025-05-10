@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.configuration.MemoryConfigurationOptions
 ---@class org.bukkit.configuration.MemoryConfigurationOptions: org.bukkit.configuration.ConfigurationOptions
----@overload fun(configuration: MemoryConfiguration): org.bukkit.configuration.MemoryConfigurationOptions
+---@overload fun(configuration: org.bukkit.configuration.MemoryConfiguration): org.bukkit.configuration.MemoryConfigurationOptions
 local MemoryConfigurationOptions = {}
 
 ---@public

@@ -2,7 +2,7 @@
 -- org.bukkit.configuration.file.YamlConstructor
 ---@class org.bukkit.configuration.file.YamlConstructor: any
 ---@overload fun(): org.bukkit.configuration.file.YamlConstructor
----@overload fun(loaderOptions: LoaderOptions): org.bukkit.configuration.file.YamlConstructor
+---@overload fun(loaderOptions: any): org.bukkit.configuration.file.YamlConstructor
 local YamlConstructor = {}
 
 ---@param node any 

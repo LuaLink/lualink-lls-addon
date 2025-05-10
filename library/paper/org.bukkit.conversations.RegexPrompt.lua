@@ -4,7 +4,7 @@
 ---@class org.bukkit.conversations.RegexPrompt: org.bukkit.conversations.ValidatingPrompt
 ---@field private pattern java.util.regex.Pattern
 ---@overload fun(regex: string): org.bukkit.conversations.RegexPrompt
----@overload fun(pattern: Pattern): org.bukkit.conversations.RegexPrompt
+---@overload fun(pattern: java.util.regex.Pattern): org.bukkit.conversations.RegexPrompt
 ---@overload fun(): org.bukkit.conversations.RegexPrompt
 local RegexPrompt = {}
 

@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private count number
 ---@field private cancelled boolean
----@overload fun(slime: Slime, count: number): org.bukkit.event.entity.SlimeSplitEvent
+---@overload fun(slime: org.bukkit.entity.Slime, count: number): org.bukkit.event.entity.SlimeSplitEvent
 local SlimeSplitEvent = {}
 
 ---@public

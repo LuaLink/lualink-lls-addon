@@ -3,8 +3,8 @@
 -- org.bukkit.material.Cake
 ---@class org.bukkit.material.Cake: org.bukkit.material.MaterialData
 ---@overload fun(): org.bukkit.material.Cake
----@overload fun(type: Material): org.bukkit.material.Cake
----@overload fun(type: Material, data: number): org.bukkit.material.Cake
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Cake
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Cake
 local Cake = {}
 
 ---@public

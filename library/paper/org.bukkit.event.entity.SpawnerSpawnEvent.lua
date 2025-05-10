@@ -3,7 +3,7 @@
 -- org.bukkit.event.entity.SpawnerSpawnEvent
 ---@class org.bukkit.event.entity.SpawnerSpawnEvent: org.bukkit.event.entity.EntitySpawnEvent
 ---@field private spawner org.bukkit.block.CreatureSpawner
----@overload fun(spawnee: Entity, spawner: CreatureSpawner): org.bukkit.event.entity.SpawnerSpawnEvent
+---@overload fun(spawnee: org.bukkit.entity.Entity, spawner: org.bukkit.block.CreatureSpawner): org.bukkit.event.entity.SpawnerSpawnEvent
 local SpawnerSpawnEvent = {}
 
 ---@public

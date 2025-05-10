@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.block.BlockExpEvent: org.bukkit.event.block.BlockEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private exp number
----@overload fun(block: Block, exp: number): org.bukkit.event.block.BlockExpEvent
+---@overload fun(block: org.bukkit.block.Block, exp: number): org.bukkit.event.block.BlockExpEvent
 local BlockExpEvent = {}
 
 ---@public

@@ -5,10 +5,10 @@
 ---@field protected tagged java.util.Set
 ---@field private globalPredicates java.util.List
 ---@field private locked boolean
----@overload fun(clazz: T?, key: NamespacedKey, filter: Predicate<T>): io.papermc.paper.tag.BaseTag
----@overload fun(clazz: T?, key: NamespacedKey, values: T): io.papermc.paper.tag.BaseTag
----@overload fun(clazz: T?, key: NamespacedKey, values: Collection<T>): io.papermc.paper.tag.BaseTag
----@overload fun(clazz: T?, key: NamespacedKey, values: Collection<T>, globalPredicates: Predicate<T>): io.papermc.paper.tag.BaseTag
+---@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, filter: java.util.function.Predicate): io.papermc.paper.tag.BaseTag
+---@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, values: T): io.papermc.paper.tag.BaseTag
+---@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, values: java.util.Collection): io.papermc.paper.tag.BaseTag
+---@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, values: java.util.Collection, globalPredicates: java.util.function.Predicate): io.papermc.paper.tag.BaseTag
 local BaseTag = {}
 
 ---@param enumClass java.lang.Class 

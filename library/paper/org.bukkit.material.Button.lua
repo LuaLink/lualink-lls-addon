@@ -3,8 +3,8 @@
 -- org.bukkit.material.Button
 ---@class org.bukkit.material.Button: org.bukkit.material.SimpleAttachableMaterialData, org.bukkit.material.Redstone
 ---@overload fun(): org.bukkit.material.Button
----@overload fun(type: Material): org.bukkit.material.Button
----@overload fun(type: Material, data: number): org.bukkit.material.Button
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Button
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Button
 local Button = {}
 
 ---@public

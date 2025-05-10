@@ -3,7 +3,7 @@
 -- org.bukkit.event.entity.EntityEvent
 ---@class org.bukkit.event.entity.EntityEvent: org.bukkit.event.Event
 ---@field protected entity org.bukkit.entity.Entity
----@overload fun(entity: Entity): org.bukkit.event.entity.EntityEvent
+---@overload fun(entity: org.bukkit.entity.Entity): org.bukkit.event.entity.EntityEvent
 local EntityEvent = {}
 
 ---@public

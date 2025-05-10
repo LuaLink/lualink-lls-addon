@@ -6,7 +6,7 @@
 ---@field private cooldownGroup org.bukkit.NamespacedKey
 ---@field private cooldown number
 ---@field private cancelled boolean
----@overload fun(player: Player, cooldownGroup: NamespacedKey, cooldown: number): io.papermc.paper.event.player.PlayerItemGroupCooldownEvent
+---@overload fun(player: org.bukkit.entity.Player, cooldownGroup: org.bukkit.NamespacedKey, cooldown: number): io.papermc.paper.event.player.PlayerItemGroupCooldownEvent
 local PlayerItemGroupCooldownEvent = {}
 
 ---@public

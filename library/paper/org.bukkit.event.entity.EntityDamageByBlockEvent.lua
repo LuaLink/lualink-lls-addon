@@ -4,10 +4,10 @@
 ---@class org.bukkit.event.entity.EntityDamageByBlockEvent: org.bukkit.event.entity.EntityDamageEvent
 ---@field private damager org.bukkit.block.Block
 ---@field private damagerState org.bukkit.block.BlockState
----@overload fun(damager: Block, damagee: Entity, cause: DamageCause, damage: number): org.bukkit.event.entity.EntityDamageByBlockEvent
----@overload fun(damager: Block, damagerState: BlockState, damagee: Entity, cause: DamageCause, damageSource: DamageSource, damage: number): org.bukkit.event.entity.EntityDamageByBlockEvent
----@overload fun(damager: Block, damagee: Entity, cause: DamageCause, modifiers: table<DamageModifier, Double>, modifierFunctions: table): org.bukkit.event.entity.EntityDamageByBlockEvent
----@overload fun(damager: Block, damagerState: BlockState, damagee: Entity, cause: DamageCause, damageSource: DamageSource, modifiers: table<DamageModifier, Double>, modifierFunctions: table): org.bukkit.event.entity.EntityDamageByBlockEvent
+---@overload fun(damager: org.bukkit.block.Block, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, damage: number): org.bukkit.event.entity.EntityDamageByBlockEvent
+---@overload fun(damager: org.bukkit.block.Block, damagerState: org.bukkit.block.BlockState, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, damageSource: org.bukkit.damage.DamageSource, damage: number): org.bukkit.event.entity.EntityDamageByBlockEvent
+---@overload fun(damager: org.bukkit.block.Block, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, modifiers: java.util.Map, modifierFunctions: any): org.bukkit.event.entity.EntityDamageByBlockEvent
+---@overload fun(damager: org.bukkit.block.Block, damagerState: org.bukkit.block.BlockState, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, damageSource: org.bukkit.damage.DamageSource, modifiers: java.util.Map, modifierFunctions: any): org.bukkit.event.entity.EntityDamageByBlockEvent
 local EntityDamageByBlockEvent = {}
 
 ---@public

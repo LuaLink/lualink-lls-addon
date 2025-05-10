@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private awake boolean
 ---@field private cancelled boolean
----@overload fun(bat: Bat, awake: boolean): org.bukkit.event.entity.BatToggleSleepEvent
+---@overload fun(bat: org.bukkit.entity.Bat, awake: boolean): org.bukkit.event.entity.BatToggleSleepEvent
 local BatToggleSleepEvent = {}
 
 ---@public

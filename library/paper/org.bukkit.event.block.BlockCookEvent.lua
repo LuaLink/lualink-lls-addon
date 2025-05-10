@@ -7,8 +7,8 @@
 ---@field private result org.bukkit.inventory.ItemStack
 ---@field private recipe org.bukkit.inventory.CookingRecipe
 ---@field private cancelled boolean
----@overload fun(block: Block, source: ItemStack, result: ItemStack): org.bukkit.event.block.BlockCookEvent
----@overload fun(block: Block, source: ItemStack, result: ItemStack, recipe: CookingRecipe<?>): org.bukkit.event.block.BlockCookEvent
+---@overload fun(block: org.bukkit.block.Block, source: org.bukkit.inventory.ItemStack, result: org.bukkit.inventory.ItemStack): org.bukkit.event.block.BlockCookEvent
+---@overload fun(block: org.bukkit.block.Block, source: org.bukkit.inventory.ItemStack, result: org.bukkit.inventory.ItemStack, recipe: org.bukkit.inventory.CookingRecipe): org.bukkit.event.block.BlockCookEvent
 local BlockCookEvent = {}
 
 ---@public

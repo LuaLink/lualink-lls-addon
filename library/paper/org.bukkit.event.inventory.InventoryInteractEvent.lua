@@ -3,7 +3,7 @@
 -- org.bukkit.event.inventory.InventoryInteractEvent
 ---@class org.bukkit.event.inventory.InventoryInteractEvent: org.bukkit.event.inventory.InventoryEvent, org.bukkit.event.Cancellable
 ---@field private result org.bukkit.event.Event.Result
----@overload fun(transaction: InventoryView): org.bukkit.event.inventory.InventoryInteractEvent
+---@overload fun(transaction: org.bukkit.inventory.InventoryView): org.bukkit.event.inventory.InventoryInteractEvent
 local InventoryInteractEvent = {}
 
 ---@public

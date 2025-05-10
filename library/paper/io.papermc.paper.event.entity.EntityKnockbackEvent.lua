@@ -6,7 +6,7 @@
 ---@field private cause io.papermc.paper.event.entity.EntityKnockbackEvent.Cause
 ---@field protected knockback org.bukkit.util.Vector
 ---@field private cancelled boolean
----@overload fun(entity: Entity, cause: EntityKnockbackEvent.Cause, knockback: Vector): io.papermc.paper.event.entity.EntityKnockbackEvent
+---@overload fun(entity: org.bukkit.entity.Entity, cause: io.papermc.paper.event.entity.EntityKnockbackEvent.Cause, knockback: org.bukkit.util.Vector): io.papermc.paper.event.entity.EntityKnockbackEvent
 local EntityKnockbackEvent = {}
 
 ---@public

@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.entity.EntitySpawnEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private canceled boolean
----@overload fun(spawnee: Entity): org.bukkit.event.entity.EntitySpawnEvent
+---@overload fun(spawnee: org.bukkit.entity.Entity): org.bukkit.event.entity.EntitySpawnEvent
 local EntitySpawnEvent = {}
 
 ---@public

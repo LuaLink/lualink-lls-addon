@@ -3,7 +3,7 @@
 -- org.bukkit.event.hanging.HangingEvent
 ---@class org.bukkit.event.hanging.HangingEvent: org.bukkit.event.Event
 ---@field protected hanging org.bukkit.entity.Hanging
----@overload fun(painting: Hanging): org.bukkit.event.hanging.HangingEvent
+---@overload fun(painting: org.bukkit.entity.Hanging): org.bukkit.event.hanging.HangingEvent
 local HangingEvent = {}
 
 ---@public

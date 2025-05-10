@@ -7,7 +7,7 @@
 ---@field private format string
 ---@field private recipients java.util.Set
 ---@field private cancelled boolean
----@overload fun(async: boolean, player: Player, message: string, players: table<Player>): org.bukkit.event.player.AsyncPlayerChatEvent
+---@overload fun(async: boolean, player: org.bukkit.entity.Player, message: string, players: java.util.Set): org.bukkit.event.player.AsyncPlayerChatEvent
 local AsyncPlayerChatEvent = {}
 
 ---@public

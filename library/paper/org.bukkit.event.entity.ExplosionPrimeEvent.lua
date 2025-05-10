@@ -6,8 +6,8 @@
 ---@field private radius number
 ---@field private fire boolean
 ---@field private cancelled boolean
----@overload fun(entity: Entity, radius: number, fire: boolean): org.bukkit.event.entity.ExplosionPrimeEvent
----@overload fun(explosive: Explosive): org.bukkit.event.entity.ExplosionPrimeEvent
+---@overload fun(entity: org.bukkit.entity.Entity, radius: number, fire: boolean): org.bukkit.event.entity.ExplosionPrimeEvent
+---@overload fun(explosive: org.bukkit.entity.Explosive): org.bukkit.event.entity.ExplosionPrimeEvent
 local ExplosionPrimeEvent = {}
 
 ---@public

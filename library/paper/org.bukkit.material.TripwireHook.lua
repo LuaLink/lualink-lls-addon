@@ -3,8 +3,8 @@
 -- org.bukkit.material.TripwireHook
 ---@class org.bukkit.material.TripwireHook: org.bukkit.material.SimpleAttachableMaterialData, org.bukkit.material.Redstone
 ---@overload fun(): org.bukkit.material.TripwireHook
----@overload fun(type: Material, data: number): org.bukkit.material.TripwireHook
----@overload fun(dir: BlockFace): org.bukkit.material.TripwireHook
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.TripwireHook
+---@overload fun(dir: org.bukkit.block.BlockFace): org.bukkit.material.TripwireHook
 local TripwireHook = {}
 
 ---@public

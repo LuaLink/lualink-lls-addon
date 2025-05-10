@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private newState org.bukkit.block.BlockState
 ---@field private cancelled boolean
----@overload fun(block: Block, newState: BlockState): org.bukkit.event.block.MoistureChangeEvent
+---@overload fun(block: org.bukkit.block.Block, newState: org.bukkit.block.BlockState): org.bukkit.event.block.MoistureChangeEvent
 local MoistureChangeEvent = {}
 
 ---@public

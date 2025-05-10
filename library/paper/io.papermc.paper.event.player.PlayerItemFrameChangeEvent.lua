@@ -7,7 +7,7 @@
 ---@field private action io.papermc.paper.event.player.PlayerItemFrameChangeEvent.ItemFrameChangeAction
 ---@field private itemStack org.bukkit.inventory.ItemStack
 ---@field private cancelled boolean
----@overload fun(player: Player, itemFrame: ItemFrame, itemStack: ItemStack, action: ItemFrameChangeAction): io.papermc.paper.event.player.PlayerItemFrameChangeEvent
+---@overload fun(player: org.bukkit.entity.Player, itemFrame: org.bukkit.entity.ItemFrame, itemStack: org.bukkit.inventory.ItemStack, action: io.papermc.paper.event.player.PlayerItemFrameChangeEvent.ItemFrameChangeAction): io.papermc.paper.event.player.PlayerItemFrameChangeEvent
 local PlayerItemFrameChangeEvent = {}
 
 ---@public

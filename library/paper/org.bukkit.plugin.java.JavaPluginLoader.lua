@@ -6,7 +6,7 @@
 ---@field private fileFilters java.util.regex.Pattern
 ---@field private loaders java.util.List
 ---@field private libraryLoader org.bukkit.plugin.java.LibraryLoader
----@overload fun(instance: Server): org.bukkit.plugin.java.JavaPluginLoader
+---@overload fun(instance: org.bukkit.Server): org.bukkit.plugin.java.JavaPluginLoader
 local JavaPluginLoader = {}
 
 ---@param file java.io.File 

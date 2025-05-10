@@ -6,7 +6,7 @@
 ---@field private damager org.bukkit.entity.Entity
 ---@field private cooldown number
 ---@field private cancelled boolean
----@overload fun(player: Player, damager: Entity, cooldown: number): io.papermc.paper.event.player.PlayerShieldDisableEvent
+---@overload fun(player: org.bukkit.entity.Player, damager: org.bukkit.entity.Entity, cooldown: number): io.papermc.paper.event.player.PlayerShieldDisableEvent
 local PlayerShieldDisableEvent = {}
 
 ---@public

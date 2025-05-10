@@ -5,7 +5,7 @@
 ---@field private itemStack org.bukkit.inventory.ItemStack
 ---@field private slot number
 ---@field private cancelled boolean
----@overload fun(block: Block, itemStack: ItemStack, slot: number): io.papermc.paper.event.block.BlockPreDispenseEvent
+---@overload fun(block: org.bukkit.block.Block, itemStack: org.bukkit.inventory.ItemStack, slot: number): io.papermc.paper.event.block.BlockPreDispenseEvent
 local BlockPreDispenseEvent = {}
 
 ---@public

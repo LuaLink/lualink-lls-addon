@@ -11,7 +11,7 @@
 ---@field private strictEventValues boolean
 ---@field private emitShadowColor boolean
 ---@field private gson any
----@overload fun(legacyHover: net.kyori.adventure.text.serializer.json.LegacyHoverEventSerializer?, emitValueFieldHover: boolean, emitCamelCaseHover: boolean, emitSnakeCaseHover: boolean, emitCamelCaseClick: boolean, emitSnakeCaseClick: boolean, strictEventValues: boolean, emitShadowColor: boolean, gson: Gson): net.kyori.adventure.text.serializer.gson.StyleSerializer
+---@overload fun(legacyHover: any?, emitValueFieldHover: boolean, emitCamelCaseHover: boolean, emitSnakeCaseHover: boolean, emitCamelCaseClick: boolean, emitSnakeCaseClick: boolean, strictEventValues: boolean, emitShadowColor: boolean, gson: any): net.kyori.adventure.text.serializer.gson.StyleSerializer
 local StyleSerializer = {}
 
 ---@param legacyHover? any 

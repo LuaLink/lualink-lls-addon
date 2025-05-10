@@ -11,8 +11,8 @@
 ---@field private stringCompletions java.util.List
 ---@field private handled boolean
 ---@field private cancelled boolean
----@overload fun(sender: CommandSender, buffer: string, isCommand: boolean, loc: Location): com.destroystokyo.paper.event.server.AsyncTabCompleteEvent
----@overload fun(sender: CommandSender, completions: table<string>, buffer: string, isCommand: boolean, loc: Location): com.destroystokyo.paper.event.server.AsyncTabCompleteEvent
+---@overload fun(sender: org.bukkit.command.CommandSender, buffer: string, isCommand: boolean, loc: org.bukkit.Location): com.destroystokyo.paper.event.server.AsyncTabCompleteEvent
+---@overload fun(sender: org.bukkit.command.CommandSender, completions: java.util.List, buffer: string, isCommand: boolean, loc: org.bukkit.Location): com.destroystokyo.paper.event.server.AsyncTabCompleteEvent
 local AsyncTabCompleteEvent = {}
 
 ---@public

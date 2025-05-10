@@ -8,7 +8,7 @@
 ---@field private containerSlots java.util.Set
 ---@field private oldCursor org.bukkit.inventory.ItemStack
 ---@field private newCursor org.bukkit.inventory.ItemStack
----@overload fun(view: InventoryView, newCursor: ItemStack, oldCursor: ItemStack, right: boolean, slots: table<Integer, ItemStack>): org.bukkit.event.inventory.InventoryDragEvent
+---@overload fun(view: org.bukkit.inventory.InventoryView, newCursor: org.bukkit.inventory.ItemStack, oldCursor: org.bukkit.inventory.ItemStack, right: boolean, slots: java.util.Map): org.bukkit.event.inventory.InventoryDragEvent
 local InventoryDragEvent = {}
 
 ---@public

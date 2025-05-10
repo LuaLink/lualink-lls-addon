@@ -3,7 +3,7 @@
 -- org.bukkit.configuration.file.FileConfiguration
 ---@class org.bukkit.configuration.file.FileConfiguration: org.bukkit.configuration.MemoryConfiguration
 ---@overload fun(): org.bukkit.configuration.file.FileConfiguration
----@overload fun(defaults: Configuration): org.bukkit.configuration.file.FileConfiguration
+---@overload fun(defaults: org.bukkit.configuration.Configuration): org.bukkit.configuration.file.FileConfiguration
 local FileConfiguration = {}
 
 ---@param file java.io.File File to save to.

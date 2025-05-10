@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.material.DirectionalContainer
 ---@class org.bukkit.material.DirectionalContainer: org.bukkit.material.MaterialData, org.bukkit.material.Directional
----@overload fun(type: Material): org.bukkit.material.DirectionalContainer
----@overload fun(type: Material, data: number): org.bukkit.material.DirectionalContainer
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.DirectionalContainer
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.DirectionalContainer
 local DirectionalContainer = {}
 
 ---@param face org.bukkit.block.BlockFace 

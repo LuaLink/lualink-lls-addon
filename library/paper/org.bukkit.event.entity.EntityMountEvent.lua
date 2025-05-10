@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private mount org.bukkit.entity.Entity
 ---@field private cancelled boolean
----@overload fun(entity: Entity, mount: Entity): org.bukkit.event.entity.EntityMountEvent
+---@overload fun(entity: org.bukkit.entity.Entity, mount: org.bukkit.entity.Entity): org.bukkit.event.entity.EntityMountEvent
 local EntityMountEvent = {}
 
 ---@public

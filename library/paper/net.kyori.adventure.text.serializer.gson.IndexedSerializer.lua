@@ -4,7 +4,7 @@
 ---@field private name string
 ---@field private map net.kyori.adventure.util.Index
 ---@field private throwOnUnknownKey boolean
----@overload fun(name: string, map: Index<String, E>, throwOnUnknownKey: boolean): net.kyori.adventure.text.serializer.gson.IndexedSerializer
+---@overload fun(name: string, map: net.kyori.adventure.util.Index, throwOnUnknownKey: boolean): net.kyori.adventure.text.serializer.gson.IndexedSerializer
 local IndexedSerializer = {}
 
 ---@param name string 

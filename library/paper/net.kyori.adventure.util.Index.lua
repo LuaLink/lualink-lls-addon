@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.util.Index
 ---@field private keyToValue java.util.Map
 ---@field private valueToKey java.util.Map
----@overload fun(keyToValue: table<K, V>, valueToKey: table<V, K>): net.kyori.adventure.util.Index
+---@overload fun(keyToValue: java.util.Map, valueToKey: java.util.Map): net.kyori.adventure.util.Index
 local Index = {}
 
 ---@param type java.lang.Class the value type

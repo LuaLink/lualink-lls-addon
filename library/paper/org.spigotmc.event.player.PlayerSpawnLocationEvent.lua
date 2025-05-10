@@ -4,7 +4,7 @@
 ---@class org.spigotmc.event.player.PlayerSpawnLocationEvent: org.bukkit.event.player.PlayerEvent
 ---@field private handlers org.bukkit.event.HandlerList
 ---@field private spawnLocation org.bukkit.Location
----@overload fun(player: Player, spawnLocation: Location): org.spigotmc.event.player.PlayerSpawnLocationEvent
+---@overload fun(player: org.bukkit.entity.Player, spawnLocation: org.bukkit.Location): org.spigotmc.event.player.PlayerSpawnLocationEvent
 local PlayerSpawnLocationEvent = {}
 
 ---@public

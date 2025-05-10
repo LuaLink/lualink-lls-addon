@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.world.EntitiesUnloadEvent: org.bukkit.event.world.ChunkEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private entities java.util.List
----@overload fun(chunk: Chunk, entities: table<Entity>): org.bukkit.event.world.EntitiesUnloadEvent
+---@overload fun(chunk: org.bukkit.Chunk, entities: java.util.List): org.bukkit.event.world.EntitiesUnloadEvent
 local EntitiesUnloadEvent = {}
 
 ---@public

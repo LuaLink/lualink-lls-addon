@@ -8,10 +8,10 @@
 ---@field private VINE_SOUTH number
 ---@field private possibleFaces java.util.EnumSet
 ---@overload fun(): org.bukkit.material.Vine
----@overload fun(type: Material, data: number): org.bukkit.material.Vine
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Vine
 ---@overload fun(data: number): org.bukkit.material.Vine
----@overload fun(faces: BlockFace): org.bukkit.material.Vine
----@overload fun(faces: EnumSet<BlockFace>): org.bukkit.material.Vine
+---@overload fun(faces: org.bukkit.block.BlockFace): org.bukkit.material.Vine
+---@overload fun(faces: java.util.EnumSet): org.bukkit.material.Vine
 local Vine = {}
 
 ---@param face org.bukkit.block.BlockFace The face to check.

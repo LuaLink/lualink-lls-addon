@@ -3,9 +3,9 @@
 -- org.bukkit.util.noise.SimplexOctaveGenerator
 ---@class org.bukkit.util.noise.SimplexOctaveGenerator: org.bukkit.util.noise.OctaveGenerator
 ---@field private wScale number
----@overload fun(world: World, octaves: number): org.bukkit.util.noise.SimplexOctaveGenerator
+---@overload fun(world: org.bukkit.World, octaves: number): org.bukkit.util.noise.SimplexOctaveGenerator
 ---@overload fun(seed: number, octaves: number): org.bukkit.util.noise.SimplexOctaveGenerator
----@overload fun(rand: Random, octaves: number): org.bukkit.util.noise.SimplexOctaveGenerator
+---@overload fun(rand: java.util.Random, octaves: number): org.bukkit.util.noise.SimplexOctaveGenerator
 local SimplexOctaveGenerator = {}
 
 ---@param scale number 

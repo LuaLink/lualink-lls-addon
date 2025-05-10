@@ -3,8 +3,8 @@
 -- org.bukkit.material.FlowerPot
 ---@class org.bukkit.material.FlowerPot: org.bukkit.material.MaterialData
 ---@overload fun(): org.bukkit.material.FlowerPot
----@overload fun(type: Material): org.bukkit.material.FlowerPot
----@overload fun(type: Material, data: number): org.bukkit.material.FlowerPot
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.FlowerPot
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.FlowerPot
 local FlowerPot = {}
 
 ---@public

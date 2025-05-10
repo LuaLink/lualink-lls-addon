@@ -5,7 +5,7 @@
 ---@field private player org.bukkit.entity.Player
 ---@field private itemType org.bukkit.Material
 ---@field private itemAmount number
----@overload fun(player: Player, block: Block, itemType: Material, itemAmount: number, exp: number): org.bukkit.event.inventory.FurnaceExtractEvent
+---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, itemType: org.bukkit.Material, itemAmount: number, exp: number): org.bukkit.event.inventory.FurnaceExtractEvent
 local FurnaceExtractEvent = {}
 
 ---@public

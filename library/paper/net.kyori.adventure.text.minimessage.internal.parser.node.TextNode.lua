@@ -3,7 +3,7 @@
 -- net.kyori.adventure.text.minimessage.internal.parser.node.TextNode
 ---@class net.kyori.adventure.text.minimessage.internal.parser.node.TextNode: net.kyori.adventure.text.minimessage.internal.parser.node.ValueNode
 ---@field private ESCAPES java.util.function.IntPredicate
----@overload fun(parent: ElementNode, token: Token, sourceMessage: string): net.kyori.adventure.text.minimessage.internal.parser.node.TextNode
+---@overload fun(parent: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode, token: net.kyori.adventure.text.minimessage.internal.parser.Token, sourceMessage: string): net.kyori.adventure.text.minimessage.internal.parser.node.TextNode
 local TextNode = {}
 
 ---@public

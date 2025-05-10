@@ -8,7 +8,7 @@
 ---@field private oldItemStack org.bukkit.inventory.ItemStack
 ---@field private newItemStack org.bukkit.inventory.ItemStack
 ---@field private triggerAdvancements boolean
----@overload fun(player: Player, rawSlot: number, oldItemStack: ItemStack, newItemStack: ItemStack): io.papermc.paper.event.player.PlayerInventorySlotChangeEvent
+---@overload fun(player: org.bukkit.entity.Player, rawSlot: number, oldItemStack: org.bukkit.inventory.ItemStack, newItemStack: org.bukkit.inventory.ItemStack): io.papermc.paper.event.player.PlayerInventorySlotChangeEvent
 local PlayerInventorySlotChangeEvent = {}
 
 ---@public

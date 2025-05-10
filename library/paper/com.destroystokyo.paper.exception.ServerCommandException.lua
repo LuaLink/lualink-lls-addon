@@ -5,9 +5,9 @@
 ---@field private command org.bukkit.command.Command
 ---@field private commandSender org.bukkit.command.CommandSender
 ---@field private arguments string
----@overload fun(message: string, cause: Throwable, command: Command, commandSender: CommandSender, arguments: table<string>): com.destroystokyo.paper.exception.ServerCommandException
----@overload fun(cause: Throwable, command: Command, commandSender: CommandSender, arguments: table<string>): com.destroystokyo.paper.exception.ServerCommandException
----@overload fun(message: string, cause: Throwable, enableSuppression: boolean, writableStackTrace: boolean, command: Command, commandSender: CommandSender, arguments: table<string>): com.destroystokyo.paper.exception.ServerCommandException
+---@overload fun(message: string, cause: java.lang.Throwable, command: org.bukkit.command.Command, commandSender: org.bukkit.command.CommandSender, arguments: table<string>): com.destroystokyo.paper.exception.ServerCommandException
+---@overload fun(cause: java.lang.Throwable, command: org.bukkit.command.Command, commandSender: org.bukkit.command.CommandSender, arguments: table<string>): com.destroystokyo.paper.exception.ServerCommandException
+---@overload fun(message: string, cause: java.lang.Throwable, enableSuppression: boolean, writableStackTrace: boolean, command: org.bukkit.command.Command, commandSender: org.bukkit.command.CommandSender, arguments: table<string>): com.destroystokyo.paper.exception.ServerCommandException
 local ServerCommandException = {}
 
 ---@public

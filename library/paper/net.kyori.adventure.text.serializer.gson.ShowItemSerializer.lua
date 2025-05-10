@@ -6,7 +6,7 @@
 ---@field private gson any
 ---@field private emitDefaultQuantity boolean
 ---@field private itemDataMode any
----@overload fun(gson: Gson, emitDefaultQuantity: boolean, itemDataMode: JSONOptions.ShowItemHoverDataMode): net.kyori.adventure.text.serializer.gson.ShowItemSerializer
+---@overload fun(gson: any, emitDefaultQuantity: boolean, itemDataMode: any): net.kyori.adventure.text.serializer.gson.ShowItemSerializer
 local ShowItemSerializer = {}
 
 ---@param gson any 

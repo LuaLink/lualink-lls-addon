@@ -5,9 +5,9 @@
 ---@field protected DEFAULT_TYPE org.bukkit.Material
 ---@field protected DEFAULT_INVERTED boolean
 ---@overload fun(): org.bukkit.material.WoodenStep
----@overload fun(species: TreeSpecies): org.bukkit.material.WoodenStep
----@overload fun(species: TreeSpecies, inv: boolean): org.bukkit.material.WoodenStep
----@overload fun(type: Material, data: number): org.bukkit.material.WoodenStep
+---@overload fun(species: org.bukkit.TreeSpecies): org.bukkit.material.WoodenStep
+---@overload fun(species: org.bukkit.TreeSpecies, inv: boolean): org.bukkit.material.WoodenStep
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.WoodenStep
 local WoodenStep = {}
 
 ---@public

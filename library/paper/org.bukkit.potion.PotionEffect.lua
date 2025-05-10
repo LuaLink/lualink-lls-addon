@@ -17,12 +17,12 @@
 ---@field private particles boolean
 ---@field private icon boolean
 ---@field private hiddenEffect org.bukkit.potion.PotionEffect
----@overload fun(type: PotionEffectType, duration: number, amplifier: number, ambient: boolean, particles: boolean, icon: boolean, hiddenEffect: PotionEffect): org.bukkit.potion.PotionEffect
----@overload fun(type: PotionEffectType, duration: number, amplifier: number, ambient: boolean, particles: boolean, icon: boolean): org.bukkit.potion.PotionEffect
----@overload fun(type: PotionEffectType, duration: number, amplifier: number, ambient: boolean, particles: boolean): org.bukkit.potion.PotionEffect
----@overload fun(type: PotionEffectType, duration: number, amplifier: number, ambient: boolean): org.bukkit.potion.PotionEffect
----@overload fun(type: PotionEffectType, duration: number, amplifier: number): org.bukkit.potion.PotionEffect
----@overload fun(map: table<string, Object>): org.bukkit.potion.PotionEffect
+---@overload fun(type: org.bukkit.potion.PotionEffectType, duration: number, amplifier: number, ambient: boolean, particles: boolean, icon: boolean, hiddenEffect: org.bukkit.potion.PotionEffect): org.bukkit.potion.PotionEffect
+---@overload fun(type: org.bukkit.potion.PotionEffectType, duration: number, amplifier: number, ambient: boolean, particles: boolean, icon: boolean): org.bukkit.potion.PotionEffect
+---@overload fun(type: org.bukkit.potion.PotionEffectType, duration: number, amplifier: number, ambient: boolean, particles: boolean): org.bukkit.potion.PotionEffect
+---@overload fun(type: org.bukkit.potion.PotionEffectType, duration: number, amplifier: number, ambient: boolean): org.bukkit.potion.PotionEffect
+---@overload fun(type: org.bukkit.potion.PotionEffectType, duration: number, amplifier: number): org.bukkit.potion.PotionEffect
+---@overload fun(map: java.util.Map): org.bukkit.potion.PotionEffect
 local PotionEffect = {}
 
 ---@param type org.bukkit.potion.PotionEffectType 

@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.text.logger.slf4j.UnpackedComponentThrowable: java.lang.Throwable
 ---@field private serialVersionUID number
 ---@field private backingType java.lang.Class
----@overload fun(backingType: Throwable?, serializedMessage: string, cause: Throwable): net.kyori.adventure.text.logger.slf4j.UnpackedComponentThrowable
+---@overload fun(backingType: java.lang.Class, serializedMessage: string, cause: java.lang.Throwable): net.kyori.adventure.text.logger.slf4j.UnpackedComponentThrowable
 local UnpackedComponentThrowable = {}
 
 ---@param maybeRich java.lang.Throwable 

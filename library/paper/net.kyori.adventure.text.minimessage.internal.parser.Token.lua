@@ -6,7 +6,7 @@
 ---@field private endIndex number
 ---@field private type net.kyori.adventure.text.minimessage.internal.parser.TokenType
 ---@field private childTokens java.util.List
----@overload fun(startIndex: number, endIndex: number, type: TokenType): net.kyori.adventure.text.minimessage.internal.parser.Token
+---@overload fun(startIndex: number, endIndex: number, type: net.kyori.adventure.text.minimessage.internal.parser.TokenType): net.kyori.adventure.text.minimessage.internal.parser.Token
 local Token = {}
 
 ---@public

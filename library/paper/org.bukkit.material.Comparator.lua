@@ -6,11 +6,11 @@
 ---@field protected DEFAULT_SUBTRACTION_MODE boolean
 ---@field protected DEFAULT_STATE boolean
 ---@overload fun(): org.bukkit.material.Comparator
----@overload fun(facingDirection: BlockFace): org.bukkit.material.Comparator
----@overload fun(facingDirection: BlockFace, isSubtraction: boolean): org.bukkit.material.Comparator
----@overload fun(facingDirection: BlockFace, isSubtraction: boolean, state: boolean): org.bukkit.material.Comparator
----@overload fun(type: Material): org.bukkit.material.Comparator
----@overload fun(type: Material, data: number): org.bukkit.material.Comparator
+---@overload fun(facingDirection: org.bukkit.block.BlockFace): org.bukkit.material.Comparator
+---@overload fun(facingDirection: org.bukkit.block.BlockFace, isSubtraction: boolean): org.bukkit.material.Comparator
+---@overload fun(facingDirection: org.bukkit.block.BlockFace, isSubtraction: boolean, state: boolean): org.bukkit.material.Comparator
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Comparator
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Comparator
 local Comparator = {}
 
 ---@param isSubtraction boolean True if the comparator is in subtraction mode, false for normal comparator operation

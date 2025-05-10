@@ -6,7 +6,7 @@
 ---@field private direction org.bukkit.block.BlockFace
 ---@field private entity org.bukkit.entity.Entity
 ---@field private cancelled boolean
----@overload fun(block: Block, direction: BlockFace, entity: Entity): org.bukkit.event.block.BellRingEvent
+---@overload fun(block: org.bukkit.block.Block, direction: org.bukkit.block.BlockFace, entity: org.bukkit.entity.Entity): org.bukkit.event.block.BellRingEvent
 local BellRingEvent = {}
 
 ---@public

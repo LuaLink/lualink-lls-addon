@@ -6,8 +6,8 @@
 ---@field protected clickedEntity org.bukkit.entity.Entity
 ---@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field private cancelled boolean
----@overload fun(player: Player, clickedEntity: Entity): org.bukkit.event.player.PlayerInteractEntityEvent
----@overload fun(player: Player, clickedEntity: Entity, hand: EquipmentSlot): org.bukkit.event.player.PlayerInteractEntityEvent
+---@overload fun(player: org.bukkit.entity.Player, clickedEntity: org.bukkit.entity.Entity): org.bukkit.event.player.PlayerInteractEntityEvent
+---@overload fun(player: org.bukkit.entity.Player, clickedEntity: org.bukkit.entity.Entity, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.player.PlayerInteractEntityEvent
 local PlayerInteractEntityEvent = {}
 
 ---@public

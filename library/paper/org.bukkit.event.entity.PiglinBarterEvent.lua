@@ -6,7 +6,7 @@
 ---@field private outcome java.util.List
 ---@field private input org.bukkit.inventory.ItemStack
 ---@field private cancelled boolean
----@overload fun(piglin: Piglin, input: ItemStack, outcome: table<ItemStack>): org.bukkit.event.entity.PiglinBarterEvent
+---@overload fun(piglin: org.bukkit.entity.Piglin, input: org.bukkit.inventory.ItemStack, outcome: java.util.List): org.bukkit.event.entity.PiglinBarterEvent
 local PiglinBarterEvent = {}
 
 ---@public

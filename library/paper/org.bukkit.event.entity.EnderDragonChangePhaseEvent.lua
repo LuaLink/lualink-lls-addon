@@ -6,7 +6,7 @@
 ---@field private currentPhase org.bukkit.entity.EnderDragon.Phase
 ---@field private newPhase org.bukkit.entity.EnderDragon.Phase
 ---@field private cancelled boolean
----@overload fun(enderDragon: EnderDragon, currentPhase: EnderDragon.Phase, newPhase: EnderDragon.Phase): org.bukkit.event.entity.EnderDragonChangePhaseEvent
+---@overload fun(enderDragon: org.bukkit.entity.EnderDragon, currentPhase: org.bukkit.entity.EnderDragon.Phase, newPhase: org.bukkit.entity.EnderDragon.Phase): org.bukkit.event.entity.EnderDragonChangePhaseEvent
 local EnderDragonChangePhaseEvent = {}
 
 ---@public

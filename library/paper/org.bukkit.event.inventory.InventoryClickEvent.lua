@@ -10,8 +10,8 @@
 ---@field private rawSlot number
 ---@field private current org.bukkit.inventory.ItemStack
 ---@field private hotbarKey number
----@overload fun(view: InventoryView, type: SlotType, slot: number, click: ClickType, action: InventoryAction): org.bukkit.event.inventory.InventoryClickEvent
----@overload fun(view: InventoryView, type: SlotType, slot: number, click: ClickType, action: InventoryAction, key: number): org.bukkit.event.inventory.InventoryClickEvent
+---@overload fun(view: org.bukkit.inventory.InventoryView, type: org.bukkit.event.inventory.InventoryType.SlotType, slot: number, click: org.bukkit.event.inventory.ClickType, action: org.bukkit.event.inventory.InventoryAction): org.bukkit.event.inventory.InventoryClickEvent
+---@overload fun(view: org.bukkit.inventory.InventoryView, type: org.bukkit.event.inventory.InventoryType.SlotType, slot: number, click: org.bukkit.event.inventory.ClickType, action: org.bukkit.event.inventory.InventoryAction, key: number): org.bukkit.event.inventory.InventoryClickEvent
 local InventoryClickEvent = {}
 
 ---@public

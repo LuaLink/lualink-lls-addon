@@ -6,7 +6,7 @@
 ---@field private cancelledPickup boolean
 ---@field private cancelledCollision boolean
 ---@field private cancelled boolean
----@overload fun(vehicle: Vehicle, entity: Entity): org.bukkit.event.vehicle.VehicleEntityCollisionEvent
+---@overload fun(vehicle: org.bukkit.entity.Vehicle, entity: org.bukkit.entity.Entity): org.bukkit.event.vehicle.VehicleEntityCollisionEvent
 local VehicleEntityCollisionEvent = {}
 
 ---@public

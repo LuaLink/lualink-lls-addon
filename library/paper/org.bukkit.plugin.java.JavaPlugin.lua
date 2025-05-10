@@ -18,7 +18,7 @@
 ---@field private allowsLifecycleRegistration boolean
 ---@field private isBeingEnabled boolean
 ---@overload fun(): org.bukkit.plugin.java.JavaPlugin
----@overload fun(loader: JavaPluginLoader, description: PluginDescriptionFile, dataFolder: File, file: File): org.bukkit.plugin.java.JavaPlugin
+---@overload fun(loader: org.bukkit.plugin.java.JavaPluginLoader, description: org.bukkit.plugin.PluginDescriptionFile, dataFolder: java.io.File, file: java.io.File): org.bukkit.plugin.java.JavaPlugin
 local JavaPlugin = {}
 
 ---@public

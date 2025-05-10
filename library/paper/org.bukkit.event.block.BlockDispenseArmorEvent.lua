@@ -3,7 +3,7 @@
 -- org.bukkit.event.block.BlockDispenseArmorEvent
 ---@class org.bukkit.event.block.BlockDispenseArmorEvent: org.bukkit.event.block.BlockDispenseEvent
 ---@field private target org.bukkit.entity.LivingEntity
----@overload fun(block: Block, dispensed: ItemStack, target: LivingEntity): org.bukkit.event.block.BlockDispenseArmorEvent
+---@overload fun(block: org.bukkit.block.Block, dispensed: org.bukkit.inventory.ItemStack, target: org.bukkit.entity.LivingEntity): org.bukkit.event.block.BlockDispenseArmorEvent
 local BlockDispenseArmorEvent = {}
 
 ---@public

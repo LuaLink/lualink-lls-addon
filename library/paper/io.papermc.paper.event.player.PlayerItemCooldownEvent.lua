@@ -3,7 +3,7 @@
 -- io.papermc.paper.event.player.PlayerItemCooldownEvent
 ---@class io.papermc.paper.event.player.PlayerItemCooldownEvent: io.papermc.paper.event.player.PlayerItemGroupCooldownEvent
 ---@field private type org.bukkit.Material
----@overload fun(player: Player, type: Material, cooldownGroup: NamespacedKey, cooldown: number): io.papermc.paper.event.player.PlayerItemCooldownEvent
+---@overload fun(player: org.bukkit.entity.Player, type: org.bukkit.Material, cooldownGroup: org.bukkit.NamespacedKey, cooldown: number): io.papermc.paper.event.player.PlayerItemCooldownEvent
 local PlayerItemCooldownEvent = {}
 
 ---@public

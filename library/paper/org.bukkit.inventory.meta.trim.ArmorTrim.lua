@@ -4,7 +4,7 @@
 ---@class org.bukkit.inventory.meta.trim.ArmorTrim
 ---@field private material org.bukkit.inventory.meta.trim.TrimMaterial
 ---@field private pattern org.bukkit.inventory.meta.trim.TrimPattern
----@overload fun(material: TrimMaterial, pattern: TrimPattern): org.bukkit.inventory.meta.trim.ArmorTrim
+---@overload fun(material: org.bukkit.inventory.meta.trim.TrimMaterial, pattern: org.bukkit.inventory.meta.trim.TrimPattern): org.bukkit.inventory.meta.trim.ArmorTrim
 local ArmorTrim = {}
 
 ---@public

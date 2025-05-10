@@ -3,8 +3,8 @@
 -- org.bukkit.material.Ladder
 ---@class org.bukkit.material.Ladder: org.bukkit.material.SimpleAttachableMaterialData
 ---@overload fun(): org.bukkit.material.Ladder
----@overload fun(type: Material): org.bukkit.material.Ladder
----@overload fun(type: Material, data: number): org.bukkit.material.Ladder
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Ladder
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Ladder
 local Ladder = {}
 
 ---@public

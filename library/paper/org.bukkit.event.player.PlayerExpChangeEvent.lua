@@ -5,8 +5,8 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private source org.bukkit.entity.Entity
 ---@field private exp number
----@overload fun(player: Player, expAmount: number): org.bukkit.event.player.PlayerExpChangeEvent
----@overload fun(player: Player, sourceEntity: Entity, expAmount: number): org.bukkit.event.player.PlayerExpChangeEvent
+---@overload fun(player: org.bukkit.entity.Player, expAmount: number): org.bukkit.event.player.PlayerExpChangeEvent
+---@overload fun(player: org.bukkit.entity.Player, sourceEntity: org.bukkit.entity.Entity, expAmount: number): org.bukkit.event.player.PlayerExpChangeEvent
 local PlayerExpChangeEvent = {}
 
 ---@public

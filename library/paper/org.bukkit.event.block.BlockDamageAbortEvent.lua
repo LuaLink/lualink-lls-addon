@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private player org.bukkit.entity.Player
 ---@field private itemstack org.bukkit.inventory.ItemStack
----@overload fun(player: Player, block: Block, itemInHand: ItemStack): org.bukkit.event.block.BlockDamageAbortEvent
+---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, itemInHand: org.bukkit.inventory.ItemStack): org.bukkit.event.block.BlockDamageAbortEvent
 local BlockDamageAbortEvent = {}
 
 ---@public

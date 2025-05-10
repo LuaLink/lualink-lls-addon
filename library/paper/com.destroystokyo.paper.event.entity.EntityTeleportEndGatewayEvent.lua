@@ -3,7 +3,7 @@
 -- com.destroystokyo.paper.event.entity.EntityTeleportEndGatewayEvent
 ---@class com.destroystokyo.paper.event.entity.EntityTeleportEndGatewayEvent: org.bukkit.event.entity.EntityTeleportEvent
 ---@field private gateway org.bukkit.block.EndGateway
----@overload fun(entity: Entity, from: Location, to: Location, gateway: EndGateway): com.destroystokyo.paper.event.entity.EntityTeleportEndGatewayEvent
+---@overload fun(entity: org.bukkit.entity.Entity, from: org.bukkit.Location, to: org.bukkit.Location, gateway: org.bukkit.block.EndGateway): com.destroystokyo.paper.event.entity.EntityTeleportEndGatewayEvent
 local EntityTeleportEndGatewayEvent = {}
 
 ---@public

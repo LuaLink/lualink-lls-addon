@@ -5,10 +5,10 @@
 ---@field protected DEFAULT_TYPE org.bukkit.Material
 ---@field protected DEFAULT_SPECIES org.bukkit.TreeSpecies
 ---@overload fun(): org.bukkit.material.Wood
----@overload fun(species: TreeSpecies): org.bukkit.material.Wood
----@overload fun(type: Material): org.bukkit.material.Wood
----@overload fun(type: Material, species: TreeSpecies): org.bukkit.material.Wood
----@overload fun(type: Material, data: number): org.bukkit.material.Wood
+---@overload fun(species: org.bukkit.TreeSpecies): org.bukkit.material.Wood
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Wood
+---@overload fun(type: org.bukkit.Material, species: org.bukkit.TreeSpecies): org.bukkit.material.Wood
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Wood
 local Wood = {}
 
 ---@public

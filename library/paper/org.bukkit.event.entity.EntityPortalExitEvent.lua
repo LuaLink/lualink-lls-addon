@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private before org.bukkit.util.Vector
 ---@field private after org.bukkit.util.Vector
----@overload fun(entity: Entity, from: Location, to: Location, before: Vector, after: Vector): org.bukkit.event.entity.EntityPortalExitEvent
+---@overload fun(entity: org.bukkit.entity.Entity, from: org.bukkit.Location, to: org.bukkit.Location, before: org.bukkit.util.Vector, after: org.bukkit.util.Vector): org.bukkit.event.entity.EntityPortalExitEvent
 local EntityPortalExitEvent = {}
 
 ---@public

@@ -6,11 +6,11 @@
 ---@field private data org.bukkit.material.MaterialData
 ---@field private ARRAY_SERIALIZATION_VERSION number
 ---@overload fun(): org.bukkit.inventory.ItemStack
----@overload fun(type: Material): org.bukkit.inventory.ItemStack
----@overload fun(type: Material, amount: number): org.bukkit.inventory.ItemStack
----@overload fun(type: Material, amount: number, damage: number): org.bukkit.inventory.ItemStack
----@overload fun(type: Material, amount: number, damage: number, data: Byte): org.bukkit.inventory.ItemStack
----@overload fun(stack: ItemStack): org.bukkit.inventory.ItemStack
+---@overload fun(type: org.bukkit.Material): org.bukkit.inventory.ItemStack
+---@overload fun(type: org.bukkit.Material, amount: number): org.bukkit.inventory.ItemStack
+---@overload fun(type: org.bukkit.Material, amount: number, damage: number): org.bukkit.inventory.ItemStack
+---@overload fun(type: org.bukkit.Material, amount: number, damage: number, data: number): org.bukkit.inventory.ItemStack
+---@overload fun(stack: org.bukkit.inventory.ItemStack): org.bukkit.inventory.ItemStack
 local ItemStack = {}
 
 ---@param type org.bukkit.Material the item type to use

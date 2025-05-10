@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private block org.bukkit.block.Block
 ---@field private cancelled boolean
----@overload fun(entity: Entity, block: Block): io.papermc.paper.event.entity.EntityInsideBlockEvent
+---@overload fun(entity: org.bukkit.entity.Entity, block: org.bukkit.block.Block): io.papermc.paper.event.entity.EntityInsideBlockEvent
 local EntityInsideBlockEvent = {}
 
 ---@public

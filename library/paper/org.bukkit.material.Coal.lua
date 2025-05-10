@@ -3,9 +3,9 @@
 -- org.bukkit.material.Coal
 ---@class org.bukkit.material.Coal: org.bukkit.material.MaterialData
 ---@overload fun(): org.bukkit.material.Coal
----@overload fun(type: CoalType): org.bukkit.material.Coal
----@overload fun(type: Material): org.bukkit.material.Coal
----@overload fun(type: Material, data: number): org.bukkit.material.Coal
+---@overload fun(type: org.bukkit.CoalType): org.bukkit.material.Coal
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Coal
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Coal
 local Coal = {}
 
 ---@public

@@ -6,7 +6,7 @@
 ---@field private recipe org.bukkit.inventory.CraftingRecipe
 ---@field private result org.bukkit.inventory.ItemStack
 ---@field private cancelled boolean
----@overload fun(crafter: Block, recipe: CraftingRecipe, result: ItemStack): org.bukkit.event.block.CrafterCraftEvent
+---@overload fun(crafter: org.bukkit.block.Block, recipe: org.bukkit.inventory.CraftingRecipe, result: org.bukkit.inventory.ItemStack): org.bukkit.event.block.CrafterCraftEvent
 local CrafterCraftEvent = {}
 
 ---@public

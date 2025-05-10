@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private isSitting boolean
 ---@field private cancelled boolean
----@overload fun(entity: Entity, isSitting: boolean): io.papermc.paper.event.entity.EntityToggleSitEvent
+---@overload fun(entity: org.bukkit.entity.Entity, isSitting: boolean): io.papermc.paper.event.entity.EntityToggleSitEvent
 local EntityToggleSitEvent = {}
 
 ---@public

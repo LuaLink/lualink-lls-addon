@@ -7,7 +7,7 @@
 ---@field private exceptionMessage string
 ---@field private kickMessage string
 ---@field private shouldKick boolean
----@overload fun(player: Player, type: string, kickMessage: string, e: Exception): com.destroystokyo.paper.event.player.IllegalPacketEvent
+---@overload fun(player: org.bukkit.entity.Player, type: string, kickMessage: string, e: java.lang.Exception): com.destroystokyo.paper.event.player.IllegalPacketEvent
 local IllegalPacketEvent = {}
 
 ---@public

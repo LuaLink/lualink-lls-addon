@@ -9,7 +9,7 @@
 ---@field private debugOutput java.util.function.Consumer
 ---@field private postProcessor java.util.function.UnaryOperator
 ---@field public parser net.kyori.adventure.text.minimessage.MiniMessageParser
----@overload fun(resolver: TagResolver, strict: boolean, debugOutput: Consumer<String>, postProcessor: UnaryOperator<Component>): net.kyori.adventure.text.minimessage.MiniMessageImpl
+---@overload fun(resolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, strict: boolean, debugOutput: java.util.function.Consumer, postProcessor: java.util.function.UnaryOperator): net.kyori.adventure.text.minimessage.MiniMessageImpl
 local MiniMessageImpl = {}
 
 ---@param input string 

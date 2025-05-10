@@ -6,7 +6,7 @@
 ---@field private block org.bukkit.block.Block
 ---@field private to org.bukkit.block.data.BlockData
 ---@field private cancelled boolean
----@overload fun(entity: Entity, block: Block, to: BlockData): org.bukkit.event.entity.EntityChangeBlockEvent
+---@overload fun(entity: org.bukkit.entity.Entity, block: org.bukkit.block.Block, to: org.bukkit.block.data.BlockData): org.bukkit.event.entity.EntityChangeBlockEvent
 local EntityChangeBlockEvent = {}
 
 ---@public

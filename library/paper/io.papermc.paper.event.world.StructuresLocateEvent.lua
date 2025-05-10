@@ -9,7 +9,7 @@
 ---@field private radius number
 ---@field private findUnexplored boolean
 ---@field private cancelled boolean
----@overload fun(world: World, origin: Location, structures: table<Structure>, radius: number, findUnexplored: boolean): io.papermc.paper.event.world.StructuresLocateEvent
+---@overload fun(world: org.bukkit.World, origin: org.bukkit.Location, structures: java.util.List, radius: number, findUnexplored: boolean): io.papermc.paper.event.world.StructuresLocateEvent
 local StructuresLocateEvent = {}
 
 ---@public

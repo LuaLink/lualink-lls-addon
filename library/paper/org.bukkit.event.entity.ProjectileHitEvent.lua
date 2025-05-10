@@ -7,11 +7,11 @@
 ---@field private hitBlock org.bukkit.block.Block
 ---@field private hitFace org.bukkit.block.BlockFace
 ---@field private cancelled boolean
----@overload fun(projectile: Projectile): org.bukkit.event.entity.ProjectileHitEvent
----@overload fun(projectile: Projectile, hitEntity: Entity): org.bukkit.event.entity.ProjectileHitEvent
----@overload fun(projectile: Projectile, hitBlock: Block): org.bukkit.event.entity.ProjectileHitEvent
----@overload fun(projectile: Projectile, hitEntity: Entity, hitBlock: Block): org.bukkit.event.entity.ProjectileHitEvent
----@overload fun(projectile: Projectile, hitEntity: Entity, hitBlock: Block, hitFace: BlockFace): org.bukkit.event.entity.ProjectileHitEvent
+---@overload fun(projectile: org.bukkit.entity.Projectile): org.bukkit.event.entity.ProjectileHitEvent
+---@overload fun(projectile: org.bukkit.entity.Projectile, hitEntity: org.bukkit.entity.Entity): org.bukkit.event.entity.ProjectileHitEvent
+---@overload fun(projectile: org.bukkit.entity.Projectile, hitBlock: org.bukkit.block.Block): org.bukkit.event.entity.ProjectileHitEvent
+---@overload fun(projectile: org.bukkit.entity.Projectile, hitEntity: org.bukkit.entity.Entity, hitBlock: org.bukkit.block.Block): org.bukkit.event.entity.ProjectileHitEvent
+---@overload fun(projectile: org.bukkit.entity.Projectile, hitEntity: org.bukkit.entity.Entity, hitBlock: org.bukkit.block.Block, hitFace: org.bukkit.block.BlockFace): org.bukkit.event.entity.ProjectileHitEvent
 local ProjectileHitEvent = {}
 
 ---@public

@@ -7,7 +7,7 @@
 ---@field private hatching boolean
 ---@field private hatchType org.bukkit.entity.EntityType
 ---@field private numHatches number
----@overload fun(player: Player, egg: Egg, hatching: boolean, numHatches: number, hatchingType: EntityType): org.bukkit.event.player.PlayerEggThrowEvent
+---@overload fun(player: org.bukkit.entity.Player, egg: org.bukkit.entity.Egg, hatching: boolean, numHatches: number, hatchingType: org.bukkit.entity.EntityType): org.bukkit.event.player.PlayerEggThrowEvent
 local PlayerEggThrowEvent = {}
 
 ---@public

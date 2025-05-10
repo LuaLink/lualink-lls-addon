@@ -4,7 +4,7 @@
 ---@class io.papermc.paper.event.packet.PlayerChunkLoadEvent: org.bukkit.event.world.ChunkEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private player org.bukkit.entity.Player
----@overload fun(chunk: Chunk, player: Player): io.papermc.paper.event.packet.PlayerChunkLoadEvent
+---@overload fun(chunk: org.bukkit.Chunk, player: org.bukkit.entity.Player): io.papermc.paper.event.packet.PlayerChunkLoadEvent
 local PlayerChunkLoadEvent = {}
 
 ---@public

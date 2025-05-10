@@ -3,7 +3,7 @@
 -- org.bukkit.material.Tripwire
 ---@class org.bukkit.material.Tripwire: org.bukkit.material.MaterialData
 ---@overload fun(): org.bukkit.material.Tripwire
----@overload fun(type: Material, data: number): org.bukkit.material.Tripwire
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Tripwire
 local Tripwire = {}
 
 ---@public

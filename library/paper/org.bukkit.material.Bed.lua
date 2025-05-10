@@ -3,9 +3,9 @@
 -- org.bukkit.material.Bed
 ---@class org.bukkit.material.Bed: org.bukkit.material.MaterialData, org.bukkit.material.Directional
 ---@overload fun(): org.bukkit.material.Bed
----@overload fun(direction: BlockFace): org.bukkit.material.Bed
----@overload fun(type: Material): org.bukkit.material.Bed
----@overload fun(type: Material, data: number): org.bukkit.material.Bed
+---@overload fun(direction: org.bukkit.block.BlockFace): org.bukkit.material.Bed
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Bed
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Bed
 local Bed = {}
 
 ---@public

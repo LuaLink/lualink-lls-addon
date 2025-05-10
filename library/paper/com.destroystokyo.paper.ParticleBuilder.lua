@@ -13,7 +13,7 @@
 ---@field private extra number
 ---@field private data java.lang.Object
 ---@field private force boolean
----@overload fun(particle: Particle): com.destroystokyo.paper.ParticleBuilder
+---@overload fun(particle: org.bukkit.Particle): com.destroystokyo.paper.ParticleBuilder
 local ParticleBuilder = {}
 
 ---@public

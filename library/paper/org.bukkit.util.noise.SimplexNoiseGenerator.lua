@@ -19,9 +19,9 @@
 ---@field protected offsetW number
 ---@field private instance org.bukkit.util.noise.SimplexNoiseGenerator
 ---@overload fun(): org.bukkit.util.noise.SimplexNoiseGenerator
----@overload fun(world: World): org.bukkit.util.noise.SimplexNoiseGenerator
+---@overload fun(world: org.bukkit.World): org.bukkit.util.noise.SimplexNoiseGenerator
 ---@overload fun(seed: number): org.bukkit.util.noise.SimplexNoiseGenerator
----@overload fun(rand: Random): org.bukkit.util.noise.SimplexNoiseGenerator
+---@overload fun(rand: java.util.Random): org.bukkit.util.noise.SimplexNoiseGenerator
 local SimplexNoiseGenerator = {}
 
 ---@param g table<number> 

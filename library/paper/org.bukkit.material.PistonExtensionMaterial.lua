@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.material.PistonExtensionMaterial
 ---@class org.bukkit.material.PistonExtensionMaterial: org.bukkit.material.MaterialData, org.bukkit.material.Attachable
----@overload fun(type: Material): org.bukkit.material.PistonExtensionMaterial
----@overload fun(type: Material, data: number): org.bukkit.material.PistonExtensionMaterial
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.PistonExtensionMaterial
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.PistonExtensionMaterial
 local PistonExtensionMaterial = {}
 
 ---@param face org.bukkit.block.BlockFace 

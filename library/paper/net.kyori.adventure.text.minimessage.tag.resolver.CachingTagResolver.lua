@@ -4,7 +4,7 @@
 ---@field private NULL_REPLACEMENT net.kyori.adventure.text.minimessage.tag.Tag
 ---@field private cache java.util.Map
 ---@field private resolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments
----@overload fun(resolver: TagResolver.WithoutArguments): net.kyori.adventure.text.minimessage.tag.resolver.CachingTagResolver
+---@overload fun(resolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments): net.kyori.adventure.text.minimessage.tag.resolver.CachingTagResolver
 local CachingTagResolver = {}
 
 ---@param key string 

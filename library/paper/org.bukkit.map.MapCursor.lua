@@ -9,11 +9,11 @@
 ---@field private caption net.kyori.adventure.text.Component
 ---@field private type org.bukkit.map.MapCursor.Type
 ---@overload fun(x: number, y: number, direction: number, type: number, visible: boolean): org.bukkit.map.MapCursor
----@overload fun(x: number, y: number, direction: number, type: Type, visible: boolean): org.bukkit.map.MapCursor
+---@overload fun(x: number, y: number, direction: number, type: org.bukkit.map.MapCursor.Type, visible: boolean): org.bukkit.map.MapCursor
 ---@overload fun(x: number, y: number, direction: number, type: number, visible: boolean, caption: string): org.bukkit.map.MapCursor
 ---@overload fun(x: number, y: number, direction: number, type: number, visible: boolean, caption: net.kyori.adventure.text.Component?): org.bukkit.map.MapCursor
----@overload fun(x: number, y: number, direction: number, type: Type, visible: boolean, caption: net.kyori.adventure.text.Component?): org.bukkit.map.MapCursor
----@overload fun(x: number, y: number, direction: number, type: Type, visible: boolean, caption: string): org.bukkit.map.MapCursor
+---@overload fun(x: number, y: number, direction: number, type: org.bukkit.map.MapCursor.Type, visible: boolean, caption: net.kyori.adventure.text.Component?): org.bukkit.map.MapCursor
+---@overload fun(x: number, y: number, direction: number, type: org.bukkit.map.MapCursor.Type, visible: boolean, caption: string): org.bukkit.map.MapCursor
 local MapCursor = {}
 
 ---@public

@@ -6,8 +6,8 @@
 ---@field private location org.bukkit.Location
 ---@field private portalType org.bukkit.PortalType
 ---@field private cancelled boolean
----@overload fun(entity: Entity, location: Location): org.bukkit.event.entity.EntityPortalEnterEvent
----@overload fun(entity: Entity, location: Location, portalType: PortalType): org.bukkit.event.entity.EntityPortalEnterEvent
+---@overload fun(entity: org.bukkit.entity.Entity, location: org.bukkit.Location): org.bukkit.event.entity.EntityPortalEnterEvent
+---@overload fun(entity: org.bukkit.entity.Entity, location: org.bukkit.Location, portalType: org.bukkit.PortalType): org.bukkit.event.entity.EntityPortalEnterEvent
 local EntityPortalEnterEvent = {}
 
 ---@public

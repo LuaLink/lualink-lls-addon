@@ -6,7 +6,7 @@
 ---@field private footer java.util.List
 ---@field private PAPER_PARSE_COMMENTS_BY_DEFAULT boolean
 ---@field private parseComments boolean
----@overload fun(configuration: MemoryConfiguration): org.bukkit.configuration.file.FileConfigurationOptions
+---@overload fun(configuration: org.bukkit.configuration.MemoryConfiguration): org.bukkit.configuration.file.FileConfigurationOptions
 local FileConfigurationOptions = {}
 
 ---@public

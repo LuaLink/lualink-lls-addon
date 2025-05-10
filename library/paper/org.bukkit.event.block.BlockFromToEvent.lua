@@ -6,8 +6,8 @@
 ---@field protected to org.bukkit.block.Block
 ---@field protected face org.bukkit.block.BlockFace
 ---@field protected cancelled boolean
----@overload fun(block: Block, face: BlockFace): org.bukkit.event.block.BlockFromToEvent
----@overload fun(block: Block, toBlock: Block): org.bukkit.event.block.BlockFromToEvent
+---@overload fun(block: org.bukkit.block.Block, face: org.bukkit.block.BlockFace): org.bukkit.event.block.BlockFromToEvent
+---@overload fun(block: org.bukkit.block.Block, toBlock: org.bukkit.block.Block): org.bukkit.event.block.BlockFromToEvent
 local BlockFromToEvent = {}
 
 ---@public

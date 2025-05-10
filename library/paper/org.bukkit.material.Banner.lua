@@ -3,8 +3,8 @@
 -- org.bukkit.material.Banner
 ---@class org.bukkit.material.Banner: org.bukkit.material.MaterialData, org.bukkit.material.Attachable
 ---@overload fun(): org.bukkit.material.Banner
----@overload fun(type: Material): org.bukkit.material.Banner
----@overload fun(type: Material, data: number): org.bukkit.material.Banner
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Banner
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Banner
 local Banner = {}
 
 ---@public

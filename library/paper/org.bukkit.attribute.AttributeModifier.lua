@@ -7,12 +7,12 @@
 ---@field private amount number
 ---@field private operation org.bukkit.attribute.AttributeModifier.Operation
 ---@field private slot org.bukkit.inventory.EquipmentSlotGroup
----@overload fun(name: string, amount: number, operation: Operation): org.bukkit.attribute.AttributeModifier
----@overload fun(uuid: UUID, name: string, amount: number, operation: Operation): org.bukkit.attribute.AttributeModifier
----@overload fun(uuid: UUID, name: string, amount: number, operation: Operation, slot: EquipmentSlot): org.bukkit.attribute.AttributeModifier
----@overload fun(uuid: UUID, name: string, amount: number, operation: Operation, slot: EquipmentSlotGroup): org.bukkit.attribute.AttributeModifier
----@overload fun(key: NamespacedKey, amount: number, operation: Operation): org.bukkit.attribute.AttributeModifier
----@overload fun(key: NamespacedKey, amount: number, operation: Operation, slot: EquipmentSlotGroup): org.bukkit.attribute.AttributeModifier
+---@overload fun(name: string, amount: number, operation: org.bukkit.attribute.AttributeModifier.Operation): org.bukkit.attribute.AttributeModifier
+---@overload fun(uuid: java.util.UUID, name: string, amount: number, operation: org.bukkit.attribute.AttributeModifier.Operation): org.bukkit.attribute.AttributeModifier
+---@overload fun(uuid: java.util.UUID, name: string, amount: number, operation: org.bukkit.attribute.AttributeModifier.Operation, slot: org.bukkit.inventory.EquipmentSlot): org.bukkit.attribute.AttributeModifier
+---@overload fun(uuid: java.util.UUID, name: string, amount: number, operation: org.bukkit.attribute.AttributeModifier.Operation, slot: org.bukkit.inventory.EquipmentSlotGroup): org.bukkit.attribute.AttributeModifier
+---@overload fun(key: org.bukkit.NamespacedKey, amount: number, operation: org.bukkit.attribute.AttributeModifier.Operation): org.bukkit.attribute.AttributeModifier
+---@overload fun(key: org.bukkit.NamespacedKey, amount: number, operation: org.bukkit.attribute.AttributeModifier.Operation, slot: org.bukkit.inventory.EquipmentSlotGroup): org.bukkit.attribute.AttributeModifier
 local AttributeModifier = {}
 
 ---@deprecated

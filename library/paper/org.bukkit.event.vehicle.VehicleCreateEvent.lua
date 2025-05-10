@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.vehicle.VehicleCreateEvent: org.bukkit.event.vehicle.VehicleEvent, org.bukkit.event.Cancellable
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cancelled boolean
----@overload fun(vehicle: Vehicle): org.bukkit.event.vehicle.VehicleCreateEvent
+---@overload fun(vehicle: org.bukkit.entity.Vehicle): org.bukkit.event.vehicle.VehicleCreateEvent
 local VehicleCreateEvent = {}
 
 ---@public

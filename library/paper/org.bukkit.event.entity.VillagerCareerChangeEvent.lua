@@ -5,7 +5,7 @@
 ---@field private profession org.bukkit.entity.Villager.Profession
 ---@field private reason org.bukkit.event.entity.VillagerCareerChangeEvent.ChangeReason
 ---@field private cancelled boolean
----@overload fun(villager: Villager, profession: Profession, reason: ChangeReason): org.bukkit.event.entity.VillagerCareerChangeEvent
+---@overload fun(villager: org.bukkit.entity.Villager, profession: org.bukkit.entity.Villager.Profession, reason: org.bukkit.event.entity.VillagerCareerChangeEvent.ChangeReason): org.bukkit.event.entity.VillagerCareerChangeEvent
 local VillagerCareerChangeEvent = {}
 
 ---@public

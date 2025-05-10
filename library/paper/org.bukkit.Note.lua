@@ -5,7 +5,7 @@
 ---@field private pitchArray number
 ---@field private note number
 ---@overload fun(note: number): org.bukkit.Note
----@overload fun(octave: number, tone: Tone, sharped: boolean): org.bukkit.Note
+---@overload fun(octave: number, tone: org.bukkit.Note.Tone, sharped: boolean): org.bukkit.Note
 local Note = {}
 
 ---@param octave number The octave where the note is in. Has to be 0 - 1.

@@ -6,7 +6,7 @@
 ---@field private target org.bukkit.entity.Entity
 ---@field private newAnger number
 ---@field private cancelled boolean
----@overload fun(zombifiedPiglin: PigZombie, target: Entity, newAnger: number): org.bukkit.event.entity.PigZombieAngerEvent
+---@overload fun(zombifiedPiglin: org.bukkit.entity.PigZombie, target: org.bukkit.entity.Entity, newAnger: number): org.bukkit.event.entity.PigZombieAngerEvent
 local PigZombieAngerEvent = {}
 
 ---@public

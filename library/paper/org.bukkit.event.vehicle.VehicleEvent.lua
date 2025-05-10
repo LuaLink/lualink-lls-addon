@@ -3,7 +3,7 @@
 -- org.bukkit.event.vehicle.VehicleEvent
 ---@class org.bukkit.event.vehicle.VehicleEvent: org.bukkit.event.Event
 ---@field protected vehicle org.bukkit.entity.Vehicle
----@overload fun(vehicle: Vehicle): org.bukkit.event.vehicle.VehicleEvent
+---@overload fun(vehicle: org.bukkit.entity.Vehicle): org.bukkit.event.vehicle.VehicleEvent
 local VehicleEvent = {}
 
 ---@public

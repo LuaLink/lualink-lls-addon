@@ -8,7 +8,7 @@
 ---@field private isOp boolean
 ---@field private whitelisted boolean
 ---@field private kickMessage net.kyori.adventure.text.Component
----@overload fun(profile: PlayerProfile, whitelistEnabled: boolean, whitelisted: boolean, isOp: boolean, kickMessage: Component): com.destroystokyo.paper.event.profile.ProfileWhitelistVerifyEvent
+---@overload fun(profile: com.destroystokyo.paper.profile.PlayerProfile, whitelistEnabled: boolean, whitelisted: boolean, isOp: boolean, kickMessage: net.kyori.adventure.text.Component): com.destroystokyo.paper.event.profile.ProfileWhitelistVerifyEvent
 local ProfileWhitelistVerifyEvent = {}
 
 ---@deprecated

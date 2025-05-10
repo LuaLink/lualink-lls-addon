@@ -6,7 +6,7 @@
 ---@field private player org.bukkit.entity.Player
 ---@field private dyeColor org.bukkit.DyeColor
 ---@field private cancelled boolean
----@overload fun(entity: Entity, dyeColor: DyeColor, player: Player): io.papermc.paper.event.entity.EntityDyeEvent
+---@overload fun(entity: org.bukkit.entity.Entity, dyeColor: org.bukkit.DyeColor, player: org.bukkit.entity.Player): io.papermc.paper.event.entity.EntityDyeEvent
 local EntityDyeEvent = {}
 
 ---@public

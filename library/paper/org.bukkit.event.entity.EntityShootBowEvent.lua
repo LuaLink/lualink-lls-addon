@@ -10,9 +10,9 @@
 ---@field private force number
 ---@field private consumeItem boolean
 ---@field private cancelled boolean
----@overload fun(shooter: LivingEntity, bow: ItemStack, projectile: Entity, force: number): org.bukkit.event.entity.EntityShootBowEvent
----@overload fun(shooter: LivingEntity, bow: ItemStack, arrowItem: ItemStack, projectile: Entity, force: number): org.bukkit.event.entity.EntityShootBowEvent
----@overload fun(shooter: LivingEntity, bow: ItemStack, consumable: ItemStack, projectile: Entity, hand: EquipmentSlot, force: number, consumeItem: boolean): org.bukkit.event.entity.EntityShootBowEvent
+---@overload fun(shooter: org.bukkit.entity.LivingEntity, bow: org.bukkit.inventory.ItemStack, projectile: org.bukkit.entity.Entity, force: number): org.bukkit.event.entity.EntityShootBowEvent
+---@overload fun(shooter: org.bukkit.entity.LivingEntity, bow: org.bukkit.inventory.ItemStack, arrowItem: org.bukkit.inventory.ItemStack, projectile: org.bukkit.entity.Entity, force: number): org.bukkit.event.entity.EntityShootBowEvent
+---@overload fun(shooter: org.bukkit.entity.LivingEntity, bow: org.bukkit.inventory.ItemStack, consumable: org.bukkit.inventory.ItemStack, projectile: org.bukkit.entity.Entity, hand: org.bukkit.inventory.EquipmentSlot, force: number, consumeItem: boolean): org.bukkit.event.entity.EntityShootBowEvent
 local EntityShootBowEvent = {}
 
 ---@public

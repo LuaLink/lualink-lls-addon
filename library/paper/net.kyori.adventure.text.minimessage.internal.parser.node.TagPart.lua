@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.text.minimessage.internal.parser.node.TagPart: net.kyori.adventure.text.minimessage.tag.Tag.Argument
 ---@field private value string
 ---@field private token net.kyori.adventure.text.minimessage.internal.parser.Token
----@overload fun(sourceMessage: string, token: Token, tagResolver: TokenParser.TagProvider): net.kyori.adventure.text.minimessage.internal.parser.node.TagPart
+---@overload fun(sourceMessage: string, token: net.kyori.adventure.text.minimessage.internal.parser.Token, tagResolver: net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider): net.kyori.adventure.text.minimessage.internal.parser.node.TagPart
 local TagPart = {}
 
 ---@public

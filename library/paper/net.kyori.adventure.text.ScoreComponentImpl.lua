@@ -4,7 +4,7 @@
 ---@field private name string
 ---@field private objective string
 ---@field private value string
----@overload fun(children: table<Component>, style: Style, name: string, objective: string, value: string): net.kyori.adventure.text.ScoreComponentImpl
+---@overload fun(children: java.util.List, style: net.kyori.adventure.text.format.Style, name: string, objective: string, value: string): net.kyori.adventure.text.ScoreComponentImpl
 local ScoreComponentImpl = {}
 
 ---@param children java.util.List 

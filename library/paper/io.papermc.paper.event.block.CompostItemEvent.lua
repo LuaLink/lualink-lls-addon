@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private item org.bukkit.inventory.ItemStack
 ---@field private willRaiseLevel boolean
----@overload fun(composter: Block, item: ItemStack, willRaiseLevel: boolean): io.papermc.paper.event.block.CompostItemEvent
+---@overload fun(composter: org.bukkit.block.Block, item: org.bukkit.inventory.ItemStack, willRaiseLevel: boolean): io.papermc.paper.event.block.CompostItemEvent
 local CompostItemEvent = {}
 
 ---@public

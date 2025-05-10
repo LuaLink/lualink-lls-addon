@@ -5,10 +5,10 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private reason org.bukkit.event.player.PlayerQuitEvent.QuitReason
 ---@field private quitMessage net.kyori.adventure.text.Component
----@overload fun(player: Player, quitMessage: string): org.bukkit.event.player.PlayerQuitEvent
----@overload fun(player: Player, quitMessage: string, quitReason: QuitReason): org.bukkit.event.player.PlayerQuitEvent
----@overload fun(player: Player, quitMessage: Component): org.bukkit.event.player.PlayerQuitEvent
----@overload fun(player: Player, quitMessage: Component, quitReason: QuitReason): org.bukkit.event.player.PlayerQuitEvent
+---@overload fun(player: org.bukkit.entity.Player, quitMessage: string): org.bukkit.event.player.PlayerQuitEvent
+---@overload fun(player: org.bukkit.entity.Player, quitMessage: string, quitReason: org.bukkit.event.player.PlayerQuitEvent.QuitReason): org.bukkit.event.player.PlayerQuitEvent
+---@overload fun(player: org.bukkit.entity.Player, quitMessage: net.kyori.adventure.text.Component): org.bukkit.event.player.PlayerQuitEvent
+---@overload fun(player: org.bukkit.entity.Player, quitMessage: net.kyori.adventure.text.Component, quitReason: org.bukkit.event.player.PlayerQuitEvent.QuitReason): org.bukkit.event.player.PlayerQuitEvent
 local PlayerQuitEvent = {}
 
 ---@public

@@ -7,7 +7,7 @@
 ---@field private targetSlot number
 ---@field private sourceSlot number
 ---@field private cancelled boolean
----@overload fun(player: Player, includeData: boolean, targetSlot: number, sourceSlot: number): io.papermc.paper.event.player.PlayerPickItemEvent
+---@overload fun(player: org.bukkit.entity.Player, includeData: boolean, targetSlot: number, sourceSlot: number): io.papermc.paper.event.player.PlayerPickItemEvent
 local PlayerPickItemEvent = {}
 
 ---@public

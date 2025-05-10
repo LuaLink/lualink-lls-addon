@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private blocks java.util.List
 ---@field private cancelled boolean
----@overload fun(block: Block, waterblocks: table<BlockState>): org.bukkit.event.block.SpongeAbsorbEvent
+---@overload fun(block: org.bukkit.block.Block, waterblocks: java.util.List): org.bukkit.event.block.SpongeAbsorbEvent
 local SpongeAbsorbEvent = {}
 
 ---@public

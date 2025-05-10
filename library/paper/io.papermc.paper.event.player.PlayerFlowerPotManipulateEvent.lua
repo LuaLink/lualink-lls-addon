@@ -7,7 +7,7 @@
 ---@field private item org.bukkit.inventory.ItemStack
 ---@field private placing boolean
 ---@field private cancelled boolean
----@overload fun(player: Player, flowerpot: Block, item: ItemStack, placing: boolean): io.papermc.paper.event.player.PlayerFlowerPotManipulateEvent
+---@overload fun(player: org.bukkit.entity.Player, flowerpot: org.bukkit.block.Block, item: org.bukkit.inventory.ItemStack, placing: boolean): io.papermc.paper.event.player.PlayerFlowerPotManipulateEvent
 local PlayerFlowerPotManipulateEvent = {}
 
 ---@public

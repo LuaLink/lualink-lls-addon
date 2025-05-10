@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.player.PlayerShowEntityEvent: org.bukkit.event.player.PlayerEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private entity org.bukkit.entity.Entity
----@overload fun(player: Player, entity: Entity): org.bukkit.event.player.PlayerShowEntityEvent
+---@overload fun(player: org.bukkit.entity.Player, entity: org.bukkit.entity.Entity): org.bukkit.event.player.PlayerShowEntityEvent
 local PlayerShowEntityEvent = {}
 
 ---@public

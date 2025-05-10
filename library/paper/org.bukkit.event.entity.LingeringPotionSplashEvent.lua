@@ -6,8 +6,8 @@
 ---@field private effectCloud org.bukkit.entity.AreaEffectCloud
 ---@field private allowEmptyAreaEffectCreation boolean
 ---@field private cancelled boolean
----@overload fun(potion: ThrownPotion, effectCloud: AreaEffectCloud): org.bukkit.event.entity.LingeringPotionSplashEvent
----@overload fun(potion: ThrownPotion, hitEntity: Entity, hitBlock: Block, hitFace: BlockFace, effectCloud: AreaEffectCloud): org.bukkit.event.entity.LingeringPotionSplashEvent
+---@overload fun(potion: org.bukkit.entity.ThrownPotion, effectCloud: org.bukkit.entity.AreaEffectCloud): org.bukkit.event.entity.LingeringPotionSplashEvent
+---@overload fun(potion: org.bukkit.entity.ThrownPotion, hitEntity: org.bukkit.entity.Entity, hitBlock: org.bukkit.block.Block, hitFace: org.bukkit.block.BlockFace, effectCloud: org.bukkit.entity.AreaEffectCloud): org.bukkit.event.entity.LingeringPotionSplashEvent
 local LingeringPotionSplashEvent = {}
 
 ---@public

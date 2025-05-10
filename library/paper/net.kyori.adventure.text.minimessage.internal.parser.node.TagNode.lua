@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.text.minimessage.internal.parser.node.TagNode: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode
 ---@field private parts java.util.List
 ---@field private tag net.kyori.adventure.text.minimessage.tag.Tag
----@overload fun(parent: ElementNode, token: Token, sourceMessage: string, tagProvider: TokenParser.TagProvider): net.kyori.adventure.text.minimessage.internal.parser.node.TagNode
+---@overload fun(parent: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode, token: net.kyori.adventure.text.minimessage.internal.parser.Token, sourceMessage: string, tagProvider: net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider): net.kyori.adventure.text.minimessage.internal.parser.node.TagNode
 local TagNode = {}
 
 ---@param token net.kyori.adventure.text.minimessage.internal.parser.Token 

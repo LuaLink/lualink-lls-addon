@@ -8,7 +8,7 @@
 ---@field private secondary org.bukkit.potion.PotionEffectType
 ---@field private consumeItem boolean
 ---@field private cancelled boolean
----@overload fun(player: Player, primary: PotionEffectType, secondary: PotionEffectType, beacon: Block): io.papermc.paper.event.player.PlayerChangeBeaconEffectEvent
+---@overload fun(player: org.bukkit.entity.Player, primary: org.bukkit.potion.PotionEffectType, secondary: org.bukkit.potion.PotionEffectType, beacon: org.bukkit.block.Block): io.papermc.paper.event.player.PlayerChangeBeaconEffectEvent
 local PlayerChangeBeaconEffectEvent = {}
 
 ---@public

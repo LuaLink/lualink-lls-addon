@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.block.LeavesDecayEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cancelled boolean
----@overload fun(block: Block): org.bukkit.event.block.LeavesDecayEvent
+---@overload fun(block: org.bukkit.block.Block): org.bukkit.event.block.LeavesDecayEvent
 local LeavesDecayEvent = {}
 
 ---@public

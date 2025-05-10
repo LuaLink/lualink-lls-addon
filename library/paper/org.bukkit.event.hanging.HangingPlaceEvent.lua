@@ -9,8 +9,8 @@
 ---@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field private itemStack org.bukkit.inventory.ItemStack
 ---@field private cancelled boolean
----@overload fun(hanging: Hanging, player: Player, block: Block, blockFace: BlockFace, hand: EquipmentSlot): org.bukkit.event.hanging.HangingPlaceEvent
----@overload fun(hanging: Hanging, player: Player, block: Block, blockFace: BlockFace, hand: EquipmentSlot, itemStack: ItemStack): org.bukkit.event.hanging.HangingPlaceEvent
+---@overload fun(hanging: org.bukkit.entity.Hanging, player: org.bukkit.entity.Player, block: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.hanging.HangingPlaceEvent
+---@overload fun(hanging: org.bukkit.entity.Hanging, player: org.bukkit.entity.Player, block: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, hand: org.bukkit.inventory.EquipmentSlot, itemStack: org.bukkit.inventory.ItemStack): org.bukkit.event.hanging.HangingPlaceEvent
 local HangingPlaceEvent = {}
 
 ---@public

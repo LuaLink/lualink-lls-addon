@@ -3,7 +3,7 @@
 ---@class net.kyori.adventure.text.minimessage.tag.resolver.SingleResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Single, net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver
 ---@field private key string
 ---@field private tag net.kyori.adventure.text.minimessage.tag.Tag
----@overload fun(key: string, tag: Tag): net.kyori.adventure.text.minimessage.tag.resolver.SingleResolver
+---@overload fun(key: string, tag: net.kyori.adventure.text.minimessage.tag.Tag): net.kyori.adventure.text.minimessage.tag.resolver.SingleResolver
 local SingleResolver = {}
 
 ---@public

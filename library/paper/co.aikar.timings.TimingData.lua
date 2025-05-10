@@ -10,7 +10,7 @@
 ---@field private curTickCount number
 ---@field private curTickTotal number
 ---@overload fun(id: number): co.aikar.timings.TimingData
----@overload fun(data: TimingData): co.aikar.timings.TimingData
+---@overload fun(data: co.aikar.timings.TimingData): co.aikar.timings.TimingData
 local TimingData = {}
 
 ---@param diff number 

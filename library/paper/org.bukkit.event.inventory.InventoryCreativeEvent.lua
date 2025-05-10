@@ -3,7 +3,7 @@
 -- org.bukkit.event.inventory.InventoryCreativeEvent
 ---@class org.bukkit.event.inventory.InventoryCreativeEvent: org.bukkit.event.inventory.InventoryClickEvent
 ---@field private item org.bukkit.inventory.ItemStack
----@overload fun(view: InventoryView, type: SlotType, slot: number, newItem: ItemStack): org.bukkit.event.inventory.InventoryCreativeEvent
+---@overload fun(view: org.bukkit.inventory.InventoryView, type: org.bukkit.event.inventory.InventoryType.SlotType, slot: number, newItem: org.bukkit.inventory.ItemStack): org.bukkit.event.inventory.InventoryCreativeEvent
 local InventoryCreativeEvent = {}
 
 ---@public

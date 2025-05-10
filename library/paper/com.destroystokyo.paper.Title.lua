@@ -10,14 +10,14 @@
 ---@field private fadeIn number
 ---@field private stay number
 ---@field private fadeOut number
----@overload fun(title: BaseComponent): com.destroystokyo.paper.Title
----@overload fun(title: table<BaseComponent>): com.destroystokyo.paper.Title
+---@overload fun(title: any): com.destroystokyo.paper.Title
+---@overload fun(title: any): com.destroystokyo.paper.Title
 ---@overload fun(title: string): com.destroystokyo.paper.Title
----@overload fun(title: BaseComponent, subtitle: BaseComponent): com.destroystokyo.paper.Title
----@overload fun(title: table<BaseComponent>, subtitle: table<BaseComponent>): com.destroystokyo.paper.Title
+---@overload fun(title: any, subtitle: any): com.destroystokyo.paper.Title
+---@overload fun(title: any, subtitle: any): com.destroystokyo.paper.Title
 ---@overload fun(title: string, subtitle: string): com.destroystokyo.paper.Title
----@overload fun(title: BaseComponent, subtitle: BaseComponent, fadeIn: number, stay: number, fadeOut: number): com.destroystokyo.paper.Title
----@overload fun(title: table<BaseComponent>, subtitle: table<BaseComponent>, fadeIn: number, stay: number, fadeOut: number): com.destroystokyo.paper.Title
+---@overload fun(title: any, subtitle: any, fadeIn: number, stay: number, fadeOut: number): com.destroystokyo.paper.Title
+---@overload fun(title: any, subtitle: any, fadeIn: number, stay: number, fadeOut: number): com.destroystokyo.paper.Title
 ---@overload fun(title: string, subtitle: string, fadeIn: number, stay: number, fadeOut: number): com.destroystokyo.paper.Title
 local Title = {}
 

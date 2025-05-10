@@ -3,9 +3,9 @@
 -- org.bukkit.event.player.PlayerBucketEmptyEvent
 ---@class org.bukkit.event.player.PlayerBucketEmptyEvent: org.bukkit.event.player.PlayerBucketEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
----@overload fun(player: Player, blockClicked: Block, blockFace: BlockFace, bucket: Material, itemInHand: ItemStack): org.bukkit.event.player.PlayerBucketEmptyEvent
----@overload fun(player: Player, block: Block, blockClicked: Block, blockFace: BlockFace, bucket: Material, itemInHand: ItemStack): org.bukkit.event.player.PlayerBucketEmptyEvent
----@overload fun(player: Player, block: Block, blockClicked: Block, blockFace: BlockFace, bucket: Material, itemInHand: ItemStack, hand: EquipmentSlot): org.bukkit.event.player.PlayerBucketEmptyEvent
+---@overload fun(player: org.bukkit.entity.Player, blockClicked: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, bucket: org.bukkit.Material, itemInHand: org.bukkit.inventory.ItemStack): org.bukkit.event.player.PlayerBucketEmptyEvent
+---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, blockClicked: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, bucket: org.bukkit.Material, itemInHand: org.bukkit.inventory.ItemStack): org.bukkit.event.player.PlayerBucketEmptyEvent
+---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, blockClicked: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, bucket: org.bukkit.Material, itemInHand: org.bukkit.inventory.ItemStack, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.player.PlayerBucketEmptyEvent
 local PlayerBucketEmptyEvent = {}
 
 ---@public

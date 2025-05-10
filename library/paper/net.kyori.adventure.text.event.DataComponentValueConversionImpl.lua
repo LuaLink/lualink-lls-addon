@@ -4,7 +4,7 @@
 ---@field private source java.lang.Class
 ---@field private destination java.lang.Class
 ---@field private conversion any
----@overload fun(source: I?, destination: O?, conversion: BiFunction<Key, I, O>): net.kyori.adventure.text.event.DataComponentValueConversionImpl
+---@overload fun(source: java.lang.Class, destination: java.lang.Class, conversion: any): net.kyori.adventure.text.event.DataComponentValueConversionImpl
 local DataComponentValueConversionImpl = {}
 
 ---@public

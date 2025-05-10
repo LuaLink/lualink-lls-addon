@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.entity.EntityPoseChangeEvent: org.bukkit.event.entity.EntityEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private pose org.bukkit.entity.Pose
----@overload fun(entity: Entity, pose: Pose): org.bukkit.event.entity.EntityPoseChangeEvent
+---@overload fun(entity: org.bukkit.entity.Entity, pose: org.bukkit.entity.Pose): org.bukkit.event.entity.EntityPoseChangeEvent
 local EntityPoseChangeEvent = {}
 
 ---@public

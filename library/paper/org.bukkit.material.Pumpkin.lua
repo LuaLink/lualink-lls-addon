@@ -3,9 +3,9 @@
 -- org.bukkit.material.Pumpkin
 ---@class org.bukkit.material.Pumpkin: org.bukkit.material.MaterialData, org.bukkit.material.Directional
 ---@overload fun(): org.bukkit.material.Pumpkin
----@overload fun(direction: BlockFace): org.bukkit.material.Pumpkin
----@overload fun(type: Material): org.bukkit.material.Pumpkin
----@overload fun(type: Material, data: number): org.bukkit.material.Pumpkin
+---@overload fun(direction: org.bukkit.block.BlockFace): org.bukkit.material.Pumpkin
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Pumpkin
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Pumpkin
 local Pumpkin = {}
 
 ---@public

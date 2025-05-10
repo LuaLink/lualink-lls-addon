@@ -8,7 +8,7 @@
 ---@field private yield number
 ---@field private result org.bukkit.ExplosionResult
 ---@field private cancelled boolean
----@overload fun(block: Block, blockState: BlockState, blocks: table<Block>, yield: number, result: ExplosionResult): org.bukkit.event.block.BlockExplodeEvent
+---@overload fun(block: org.bukkit.block.Block, blockState: org.bukkit.block.BlockState, blocks: java.util.List, yield: number, result: org.bukkit.ExplosionResult): org.bukkit.event.block.BlockExplodeEvent
 local BlockExplodeEvent = {}
 
 ---@public

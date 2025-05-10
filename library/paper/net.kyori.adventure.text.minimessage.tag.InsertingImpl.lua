@@ -3,7 +3,7 @@
 ---@class net.kyori.adventure.text.minimessage.tag.InsertingImpl: net.kyori.adventure.text.minimessage.tag.AbstractTag, net.kyori.adventure.text.minimessage.tag.Inserting
 ---@field private allowsChildren boolean
 ---@field private value net.kyori.adventure.text.Component
----@overload fun(allowsChildren: boolean, value: Component): net.kyori.adventure.text.minimessage.tag.InsertingImpl
+---@overload fun(allowsChildren: boolean, value: net.kyori.adventure.text.Component): net.kyori.adventure.text.minimessage.tag.InsertingImpl
 local InsertingImpl = {}
 
 ---@public

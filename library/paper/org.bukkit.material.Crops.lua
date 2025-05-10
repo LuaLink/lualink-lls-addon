@@ -5,10 +5,10 @@
 ---@field protected DEFAULT_TYPE org.bukkit.Material
 ---@field protected DEFAULT_STATE org.bukkit.CropState
 ---@overload fun(): org.bukkit.material.Crops
----@overload fun(state: CropState): org.bukkit.material.Crops
----@overload fun(type: Material, state: CropState): org.bukkit.material.Crops
----@overload fun(type: Material): org.bukkit.material.Crops
----@overload fun(type: Material, data: number): org.bukkit.material.Crops
+---@overload fun(state: org.bukkit.CropState): org.bukkit.material.Crops
+---@overload fun(type: org.bukkit.Material, state: org.bukkit.CropState): org.bukkit.material.Crops
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Crops
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Crops
 local Crops = {}
 
 ---@public

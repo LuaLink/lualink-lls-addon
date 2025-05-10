@@ -8,8 +8,8 @@
 ---@field private overlay net.kyori.adventure.bossbar.BossBar.Overlay
 ---@field private flags java.util.Set
 ---@field public implementation net.kyori.adventure.bossbar.BossBarImplementation
----@overload fun(name: Component, progress: number, color: Color, overlay: Overlay): net.kyori.adventure.bossbar.BossBarImpl
----@overload fun(name: Component, progress: number, color: Color, overlay: Overlay, flags: table<Flag>): net.kyori.adventure.bossbar.BossBarImpl
+---@overload fun(name: net.kyori.adventure.text.Component, progress: number, color: net.kyori.adventure.bossbar.BossBar.Color, overlay: net.kyori.adventure.bossbar.BossBar.Overlay): net.kyori.adventure.bossbar.BossBarImpl
+---@overload fun(name: net.kyori.adventure.text.Component, progress: number, color: net.kyori.adventure.bossbar.BossBar.Color, overlay: net.kyori.adventure.bossbar.BossBar.Overlay, flags: java.util.Set): net.kyori.adventure.bossbar.BossBarImpl
 local BossBarImpl = {}
 
 ---@public

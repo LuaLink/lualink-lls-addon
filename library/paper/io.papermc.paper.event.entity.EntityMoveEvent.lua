@@ -6,7 +6,7 @@
 ---@field private from org.bukkit.Location
 ---@field private to org.bukkit.Location
 ---@field private cancelled boolean
----@overload fun(entity: LivingEntity, from: Location, to: Location): io.papermc.paper.event.entity.EntityMoveEvent
+---@overload fun(entity: org.bukkit.entity.LivingEntity, from: org.bukkit.Location, to: org.bukkit.Location): io.papermc.paper.event.entity.EntityMoveEvent
 local EntityMoveEvent = {}
 
 ---@public

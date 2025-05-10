@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private radius number
 ---@field private cancelled boolean
----@overload fun(player: Player, radius: number): com.destroystokyo.paper.event.entity.PlayerNaturallySpawnCreaturesEvent
+---@overload fun(player: org.bukkit.entity.Player, radius: number): com.destroystokyo.paper.event.entity.PlayerNaturallySpawnCreaturesEvent
 local PlayerNaturallySpawnCreaturesEvent = {}
 
 ---@public

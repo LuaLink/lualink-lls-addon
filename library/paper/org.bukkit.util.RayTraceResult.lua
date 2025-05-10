@@ -6,12 +6,12 @@
 ---@field private hitBlock org.bukkit.block.Block
 ---@field private hitBlockFace org.bukkit.block.BlockFace
 ---@field private hitEntity org.bukkit.entity.Entity
----@overload fun(hitPosition: Vector, hitBlock: Block, hitBlockFace: BlockFace, hitEntity: Entity): org.bukkit.util.RayTraceResult
----@overload fun(hitPosition: Vector): org.bukkit.util.RayTraceResult
----@overload fun(hitPosition: Vector, hitBlockFace: BlockFace): org.bukkit.util.RayTraceResult
----@overload fun(hitPosition: Vector, hitBlock: Block, hitBlockFace: BlockFace): org.bukkit.util.RayTraceResult
----@overload fun(hitPosition: Vector, hitEntity: Entity): org.bukkit.util.RayTraceResult
----@overload fun(hitPosition: Vector, hitEntity: Entity, hitBlockFace: BlockFace): org.bukkit.util.RayTraceResult
+---@overload fun(hitPosition: org.bukkit.util.Vector, hitBlock: org.bukkit.block.Block, hitBlockFace: org.bukkit.block.BlockFace, hitEntity: org.bukkit.entity.Entity): org.bukkit.util.RayTraceResult
+---@overload fun(hitPosition: org.bukkit.util.Vector): org.bukkit.util.RayTraceResult
+---@overload fun(hitPosition: org.bukkit.util.Vector, hitBlockFace: org.bukkit.block.BlockFace): org.bukkit.util.RayTraceResult
+---@overload fun(hitPosition: org.bukkit.util.Vector, hitBlock: org.bukkit.block.Block, hitBlockFace: org.bukkit.block.BlockFace): org.bukkit.util.RayTraceResult
+---@overload fun(hitPosition: org.bukkit.util.Vector, hitEntity: org.bukkit.entity.Entity): org.bukkit.util.RayTraceResult
+---@overload fun(hitPosition: org.bukkit.util.Vector, hitEntity: org.bukkit.entity.Entity, hitBlockFace: org.bukkit.block.BlockFace): org.bukkit.util.RayTraceResult
 local RayTraceResult = {}
 
 ---@public

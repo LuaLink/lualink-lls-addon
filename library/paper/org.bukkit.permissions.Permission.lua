@@ -9,12 +9,12 @@
 ---@field private description string
 ---@overload fun(name: string): org.bukkit.permissions.Permission
 ---@overload fun(name: string, description: string): org.bukkit.permissions.Permission
----@overload fun(name: string, defaultValue: PermissionDefault): org.bukkit.permissions.Permission
----@overload fun(name: string, description: string, defaultValue: PermissionDefault): org.bukkit.permissions.Permission
----@overload fun(name: string, children: table<string, Boolean>): org.bukkit.permissions.Permission
----@overload fun(name: string, description: string, children: table<string, Boolean>): org.bukkit.permissions.Permission
----@overload fun(name: string, defaultValue: PermissionDefault, children: table<string, Boolean>): org.bukkit.permissions.Permission
----@overload fun(name: string, description: string, defaultValue: PermissionDefault, children: table<string, Boolean>): org.bukkit.permissions.Permission
+---@overload fun(name: string, defaultValue: org.bukkit.permissions.PermissionDefault): org.bukkit.permissions.Permission
+---@overload fun(name: string, description: string, defaultValue: org.bukkit.permissions.PermissionDefault): org.bukkit.permissions.Permission
+---@overload fun(name: string, children: java.util.Map): org.bukkit.permissions.Permission
+---@overload fun(name: string, description: string, children: java.util.Map): org.bukkit.permissions.Permission
+---@overload fun(name: string, defaultValue: org.bukkit.permissions.PermissionDefault, children: java.util.Map): org.bukkit.permissions.Permission
+---@overload fun(name: string, description: string, defaultValue: org.bukkit.permissions.PermissionDefault, children: java.util.Map): org.bukkit.permissions.Permission
 local Permission = {}
 
 ---@public

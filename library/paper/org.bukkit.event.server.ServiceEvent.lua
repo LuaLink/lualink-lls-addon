@@ -3,7 +3,7 @@
 -- org.bukkit.event.server.ServiceEvent
 ---@class org.bukkit.event.server.ServiceEvent: org.bukkit.event.server.ServerEvent
 ---@field private provider org.bukkit.plugin.RegisteredServiceProvider
----@overload fun(provider: RegisteredServiceProvider<?>): org.bukkit.event.server.ServiceEvent
+---@overload fun(provider: org.bukkit.plugin.RegisteredServiceProvider): org.bukkit.event.server.ServiceEvent
 local ServiceEvent = {}
 
 ---@public

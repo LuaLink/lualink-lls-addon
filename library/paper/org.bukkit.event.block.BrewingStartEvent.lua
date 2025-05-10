@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.block.BrewingStartEvent: org.bukkit.event.block.InventoryBlockStartEvent
 ---@field private brewingTime number
 ---@field private recipeBrewTime number
----@overload fun(furnace: Block, source: ItemStack, brewingTime: number): org.bukkit.event.block.BrewingStartEvent
+---@overload fun(furnace: org.bukkit.block.Block, source: org.bukkit.inventory.ItemStack, brewingTime: number): org.bukkit.event.block.BrewingStartEvent
 local BrewingStartEvent = {}
 
 ---@deprecated

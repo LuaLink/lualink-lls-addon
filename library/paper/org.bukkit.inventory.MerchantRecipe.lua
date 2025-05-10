@@ -12,13 +12,13 @@
 ---@field private villagerExperience number
 ---@field private priceMultiplier number
 ---@field private ignoreDiscounts boolean
----@overload fun(result: ItemStack, maxUses: number): org.bukkit.inventory.MerchantRecipe
----@overload fun(result: ItemStack, uses: number, maxUses: number, experienceReward: boolean): org.bukkit.inventory.MerchantRecipe
----@overload fun(result: ItemStack, uses: number, maxUses: number, experienceReward: boolean, villagerExperience: number, priceMultiplier: number): org.bukkit.inventory.MerchantRecipe
----@overload fun(result: ItemStack, uses: number, maxUses: number, experienceReward: boolean, villagerExperience: number, priceMultiplier: number, demand: number, specialPrice: number): org.bukkit.inventory.MerchantRecipe
----@overload fun(result: ItemStack, uses: number, maxUses: number, experienceReward: boolean, villagerExperience: number, priceMultiplier: number, ignoreDiscounts: boolean): org.bukkit.inventory.MerchantRecipe
----@overload fun(result: ItemStack, uses: number, maxUses: number, experienceReward: boolean, villagerExperience: number, priceMultiplier: number, demand: number, specialPrice: number, ignoreDiscounts: boolean): org.bukkit.inventory.MerchantRecipe
----@overload fun(recipe: MerchantRecipe): org.bukkit.inventory.MerchantRecipe
+---@overload fun(result: org.bukkit.inventory.ItemStack, maxUses: number): org.bukkit.inventory.MerchantRecipe
+---@overload fun(result: org.bukkit.inventory.ItemStack, uses: number, maxUses: number, experienceReward: boolean): org.bukkit.inventory.MerchantRecipe
+---@overload fun(result: org.bukkit.inventory.ItemStack, uses: number, maxUses: number, experienceReward: boolean, villagerExperience: number, priceMultiplier: number): org.bukkit.inventory.MerchantRecipe
+---@overload fun(result: org.bukkit.inventory.ItemStack, uses: number, maxUses: number, experienceReward: boolean, villagerExperience: number, priceMultiplier: number, demand: number, specialPrice: number): org.bukkit.inventory.MerchantRecipe
+---@overload fun(result: org.bukkit.inventory.ItemStack, uses: number, maxUses: number, experienceReward: boolean, villagerExperience: number, priceMultiplier: number, ignoreDiscounts: boolean): org.bukkit.inventory.MerchantRecipe
+---@overload fun(result: org.bukkit.inventory.ItemStack, uses: number, maxUses: number, experienceReward: boolean, villagerExperience: number, priceMultiplier: number, demand: number, specialPrice: number, ignoreDiscounts: boolean): org.bukkit.inventory.MerchantRecipe
+---@overload fun(recipe: org.bukkit.inventory.MerchantRecipe): org.bukkit.inventory.MerchantRecipe
 local MerchantRecipe = {}
 
 ---@public

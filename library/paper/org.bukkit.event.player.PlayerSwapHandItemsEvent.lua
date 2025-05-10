@@ -6,7 +6,7 @@
 ---@field private mainHandItem org.bukkit.inventory.ItemStack
 ---@field private offHandItem org.bukkit.inventory.ItemStack
 ---@field private cancelled boolean
----@overload fun(player: Player, mainHandItem: ItemStack, offHandItem: ItemStack): org.bukkit.event.player.PlayerSwapHandItemsEvent
+---@overload fun(player: org.bukkit.entity.Player, mainHandItem: org.bukkit.inventory.ItemStack, offHandItem: org.bukkit.inventory.ItemStack): org.bukkit.event.player.PlayerSwapHandItemsEvent
 local PlayerSwapHandItemsEvent = {}
 
 ---@public

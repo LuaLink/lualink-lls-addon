@@ -15,8 +15,8 @@
 ---@field private bonusChest boolean
 ---@field private keepSpawnLoaded net.kyori.adventure.util.TriState
 ---@overload fun(name: string): org.bukkit.WorldCreator
----@overload fun(levelName: string, worldKey: NamespacedKey): org.bukkit.WorldCreator
----@overload fun(worldKey: NamespacedKey): org.bukkit.WorldCreator
+---@overload fun(levelName: string, worldKey: org.bukkit.NamespacedKey): org.bukkit.WorldCreator
+---@overload fun(worldKey: org.bukkit.NamespacedKey): org.bukkit.WorldCreator
 local WorldCreator = {}
 
 ---@param name string 

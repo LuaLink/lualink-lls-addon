@@ -2,7 +2,7 @@
 -- net.kyori.adventure.text.minimessage.tag.resolver.SequentialTagResolver
 ---@class net.kyori.adventure.text.minimessage.tag.resolver.SequentialTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver
 ---@field public resolvers net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(resolvers: table<TagResolver @NotNull >): net.kyori.adventure.text.minimessage.tag.resolver.SequentialTagResolver
+---@overload fun(resolvers: table<TagResolver>): net.kyori.adventure.text.minimessage.tag.resolver.SequentialTagResolver
 local SequentialTagResolver = {}
 
 ---@param name string 

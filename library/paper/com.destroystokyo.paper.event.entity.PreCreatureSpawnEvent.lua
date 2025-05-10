@@ -8,7 +8,7 @@
 ---@field private reason org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
 ---@field private shouldAbortSpawn boolean
 ---@field private cancelled boolean
----@overload fun(location: Location, type: EntityType, reason: CreatureSpawnEvent.SpawnReason): com.destroystokyo.paper.event.entity.PreCreatureSpawnEvent
+---@overload fun(location: org.bukkit.Location, type: org.bukkit.entity.EntityType, reason: org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason): com.destroystokyo.paper.event.entity.PreCreatureSpawnEvent
 local PreCreatureSpawnEvent = {}
 
 ---@public

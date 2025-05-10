@@ -3,7 +3,7 @@
 -- org.bukkit.event.server.PluginEvent
 ---@class org.bukkit.event.server.PluginEvent: org.bukkit.event.server.ServerEvent
 ---@field private plugin org.bukkit.plugin.Plugin
----@overload fun(plugin: Plugin): org.bukkit.event.server.PluginEvent
+---@overload fun(plugin: org.bukkit.plugin.Plugin): org.bukkit.event.server.PluginEvent
 local PluginEvent = {}
 
 ---@public

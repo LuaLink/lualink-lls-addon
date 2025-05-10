@@ -6,11 +6,11 @@
 ---@field protected DEFAULT_DELAY number
 ---@field protected DEFAULT_STATE boolean
 ---@overload fun(): org.bukkit.material.Diode
----@overload fun(facingDirection: BlockFace): org.bukkit.material.Diode
----@overload fun(facingDirection: BlockFace, delay: number): org.bukkit.material.Diode
----@overload fun(facingDirection: BlockFace, delay: number, state: boolean): org.bukkit.material.Diode
----@overload fun(type: Material): org.bukkit.material.Diode
----@overload fun(type: Material, data: number): org.bukkit.material.Diode
+---@overload fun(facingDirection: org.bukkit.block.BlockFace): org.bukkit.material.Diode
+---@overload fun(facingDirection: org.bukkit.block.BlockFace, delay: number): org.bukkit.material.Diode
+---@overload fun(facingDirection: org.bukkit.block.BlockFace, delay: number, state: boolean): org.bukkit.material.Diode
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Diode
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Diode
 local Diode = {}
 
 ---@param delay number The new delay (1-4)

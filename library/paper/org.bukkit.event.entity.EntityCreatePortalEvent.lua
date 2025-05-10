@@ -6,7 +6,7 @@
 ---@field private blocks java.util.List
 ---@field private type org.bukkit.PortalType
 ---@field private cancelled boolean
----@overload fun(livingEntity: LivingEntity, blocks: table<BlockState>, type: PortalType): org.bukkit.event.entity.EntityCreatePortalEvent
+---@overload fun(livingEntity: org.bukkit.entity.LivingEntity, blocks: java.util.List, type: org.bukkit.PortalType): org.bukkit.event.entity.EntityCreatePortalEvent
 local EntityCreatePortalEvent = {}
 
 ---@public

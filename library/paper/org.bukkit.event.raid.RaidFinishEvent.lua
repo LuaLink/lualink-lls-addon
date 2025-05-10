@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.raid.RaidFinishEvent: org.bukkit.event.raid.RaidEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private winners java.util.List
----@overload fun(raid: Raid, world: World, winners: table<Player>): org.bukkit.event.raid.RaidFinishEvent
+---@overload fun(raid: org.bukkit.Raid, world: org.bukkit.World, winners: java.util.List): org.bukkit.event.raid.RaidFinishEvent
 local RaidFinishEvent = {}
 
 ---@public

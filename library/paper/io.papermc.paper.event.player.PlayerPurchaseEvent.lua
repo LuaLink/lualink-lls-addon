@@ -7,7 +7,7 @@
 ---@field private increaseTradeUses boolean
 ---@field private trade org.bukkit.inventory.MerchantRecipe
 ---@field private cancelled boolean
----@overload fun(player: Player, trade: MerchantRecipe, rewardExp: boolean, increaseTradeUses: boolean): io.papermc.paper.event.player.PlayerPurchaseEvent
+---@overload fun(player: org.bukkit.entity.Player, trade: org.bukkit.inventory.MerchantRecipe, rewardExp: boolean, increaseTradeUses: boolean): io.papermc.paper.event.player.PlayerPurchaseEvent
 local PlayerPurchaseEvent = {}
 
 ---@public

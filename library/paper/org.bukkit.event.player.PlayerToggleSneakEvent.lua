@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private isSneaking boolean
 ---@field private cancelled boolean
----@overload fun(player: Player, isSneaking: boolean): org.bukkit.event.player.PlayerToggleSneakEvent
+---@overload fun(player: org.bukkit.entity.Player, isSneaking: boolean): org.bukkit.event.player.PlayerToggleSneakEvent
 local PlayerToggleSneakEvent = {}
 
 ---@public

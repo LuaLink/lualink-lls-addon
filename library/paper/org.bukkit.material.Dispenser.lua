@@ -3,9 +3,9 @@
 -- org.bukkit.material.Dispenser
 ---@class org.bukkit.material.Dispenser: org.bukkit.material.FurnaceAndDispenser
 ---@overload fun(): org.bukkit.material.Dispenser
----@overload fun(direction: BlockFace): org.bukkit.material.Dispenser
----@overload fun(type: Material): org.bukkit.material.Dispenser
----@overload fun(type: Material, data: number): org.bukkit.material.Dispenser
+---@overload fun(direction: org.bukkit.block.BlockFace): org.bukkit.material.Dispenser
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Dispenser
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Dispenser
 local Dispenser = {}
 
 ---@param face org.bukkit.block.BlockFace 

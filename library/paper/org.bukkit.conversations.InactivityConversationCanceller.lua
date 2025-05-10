@@ -6,7 +6,7 @@
 ---@field protected timeoutSeconds number
 ---@field protected conversation org.bukkit.conversations.Conversation
 ---@field private taskId number
----@overload fun(plugin: Plugin, timeoutSeconds: number): org.bukkit.conversations.InactivityConversationCanceller
+---@overload fun(plugin: org.bukkit.plugin.Plugin, timeoutSeconds: number): org.bukkit.conversations.InactivityConversationCanceller
 local InactivityConversationCanceller = {}
 
 ---@param conversation org.bukkit.conversations.Conversation 

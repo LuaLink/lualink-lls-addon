@@ -4,7 +4,7 @@
 ---@class io.papermc.paper.event.server.ServerResourcesReloadedEvent: org.bukkit.event.server.ServerEvent
 ---@field public HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cause io.papermc.paper.event.server.ServerResourcesReloadedEvent.Cause
----@overload fun(cause: Cause): io.papermc.paper.event.server.ServerResourcesReloadedEvent
+---@overload fun(cause: io.papermc.paper.event.server.ServerResourcesReloadedEvent.Cause): io.papermc.paper.event.server.ServerResourcesReloadedEvent
 local ServerResourcesReloadedEvent = {}
 
 ---@public

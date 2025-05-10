@@ -15,7 +15,7 @@
 ---@field private added boolean
 ---@field private timed boolean
 ---@field private enabled boolean
----@overload fun(id: TimingIdentifier): co.aikar.timings.TimingHandler
+---@overload fun(id: co.aikar.timings.TimingIdentifier): co.aikar.timings.TimingHandler
 local TimingHandler = {}
 
 ---@public

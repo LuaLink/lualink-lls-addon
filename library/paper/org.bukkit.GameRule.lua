@@ -60,7 +60,7 @@
 ---@field public SPAWN_CHUNK_RADIUS org.bukkit.GameRule
 ---@field private name string
 ---@field private type java.lang.Class
----@overload fun(name: string, clazz: T?): org.bukkit.GameRule
+---@overload fun(name: string, clazz: java.lang.Class): org.bukkit.GameRule
 local GameRule = {}
 
 ---@public

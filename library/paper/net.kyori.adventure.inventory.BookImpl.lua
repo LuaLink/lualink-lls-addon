@@ -4,7 +4,7 @@
 ---@field private title net.kyori.adventure.text.Component
 ---@field private author net.kyori.adventure.text.Component
 ---@field private pages java.util.List
----@overload fun(title: Component, author: Component, pages: table<Component>): net.kyori.adventure.inventory.BookImpl
+---@overload fun(title: net.kyori.adventure.text.Component, author: net.kyori.adventure.text.Component, pages: java.util.List): net.kyori.adventure.inventory.BookImpl
 local BookImpl = {}
 
 ---@public

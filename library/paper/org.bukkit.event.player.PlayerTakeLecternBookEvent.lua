@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private lectern org.bukkit.block.Lectern
 ---@field private cancelled boolean
----@overload fun(player: Player, lectern: Lectern): org.bukkit.event.player.PlayerTakeLecternBookEvent
+---@overload fun(player: org.bukkit.entity.Player, lectern: org.bukkit.block.Lectern): org.bukkit.event.player.PlayerTakeLecternBookEvent
 local PlayerTakeLecternBookEvent = {}
 
 ---@public

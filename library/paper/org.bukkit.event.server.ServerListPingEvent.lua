@@ -9,12 +9,12 @@
 ---@field private numPlayers number
 ---@field private motd net.kyori.adventure.text.Component
 ---@field private maxPlayers number
----@overload fun(hostname: string, address: InetAddress, motd: string, numPlayers: number, maxPlayers: number): org.bukkit.event.server.ServerListPingEvent
----@overload fun(hostname: string, address: InetAddress, motd: string, maxPlayers: number): org.bukkit.event.server.ServerListPingEvent
----@overload fun(address: InetAddress, motd: Component, numPlayers: number, maxPlayers: number): org.bukkit.event.server.ServerListPingEvent
----@overload fun(hostname: string, address: InetAddress, motd: Component, numPlayers: number, maxPlayers: number): org.bukkit.event.server.ServerListPingEvent
----@overload fun(address: InetAddress, motd: Component, maxPlayers: number): org.bukkit.event.server.ServerListPingEvent
----@overload fun(hostname: string, address: InetAddress, motd: Component, maxPlayers: number): org.bukkit.event.server.ServerListPingEvent
+---@overload fun(hostname: string, address: java.net.InetAddress, motd: string, numPlayers: number, maxPlayers: number): org.bukkit.event.server.ServerListPingEvent
+---@overload fun(hostname: string, address: java.net.InetAddress, motd: string, maxPlayers: number): org.bukkit.event.server.ServerListPingEvent
+---@overload fun(address: java.net.InetAddress, motd: net.kyori.adventure.text.Component, numPlayers: number, maxPlayers: number): org.bukkit.event.server.ServerListPingEvent
+---@overload fun(hostname: string, address: java.net.InetAddress, motd: net.kyori.adventure.text.Component, numPlayers: number, maxPlayers: number): org.bukkit.event.server.ServerListPingEvent
+---@overload fun(address: java.net.InetAddress, motd: net.kyori.adventure.text.Component, maxPlayers: number): org.bukkit.event.server.ServerListPingEvent
+---@overload fun(hostname: string, address: java.net.InetAddress, motd: net.kyori.adventure.text.Component, maxPlayers: number): org.bukkit.event.server.ServerListPingEvent
 local ServerListPingEvent = {}
 
 ---@public

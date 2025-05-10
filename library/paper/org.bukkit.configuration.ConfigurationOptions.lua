@@ -5,7 +5,7 @@
 ---@field private pathSeparator string
 ---@field private copyDefaults boolean
 ---@field private configuration org.bukkit.configuration.Configuration
----@overload fun(configuration: Configuration): org.bukkit.configuration.ConfigurationOptions
+---@overload fun(configuration: org.bukkit.configuration.Configuration): org.bukkit.configuration.ConfigurationOptions
 local ConfigurationOptions = {}
 
 ---@public

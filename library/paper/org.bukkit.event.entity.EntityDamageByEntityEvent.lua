@@ -4,11 +4,11 @@
 ---@class org.bukkit.event.entity.EntityDamageByEntityEvent: org.bukkit.event.entity.EntityDamageEvent
 ---@field private damager org.bukkit.entity.Entity
 ---@field private critical boolean
----@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, damage: number): org.bukkit.event.entity.EntityDamageByEntityEvent
----@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, damageSource: DamageSource, damage: number): org.bukkit.event.entity.EntityDamageByEntityEvent
----@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, modifiers: table<DamageModifier, Double>, modifierFunctions: table): org.bukkit.event.entity.EntityDamageByEntityEvent
----@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, damageSource: DamageSource, modifiers: table<DamageModifier, Double>, modifierFunctions: table): org.bukkit.event.entity.EntityDamageByEntityEvent
----@overload fun(damager: Entity, damagee: Entity, cause: DamageCause, damageSource: DamageSource, modifiers: table<DamageModifier, Double>, modifierFunctions: table, critical: boolean): org.bukkit.event.entity.EntityDamageByEntityEvent
+---@overload fun(damager: org.bukkit.entity.Entity, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, damage: number): org.bukkit.event.entity.EntityDamageByEntityEvent
+---@overload fun(damager: org.bukkit.entity.Entity, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, damageSource: org.bukkit.damage.DamageSource, damage: number): org.bukkit.event.entity.EntityDamageByEntityEvent
+---@overload fun(damager: org.bukkit.entity.Entity, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, modifiers: java.util.Map, modifierFunctions: any): org.bukkit.event.entity.EntityDamageByEntityEvent
+---@overload fun(damager: org.bukkit.entity.Entity, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, damageSource: org.bukkit.damage.DamageSource, modifiers: java.util.Map, modifierFunctions: any): org.bukkit.event.entity.EntityDamageByEntityEvent
+---@overload fun(damager: org.bukkit.entity.Entity, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, damageSource: org.bukkit.damage.DamageSource, modifiers: java.util.Map, modifierFunctions: any, critical: boolean): org.bukkit.event.entity.EntityDamageByEntityEvent
 local EntityDamageByEntityEvent = {}
 
 ---@public

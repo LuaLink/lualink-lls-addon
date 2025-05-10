@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private attacker org.bukkit.entity.Entity
 ---@field private cancelled boolean
----@overload fun(vehicle: Vehicle, attacker: Entity): org.bukkit.event.vehicle.VehicleDestroyEvent
+---@overload fun(vehicle: org.bukkit.entity.Vehicle, attacker: org.bukkit.entity.Entity): org.bukkit.event.vehicle.VehicleDestroyEvent
 local VehicleDestroyEvent = {}
 
 ---@public

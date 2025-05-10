@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.block.CampfireStartEvent: org.bukkit.event.block.InventoryBlockStartEvent
 ---@field private campfireRecipe org.bukkit.inventory.CampfireRecipe
 ---@field private cookingTime number
----@overload fun(furnace: Block, source: ItemStack, recipe: CampfireRecipe): org.bukkit.event.block.CampfireStartEvent
+---@overload fun(furnace: org.bukkit.block.Block, source: org.bukkit.inventory.ItemStack, recipe: org.bukkit.inventory.CampfireRecipe): org.bukkit.event.block.CampfireStartEvent
 local CampfireStartEvent = {}
 
 ---@public

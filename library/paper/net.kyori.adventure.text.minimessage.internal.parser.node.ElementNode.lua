@@ -6,7 +6,7 @@
 ---@field private token net.kyori.adventure.text.minimessage.internal.parser.Token
 ---@field private sourceMessage string
 ---@field private children java.util.List
----@overload fun(parent: ElementNode, token: Token, sourceMessage: string): net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode
+---@overload fun(parent: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode, token: net.kyori.adventure.text.minimessage.internal.parser.Token, sourceMessage: string): net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode
 local ElementNode = {}
 
 ---@public

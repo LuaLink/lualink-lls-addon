@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private parent org.bukkit.entity.Shulker
 ---@field private cancelled boolean
----@overload fun(child: Shulker, parent: Shulker): io.papermc.paper.event.entity.ShulkerDuplicateEvent
+---@overload fun(child: org.bukkit.entity.Shulker, parent: org.bukkit.entity.Shulker): io.papermc.paper.event.entity.ShulkerDuplicateEvent
 local ShulkerDuplicateEvent = {}
 
 ---@public

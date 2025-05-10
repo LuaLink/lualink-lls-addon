@@ -3,7 +3,7 @@
 -- org.bukkit.util.BlockVector
 ---@class org.bukkit.util.BlockVector: org.bukkit.util.Vector
 ---@overload fun(): org.bukkit.util.BlockVector
----@overload fun(vec: Vector): org.bukkit.util.BlockVector
+---@overload fun(vec: org.bukkit.util.Vector): org.bukkit.util.BlockVector
 ---@overload fun(x: number, y: number, z: number): org.bukkit.util.BlockVector
 ---@overload fun(x: number, y: number, z: number): org.bukkit.util.BlockVector
 ---@overload fun(x: number, y: number, z: number): org.bukkit.util.BlockVector

@@ -3,8 +3,8 @@
 -- org.bukkit.material.Sign
 ---@class org.bukkit.material.Sign: org.bukkit.material.MaterialData, org.bukkit.material.Attachable
 ---@overload fun(): org.bukkit.material.Sign
----@overload fun(type: Material): org.bukkit.material.Sign
----@overload fun(type: Material, data: number): org.bukkit.material.Sign
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Sign
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Sign
 local Sign = {}
 
 ---@public

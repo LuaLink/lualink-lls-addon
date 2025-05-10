@@ -3,8 +3,8 @@
 -- org.bukkit.material.RedstoneWire
 ---@class org.bukkit.material.RedstoneWire: org.bukkit.material.MaterialData, org.bukkit.material.Redstone
 ---@overload fun(): org.bukkit.material.RedstoneWire
----@overload fun(type: Material): org.bukkit.material.RedstoneWire
----@overload fun(type: Material, data: number): org.bukkit.material.RedstoneWire
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.RedstoneWire
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.RedstoneWire
 local RedstoneWire = {}
 
 ---@public

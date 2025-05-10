@@ -8,7 +8,7 @@
 ---@field private entity org.bukkit.entity.Entity
 ---@field private radius number
 ---@field private cancelled boolean
----@overload fun(event: GameEvent, location: Location, entity: Entity, radius: number, isAsync: boolean): org.bukkit.event.world.GenericGameEvent
+---@overload fun(event: org.bukkit.GameEvent, location: org.bukkit.Location, entity: org.bukkit.entity.Entity, radius: number, isAsync: boolean): org.bukkit.event.world.GenericGameEvent
 local GenericGameEvent = {}
 
 ---@public

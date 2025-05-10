@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private amount number
 ---@field private cancelled boolean
----@overload fun(entity: Entity, amount: number): org.bukkit.event.entity.EntityAirChangeEvent
+---@overload fun(entity: org.bukkit.entity.Entity, amount: number): org.bukkit.event.entity.EntityAirChangeEvent
 local EntityAirChangeEvent = {}
 
 ---@public

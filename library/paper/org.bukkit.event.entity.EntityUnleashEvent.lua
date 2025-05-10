@@ -6,8 +6,8 @@
 ---@field private reason org.bukkit.event.entity.EntityUnleashEvent.UnleashReason
 ---@field private dropLeash boolean
 ---@field private cancelled boolean
----@overload fun(entity: Entity, reason: UnleashReason): org.bukkit.event.entity.EntityUnleashEvent
----@overload fun(entity: Entity, reason: UnleashReason, dropLeash: boolean): org.bukkit.event.entity.EntityUnleashEvent
+---@overload fun(entity: org.bukkit.entity.Entity, reason: org.bukkit.event.entity.EntityUnleashEvent.UnleashReason): org.bukkit.event.entity.EntityUnleashEvent
+---@overload fun(entity: org.bukkit.entity.Entity, reason: org.bukkit.event.entity.EntityUnleashEvent.UnleashReason, dropLeash: boolean): org.bukkit.event.entity.EntityUnleashEvent
 local EntityUnleashEvent = {}
 
 ---@public

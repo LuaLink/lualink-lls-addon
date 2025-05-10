@@ -3,7 +3,7 @@
 -- org.bukkit.plugin.PluginLogger
 ---@class org.bukkit.plugin.PluginLogger: java.util.logging.Logger
 ---@field private pluginName string
----@overload fun(context: Plugin): org.bukkit.plugin.PluginLogger
+---@overload fun(context: org.bukkit.plugin.Plugin): org.bukkit.plugin.PluginLogger
 local PluginLogger = {}
 
 ---@param logRecord java.util.logging.LogRecord 

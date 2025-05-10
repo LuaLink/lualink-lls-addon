@@ -5,8 +5,8 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private item org.bukkit.inventory.ItemStack
 ---@field private velocity org.bukkit.util.Vector
----@overload fun(player: Player, item: ItemStack, velocity: Vector): org.bukkit.event.player.PlayerRiptideEvent
----@overload fun(player: Player, item: ItemStack): org.bukkit.event.player.PlayerRiptideEvent
+---@overload fun(player: org.bukkit.entity.Player, item: org.bukkit.inventory.ItemStack, velocity: org.bukkit.util.Vector): org.bukkit.event.player.PlayerRiptideEvent
+---@overload fun(player: org.bukkit.entity.Player, item: org.bukkit.inventory.ItemStack): org.bukkit.event.player.PlayerRiptideEvent
 local PlayerRiptideEvent = {}
 
 ---@public

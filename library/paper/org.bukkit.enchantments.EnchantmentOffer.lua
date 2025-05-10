@@ -5,7 +5,7 @@
 ---@field private enchantment org.bukkit.enchantments.Enchantment
 ---@field private enchantmentLevel number
 ---@field private cost number
----@overload fun(enchantment: Enchantment, enchantmentLevel: number, cost: number): org.bukkit.enchantments.EnchantmentOffer
+---@overload fun(enchantment: org.bukkit.enchantments.Enchantment, enchantmentLevel: number, cost: number): org.bukkit.enchantments.EnchantmentOffer
 local EnchantmentOffer = {}
 
 ---@public

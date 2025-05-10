@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private titleOverride net.kyori.adventure.text.Component
 ---@field private cancelled boolean
----@overload fun(transaction: InventoryView): org.bukkit.event.inventory.InventoryOpenEvent
+---@overload fun(transaction: org.bukkit.inventory.InventoryView): org.bukkit.event.inventory.InventoryOpenEvent
 local InventoryOpenEvent = {}
 
 ---@public

@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private node any
 ---@field private hasFiredAsync boolean
----@overload fun(player: Player, node: RootCommandNode<S>, hasFiredAsync: boolean): com.destroystokyo.paper.event.brigadier.AsyncPlayerSendCommandsEvent
+---@overload fun(player: org.bukkit.entity.Player, node: any, hasFiredAsync: boolean): com.destroystokyo.paper.event.brigadier.AsyncPlayerSendCommandsEvent
 local AsyncPlayerSendCommandsEvent = {}
 
 ---@public

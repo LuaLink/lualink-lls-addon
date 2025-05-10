@@ -3,7 +3,7 @@
 -- org.bukkit.metadata.MetadataValueAdapter
 ---@class org.bukkit.metadata.MetadataValueAdapter: org.bukkit.metadata.MetadataValue
 ---@field protected owningPlugin java.lang.ref.WeakReference
----@overload fun(owningPlugin: Plugin): org.bukkit.metadata.MetadataValueAdapter
+---@overload fun(owningPlugin: org.bukkit.plugin.Plugin): org.bukkit.metadata.MetadataValueAdapter
 local MetadataValueAdapter = {}
 
 ---@public

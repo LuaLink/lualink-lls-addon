@@ -4,8 +4,8 @@
 ---@class org.bukkit.material.MaterialData: java.lang.Cloneable
 ---@field private type org.bukkit.Material
 ---@field private data number
----@overload fun(type: Material): org.bukkit.material.MaterialData
----@overload fun(type: Material, data: number): org.bukkit.material.MaterialData
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.MaterialData
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.MaterialData
 local MaterialData = {}
 
 ---@deprecated

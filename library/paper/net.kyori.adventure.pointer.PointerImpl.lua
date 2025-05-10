@@ -3,7 +3,7 @@
 ---@class net.kyori.adventure.pointer.PointerImpl: net.kyori.adventure.pointer.Pointer
 ---@field private type java.lang.Class
 ---@field private key any
----@overload fun(type: T?, key: Key): net.kyori.adventure.pointer.PointerImpl
+---@overload fun(type: java.lang.Class, key: any): net.kyori.adventure.pointer.PointerImpl
 local PointerImpl = {}
 
 ---@public

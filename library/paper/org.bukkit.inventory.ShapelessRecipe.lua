@@ -3,8 +3,8 @@
 -- org.bukkit.inventory.ShapelessRecipe
 ---@class org.bukkit.inventory.ShapelessRecipe: org.bukkit.inventory.CraftingRecipe
 ---@field private ingredients java.util.List
----@overload fun(result: ItemStack): org.bukkit.inventory.ShapelessRecipe
----@overload fun(key: NamespacedKey, result: ItemStack): org.bukkit.inventory.ShapelessRecipe
+---@overload fun(result: org.bukkit.inventory.ItemStack): org.bukkit.inventory.ShapelessRecipe
+---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack): org.bukkit.inventory.ShapelessRecipe
 local ShapelessRecipe = {}
 
 ---@deprecated

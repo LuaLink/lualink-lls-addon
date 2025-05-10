@@ -6,7 +6,7 @@
 ---@field private targetEntity org.bukkit.entity.Entity
 ---@field private location org.bukkit.Location
 ---@field private cancelled boolean
----@overload fun(entity: Entity, location: Location, targetEntity: Entity): com.destroystokyo.paper.event.entity.EntityPathfindEvent
+---@overload fun(entity: org.bukkit.entity.Entity, location: org.bukkit.Location, targetEntity: org.bukkit.entity.Entity): com.destroystokyo.paper.event.entity.EntityPathfindEvent
 local EntityPathfindEvent = {}
 
 ---@public

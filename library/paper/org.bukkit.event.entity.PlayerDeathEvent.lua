@@ -12,14 +12,14 @@
 ---@field private keepLevel boolean
 ---@field private keepInventory boolean
 ---@field private itemsToKeep java.util.List
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, deathMessage: Component, showDeathMessages: boolean): org.bukkit.event.entity.PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, deathMessage: Component, showDeathMessages: boolean): org.bukkit.event.entity.PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: Component, showDeathMessages: boolean): org.bukkit.event.entity.PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: Component, showDeathMessages: boolean, doExpDrop: boolean): org.bukkit.event.entity.PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, deathMessage: string): org.bukkit.event.entity.PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, deathMessage: string): org.bukkit.event.entity.PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: string): org.bukkit.event.entity.PlayerDeathEvent
----@overload fun(player: Player, damageSource: DamageSource, drops: table<ItemStack>, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: string, doExpDrop: boolean): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: org.bukkit.entity.Player, damageSource: org.bukkit.damage.DamageSource, drops: java.util.List, droppedExp: number, deathMessage: net.kyori.adventure.text.Component, showDeathMessages: boolean): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: org.bukkit.entity.Player, damageSource: org.bukkit.damage.DamageSource, drops: java.util.List, droppedExp: number, newExp: number, deathMessage: net.kyori.adventure.text.Component, showDeathMessages: boolean): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: org.bukkit.entity.Player, damageSource: org.bukkit.damage.DamageSource, drops: java.util.List, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: net.kyori.adventure.text.Component, showDeathMessages: boolean): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: org.bukkit.entity.Player, damageSource: org.bukkit.damage.DamageSource, drops: java.util.List, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: net.kyori.adventure.text.Component, showDeathMessages: boolean, doExpDrop: boolean): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: org.bukkit.entity.Player, damageSource: org.bukkit.damage.DamageSource, drops: java.util.List, droppedExp: number, deathMessage: string): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: org.bukkit.entity.Player, damageSource: org.bukkit.damage.DamageSource, drops: java.util.List, droppedExp: number, newExp: number, deathMessage: string): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: org.bukkit.entity.Player, damageSource: org.bukkit.damage.DamageSource, drops: java.util.List, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: string): org.bukkit.event.entity.PlayerDeathEvent
+---@overload fun(player: org.bukkit.entity.Player, damageSource: org.bukkit.damage.DamageSource, drops: java.util.List, droppedExp: number, newExp: number, newTotalExp: number, newLevel: number, deathMessage: string, doExpDrop: boolean): org.bukkit.event.entity.PlayerDeathEvent
 local PlayerDeathEvent = {}
 
 ---@public

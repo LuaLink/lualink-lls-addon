@@ -3,7 +3,7 @@
 -- com.destroystokyo.paper.event.entity.SlimeTargetLivingEntityEvent
 ---@class com.destroystokyo.paper.event.entity.SlimeTargetLivingEntityEvent: com.destroystokyo.paper.event.entity.SlimePathfindEvent
 ---@field private target org.bukkit.entity.LivingEntity
----@overload fun(slime: Slime, target: LivingEntity): com.destroystokyo.paper.event.entity.SlimeTargetLivingEntityEvent
+---@overload fun(slime: org.bukkit.entity.Slime, target: org.bukkit.entity.LivingEntity): com.destroystokyo.paper.event.entity.SlimeTargetLivingEntityEvent
 local SlimeTargetLivingEntityEvent = {}
 
 ---@public

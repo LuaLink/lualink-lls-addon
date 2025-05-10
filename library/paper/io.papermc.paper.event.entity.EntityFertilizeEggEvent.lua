@@ -8,7 +8,7 @@
 ---@field private bredWith org.bukkit.inventory.ItemStack
 ---@field private experience number
 ---@field private cancelled boolean
----@overload fun(mother: LivingEntity, father: LivingEntity, breeder: Player, bredWith: ItemStack, experience: number): io.papermc.paper.event.entity.EntityFertilizeEggEvent
+---@overload fun(mother: org.bukkit.entity.LivingEntity, father: org.bukkit.entity.LivingEntity, breeder: org.bukkit.entity.Player, bredWith: org.bukkit.inventory.ItemStack, experience: number): io.papermc.paper.event.entity.EntityFertilizeEggEvent
 local EntityFertilizeEggEvent = {}
 
 ---@public

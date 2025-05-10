@@ -3,7 +3,7 @@
 ---@class net.kyori.adventure.text.serializer.gson.ShowEntitySerializer: any
 ---@field private gson any
 ---@field private emitKeyAsTypeAndUuidAsId boolean
----@overload fun(gson: Gson, emitKeyAsTypeAndUuidAsId: boolean): net.kyori.adventure.text.serializer.gson.ShowEntitySerializer
+---@overload fun(gson: any, emitKeyAsTypeAndUuidAsId: boolean): net.kyori.adventure.text.serializer.gson.ShowEntitySerializer
 local ShowEntitySerializer = {}
 
 ---@param gson any 

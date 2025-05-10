@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private isSprinting boolean
 ---@field private cancelled boolean
----@overload fun(player: Player, isSprinting: boolean): org.bukkit.event.player.PlayerToggleSprintEvent
+---@overload fun(player: org.bukkit.entity.Player, isSprinting: boolean): org.bukkit.event.player.PlayerToggleSprintEvent
 local PlayerToggleSprintEvent = {}
 
 ---@public

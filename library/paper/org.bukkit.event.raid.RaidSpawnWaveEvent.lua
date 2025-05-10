@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private raiders java.util.List
 ---@field private leader org.bukkit.entity.Raider
----@overload fun(raid: Raid, world: World, leader: Raider, raiders: table<Raider>): org.bukkit.event.raid.RaidSpawnWaveEvent
+---@overload fun(raid: org.bukkit.Raid, world: org.bukkit.World, leader: org.bukkit.entity.Raider, raiders: java.util.List): org.bukkit.event.raid.RaidSpawnWaveEvent
 local RaidSpawnWaveEvent = {}
 
 ---@public

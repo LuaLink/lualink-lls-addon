@@ -7,10 +7,10 @@
 ---@field private searchRadius number
 ---@field private canCreatePortal boolean
 ---@field private creationRadius number
----@overload fun(entity: Entity, from: Location, to: Location): org.bukkit.event.entity.EntityPortalEvent
----@overload fun(entity: Entity, from: Location, to: Location, searchRadius: number): org.bukkit.event.entity.EntityPortalEvent
----@overload fun(entity: Entity, from: Location, to: Location, searchRadius: number, canCreatePortal: boolean, creationRadius: number): org.bukkit.event.entity.EntityPortalEvent
----@overload fun(entity: Entity, from: Location, to: Location, searchRadius: number, canCreatePortal: boolean, creationRadius: number, portalType: PortalType): org.bukkit.event.entity.EntityPortalEvent
+---@overload fun(entity: org.bukkit.entity.Entity, from: org.bukkit.Location, to: org.bukkit.Location): org.bukkit.event.entity.EntityPortalEvent
+---@overload fun(entity: org.bukkit.entity.Entity, from: org.bukkit.Location, to: org.bukkit.Location, searchRadius: number): org.bukkit.event.entity.EntityPortalEvent
+---@overload fun(entity: org.bukkit.entity.Entity, from: org.bukkit.Location, to: org.bukkit.Location, searchRadius: number, canCreatePortal: boolean, creationRadius: number): org.bukkit.event.entity.EntityPortalEvent
+---@overload fun(entity: org.bukkit.entity.Entity, from: org.bukkit.Location, to: org.bukkit.Location, searchRadius: number, canCreatePortal: boolean, creationRadius: number, portalType: org.bukkit.PortalType): org.bukkit.event.entity.EntityPortalEvent
 local EntityPortalEvent = {}
 
 ---@public

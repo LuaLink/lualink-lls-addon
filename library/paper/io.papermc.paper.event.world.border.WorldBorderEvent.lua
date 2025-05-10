@@ -2,7 +2,7 @@
 -- io.papermc.paper.event.world.border.WorldBorderEvent
 ---@class io.papermc.paper.event.world.border.WorldBorderEvent: org.bukkit.event.world.WorldEvent
 ---@field protected worldBorder org.bukkit.WorldBorder
----@overload fun(world: World, worldBorder: WorldBorder): io.papermc.paper.event.world.border.WorldBorderEvent
+---@overload fun(world: org.bukkit.World, worldBorder: org.bukkit.WorldBorder): io.papermc.paper.event.world.border.WorldBorderEvent
 local WorldBorderEvent = {}
 
 ---@public

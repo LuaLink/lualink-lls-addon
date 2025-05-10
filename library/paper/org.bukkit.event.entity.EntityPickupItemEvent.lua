@@ -6,7 +6,7 @@
 ---@field private item org.bukkit.entity.Item
 ---@field private remaining number
 ---@field private cancelled boolean
----@overload fun(entity: LivingEntity, item: Item, remaining: number): org.bukkit.event.entity.EntityPickupItemEvent
+---@overload fun(entity: org.bukkit.entity.LivingEntity, item: org.bukkit.entity.Item, remaining: number): org.bukkit.event.entity.EntityPickupItemEvent
 local EntityPickupItemEvent = {}
 
 ---@public

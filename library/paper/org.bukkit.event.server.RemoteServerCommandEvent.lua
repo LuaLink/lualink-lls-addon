@@ -3,7 +3,7 @@
 -- org.bukkit.event.server.RemoteServerCommandEvent
 ---@class org.bukkit.event.server.RemoteServerCommandEvent: org.bukkit.event.server.ServerCommandEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
----@overload fun(sender: CommandSender, command: string): org.bukkit.event.server.RemoteServerCommandEvent
+---@overload fun(sender: org.bukkit.command.CommandSender, command: string): org.bukkit.event.server.RemoteServerCommandEvent
 local RemoteServerCommandEvent = {}
 
 ---@public

@@ -7,7 +7,7 @@
 ---@field private missingRespawnBlock boolean
 ---@field private respawnReason org.bukkit.event.player.PlayerRespawnEvent.RespawnReason
 ---@field private respawnFlags java.util.Set
----@overload fun(respawnPlayer: Player, respawnLocation: Location, isBedSpawn: boolean, isAnchorSpawn: boolean, missingRespawnBlock: boolean, respawnReason: PlayerRespawnEvent.RespawnReason): io.papermc.paper.event.player.AbstractRespawnEvent
+---@overload fun(respawnPlayer: org.bukkit.entity.Player, respawnLocation: org.bukkit.Location, isBedSpawn: boolean, isAnchorSpawn: boolean, missingRespawnBlock: boolean, respawnReason: org.bukkit.event.player.PlayerRespawnEvent.RespawnReason): io.papermc.paper.event.player.AbstractRespawnEvent
 local AbstractRespawnEvent = {}
 
 ---@public

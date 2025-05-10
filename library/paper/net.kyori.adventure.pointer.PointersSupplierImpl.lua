@@ -3,7 +3,7 @@
 ---@class net.kyori.adventure.pointer.PointersSupplierImpl: net.kyori.adventure.pointer.PointersSupplier
 ---@field private parent net.kyori.adventure.pointer.PointersSupplier
 ---@field private resolvers java.util.Map
----@overload fun(builder: BuilderImpl<T>): net.kyori.adventure.pointer.PointersSupplierImpl
+---@overload fun(builder: net.kyori.adventure.pointer.PointersSupplierImpl.BuilderImpl): net.kyori.adventure.pointer.PointersSupplierImpl
 local PointersSupplierImpl = {}
 
 ---@param instance T 

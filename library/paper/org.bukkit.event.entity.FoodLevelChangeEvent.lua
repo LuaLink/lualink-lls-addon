@@ -6,8 +6,8 @@
 ---@field private level number
 ---@field private item org.bukkit.inventory.ItemStack
 ---@field private cancelled boolean
----@overload fun(human: HumanEntity, level: number): org.bukkit.event.entity.FoodLevelChangeEvent
----@overload fun(human: HumanEntity, level: number, item: ItemStack): org.bukkit.event.entity.FoodLevelChangeEvent
+---@overload fun(human: org.bukkit.entity.HumanEntity, level: number): org.bukkit.event.entity.FoodLevelChangeEvent
+---@overload fun(human: org.bukkit.entity.HumanEntity, level: number, item: org.bukkit.inventory.ItemStack): org.bukkit.event.entity.FoodLevelChangeEvent
 local FoodLevelChangeEvent = {}
 
 ---@public

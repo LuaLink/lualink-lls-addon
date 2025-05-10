@@ -4,7 +4,7 @@
 ---@class org.bukkit.event.block.BlockPistonRetractEvent: org.bukkit.event.block.BlockPistonEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private blocks java.util.List
----@overload fun(block: Block, blocks: table<Block>, direction: BlockFace): org.bukkit.event.block.BlockPistonRetractEvent
+---@overload fun(block: org.bukkit.block.Block, blocks: java.util.List, direction: org.bukkit.block.BlockFace): org.bukkit.event.block.BlockPistonRetractEvent
 local BlockPistonRetractEvent = {}
 
 ---@deprecated

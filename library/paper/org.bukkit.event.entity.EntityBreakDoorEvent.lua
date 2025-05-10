@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.event.entity.EntityBreakDoorEvent
 ---@class org.bukkit.event.entity.EntityBreakDoorEvent: org.bukkit.event.entity.EntityChangeBlockEvent
----@overload fun(entity: LivingEntity, targetBlock: Block, to: org.bukkit.block.data.BlockData): org.bukkit.event.entity.EntityBreakDoorEvent
+---@overload fun(entity: org.bukkit.entity.LivingEntity, targetBlock: org.bukkit.block.Block, to: org.bukkit.block.data.BlockData): org.bukkit.event.entity.EntityBreakDoorEvent
 local EntityBreakDoorEvent = {}
 
 ---@public

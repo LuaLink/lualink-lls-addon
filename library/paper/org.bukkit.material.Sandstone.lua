@@ -3,9 +3,9 @@
 -- org.bukkit.material.Sandstone
 ---@class org.bukkit.material.Sandstone: org.bukkit.material.MaterialData
 ---@overload fun(): org.bukkit.material.Sandstone
----@overload fun(type: SandstoneType): org.bukkit.material.Sandstone
----@overload fun(type: Material): org.bukkit.material.Sandstone
----@overload fun(type: Material, data: number): org.bukkit.material.Sandstone
+---@overload fun(type: org.bukkit.SandstoneType): org.bukkit.material.Sandstone
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Sandstone
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Sandstone
 local Sandstone = {}
 
 ---@public

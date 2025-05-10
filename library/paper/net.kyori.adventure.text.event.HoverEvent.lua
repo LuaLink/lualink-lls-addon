@@ -4,7 +4,7 @@
 ---@class net.kyori.adventure.text.event.HoverEvent: any, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.text.format.StyleBuilderApplicable
 ---@field private action net.kyori.adventure.text.event.HoverEvent.Action
 ---@field private value V
----@overload fun(action: Action<V>, value: V): net.kyori.adventure.text.event.HoverEvent
+---@overload fun(action: net.kyori.adventure.text.event.HoverEvent.Action, value: V): net.kyori.adventure.text.event.HoverEvent
 local HoverEvent = {}
 
 ---@param text net.kyori.adventure.text.ComponentLike the text to show on hover

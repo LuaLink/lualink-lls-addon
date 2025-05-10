@@ -6,7 +6,7 @@
 ---@field private to org.bukkit.Location
 ---@field private from org.bukkit.Location
 ---@field private cancelled boolean
----@overload fun(player: Player, from: Location, to: Location): com.destroystokyo.paper.event.player.PlayerJumpEvent
+---@overload fun(player: org.bukkit.entity.Player, from: org.bukkit.Location, to: org.bukkit.Location): com.destroystokyo.paper.event.player.PlayerJumpEvent
 local PlayerJumpEvent = {}
 
 ---@public

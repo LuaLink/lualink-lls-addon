@@ -10,12 +10,12 @@
 ---@field private result org.bukkit.event.player.AsyncPlayerPreLoginEvent.Result
 ---@field private message net.kyori.adventure.text.Component
 ---@field private profile com.destroystokyo.paper.profile.PlayerProfile
----@overload fun(name: string, ipAddress: InetAddress): org.bukkit.event.player.AsyncPlayerPreLoginEvent
----@overload fun(name: string, ipAddress: InetAddress, uniqueId: UUID): org.bukkit.event.player.AsyncPlayerPreLoginEvent
----@overload fun(name: string, ipAddress: InetAddress, uniqueId: UUID, transferred: boolean): org.bukkit.event.player.AsyncPlayerPreLoginEvent
----@overload fun(name: string, ipAddress: InetAddress, uniqueId: UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile): org.bukkit.event.player.AsyncPlayerPreLoginEvent
----@overload fun(name: string, ipAddress: InetAddress, rawAddress: InetAddress, uniqueId: UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile): org.bukkit.event.player.AsyncPlayerPreLoginEvent
----@overload fun(name: string, ipAddress: InetAddress, rawAddress: InetAddress, uniqueId: UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile, hostname: string): org.bukkit.event.player.AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: java.net.InetAddress): org.bukkit.event.player.AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: java.net.InetAddress, uniqueId: java.util.UUID): org.bukkit.event.player.AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: java.net.InetAddress, uniqueId: java.util.UUID, transferred: boolean): org.bukkit.event.player.AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: java.net.InetAddress, uniqueId: java.util.UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile): org.bukkit.event.player.AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: java.net.InetAddress, rawAddress: java.net.InetAddress, uniqueId: java.util.UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile): org.bukkit.event.player.AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: java.net.InetAddress, rawAddress: java.net.InetAddress, uniqueId: java.util.UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile, hostname: string): org.bukkit.event.player.AsyncPlayerPreLoginEvent
 local AsyncPlayerPreLoginEvent = {}
 
 ---@public

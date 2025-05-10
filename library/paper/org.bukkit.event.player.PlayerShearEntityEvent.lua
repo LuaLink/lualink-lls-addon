@@ -8,8 +8,8 @@
 ---@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field private drops java.util.List
 ---@field private cancelled boolean
----@overload fun(player: Player, entity: Entity, item: ItemStack, hand: EquipmentSlot, drops: table<ItemStack>): org.bukkit.event.player.PlayerShearEntityEvent
----@overload fun(player: Player, entity: Entity): org.bukkit.event.player.PlayerShearEntityEvent
+---@overload fun(player: org.bukkit.entity.Player, entity: org.bukkit.entity.Entity, item: org.bukkit.inventory.ItemStack, hand: org.bukkit.inventory.EquipmentSlot, drops: java.util.List): org.bukkit.event.player.PlayerShearEntityEvent
+---@overload fun(player: org.bukkit.entity.Player, entity: org.bukkit.entity.Entity): org.bukkit.event.player.PlayerShearEntityEvent
 local PlayerShearEntityEvent = {}
 
 ---@public

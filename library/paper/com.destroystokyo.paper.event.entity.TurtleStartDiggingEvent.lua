@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private location org.bukkit.Location
 ---@field private cancelled boolean
----@overload fun(turtle: Turtle, location: Location): com.destroystokyo.paper.event.entity.TurtleStartDiggingEvent
+---@overload fun(turtle: org.bukkit.entity.Turtle, location: org.bukkit.Location): com.destroystokyo.paper.event.entity.TurtleStartDiggingEvent
 local TurtleStartDiggingEvent = {}
 
 ---@public

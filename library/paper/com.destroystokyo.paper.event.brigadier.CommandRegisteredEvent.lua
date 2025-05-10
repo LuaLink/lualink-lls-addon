@@ -11,7 +11,7 @@
 ---@field private literal any
 ---@field private rawCommand boolean
 ---@field private cancelled boolean
----@overload fun(commandLabel: string, brigadierCommand: com.destroystokyo.paper.brigadier.BukkitBrigadierCommand<S>, command: Command, root: RootCommandNode<S>, literal: LiteralCommandNode<S>, defaultArgs: ArgumentCommandNode<S, String>): com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent
+---@overload fun(commandLabel: string, brigadierCommand: com.destroystokyo.paper.brigadier.BukkitBrigadierCommand, command: org.bukkit.command.Command, root: any, literal: any, defaultArgs: any): com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent
 local CommandRegisteredEvent = {}
 
 ---@public

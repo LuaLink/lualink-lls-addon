@@ -9,7 +9,7 @@
 ---@field private notifyPlayer boolean
 ---@field private notification net.kyori.adventure.text.Component
 ---@field private cancelled boolean
----@overload fun(player: Player, cause: Cause, location: Location, forced: boolean, notifyPlayer: boolean, notification: Component): com.destroystokyo.paper.event.player.PlayerSetSpawnEvent
+---@overload fun(player: org.bukkit.entity.Player, cause: com.destroystokyo.paper.event.player.PlayerSetSpawnEvent.Cause, location: org.bukkit.Location, forced: boolean, notifyPlayer: boolean, notification: net.kyori.adventure.text.Component): com.destroystokyo.paper.event.player.PlayerSetSpawnEvent
 local PlayerSetSpawnEvent = {}
 
 ---@public

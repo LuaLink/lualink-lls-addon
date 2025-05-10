@@ -7,8 +7,8 @@
 ---@field private message string
 ---@field private format string
 ---@field private cancelled boolean
----@overload fun(player: Player, message: string): org.bukkit.event.player.PlayerChatEvent
----@overload fun(player: Player, message: string, format: string, recipients: table<Player>): org.bukkit.event.player.PlayerChatEvent
+---@overload fun(player: org.bukkit.entity.Player, message: string): org.bukkit.event.player.PlayerChatEvent
+---@overload fun(player: org.bukkit.entity.Player, message: string, format: string, recipients: java.util.Set): org.bukkit.event.player.PlayerChatEvent
 local PlayerChatEvent = {}
 
 ---@public

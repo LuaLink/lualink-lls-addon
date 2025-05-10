@@ -7,7 +7,7 @@
 ---@field private populator any
 ---@field private legacyHoverSerializer any
 ---@field private flags any
----@overload fun(flags: OptionState, legacyHoverSerializer: net.kyori.adventure.text.serializer.json.LegacyHoverEventSerializer?): net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl
+---@overload fun(flags: any, legacyHoverSerializer: any?): net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl
 local GsonComponentSerializerImpl = {}
 
 ---@public

@@ -6,7 +6,7 @@
 ---@field private reason com.destroystokyo.paper.event.block.TNTPrimeEvent.PrimeReason
 ---@field private primerEntity org.bukkit.entity.Entity
 ---@field private cancelled boolean
----@overload fun(block: Block, reason: PrimeReason, primerEntity: Entity): com.destroystokyo.paper.event.block.TNTPrimeEvent
+---@overload fun(block: org.bukkit.block.Block, reason: com.destroystokyo.paper.event.block.TNTPrimeEvent.PrimeReason, primerEntity: org.bukkit.entity.Entity): com.destroystokyo.paper.event.block.TNTPrimeEvent
 local TNTPrimeEvent = {}
 
 ---@public

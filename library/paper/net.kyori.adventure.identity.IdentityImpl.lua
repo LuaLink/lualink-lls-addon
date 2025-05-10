@@ -2,7 +2,7 @@
 -- net.kyori.adventure.identity.IdentityImpl
 ---@class net.kyori.adventure.identity.IdentityImpl: any, net.kyori.adventure.identity.Identity
 ---@field private uuid java.util.UUID
----@overload fun(uuid: UUID): net.kyori.adventure.identity.IdentityImpl
+---@overload fun(uuid: java.util.UUID): net.kyori.adventure.identity.IdentityImpl
 local IdentityImpl = {}
 
 ---@public

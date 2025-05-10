@@ -7,7 +7,7 @@
 ---@field private side org.bukkit.block.sign.Side
 ---@field private cause org.bukkit.event.player.PlayerSignOpenEvent.Cause
 ---@field private cancelled boolean
----@overload fun(player: Player, sign: Sign, side: Side, cause: Cause): org.bukkit.event.player.PlayerSignOpenEvent
+---@overload fun(player: org.bukkit.entity.Player, sign: org.bukkit.block.Sign, side: org.bukkit.block.sign.Side, cause: org.bukkit.event.player.PlayerSignOpenEvent.Cause): org.bukkit.event.player.PlayerSignOpenEvent
 local PlayerSignOpenEvent = {}
 
 ---@public

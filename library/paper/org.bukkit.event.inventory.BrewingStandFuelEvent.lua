@@ -7,7 +7,7 @@
 ---@field private fuelPower number
 ---@field private consuming boolean
 ---@field private cancelled boolean
----@overload fun(brewingStand: Block, fuel: ItemStack, fuelPower: number): org.bukkit.event.inventory.BrewingStandFuelEvent
+---@overload fun(brewingStand: org.bukkit.block.Block, fuel: org.bukkit.inventory.ItemStack, fuelPower: number): org.bukkit.event.inventory.BrewingStandFuelEvent
 local BrewingStandFuelEvent = {}
 
 ---@public

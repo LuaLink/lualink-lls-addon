@@ -18,7 +18,7 @@
 ---@field public TRANSLATION_ARGUMENT_TYPE java.lang.Class
 ---@field private features any
 ---@field private legacyHoverSerializer any
----@overload fun(features: OptionState, legacyHoverSerializer: net.kyori.adventure.text.serializer.json.LegacyHoverEventSerializer?): net.kyori.adventure.text.serializer.gson.SerializerFactory
+---@overload fun(features: any, legacyHoverSerializer: any?): net.kyori.adventure.text.serializer.gson.SerializerFactory
 local SerializerFactory = {}
 
 ---@param gson any 

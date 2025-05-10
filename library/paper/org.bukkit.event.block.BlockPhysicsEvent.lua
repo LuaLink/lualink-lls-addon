@@ -6,9 +6,9 @@
 ---@field private changed org.bukkit.block.data.BlockData
 ---@field private sourceBlock org.bukkit.block.Block
 ---@field private cancelled boolean
----@overload fun(block: Block, changed: BlockData, sourceX: number, sourceY: number, sourceZ: number): org.bukkit.event.block.BlockPhysicsEvent
----@overload fun(block: Block, changed: BlockData): org.bukkit.event.block.BlockPhysicsEvent
----@overload fun(block: Block, changed: BlockData, sourceBlock: Block): org.bukkit.event.block.BlockPhysicsEvent
+---@overload fun(block: org.bukkit.block.Block, changed: org.bukkit.block.data.BlockData, sourceX: number, sourceY: number, sourceZ: number): org.bukkit.event.block.BlockPhysicsEvent
+---@overload fun(block: org.bukkit.block.Block, changed: org.bukkit.block.data.BlockData): org.bukkit.event.block.BlockPhysicsEvent
+---@overload fun(block: org.bukkit.block.Block, changed: org.bukkit.block.data.BlockData, sourceBlock: org.bukkit.block.Block): org.bukkit.event.block.BlockPhysicsEvent
 local BlockPhysicsEvent = {}
 
 ---@public

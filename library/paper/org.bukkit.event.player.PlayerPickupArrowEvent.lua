@@ -3,7 +3,7 @@
 -- org.bukkit.event.player.PlayerPickupArrowEvent
 ---@class org.bukkit.event.player.PlayerPickupArrowEvent: org.bukkit.event.player.PlayerPickupItemEvent
 ---@field private arrow org.bukkit.entity.AbstractArrow
----@overload fun(player: Player, item: Item, arrow: AbstractArrow): org.bukkit.event.player.PlayerPickupArrowEvent
+---@overload fun(player: org.bukkit.entity.Player, item: org.bukkit.entity.Item, arrow: org.bukkit.entity.AbstractArrow): org.bukkit.event.player.PlayerPickupArrowEvent
 local PlayerPickupArrowEvent = {}
 
 ---@public

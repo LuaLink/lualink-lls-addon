@@ -6,8 +6,8 @@
 ---@field private bolt org.bukkit.entity.LightningStrike
 ---@field private cause org.bukkit.event.weather.LightningStrikeEvent.Cause
 ---@field private cancelled boolean
----@overload fun(world: World, bolt: LightningStrike): org.bukkit.event.weather.LightningStrikeEvent
----@overload fun(world: World, bolt: LightningStrike, cause: Cause): org.bukkit.event.weather.LightningStrikeEvent
+---@overload fun(world: org.bukkit.World, bolt: org.bukkit.entity.LightningStrike): org.bukkit.event.weather.LightningStrikeEvent
+---@overload fun(world: org.bukkit.World, bolt: org.bukkit.entity.LightningStrike, cause: org.bukkit.event.weather.LightningStrikeEvent.Cause): org.bukkit.event.weather.LightningStrikeEvent
 local LightningStrikeEvent = {}
 
 ---@public

@@ -3,7 +3,7 @@
 -- org.bukkit.util.io.BukkitObjectInputStream
 ---@class org.bukkit.util.io.BukkitObjectInputStream: java.io.ObjectInputStream
 ---@overload fun(): org.bukkit.util.io.BukkitObjectInputStream
----@overload fun(in: InputStream): org.bukkit.util.io.BukkitObjectInputStream
+---@overload fun(in: java.io.InputStream): org.bukkit.util.io.BukkitObjectInputStream
 local BukkitObjectInputStream = {}
 
 ---@param obj java.lang.Object 

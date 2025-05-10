@@ -4,7 +4,7 @@
 ---@class com.destroystokyo.paper.block.TargetBlockInfo
 ---@field private block org.bukkit.block.Block
 ---@field private blockFace org.bukkit.block.BlockFace
----@overload fun(block: Block, blockFace: BlockFace): com.destroystokyo.paper.block.TargetBlockInfo
+---@overload fun(block: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace): com.destroystokyo.paper.block.TargetBlockInfo
 local TargetBlockInfo = {}
 
 ---@public

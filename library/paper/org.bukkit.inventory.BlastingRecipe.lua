@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.inventory.BlastingRecipe
 ---@class org.bukkit.inventory.BlastingRecipe: org.bukkit.inventory.CookingRecipe
----@overload fun(key: NamespacedKey, result: ItemStack, source: Material, experience: number, cookingTime: number): org.bukkit.inventory.BlastingRecipe
----@overload fun(key: NamespacedKey, result: ItemStack, input: RecipeChoice, experience: number, cookingTime: number): org.bukkit.inventory.BlastingRecipe
+---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack, source: org.bukkit.Material, experience: number, cookingTime: number): org.bukkit.inventory.BlastingRecipe
+---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack, input: org.bukkit.inventory.RecipeChoice, experience: number, cookingTime: number): org.bukkit.inventory.BlastingRecipe
 local BlastingRecipe = {}
 

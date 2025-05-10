@@ -6,8 +6,8 @@
 ---@field private leftRotation any
 ---@field private scale any
 ---@field private rightRotation any
----@overload fun(translation: Vector3f, leftRotation: AxisAngle4f, scale: Vector3f, rightRotation: AxisAngle4f): org.bukkit.util.Transformation
----@overload fun(translation: Vector3f, leftRotation: Quaternionf, scale: Vector3f, rightRotation: Quaternionf): org.bukkit.util.Transformation
+---@overload fun(translation: any, leftRotation: any, scale: any, rightRotation: any): org.bukkit.util.Transformation
+---@overload fun(translation: any, leftRotation: any, scale: any, rightRotation: any): org.bukkit.util.Transformation
 local Transformation = {}
 
 ---@public

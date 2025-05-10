@@ -5,7 +5,7 @@
 ---@field private name any
 ---@field private translations java.util.Map
 ---@field private defaultLocale java.util.Locale
----@overload fun(name: Key): net.kyori.adventure.translation.AbstractTranslationStore
+---@overload fun(name: any): net.kyori.adventure.translation.AbstractTranslationStore
 local AbstractTranslationStore = {}
 
 ---@param key string the key

@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private locale string
 ---@field private adventure$locale java.util.Locale
----@overload fun(player: Player, locale: string): org.bukkit.event.player.PlayerLocaleChangeEvent
+---@overload fun(player: org.bukkit.entity.Player, locale: string): org.bukkit.event.player.PlayerLocaleChangeEvent
 local PlayerLocaleChangeEvent = {}
 
 ---@deprecated

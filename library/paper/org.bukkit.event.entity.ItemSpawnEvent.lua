@@ -2,8 +2,8 @@
 ---@meta
 -- org.bukkit.event.entity.ItemSpawnEvent
 ---@class org.bukkit.event.entity.ItemSpawnEvent: org.bukkit.event.entity.EntitySpawnEvent
----@overload fun(spawnee: Item, loc: Location): org.bukkit.event.entity.ItemSpawnEvent
----@overload fun(spawnee: Item): org.bukkit.event.entity.ItemSpawnEvent
+---@overload fun(spawnee: org.bukkit.entity.Item, loc: org.bukkit.Location): org.bukkit.event.entity.ItemSpawnEvent
+---@overload fun(spawnee: org.bukkit.entity.Item): org.bukkit.event.entity.ItemSpawnEvent
 local ItemSpawnEvent = {}
 
 ---@public

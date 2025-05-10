@@ -3,7 +3,7 @@
 ---@class net.kyori.adventure.text.VirtualComponentImpl: net.kyori.adventure.text.TextComponentImpl, net.kyori.adventure.text.VirtualComponent
 ---@field private contextType java.lang.Class
 ---@field private renderer net.kyori.adventure.text.VirtualComponentRenderer
----@overload fun(children: table<Component>, style: Style, content: string, contextType: C?, renderer: VirtualComponentRenderer<C>): net.kyori.adventure.text.VirtualComponentImpl
+---@overload fun(children: java.util.List, style: net.kyori.adventure.text.format.Style, content: string, contextType: java.lang.Class, renderer: net.kyori.adventure.text.VirtualComponentRenderer): net.kyori.adventure.text.VirtualComponentImpl
 local VirtualComponentImpl = {}
 
 ---@param contextType java.lang.Class 

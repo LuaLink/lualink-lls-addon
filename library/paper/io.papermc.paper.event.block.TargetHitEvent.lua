@@ -4,7 +4,7 @@
 ---@class io.papermc.paper.event.block.TargetHitEvent: org.bukkit.event.entity.ProjectileHitEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private signalStrength number
----@overload fun(projectile: Projectile, block: Block, blockFace: BlockFace, signalStrength: number): io.papermc.paper.event.block.TargetHitEvent
+---@overload fun(projectile: org.bukkit.entity.Projectile, block: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, signalStrength: number): io.papermc.paper.event.block.TargetHitEvent
 local TargetHitEvent = {}
 
 ---@public

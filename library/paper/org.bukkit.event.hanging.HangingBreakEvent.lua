@@ -5,7 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cause org.bukkit.event.hanging.HangingBreakEvent.RemoveCause
 ---@field private cancelled boolean
----@overload fun(hanging: Hanging, cause: HangingBreakEvent.RemoveCause): org.bukkit.event.hanging.HangingBreakEvent
+---@overload fun(hanging: org.bukkit.entity.Hanging, cause: org.bukkit.event.hanging.HangingBreakEvent.RemoveCause): org.bukkit.event.hanging.HangingBreakEvent
 local HangingBreakEvent = {}
 
 ---@public

@@ -3,8 +3,8 @@
 -- org.bukkit.material.Torch
 ---@class org.bukkit.material.Torch: org.bukkit.material.SimpleAttachableMaterialData
 ---@overload fun(): org.bukkit.material.Torch
----@overload fun(type: Material): org.bukkit.material.Torch
----@overload fun(type: Material, data: number): org.bukkit.material.Torch
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Torch
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Torch
 local Torch = {}
 
 ---@public

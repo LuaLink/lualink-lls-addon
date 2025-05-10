@@ -17,12 +17,12 @@
 ---@field private mainFace org.bukkit.block.BlockFace
 ---@field private secondFace org.bukkit.block.BlockFace
 ---@field private thirdFace org.bukkit.block.BlockFace
----@overload fun(world: World, start: Vector, direction: Vector, yOffset: number, maxDistance: number): org.bukkit.util.BlockIterator
----@overload fun(loc: Location, yOffset: number, maxDistance: number): org.bukkit.util.BlockIterator
----@overload fun(loc: Location, yOffset: number): org.bukkit.util.BlockIterator
----@overload fun(loc: Location): org.bukkit.util.BlockIterator
----@overload fun(entity: LivingEntity, maxDistance: number): org.bukkit.util.BlockIterator
----@overload fun(entity: LivingEntity): org.bukkit.util.BlockIterator
+---@overload fun(world: org.bukkit.World, start: org.bukkit.util.Vector, direction: org.bukkit.util.Vector, yOffset: number, maxDistance: number): org.bukkit.util.BlockIterator
+---@overload fun(loc: org.bukkit.Location, yOffset: number, maxDistance: number): org.bukkit.util.BlockIterator
+---@overload fun(loc: org.bukkit.Location, yOffset: number): org.bukkit.util.BlockIterator
+---@overload fun(loc: org.bukkit.Location): org.bukkit.util.BlockIterator
+---@overload fun(entity: org.bukkit.entity.LivingEntity, maxDistance: number): org.bukkit.util.BlockIterator
+---@overload fun(entity: org.bukkit.entity.LivingEntity): org.bukkit.util.BlockIterator
 local BlockIterator = {}
 
 ---@param a org.bukkit.block.Block 

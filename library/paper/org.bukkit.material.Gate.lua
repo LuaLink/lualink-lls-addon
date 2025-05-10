@@ -9,7 +9,7 @@
 ---@field private GATE_NORTH number
 ---@field private GATE_EAST number
 ---@overload fun(): org.bukkit.material.Gate
----@overload fun(type: Material, data: number): org.bukkit.material.Gate
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Gate
 ---@overload fun(data: number): org.bukkit.material.Gate
 local Gate = {}
 

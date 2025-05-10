@@ -5,7 +5,7 @@
 ---@field public TRANSLATABLE_ARGUMENT_LIST_TYPE java.lang.reflect.Type
 ---@field private emitCompactTextComponent boolean
 ---@field private gson any
----@overload fun(emitCompactTextComponent: boolean, gson: Gson): net.kyori.adventure.text.serializer.gson.ComponentSerializerImpl
+---@overload fun(emitCompactTextComponent: boolean, gson: any): net.kyori.adventure.text.serializer.gson.ComponentSerializerImpl
 local ComponentSerializerImpl = {}
 
 ---@param features any 

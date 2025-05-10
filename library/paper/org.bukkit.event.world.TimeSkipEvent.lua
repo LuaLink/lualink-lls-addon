@@ -6,7 +6,7 @@
 ---@field private skipReason org.bukkit.event.world.TimeSkipEvent.SkipReason
 ---@field private skipAmount number
 ---@field private cancelled boolean
----@overload fun(world: World, skipReason: SkipReason, skipAmount: number): org.bukkit.event.world.TimeSkipEvent
+---@overload fun(world: org.bukkit.World, skipReason: org.bukkit.event.world.TimeSkipEvent.SkipReason, skipAmount: number): org.bukkit.event.world.TimeSkipEvent
 local TimeSkipEvent = {}
 
 ---@public

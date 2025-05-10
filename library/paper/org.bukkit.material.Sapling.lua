@@ -3,12 +3,12 @@
 -- org.bukkit.material.Sapling
 ---@class org.bukkit.material.Sapling: org.bukkit.material.Wood
 ---@overload fun(): org.bukkit.material.Sapling
----@overload fun(species: TreeSpecies): org.bukkit.material.Sapling
----@overload fun(species: TreeSpecies, isInstantGrowable: boolean): org.bukkit.material.Sapling
----@overload fun(type: Material): org.bukkit.material.Sapling
----@overload fun(type: Material, species: TreeSpecies): org.bukkit.material.Sapling
----@overload fun(type: Material, species: TreeSpecies, isInstantGrowable: boolean): org.bukkit.material.Sapling
----@overload fun(type: Material, data: number): org.bukkit.material.Sapling
+---@overload fun(species: org.bukkit.TreeSpecies): org.bukkit.material.Sapling
+---@overload fun(species: org.bukkit.TreeSpecies, isInstantGrowable: boolean): org.bukkit.material.Sapling
+---@overload fun(type: org.bukkit.Material): org.bukkit.material.Sapling
+---@overload fun(type: org.bukkit.Material, species: org.bukkit.TreeSpecies): org.bukkit.material.Sapling
+---@overload fun(type: org.bukkit.Material, species: org.bukkit.TreeSpecies, isInstantGrowable: boolean): org.bukkit.material.Sapling
+---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Sapling
 local Sapling = {}
 
 ---@public

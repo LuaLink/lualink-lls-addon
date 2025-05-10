@@ -8,7 +8,7 @@
 ---@field private to org.bukkit.Location
 ---@field private allowed boolean
 ---@field private logWarning boolean
----@overload fun(player: Player, failReason: FailReason, allowed: boolean, logWarning: boolean, from: Location, to: Location): io.papermc.paper.event.player.PlayerFailMoveEvent
+---@overload fun(player: org.bukkit.entity.Player, failReason: io.papermc.paper.event.player.PlayerFailMoveEvent.FailReason, allowed: boolean, logWarning: boolean, from: org.bukkit.Location, to: org.bukkit.Location): io.papermc.paper.event.player.PlayerFailMoveEvent
 local PlayerFailMoveEvent = {}
 
 ---@public

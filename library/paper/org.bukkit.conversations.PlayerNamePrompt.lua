@@ -3,7 +3,7 @@
 -- org.bukkit.conversations.PlayerNamePrompt
 ---@class org.bukkit.conversations.PlayerNamePrompt: org.bukkit.conversations.ValidatingPrompt
 ---@field private plugin org.bukkit.plugin.Plugin
----@overload fun(plugin: Plugin): org.bukkit.conversations.PlayerNamePrompt
+---@overload fun(plugin: org.bukkit.plugin.Plugin): org.bukkit.conversations.PlayerNamePrompt
 local PlayerNamePrompt = {}
 
 ---@param context org.bukkit.conversations.ConversationContext 

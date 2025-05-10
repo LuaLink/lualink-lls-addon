@@ -7,7 +7,7 @@
 ---@field private name net.kyori.adventure.text.Component
 ---@field private persistent boolean
 ---@field private cancelled boolean
----@overload fun(player: Player, entity: LivingEntity, name: Component, persistent: boolean): io.papermc.paper.event.player.PlayerNameEntityEvent
+---@overload fun(player: org.bukkit.entity.Player, entity: org.bukkit.entity.LivingEntity, name: net.kyori.adventure.text.Component, persistent: boolean): io.papermc.paper.event.player.PlayerNameEntityEvent
 local PlayerNameEntityEvent = {}
 
 ---@public

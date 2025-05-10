@@ -4,7 +4,7 @@
 ---@field private names java.util.Set
 ---@field private handler java.util.function.BiFunction
 ---@field private styleClaim net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim
----@overload fun(names: table<string>, handler: BiFunction<ArgumentQueue, Context, Tag>, styleClaim: StyleClaim<?>): net.kyori.adventure.text.minimessage.internal.serializer.StyleClaimingResolverImpl
+---@overload fun(names: java.util.Set, handler: java.util.function.BiFunction, styleClaim: net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim): net.kyori.adventure.text.minimessage.internal.serializer.StyleClaimingResolverImpl
 local StyleClaimingResolverImpl = {}
 
 ---@param name string 

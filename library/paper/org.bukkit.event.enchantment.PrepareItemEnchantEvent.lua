@@ -9,7 +9,7 @@
 ---@field private offers org.bukkit.enchantments.EnchantmentOffer
 ---@field private bonus number
 ---@field private cancelled boolean
----@overload fun(enchanter: Player, view: EnchantmentView, table: Block, item: ItemStack, offers: table<EnchantmentOffer @NotNull >, bonus: number): org.bukkit.event.enchantment.PrepareItemEnchantEvent
+---@overload fun(enchanter: org.bukkit.entity.Player, view: org.bukkit.inventory.view.EnchantmentView, table: org.bukkit.block.Block, item: org.bukkit.inventory.ItemStack, offers: table<EnchantmentOffer>, bonus: number): org.bukkit.event.enchantment.PrepareItemEnchantEvent
 local PrepareItemEnchantEvent = {}
 
 ---@public

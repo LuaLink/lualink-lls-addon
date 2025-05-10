@@ -3,7 +3,7 @@
 -- org.bukkit.event.block.BlockEvent
 ---@class org.bukkit.event.block.BlockEvent: org.bukkit.event.Event
 ---@field protected block org.bukkit.block.Block
----@overload fun(block: Block): org.bukkit.event.block.BlockEvent
+---@overload fun(block: org.bukkit.block.Block): org.bukkit.event.block.BlockEvent
 local BlockEvent = {}
 
 ---@public

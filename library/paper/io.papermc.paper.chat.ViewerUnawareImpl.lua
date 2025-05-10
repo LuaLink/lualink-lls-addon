@@ -3,7 +3,7 @@
 ---@class io.papermc.paper.chat.ViewerUnawareImpl: io.papermc.paper.chat.ChatRenderer, io.papermc.paper.chat.ChatRenderer.ViewerUnaware
 ---@field private unaware io.papermc.paper.chat.ChatRenderer.ViewerUnaware
 ---@field private message net.kyori.adventure.text.Component
----@overload fun(unaware: ViewerUnaware): io.papermc.paper.chat.ViewerUnawareImpl
+---@overload fun(unaware: io.papermc.paper.chat.ChatRenderer.ViewerUnaware): io.papermc.paper.chat.ViewerUnawareImpl
 local ViewerUnawareImpl = {}
 
 ---@param source org.bukkit.entity.Player 

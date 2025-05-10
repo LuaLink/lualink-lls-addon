@@ -8,7 +8,7 @@
 ---@field private path string
 ---@field private fullPath string
 ---@overload fun(): org.bukkit.configuration.MemorySection
----@overload fun(parent: ConfigurationSection, path: string): org.bukkit.configuration.MemorySection
+---@overload fun(parent: org.bukkit.configuration.ConfigurationSection, path: string): org.bukkit.configuration.MemorySection
 local MemorySection = {}
 
 ---@param deep boolean 

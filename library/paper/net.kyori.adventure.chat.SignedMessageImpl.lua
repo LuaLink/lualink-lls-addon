@@ -6,7 +6,7 @@
 ---@field private salt number
 ---@field private message string
 ---@field private unsignedContent net.kyori.adventure.text.Component
----@overload fun(message: string, unsignedContent: Component): net.kyori.adventure.chat.SignedMessageImpl
+---@overload fun(message: string, unsignedContent: net.kyori.adventure.text.Component): net.kyori.adventure.chat.SignedMessageImpl
 local SignedMessageImpl = {}
 
 ---@public

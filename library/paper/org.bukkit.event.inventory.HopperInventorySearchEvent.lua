@@ -6,7 +6,7 @@
 ---@field private inventory org.bukkit.inventory.Inventory
 ---@field private containerType org.bukkit.event.inventory.HopperInventorySearchEvent.ContainerType
 ---@field private searchBlock org.bukkit.block.Block
----@overload fun(inventory: Inventory, containerType: ContainerType, hopper: Block, searchBlock: Block): org.bukkit.event.inventory.HopperInventorySearchEvent
+---@overload fun(inventory: org.bukkit.inventory.Inventory, containerType: org.bukkit.event.inventory.HopperInventorySearchEvent.ContainerType, hopper: org.bukkit.block.Block, searchBlock: org.bukkit.block.Block): org.bukkit.event.inventory.HopperInventorySearchEvent
 local HopperInventorySearchEvent = {}
 
 ---@param inventory org.bukkit.inventory.Inventory the inventory to use

@@ -8,7 +8,7 @@
 ---@field private namespace string
 ---@field private key string
 ---@overload fun(namespace: string, key: string): com.destroystokyo.paper.NamespacedTag
----@overload fun(plugin: Plugin, key: string): com.destroystokyo.paper.NamespacedTag
+---@overload fun(plugin: org.bukkit.plugin.Plugin, key: string): com.destroystokyo.paper.NamespacedTag
 local NamespacedTag = {}
 
 ---@public

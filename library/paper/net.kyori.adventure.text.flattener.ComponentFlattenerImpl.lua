@@ -6,7 +6,7 @@
 ---@field private MAX_DEPTH number
 ---@field private flatteners net.kyori.adventure.util.InheritanceAwareMap
 ---@field private unknownHandler java.util.function.Function
----@overload fun(flatteners: InheritanceAwareMap<Component, Handler>, unknownHandler: Function<Component, String>): net.kyori.adventure.text.flattener.ComponentFlattenerImpl
+---@overload fun(flatteners: net.kyori.adventure.util.InheritanceAwareMap, unknownHandler: java.util.function.Function): net.kyori.adventure.text.flattener.ComponentFlattenerImpl
 local ComponentFlattenerImpl = {}
 
 ---@param input net.kyori.adventure.text.Component 

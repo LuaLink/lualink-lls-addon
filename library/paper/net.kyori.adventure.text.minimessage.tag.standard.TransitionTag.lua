@@ -7,7 +7,7 @@
 ---@field private phase number
 ---@field private negativePhase boolean
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(phase: number, colors: table<TextColor>): net.kyori.adventure.text.minimessage.tag.standard.TransitionTag
+---@overload fun(phase: number, colors: java.util.List): net.kyori.adventure.text.minimessage.tag.standard.TransitionTag
 local TransitionTag = {}
 
 ---@param args net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue 
