@@ -8,6 +8,3 @@ server = {}
 
 ---@type Scheduler
 scheduler = {}
-
----@type string
-__dataFolder = ""
