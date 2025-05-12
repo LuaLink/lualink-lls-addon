@@ -3,7 +3,7 @@
 ---@type Script 
 script = {} -- Dummy script table
 
----@type Server
+---@type org.bukkit.Server
 server = {}
 
 ---@type Scheduler
