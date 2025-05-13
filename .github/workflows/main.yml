@@ -126,6 +126,7 @@ jobs:
             java.base/share/classes/java/util/function/Supplier.java
             java.base/share/classes/java/util/Optional.java
             java.base/share/classes/java/util/logging/Logger.java
+            java.base/share/classes/java/lang/Class.java
           )
 
           FILES=""
