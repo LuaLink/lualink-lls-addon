@@ -127,16 +127,15 @@ jobs:
             java/util/logging/Logger.java
           )
 
-          FILES=""
+          cd src
+          RELATIVE_FILES=""
           for f in "${ALLOWED_CLASSES[@]}"; do
-            path="./src/${f}"
-            if [[ -f "$path" ]]; then
-              FILES+=" $path"
+            if [[ -f "$f" ]]; then
+              RELATIVE_FILES+=" $f"
             fi
           done
 
-          cd src
-          zip -r $RUNNER_TEMP/java-jar/openjdk-src.jar $FILES
+          zip -r $RUNNER_TEMP/java-jar/openjdk-src.jar $RELATIVE_FILES
 
           mkdir -p library/java
           java -jar $RUNNER_TEMP/stubgen/LuaStubGen.jar --output-dir=library/java $RUNNER_TEMP/java-jar/openjdk-src.jar
