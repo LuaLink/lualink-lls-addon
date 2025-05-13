@@ -89,57 +89,58 @@ jobs:
           git clone --depth 1 $OPENJDK_REPO $RUNNER_TEMP/openjdk
           mkdir -p $RUNNER_TEMP/java-jar
           cd $RUNNER_TEMP/openjdk
-          zip -r $RUNNER_TEMP/java-jar/openjdk-src.jar ./src
-          
+
+          ALLOWED_CLASSES=(
+            java/util/Map.java
+            java/util/HashMap.java
+            java/util/Collection.java
+            java/util/List.java
+            java/util/ArrayList.java
+            java/util/Set.java
+            java/util/HashSet.java
+            java/util/Collections.java
+            java/util/stream/Stream.java
+            java/lang/Character.java
+            java/util/Arrays.java
+            java/util/UUID.java
+            java/util/concurrent/CompletableFuture.java
+            java/util/function/Function.java
+            java/util/function/BiFunction.java
+            java/util/function/Consumer.java
+            java/util/function/BiConsumer.java
+            java/util/function/Predicate.java
+            java/lang/Object.java
+            java/util/Objects.java
+            java/net/URI.java
+            java/net/URL.java
+            java/io/File.java
+            java/nio/file/Path.java
+            java/util/regex/Pattern.java
+            java/util/regex/Matcher.java
+            java/text/SimpleDateFormat.java
+            java/util/Locale.java
+            java/util/Iterator.java
+            java/util/ListIterator.java
+            java/text/DecimalFormat.java
+            java/util/function/Supplier.java
+            java/util/Optional.java
+            java/util/logging/Logger.java
+          )
+
+          FILES=""
+          for f in "${ALLOWED_CLASSES[@]}"; do
+            path="./src/${f}"
+            if [[ -f "$path" ]]; then
+              FILES+=" $path"
+            fi
+          done
+
+          cd src
+          zip -r $RUNNER_TEMP/java-jar/openjdk-src.jar $FILES
+
           mkdir -p library/java
           java -jar $RUNNER_TEMP/stubgen/LuaStubGen.jar --output-dir=library/java $RUNNER_TEMP/java-jar/openjdk-src.jar
 
-      - name: Clean Java stubs to keep only allowed classes
-        run: |
-          ALLOWED_CLASSES=(
-            java.util.Map
-            java.util.HashMap
-            java.util.Collection
-            java.util.List
-            java.util.ArrayList
-            java.util.Set
-            java.util.HashSet
-            java.util.Collections
-            java.util.stream.Stream
-            java.lang.Character
-            java.util.Arrays
-            java.util.UUID
-            java.util.concurrent.CompletableFuture
-            java.util.function.Function
-            java.util.function.BiFunction
-            java.util.function.Consumer
-            java.util.function.BiConsumer
-            java.util.function.Predicate
-            java.lang.Object
-            java.util.Objects
-            java.net.URI
-            java.net.URL
-            java.io.File
-            java.nio.file.Path
-            java.util.regex.Pattern
-            java.util.regex.Matcher
-            java.text.SimpleDateFormat
-            java.util.Locale
-            java.util.Iterator
-            java.util.ListIterator
-            java.text.DecimalFormat
-            java.util.function.Supplier
-            java.util.Optional
-            java.util.logging.Logger
-          )
-          mkdir -p library/java
-          cd library/java || exit 1
-          for file in *.lua; do
-            base="${file%.lua}"
-            if [[ ! " ${ALLOWED_CLASSES[@]} " =~ " ${base} " ]]; then
-              rm -v "$file"
-            fi
-          done
 
       - name: Commit and push changes
         run: |
