@@ -32,6 +32,7 @@
 ---| '"java.util.Locale"' 
 ---| '"java.util.Iterator"' 
 ---| '"java.util.ListIterator"' 
+---| '"java.lang.Iterable"' 
 ---| '"java.text.DecimalFormat"' 
 ---| '"java.util.function.Supplier"' 
 ---| '"java.util.Optional"' 
