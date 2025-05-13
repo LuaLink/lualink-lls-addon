@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - testing
+      - main
   workflow_dispatch:
   schedule:
     - cron: '0 4 * * *'  # Runs daily at 04:00 UTC
@@ -149,4 +149,4 @@ jobs:
           git add library/lualink
           git add library/java
           git commit -m "Update Lua definitions" || echo "No changes to commit"
-          git push origin HEAD:testing
+          git push origin HEAD:main
