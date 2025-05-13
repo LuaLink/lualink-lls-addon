@@ -137,7 +137,7 @@ jobs:
           done
 
           zip -r $RUNNER_TEMP/java-jar/openjdk-src.jar $FILES
-
+          cd "$GITHUB_WORKSPACE"
           mkdir -p library/java
           java -jar $RUNNER_TEMP/stubgen/LuaStubGen.jar --output-dir=library/java $RUNNER_TEMP/java-jar/openjdk-src.jar
 
