@@ -122,6 +122,7 @@ jobs:
             java.base/share/classes/java/util/Locale.java
             java.base/share/classes/java/util/Iterator.java
             java.base/share/classes/java/util/ListIterator.java
+            java.base/share/classes/java/lang/Iterable.java
             java.base/share/classes/java/text/DecimalFormat.java
             java.base/share/classes/java/util/function/Supplier.java
             java.base/share/classes/java/util/Optional.java
