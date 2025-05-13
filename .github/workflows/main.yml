@@ -136,7 +136,6 @@ jobs:
             fi
           done
 
-          cd src
           zip -r $RUNNER_TEMP/java-jar/openjdk-src.jar $FILES
 
           mkdir -p library/java
