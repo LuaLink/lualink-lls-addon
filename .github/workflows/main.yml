@@ -132,7 +132,7 @@ jobs:
             java.util.Optional
             java.util.logging.Logger
           )
-
+          mkdir -p library/java
           cd library/java || exit 1
           for file in *.lua; do
             base="${file%.lua}"
