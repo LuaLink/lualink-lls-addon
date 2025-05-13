@@ -35,3 +35,4 @@
 ---| '"java.text.DecimalFormat"' 
 ---| '"java.util.function.Supplier"' 
 ---| '"java.util.Optional"' 
+---| '"java.lang.Class"' 
