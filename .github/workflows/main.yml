@@ -15,6 +15,7 @@ permissions:
 env:
   STUBGEN_BUILD_NUM: 15
   MINECRAFT_VERSION: 1.21.5
+  OPENJDK_REPO: https://github.com/openjdk/jdk21u-dev
   ADDITIONAL_DEFINITION_URLS: |
     https://raw.githubusercontent.com/LuaLink/LuaLinkV2/master/src/main/resources/lua/script.lua
     https://raw.githubusercontent.com/LuaLink/LuaLinkV2/master/src/main/resources/lua/scheduler.lua
@@ -38,37 +39,27 @@ jobs:
           java-version: 21
           distribution: 'adopt'
 
+      - name: Install xmllint
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils zip
+
       - name: Download LuaLink/LuaStubGen JAR
         run: |
           mkdir -p $RUNNER_TEMP/stubgen
           curl -L -o $RUNNER_TEMP/stubgen/LuaStubGen.jar https://github.com/LuaLink/LuaStubGen/releases/download/$STUBGEN_BUILD_NUM/LuaStubGen-1.0-SNAPSHOT-all.jar
-      
-      - name: Install xmllint
-        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
 
       - name: Resolve Paper API Snapshot Sources JAR
         id: resolve-paper
         run: |
           METADATA_URL="https://repo.papermc.io/repository/maven-public/io/papermc/paper/paper-api/${MINECRAFT_VERSION}-R0.1-SNAPSHOT/maven-metadata.xml"
-          echo "Fetching metadata from $METADATA_URL"
           curl -s "$METADATA_URL" -o metadata.xml
-
           VERSION=$(xmllint --xpath "string(//snapshotVersion[classifier='sources']/value)" metadata.xml)
-          echo "Resolved version: $VERSION"
-
           JAR_URL="https://repo.papermc.io/repository/maven-public/io/papermc/paper/paper-api/${MINECRAFT_VERSION}-R0.1-SNAPSHOT/paper-api-${VERSION}-sources.jar"
-          echo "Resolved JAR URL: $JAR_URL"
-
           echo "PAPER_API_SOURCES_URL=$JAR_URL" >> $GITHUB_ENV
 
       - name: Download Source JARs
         run: |
           mkdir -p $RUNNER_TEMP/sources
-
-          # Download Paper API sources
           curl -L -o $RUNNER_TEMP/sources/paper-api-sources.jar "$PAPER_API_SOURCES_URL"
-
-          # Download other JARs
           IFS=$'\n'
           for url in $SOURCES_JAR_URLS; do
             filename=$(basename "$url")
@@ -78,7 +69,7 @@ jobs:
       - name: Clean previous Paper definitions 
         run: rm -rf library/paper
 
-      - name: Generate Lua definitions
+      - name: Generate Lua definitions for Paper
         run: |
           mkdir -p library/paper
           jar_files=$(ls $RUNNER_TEMP/sources/*.jar | tr '\n' ' ')
@@ -93,11 +84,69 @@ jobs:
             curl -L -o library/lualink/"$filename" "$url"
           done
 
+
+      - name: Clone OpenJDK sources and generate Java stubs
+        run: |
+          git clone --depth 1 $OPENJDK_REPO $RUNNER_TEMP/openjdk
+          mkdir -p $RUNNER_TEMP/java-jar
+          cd $RUNNER_TEMP/openjdk
+
+          ALLOWED_CLASSES=(
+            java.base/share/classes/java/util/Map.java
+            java.base/share/classes/java/util/HashMap.java
+            java.base/share/classes/java/util/Collection.java
+            java.base/share/classes/java/util/Collections.java
+            java.base/share/classes/java/util/List.java
+            java.base/share/classes/java/util/Arrays.java
+            java.base/share/classes/java/util/ArrayList.java
+            java.base/share/classes/java/util/Set.java
+            java.base/share/classes/java/util/HashSet.java
+            java.base/share/classes/java/util/stream/Stream.java
+            java.base/share/classes/java/lang/Character.java
+            java.base/share/classes/java/util/UUID.java
+            java.base/share/classes/java/util/concurrent/CompletableFuture.java
+            java.base/share/classes/java/util/function/Function.java
+            java.base/share/classes/java/util/function/BiFunction.java
+            java.base/share/classes/java/util/function/Consumer.java
+            java.base/share/classes/java/util/function/BiConsumer.java
+            java.base/share/classes/java/util/function/Predicate.java
+            java.base/share/classes/java/lang/Object.java
+            java.base/share/classes/java/util/Objects.java
+            java.base/share/classes/java/net/URI.java.java
+            java.base/share/classes/java/net/URL.java
+            java.base/share/classes/java/io/File.java
+            java.base/share/classes/java/nio/file/Path.java
+            java.base/share/classes/java/util/regex/Pattern.java
+            java.base/share/classes/java/util/regex/Matcher.java
+            java.base/share/classes/java/text/SimpleDateFormat.java
+            java.base/share/classes/java/util/Locale.java
+            java.base/share/classes/java/util/Iterator.java
+            java.base/share/classes/java/util/ListIterator.java
+            java.base/share/classes/java/text/DecimalFormat.java
+            java.base/share/classes/java/util/function/Supplier.java
+            java.base/share/classes/java/util/Optional.java
+            java.base/share/classes/java/util/logging/Logger.java
+          )
+
+          FILES=""
+          for f in "${ALLOWED_CLASSES[@]}"; do
+            path="./src/${f}"
+            if [[ -f "$path" ]]; then
+              FILES+=" $path"
+            fi
+          done
+
+          zip -r $RUNNER_TEMP/java-jar/openjdk-src.jar $FILES
+          cd "$GITHUB_WORKSPACE"
+          mkdir -p library/java
+          java -jar $RUNNER_TEMP/stubgen/LuaStubGen.jar --output-dir=library/java $RUNNER_TEMP/java-jar/openjdk-src.jar
+
       - name: Commit and push changes
         run: |
           git config --local user.name "GitHub Action"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add library/paper
           git add library/lualink
+          git add library/java
           git commit -m "Update Lua definitions" || echo "No changes to commit"
           git push origin HEAD:main
