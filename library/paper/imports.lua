@@ -549,6 +549,7 @@
 ---| '"io.papermc.paper.event.entity.EntityPortalReadyEvent"' 
 ---| '"io.papermc.paper.event.entity.EntityPushedByEntityAttackEvent"' 
 ---| '"io.papermc.paper.event.entity.EntityToggleSitEvent"' 
+---| '"io.papermc.paper.event.entity.FishHookStateChangeEvent"' 
 ---| '"io.papermc.paper.event.entity.PufferFishStateChangeEvent"' 
 ---| '"io.papermc.paper.event.entity.ShulkerDuplicateEvent"' 
 ---| '"io.papermc.paper.event.entity.TameableDeathMessageEvent"' 
