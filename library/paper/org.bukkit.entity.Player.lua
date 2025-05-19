@@ -673,7 +673,7 @@ function Player:sendSignChange(loc, lines, dyeColor, hasGlowingText) end
 
 ---@deprecated
 ---@param loc org.bukkit.Location the location of the sign
----@param lines table<string> the new text on the sign or null to clear it
+---@param lines? table<string> the new text on the sign or null to clear it
 ---@public
 ---@return nil 
 --- Send a sign change. This fakes a sign change packet for a user at a certain location. This will not actually change the world in any way. This method will use a sign at the location's block or a faked sign sent via {@link #sendBlockChange(org.bukkit.Location, org.bukkit.block.data.BlockData)}. <p> If the client does not have a sign at the given location it will display an error message to the user. <p> To change all attributes of a sign, including the back Side, use {@link #sendBlockUpdate(org.bukkit.Location, org.bukkit.block.TileState)}.
@@ -681,7 +681,7 @@ function Player:sendSignChange(loc, lines) end
 
 ---@deprecated
 ---@param loc org.bukkit.Location the location of the sign
----@param lines table<string> the new text on the sign or null to clear it
+---@param lines? table<string> the new text on the sign or null to clear it
 ---@param dyeColor org.bukkit.DyeColor the color of the sign
 ---@public
 ---@return nil 
@@ -690,7 +690,7 @@ function Player:sendSignChange(loc, lines, dyeColor) end
 
 ---@deprecated
 ---@param loc org.bukkit.Location the location of the sign
----@param lines table<string> the new text on the sign or null to clear it
+---@param lines? table<string> the new text on the sign or null to clear it
 ---@param dyeColor org.bukkit.DyeColor the color of the sign
 ---@param hasGlowingText boolean if the sign's text should be glowing
 ---@public
@@ -1426,7 +1426,7 @@ function Player:hasResourcePack() end
 
 ---@param id java.util.UUID Unique resource pack ID.
 ---@param url string The URL from which the client will download the resource     pack. The string must contain only US-ASCII characters and should     be encoded as per RFC 1738.
----@param hash table<number> The sha1 hash sum of the resource pack file which is used     to apply a cached version of the pack directly without downloading     if it is available. Hast to be 20 bytes long!
+---@param hash? table<number> The sha1 hash sum of the resource pack file which is used     to apply a cached version of the pack directly without downloading     if it is available. Hast to be 20 bytes long!
 ---@param prompt string The optional custom prompt message to be shown to client.
 ---@param force boolean If true, the client will be disconnected from the server     when it declines to use the resource pack.
 ---@public

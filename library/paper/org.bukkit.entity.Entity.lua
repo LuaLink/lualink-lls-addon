@@ -323,6 +323,11 @@ function Entity:isEmpty() end
 function Entity:eject() end
 
 ---@public
+---@return org.bukkit.inventory.ItemStack item stack result or an empty item stack
+--- Gets the {@link ItemStack} that a player would select / create (in creative mode) when using the pick block action on this entity.
+function Entity:getPickItemStack() end
+
+---@public
 ---@return number The distance.
 --- Returns the distance this entity has fallen
 function Entity:getFallDistance() end
