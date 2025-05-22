@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 env:
-  STUBGEN_BUILD_NUM: 21
+  STUBGEN_BUILD_NUM: 22
   MINECRAFT_VERSION: 1.21.5
   OPENJDK_REPO: https://github.com/openjdk/jdk21u-dev
   ADDITIONAL_DEFINITION_URLS: |
