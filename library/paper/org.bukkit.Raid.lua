@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.Raid
 ---@class org.bukkit.Raid: org.bukkit.persistence.PersistentDataHolder
+---@field public RaidStatus org.bukkit.Raid.RaidStatus
 local Raid = {}
 
 ---@public

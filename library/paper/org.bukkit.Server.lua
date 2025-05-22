@@ -4,6 +4,7 @@
 ---@class org.bukkit.Server: org.bukkit.plugin.messaging.PluginMessageRecipient, net.kyori.adventure.audience.ForwardingAudience
 ---@field public BROADCAST_CHANNEL_ADMINISTRATIVE string
 ---@field public BROADCAST_CHANNEL_USERS string
+---@field public Spigot org.bukkit.Server.Spigot
 local Server = {}
 
 ---@public

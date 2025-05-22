@@ -2,6 +2,7 @@
 -- net.kyori.adventure.text.EntityNBTComponentImpl
 ---@class net.kyori.adventure.text.EntityNBTComponentImpl: net.kyori.adventure.text.NBTComponentImpl, net.kyori.adventure.text.EntityNBTComponent
 ---@field private selector string
+---@field public BuilderImpl net.kyori.adventure.text.EntityNBTComponentImpl.BuilderImpl
 ---@overload fun(children: java.util.List, style: net.kyori.adventure.text.format.Style, nbtPath: string, interpret: boolean, separator: net.kyori.adventure.text.Component, selector: string): net.kyori.adventure.text.EntityNBTComponentImpl
 local EntityNBTComponentImpl = {}
 

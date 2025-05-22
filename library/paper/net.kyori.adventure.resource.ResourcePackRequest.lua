@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.resource.ResourcePackRequest
 ---@class net.kyori.adventure.resource.ResourcePackRequest: any, net.kyori.adventure.resource.ResourcePackRequestLike
+---@field public Builder net.kyori.adventure.resource.ResourcePackRequest.Builder
 local ResourcePackRequest = {}
 
 ---@param first net.kyori.adventure.resource.ResourcePackInfoLike the first pack

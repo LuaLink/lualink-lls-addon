@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.registry.data.PaintingVariantRegistryEntry
 ---@class io.papermc.paper.registry.data.PaintingVariantRegistryEntry
+---@field public Builder io.papermc.paper.registry.data.PaintingVariantRegistryEntry.Builder
 local PaintingVariantRegistryEntry = {}
 
 ---@public

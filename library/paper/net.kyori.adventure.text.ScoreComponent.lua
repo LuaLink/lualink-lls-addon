@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.ScoreComponent
 ---@class net.kyori.adventure.text.ScoreComponent: net.kyori.adventure.text.BuildableComponent, net.kyori.adventure.text.ScopedComponent
+---@field public Builder net.kyori.adventure.text.ScoreComponent.Builder
 local ScoreComponent = {}
 
 ---@public

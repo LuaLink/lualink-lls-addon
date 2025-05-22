@@ -4,6 +4,7 @@
 ---@field private key string
 ---@field private fallback string
 ---@field private args java.util.List
+---@field public BuilderImpl net.kyori.adventure.text.TranslatableComponentImpl.BuilderImpl
 ---@overload fun(children: java.util.List, style: net.kyori.adventure.text.format.Style, key: string, fallback: string, args: java.util.List): net.kyori.adventure.text.TranslatableComponentImpl
 local TranslatableComponentImpl = {}
 

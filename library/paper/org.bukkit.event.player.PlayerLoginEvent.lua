@@ -8,6 +8,7 @@
 ---@field private realAddress java.net.InetAddress
 ---@field private result org.bukkit.event.player.PlayerLoginEvent.Result
 ---@field private message net.kyori.adventure.text.Component
+---@field public Result org.bukkit.event.player.PlayerLoginEvent.Result
 ---@overload fun(player: org.bukkit.entity.Player, hostname: string, address: java.net.InetAddress, realAddress: java.net.InetAddress): org.bukkit.event.player.PlayerLoginEvent
 ---@overload fun(player: org.bukkit.entity.Player, hostname: string, address: java.net.InetAddress): org.bukkit.event.player.PlayerLoginEvent
 ---@overload fun(player: org.bukkit.entity.Player, hostname: string, address: java.net.InetAddress, result: org.bukkit.event.player.PlayerLoginEvent.Result, message: string, realAddress: java.net.InetAddress): org.bukkit.event.player.PlayerLoginEvent

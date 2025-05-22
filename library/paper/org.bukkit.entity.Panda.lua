@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.Panda
 ---@class org.bukkit.entity.Panda: org.bukkit.entity.Animals, org.bukkit.entity.Sittable
+---@field public Gene org.bukkit.entity.Panda.Gene
 local Panda = {}
 
 ---@public

@@ -6,6 +6,7 @@
 ---@field private newThunderState boolean
 ---@field private cause org.bukkit.event.weather.ThunderChangeEvent.Cause
 ---@field private cancelled boolean
+---@field public Cause org.bukkit.event.weather.ThunderChangeEvent.Cause
 ---@overload fun(world: org.bukkit.World, newThunderState: boolean, cause: org.bukkit.event.weather.ThunderChangeEvent.Cause): org.bukkit.event.weather.ThunderChangeEvent
 ---@overload fun(world: org.bukkit.World, newThunderState: boolean): org.bukkit.event.weather.ThunderChangeEvent
 local ThunderChangeEvent = {}

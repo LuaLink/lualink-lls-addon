@@ -2,6 +2,8 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.MiniMessage
 ---@class net.kyori.adventure.text.minimessage.MiniMessage: net.kyori.adventure.text.serializer.ComponentSerializer
+---@field public Builder net.kyori.adventure.text.minimessage.MiniMessage.Builder
+---@field public Provider net.kyori.adventure.text.minimessage.MiniMessage.Provider
 local MiniMessage = {}
 
 ---@public

@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.Spellcaster
 ---@class org.bukkit.entity.Spellcaster: org.bukkit.entity.Illager
+---@field public Spell org.bukkit.entity.Spellcaster.Spell
 local Spellcaster = {}
 
 ---@public

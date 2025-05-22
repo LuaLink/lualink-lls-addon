@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.UseCooldown
 ---@class io.papermc.paper.datacomponent.item.UseCooldown
+---@field public Builder io.papermc.paper.datacomponent.item.UseCooldown.Builder
 local UseCooldown = {}
 
 ---@param seconds number the duration in seconds; must be positive

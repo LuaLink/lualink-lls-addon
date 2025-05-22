@@ -1,0 +1,33 @@
+---@meta
+-- org.bukkit.event.player.PlayerKickEvent.Cause
+---@class org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public PLUGIN org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public WHITELIST org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public BANNED org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public IP_BANNED org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public KICK_COMMAND org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public FLYING_PLAYER org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public FLYING_VEHICLE org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public TIMEOUT org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public IDLING org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public INVALID_VEHICLE_MOVEMENT org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public INVALID_PLAYER_MOVEMENT org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public INVALID_ENTITY_ATTACKED org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public INVALID_PAYLOAD org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public INVALID_COOKIE org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public SPAM org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public ILLEGAL_ACTION org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public ILLEGAL_CHARACTERS org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public OUT_OF_ORDER_CHAT org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public UNSIGNED_CHAT org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public CHAT_VALIDATION_FAILED org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public EXPIRED_PROFILE_PUBLIC_KEY org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public INVALID_PUBLIC_KEY_SIGNATURE org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public TOO_MANY_PENDING_CHATS org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public SELF_INTERACTION org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public DUPLICATE_LOGIN org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public RESOURCE_PACK_REJECTION org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public RESTART_COMMAND org.bukkit.event.player.PlayerKickEvent.Cause
+---@field public UNKNOWN org.bukkit.event.player.PlayerKickEvent.Cause
+local Cause = {}
+

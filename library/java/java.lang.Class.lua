@@ -25,6 +25,10 @@
 ---@field private annotationData java.lang.Class.AnnotationData
 ---@field private annotationType any
 ---@field public classValueMap java.lang.ClassValue.ClassValueMap
+---@field private EnclosingMethodInfo java.lang.Class.EnclosingMethodInfo
+---@field private Atomic java.lang.Class.Atomic
+---@field private ReflectionData java.lang.Class.ReflectionData
+---@field private AnnotationData java.lang.Class.AnnotationData
 ---@overload fun(loader: java.lang.ClassLoader, arrayComponentType: java.lang.Class): java.lang.Class
 local Class = {}
 

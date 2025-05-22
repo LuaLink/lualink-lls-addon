@@ -42,6 +42,7 @@
 ---@field public WEAVING org.bukkit.potion.PotionEffectType
 ---@field public OOZING org.bukkit.potion.PotionEffectType
 ---@field public INFESTED org.bukkit.potion.PotionEffectType
+---@field public Category org.bukkit.potion.PotionEffectType.Category
 local PotionEffectType = {}
 
 ---@param typeId number 

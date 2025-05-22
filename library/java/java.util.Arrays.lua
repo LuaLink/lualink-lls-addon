@@ -4,6 +4,10 @@
 ---@class java.util.Arrays
 ---@field private MIN_ARRAY_SORT_GRAN number
 ---@field private INSERTIONSORT_THRESHOLD number
+---@field public NaturalOrder java.util.Arrays.NaturalOrder
+---@field public LegacyMergeSort java.util.Arrays.LegacyMergeSort
+---@field private ArrayList java.util.Arrays.ArrayList
+---@field private ArrayItr java.util.Arrays.ArrayItr
 ---@overload fun(): java.util.Arrays
 local Arrays = {}
 

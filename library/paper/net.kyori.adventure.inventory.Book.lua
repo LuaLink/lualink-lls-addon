@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.inventory.Book
 ---@class net.kyori.adventure.inventory.Book: net.kyori.adventure.util.Buildable, any
+---@field public Builder net.kyori.adventure.inventory.Book.Builder
 local Book = {}
 
 ---@param title net.kyori.adventure.text.Component the title

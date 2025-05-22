@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.util.BlockTransformer
 ---@class org.bukkit.util.BlockTransformer
+---@field public TransformationState org.bukkit.util.BlockTransformer.TransformationState
 local BlockTransformer = {}
 
 ---@param region org.bukkit.generator.LimitedRegion the accessible region

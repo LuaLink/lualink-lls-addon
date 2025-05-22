@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.Cat
 ---@class org.bukkit.entity.Cat: org.bukkit.entity.Tameable, org.bukkit.entity.Sittable, io.papermc.paper.entity.CollarColorable
+---@field public Type org.bukkit.entity.Cat.Type
 local Cat = {}
 
 ---@public

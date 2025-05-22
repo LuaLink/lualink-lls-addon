@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.BundleContents
 ---@class io.papermc.paper.datacomponent.item.BundleContents
+---@field public Builder io.papermc.paper.datacomponent.item.BundleContents.Builder
 local BundleContents = {}
 
 ---@param contents java.util.List 

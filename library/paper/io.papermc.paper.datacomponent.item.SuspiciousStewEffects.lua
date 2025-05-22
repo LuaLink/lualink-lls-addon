@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.SuspiciousStewEffects
 ---@class io.papermc.paper.datacomponent.item.SuspiciousStewEffects
+---@field public Builder io.papermc.paper.datacomponent.item.SuspiciousStewEffects.Builder
 local SuspiciousStewEffects = {}
 
 ---@param effects java.util.Collection 

@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.WritableBookContent
 ---@class io.papermc.paper.datacomponent.item.WritableBookContent
+---@field public Builder io.papermc.paper.datacomponent.item.WritableBookContent.Builder
 local WritableBookContent = {}
 
 ---@public

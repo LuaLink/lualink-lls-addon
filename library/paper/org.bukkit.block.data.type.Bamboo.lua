@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.Bamboo
 ---@class org.bukkit.block.data.type.Bamboo: org.bukkit.block.data.Ageable, org.bukkit.block.data.type.Sapling
+---@field public Leaves org.bukkit.block.data.type.Bamboo.Leaves
 local Bamboo = {}
 
 ---@public

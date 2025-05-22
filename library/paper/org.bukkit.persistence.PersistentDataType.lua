@@ -16,6 +16,8 @@
 ---@field public TAG_CONTAINER_ARRAY org.bukkit.persistence.PersistentDataType
 ---@field public TAG_CONTAINER org.bukkit.persistence.PersistentDataType
 ---@field public LIST org.bukkit.persistence.ListPersistentDataTypeProvider
+---@field public PrimitivePersistentDataType org.bukkit.persistence.PersistentDataType.PrimitivePersistentDataType
+---@field public BooleanPersistentDataType org.bukkit.persistence.PersistentDataType.BooleanPersistentDataType
 local PersistentDataType = {}
 
 ---@public

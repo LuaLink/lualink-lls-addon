@@ -9,6 +9,7 @@
 ---@field public clickEvent net.kyori.adventure.text.event.ClickEvent
 ---@field public hoverEvent net.kyori.adventure.text.event.HoverEvent
 ---@field public insertion string
+---@field public BuilderImpl net.kyori.adventure.text.format.StyleImpl.BuilderImpl
 ---@overload fun(font: any, color: net.kyori.adventure.text.format.TextColor, shadowColor: net.kyori.adventure.text.format.ShadowColor, decorations: java.util.Map, clickEvent: net.kyori.adventure.text.event.ClickEvent, hoverEvent: net.kyori.adventure.text.event.HoverEvent, insertion: string): net.kyori.adventure.text.format.StyleImpl
 local StyleImpl = {}
 

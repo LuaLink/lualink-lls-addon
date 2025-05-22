@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.SeededContainerLoot
 ---@class io.papermc.paper.datacomponent.item.SeededContainerLoot
+---@field public Builder io.papermc.paper.datacomponent.item.SeededContainerLoot.Builder
 local SeededContainerLoot = {}
 
 ---@param lootTableKey any 

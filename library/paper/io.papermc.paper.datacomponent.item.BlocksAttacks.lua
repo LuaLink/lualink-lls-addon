@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.BlocksAttacks
 ---@class io.papermc.paper.datacomponent.item.BlocksAttacks
+---@field public Builder io.papermc.paper.datacomponent.item.BlocksAttacks.Builder
 local BlocksAttacks = {}
 
 ---@public

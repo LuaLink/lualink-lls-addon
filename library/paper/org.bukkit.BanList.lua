@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.BanList
 ---@class org.bukkit.BanList
+---@field public Type org.bukkit.BanList.Type
 local BanList = {}
 
 ---@deprecated

@@ -2,6 +2,8 @@
 ---@meta
 -- org.bukkit.entity.Wolf
 ---@class org.bukkit.entity.Wolf: org.bukkit.entity.Tameable, org.bukkit.entity.Sittable, io.papermc.paper.entity.CollarColorable
+---@field public Variant org.bukkit.entity.Wolf.Variant
+---@field public SoundVariant org.bukkit.entity.Wolf.SoundVariant
 local Wolf = {}
 
 ---@public

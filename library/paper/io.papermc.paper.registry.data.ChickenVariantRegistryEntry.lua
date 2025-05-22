@@ -2,6 +2,8 @@
 ---@meta
 -- io.papermc.paper.registry.data.ChickenVariantRegistryEntry
 ---@class io.papermc.paper.registry.data.ChickenVariantRegistryEntry
+---@field public Builder io.papermc.paper.registry.data.ChickenVariantRegistryEntry.Builder
+---@field public Model io.papermc.paper.registry.data.ChickenVariantRegistryEntry.Model
 local ChickenVariantRegistryEntry = {}
 
 ---@public

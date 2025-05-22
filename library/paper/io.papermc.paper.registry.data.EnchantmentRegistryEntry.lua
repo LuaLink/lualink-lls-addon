@@ -2,6 +2,8 @@
 ---@meta
 -- io.papermc.paper.registry.data.EnchantmentRegistryEntry
 ---@class io.papermc.paper.registry.data.EnchantmentRegistryEntry
+---@field public Builder io.papermc.paper.registry.data.EnchantmentRegistryEntry.Builder
+---@field public EnchantmentCost io.papermc.paper.registry.data.EnchantmentRegistryEntry.EnchantmentCost
 local EnchantmentRegistryEntry = {}
 
 ---@public

@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.StorageNBTComponent
 ---@class net.kyori.adventure.text.StorageNBTComponent: net.kyori.adventure.text.NBTComponent, net.kyori.adventure.text.ScopedComponent
+---@field public Builder net.kyori.adventure.text.StorageNBTComponent.Builder
 local StorageNBTComponent = {}
 
 ---@public

@@ -11,6 +11,8 @@
 ---@field public ALLOW_SERVER_LISTINGS com.destroystokyo.paper.ClientOption
 ---@field public PARTICLE_VISIBILITY com.destroystokyo.paper.ClientOption
 ---@field private type java.lang.Class
+---@field public ChatVisibility com.destroystokyo.paper.ClientOption.ChatVisibility
+---@field public ParticleVisibility com.destroystokyo.paper.ClientOption.ParticleVisibility
 ---@overload fun(type: java.lang.Class): com.destroystokyo.paper.ClientOption
 local ClientOption = {}
 

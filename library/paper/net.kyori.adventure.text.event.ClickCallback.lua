@@ -4,6 +4,8 @@
 ---@class net.kyori.adventure.text.event.ClickCallback
 ---@field public DEFAULT_LIFETIME java.time.Duration
 ---@field public UNLIMITED_USES number
+---@field public Options net.kyori.adventure.text.event.ClickCallback.Options
+---@field public Provider net.kyori.adventure.text.event.ClickCallback.Provider
 local ClickCallback = {}
 
 ---@param original net.kyori.adventure.text.event.ClickCallback the original callback of a narrower audience type

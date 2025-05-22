@@ -7,6 +7,7 @@
 ---@field private entity org.bukkit.entity.Entity
 ---@field private reason org.bukkit.event.world.PortalCreateEvent.CreateReason
 ---@field private cancelled boolean
+---@field public CreateReason org.bukkit.event.world.PortalCreateEvent.CreateReason
 ---@overload fun(blocks: java.util.List, world: org.bukkit.World, reason: org.bukkit.event.world.PortalCreateEvent.CreateReason): org.bukkit.event.world.PortalCreateEvent
 ---@overload fun(blocks: java.util.List, world: org.bukkit.World, entity: org.bukkit.entity.Entity, reason: org.bukkit.event.world.PortalCreateEvent.CreateReason): org.bukkit.event.world.PortalCreateEvent
 local PortalCreateEvent = {}

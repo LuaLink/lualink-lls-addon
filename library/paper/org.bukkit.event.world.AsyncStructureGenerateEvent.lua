@@ -10,6 +10,7 @@
 ---@field private chunkZ number
 ---@field private blockTransformers java.util.Map
 ---@field private entityTransformers java.util.Map
+---@field public Cause org.bukkit.event.world.AsyncStructureGenerateEvent.Cause
 ---@overload fun(world: org.bukkit.World, async: boolean, cause: org.bukkit.event.world.AsyncStructureGenerateEvent.Cause, structure: org.bukkit.generator.structure.Structure, boundingBox: org.bukkit.util.BoundingBox, chunkX: number, chunkZ: number): org.bukkit.event.world.AsyncStructureGenerateEvent
 local AsyncStructureGenerateEvent = {}
 

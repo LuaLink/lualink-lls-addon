@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.Comparator
 ---@class org.bukkit.block.data.type.Comparator: org.bukkit.block.data.Directional, org.bukkit.block.data.Powerable
+---@field public Mode org.bukkit.block.data.type.Comparator.Mode
 local Comparator = {}
 
 ---@public

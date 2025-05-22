@@ -44,6 +44,14 @@
 ---@field private serialPersistentFields java.io.ObjectStreamField
 ---@field private isoLanguages string
 ---@field private isoCountries string
+---@field private Cache java.util.Locale.Cache
+---@field private LocaleKey java.util.Locale.LocaleKey
+---@field private LocaleNameGetter java.util.Locale.LocaleNameGetter
+---@field public Builder java.util.Locale.Builder
+---@field public LanguageRange java.util.Locale.LanguageRange
+---@field public IsoCountryCode java.util.Locale.IsoCountryCode
+---@field public Category java.util.Locale.Category
+---@field public FilteringMode java.util.Locale.FilteringMode
 ---@overload fun(baseLocale: any, extensions: any): java.util.Locale
 ---@overload fun(language: string, country: string, variant: string): java.util.Locale
 ---@overload fun(language: string, country: string): java.util.Locale

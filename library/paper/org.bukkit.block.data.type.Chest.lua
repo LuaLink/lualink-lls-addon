@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.Chest
 ---@class org.bukkit.block.data.type.Chest: org.bukkit.block.data.Directional, org.bukkit.block.data.Waterlogged
+---@field public Type org.bukkit.block.data.type.Chest.Type
 local Chest = {}
 
 ---@public

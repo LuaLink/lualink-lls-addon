@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.CreakingHeart
 ---@class org.bukkit.block.data.type.CreakingHeart: org.bukkit.block.data.Orientable
+---@field public State org.bukkit.block.data.type.CreakingHeart.State
 local CreakingHeart = {}
 
 ---@deprecated

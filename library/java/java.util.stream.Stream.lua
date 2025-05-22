@@ -2,6 +2,7 @@
 ---@meta
 -- java.util.stream.Stream
 ---@class java.util.stream.Stream: java.util.stream.BaseStream
+---@field public Builder java.util.stream.Stream.Builder
 local Stream = {}
 
 ---@param predicate java.util.function.Predicate a <a href="package-summary.html#NonInterference">non-interfering</a>,                  <a href="package-summary.html#Statelessness">stateless</a>                  predicate to apply to each element to determine if it                  should be included

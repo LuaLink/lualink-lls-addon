@@ -2,6 +2,8 @@
 ---@meta
 -- net.kyori.adventure.text.TextReplacementConfig
 ---@class net.kyori.adventure.text.TextReplacementConfig: net.kyori.adventure.util.Buildable, any
+---@field public Builder net.kyori.adventure.text.TextReplacementConfig.Builder
+---@field public Condition net.kyori.adventure.text.TextReplacementConfig.Condition
 local TextReplacementConfig = {}
 
 ---@public

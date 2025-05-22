@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.flattener.ComponentFlattener
 ---@class net.kyori.adventure.text.flattener.ComponentFlattener: net.kyori.adventure.util.Buildable
+---@field public Builder net.kyori.adventure.text.flattener.ComponentFlattener.Builder
 local ComponentFlattener = {}
 
 ---@public

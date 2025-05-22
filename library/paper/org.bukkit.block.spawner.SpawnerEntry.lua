@@ -6,6 +6,7 @@
 ---@field private spawnWeight number
 ---@field private spawnRule org.bukkit.block.spawner.SpawnRule
 ---@field private equipment org.bukkit.block.spawner.SpawnerEntry.Equipment
+---@field public Equipment org.bukkit.block.spawner.SpawnerEntry.Equipment
 ---@overload fun(snapshot: org.bukkit.entity.EntitySnapshot, spawnWeight: number, spawnRule: org.bukkit.block.spawner.SpawnRule): org.bukkit.block.spawner.SpawnerEntry
 ---@overload fun(snapshot: org.bukkit.entity.EntitySnapshot, spawnWeight: number, spawnRule: org.bukkit.block.spawner.SpawnRule, equipment: org.bukkit.block.spawner.SpawnerEntry.Equipment): org.bukkit.block.spawner.SpawnerEntry
 local SpawnerEntry = {}

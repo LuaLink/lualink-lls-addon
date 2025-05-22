@@ -2,6 +2,8 @@
 ---@meta
 -- io.papermc.paper.threadedregions.scheduler.ScheduledTask
 ---@class io.papermc.paper.threadedregions.scheduler.ScheduledTask
+---@field public CancelledState io.papermc.paper.threadedregions.scheduler.ScheduledTask.CancelledState
+---@field public ExecutionState io.papermc.paper.threadedregions.scheduler.ScheduledTask.ExecutionState
 local ScheduledTask = {}
 
 ---@public

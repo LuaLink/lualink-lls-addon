@@ -6,6 +6,7 @@
 ---@field private declaredValues java.util.Map
 ---@field private strict boolean
 ---@field private cache java.util.concurrent.ConcurrentMap
+---@field public BuilderImpl net.kyori.adventure.util.InheritanceAwareMapImpl.BuilderImpl
 ---@overload fun(strict: boolean, declaredValues: java.util.Map): net.kyori.adventure.util.InheritanceAwareMapImpl
 local InheritanceAwareMapImpl = {}
 

@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.pointer.Pointers
 ---@class net.kyori.adventure.pointer.Pointers: net.kyori.adventure.util.Buildable
+---@field public Builder net.kyori.adventure.pointer.Pointers.Builder
 local Pointers = {}
 
 ---@public

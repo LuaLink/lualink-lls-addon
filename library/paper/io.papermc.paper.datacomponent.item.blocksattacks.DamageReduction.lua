@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.blocksattacks.DamageReduction
 ---@class io.papermc.paper.datacomponent.item.blocksattacks.DamageReduction
+---@field public Builder io.papermc.paper.datacomponent.item.blocksattacks.DamageReduction.Builder
 local DamageReduction = {}
 
 ---@public

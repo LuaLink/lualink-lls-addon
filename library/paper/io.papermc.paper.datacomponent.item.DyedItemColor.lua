@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.DyedItemColor
 ---@class io.papermc.paper.datacomponent.item.DyedItemColor
+---@field public Builder io.papermc.paper.datacomponent.item.DyedItemColor.Builder
 local DyedItemColor = {}
 
 ---@param color org.bukkit.Color 

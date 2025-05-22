@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.TechnicalPiston
 ---@class org.bukkit.block.data.type.TechnicalPiston: org.bukkit.block.data.Directional
+---@field public Type org.bukkit.block.data.type.TechnicalPiston.Type
 local TechnicalPiston = {}
 
 ---@public

@@ -17,6 +17,7 @@
 ---@field private lifecycleEventManager io.papermc.paper.plugin.lifecycle.event.LifecycleEventManager
 ---@field private allowsLifecycleRegistration boolean
 ---@field private isBeingEnabled boolean
+---@field private DummyPluginLoaderImplHolder org.bukkit.plugin.java.JavaPlugin.DummyPluginLoaderImplHolder
 ---@overload fun(): org.bukkit.plugin.java.JavaPlugin
 ---@overload fun(loader: org.bukkit.plugin.java.JavaPluginLoader, description: org.bukkit.plugin.PluginDescriptionFile, dataFolder: java.io.File, file: java.io.File): org.bukkit.plugin.java.JavaPlugin
 local JavaPlugin = {}

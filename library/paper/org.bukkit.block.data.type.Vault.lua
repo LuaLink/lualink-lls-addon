@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.Vault
 ---@class org.bukkit.block.data.type.Vault: org.bukkit.block.data.Directional
+---@field public State org.bukkit.block.data.type.Vault.State
 local Vault = {}
 
 ---@public

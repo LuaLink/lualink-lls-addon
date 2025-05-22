@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.Slab
 ---@class org.bukkit.block.data.type.Slab: org.bukkit.block.data.Waterlogged
+---@field public Type org.bukkit.block.data.type.Slab.Type
 local Slab = {}
 
 ---@public

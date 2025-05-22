@@ -4,6 +4,7 @@
 ---@class com.destroystokyo.paper.block.TargetBlockInfo
 ---@field private block org.bukkit.block.Block
 ---@field private blockFace org.bukkit.block.BlockFace
+---@field public FluidMode com.destroystokyo.paper.block.TargetBlockInfo.FluidMode
 ---@overload fun(block: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace): com.destroystokyo.paper.block.TargetBlockInfo
 local TargetBlockInfo = {}
 

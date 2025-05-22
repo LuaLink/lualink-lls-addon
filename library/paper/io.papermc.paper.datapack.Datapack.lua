@@ -2,6 +2,8 @@
 ---@meta
 -- io.papermc.paper.datapack.Datapack
 ---@class io.papermc.paper.datapack.Datapack: io.papermc.paper.datapack.DiscoveredDatapack
+---@field public Compatibility io.papermc.paper.datapack.Datapack.Compatibility
+---@field public Position io.papermc.paper.datapack.Datapack.Position
 local Datapack = {}
 
 ---@public

@@ -4,6 +4,7 @@
 ---@field private name string
 ---@field private objective string
 ---@field private value string
+---@field public BuilderImpl net.kyori.adventure.text.ScoreComponentImpl.BuilderImpl
 ---@overload fun(children: java.util.List, style: net.kyori.adventure.text.format.Style, name: string, objective: string, value: string): net.kyori.adventure.text.ScoreComponentImpl
 local ScoreComponentImpl = {}
 

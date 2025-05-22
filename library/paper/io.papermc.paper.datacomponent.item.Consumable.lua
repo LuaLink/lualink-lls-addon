@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.Consumable
 ---@class io.papermc.paper.datacomponent.item.Consumable: io.papermc.paper.datacomponent.BuildableDataComponent
+---@field public Builder io.papermc.paper.datacomponent.item.Consumable.Builder
 local Consumable = {}
 
 ---@public

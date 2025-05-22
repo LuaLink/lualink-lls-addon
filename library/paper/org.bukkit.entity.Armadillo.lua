@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.Armadillo
 ---@class org.bukkit.entity.Armadillo: org.bukkit.entity.Animals
+---@field public State org.bukkit.entity.Armadillo.State
 local Armadillo = {}
 
 ---@public

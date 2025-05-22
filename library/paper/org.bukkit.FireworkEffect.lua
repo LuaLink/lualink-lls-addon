@@ -13,6 +13,8 @@
 ---@field private fadeColors any
 ---@field private type org.bukkit.FireworkEffect.Type
 ---@field private string string
+---@field public Builder org.bukkit.FireworkEffect.Builder
+---@field public Type org.bukkit.FireworkEffect.Type
 ---@overload fun(flicker: boolean, trail: boolean, colors: any, fadeColors: any, type: org.bukkit.FireworkEffect.Type): org.bukkit.FireworkEffect
 local FireworkEffect = {}
 

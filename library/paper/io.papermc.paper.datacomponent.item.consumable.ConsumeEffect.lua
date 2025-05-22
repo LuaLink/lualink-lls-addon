@@ -2,6 +2,11 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.consumable.ConsumeEffect
 ---@class io.papermc.paper.datacomponent.item.consumable.ConsumeEffect
+---@field public TeleportRandomly io.papermc.paper.datacomponent.item.consumable.ConsumeEffect.TeleportRandomly
+---@field public RemoveStatusEffects io.papermc.paper.datacomponent.item.consumable.ConsumeEffect.RemoveStatusEffects
+---@field public PlaySound io.papermc.paper.datacomponent.item.consumable.ConsumeEffect.PlaySound
+---@field public ClearAllStatusEffects io.papermc.paper.datacomponent.item.consumable.ConsumeEffect.ClearAllStatusEffects
+---@field public ApplyStatusEffects io.papermc.paper.datacomponent.item.consumable.ConsumeEffect.ApplyStatusEffects
 local ConsumeEffect = {}
 
 ---@param diameter number diameter of random teleportation

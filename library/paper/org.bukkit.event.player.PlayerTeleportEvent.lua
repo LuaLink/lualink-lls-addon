@@ -5,6 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private teleportFlags java.util.Set
 ---@field private cause org.bukkit.event.player.PlayerTeleportEvent.TeleportCause
+---@field public TeleportCause org.bukkit.event.player.PlayerTeleportEvent.TeleportCause
 ---@overload fun(player: org.bukkit.entity.Player, from: org.bukkit.Location, to: org.bukkit.Location): org.bukkit.event.player.PlayerTeleportEvent
 ---@overload fun(player: org.bukkit.entity.Player, from: org.bukkit.Location, to: org.bukkit.Location, cause: org.bukkit.event.player.PlayerTeleportEvent.TeleportCause): org.bukkit.event.player.PlayerTeleportEvent
 ---@overload fun(player: org.bukkit.entity.Player, from: org.bukkit.Location, to: org.bukkit.Location, cause: org.bukkit.event.player.PlayerTeleportEvent.TeleportCause, teleportFlags: java.util.Set): org.bukkit.event.player.PlayerTeleportEvent

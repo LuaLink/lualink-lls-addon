@@ -2,6 +2,8 @@
 ---@meta
 -- org.bukkit.entity.AbstractArrow
 ---@class org.bukkit.entity.AbstractArrow: org.bukkit.entity.Projectile
+---@field public PickupStatus org.bukkit.entity.AbstractArrow.PickupStatus
+---@field public PickupRule org.bukkit.entity.AbstractArrow.PickupRule
 local AbstractArrow = {}
 
 ---@deprecated

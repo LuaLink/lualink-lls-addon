@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.Axolotl
 ---@class org.bukkit.entity.Axolotl: org.bukkit.entity.Animals, io.papermc.paper.entity.Bucketable
+---@field public Variant org.bukkit.entity.Axolotl.Variant
 local Axolotl = {}
 
 ---@public

@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.JukeboxPlayable
 ---@class io.papermc.paper.datacomponent.item.JukeboxPlayable
+---@field public Builder io.papermc.paper.datacomponent.item.JukeboxPlayable.Builder
 local JukeboxPlayable = {}
 
 ---@param song org.bukkit.JukeboxSong 

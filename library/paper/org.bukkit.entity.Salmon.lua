@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.Salmon
 ---@class org.bukkit.entity.Salmon: io.papermc.paper.entity.SchoolableFish
+---@field public Variant org.bukkit.entity.Salmon.Variant
 local Salmon = {}
 
 ---@public

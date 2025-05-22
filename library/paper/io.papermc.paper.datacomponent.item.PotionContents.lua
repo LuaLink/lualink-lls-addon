@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.PotionContents
 ---@class io.papermc.paper.datacomponent.item.PotionContents
+---@field public Builder io.papermc.paper.datacomponent.item.PotionContents.Builder
 local PotionContents = {}
 
 ---@public

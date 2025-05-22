@@ -4,6 +4,7 @@
 ---@class org.bukkit.event.inventory.InventoryCloseEvent: org.bukkit.event.inventory.InventoryEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private reason org.bukkit.event.inventory.InventoryCloseEvent.Reason
+---@field public Reason org.bukkit.event.inventory.InventoryCloseEvent.Reason
 ---@overload fun(transaction: org.bukkit.inventory.InventoryView): org.bukkit.event.inventory.InventoryCloseEvent
 ---@overload fun(transaction: org.bukkit.inventory.InventoryView, reason: org.bukkit.event.inventory.InventoryCloseEvent.Reason): org.bukkit.event.inventory.InventoryCloseEvent
 local InventoryCloseEvent = {}

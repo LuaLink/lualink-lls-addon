@@ -5,6 +5,7 @@
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private id java.util.UUID
 ---@field private status org.bukkit.event.player.PlayerResourcePackStatusEvent.Status
+---@field public Status org.bukkit.event.player.PlayerResourcePackStatusEvent.Status
 ---@overload fun(player: org.bukkit.entity.Player, id: java.util.UUID, resourcePackStatus: org.bukkit.event.player.PlayerResourcePackStatusEvent.Status): org.bukkit.event.player.PlayerResourcePackStatusEvent
 local PlayerResourcePackStatusEvent = {}
 

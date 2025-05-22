@@ -10,6 +10,7 @@
 ---@field private result org.bukkit.event.player.AsyncPlayerPreLoginEvent.Result
 ---@field private message net.kyori.adventure.text.Component
 ---@field private profile com.destroystokyo.paper.profile.PlayerProfile
+---@field public Result org.bukkit.event.player.AsyncPlayerPreLoginEvent.Result
 ---@overload fun(name: string, ipAddress: java.net.InetAddress): org.bukkit.event.player.AsyncPlayerPreLoginEvent
 ---@overload fun(name: string, ipAddress: java.net.InetAddress, uniqueId: java.util.UUID): org.bukkit.event.player.AsyncPlayerPreLoginEvent
 ---@overload fun(name: string, ipAddress: java.net.InetAddress, uniqueId: java.util.UUID, transferred: boolean): org.bukkit.event.player.AsyncPlayerPreLoginEvent

@@ -7,6 +7,9 @@
 ---@field private pitch number
 ---@field private seed java.util.OptionalLong
 ---@field private stop net.kyori.adventure.sound.SoundStop
+---@field public BuilderImpl net.kyori.adventure.sound.SoundImpl.BuilderImpl
+---@field public Eager net.kyori.adventure.sound.SoundImpl.Eager
+---@field public Lazy net.kyori.adventure.sound.SoundImpl.Lazy
 ---@overload fun(source: net.kyori.adventure.sound.Sound.Source, volume: number, pitch: number, seed: java.util.OptionalLong): net.kyori.adventure.sound.SoundImpl
 local SoundImpl = {}
 

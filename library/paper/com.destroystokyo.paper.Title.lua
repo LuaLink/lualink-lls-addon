@@ -10,6 +10,7 @@
 ---@field private fadeIn number
 ---@field private stay number
 ---@field private fadeOut number
+---@field public Builder com.destroystokyo.paper.Title.Builder
 ---@overload fun(title: any): com.destroystokyo.paper.Title
 ---@overload fun(title: any): com.destroystokyo.paper.Title
 ---@overload fun(title: string): com.destroystokyo.paper.Title

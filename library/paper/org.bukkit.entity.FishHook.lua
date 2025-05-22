@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.FishHook
 ---@class org.bukkit.entity.FishHook: org.bukkit.entity.Projectile
+---@field public HookState org.bukkit.entity.FishHook.HookState
 local FishHook = {}
 
 ---@public

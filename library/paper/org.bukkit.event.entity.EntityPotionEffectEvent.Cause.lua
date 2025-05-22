@@ -1,0 +1,31 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@class org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public AREA_EFFECT_CLOUD org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public ARROW org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public ATTACK org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public AXOLOTL org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public BEACON org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public COMMAND org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public CONDUIT org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public CONVERSION org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public DEATH org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public DOLPHIN org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public EXPIRATION org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public FOOD org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public ILLUSION org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public MILK org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public PATROL_CAPTAIN org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public PLUGIN org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public POTION_DRINK org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public POTION_SPLASH org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public SPIDER_SPAWN org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public TOTEM org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public TURTLE_HELMET org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public UNKNOWN org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public VILLAGER_TRADE org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public WARDEN org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+---@field public WITHER_ROSE org.bukkit.event.entity.EntityPotionEffectEvent.Cause
+local Cause = {}
+

@@ -1,6 +1,7 @@
 ---@meta
 -- org.bukkit.command.CommandSender
 ---@class org.bukkit.command.CommandSender: net.kyori.adventure.audience.Audience, org.bukkit.permissions.Permissible
+---@field public Spigot org.bukkit.command.CommandSender.Spigot
 local CommandSender = {}
 
 ---@param message string Message to be displayed

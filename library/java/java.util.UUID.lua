@@ -7,6 +7,7 @@
 ---@field private leastSigBits number
 ---@field private jla any
 ---@field private NIBBLES number
+---@field private Holder java.util.UUID.Holder
 ---@overload fun(data: table<number>): java.util.UUID
 ---@overload fun(mostSigBits: number, leastSigBits: number): java.util.UUID
 local UUID = {}

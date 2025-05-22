@@ -2,6 +2,8 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.Tool
 ---@class io.papermc.paper.datacomponent.item.Tool
+---@field public Rule io.papermc.paper.datacomponent.item.Tool.Rule
+---@field public Builder io.papermc.paper.datacomponent.item.Tool.Builder
 local Tool = {}
 
 ---@public

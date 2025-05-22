@@ -5,6 +5,7 @@
 ---@field private chars java.util.HashMap
 ---@field private height number
 ---@field protected malleable boolean
+---@field public CharacterSprite org.bukkit.map.MapFont.CharacterSprite
 local MapFont = {}
 
 ---@param ch string The character to set the sprite for.

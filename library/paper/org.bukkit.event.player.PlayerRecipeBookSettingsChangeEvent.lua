@@ -6,6 +6,7 @@
 ---@field private recipeBookType org.bukkit.event.player.PlayerRecipeBookSettingsChangeEvent.RecipeBookType
 ---@field private open boolean
 ---@field private filtering boolean
+---@field public RecipeBookType org.bukkit.event.player.PlayerRecipeBookSettingsChangeEvent.RecipeBookType
 ---@overload fun(player: org.bukkit.entity.Player, recipeBookType: org.bukkit.event.player.PlayerRecipeBookSettingsChangeEvent.RecipeBookType, open: boolean, filtering: boolean): org.bukkit.event.player.PlayerRecipeBookSettingsChangeEvent
 local PlayerRecipeBookSettingsChangeEvent = {}
 

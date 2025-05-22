@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.JoinConfiguration
 ---@class net.kyori.adventure.text.JoinConfiguration: net.kyori.adventure.util.Buildable, any
+---@field public Builder net.kyori.adventure.text.JoinConfiguration.Builder
 local JoinConfiguration = {}
 
 ---@public

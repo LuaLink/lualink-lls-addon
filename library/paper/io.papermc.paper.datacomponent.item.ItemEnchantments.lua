@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.ItemEnchantments
 ---@class io.papermc.paper.datacomponent.item.ItemEnchantments
+---@field public Builder io.papermc.paper.datacomponent.item.ItemEnchantments.Builder
 local ItemEnchantments = {}
 
 ---@param enchantments java.util.Map 

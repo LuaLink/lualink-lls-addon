@@ -2,6 +2,8 @@
 ---@meta
 -- io.papermc.paper.plugin.lifecycle.event.types.LifecycleEventType
 ---@class io.papermc.paper.plugin.lifecycle.event.types.LifecycleEventType
+---@field public Monitorable io.papermc.paper.plugin.lifecycle.event.types.LifecycleEventType.Monitorable
+---@field public Prioritizable io.papermc.paper.plugin.lifecycle.event.types.LifecycleEventType.Prioritizable
 local LifecycleEventType = {}
 
 ---@public

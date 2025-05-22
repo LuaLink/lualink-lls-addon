@@ -1,0 +1,50 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@class org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public NATURAL org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public JOCKEY org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public CHUNK_GEN org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public SPAWNER org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public TRIAL_SPAWNER org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public EGG org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public SPAWNER_EGG org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public LIGHTNING org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public BUILD_SNOWMAN org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public BUILD_IRONGOLEM org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public BUILD_WITHER org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public VILLAGE_DEFENSE org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public VILLAGE_INVASION org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public BREEDING org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public SLIME_SPLIT org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public REINFORCEMENTS org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public NETHER_PORTAL org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public DISPENSE_EGG org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public INFECTION org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public CURED org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public OCELOT_BABY org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public SILVERFISH_BLOCK org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public MOUNT org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public TRAP org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public ENDER_PEARL org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public SHOULDER_ENTITY org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public DROWNED org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public SHEARED org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public EXPLOSION org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public RAID org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public PATROL org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public BEEHIVE org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public PIGLIN_ZOMBIFIED org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public SPELL org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public FROZEN org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public METAMORPHOSIS org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public DUPLICATION org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public COMMAND org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public ENCHANTMENT org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public OMINOUS_ITEM_SPAWNER org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public BUCKET org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public POTION_EFFECT org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public CUSTOM org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public DEFAULT org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+local SpawnReason = {}
+

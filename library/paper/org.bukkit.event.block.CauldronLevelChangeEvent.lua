@@ -6,6 +6,7 @@
 ---@field private reason org.bukkit.event.block.CauldronLevelChangeEvent.ChangeReason
 ---@field private newState org.bukkit.block.BlockState
 ---@field private cancelled boolean
+---@field public ChangeReason org.bukkit.event.block.CauldronLevelChangeEvent.ChangeReason
 ---@overload fun(block: org.bukkit.block.Block, entity: org.bukkit.entity.Entity, reason: org.bukkit.event.block.CauldronLevelChangeEvent.ChangeReason, newBlock: org.bukkit.block.BlockState): org.bukkit.event.block.CauldronLevelChangeEvent
 local CauldronLevelChangeEvent = {}
 

@@ -3,6 +3,8 @@
 -- net.kyori.adventure.text.format.Style
 ---@class net.kyori.adventure.text.format.Style: net.kyori.adventure.util.Buildable, any, net.kyori.adventure.text.format.StyleGetter, net.kyori.adventure.text.format.StyleSetter
 ---@field public DEFAULT_FONT any
+---@field public Builder net.kyori.adventure.text.format.Style.Builder
+---@field public Merge net.kyori.adventure.text.format.Style.Merge
 local Style = {}
 
 ---@public

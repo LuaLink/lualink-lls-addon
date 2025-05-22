@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.chat.SignedMessage
 ---@class net.kyori.adventure.chat.SignedMessage: net.kyori.adventure.identity.Identified, any
+---@field public Signature net.kyori.adventure.chat.SignedMessage.Signature
 local SignedMessage = {}
 
 ---@param signature table<number> the signature

@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.ItemDisplay
 ---@class org.bukkit.entity.ItemDisplay: org.bukkit.entity.Display
+---@field public ItemDisplayTransform org.bukkit.entity.ItemDisplay.ItemDisplayTransform
 local ItemDisplay = {}
 
 ---@public

@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.registry.data.GameEventRegistryEntry
 ---@class io.papermc.paper.registry.data.GameEventRegistryEntry
+---@field public Builder io.papermc.paper.registry.data.GameEventRegistryEntry.Builder
 local GameEventRegistryEntry = {}
 
 ---@public

@@ -2,6 +2,8 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.GsonComponentSerializer
 ---@class net.kyori.adventure.text.serializer.gson.GsonComponentSerializer: any, net.kyori.adventure.util.Buildable
+---@field public Builder net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Builder
+---@field public Provider net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Provider
 local GsonComponentSerializer = {}
 
 ---@public

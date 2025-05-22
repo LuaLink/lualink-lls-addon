@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.ItemAdventurePredicate
 ---@class io.papermc.paper.datacomponent.item.ItemAdventurePredicate
+---@field public Builder io.papermc.paper.datacomponent.item.ItemAdventurePredicate.Builder
 local ItemAdventurePredicate = {}
 
 ---@param predicates java.util.List 

@@ -4,6 +4,7 @@
 ---@class org.bukkit.event.Event
 ---@field private name string
 ---@field private isAsync boolean
+---@field public Result org.bukkit.event.Event.Result
 ---@overload fun(): org.bukkit.event.Event
 ---@overload fun(isAsync: boolean): org.bukkit.event.Event
 local Event = {}

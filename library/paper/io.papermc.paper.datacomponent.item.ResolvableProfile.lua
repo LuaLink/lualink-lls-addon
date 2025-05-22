@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.ResolvableProfile
 ---@class io.papermc.paper.datacomponent.item.ResolvableProfile
+---@field public Builder io.papermc.paper.datacomponent.item.ResolvableProfile.Builder
 local ResolvableProfile = {}
 
 ---@param profile com.destroystokyo.paper.profile.PlayerProfile 

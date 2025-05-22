@@ -8,6 +8,7 @@
 ---@field public OPEN_CHAT_PAGE_HEIGHT number
 ---@field public CLOSED_CHAT_PAGE_HEIGHT number
 ---@field public UNBOUNDED_PAGE_HEIGHT number
+---@field public ChatPage org.bukkit.util.ChatPaginator.ChatPage
 local ChatPaginator = {}
 
 ---@param unpaginatedString string The raw string to break.

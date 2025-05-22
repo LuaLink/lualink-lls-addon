@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.ChargedProjectiles
 ---@class io.papermc.paper.datacomponent.item.ChargedProjectiles
+---@field public Builder io.papermc.paper.datacomponent.item.ChargedProjectiles.Builder
 local ChargedProjectiles = {}
 
 ---@param projectiles java.util.List 

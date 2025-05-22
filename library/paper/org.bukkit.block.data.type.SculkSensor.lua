@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.SculkSensor
 ---@class org.bukkit.block.data.type.SculkSensor: org.bukkit.block.data.AnaloguePowerable, org.bukkit.block.data.Waterlogged
+---@field public Phase org.bukkit.block.data.type.SculkSensor.Phase
 local SculkSensor = {}
 
 ---@deprecated

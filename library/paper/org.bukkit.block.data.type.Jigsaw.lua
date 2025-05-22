@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.Jigsaw
 ---@class org.bukkit.block.data.type.Jigsaw: org.bukkit.block.data.BlockData
+---@field public Orientation org.bukkit.block.data.type.Jigsaw.Orientation
 local Jigsaw = {}
 
 ---@public

@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.LodestoneTracker
 ---@class io.papermc.paper.datacomponent.item.LodestoneTracker
+---@field public Builder io.papermc.paper.datacomponent.item.LodestoneTracker.Builder
 local LodestoneTracker = {}
 
 ---@param location org.bukkit.Location 

@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.translation.TranslationStore
 ---@class net.kyori.adventure.translation.TranslationStore: net.kyori.adventure.translation.Translator
+---@field public StringBased net.kyori.adventure.translation.TranslationStore.StringBased
 local TranslationStore = {}
 
 ---@param name any the name of the translation store

@@ -11,6 +11,8 @@
 ---@field private cause org.bukkit.event.entity.EntityDamageEvent.DamageCause
 ---@field private damageSource org.bukkit.damage.DamageSource
 ---@field private cancelled boolean
+---@field public DamageModifier org.bukkit.event.entity.EntityDamageEvent.DamageModifier
+---@field public DamageCause org.bukkit.event.entity.EntityDamageEvent.DamageCause
 ---@overload fun(damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, damage: number): org.bukkit.event.entity.EntityDamageEvent
 ---@overload fun(damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, damageSource: org.bukkit.damage.DamageSource, damage: number): org.bukkit.event.entity.EntityDamageEvent
 ---@overload fun(damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, modifiers: java.util.Map, modifierFunctions: any): org.bukkit.event.entity.EntityDamageEvent

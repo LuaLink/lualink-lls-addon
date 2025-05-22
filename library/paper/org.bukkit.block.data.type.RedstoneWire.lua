@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.RedstoneWire
 ---@class org.bukkit.block.data.type.RedstoneWire: org.bukkit.block.data.AnaloguePowerable
+---@field public Connection org.bukkit.block.data.type.RedstoneWire.Connection
 local RedstoneWire = {}
 
 ---@param face org.bukkit.block.BlockFace to check

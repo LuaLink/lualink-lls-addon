@@ -6,6 +6,10 @@
 ---@field public MAX_PROGRESS number
 ---@field public MIN_PERCENT number
 ---@field public MAX_PERCENT number
+---@field public Listener net.kyori.adventure.bossbar.BossBar.Listener
+---@field public Color net.kyori.adventure.bossbar.BossBar.Color
+---@field public Flag net.kyori.adventure.bossbar.BossBar.Flag
+---@field public Overlay net.kyori.adventure.bossbar.BossBar.Overlay
 local BossBar = {}
 
 ---@param name net.kyori.adventure.text.ComponentLike the name

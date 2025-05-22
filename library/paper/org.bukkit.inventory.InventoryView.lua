@@ -3,6 +3,7 @@
 -- org.bukkit.inventory.InventoryView
 ---@class org.bukkit.inventory.InventoryView
 ---@field public OUTSIDE number
+---@field public Property org.bukkit.inventory.InventoryView.Property
 local InventoryView = {}
 
 ---@public

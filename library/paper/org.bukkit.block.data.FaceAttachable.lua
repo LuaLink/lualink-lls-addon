@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.FaceAttachable
 ---@class org.bukkit.block.data.FaceAttachable: org.bukkit.block.data.BlockData
+---@field public AttachedFace org.bukkit.block.data.FaceAttachable.AttachedFace
 local FaceAttachable = {}
 
 ---@public

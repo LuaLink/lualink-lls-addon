@@ -2,6 +2,10 @@
 -- net.kyori.adventure.text.BlockNBTComponentImpl
 ---@class net.kyori.adventure.text.BlockNBTComponentImpl: net.kyori.adventure.text.NBTComponentImpl, net.kyori.adventure.text.BlockNBTComponent
 ---@field private pos net.kyori.adventure.text.BlockNBTComponent.Pos
+---@field public BuilderImpl net.kyori.adventure.text.BlockNBTComponentImpl.BuilderImpl
+---@field public LocalPosImpl net.kyori.adventure.text.BlockNBTComponentImpl.LocalPosImpl
+---@field public WorldPosImpl net.kyori.adventure.text.BlockNBTComponentImpl.WorldPosImpl
+---@field public Tokens net.kyori.adventure.text.BlockNBTComponentImpl.Tokens
 ---@overload fun(children: java.util.List, style: net.kyori.adventure.text.format.Style, nbtPath: string, interpret: boolean, separator: net.kyori.adventure.text.Component, pos: net.kyori.adventure.text.BlockNBTComponent.Pos): net.kyori.adventure.text.BlockNBTComponentImpl
 local BlockNBTComponentImpl = {}
 

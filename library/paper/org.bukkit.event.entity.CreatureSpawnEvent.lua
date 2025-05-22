@@ -3,6 +3,7 @@
 -- org.bukkit.event.entity.CreatureSpawnEvent
 ---@class org.bukkit.event.entity.CreatureSpawnEvent: org.bukkit.event.entity.EntitySpawnEvent
 ---@field private spawnReason org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public SpawnReason org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
 ---@overload fun(spawnee: org.bukkit.entity.LivingEntity, spawnReason: org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason): org.bukkit.event.entity.CreatureSpawnEvent
 local CreatureSpawnEvent = {}
 

@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.Frog
 ---@class org.bukkit.entity.Frog: org.bukkit.entity.Animals
+---@field public Variant org.bukkit.entity.Frog.Variant
 local Frog = {}
 
 ---@public

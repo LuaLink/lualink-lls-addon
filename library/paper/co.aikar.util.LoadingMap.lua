@@ -4,6 +4,8 @@
 ---@class co.aikar.util.LoadingMap: java.util.AbstractMap
 ---@field private backingMap java.util.Map
 ---@field private loader java.util.function.Function
+---@field private AutoInstantiatingLoader co.aikar.util.LoadingMap.AutoInstantiatingLoader
+---@field public Feeder co.aikar.util.LoadingMap.Feeder
 ---@overload fun(backingMap: java.util.Map, loader: java.util.function.Function): co.aikar.util.LoadingMap
 local LoadingMap = {}
 

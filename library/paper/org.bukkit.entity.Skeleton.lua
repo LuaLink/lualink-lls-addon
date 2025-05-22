@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.Skeleton
 ---@class org.bukkit.entity.Skeleton: org.bukkit.entity.AbstractSkeleton
+---@field public SkeletonType org.bukkit.entity.Skeleton.SkeletonType
 local Skeleton = {}
 
 ---@public

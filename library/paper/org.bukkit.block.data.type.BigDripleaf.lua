@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.BigDripleaf
 ---@class org.bukkit.block.data.type.BigDripleaf: org.bukkit.block.data.type.Dripleaf
+---@field public Tilt org.bukkit.block.data.type.BigDripleaf.Tilt
 local BigDripleaf = {}
 
 ---@public

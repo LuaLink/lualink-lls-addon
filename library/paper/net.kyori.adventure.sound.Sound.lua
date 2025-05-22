@@ -2,6 +2,10 @@
 ---@meta
 -- net.kyori.adventure.sound.Sound
 ---@class net.kyori.adventure.sound.Sound: any
+---@field public Type net.kyori.adventure.sound.Sound.Type
+---@field public Emitter net.kyori.adventure.sound.Sound.Emitter
+---@field public Builder net.kyori.adventure.sound.Sound.Builder
+---@field public Source net.kyori.adventure.sound.Sound.Source
 local Sound = {}
 
 ---@public

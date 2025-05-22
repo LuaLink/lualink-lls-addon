@@ -1,6 +1,7 @@
 ---@meta
 -- com.destroystokyo.paper.util.VersionFetcher
 ---@class com.destroystokyo.paper.util.VersionFetcher
+---@field public DummyVersionFetcher com.destroystokyo.paper.util.VersionFetcher.DummyVersionFetcher
 local VersionFetcher = {}
 
 ---@public

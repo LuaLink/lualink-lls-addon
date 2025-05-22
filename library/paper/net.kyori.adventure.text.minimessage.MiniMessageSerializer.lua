@@ -1,6 +1,7 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.MiniMessageSerializer
 ---@class net.kyori.adventure.text.minimessage.MiniMessageSerializer
+---@field public Collector net.kyori.adventure.text.minimessage.MiniMessageSerializer.Collector
 ---@overload fun(): net.kyori.adventure.text.minimessage.MiniMessageSerializer
 local MiniMessageSerializer = {}
 

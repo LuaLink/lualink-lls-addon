@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.EnderDragon
 ---@class org.bukkit.entity.EnderDragon: org.bukkit.entity.ComplexLivingEntity, org.bukkit.entity.Boss, org.bukkit.entity.Mob, org.bukkit.entity.Enemy
+---@field public Phase org.bukkit.entity.EnderDragon.Phase
 local EnderDragon = {}
 
 ---@public

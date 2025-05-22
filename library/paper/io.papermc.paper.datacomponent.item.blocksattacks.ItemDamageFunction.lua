@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.blocksattacks.ItemDamageFunction
 ---@class io.papermc.paper.datacomponent.item.blocksattacks.ItemDamageFunction
+---@field public Builder io.papermc.paper.datacomponent.item.blocksattacks.ItemDamageFunction.Builder
 local ItemDamageFunction = {}
 
 ---@public

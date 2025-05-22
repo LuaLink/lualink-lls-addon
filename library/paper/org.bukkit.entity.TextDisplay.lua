@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.TextDisplay
 ---@class org.bukkit.entity.TextDisplay: org.bukkit.entity.Display
+---@field public TextAlignment org.bukkit.entity.TextDisplay.TextAlignment
 local TextDisplay = {}
 
 ---@deprecated

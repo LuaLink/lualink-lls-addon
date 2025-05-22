@@ -14,6 +14,8 @@
 ---@field private PREFIX_LENGTH_OFFSET number
 ---@field private serialVersionUID number
 ---@field private filePath java.nio.file.Path
+---@field private TempDirectory java.io.File.TempDirectory
+---@field public PathStatus java.io.File.PathStatus
 ---@overload fun(pathname: string, prefixLength: number): java.io.File
 ---@overload fun(child: string, parent: java.io.File): java.io.File
 ---@overload fun(pathname: string): java.io.File

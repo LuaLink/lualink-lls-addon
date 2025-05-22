@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.Tag
 ---@class net.kyori.adventure.text.minimessage.tag.Tag
+---@field public Argument net.kyori.adventure.text.minimessage.tag.Tag.Argument
 local Tag = {}
 
 ---@param content string content to insert

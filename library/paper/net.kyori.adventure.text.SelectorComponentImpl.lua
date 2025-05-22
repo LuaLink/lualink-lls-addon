@@ -3,6 +3,7 @@
 ---@class net.kyori.adventure.text.SelectorComponentImpl: net.kyori.adventure.text.AbstractComponent, net.kyori.adventure.text.SelectorComponent
 ---@field private pattern string
 ---@field private separator net.kyori.adventure.text.Component
+---@field public BuilderImpl net.kyori.adventure.text.SelectorComponentImpl.BuilderImpl
 ---@overload fun(children: java.util.List, style: net.kyori.adventure.text.format.Style, pattern: string, separator: net.kyori.adventure.text.Component): net.kyori.adventure.text.SelectorComponentImpl
 local SelectorComponentImpl = {}
 

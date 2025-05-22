@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.command.brigadier.argument.CustomArgumentType
 ---@class io.papermc.paper.command.brigadier.argument.CustomArgumentType: any
+---@field public Converted io.papermc.paper.command.brigadier.argument.CustomArgumentType.Converted
 local CustomArgumentType = {}
 
 ---@param reader any string reader input

@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.registry.data.DamageTypeRegistryEntry
 ---@class io.papermc.paper.registry.data.DamageTypeRegistryEntry
+---@field public Builder io.papermc.paper.registry.data.DamageTypeRegistryEntry.Builder
 local DamageTypeRegistryEntry = {}
 
 ---@public

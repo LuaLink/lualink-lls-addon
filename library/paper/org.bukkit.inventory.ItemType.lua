@@ -1398,6 +1398,7 @@
 ---@field public ZOMBIE_SPAWN_EGG org.bukkit.inventory.ItemType.Typed
 ---@field public ZOMBIE_VILLAGER_SPAWN_EGG org.bukkit.inventory.ItemType.Typed
 ---@field public ZOMBIFIED_PIGLIN_SPAWN_EGG org.bukkit.inventory.ItemType.Typed
+---@field public Typed org.bukkit.inventory.ItemType.Typed
 local ItemType = {}
 
 ---@param key string 

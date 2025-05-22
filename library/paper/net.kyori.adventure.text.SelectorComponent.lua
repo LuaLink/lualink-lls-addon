@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.SelectorComponent
 ---@class net.kyori.adventure.text.SelectorComponent: net.kyori.adventure.text.BuildableComponent, net.kyori.adventure.text.ScopedComponent
+---@field public Builder net.kyori.adventure.text.SelectorComponent.Builder
 local SelectorComponent = {}
 
 ---@public

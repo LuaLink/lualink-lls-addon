@@ -2,6 +2,9 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@class net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
+---@field public Single net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Single
+---@field public WithoutArguments net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments
+---@field public Builder net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Builder
 local TagResolver = {}
 
 ---@public

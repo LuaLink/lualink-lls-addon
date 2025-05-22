@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.util.InheritanceAwareMap
 ---@class net.kyori.adventure.util.InheritanceAwareMap
+---@field public Builder net.kyori.adventure.util.InheritanceAwareMap.Builder
 local InheritanceAwareMap = {}
 
 ---@public

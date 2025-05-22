@@ -11,6 +11,9 @@
 ---@field private bitSet number
 ---@field private entrySet net.kyori.adventure.text.format.DecorationMap.EntrySet
 ---@field private values net.kyori.adventure.text.format.DecorationMap.Values
+---@field public EntrySet net.kyori.adventure.text.format.DecorationMap.EntrySet
+---@field public Values net.kyori.adventure.text.format.DecorationMap.Values
+---@field public KeySet net.kyori.adventure.text.format.DecorationMap.KeySet
 ---@overload fun(bitSet: number): net.kyori.adventure.text.format.DecorationMap
 local DecorationMap = {}
 

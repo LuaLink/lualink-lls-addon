@@ -6,6 +6,7 @@
 ---@field private target org.bukkit.entity.Entity
 ---@field private reason org.bukkit.event.entity.EntityTargetEvent.TargetReason
 ---@field private cancelled boolean
+---@field public TargetReason org.bukkit.event.entity.EntityTargetEvent.TargetReason
 ---@overload fun(entity: org.bukkit.entity.Entity, target: org.bukkit.entity.Entity, reason: org.bukkit.event.entity.EntityTargetEvent.TargetReason): org.bukkit.event.entity.EntityTargetEvent
 local EntityTargetEvent = {}
 

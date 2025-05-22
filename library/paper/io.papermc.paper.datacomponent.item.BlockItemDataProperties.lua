@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.BlockItemDataProperties
 ---@class io.papermc.paper.datacomponent.item.BlockItemDataProperties
+---@field public Builder io.papermc.paper.datacomponent.item.BlockItemDataProperties.Builder
 local BlockItemDataProperties = {}
 
 ---@public

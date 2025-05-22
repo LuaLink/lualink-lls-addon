@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.Llama
 ---@class org.bukkit.entity.Llama: org.bukkit.entity.ChestedHorse, com.destroystokyo.paper.entity.RangedEntity
+---@field public Color org.bukkit.entity.Llama.Color
 local Llama = {}
 
 ---@public

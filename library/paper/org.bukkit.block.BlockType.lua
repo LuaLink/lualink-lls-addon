@@ -1106,6 +1106,7 @@
 ---@field public YELLOW_WOOL org.bukkit.block.BlockType.Typed
 ---@field public ZOMBIE_HEAD org.bukkit.block.BlockType.Typed
 ---@field public ZOMBIE_WALL_HEAD org.bukkit.block.BlockType.Typed
+---@field public Typed org.bukkit.block.BlockType.Typed
 local BlockType = {}
 
 ---@param key string 

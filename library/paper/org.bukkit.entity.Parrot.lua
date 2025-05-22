@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.Parrot
 ---@class org.bukkit.entity.Parrot: org.bukkit.entity.Tameable, org.bukkit.entity.Sittable
+---@field public Variant org.bukkit.entity.Parrot.Variant
 local Parrot = {}
 
 ---@public

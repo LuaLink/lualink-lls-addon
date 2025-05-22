@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.advancement.AdvancementDisplay
 ---@class io.papermc.paper.advancement.AdvancementDisplay
+---@field public Frame io.papermc.paper.advancement.AdvancementDisplay.Frame
 local AdvancementDisplay = {}
 
 ---@public

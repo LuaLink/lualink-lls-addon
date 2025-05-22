@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.ItemArmorTrim
 ---@class io.papermc.paper.datacomponent.item.ItemArmorTrim
+---@field public Builder io.papermc.paper.datacomponent.item.ItemArmorTrim.Builder
 local ItemArmorTrim = {}
 
 ---@param armorTrim org.bukkit.inventory.meta.trim.ArmorTrim 

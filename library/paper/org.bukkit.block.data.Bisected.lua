@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.Bisected
 ---@class org.bukkit.block.data.Bisected: org.bukkit.block.data.BlockData
+---@field public Half org.bukkit.block.data.Bisected.Half
 local Bisected = {}
 
 ---@public

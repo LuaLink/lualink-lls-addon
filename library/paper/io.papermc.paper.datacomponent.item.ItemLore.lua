@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.ItemLore
 ---@class io.papermc.paper.datacomponent.item.ItemLore
+---@field public Builder io.papermc.paper.datacomponent.item.ItemLore.Builder
 local ItemLore = {}
 
 ---@param lines java.util.List 

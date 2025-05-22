@@ -9,6 +9,7 @@
 ---@field public TEAM_MSG_COMMAND_INCOMING net.kyori.adventure.chat.ChatType
 ---@field public TEAM_MSG_COMMAND_OUTGOING net.kyori.adventure.chat.ChatType
 ---@field public EMOTE_COMMAND net.kyori.adventure.chat.ChatType
+---@field public Bound net.kyori.adventure.chat.ChatType.Bound
 local ChatType = {}
 
 ---@param key any the key

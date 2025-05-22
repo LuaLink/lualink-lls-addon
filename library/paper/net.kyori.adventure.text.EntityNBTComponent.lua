@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.EntityNBTComponent
 ---@class net.kyori.adventure.text.EntityNBTComponent: net.kyori.adventure.text.NBTComponent, net.kyori.adventure.text.ScopedComponent
+---@field public Builder net.kyori.adventure.text.EntityNBTComponent.Builder
 local EntityNBTComponent = {}
 
 ---@public

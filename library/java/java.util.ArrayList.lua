@@ -8,6 +8,10 @@
 ---@field private DEFAULTCAPACITY_EMPTY_ELEMENTDATA java.lang.Object
 ---@field public elementData java.lang.Object
 ---@field private size number
+---@field private Itr java.util.ArrayList.Itr
+---@field private ListItr java.util.ArrayList.ListItr
+---@field private SubList java.util.ArrayList.SubList
+---@field public ArrayListSpliterator java.util.ArrayList.ArrayListSpliterator
 ---@overload fun(initialCapacity: number): java.util.ArrayList
 ---@overload fun(): java.util.ArrayList
 ---@overload fun(c: java.util.Collection): java.util.ArrayList

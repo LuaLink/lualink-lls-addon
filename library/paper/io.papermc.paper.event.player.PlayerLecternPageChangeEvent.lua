@@ -8,6 +8,7 @@
 ---@field private oldPage number
 ---@field private newPage number
 ---@field private cancelled boolean
+---@field public PageChangeDirection io.papermc.paper.event.player.PlayerLecternPageChangeEvent.PageChangeDirection
 ---@overload fun(player: org.bukkit.entity.Player, lectern: org.bukkit.block.Lectern, book: org.bukkit.inventory.ItemStack, pageChangeDirection: io.papermc.paper.event.player.PlayerLecternPageChangeEvent.PageChangeDirection, oldPage: number, newPage: number): io.papermc.paper.event.player.PlayerLecternPageChangeEvent
 local PlayerLecternPageChangeEvent = {}
 

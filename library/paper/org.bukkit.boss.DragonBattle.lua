@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.boss.DragonBattle
 ---@class org.bukkit.boss.DragonBattle
+---@field public RespawnPhase org.bukkit.boss.DragonBattle.RespawnPhase
 local DragonBattle = {}
 
 ---@public

@@ -2,6 +2,9 @@
 ---@meta
 -- org.bukkit.inventory.meta.BookMeta
 ---@class org.bukkit.inventory.meta.BookMeta: org.bukkit.inventory.meta.WritableBookMeta, net.kyori.adventure.inventory.Book
+---@field public BookMetaBuilder org.bukkit.inventory.meta.BookMeta.BookMetaBuilder
+---@field public Spigot org.bukkit.inventory.meta.BookMeta.Spigot
+---@field public Generation org.bukkit.inventory.meta.BookMeta.Generation
 local BookMeta = {}
 
 ---@public

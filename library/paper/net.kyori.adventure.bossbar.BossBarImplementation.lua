@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.bossbar.BossBarImplementation
 ---@class net.kyori.adventure.bossbar.BossBarImplementation
+---@field public Provider net.kyori.adventure.bossbar.BossBarImplementation.Provider
 local BossBarImplementation = {}
 
 ---@param bar net.kyori.adventure.bossbar.BossBar the bossbar

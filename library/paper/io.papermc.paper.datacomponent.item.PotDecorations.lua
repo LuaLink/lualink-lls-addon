@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.PotDecorations
 ---@class io.papermc.paper.datacomponent.item.PotDecorations
+---@field public Builder io.papermc.paper.datacomponent.item.PotDecorations.Builder
 local PotDecorations = {}
 
 ---@param back org.bukkit.inventory.ItemType 

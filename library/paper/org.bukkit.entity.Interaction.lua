@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.Interaction
 ---@class org.bukkit.entity.Interaction: org.bukkit.entity.Entity
+---@field public PreviousInteraction org.bukkit.entity.Interaction.PreviousInteraction
 local Interaction = {}
 
 ---@public

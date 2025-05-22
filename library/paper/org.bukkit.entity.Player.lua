@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.Player
 ---@class org.bukkit.entity.Player: org.bukkit.entity.HumanEntity, org.bukkit.conversations.Conversable, org.bukkit.OfflinePlayer, org.bukkit.plugin.messaging.PluginMessageRecipient, net.kyori.adventure.identity.Identified, net.kyori.adventure.bossbar.BossBarViewer, com.destroystokyo.paper.network.NetworkClient
+---@field public Spigot org.bukkit.entity.Player.Spigot
 local Player = {}
 
 ---@public

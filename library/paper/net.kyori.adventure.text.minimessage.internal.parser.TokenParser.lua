@@ -8,6 +8,9 @@
 ---@field public CLOSE_TAG string
 ---@field public SEPARATOR string
 ---@field public ESCAPE string
+---@field public TagProvider net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider
+---@field public FirstPassState net.kyori.adventure.text.minimessage.internal.parser.TokenParser.FirstPassState
+---@field public SecondPassState net.kyori.adventure.text.minimessage.internal.parser.TokenParser.SecondPassState
 ---@overload fun(): net.kyori.adventure.text.minimessage.internal.parser.TokenParser
 local TokenParser = {}
 

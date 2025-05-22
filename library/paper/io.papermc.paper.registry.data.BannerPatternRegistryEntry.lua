@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.registry.data.BannerPatternRegistryEntry
 ---@class io.papermc.paper.registry.data.BannerPatternRegistryEntry
+---@field public Builder io.papermc.paper.registry.data.BannerPatternRegistryEntry.Builder
 local BannerPatternRegistryEntry = {}
 
 ---@public

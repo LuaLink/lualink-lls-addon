@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.damage.DamageSource
 ---@class org.bukkit.damage.DamageSource
+---@field public Builder org.bukkit.damage.DamageSource.Builder
 local DamageSource = {}
 
 ---@public

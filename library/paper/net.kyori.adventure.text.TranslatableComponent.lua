@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.TranslatableComponent
 ---@class net.kyori.adventure.text.TranslatableComponent: net.kyori.adventure.text.BuildableComponent, net.kyori.adventure.text.ScopedComponent
+---@field public Builder net.kyori.adventure.text.TranslatableComponent.Builder
 local TranslatableComponent = {}
 
 ---@public

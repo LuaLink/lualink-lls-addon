@@ -5,6 +5,7 @@
 ---@field public fromList java.util.List
 ---@field public toFunction java.util.function.Function
 ---@field public fromFunction java.util.function.Function
+---@field public TransformedListIterator io.papermc.paper.util.TransformingRandomAccessList.TransformedListIterator
 ---@overload fun(fromList: java.util.List, toFunction: java.util.function.Function, fromFunction: java.util.function.Function): io.papermc.paper.util.TransformingRandomAccessList
 local TransformingRandomAccessList = {}
 

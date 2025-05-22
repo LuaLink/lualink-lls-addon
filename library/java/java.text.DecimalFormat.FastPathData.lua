@@ -1,0 +1,21 @@
+--- Optional.empty
+---@meta
+-- java.text.DecimalFormat.FastPathData
+---@class java.text.DecimalFormat.FastPathData
+---@field public lastFreeIndex number
+---@field public firstUsedIndex number
+---@field public zeroDelta number
+---@field public groupingChar string
+---@field public integralLastIndex number
+---@field public fractionalFirstIndex number
+---@field public fractionalScaleFactor number
+---@field public fractionalMaxIntBound number
+---@field public fastPathContainer string
+---@field public charsPositivePrefix string
+---@field public charsNegativePrefix string
+---@field public charsPositiveSuffix string
+---@field public charsNegativeSuffix string
+---@field public positiveAffixesRequired boolean
+---@field public negativeAffixesRequired boolean
+local FastPathData = {}
+

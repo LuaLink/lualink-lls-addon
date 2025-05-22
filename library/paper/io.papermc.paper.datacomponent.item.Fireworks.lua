@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.Fireworks
 ---@class io.papermc.paper.datacomponent.item.Fireworks
+---@field public Builder io.papermc.paper.datacomponent.item.Fireworks.Builder
 local Fireworks = {}
 
 ---@param effects java.util.List 

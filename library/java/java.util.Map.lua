@@ -2,6 +2,7 @@
 ---@meta
 -- java.util.Map
 ---@class java.util.Map
+---@field public Entry java.util.Map.Entry
 local Map = {}
 
 ---@public

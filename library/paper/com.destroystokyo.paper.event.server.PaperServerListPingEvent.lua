@@ -13,6 +13,8 @@
 ---@field private cancelled boolean
 ---@field private originalPlayerCount boolean
 ---@field private players java.lang.Object
+---@field private PlayerIterator com.destroystokyo.paper.event.server.PaperServerListPingEvent.PlayerIterator
+---@field private UncheckedPlayerProfile com.destroystokyo.paper.event.server.PaperServerListPingEvent.UncheckedPlayerProfile
 ---@overload fun(client: com.destroystokyo.paper.network.StatusClient, motd: net.kyori.adventure.text.Component, numPlayers: number, maxPlayers: number, version: string, protocolVersion: number, favicon: org.bukkit.util.CachedServerIcon): com.destroystokyo.paper.event.server.PaperServerListPingEvent
 local PaperServerListPingEvent = {}
 

@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.CustomModelData
 ---@class io.papermc.paper.datacomponent.item.CustomModelData
+---@field public Builder io.papermc.paper.datacomponent.item.CustomModelData.Builder
 local CustomModelData = {}
 
 ---@public

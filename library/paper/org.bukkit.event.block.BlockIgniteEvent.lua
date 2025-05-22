@@ -7,6 +7,7 @@
 ---@field private ignitingEntity org.bukkit.entity.Entity
 ---@field private ignitingBlock org.bukkit.block.Block
 ---@field private cancelled boolean
+---@field public IgniteCause org.bukkit.event.block.BlockIgniteEvent.IgniteCause
 ---@overload fun(block: org.bukkit.block.Block, cause: org.bukkit.event.block.BlockIgniteEvent.IgniteCause, ignitingEntity: org.bukkit.entity.Entity): org.bukkit.event.block.BlockIgniteEvent
 ---@overload fun(block: org.bukkit.block.Block, cause: org.bukkit.event.block.BlockIgniteEvent.IgniteCause, ignitingBlock: org.bukkit.block.Block): org.bukkit.event.block.BlockIgniteEvent
 ---@overload fun(block: org.bukkit.block.Block, cause: org.bukkit.event.block.BlockIgniteEvent.IgniteCause, ignitingEntity: org.bukkit.entity.Entity, ignitingBlock: org.bukkit.block.Block): org.bukkit.event.block.BlockIgniteEvent

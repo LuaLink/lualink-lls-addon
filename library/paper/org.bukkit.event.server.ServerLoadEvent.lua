@@ -4,6 +4,7 @@
 ---@class org.bukkit.event.server.ServerLoadEvent: org.bukkit.event.server.ServerEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private type org.bukkit.event.server.ServerLoadEvent.LoadType
+---@field public LoadType org.bukkit.event.server.ServerLoadEvent.LoadType
 ---@overload fun(type: org.bukkit.event.server.ServerLoadEvent.LoadType): org.bukkit.event.server.ServerLoadEvent
 local ServerLoadEvent = {}
 

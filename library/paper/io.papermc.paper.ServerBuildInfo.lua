@@ -3,6 +3,7 @@
 -- io.papermc.paper.ServerBuildInfo
 ---@class io.papermc.paper.ServerBuildInfo
 ---@field public BRAND_PAPER_ID any
+---@field public StringRepresentation io.papermc.paper.ServerBuildInfo.StringRepresentation
 local ServerBuildInfo = {}
 
 ---@public

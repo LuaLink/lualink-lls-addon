@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.Bed
 ---@class org.bukkit.block.data.type.Bed: org.bukkit.block.data.Directional
+---@field public Part org.bukkit.block.data.type.Bed.Part
 local Bed = {}
 
 ---@public

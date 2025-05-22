@@ -2,6 +2,8 @@
 ---@meta
 -- org.bukkit.packs.DataPack
 ---@class org.bukkit.packs.DataPack: org.bukkit.Keyed
+---@field public Compatibility org.bukkit.packs.DataPack.Compatibility
+---@field public Source org.bukkit.packs.DataPack.Source
 local DataPack = {}
 
 ---@public

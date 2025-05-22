@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.registry.data.WolfVariantRegistryEntry
 ---@class io.papermc.paper.registry.data.WolfVariantRegistryEntry
+---@field public Builder io.papermc.paper.registry.data.WolfVariantRegistryEntry.Builder
 local WolfVariantRegistryEntry = {}
 
 ---@public

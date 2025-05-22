@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.pointer.PointersSupplier
 ---@class net.kyori.adventure.pointer.PointersSupplier
+---@field public Builder net.kyori.adventure.pointer.PointersSupplier.Builder
 local PointersSupplier = {}
 
 ---@public

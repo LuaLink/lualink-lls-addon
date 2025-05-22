@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.TextComponent
 ---@class net.kyori.adventure.text.TextComponent: net.kyori.adventure.text.BuildableComponent, net.kyori.adventure.text.ScopedComponent
+---@field public Builder net.kyori.adventure.text.TextComponent.Builder
 local TextComponent = {}
 
 ---@deprecated

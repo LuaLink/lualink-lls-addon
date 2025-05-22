@@ -1,0 +1,39 @@
+--- Optional.empty
+---@meta
+-- org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@class org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public KILL org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public WORLD_BORDER org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public CONTACT org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public ENTITY_ATTACK org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public ENTITY_SWEEP_ATTACK org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public PROJECTILE org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public SUFFOCATION org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public FALL org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public FIRE org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public FIRE_TICK org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public MELTING org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public LAVA org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public DROWNING org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public BLOCK_EXPLOSION org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public ENTITY_EXPLOSION org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public VOID org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public LIGHTNING org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public SUICIDE org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public STARVATION org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public POISON org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public MAGIC org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public WITHER org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public FALLING_BLOCK org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public THORNS org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public DRAGON_BREATH org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public FLY_INTO_WALL org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public HOT_FLOOR org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public CAMPFIRE org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public CRAMMING org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public DRYOUT org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public FREEZE org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public SONIC_BOOM org.bukkit.event.entity.EntityDamageEvent.DamageCause
+---@field public CUSTOM org.bukkit.event.entity.EntityDamageEvent.DamageCause
+local DamageCause = {}
+

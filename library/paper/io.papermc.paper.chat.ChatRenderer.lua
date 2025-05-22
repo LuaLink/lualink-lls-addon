@@ -2,6 +2,8 @@
 ---@meta
 -- io.papermc.paper.chat.ChatRenderer
 ---@class io.papermc.paper.chat.ChatRenderer
+---@field public Default io.papermc.paper.chat.ChatRenderer.Default
+---@field public ViewerUnaware io.papermc.paper.chat.ChatRenderer.ViewerUnaware
 local ChatRenderer = {}
 
 ---@param source org.bukkit.entity.Player the message source

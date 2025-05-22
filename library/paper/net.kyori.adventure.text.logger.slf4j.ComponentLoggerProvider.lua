@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.logger.slf4j.ComponentLoggerProvider
 ---@class net.kyori.adventure.text.logger.slf4j.ComponentLoggerProvider
+---@field public LoggerHelper net.kyori.adventure.text.logger.slf4j.ComponentLoggerProvider.LoggerHelper
 local ComponentLoggerProvider = {}
 
 ---@param helper net.kyori.adventure.text.logger.slf4j.ComponentLoggerProvider.LoggerHelper a source for common helper implementations when building a logger

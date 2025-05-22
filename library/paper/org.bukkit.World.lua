@@ -2,6 +2,9 @@
 ---@meta
 -- org.bukkit.World
 ---@class org.bukkit.World: org.bukkit.RegionAccessor, org.bukkit.generator.WorldInfo, org.bukkit.plugin.messaging.PluginMessageRecipient, org.bukkit.metadata.Metadatable, org.bukkit.persistence.PersistentDataHolder, org.bukkit.Keyed, net.kyori.adventure.audience.ForwardingAudience
+---@field public ChunkLoadCallback org.bukkit.World.ChunkLoadCallback
+---@field public Spigot org.bukkit.World.Spigot
+---@field public Environment org.bukkit.World.Environment
 local World = {}
 
 ---@public

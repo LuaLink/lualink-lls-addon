@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.PointedDripstone
 ---@class org.bukkit.block.data.type.PointedDripstone: org.bukkit.block.data.Waterlogged
+---@field public Thickness org.bukkit.block.data.type.PointedDripstone.Thickness
 local PointedDripstone = {}
 
 ---@public

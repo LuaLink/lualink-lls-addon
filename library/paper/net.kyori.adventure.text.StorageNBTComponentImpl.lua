@@ -2,6 +2,7 @@
 -- net.kyori.adventure.text.StorageNBTComponentImpl
 ---@class net.kyori.adventure.text.StorageNBTComponentImpl: net.kyori.adventure.text.NBTComponentImpl, net.kyori.adventure.text.StorageNBTComponent
 ---@field private storage any
+---@field public BuilderImpl net.kyori.adventure.text.StorageNBTComponentImpl.BuilderImpl
 ---@overload fun(children: java.util.List, style: net.kyori.adventure.text.format.Style, nbtPath: string, interpret: boolean, separator: net.kyori.adventure.text.Component, storage: any): net.kyori.adventure.text.StorageNBTComponentImpl
 local StorageNBTComponentImpl = {}
 

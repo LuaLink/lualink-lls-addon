@@ -4,6 +4,7 @@
 ---@field private title net.kyori.adventure.text.Component
 ---@field private subtitle net.kyori.adventure.text.Component
 ---@field private times net.kyori.adventure.title.Title.Times
+---@field public TimesImpl net.kyori.adventure.title.TitleImpl.TimesImpl
 ---@overload fun(title: net.kyori.adventure.text.Component, subtitle: net.kyori.adventure.text.Component, times: net.kyori.adventure.title.Title.Times): net.kyori.adventure.title.TitleImpl
 local TitleImpl = {}
 

@@ -22,6 +22,7 @@
 ---@field public anchoringBounds boolean
 ---@field public modCount number
 ---@field private namedGroups java.util.Map
+---@field private ImmutableMatchResult java.util.regex.Matcher.ImmutableMatchResult
 ---@overload fun(): java.util.regex.Matcher
 ---@overload fun(parent: java.util.regex.Pattern, text: java.lang.CharSequence): java.util.regex.Matcher
 local Matcher = {}

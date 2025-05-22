@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.Equippable
 ---@class io.papermc.paper.datacomponent.item.Equippable: io.papermc.paper.datacomponent.BuildableDataComponent
+---@field public Builder io.papermc.paper.datacomponent.item.Equippable.Builder
 local Equippable = {}
 
 ---@param slot org.bukkit.inventory.EquipmentSlot The slot for the new equippable to be equippable in.

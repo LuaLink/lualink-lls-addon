@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.DeathProtection
 ---@class io.papermc.paper.datacomponent.item.DeathProtection
+---@field public Builder io.papermc.paper.datacomponent.item.DeathProtection.Builder
 local DeathProtection = {}
 
 ---@param deathEffects java.util.List 

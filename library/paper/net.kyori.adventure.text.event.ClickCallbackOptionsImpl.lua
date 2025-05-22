@@ -4,6 +4,7 @@
 ---@field public DEFAULT net.kyori.adventure.text.event.ClickCallback.Options
 ---@field private uses number
 ---@field private lifetime java.time.Duration
+---@field public BuilderImpl net.kyori.adventure.text.event.ClickCallbackOptionsImpl.BuilderImpl
 ---@overload fun(uses: number, lifetime: java.time.Duration): net.kyori.adventure.text.event.ClickCallbackOptionsImpl
 local ClickCallbackOptionsImpl = {}
 

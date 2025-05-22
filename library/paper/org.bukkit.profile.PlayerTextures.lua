@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.profile.PlayerTextures
 ---@class org.bukkit.profile.PlayerTextures
+---@field public SkinModel org.bukkit.profile.PlayerTextures.SkinModel
 local PlayerTextures = {}
 
 ---@public

@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datapack.DatapackRegistrar
 ---@class io.papermc.paper.datapack.DatapackRegistrar: io.papermc.paper.plugin.lifecycle.event.registrar.Registrar
+---@field public Configurer io.papermc.paper.datapack.DatapackRegistrar.Configurer
 local DatapackRegistrar = {}
 
 ---@param name string the name of the pack

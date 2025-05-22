@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.util.Buildable
 ---@class net.kyori.adventure.util.Buildable
+---@field public Builder net.kyori.adventure.util.Buildable.Builder
 local Buildable = {}
 
 ---@deprecated

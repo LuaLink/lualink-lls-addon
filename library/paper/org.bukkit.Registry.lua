@@ -40,6 +40,8 @@
 ---@field public EFFECT org.bukkit.Registry
 ---@field public POTION_EFFECT_TYPE org.bukkit.Registry
 ---@field public SOUNDS org.bukkit.Registry
+---@field public SimpleRegistry org.bukkit.Registry.SimpleRegistry
+---@field public NotARegistry org.bukkit.Registry.NotARegistry
 local Registry = {}
 
 ---@param registryKey io.papermc.paper.registry.RegistryKey 

@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.StructureBlock
 ---@class org.bukkit.block.data.type.StructureBlock: org.bukkit.block.data.BlockData
+---@field public Mode org.bukkit.block.data.type.StructureBlock.Mode
 local StructureBlock = {}
 
 ---@public

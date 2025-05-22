@@ -15,6 +15,20 @@
 ---@field public modCount number
 ---@field public threshold number
 ---@field public loadFactor number
+---@field public Node java.util.HashMap.Node
+---@field public KeySet java.util.HashMap.KeySet
+---@field public Values java.util.HashMap.Values
+---@field public EntrySet java.util.HashMap.EntrySet
+---@field private UnsafeHolder java.util.HashMap.UnsafeHolder
+---@field public HashIterator java.util.HashMap.HashIterator
+---@field public KeyIterator java.util.HashMap.KeyIterator
+---@field public ValueIterator java.util.HashMap.ValueIterator
+---@field public EntryIterator java.util.HashMap.EntryIterator
+---@field public HashMapSpliterator java.util.HashMap.HashMapSpliterator
+---@field public KeySpliterator java.util.HashMap.KeySpliterator
+---@field public ValueSpliterator java.util.HashMap.ValueSpliterator
+---@field public EntrySpliterator java.util.HashMap.EntrySpliterator
+---@field public TreeNode java.util.HashMap.TreeNode
 ---@overload fun(initialCapacity: number, loadFactor: number): java.util.HashMap
 ---@overload fun(initialCapacity: number): java.util.HashMap
 ---@overload fun(): java.util.HashMap

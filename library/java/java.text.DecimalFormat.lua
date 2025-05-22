@@ -56,6 +56,8 @@
 ---@field public MAXIMUM_INTEGER_DIGITS number
 ---@field public MAXIMUM_FRACTION_DIGITS number
 ---@field public serialVersionUID number
+---@field private FastPathData java.text.DecimalFormat.FastPathData
+---@field private DigitArrays java.text.DecimalFormat.DigitArrays
 ---@overload fun(): java.text.DecimalFormat
 ---@overload fun(pattern: string): java.text.DecimalFormat
 ---@overload fun(pattern: string, symbols: java.text.DecimalFormatSymbols): java.text.DecimalFormat

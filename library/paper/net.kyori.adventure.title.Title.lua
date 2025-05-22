@@ -3,6 +3,7 @@
 -- net.kyori.adventure.title.Title
 ---@class net.kyori.adventure.title.Title: any
 ---@field public DEFAULT_TIMES net.kyori.adventure.title.Title.Times
+---@field public Times net.kyori.adventure.title.Title.Times
 local Title = {}
 
 ---@param title net.kyori.adventure.text.Component the title

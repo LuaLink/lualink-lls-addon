@@ -2,6 +2,9 @@
 ---@meta
 -- org.bukkit.entity.Horse
 ---@class org.bukkit.entity.Horse: org.bukkit.entity.AbstractHorse
+---@field public Variant org.bukkit.entity.Horse.Variant
+---@field public Color org.bukkit.entity.Horse.Color
+---@field public Style org.bukkit.entity.Horse.Style
 local Horse = {}
 
 ---@public

@@ -2,6 +2,8 @@
 ---@meta
 -- org.bukkit.ServerLinks
 ---@class org.bukkit.ServerLinks
+---@field public ServerLink org.bukkit.ServerLinks.ServerLink
+---@field public Type org.bukkit.ServerLinks.Type
 local ServerLinks = {}
 
 ---@param type org.bukkit.ServerLinks.Type link type

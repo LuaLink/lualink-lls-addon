@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.resource.ResourcePackInfo
 ---@class net.kyori.adventure.resource.ResourcePackInfo: any, net.kyori.adventure.resource.ResourcePackInfoLike
+---@field public Builder net.kyori.adventure.resource.ResourcePackInfo.Builder
 local ResourcePackInfo = {}
 
 ---@param id java.util.UUID the id

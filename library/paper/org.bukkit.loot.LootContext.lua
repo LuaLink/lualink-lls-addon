@@ -8,6 +8,7 @@
 ---@field private lootingModifier number
 ---@field private lootedEntity org.bukkit.entity.Entity
 ---@field private killer org.bukkit.entity.HumanEntity
+---@field public Builder org.bukkit.loot.LootContext.Builder
 ---@overload fun(location: org.bukkit.Location, luck: number, lootingModifier: number, lootedEntity: org.bukkit.entity.Entity, killer: org.bukkit.entity.HumanEntity): org.bukkit.loot.LootContext
 local LootContext = {}
 

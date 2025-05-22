@@ -23,6 +23,8 @@
 ---@field public handlers java.util.Hashtable
 ---@field private streamHandlerLock java.lang.Object
 ---@field private serialPersistentFields java.io.ObjectStreamField
+---@field private DefaultFactory java.net.URL.DefaultFactory
+---@field private ThreadTrackHolder java.net.URL.ThreadTrackHolder
 ---@overload fun(protocol: string, host: string, port: number, file: string): java.net.URL
 ---@overload fun(protocol: string, host: string, file: string): java.net.URL
 ---@overload fun(protocol: string, host: string, port: number, file: string, handler: java.net.URLStreamHandler): java.net.URL

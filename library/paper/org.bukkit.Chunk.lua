@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.Chunk
 ---@class org.bukkit.Chunk: org.bukkit.persistence.PersistentDataHolder
+---@field public LoadLevel org.bukkit.Chunk.LoadLevel
 local Chunk = {}
 
 ---@public

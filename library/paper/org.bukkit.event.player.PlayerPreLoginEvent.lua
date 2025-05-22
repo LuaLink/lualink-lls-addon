@@ -8,6 +8,7 @@
 ---@field private uniqueId java.util.UUID
 ---@field private result org.bukkit.event.player.PlayerPreLoginEvent.Result
 ---@field private message net.kyori.adventure.text.Component
+---@field public Result org.bukkit.event.player.PlayerPreLoginEvent.Result
 ---@overload fun(name: string, ipAddress: java.net.InetAddress): org.bukkit.event.player.PlayerPreLoginEvent
 ---@overload fun(name: string, ipAddress: java.net.InetAddress, uniqueId: java.util.UUID): org.bukkit.event.player.PlayerPreLoginEvent
 local PlayerPreLoginEvent = {}

@@ -2,6 +2,8 @@
 ---@meta
 -- org.bukkit.entity.Villager
 ---@class org.bukkit.entity.Villager: org.bukkit.entity.AbstractVillager
+---@field public Type org.bukkit.entity.Villager.Type
+---@field public Profession org.bukkit.entity.Villager.Profession
 local Villager = {}
 
 ---@public

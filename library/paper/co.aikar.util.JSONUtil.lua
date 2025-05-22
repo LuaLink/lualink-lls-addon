@@ -2,6 +2,7 @@
 ---@meta
 -- co.aikar.util.JSONUtil
 ---@class co.aikar.util.JSONUtil
+---@field public JSONPair co.aikar.util.JSONUtil.JSONPair
 ---@overload fun(): co.aikar.util.JSONUtil
 local JSONUtil = {}
 

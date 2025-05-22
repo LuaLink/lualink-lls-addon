@@ -4,6 +4,7 @@
 ---@class io.papermc.paper.event.entity.EntityEquipmentChangedEvent: org.bukkit.event.entity.EntityEvent
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private equipmentChanges java.util.Map
+---@field public EquipmentChange io.papermc.paper.event.entity.EntityEquipmentChangedEvent.EquipmentChange
 ---@overload fun(entity: org.bukkit.entity.LivingEntity, equipmentChanges: java.util.Map): io.papermc.paper.event.entity.EntityEquipmentChangedEvent
 local EntityEquipmentChangedEvent = {}
 

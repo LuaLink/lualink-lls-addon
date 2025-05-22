@@ -27,6 +27,7 @@
 ---@field public SMOKER org.bukkit.inventory.MenuType.Typed
 ---@field public CARTOGRAPHY_TABLE org.bukkit.inventory.MenuType.Typed
 ---@field public STONECUTTER org.bukkit.inventory.MenuType.Typed
+---@field public Typed org.bukkit.inventory.MenuType.Typed
 local MenuType = {}
 
 ---@param player org.bukkit.entity.HumanEntity the player the view belongs to

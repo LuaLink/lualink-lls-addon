@@ -3,6 +3,7 @@
 -- net.kyori.adventure.text.TextReplacementRenderer
 ---@class net.kyori.adventure.text.TextReplacementRenderer: net.kyori.adventure.text.renderer.ComponentRenderer
 ---@field public INSTANCE net.kyori.adventure.text.TextReplacementRenderer
+---@field public State net.kyori.adventure.text.TextReplacementRenderer.State
 ---@overload fun(): net.kyori.adventure.text.TextReplacementRenderer
 local TextReplacementRenderer = {}
 

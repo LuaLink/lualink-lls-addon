@@ -2,6 +2,8 @@
 ---@meta
 -- org.bukkit.generator.ChunkGenerator
 ---@class org.bukkit.generator.ChunkGenerator
+---@field public BiomeGrid org.bukkit.generator.ChunkGenerator.BiomeGrid
+---@field public ChunkData org.bukkit.generator.ChunkGenerator.ChunkData
 local ChunkGenerator = {}
 
 ---@param worldInfo org.bukkit.generator.WorldInfo The world info of the world this chunk will be used for

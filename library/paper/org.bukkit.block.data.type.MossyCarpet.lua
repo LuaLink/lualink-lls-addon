@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.MossyCarpet
 ---@class org.bukkit.block.data.type.MossyCarpet: org.bukkit.block.data.BlockData
+---@field public Height org.bukkit.block.data.type.MossyCarpet.Height
 local MossyCarpet = {}
 
 ---@public

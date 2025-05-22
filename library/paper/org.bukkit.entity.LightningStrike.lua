@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.LightningStrike
 ---@class org.bukkit.entity.LightningStrike: org.bukkit.entity.Entity
+---@field public Spigot org.bukkit.entity.LightningStrike.Spigot
 local LightningStrike = {}
 
 ---@public

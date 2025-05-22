@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.map.MapView
 ---@class org.bukkit.map.MapView
+---@field public Scale org.bukkit.map.MapView.Scale
 local MapView = {}
 
 ---@public

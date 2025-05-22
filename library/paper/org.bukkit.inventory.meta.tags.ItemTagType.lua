@@ -13,6 +13,7 @@
 ---@field public INTEGER_ARRAY org.bukkit.inventory.meta.tags.ItemTagType
 ---@field public LONG_ARRAY org.bukkit.inventory.meta.tags.ItemTagType
 ---@field public TAG_CONTAINER org.bukkit.inventory.meta.tags.ItemTagType
+---@field public PrimitiveTagType org.bukkit.inventory.meta.tags.ItemTagType.PrimitiveTagType
 local ItemTagType = {}
 
 ---@public

@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.BannerPatternLayers
 ---@class io.papermc.paper.datacomponent.item.BannerPatternLayers
+---@field public Builder io.papermc.paper.datacomponent.item.BannerPatternLayers.Builder
 local BannerPatternLayers = {}
 
 ---@param patterns java.util.List 

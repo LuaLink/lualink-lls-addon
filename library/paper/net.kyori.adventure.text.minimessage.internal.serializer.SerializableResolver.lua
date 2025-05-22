@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver
 ---@class net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver
+---@field public Single net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver.Single
 local SerializableResolver = {}
 
 ---@param name string the name to respond to

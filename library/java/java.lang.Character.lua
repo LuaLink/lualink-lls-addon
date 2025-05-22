@@ -75,6 +75,10 @@
 ---@field private serialVersionUID number
 ---@field public SIZE number
 ---@field public BYTES number
+---@field public Subset java.lang.Character.Subset
+---@field public UnicodeBlock java.lang.Character.UnicodeBlock
+---@field private CharacterCache java.lang.Character.CharacterCache
+---@field public UnicodeScript java.lang.Character.UnicodeScript
 ---@overload fun(value: string): string
 local Character = {}
 

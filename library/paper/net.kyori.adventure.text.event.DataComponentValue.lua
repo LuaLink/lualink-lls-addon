@@ -2,6 +2,8 @@
 ---@meta
 -- net.kyori.adventure.text.event.DataComponentValue
 ---@class net.kyori.adventure.text.event.DataComponentValue: any
+---@field public TagSerializable net.kyori.adventure.text.event.DataComponentValue.TagSerializable
+---@field public Removed net.kyori.adventure.text.event.DataComponentValue.Removed
 local DataComponentValue = {}
 
 ---@public

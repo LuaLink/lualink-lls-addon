@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.registry.data.CatTypeRegistryEntry
 ---@class io.papermc.paper.registry.data.CatTypeRegistryEntry
+---@field public Builder io.papermc.paper.registry.data.CatTypeRegistryEntry.Builder
 local CatTypeRegistryEntry = {}
 
 ---@public

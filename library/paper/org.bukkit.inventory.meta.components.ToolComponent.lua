@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.inventory.meta.components.ToolComponent
 ---@class org.bukkit.inventory.meta.components.ToolComponent: org.bukkit.configuration.serialization.ConfigurationSerializable
+---@field public ToolRule org.bukkit.inventory.meta.components.ToolComponent.ToolRule
 local ToolComponent = {}
 
 ---@public

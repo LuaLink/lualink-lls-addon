@@ -6,6 +6,8 @@
 ---@field private queryType com.destroystokyo.paper.event.server.GS4QueryEvent.QueryType
 ---@field private querierAddress java.net.InetAddress
 ---@field private response com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse
+---@field public QueryResponse com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse
+---@field public QueryType com.destroystokyo.paper.event.server.GS4QueryEvent.QueryType
 ---@overload fun(queryType: com.destroystokyo.paper.event.server.GS4QueryEvent.QueryType, querierAddress: java.net.InetAddress, response: com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse): com.destroystokyo.paper.event.server.GS4QueryEvent
 local GS4QueryEvent = {}
 

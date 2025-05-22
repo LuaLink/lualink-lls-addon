@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.entity.ExperienceOrb
 ---@class org.bukkit.entity.ExperienceOrb: org.bukkit.entity.Entity
+---@field public SpawnReason org.bukkit.entity.ExperienceOrb.SpawnReason
 local ExperienceOrb = {}
 
 ---@public

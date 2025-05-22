@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tree.Node
 ---@class net.kyori.adventure.text.minimessage.tree.Node
+---@field public Root net.kyori.adventure.text.minimessage.tree.Node.Root
 local Node = {}
 
 ---@public

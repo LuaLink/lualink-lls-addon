@@ -17,6 +17,7 @@
 ---@field private convertor java.util.function.Function
 ---@field private predicate java.util.function.Predicate
 ---@field private rootStyle net.kyori.adventure.text.format.Style
+---@field public BuilderImpl net.kyori.adventure.text.JoinConfigurationImpl.BuilderImpl
 ---@overload fun(): net.kyori.adventure.text.JoinConfigurationImpl
 ---@overload fun(builder: net.kyori.adventure.text.JoinConfigurationImpl.BuilderImpl): net.kyori.adventure.text.JoinConfigurationImpl
 local JoinConfigurationImpl = {}

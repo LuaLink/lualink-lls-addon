@@ -2,6 +2,8 @@
 ---@meta
 -- net.kyori.adventure.util.Codec
 ---@class net.kyori.adventure.util.Codec
+---@field public Decoder net.kyori.adventure.util.Codec.Decoder
+---@field public Encoder net.kyori.adventure.util.Codec.Encoder
 local Codec = {}
 
 ---@param decoder net.kyori.adventure.util.Codec.Decoder the decoder

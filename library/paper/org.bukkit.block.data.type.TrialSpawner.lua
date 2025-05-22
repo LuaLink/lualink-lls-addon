@@ -2,6 +2,7 @@
 ---@meta
 -- org.bukkit.block.data.type.TrialSpawner
 ---@class org.bukkit.block.data.type.TrialSpawner: org.bukkit.block.data.BlockData
+---@field public State org.bukkit.block.data.type.TrialSpawner.State
 local TrialSpawner = {}
 
 ---@public

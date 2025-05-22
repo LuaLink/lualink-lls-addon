@@ -8,6 +8,7 @@
 ---@field private newSize number
 ---@field private duration number
 ---@field private cancelled boolean
+---@field public Type io.papermc.paper.event.world.border.WorldBorderBoundsChangeEvent.Type
 ---@overload fun(world: org.bukkit.World, worldBorder: org.bukkit.WorldBorder, type: io.papermc.paper.event.world.border.WorldBorderBoundsChangeEvent.Type, oldSize: number, newSize: number, duration: number): io.papermc.paper.event.world.border.WorldBorderBoundsChangeEvent
 local WorldBorderBoundsChangeEvent = {}
 

@@ -7,6 +7,7 @@
 ---@field private amount number
 ---@field private operation org.bukkit.attribute.AttributeModifier.Operation
 ---@field private slot org.bukkit.inventory.EquipmentSlotGroup
+---@field public Operation org.bukkit.attribute.AttributeModifier.Operation
 ---@overload fun(name: string, amount: number, operation: org.bukkit.attribute.AttributeModifier.Operation): org.bukkit.attribute.AttributeModifier
 ---@overload fun(uuid: java.util.UUID, name: string, amount: number, operation: org.bukkit.attribute.AttributeModifier.Operation): org.bukkit.attribute.AttributeModifier
 ---@overload fun(uuid: java.util.UUID, name: string, amount: number, operation: org.bukkit.attribute.AttributeModifier.Operation, slot: org.bukkit.inventory.EquipmentSlot): org.bukkit.attribute.AttributeModifier

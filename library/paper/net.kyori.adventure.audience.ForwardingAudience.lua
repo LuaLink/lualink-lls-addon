@@ -2,6 +2,7 @@
 ---@meta
 -- net.kyori.adventure.audience.ForwardingAudience
 ---@class net.kyori.adventure.audience.ForwardingAudience: net.kyori.adventure.audience.Audience
+---@field public Single net.kyori.adventure.audience.ForwardingAudience.Single
 local ForwardingAudience = {}
 
 ---@public
