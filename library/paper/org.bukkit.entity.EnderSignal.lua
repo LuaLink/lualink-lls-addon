@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.EnderSignal
----@class org.bukkit.entity.EnderSignal: org.bukkit.entity.Entity
+---@class org.bukkit.entity.EnderSignal: org.bukkit.entity.Entity, java.lang.Object
 local EnderSignal = {}
 
 ---@public

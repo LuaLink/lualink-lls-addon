@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.event.ClickCallback.Provider
----@class net.kyori.adventure.text.event.ClickCallback.Provider
+---@class net.kyori.adventure.text.event.ClickCallback.Provider: java.lang.Object
 local Provider = {}
 
 ---@param callback net.kyori.adventure.text.event.ClickCallback the callback to execute

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.inventory.Book
----@class net.kyori.adventure.inventory.Book: net.kyori.adventure.util.Buildable, any
+---@class net.kyori.adventure.inventory.Book: net.kyori.adventure.util.Buildable, any, java.lang.Object
 ---@field public Builder net.kyori.adventure.inventory.Book.Builder
 local Book = {}
 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.TypedKey
----@class io.papermc.paper.registry.TypedKey: any
+---@class io.papermc.paper.registry.TypedKey: any, java.lang.Object
 local TypedKey = {}
 
 ---@public

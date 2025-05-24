@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.TropicalFish
----@class org.bukkit.entity.TropicalFish: io.papermc.paper.entity.SchoolableFish
+---@class org.bukkit.entity.TropicalFish: io.papermc.paper.entity.SchoolableFish, java.lang.Object
 ---@field public Pattern org.bukkit.entity.TropicalFish.Pattern
 local TropicalFish = {}
 

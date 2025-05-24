@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.ServerBuildInfo
----@class io.papermc.paper.ServerBuildInfo
+---@class io.papermc.paper.ServerBuildInfo: java.lang.Object
 ---@field public BRAND_PAPER_ID any
 ---@field public StringRepresentation io.papermc.paper.ServerBuildInfo.StringRepresentation
 local ServerBuildInfo = {}

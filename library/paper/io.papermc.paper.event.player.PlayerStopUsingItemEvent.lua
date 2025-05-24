@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.PlayerStopUsingItemEvent
----@class io.papermc.paper.event.player.PlayerStopUsingItemEvent: org.bukkit.event.player.PlayerEvent
+---@class io.papermc.paper.event.player.PlayerStopUsingItemEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private item org.bukkit.inventory.ItemStack
 ---@field private ticksHeldFor number

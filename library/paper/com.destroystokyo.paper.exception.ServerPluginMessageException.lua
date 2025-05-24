@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.exception.ServerPluginMessageException
----@class com.destroystokyo.paper.exception.ServerPluginMessageException: com.destroystokyo.paper.exception.ServerPluginException
+---@class com.destroystokyo.paper.exception.ServerPluginMessageException: com.destroystokyo.paper.exception.ServerPluginException, java.lang.Object
 ---@field private player org.bukkit.entity.Player
 ---@field private channel string
 ---@field private data number

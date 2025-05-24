@@ -1,9 +1,9 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.match.TokenListProducingMatchedTokenConsumer
----@class net.kyori.adventure.text.minimessage.internal.parser.match.TokenListProducingMatchedTokenConsumer: net.kyori.adventure.text.minimessage.internal.parser.match.MatchedTokenConsumer
+---@class net.kyori.adventure.text.minimessage.internal.parser.match.TokenListProducingMatchedTokenConsumer: function, java.lang.Object
 ---@field private result java.util.List
----@overload fun(input: string): net.kyori.adventure.text.minimessage.internal.parser.match.TokenListProducingMatchedTokenConsumer
+---@overload fun(input: string): function
 local TokenListProducingMatchedTokenConsumer = {}
 
 ---@param start number 

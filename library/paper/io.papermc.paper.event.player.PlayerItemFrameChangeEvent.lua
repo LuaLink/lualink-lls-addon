@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.PlayerItemFrameChangeEvent
----@class io.papermc.paper.event.player.PlayerItemFrameChangeEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.player.PlayerItemFrameChangeEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private itemFrame org.bukkit.entity.ItemFrame
 ---@field private action io.papermc.paper.event.player.PlayerItemFrameChangeEvent.ItemFrameChangeAction

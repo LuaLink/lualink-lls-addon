@@ -1,6 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.loottable.LootableInventoryReplenishEvent
----@class com.destroystokyo.paper.loottable.LootableInventoryReplenishEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.loottable.LootableInventoryReplenishEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private inventory com.destroystokyo.paper.loottable.LootableInventory
 ---@field private cancelled boolean

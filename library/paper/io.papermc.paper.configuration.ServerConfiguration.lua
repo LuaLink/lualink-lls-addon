@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.configuration.ServerConfiguration
----@class io.papermc.paper.configuration.ServerConfiguration
+---@class io.papermc.paper.configuration.ServerConfiguration: java.lang.Object
 local ServerConfiguration = {}
 
 ---@public

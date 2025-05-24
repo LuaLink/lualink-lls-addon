@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.FurnaceRecipe
----@class org.bukkit.inventory.FurnaceRecipe: org.bukkit.inventory.CookingRecipe
+---@class org.bukkit.inventory.FurnaceRecipe: org.bukkit.inventory.CookingRecipe, java.lang.Object
 ---@overload fun(result: org.bukkit.inventory.ItemStack, source: org.bukkit.Material): org.bukkit.inventory.FurnaceRecipe
 ---@overload fun(result: org.bukkit.inventory.ItemStack, source: org.bukkit.material.MaterialData): org.bukkit.inventory.FurnaceRecipe
 ---@overload fun(result: org.bukkit.inventory.ItemStack, source: org.bukkit.material.MaterialData, experience: number): org.bukkit.inventory.FurnaceRecipe

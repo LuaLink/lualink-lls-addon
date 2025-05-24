@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.SkeletonHorse
----@class org.bukkit.entity.SkeletonHorse: org.bukkit.entity.AbstractHorse
+---@class org.bukkit.entity.SkeletonHorse: org.bukkit.entity.AbstractHorse, java.lang.Object
 local SkeletonHorse = {}
 
 ---@public

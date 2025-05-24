@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.EntityPickupItemEvent
----@class org.bukkit.event.entity.EntityPickupItemEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.EntityPickupItemEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private item org.bukkit.entity.Item
 ---@field private remaining number

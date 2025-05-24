@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.entity.EntityFertilizeEggEvent
----@class io.papermc.paper.event.entity.EntityFertilizeEggEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.entity.EntityFertilizeEggEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private father org.bukkit.entity.LivingEntity
 ---@field private breeder org.bukkit.entity.Player

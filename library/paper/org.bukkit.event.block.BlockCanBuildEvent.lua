@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BlockCanBuildEvent
----@class org.bukkit.event.block.BlockCanBuildEvent: org.bukkit.event.block.BlockEvent
+---@class org.bukkit.event.block.BlockCanBuildEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private player org.bukkit.entity.Player
 ---@field private hand org.bukkit.inventory.EquipmentSlot

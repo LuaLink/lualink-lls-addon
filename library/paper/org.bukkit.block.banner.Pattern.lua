@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.block.banner.Pattern
----@class org.bukkit.block.banner.Pattern: org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.block.banner.Pattern: org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 ---@field private COLOR string
 ---@field private PATTERN string
 ---@field private color org.bukkit.DyeColor

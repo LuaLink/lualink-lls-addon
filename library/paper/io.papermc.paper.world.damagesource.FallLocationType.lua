@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.world.damagesource.FallLocationType
----@class io.papermc.paper.world.damagesource.FallLocationType: net.kyori.adventure.translation.Translatable
+---@class io.papermc.paper.world.damagesource.FallLocationType: net.kyori.adventure.translation.Translatable, java.lang.Object
 ---@field public GENERIC io.papermc.paper.world.damagesource.FallLocationType
 ---@field public LADDER io.papermc.paper.world.damagesource.FallLocationType
 ---@field public VINES io.papermc.paper.world.damagesource.FallLocationType

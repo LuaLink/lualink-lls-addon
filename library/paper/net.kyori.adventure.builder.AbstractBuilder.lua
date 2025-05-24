@@ -1,11 +1,11 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.builder.AbstractBuilder
----@class net.kyori.adventure.builder.AbstractBuilder
+---@class net.kyori.adventure.builder.AbstractBuilder: java.lang.Object
 local AbstractBuilder = {}
 
 ---@param builder B the builder
----@param consumer java.util.function.Consumer the builder consume
+---@param consumer function the builder consume
 ---@public
 ---@return R the built thing
 --- Configures {@code builder} using {@code consumer} and then builds.

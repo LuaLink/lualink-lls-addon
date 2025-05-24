@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerItemHeldEvent
----@class org.bukkit.event.player.PlayerItemHeldEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.player.PlayerItemHeldEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private previous number
 ---@field private current number

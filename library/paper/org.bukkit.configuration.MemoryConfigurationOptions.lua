@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.configuration.MemoryConfigurationOptions
----@class org.bukkit.configuration.MemoryConfigurationOptions: org.bukkit.configuration.ConfigurationOptions
+---@class org.bukkit.configuration.MemoryConfigurationOptions: org.bukkit.configuration.ConfigurationOptions, java.lang.Object
 ---@overload fun(configuration: org.bukkit.configuration.MemoryConfiguration): org.bukkit.configuration.MemoryConfigurationOptions
 local MemoryConfigurationOptions = {}
 

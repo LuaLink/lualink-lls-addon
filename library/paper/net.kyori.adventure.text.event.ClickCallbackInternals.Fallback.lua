@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.event.ClickCallbackInternals.Fallback
----@class net.kyori.adventure.text.event.ClickCallbackInternals.Fallback: net.kyori.adventure.text.event.ClickCallback.Provider
+---@class net.kyori.adventure.text.event.ClickCallbackInternals.Fallback: net.kyori.adventure.text.event.ClickCallback.Provider, java.lang.Object
 local Fallback = {}
 
 ---@param callback net.kyori.adventure.text.event.ClickCallback 

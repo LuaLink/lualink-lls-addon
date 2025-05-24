@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse.PluginInformation
----@class com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse.PluginInformation
+---@class com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse.PluginInformation: java.lang.Object
 ---@field private name string
 ---@field private version string
 ---@overload fun(name: string, version: string): com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse.PluginInformation

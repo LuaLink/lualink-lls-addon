@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Door
----@class org.bukkit.block.data.type.Door: org.bukkit.block.data.Bisected, org.bukkit.block.data.Directional, org.bukkit.block.data.Openable, org.bukkit.block.data.Powerable
+---@class org.bukkit.block.data.type.Door: org.bukkit.block.data.Bisected, org.bukkit.block.data.Directional, org.bukkit.block.data.Openable, org.bukkit.block.data.Powerable, java.lang.Object
 ---@field public Hinge org.bukkit.block.data.type.Door.Hinge
 local Door = {}
 

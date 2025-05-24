@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Levelled
----@class org.bukkit.block.data.Levelled: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.Levelled: org.bukkit.block.data.BlockData, java.lang.Object
 local Levelled = {}
 
 ---@public

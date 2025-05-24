@@ -1,16 +1,16 @@
 --- Optional.empty
 ---@meta
 -- co.aikar.util.LoadingMap
----@class co.aikar.util.LoadingMap: java.util.AbstractMap
+---@class co.aikar.util.LoadingMap: java.util.AbstractMap, java.lang.Object
 ---@field private backingMap java.util.Map
----@field private loader java.util.function.Function
+---@field private loader function
 ---@field private AutoInstantiatingLoader co.aikar.util.LoadingMap.AutoInstantiatingLoader
 ---@field public Feeder co.aikar.util.LoadingMap.Feeder
----@overload fun(backingMap: java.util.Map, loader: java.util.function.Function): co.aikar.util.LoadingMap
+---@overload fun(backingMap: java.util.Map, loader: function): co.aikar.util.LoadingMap
 local LoadingMap = {}
 
 ---@param backingMap java.util.Map Actual map being used.
----@param loader java.util.function.Function Loader to use
+---@param loader function Loader to use
 ---@public
 ---@return java.util.Map Map
 --- Creates a new LoadingMap with the specified map and loader
@@ -57,20 +57,20 @@ function LoadingMap:newHashAutoMap(keyClass, valueClass, initialCapacity, loadFa
 ---@return java.util.Map Map that auto instantiates on .get()
 function LoadingMap:newHashAutoMap(valueClass, initialCapacity, loadFactor) end
 
----@param loader java.util.function.Function Loader to use
+---@param loader function Loader to use
 ---@public
 ---@return java.util.Map Map
 --- Initializes an auto loading map using a HashMap
 function LoadingMap:newHashMap(loader) end
 
----@param loader java.util.function.Function Loader to use
+---@param loader function Loader to use
 ---@param initialCapacity number Initial capacity to use
 ---@public
 ---@return java.util.Map Map
 --- Initializes an auto loading map using a HashMap
 function LoadingMap:newHashMap(loader, initialCapacity) end
 
----@param loader java.util.function.Function Loader to use
+---@param loader function Loader to use
 ---@param initialCapacity number Initial capacity to use
 ---@param loadFactor number Load factor to use
 ---@public
@@ -78,13 +78,13 @@ function LoadingMap:newHashMap(loader, initialCapacity) end
 --- Initializes an auto loading map using a HashMap
 function LoadingMap:newHashMap(loader, initialCapacity, loadFactor) end
 
----@param loader java.util.function.Function Loader to use
+---@param loader function Loader to use
 ---@public
 ---@return java.util.Map Map
 --- Initializes an auto loading map using an Identity HashMap
 function LoadingMap:newIdentityHashMap(loader) end
 
----@param loader java.util.function.Function Loader to use
+---@param loader function Loader to use
 ---@param initialCapacity number Initial capacity to use
 ---@public
 ---@return java.util.Map Map

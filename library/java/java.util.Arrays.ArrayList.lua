@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Arrays.ArrayList
----@class java.util.Arrays.ArrayList: java.util.AbstractList, java.util.RandomAccess, java.io.Serializable
+---@class java.util.Arrays.ArrayList: java.util.AbstractList, java.util.RandomAccess, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private a E
 ---@overload fun(array: table<E>): java.util.Arrays.ArrayList
@@ -45,7 +45,7 @@ function ArrayList:contains(o) end
 ---@return java.util.Spliterator 
 function ArrayList:spliterator() end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function ArrayList:forEach(action) end

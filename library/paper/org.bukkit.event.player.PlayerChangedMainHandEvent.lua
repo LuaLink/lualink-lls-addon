@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerChangedMainHandEvent
----@class org.bukkit.event.player.PlayerChangedMainHandEvent: org.bukkit.event.player.PlayerEvent
+---@class org.bukkit.event.player.PlayerChangedMainHandEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private newMainHand org.bukkit.inventory.MainHand
 ---@overload fun(player: org.bukkit.entity.Player, newMainHand: org.bukkit.inventory.MainHand): org.bukkit.event.player.PlayerChangedMainHandEvent

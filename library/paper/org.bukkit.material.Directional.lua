@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.material.Directional
----@class org.bukkit.material.Directional
+---@class org.bukkit.material.Directional: java.lang.Object
 local Directional = {}
 
 ---@param face org.bukkit.block.BlockFace The facing direction

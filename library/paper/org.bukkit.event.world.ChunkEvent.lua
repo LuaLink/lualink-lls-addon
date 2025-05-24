@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.world.ChunkEvent
----@class org.bukkit.event.world.ChunkEvent: org.bukkit.event.world.WorldEvent
+---@class org.bukkit.event.world.ChunkEvent: org.bukkit.event.world.WorldEvent, java.lang.Object
 ---@field protected chunk org.bukkit.Chunk
 ---@overload fun(chunk: org.bukkit.Chunk): org.bukkit.event.world.ChunkEvent
 local ChunkEvent = {}

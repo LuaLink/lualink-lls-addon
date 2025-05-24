@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.Trident
----@class org.bukkit.entity.Trident: org.bukkit.entity.AbstractArrow, org.bukkit.entity.ThrowableProjectile
+---@class org.bukkit.entity.Trident: org.bukkit.entity.AbstractArrow, org.bukkit.entity.ThrowableProjectile, java.lang.Object
 local Trident = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerBucketEvent
----@class org.bukkit.event.player.PlayerBucketEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.player.PlayerBucketEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private block org.bukkit.block.Block
 ---@field private blockClicked org.bukkit.block.Block
 ---@field private blockFace org.bukkit.block.BlockFace

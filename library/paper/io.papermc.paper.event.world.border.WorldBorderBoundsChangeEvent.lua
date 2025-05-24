@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.world.border.WorldBorderBoundsChangeEvent
----@class io.papermc.paper.event.world.border.WorldBorderBoundsChangeEvent: io.papermc.paper.event.world.border.WorldBorderEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.world.border.WorldBorderBoundsChangeEvent: io.papermc.paper.event.world.border.WorldBorderEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private type io.papermc.paper.event.world.border.WorldBorderBoundsChangeEvent.Type
 ---@field private oldSize number

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.advancement.AdvancementProgress
----@class org.bukkit.advancement.AdvancementProgress
+---@class org.bukkit.advancement.AdvancementProgress: java.lang.Object
 local AdvancementProgress = {}
 
 ---@public

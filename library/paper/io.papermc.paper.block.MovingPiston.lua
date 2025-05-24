@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.block.MovingPiston
----@class io.papermc.paper.block.MovingPiston: org.bukkit.block.TileState
+---@class io.papermc.paper.block.MovingPiston: org.bukkit.block.TileState, java.lang.Object
 local MovingPiston = {}
 
 ---@public

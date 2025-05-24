@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Bat
----@class org.bukkit.entity.Bat: org.bukkit.entity.Ambient
+---@class org.bukkit.entity.Bat: org.bukkit.entity.Ambient, java.lang.Object
 local Bat = {}
 
 ---@public

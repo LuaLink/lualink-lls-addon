@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.event.entity.ItemMergeEvent
----@class org.bukkit.event.entity.ItemMergeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.ItemMergeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private target org.bukkit.entity.Item
 ---@field private cancelled boolean

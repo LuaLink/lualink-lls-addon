@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.Bound
----@class java.util.regex.Pattern.Bound: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.Bound: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public LEFT number
 ---@field public RIGHT number
 ---@field public BOTH number

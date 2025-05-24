@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerStonecutterRecipeSelectEvent
----@class io.papermc.paper.event.player.PlayerStonecutterRecipeSelectEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.player.PlayerStonecutterRecipeSelectEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private stonecutterInventory org.bukkit.inventory.StonecutterInventory
 ---@field private stonecuttingRecipe org.bukkit.inventory.StonecuttingRecipe

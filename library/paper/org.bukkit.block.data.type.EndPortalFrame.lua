@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.EndPortalFrame
----@class org.bukkit.block.data.type.EndPortalFrame: org.bukkit.block.data.Directional
+---@class org.bukkit.block.data.type.EndPortalFrame: org.bukkit.block.data.Directional, java.lang.Object
 local EndPortalFrame = {}
 
 ---@public

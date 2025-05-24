@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.Curly
----@class java.util.regex.Pattern.Curly: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.Curly: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public atom java.util.regex.Pattern.Node
 ---@field public type java.util.regex.Pattern.Qtype
 ---@field public cmin number

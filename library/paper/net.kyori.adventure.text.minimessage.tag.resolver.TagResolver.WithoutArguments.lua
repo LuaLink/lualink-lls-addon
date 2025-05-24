@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments
----@class net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
+---@class net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, java.lang.Object
 local WithoutArguments = {}
 
 ---@param name string the provided name

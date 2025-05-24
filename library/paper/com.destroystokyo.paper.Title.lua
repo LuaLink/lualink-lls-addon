@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.Title
----@class com.destroystokyo.paper.Title
+---@class com.destroystokyo.paper.Title: java.lang.Object
 ---@field public DEFAULT_FADE_IN number
 ---@field public DEFAULT_STAY number
 ---@field public DEFAULT_FADE_OUT number

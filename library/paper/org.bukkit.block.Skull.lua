@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Skull
----@class org.bukkit.block.Skull: org.bukkit.block.TileState
+---@class org.bukkit.block.Skull: org.bukkit.block.TileState, java.lang.Object
 local Skull = {}
 
 ---@public

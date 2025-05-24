@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- co.aikar.timings.Timing
----@class co.aikar.timings.Timing: java.lang.AutoCloseable
+---@class co.aikar.timings.Timing: java.lang.AutoCloseable, java.lang.Object
 local Timing = {}
 
 ---@public

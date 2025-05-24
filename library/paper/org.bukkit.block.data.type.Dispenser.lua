@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Dispenser
----@class org.bukkit.block.data.type.Dispenser: org.bukkit.block.data.Directional
+---@class org.bukkit.block.data.type.Dispenser: org.bukkit.block.data.Directional, java.lang.Object
 local Dispenser = {}
 
 ---@public

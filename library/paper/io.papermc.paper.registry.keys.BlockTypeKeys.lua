@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.BlockTypeKeys
----@class io.papermc.paper.registry.keys.BlockTypeKeys
+---@class io.papermc.paper.registry.keys.BlockTypeKeys: java.lang.Object
 ---@field public ACACIA_BUTTON io.papermc.paper.registry.TypedKey
 ---@field public ACACIA_DOOR io.papermc.paper.registry.TypedKey
 ---@field public ACACIA_FENCE io.papermc.paper.registry.TypedKey

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver
----@class io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver: io.papermc.paper.plugin.loader.library.ClassPathLibrary
+---@class io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver: io.papermc.paper.plugin.loader.library.ClassPathLibrary, java.lang.Object
 ---@field private LOGGER any
 ---@field private repository any
 ---@field private session any

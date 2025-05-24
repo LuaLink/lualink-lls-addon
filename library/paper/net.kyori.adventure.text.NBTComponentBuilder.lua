@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.NBTComponentBuilder
----@class net.kyori.adventure.text.NBTComponentBuilder: net.kyori.adventure.text.ComponentBuilder
+---@class net.kyori.adventure.text.NBTComponentBuilder: net.kyori.adventure.text.ComponentBuilder, java.lang.Object
 local NBTComponentBuilder = {}
 
 ---@param nbtPath string the NBT path

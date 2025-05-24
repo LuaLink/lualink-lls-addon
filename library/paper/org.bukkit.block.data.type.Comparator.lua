@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Comparator
----@class org.bukkit.block.data.type.Comparator: org.bukkit.block.data.Directional, org.bukkit.block.data.Powerable
+---@class org.bukkit.block.data.type.Comparator: org.bukkit.block.data.Directional, org.bukkit.block.data.Powerable, java.lang.Object
 ---@field public Mode org.bukkit.block.data.type.Comparator.Mode
 local Comparator = {}
 

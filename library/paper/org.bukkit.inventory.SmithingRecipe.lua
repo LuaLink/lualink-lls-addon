@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.SmithingRecipe
----@class org.bukkit.inventory.SmithingRecipe: org.bukkit.inventory.Recipe, org.bukkit.Keyed
+---@class org.bukkit.inventory.SmithingRecipe: org.bukkit.inventory.Recipe, org.bukkit.Keyed, java.lang.Object
 ---@field private key org.bukkit.NamespacedKey
 ---@field private result org.bukkit.inventory.ItemStack
 ---@field private base org.bukkit.inventory.RecipeChoice

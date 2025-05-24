@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.PrePlayerAttackEntityEvent
----@class io.papermc.paper.event.player.PrePlayerAttackEntityEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.player.PrePlayerAttackEntityEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private attacked org.bukkit.entity.Entity
 ---@field private willAttack boolean

@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.Tool.Rule
----@class io.papermc.paper.datacomponent.item.Tool.Rule
+---@class io.papermc.paper.datacomponent.item.Tool.Rule: java.lang.Object
 local Rule = {}
 
 ---@public

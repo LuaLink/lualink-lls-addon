@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.datacomponent.DataComponentType
----@class io.papermc.paper.datacomponent.DataComponentType: org.bukkit.Keyed
+---@class io.papermc.paper.datacomponent.DataComponentType: org.bukkit.Keyed, java.lang.Object
 ---@field public Valued io.papermc.paper.datacomponent.DataComponentType.Valued
 ---@field public NonValued io.papermc.paper.datacomponent.DataComponentType.NonValued
 local DataComponentType = {}

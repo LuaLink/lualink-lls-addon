@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.Player.Spigot
----@class org.bukkit.entity.Player.Spigot: org.bukkit.entity.Entity.Spigot
+---@class org.bukkit.entity.Player.Spigot: org.bukkit.entity.Entity.Spigot, java.lang.Object
 local Spigot = {}
 
 ---@public

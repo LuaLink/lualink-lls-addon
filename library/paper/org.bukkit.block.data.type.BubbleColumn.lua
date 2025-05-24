@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.BubbleColumn
----@class org.bukkit.block.data.type.BubbleColumn: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.type.BubbleColumn: org.bukkit.block.data.BlockData, java.lang.Object
 local BubbleColumn = {}
 
 ---@public

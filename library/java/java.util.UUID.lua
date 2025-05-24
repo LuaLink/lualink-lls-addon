@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.UUID
----@class java.util.UUID: java.io.Serializable, java.lang.Comparable
+---@class java.util.UUID: java.io.Serializable, java.lang.Comparable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private mostSigBits number
 ---@field private leastSigBits number

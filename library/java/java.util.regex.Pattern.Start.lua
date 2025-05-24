@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.Start
----@class java.util.regex.Pattern.Start: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.Start: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public minLength number
 ---@overload fun(node: java.util.regex.Pattern.Node): java.util.regex.Pattern.Start
 local Start = {}

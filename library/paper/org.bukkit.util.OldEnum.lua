@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.OldEnum
----@class org.bukkit.util.OldEnum: java.lang.Comparable
+---@class org.bukkit.util.OldEnum: java.lang.Comparable, java.lang.Object
 local OldEnum = {}
 
 ---@deprecated

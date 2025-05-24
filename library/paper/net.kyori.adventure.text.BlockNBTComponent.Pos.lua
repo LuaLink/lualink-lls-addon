@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.BlockNBTComponent.Pos
----@class net.kyori.adventure.text.BlockNBTComponent.Pos: any
+---@class net.kyori.adventure.text.BlockNBTComponent.Pos: any, java.lang.Object
 local Pos = {}
 
 ---@param input string input

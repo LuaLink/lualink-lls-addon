@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.TextReplacementConfig.Condition
----@class net.kyori.adventure.text.TextReplacementConfig.Condition
+---@class net.kyori.adventure.text.TextReplacementConfig.Condition: java.lang.Object
 local Condition = {}
 
 ---@param result java.util.regex.MatchResult the current match result

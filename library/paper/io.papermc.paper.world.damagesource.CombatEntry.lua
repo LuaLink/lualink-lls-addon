@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.world.damagesource.CombatEntry
----@class io.papermc.paper.world.damagesource.CombatEntry
+---@class io.papermc.paper.world.damagesource.CombatEntry: java.lang.Object
 local CombatEntry = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.ScopedComponent
----@class net.kyori.adventure.text.ScopedComponent: net.kyori.adventure.text.Component
+---@class net.kyori.adventure.text.ScopedComponent: net.kyori.adventure.text.Component, java.lang.Object
 local ScopedComponent = {}
 
 ---@public
@@ -18,7 +18,7 @@ function ScopedComponent:children(children) end
 ---@return C 
 function ScopedComponent:style(style) end
 
----@param style java.util.function.Consumer 
+---@param style function 
 ---@public
 ---@return C 
 function ScopedComponent:style(style) end
@@ -28,7 +28,7 @@ function ScopedComponent:style(style) end
 ---@return C 
 function ScopedComponent:style(style) end
 
----@param consumer java.util.function.Consumer 
+---@param consumer function 
 ---@param strategy net.kyori.adventure.text.format.Style.Merge.Strategy 
 ---@public
 ---@return C 

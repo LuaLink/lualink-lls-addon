@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BlockPistonEvent
----@class org.bukkit.event.block.BlockPistonEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.block.BlockPistonEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private direction org.bukkit.block.BlockFace
 ---@field private cancelled boolean
 ---@overload fun(block: org.bukkit.block.Block, direction: org.bukkit.block.BlockFace): org.bukkit.event.block.BlockPistonEvent

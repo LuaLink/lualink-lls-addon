@@ -1,13 +1,13 @@
 ---@meta
 -- io.papermc.paper.registry.data.InlinedRegistryBuilderProvider
----@class io.papermc.paper.registry.data.InlinedRegistryBuilderProvider
+---@class io.papermc.paper.registry.data.InlinedRegistryBuilderProvider: java.lang.Object
 local InlinedRegistryBuilderProvider = {}
 
 ---@public
 ---@return io.papermc.paper.registry.data.InlinedRegistryBuilderProvider 
 function InlinedRegistryBuilderProvider:instance() end
 
----@param value java.util.function.Consumer 
+---@param value function 
 ---@public
 ---@return org.bukkit.Art 
 function InlinedRegistryBuilderProvider:createPaintingVariant(value) end

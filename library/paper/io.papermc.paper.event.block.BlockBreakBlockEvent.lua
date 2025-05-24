@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.block.BlockBreakBlockEvent
----@class io.papermc.paper.event.block.BlockBreakBlockEvent: org.bukkit.event.block.BlockExpEvent
+---@class io.papermc.paper.event.block.BlockBreakBlockEvent: org.bukkit.event.block.BlockExpEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private source org.bukkit.block.Block
 ---@field private drops java.util.List

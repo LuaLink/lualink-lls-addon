@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.AbstractComponentBuilder
----@class net.kyori.adventure.text.AbstractComponentBuilder: net.kyori.adventure.text.ComponentBuilder
+---@class net.kyori.adventure.text.AbstractComponentBuilder: net.kyori.adventure.text.ComponentBuilder, java.lang.Object
 ---@field protected children java.util.List
 ---@field private style net.kyori.adventure.text.format.Style
 ---@field private styleBuilder net.kyori.adventure.text.format.Style.Builder
@@ -33,17 +33,17 @@ function AbstractComponentBuilder:append(components) end
 ---@return nil 
 function AbstractComponentBuilder:prepareChildren() end
 
----@param consumer java.util.function.Consumer 
+---@param consumer function 
 ---@public
 ---@return B 
 function AbstractComponentBuilder:applyDeep(consumer) end
 
----@param function java.util.function.Function 
+---@param function function 
 ---@public
 ---@return B 
 function AbstractComponentBuilder:mapChildren(function) end
 
----@param function java.util.function.Function 
+---@param function function 
 ---@public
 ---@return B 
 function AbstractComponentBuilder:mapChildrenDeep(function) end
@@ -57,7 +57,7 @@ function AbstractComponentBuilder:children() end
 ---@return B 
 function AbstractComponentBuilder:style(style) end
 
----@param consumer java.util.function.Consumer 
+---@param consumer function 
 ---@public
 ---@return B 
 function AbstractComponentBuilder:style(consumer) end

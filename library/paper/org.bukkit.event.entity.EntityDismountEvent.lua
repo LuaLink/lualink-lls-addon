@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.EntityDismountEvent
----@class org.bukkit.event.entity.EntityDismountEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.EntityDismountEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private dismounted org.bukkit.entity.Entity
 ---@field private isCancellable boolean

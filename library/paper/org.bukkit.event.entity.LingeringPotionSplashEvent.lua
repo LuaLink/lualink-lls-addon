@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.LingeringPotionSplashEvent
----@class org.bukkit.event.entity.LingeringPotionSplashEvent: org.bukkit.event.entity.ProjectileHitEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.LingeringPotionSplashEvent: org.bukkit.event.entity.ProjectileHitEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private effectCloud org.bukkit.entity.AreaEffectCloud
 ---@field private allowEmptyAreaEffectCreation boolean

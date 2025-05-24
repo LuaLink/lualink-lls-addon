@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.OminousBottleAmplifier
----@class io.papermc.paper.datacomponent.item.OminousBottleAmplifier
+---@class io.papermc.paper.datacomponent.item.OminousBottleAmplifier: java.lang.Object
 local OminousBottleAmplifier = {}
 
 ---@param amplifier number 

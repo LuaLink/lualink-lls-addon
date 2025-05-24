@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.RainbowTag
----@class net.kyori.adventure.text.minimessage.tag.standard.RainbowTag: net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag
+---@class net.kyori.adventure.text.minimessage.tag.standard.RainbowTag: net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag, java.lang.Object
 ---@field private REVERSE string
 ---@field private RAINBOW string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver

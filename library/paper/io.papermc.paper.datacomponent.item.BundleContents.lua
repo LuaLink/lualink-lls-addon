@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.BundleContents
----@class io.papermc.paper.datacomponent.item.BundleContents
+---@class io.papermc.paper.datacomponent.item.BundleContents: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.BundleContents.Builder
 local BundleContents = {}
 

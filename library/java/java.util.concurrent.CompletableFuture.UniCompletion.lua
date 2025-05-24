@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.concurrent.CompletableFuture.UniCompletion
----@class java.util.concurrent.CompletableFuture.UniCompletion: java.util.concurrent.CompletableFuture.Completion
+---@class java.util.concurrent.CompletableFuture.UniCompletion: java.util.concurrent.CompletableFuture.Completion, java.lang.Object
 ---@field public executor java.util.concurrent.Executor
 ---@field public dep java.util.concurrent.CompletableFuture
 ---@field public src java.util.concurrent.CompletableFuture

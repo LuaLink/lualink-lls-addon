@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.EntityPotionEffectEvent
----@class org.bukkit.event.entity.EntityPotionEffectEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.EntityPotionEffectEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private oldEffect org.bukkit.potion.PotionEffect
 ---@field private newEffect org.bukkit.potion.PotionEffect

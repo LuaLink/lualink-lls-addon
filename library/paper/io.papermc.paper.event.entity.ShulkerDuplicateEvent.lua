@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.entity.ShulkerDuplicateEvent
----@class io.papermc.paper.event.entity.ShulkerDuplicateEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.entity.ShulkerDuplicateEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private parent org.bukkit.entity.Shulker
 ---@field private cancelled boolean

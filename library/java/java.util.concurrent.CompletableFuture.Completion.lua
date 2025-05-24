@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.concurrent.CompletableFuture.Completion
----@class java.util.concurrent.CompletableFuture.Completion: java.util.concurrent.ForkJoinTask, java.lang.Runnable, java.util.concurrent.CompletableFuture.AsynchronousCompletionTask
+---@class java.util.concurrent.CompletableFuture.Completion: java.util.concurrent.ForkJoinTask, function, java.util.concurrent.CompletableFuture.AsynchronousCompletionTask, java.lang.Object
 ---@field public next java.util.concurrent.CompletableFuture.Completion
 local Completion = {}
 

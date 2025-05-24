@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.EntitySnapshot
----@class org.bukkit.entity.EntitySnapshot
+---@class org.bukkit.entity.EntitySnapshot: java.lang.Object
 local EntitySnapshot = {}
 
 ---@param world org.bukkit.World the world to create the entity in

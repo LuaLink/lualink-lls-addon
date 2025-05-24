@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.command.defaults.ReloadCommand
----@class org.bukkit.command.defaults.ReloadCommand: org.bukkit.command.defaults.BukkitCommand
+---@class org.bukkit.command.defaults.ReloadCommand: org.bukkit.command.defaults.BukkitCommand, java.lang.Object
 ---@field public RELOADING_DISABLED_MESSAGE string
 ---@overload fun(name: string): org.bukkit.command.defaults.ReloadCommand
 local ReloadCommand = {}

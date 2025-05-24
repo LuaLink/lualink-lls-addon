@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.SequentialTagResolver
----@class net.kyori.adventure.text.minimessage.tag.resolver.SequentialTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver
+---@class net.kyori.adventure.text.minimessage.tag.resolver.SequentialTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver, java.lang.Object
 ---@field public resolvers net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@overload fun(resolvers: table<TagResolver>): net.kyori.adventure.text.minimessage.tag.resolver.SequentialTagResolver
 local SequentialTagResolver = {}
@@ -18,7 +18,7 @@ function SequentialTagResolver:resolve(name, arguments, ctx) end
 function SequentialTagResolver:has(name) end
 
 ---@param serializable net.kyori.adventure.text.Component 
----@param consumer net.kyori.adventure.text.minimessage.internal.serializer.ClaimConsumer 
+---@param consumer function 
 ---@public
 ---@return nil 
 function SequentialTagResolver:handle(serializable, consumer) end

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Villager.Profession
----@class org.bukkit.entity.Villager.Profession: org.bukkit.util.OldEnum, org.bukkit.Keyed, net.kyori.adventure.translation.Translatable
+---@class org.bukkit.entity.Villager.Profession: org.bukkit.util.OldEnum, org.bukkit.Keyed, net.kyori.adventure.translation.Translatable, java.lang.Object
 ---@field public ARMORER org.bukkit.entity.Villager.Profession
 ---@field public BUTCHER org.bukkit.entity.Villager.Profession
 ---@field public CARTOGRAPHER org.bukkit.entity.Villager.Profession

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.ArrayList
----@class java.util.ArrayList: java.util.AbstractList, java.util.List, java.util.RandomAccess, java.lang.Cloneable, java.io.Serializable
+---@class java.util.ArrayList: java.util.AbstractList, java.util.List, java.util.RandomAccess, java.lang.Cloneable, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private DEFAULT_CAPACITY number
 ---@field private EMPTY_ELEMENTDATA java.lang.Object
@@ -333,7 +333,7 @@ function ArrayList:iterator() end
 --- Returns a view of the portion of this list between the specified {@code fromIndex}, inclusive, and {@code toIndex}, exclusive.  (If {@code fromIndex} and {@code toIndex} are equal, the returned list is empty.)  The returned list is backed by this list, so non-structural changes in the returned list are reflected in this list, and vice-versa. The returned list supports all of the optional list operations.  <p>This method eliminates the need for explicit range operations (of the sort that commonly exist for arrays).  Any operation that expects a list can be used as a range operation by passing a subList view instead of a whole list.  For example, the following idiom removes a range of elements from a list: <pre>      list.subList(from, to).clear(); </pre> Similar idioms may be constructed for {@link #indexOf(Object)} and {@link #lastIndexOf(Object)}, and all of the algorithms in the {@link Collections} class can be applied to a subList.  <p>The semantics of the list returned by this method become undefined if the backing list (i.e., this list) is <i>structurally modified</i> in any way other than via the returned list.  (Structural modifications are those that change the size of this list, or otherwise perturb it in such a fashion that iterations in progress may yield incorrect results.)
 function ArrayList:subList(fromIndex, toIndex) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function ArrayList:forEach(action) end
@@ -360,12 +360,12 @@ function ArrayList:setBit(bits, i) end
 ---@return boolean 
 function ArrayList:isClear(bits, i) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return boolean 
 function ArrayList:removeIf(filter) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@param i number 
 ---@param end number 
 ---@public

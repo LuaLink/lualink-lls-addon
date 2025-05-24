@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.HashMap.EntrySet
----@class java.util.HashMap.EntrySet: java.util.AbstractSet
+---@class java.util.HashMap.EntrySet: java.util.AbstractSet, java.lang.Object
 local EntrySet = {}
 
 ---@public
@@ -29,7 +29,7 @@ function EntrySet:remove(o) end
 ---@return java.util.Spliterator 
 function EntrySet:spliterator() end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function EntrySet:forEach(action) end

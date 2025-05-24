@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.command.CommandMap
----@class org.bukkit.command.CommandMap
+---@class org.bukkit.command.CommandMap: java.lang.Object
 local CommandMap = {}
 
 ---@param fallbackPrefix string a prefix which is prepended to each command with     a ':' one or more times to make the command unique

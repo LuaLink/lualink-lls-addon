@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.BehindS
----@class java.util.regex.Pattern.BehindS: java.util.regex.Pattern.Behind
+---@class java.util.regex.Pattern.BehindS: java.util.regex.Pattern.Behind, java.lang.Object
 ---@overload fun(cond: java.util.regex.Pattern.Node, rmax: number, rmin: number): java.util.regex.Pattern.BehindS
 local BehindS = {}
 

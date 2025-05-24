@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.PlayerInsertLecternBookEvent
----@class io.papermc.paper.event.player.PlayerInsertLecternBookEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.player.PlayerInsertLecternBookEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cancelled boolean
 ---@field private block org.bukkit.block.Block

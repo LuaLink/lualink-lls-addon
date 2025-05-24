@@ -1,14 +1,14 @@
 ---@meta
 -- net.kyori.adventure.text.flattener.ComponentFlattenerImpl
----@class net.kyori.adventure.text.flattener.ComponentFlattenerImpl: net.kyori.adventure.text.flattener.ComponentFlattener
+---@class net.kyori.adventure.text.flattener.ComponentFlattenerImpl: net.kyori.adventure.text.flattener.ComponentFlattener, java.lang.Object
 ---@field public BASIC net.kyori.adventure.text.flattener.ComponentFlattener
 ---@field public TEXT_ONLY net.kyori.adventure.text.flattener.ComponentFlattener
 ---@field private MAX_DEPTH number
 ---@field private flatteners net.kyori.adventure.util.InheritanceAwareMap
----@field private unknownHandler java.util.function.Function
+---@field private unknownHandler function
 ---@field public Handler net.kyori.adventure.text.flattener.ComponentFlattenerImpl.Handler
 ---@field public BuilderImpl net.kyori.adventure.text.flattener.ComponentFlattenerImpl.BuilderImpl
----@overload fun(flatteners: net.kyori.adventure.util.InheritanceAwareMap, unknownHandler: java.util.function.Function): net.kyori.adventure.text.flattener.ComponentFlattenerImpl
+---@overload fun(flatteners: net.kyori.adventure.util.InheritanceAwareMap, unknownHandler: function): net.kyori.adventure.text.flattener.ComponentFlattenerImpl
 local ComponentFlattenerImpl = {}
 
 ---@param input net.kyori.adventure.text.Component 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.permissions.Permission
----@class org.bukkit.permissions.Permission
+---@class org.bukkit.permissions.Permission: java.lang.Object
 ---@field public DEFAULT_PERMISSION org.bukkit.permissions.PermissionDefault
 ---@field private name string
 ---@field private children java.util.Map

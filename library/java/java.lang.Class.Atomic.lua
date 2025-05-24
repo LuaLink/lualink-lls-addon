@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.lang.Class.Atomic
----@class java.lang.Class.Atomic
+---@class java.lang.Class.Atomic: java.lang.Object
 ---@field private unsafe any
 ---@field private reflectionDataOffset number
 ---@field private annotationTypeOffset number

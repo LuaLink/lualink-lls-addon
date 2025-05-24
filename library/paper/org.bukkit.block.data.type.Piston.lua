@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Piston
----@class org.bukkit.block.data.type.Piston: org.bukkit.block.data.Directional
+---@class org.bukkit.block.data.type.Piston: org.bukkit.block.data.Directional, java.lang.Object
 local Piston = {}
 
 ---@public

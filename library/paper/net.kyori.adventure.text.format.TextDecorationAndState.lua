@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.format.TextDecorationAndState
----@class net.kyori.adventure.text.format.TextDecorationAndState: any, net.kyori.adventure.text.format.StyleBuilderApplicable
+---@class net.kyori.adventure.text.format.TextDecorationAndState: any, net.kyori.adventure.text.format.StyleBuilderApplicable, java.lang.Object
 local TextDecorationAndState = {}
 
 ---@public

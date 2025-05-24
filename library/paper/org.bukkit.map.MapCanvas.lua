@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.map.MapCanvas
----@class org.bukkit.map.MapCanvas
+---@class org.bukkit.map.MapCanvas: java.lang.Object
 local MapCanvas = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.FlowerPot
----@class org.bukkit.material.FlowerPot: org.bukkit.material.MaterialData
+---@class org.bukkit.material.FlowerPot: org.bukkit.material.MaterialData, java.lang.Object
 ---@overload fun(): org.bukkit.material.FlowerPot
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.FlowerPot
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.FlowerPot

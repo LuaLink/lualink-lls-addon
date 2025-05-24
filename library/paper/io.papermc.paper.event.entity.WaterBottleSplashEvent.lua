@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.entity.WaterBottleSplashEvent
----@class io.papermc.paper.event.entity.WaterBottleSplashEvent: org.bukkit.event.entity.PotionSplashEvent
+---@class io.papermc.paper.event.entity.WaterBottleSplashEvent: org.bukkit.event.entity.PotionSplashEvent, java.lang.Object
 ---@field private rehydrate java.util.Set
 ---@field private extinguish java.util.Set
 ---@overload fun(potion: org.bukkit.entity.ThrownPotion, hitEntity: org.bukkit.entity.Entity, hitBlock: org.bukkit.block.Block, hitFace: org.bukkit.block.BlockFace, affectedEntities: java.util.Map, rehydrate: java.util.Set, extinguish: java.util.Set): io.papermc.paper.event.entity.WaterBottleSplashEvent

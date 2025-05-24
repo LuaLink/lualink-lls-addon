@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Cat
----@class org.bukkit.entity.Cat: org.bukkit.entity.Tameable, org.bukkit.entity.Sittable, io.papermc.paper.entity.CollarColorable
+---@class org.bukkit.entity.Cat: org.bukkit.entity.Tameable, org.bukkit.entity.Sittable, io.papermc.paper.entity.CollarColorable, java.lang.Object
 ---@field public Type org.bukkit.entity.Cat.Type
 local Cat = {}
 

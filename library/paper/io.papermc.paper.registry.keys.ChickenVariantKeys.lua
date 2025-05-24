@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.ChickenVariantKeys
----@class io.papermc.paper.registry.keys.ChickenVariantKeys
+---@class io.papermc.paper.registry.keys.ChickenVariantKeys: java.lang.Object
 ---@field public COLD io.papermc.paper.registry.TypedKey
 ---@field public TEMPERATE io.papermc.paper.registry.TypedKey
 ---@field public WARM io.papermc.paper.registry.TypedKey

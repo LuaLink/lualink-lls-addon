@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.provider.classloader.PaperClassLoaderStorage
----@class io.papermc.paper.plugin.provider.classloader.PaperClassLoaderStorage
+---@class io.papermc.paper.plugin.provider.classloader.PaperClassLoaderStorage: java.lang.Object
 local PaperClassLoaderStorage = {}
 
 ---@public

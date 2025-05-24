@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.enchantments.Enchantment
----@class org.bukkit.enchantments.Enchantment: org.bukkit.Keyed, org.bukkit.Translatable, net.kyori.adventure.translation.Translatable
+---@class org.bukkit.enchantments.Enchantment: org.bukkit.Keyed, org.bukkit.Translatable, net.kyori.adventure.translation.Translatable, java.lang.Object
 ---@field public PROTECTION org.bukkit.enchantments.Enchantment
 ---@field public FIRE_PROTECTION org.bukkit.enchantments.Enchantment
 ---@field public FEATHER_FALLING org.bukkit.enchantments.Enchantment

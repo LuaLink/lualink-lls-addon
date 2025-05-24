@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.scoreboard.Criteria
----@class org.bukkit.scoreboard.Criteria
+---@class org.bukkit.scoreboard.Criteria: java.lang.Object
 ---@field public DUMMY org.bukkit.scoreboard.Criteria
 ---@field public TRIGGER org.bukkit.scoreboard.Criteria
 ---@field public DEATH_COUNT org.bukkit.scoreboard.Criteria

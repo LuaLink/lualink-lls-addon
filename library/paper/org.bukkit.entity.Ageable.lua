@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Ageable
----@class org.bukkit.entity.Ageable: org.bukkit.entity.Creature
+---@class org.bukkit.entity.Ageable: org.bukkit.entity.Creature, java.lang.Object
 local Ageable = {}
 
 ---@public

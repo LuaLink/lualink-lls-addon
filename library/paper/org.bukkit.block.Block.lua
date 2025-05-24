@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Block
----@class org.bukkit.block.Block: org.bukkit.metadata.Metadatable, org.bukkit.Translatable, net.kyori.adventure.translation.Translatable
+---@class org.bukkit.block.Block: org.bukkit.metadata.Metadatable, org.bukkit.Translatable, net.kyori.adventure.translation.Translatable, java.lang.Object
 local Block = {}
 
 ---@deprecated

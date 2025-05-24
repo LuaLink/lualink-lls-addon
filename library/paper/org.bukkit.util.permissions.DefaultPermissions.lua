@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.util.permissions.DefaultPermissions
----@class org.bukkit.util.permissions.DefaultPermissions
+---@class org.bukkit.util.permissions.DefaultPermissions: java.lang.Object
 ---@field private ROOT string
 ---@field private LEGACY_PREFIX string
 ---@overload fun(): org.bukkit.util.permissions.DefaultPermissions

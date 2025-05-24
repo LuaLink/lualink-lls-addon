@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.format.DecorationMap.Values
----@class net.kyori.adventure.text.format.DecorationMap.Values: java.util.AbstractCollection
+---@class net.kyori.adventure.text.format.DecorationMap.Values: java.util.AbstractCollection, java.lang.Object
 local Values = {}
 
 ---@public

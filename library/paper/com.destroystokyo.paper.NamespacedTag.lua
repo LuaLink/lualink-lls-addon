@@ -1,6 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.NamespacedTag
----@class com.destroystokyo.paper.NamespacedTag: com.destroystokyo.paper.Namespaced
+---@class com.destroystokyo.paper.NamespacedTag: com.destroystokyo.paper.Namespaced, java.lang.Object
 ---@field public MINECRAFT string
 ---@field public BUKKIT string
 ---@field private VALID_NAMESPACE java.util.regex.Pattern

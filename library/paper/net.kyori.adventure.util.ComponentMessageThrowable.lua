@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.ComponentMessageThrowable
----@class net.kyori.adventure.util.ComponentMessageThrowable
+---@class net.kyori.adventure.util.ComponentMessageThrowable: java.lang.Object
 local ComponentMessageThrowable = {}
 
 ---@param throwable java.lang.Throwable the throwable

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.block.TileStateInventoryHolder
----@class io.papermc.paper.block.TileStateInventoryHolder: org.bukkit.block.TileState, org.bukkit.inventory.BlockInventoryHolder
+---@class io.papermc.paper.block.TileStateInventoryHolder: org.bukkit.block.TileState, org.bukkit.inventory.BlockInventoryHolder, java.lang.Object
 local TileStateInventoryHolder = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.AnvilInventory
----@class org.bukkit.inventory.AnvilInventory: org.bukkit.inventory.Inventory
+---@class org.bukkit.inventory.AnvilInventory: org.bukkit.inventory.Inventory, java.lang.Object
 local AnvilInventory = {}
 
 ---@deprecated

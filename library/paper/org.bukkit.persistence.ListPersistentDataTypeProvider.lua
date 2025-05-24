@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.persistence.ListPersistentDataTypeProvider
----@class org.bukkit.persistence.ListPersistentDataTypeProvider
+---@class org.bukkit.persistence.ListPersistentDataTypeProvider: java.lang.Object
 ---@field private BYTE org.bukkit.persistence.ListPersistentDataType
 ---@field private SHORT org.bukkit.persistence.ListPersistentDataType
 ---@field private INTEGER org.bukkit.persistence.ListPersistentDataType

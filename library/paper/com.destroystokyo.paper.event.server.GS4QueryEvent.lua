@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.server.GS4QueryEvent
----@class com.destroystokyo.paper.event.server.GS4QueryEvent: org.bukkit.event.Event
+---@class com.destroystokyo.paper.event.server.GS4QueryEvent: org.bukkit.event.Event, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private queryType com.destroystokyo.paper.event.server.GS4QueryEvent.QueryType
 ---@field private querierAddress java.net.InetAddress

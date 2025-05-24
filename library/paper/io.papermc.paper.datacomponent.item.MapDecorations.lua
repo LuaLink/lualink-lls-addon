@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.MapDecorations
----@class io.papermc.paper.datacomponent.item.MapDecorations
+---@class io.papermc.paper.datacomponent.item.MapDecorations: java.lang.Object
 ---@field public DecorationEntry io.papermc.paper.datacomponent.item.MapDecorations.DecorationEntry
 ---@field public Builder io.papermc.paper.datacomponent.item.MapDecorations.Builder
 local MapDecorations = {}

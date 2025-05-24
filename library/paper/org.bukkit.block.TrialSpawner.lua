@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.TrialSpawner
----@class org.bukkit.block.TrialSpawner: org.bukkit.block.TileState
+---@class org.bukkit.block.TrialSpawner: org.bukkit.block.TileState, java.lang.Object
 local TrialSpawner = {}
 
 ---@public

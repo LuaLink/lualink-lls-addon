@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Furnace
----@class org.bukkit.block.Furnace: org.bukkit.block.Container
+---@class org.bukkit.block.Furnace: org.bukkit.block.Container, java.lang.Object
 local Furnace = {}
 
 ---@public

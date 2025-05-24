@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Strider
----@class org.bukkit.entity.Strider: org.bukkit.entity.Steerable, org.bukkit.entity.Vehicle
+---@class org.bukkit.entity.Strider: org.bukkit.entity.Steerable, org.bukkit.entity.Vehicle, java.lang.Object
 local Strider = {}
 
 ---@public

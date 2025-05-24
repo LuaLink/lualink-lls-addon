@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.concurrent.CompletableFuture.AnyOf
----@class java.util.concurrent.CompletableFuture.AnyOf: java.util.concurrent.CompletableFuture.Completion
+---@class java.util.concurrent.CompletableFuture.AnyOf: java.util.concurrent.CompletableFuture.Completion, java.lang.Object
 ---@field public dep java.util.concurrent.CompletableFuture
 ---@field public src java.util.concurrent.CompletableFuture
 ---@field public srcs java.util.concurrent.CompletableFuture

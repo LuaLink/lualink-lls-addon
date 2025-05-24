@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Keyed
----@class org.bukkit.Keyed: any
+---@class org.bukkit.Keyed: any, java.lang.Object
 local Keyed = {}
 
 ---@public

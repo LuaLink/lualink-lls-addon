@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.text.DecimalFormat.FastPathData
----@class java.text.DecimalFormat.FastPathData
+---@class java.text.DecimalFormat.FastPathData: java.lang.Object
 ---@field public lastFreeIndex number
 ---@field public firstUsedIndex number
 ---@field public zeroDelta number

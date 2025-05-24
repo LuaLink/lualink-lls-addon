@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.CartographyInventory
----@class org.bukkit.inventory.CartographyInventory: org.bukkit.inventory.Inventory
+---@class org.bukkit.inventory.CartographyInventory: org.bukkit.inventory.Inventory, java.lang.Object
 local CartographyInventory = {}
 
 ---@public

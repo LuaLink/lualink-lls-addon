@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.LinearComponents
----@class net.kyori.adventure.text.LinearComponents
+---@class net.kyori.adventure.text.LinearComponents: java.lang.Object
 ---@overload fun(): net.kyori.adventure.text.LinearComponents
 local LinearComponents = {}
 

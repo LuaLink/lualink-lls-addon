@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Nameable
----@class org.bukkit.Nameable
+---@class org.bukkit.Nameable: java.lang.Object
 local Nameable = {}
 
 ---@public

@@ -1,6 +1,6 @@
 ---@meta
 -- java.io.File
----@class java.io.File: java.io.Serializable, java.lang.Comparable
+---@class java.io.File: java.io.Serializable, java.lang.Comparable, java.lang.Object
 ---@field private FS java.io.FileSystem
 ---@field private path string
 ---@field private status java.io.File.PathStatus

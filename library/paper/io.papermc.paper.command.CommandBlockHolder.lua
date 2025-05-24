@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.command.CommandBlockHolder
----@class io.papermc.paper.command.CommandBlockHolder
+---@class io.papermc.paper.command.CommandBlockHolder: java.lang.Object
 local CommandBlockHolder = {}
 
 ---@public

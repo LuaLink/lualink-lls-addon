@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Input
----@class org.bukkit.Input
+---@class org.bukkit.Input: java.lang.Object
 local Input = {}
 
 ---@public

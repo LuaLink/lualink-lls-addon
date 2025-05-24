@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.BlockNBTComponent
----@class net.kyori.adventure.text.BlockNBTComponent: net.kyori.adventure.text.NBTComponent, net.kyori.adventure.text.ScopedComponent
+---@class net.kyori.adventure.text.BlockNBTComponent: net.kyori.adventure.text.NBTComponent, net.kyori.adventure.text.ScopedComponent, java.lang.Object
 ---@field public Builder net.kyori.adventure.text.BlockNBTComponent.Builder
 ---@field public Pos net.kyori.adventure.text.BlockNBTComponent.Pos
 ---@field public LocalPos net.kyori.adventure.text.BlockNBTComponent.LocalPos

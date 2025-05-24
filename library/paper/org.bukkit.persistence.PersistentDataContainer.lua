@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.persistence.PersistentDataContainer
----@class org.bukkit.persistence.PersistentDataContainer: io.papermc.paper.persistence.PersistentDataContainerView
+---@class org.bukkit.persistence.PersistentDataContainer: io.papermc.paper.persistence.PersistentDataContainerView, java.lang.Object
 local PersistentDataContainer = {}
 
 ---@param key org.bukkit.NamespacedKey the key this value will be stored under

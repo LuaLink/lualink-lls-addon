@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.entity.WitchConsumePotionEvent
----@class com.destroystokyo.paper.event.entity.WitchConsumePotionEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.entity.WitchConsumePotionEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private potion org.bukkit.inventory.ItemStack
 ---@field private cancelled boolean

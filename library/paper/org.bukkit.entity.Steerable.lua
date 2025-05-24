@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Steerable
----@class org.bukkit.entity.Steerable: org.bukkit.entity.Animals
+---@class org.bukkit.entity.Steerable: org.bukkit.entity.Animals, java.lang.Object
 local Steerable = {}
 
 ---@public

@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.format.DecorationMap.EntrySet
----@class net.kyori.adventure.text.format.DecorationMap.EntrySet: java.util.AbstractSet
+---@class net.kyori.adventure.text.format.DecorationMap.EntrySet: java.util.AbstractSet, java.lang.Object
 local EntrySet = {}
 
 ---@public

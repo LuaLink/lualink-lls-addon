@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.RayTraceResult
----@class org.bukkit.util.RayTraceResult
+---@class org.bukkit.util.RayTraceResult: java.lang.Object
 ---@field private hitPosition org.bukkit.util.Vector
 ---@field private hitBlock org.bukkit.block.Block
 ---@field private hitBlockFace org.bukkit.block.BlockFace

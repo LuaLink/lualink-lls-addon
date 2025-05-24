@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.math.Position
----@class io.papermc.paper.math.Position
+---@class io.papermc.paper.math.Position: java.lang.Object
 ---@field public FINE_ZERO io.papermc.paper.math.FinePosition
 ---@field public BLOCK_ZERO io.papermc.paper.math.BlockPosition
 local Position = {}

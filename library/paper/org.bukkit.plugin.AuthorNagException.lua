@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.plugin.AuthorNagException
----@class org.bukkit.plugin.AuthorNagException: java.lang.RuntimeException
+---@class org.bukkit.plugin.AuthorNagException: java.lang.RuntimeException, java.lang.Object
 ---@field private message string
 ---@overload fun(message: string): org.bukkit.plugin.AuthorNagException
 local AuthorNagException = {}

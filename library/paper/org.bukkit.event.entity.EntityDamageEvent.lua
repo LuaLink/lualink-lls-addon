@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.EntityDamageEvent
----@class org.bukkit.event.entity.EntityDamageEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.EntityDamageEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private MODIFIERS org.bukkit.event.entity.EntityDamageEvent.DamageModifier
 ---@field private ZERO any

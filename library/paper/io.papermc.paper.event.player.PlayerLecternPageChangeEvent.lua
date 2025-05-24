@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerLecternPageChangeEvent
----@class io.papermc.paper.event.player.PlayerLecternPageChangeEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.player.PlayerLecternPageChangeEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private lectern org.bukkit.block.Lectern
 ---@field private book org.bukkit.inventory.ItemStack

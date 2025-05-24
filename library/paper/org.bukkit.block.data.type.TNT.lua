@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.TNT
----@class org.bukkit.block.data.type.TNT: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.type.TNT: org.bukkit.block.data.BlockData, java.lang.Object
 local TNT = {}
 
 ---@public

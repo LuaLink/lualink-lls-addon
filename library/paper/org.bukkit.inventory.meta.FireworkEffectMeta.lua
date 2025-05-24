@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.FireworkEffectMeta
----@class org.bukkit.inventory.meta.FireworkEffectMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.FireworkEffectMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local FireworkEffectMeta = {}
 
 ---@param effect org.bukkit.FireworkEffect the effect to set, or null to indicate none.

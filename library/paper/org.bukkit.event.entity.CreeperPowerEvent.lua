@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.CreeperPowerEvent
----@class org.bukkit.event.entity.CreeperPowerEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.CreeperPowerEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cause org.bukkit.event.entity.CreeperPowerEvent.PowerCause
 ---@field private bolt org.bukkit.entity.LightningStrike

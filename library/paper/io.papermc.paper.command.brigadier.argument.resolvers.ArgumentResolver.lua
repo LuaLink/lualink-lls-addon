@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.command.brigadier.argument.resolvers.ArgumentResolver
----@class io.papermc.paper.command.brigadier.argument.resolvers.ArgumentResolver
+---@class io.papermc.paper.command.brigadier.argument.resolvers.ArgumentResolver: java.lang.Object
 local ArgumentResolver = {}
 
 ---@param sourceStack io.papermc.paper.command.brigadier.CommandSourceStack source stack

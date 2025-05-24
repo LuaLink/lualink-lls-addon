@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.pointer.Pointers.Builder
----@class net.kyori.adventure.pointer.Pointers.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder
+---@class net.kyori.adventure.pointer.Pointers.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder, java.lang.Object
 local Builder = {}
 
 ---@param pointer net.kyori.adventure.pointer.Pointer the pointer
@@ -12,7 +12,7 @@ local Builder = {}
 function Builder:withStatic(pointer, value) end
 
 ---@param pointer net.kyori.adventure.pointer.Pointer the pointer
----@param value? java.util.function.Supplier the value supplier
+---@param value? function the value supplier
 ---@public
 ---@return net.kyori.adventure.pointer.Pointers.Builder this builder
 --- Adds a pointer with a dynamic value provided by a supplier.

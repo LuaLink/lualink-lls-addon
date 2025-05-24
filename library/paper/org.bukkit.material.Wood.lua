@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Wood
----@class org.bukkit.material.Wood: org.bukkit.material.MaterialData
+---@class org.bukkit.material.Wood: org.bukkit.material.MaterialData, java.lang.Object
 ---@field protected DEFAULT_TYPE org.bukkit.Material
 ---@field protected DEFAULT_SPECIES org.bukkit.TreeSpecies
 ---@overload fun(): org.bukkit.material.Wood

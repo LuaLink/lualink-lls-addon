@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.UseRemainder
----@class io.papermc.paper.datacomponent.item.UseRemainder
+---@class io.papermc.paper.datacomponent.item.UseRemainder: java.lang.Object
 local UseRemainder = {}
 
 ---@param itemStack org.bukkit.inventory.ItemStack 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.ConversationContext
----@class org.bukkit.conversations.ConversationContext
+---@class org.bukkit.conversations.ConversationContext: java.lang.Object
 ---@field private forWhom org.bukkit.conversations.Conversable
 ---@field private sessionData java.util.Map
 ---@field private plugin org.bukkit.plugin.Plugin

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.ChatPaginator
----@class org.bukkit.util.ChatPaginator
+---@class org.bukkit.util.ChatPaginator: java.lang.Object
 ---@field public GUARANTEED_NO_WRAP_CHAT_PAGE_WIDTH number
 ---@field public AVERAGE_CHAT_PAGE_WIDTH number
 ---@field public UNBOUNDED_PAGE_WIDTH number

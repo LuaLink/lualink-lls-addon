@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.entity.EntityPortalReadyEvent
----@class io.papermc.paper.event.entity.EntityPortalReadyEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.entity.EntityPortalReadyEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private portalType org.bukkit.PortalType
 ---@field private targetWorld org.bukkit.World

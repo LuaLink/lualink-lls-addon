@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.PluginLoader
----@class org.bukkit.plugin.PluginLoader
+---@class org.bukkit.plugin.PluginLoader: java.lang.Object
 local PluginLoader = {}
 
 ---@param file java.io.File File to attempt to load

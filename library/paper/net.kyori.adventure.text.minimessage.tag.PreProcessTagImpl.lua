@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.PreProcessTagImpl
----@class net.kyori.adventure.text.minimessage.tag.PreProcessTagImpl: net.kyori.adventure.text.minimessage.tag.AbstractTag, net.kyori.adventure.text.minimessage.tag.PreProcess
+---@class net.kyori.adventure.text.minimessage.tag.PreProcessTagImpl: net.kyori.adventure.text.minimessage.tag.AbstractTag, net.kyori.adventure.text.minimessage.tag.PreProcess, java.lang.Object
 ---@field private value string
 ---@overload fun(value: string): net.kyori.adventure.text.minimessage.tag.PreProcessTagImpl
 local PreProcessTagImpl = {}

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.tags.BiomeTagKeys
----@class io.papermc.paper.registry.keys.tags.BiomeTagKeys
+---@class io.papermc.paper.registry.keys.tags.BiomeTagKeys: java.lang.Object
 ---@field public ALLOWS_SURFACE_SLIME_SPAWNS io.papermc.paper.registry.tag.TagKey
 ---@field public ALLOWS_TROPICAL_FISH_SPAWNS_AT_ANY_HEIGHT io.papermc.paper.registry.tag.TagKey
 ---@field public HAS_CLOSER_WATER_FOG io.papermc.paper.registry.tag.TagKey

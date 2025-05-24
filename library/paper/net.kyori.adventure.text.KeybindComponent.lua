@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.KeybindComponent
----@class net.kyori.adventure.text.KeybindComponent: net.kyori.adventure.text.BuildableComponent, net.kyori.adventure.text.ScopedComponent
+---@class net.kyori.adventure.text.KeybindComponent: net.kyori.adventure.text.BuildableComponent, net.kyori.adventure.text.ScopedComponent, java.lang.Object
 ---@field public KeybindLike net.kyori.adventure.text.KeybindComponent.KeybindLike
 ---@field public Builder net.kyori.adventure.text.KeybindComponent.Builder
 local KeybindComponent = {}

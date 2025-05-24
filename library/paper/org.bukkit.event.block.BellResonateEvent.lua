@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BellResonateEvent
----@class org.bukkit.event.block.BellResonateEvent: org.bukkit.event.block.BlockEvent
+---@class org.bukkit.event.block.BellResonateEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private resonatedEntities java.util.List
 ---@overload fun(bell: org.bukkit.block.Block, resonatedEntities: java.util.List): org.bukkit.event.block.BellResonateEvent

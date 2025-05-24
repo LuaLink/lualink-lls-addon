@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Attachable
----@class org.bukkit.material.Attachable: org.bukkit.material.Directional
+---@class org.bukkit.material.Attachable: org.bukkit.material.Directional, java.lang.Object
 local Attachable = {}
 
 ---@public

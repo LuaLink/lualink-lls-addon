@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.set.RegistryValueSet
----@class io.papermc.paper.registry.set.RegistryValueSet: java.lang.Iterable, io.papermc.paper.registry.set.RegistrySet
+---@class io.papermc.paper.registry.set.RegistryValueSet: java.lang.Iterable, io.papermc.paper.registry.set.RegistrySet, java.lang.Object
 local RegistryValueSet = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.LodestoneTracker.Builder
----@class io.papermc.paper.datacomponent.item.LodestoneTracker.Builder: io.papermc.paper.datacomponent.DataComponentBuilder
+---@class io.papermc.paper.datacomponent.item.LodestoneTracker.Builder: io.papermc.paper.datacomponent.DataComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param location org.bukkit.Location location to point towards

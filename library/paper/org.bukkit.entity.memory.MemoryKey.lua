@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.memory.MemoryKey
----@class org.bukkit.entity.memory.MemoryKey: org.bukkit.Keyed
+---@class org.bukkit.entity.memory.MemoryKey: org.bukkit.Keyed, java.lang.Object
 ---@field private namespacedKey org.bukkit.NamespacedKey
 ---@field private tClass java.lang.Class
 ---@field private MEMORY_KEYS java.util.Map

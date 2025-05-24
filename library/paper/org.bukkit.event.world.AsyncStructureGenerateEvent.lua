@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.world.AsyncStructureGenerateEvent
----@class org.bukkit.event.world.AsyncStructureGenerateEvent: org.bukkit.event.world.WorldEvent
+---@class org.bukkit.event.world.AsyncStructureGenerateEvent: org.bukkit.event.world.WorldEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cause org.bukkit.event.world.AsyncStructureGenerateEvent.Cause
 ---@field private structure org.bukkit.generator.structure.Structure

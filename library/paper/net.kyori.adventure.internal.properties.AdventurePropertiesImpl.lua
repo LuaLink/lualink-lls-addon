@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.internal.properties.AdventurePropertiesImpl
----@class net.kyori.adventure.internal.properties.AdventurePropertiesImpl
+---@class net.kyori.adventure.internal.properties.AdventurePropertiesImpl: java.lang.Object
 ---@field private FILESYSTEM_DIRECTORY_NAME string
 ---@field private FILESYSTEM_FILE_NAME string
 ---@field private PROPERTIES java.util.Properties
@@ -19,7 +19,7 @@ function AdventurePropertiesImpl:print(ex) end
 function AdventurePropertiesImpl:systemPropertyName(name) end
 
 ---@param name string 
----@param parser java.util.function.Function 
+---@param parser function 
 ---@param defaultValue T 
 ---@public
 ---@return net.kyori.adventure.internal.properties.AdventureProperties.Property 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.messaging.StandardMessenger
----@class org.bukkit.plugin.messaging.StandardMessenger: org.bukkit.plugin.messaging.Messenger
+---@class org.bukkit.plugin.messaging.StandardMessenger: org.bukkit.plugin.messaging.Messenger, java.lang.Object
 ---@field private incomingByChannel java.util.Map
 ---@field private incomingByPlugin java.util.Map
 ---@field private outgoingByChannel java.util.Map

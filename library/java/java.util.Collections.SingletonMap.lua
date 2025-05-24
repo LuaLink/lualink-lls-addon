@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.SingletonMap
----@class java.util.Collections.SingletonMap: java.util.AbstractMap, java.io.Serializable
+---@class java.util.Collections.SingletonMap: java.util.AbstractMap, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private k K
 ---@field private v V
@@ -52,12 +52,12 @@ function SingletonMap:values() end
 ---@return V 
 function SingletonMap:getOrDefault(key, defaultValue) end
 
----@param action java.util.function.BiConsumer 
+---@param action function 
 ---@public
 ---@return nil 
 function SingletonMap:forEach(action) end
 
----@param function java.util.function.BiFunction 
+---@param function function 
 ---@public
 ---@return nil 
 function SingletonMap:replaceAll(function) end
@@ -88,26 +88,26 @@ function SingletonMap:replace(key, oldValue, newValue) end
 function SingletonMap:replace(key, value) end
 
 ---@param key K 
----@param mappingFunction java.util.function.Function 
+---@param mappingFunction function 
 ---@public
 ---@return V 
 function SingletonMap:computeIfAbsent(key, mappingFunction) end
 
 ---@param key K 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function SingletonMap:computeIfPresent(key, remappingFunction) end
 
 ---@param key K 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function SingletonMap:compute(key, remappingFunction) end
 
 ---@param key K 
 ---@param value V 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function SingletonMap:merge(key, value, remappingFunction) end

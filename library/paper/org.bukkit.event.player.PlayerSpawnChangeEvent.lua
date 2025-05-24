@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerSpawnChangeEvent
----@class org.bukkit.event.player.PlayerSpawnChangeEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.player.PlayerSpawnChangeEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cause org.bukkit.event.player.PlayerSpawnChangeEvent.Cause
 ---@field private newSpawn org.bukkit.Location

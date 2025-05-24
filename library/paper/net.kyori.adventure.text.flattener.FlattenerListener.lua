@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.flattener.FlattenerListener
----@class net.kyori.adventure.text.flattener.FlattenerListener
+---@class net.kyori.adventure.text.flattener.FlattenerListener: java.lang.Object
 local FlattenerListener = {}
 
 ---@param style net.kyori.adventure.text.format.Style the style to push

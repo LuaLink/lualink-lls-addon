@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.FixedSetPrompt
----@class org.bukkit.conversations.FixedSetPrompt: org.bukkit.conversations.ValidatingPrompt
+---@class org.bukkit.conversations.FixedSetPrompt: org.bukkit.conversations.ValidatingPrompt, java.lang.Object
 ---@field protected fixedSet java.util.List
 ---@overload fun(fixedSet: string): org.bukkit.conversations.FixedSetPrompt
 ---@overload fun(): org.bukkit.conversations.FixedSetPrompt

@@ -1,17 +1,17 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.MiniMessageImpl
----@class net.kyori.adventure.text.minimessage.MiniMessageImpl: net.kyori.adventure.text.minimessage.MiniMessage
+---@class net.kyori.adventure.text.minimessage.MiniMessageImpl: net.kyori.adventure.text.minimessage.MiniMessage, java.lang.Object
 ---@field private SERVICE java.util.Optional
----@field public BUILDER java.util.function.Consumer
+---@field public BUILDER function
 ---@field public DEFAULT_COMPACTING_METHOD java.util.function.UnaryOperator
 ---@field private strict boolean
----@field private debugOutput java.util.function.Consumer
+---@field private debugOutput function
 ---@field private postProcessor java.util.function.UnaryOperator
 ---@field public parser net.kyori.adventure.text.minimessage.MiniMessageParser
 ---@field public Instances net.kyori.adventure.text.minimessage.MiniMessageImpl.Instances
 ---@field public BuilderImpl net.kyori.adventure.text.minimessage.MiniMessageImpl.BuilderImpl
----@overload fun(resolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, strict: boolean, debugOutput: java.util.function.Consumer, postProcessor: java.util.function.UnaryOperator): net.kyori.adventure.text.minimessage.MiniMessageImpl
+---@overload fun(resolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, strict: boolean, debugOutput: function, postProcessor: java.util.function.UnaryOperator): net.kyori.adventure.text.minimessage.MiniMessageImpl
 local MiniMessageImpl = {}
 
 ---@param input string 

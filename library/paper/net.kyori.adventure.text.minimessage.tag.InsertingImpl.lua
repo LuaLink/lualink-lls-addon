@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.InsertingImpl
----@class net.kyori.adventure.text.minimessage.tag.InsertingImpl: net.kyori.adventure.text.minimessage.tag.AbstractTag, net.kyori.adventure.text.minimessage.tag.Inserting
+---@class net.kyori.adventure.text.minimessage.tag.InsertingImpl: net.kyori.adventure.text.minimessage.tag.AbstractTag, net.kyori.adventure.text.minimessage.tag.Inserting, java.lang.Object
 ---@field private allowsChildren boolean
 ---@field private value net.kyori.adventure.text.Component
 ---@overload fun(allowsChildren: boolean, value: net.kyori.adventure.text.Component): net.kyori.adventure.text.minimessage.tag.InsertingImpl

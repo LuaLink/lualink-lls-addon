@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.Branch
----@class java.util.regex.Pattern.Branch: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.Branch: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public atoms java.util.regex.Pattern.Node
 ---@field public size number
 ---@field public conn java.util.regex.Pattern.Node

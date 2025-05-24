@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.EntityEquipment
----@class org.bukkit.inventory.EntityEquipment
+---@class org.bukkit.inventory.EntityEquipment: java.lang.Object
 local EntityEquipment = {}
 
 ---@param slot org.bukkit.inventory.EquipmentSlot the slot to put the ItemStack

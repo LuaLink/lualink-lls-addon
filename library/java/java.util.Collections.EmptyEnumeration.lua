@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.Collections.EmptyEnumeration
----@class java.util.Collections.EmptyEnumeration: java.util.Enumeration
+---@class java.util.Collections.EmptyEnumeration: java.util.Enumeration, java.lang.Object
 ---@field public EMPTY_ENUMERATION java.util.Collections.EmptyEnumeration
 local EmptyEnumeration = {}
 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.tags.BannerPatternTagKeys
----@class io.papermc.paper.registry.keys.tags.BannerPatternTagKeys
+---@class io.papermc.paper.registry.keys.tags.BannerPatternTagKeys: java.lang.Object
 ---@field public NO_ITEM_REQUIRED io.papermc.paper.registry.tag.TagKey
 ---@field public PATTERN_ITEM_BORDURE_INDENTED io.papermc.paper.registry.tag.TagKey
 ---@field public PATTERN_ITEM_CREEPER io.papermc.paper.registry.tag.TagKey

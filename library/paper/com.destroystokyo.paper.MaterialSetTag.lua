@@ -1,13 +1,13 @@
 ---@meta
 -- com.destroystokyo.paper.MaterialSetTag
----@class com.destroystokyo.paper.MaterialSetTag: io.papermc.paper.tag.BaseTag
----@overload fun(filter: java.util.function.Predicate): com.destroystokyo.paper.MaterialSetTag
+---@class com.destroystokyo.paper.MaterialSetTag: io.papermc.paper.tag.BaseTag, java.lang.Object
+---@overload fun(filter: function): com.destroystokyo.paper.MaterialSetTag
 ---@overload fun(materials: java.util.Collection): com.destroystokyo.paper.MaterialSetTag
 ---@overload fun(materials: org.bukkit.Material): com.destroystokyo.paper.MaterialSetTag
----@overload fun(key: org.bukkit.NamespacedKey, filter: java.util.function.Predicate): com.destroystokyo.paper.MaterialSetTag
+---@overload fun(key: org.bukkit.NamespacedKey, filter: function): com.destroystokyo.paper.MaterialSetTag
 ---@overload fun(key: org.bukkit.NamespacedKey, materials: org.bukkit.Material): com.destroystokyo.paper.MaterialSetTag
 ---@overload fun(key: org.bukkit.NamespacedKey, materials: java.util.Collection): com.destroystokyo.paper.MaterialSetTag
----@overload fun(key: org.bukkit.NamespacedKey, materials: java.util.Collection, globalPredicates: java.util.function.Predicate): com.destroystokyo.paper.MaterialSetTag
+---@overload fun(key: org.bukkit.NamespacedKey, materials: java.util.Collection, globalPredicates: function): com.destroystokyo.paper.MaterialSetTag
 local MaterialSetTag = {}
 
 ---@protected

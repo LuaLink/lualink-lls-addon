@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Particle.DustOptions
----@class org.bukkit.Particle.DustOptions
+---@class org.bukkit.Particle.DustOptions: java.lang.Object
 ---@field private color org.bukkit.Color
 ---@field private size number
 ---@overload fun(color: org.bukkit.Color, size: number): org.bukkit.Particle.DustOptions

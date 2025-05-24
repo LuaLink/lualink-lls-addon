@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.Locale.LocaleKey
----@class java.util.Locale.LocaleKey
+---@class java.util.Locale.LocaleKey: java.lang.Object
 ---@field private base any
 ---@field private exts any
 ---@field private hash number

@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.title.TitleImpl.TimesImpl
----@class net.kyori.adventure.title.TitleImpl.TimesImpl: net.kyori.adventure.title.Title.Times
+---@class net.kyori.adventure.title.TitleImpl.TimesImpl: net.kyori.adventure.title.Title.Times, java.lang.Object
 ---@field private fadeIn java.time.Duration
 ---@field private stay java.time.Duration
 ---@field private fadeOut java.time.Duration

@@ -1,21 +1,21 @@
 ---@meta
 -- java.util.regex.Pattern.BmpCharPredicate
----@class java.util.regex.Pattern.BmpCharPredicate: java.util.regex.Pattern.CharPredicate
+---@class java.util.regex.Pattern.BmpCharPredicate: function, java.lang.Object
 local BmpCharPredicate = {}
 
----@param p java.util.regex.Pattern.CharPredicate 
+---@param p function 
 ---@public
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 function BmpCharPredicate:and(p) end
 
----@param p java.util.regex.Pattern.CharPredicate 
+---@param p function 
 ---@public
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 function BmpCharPredicate:union(p) end
 
----@param p1 java.util.regex.Pattern.CharPredicate 
----@param p2 java.util.regex.Pattern.CharPredicate 
+---@param p1 function 
+---@param p2 function 
 ---@public
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 function BmpCharPredicate:union(p1, p2) end
 

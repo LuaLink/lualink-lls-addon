@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.loot.LootTable
----@class org.bukkit.loot.LootTable: org.bukkit.Keyed
+---@class org.bukkit.loot.LootTable: org.bukkit.Keyed, java.lang.Object
 local LootTable = {}
 
 ---@param random java.util.Random the random instance to use to generate loot

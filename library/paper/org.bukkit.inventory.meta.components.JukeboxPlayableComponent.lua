@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.components.JukeboxPlayableComponent
----@class org.bukkit.inventory.meta.components.JukeboxPlayableComponent: org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.inventory.meta.components.JukeboxPlayableComponent: org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 local JukeboxPlayableComponent = {}
 
 ---@public

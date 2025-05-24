@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.UnmodifiableNavigableMap
----@class java.util.Collections.UnmodifiableNavigableMap: java.util.Collections.UnmodifiableSortedMap, java.util.NavigableMap, java.io.Serializable
+---@class java.util.Collections.UnmodifiableNavigableMap: java.util.Collections.UnmodifiableSortedMap, java.util.NavigableMap, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private EMPTY_NAVIGABLE_MAP java.util.Collections.UnmodifiableNavigableMap.EmptyNavigableMap
 ---@field private nm java.util.NavigableMap

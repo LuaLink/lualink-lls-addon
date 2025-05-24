@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.DoubleChest
----@class org.bukkit.block.DoubleChest: org.bukkit.inventory.InventoryHolder
+---@class org.bukkit.block.DoubleChest: org.bukkit.inventory.InventoryHolder, java.lang.Object
 ---@field private inventory org.bukkit.inventory.DoubleChestInventory
 ---@overload fun(chest: org.bukkit.inventory.DoubleChestInventory): org.bukkit.block.DoubleChest
 local DoubleChest = {}

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.InheritanceAwareMap
----@class net.kyori.adventure.util.InheritanceAwareMap
+---@class net.kyori.adventure.util.InheritanceAwareMap: java.lang.Object
 ---@field public Builder net.kyori.adventure.util.InheritanceAwareMap.Builder
 local InheritanceAwareMap = {}
 

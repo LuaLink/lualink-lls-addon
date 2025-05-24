@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.permissions.ServerOperator
----@class org.bukkit.permissions.ServerOperator
+---@class org.bukkit.permissions.ServerOperator: java.lang.Object
 local ServerOperator = {}
 
 ---@public

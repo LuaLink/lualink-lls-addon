@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Armadillo
----@class org.bukkit.entity.Armadillo: org.bukkit.entity.Animals
+---@class org.bukkit.entity.Armadillo: org.bukkit.entity.Animals, java.lang.Object
 ---@field public State org.bukkit.entity.Armadillo.State
 local Armadillo = {}
 

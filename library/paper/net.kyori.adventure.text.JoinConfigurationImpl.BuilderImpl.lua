@@ -1,13 +1,13 @@
 ---@meta
 -- net.kyori.adventure.text.JoinConfigurationImpl.BuilderImpl
----@class net.kyori.adventure.text.JoinConfigurationImpl.BuilderImpl: net.kyori.adventure.text.JoinConfiguration.Builder
+---@class net.kyori.adventure.text.JoinConfigurationImpl.BuilderImpl: net.kyori.adventure.text.JoinConfiguration.Builder, java.lang.Object
 ---@field private prefix net.kyori.adventure.text.ComponentLike
 ---@field private suffix net.kyori.adventure.text.ComponentLike
 ---@field private separator net.kyori.adventure.text.ComponentLike
 ---@field private lastSeparator net.kyori.adventure.text.ComponentLike
 ---@field private lastSeparatorIfSerial net.kyori.adventure.text.ComponentLike
----@field private convertor java.util.function.Function
----@field private predicate java.util.function.Predicate
+---@field private convertor function
+---@field private predicate function
 ---@field private rootStyle net.kyori.adventure.text.format.Style
 ---@overload fun(): net.kyori.adventure.text.JoinConfigurationImpl.BuilderImpl
 ---@overload fun(joinConfig: net.kyori.adventure.text.JoinConfigurationImpl): net.kyori.adventure.text.JoinConfigurationImpl.BuilderImpl
@@ -38,12 +38,12 @@ function BuilderImpl:lastSeparator(lastSeparator) end
 ---@return net.kyori.adventure.text.JoinConfiguration.Builder 
 function BuilderImpl:lastSeparatorIfSerial(lastSeparatorIfSerial) end
 
----@param convertor java.util.function.Function 
+---@param convertor function 
 ---@public
 ---@return net.kyori.adventure.text.JoinConfiguration.Builder 
 function BuilderImpl:convertor(convertor) end
 
----@param predicate java.util.function.Predicate 
+---@param predicate function 
 ---@public
 ---@return net.kyori.adventure.text.JoinConfiguration.Builder 
 function BuilderImpl:predicate(predicate) end

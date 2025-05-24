@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.EnchantmentKeys
----@class io.papermc.paper.registry.keys.EnchantmentKeys
+---@class io.papermc.paper.registry.keys.EnchantmentKeys: java.lang.Object
 ---@field public AQUA_AFFINITY io.papermc.paper.registry.TypedKey
 ---@field public BANE_OF_ARTHROPODS io.papermc.paper.registry.TypedKey
 ---@field public BINDING_CURSE io.papermc.paper.registry.TypedKey

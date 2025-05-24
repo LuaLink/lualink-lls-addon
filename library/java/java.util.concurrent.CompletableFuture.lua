@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.concurrent.CompletableFuture
----@class java.util.concurrent.CompletableFuture: java.util.concurrent.Future, java.util.concurrent.CompletionStage
+---@class java.util.concurrent.CompletableFuture: java.util.concurrent.Future, java.util.concurrent.CompletionStage, java.lang.Object
 ---@field public result java.lang.Object
 ---@field public stack java.util.concurrent.CompletableFuture.Completion
 ---@field public NIL java.util.concurrent.CompletableFuture.AltResult
@@ -172,85 +172,85 @@ function CompletableFuture:unipush(c) end
 function CompletableFuture:postFire(a, mode) end
 
 ---@param e java.util.concurrent.Executor 
----@param f java.util.function.Function 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:uniApplyStage(e, f) end
 
 ---@param r java.lang.Object 
 ---@param e java.util.concurrent.Executor 
----@param f java.util.function.Function 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:uniApplyNow(r, e, f) end
 
 ---@param e java.util.concurrent.Executor 
----@param f java.util.function.Consumer 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:uniAcceptStage(e, f) end
 
 ---@param r java.lang.Object 
 ---@param e java.util.concurrent.Executor 
----@param f java.util.function.Consumer 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:uniAcceptNow(r, e, f) end
 
 ---@param e java.util.concurrent.Executor 
----@param f java.lang.Runnable 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:uniRunStage(e, f) end
 
 ---@param r java.lang.Object 
 ---@param e java.util.concurrent.Executor 
----@param f java.lang.Runnable 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:uniRunNow(r, e, f) end
 
 ---@param r java.lang.Object 
----@param f java.util.function.BiConsumer 
+---@param f function 
 ---@param c java.util.concurrent.CompletableFuture.UniWhenComplete 
 ---@public
 ---@return boolean 
 function CompletableFuture:uniWhenComplete(r, f, c) end
 
 ---@param e java.util.concurrent.Executor 
----@param f java.util.function.BiConsumer 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:uniWhenCompleteStage(e, f) end
 
 ---@param r java.lang.Object 
----@param f java.util.function.BiFunction 
+---@param f function 
 ---@param c java.util.concurrent.CompletableFuture.UniHandle 
 ---@public
 ---@return boolean 
 function CompletableFuture:uniHandle(r, f, c) end
 
 ---@param e java.util.concurrent.Executor 
----@param f java.util.function.BiFunction 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:uniHandleStage(e, f) end
 
 ---@param r java.lang.Object 
----@param f java.util.function.Function 
+---@param f function 
 ---@param c java.util.concurrent.CompletableFuture.UniExceptionally 
 ---@public
 ---@return boolean 
 function CompletableFuture:uniExceptionally(r, f, c) end
 
 ---@param e java.util.concurrent.Executor 
----@param f java.util.function.Function 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:uniExceptionallyStage(e, f) end
 
 ---@param e java.util.concurrent.Executor 
----@param f java.util.function.Function 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:uniComposeExceptionallyStage(e, f) end
@@ -265,7 +265,7 @@ function CompletableFuture:uniCopyStage(src) end
 function CompletableFuture:uniAsMinimalStage() end
 
 ---@param e java.util.concurrent.Executor 
----@param f java.util.function.Function 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:uniComposeStage(e, f) end
@@ -287,7 +287,7 @@ function CompletableFuture:postFire(a, b, mode) end
 
 ---@param r java.lang.Object 
 ---@param s java.lang.Object 
----@param f java.util.function.BiFunction 
+---@param f function 
 ---@param c java.util.concurrent.CompletableFuture.BiApply 
 ---@public
 ---@return boolean 
@@ -295,14 +295,14 @@ function CompletableFuture:biApply(r, s, f, c) end
 
 ---@param e java.util.concurrent.Executor 
 ---@param o java.util.concurrent.CompletionStage 
----@param f java.util.function.BiFunction 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:biApplyStage(e, o, f) end
 
 ---@param r java.lang.Object 
 ---@param s java.lang.Object 
----@param f java.util.function.BiConsumer 
+---@param f function 
 ---@param c java.util.concurrent.CompletableFuture.BiAccept 
 ---@public
 ---@return boolean 
@@ -310,14 +310,14 @@ function CompletableFuture:biAccept(r, s, f, c) end
 
 ---@param e java.util.concurrent.Executor 
 ---@param o java.util.concurrent.CompletionStage 
----@param f java.util.function.BiConsumer 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:biAcceptStage(e, o, f) end
 
 ---@param r java.lang.Object 
 ---@param s java.lang.Object 
----@param f java.lang.Runnable 
+---@param f function 
 ---@param c java.util.concurrent.CompletableFuture.BiRun 
 ---@public
 ---@return boolean 
@@ -325,7 +325,7 @@ function CompletableFuture:biRun(r, s, f, c) end
 
 ---@param e java.util.concurrent.Executor 
 ---@param o java.util.concurrent.CompletionStage 
----@param f java.lang.Runnable 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:biRunStage(e, o, f) end
@@ -347,35 +347,35 @@ function CompletableFuture:orpush(b, c) end
 
 ---@param e java.util.concurrent.Executor 
 ---@param o java.util.concurrent.CompletionStage 
----@param f java.util.function.Function 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:orApplyStage(e, o, f) end
 
 ---@param e java.util.concurrent.Executor 
 ---@param o java.util.concurrent.CompletionStage 
----@param f java.util.function.Consumer 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:orAcceptStage(e, o, f) end
 
 ---@param e java.util.concurrent.Executor 
 ---@param o java.util.concurrent.CompletionStage 
----@param f java.lang.Runnable 
+---@param f function 
 ---@private
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:orRunStage(e, o, f) end
 
 ---@async
 ---@param e java.util.concurrent.Executor 
----@param f java.util.function.Supplier 
+---@param f function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:asyncSupplyStage(e, f) end
 
 ---@async
 ---@param e java.util.concurrent.Executor 
----@param f java.lang.Runnable 
+---@param f function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:asyncRunStage(e, f) end
@@ -393,14 +393,14 @@ function CompletableFuture:waitingGet(interruptible) end
 function CompletableFuture:timedGet(nanos) end
 
 ---@async
----@param supplier java.util.function.Supplier a function returning the value to be used to complete the returned CompletableFuture
+---@param supplier function a function returning the value to be used to complete the returned CompletableFuture
 ---@public
 ---@return java.util.concurrent.CompletableFuture the new CompletableFuture
 --- Returns a new CompletableFuture that is asynchronously completed by a task running in the {@link ForkJoinPool#commonPool()} with the value obtained by calling the given Supplier.
 function CompletableFuture:supplyAsync(supplier) end
 
 ---@async
----@param supplier java.util.function.Supplier a function returning the value to be used to complete the returned CompletableFuture
+---@param supplier function a function returning the value to be used to complete the returned CompletableFuture
 ---@param executor java.util.concurrent.Executor the executor to use for asynchronous execution
 ---@public
 ---@return java.util.concurrent.CompletableFuture the new CompletableFuture
@@ -408,14 +408,14 @@ function CompletableFuture:supplyAsync(supplier) end
 function CompletableFuture:supplyAsync(supplier, executor) end
 
 ---@async
----@param runnable java.lang.Runnable the action to run before completing the returned CompletableFuture
+---@param runnable function the action to run before completing the returned CompletableFuture
 ---@public
 ---@return java.util.concurrent.CompletableFuture the new CompletableFuture
 --- Returns a new CompletableFuture that is asynchronously completed by a task running in the {@link ForkJoinPool#commonPool()} after it runs the given action.
 function CompletableFuture:runAsync(runnable) end
 
 ---@async
----@param runnable java.lang.Runnable the action to run before completing the returned CompletableFuture
+---@param runnable function the action to run before completing the returned CompletableFuture
 ---@param executor java.util.concurrent.Executor the executor to use for asynchronous execution
 ---@public
 ---@return java.util.concurrent.CompletableFuture the new CompletableFuture
@@ -476,235 +476,235 @@ function CompletableFuture:complete(value) end
 --- If not already completed, causes invocations of {@link #get()} and related methods to throw the given exception.
 function CompletableFuture:completeExceptionally(ex) end
 
----@param fn java.util.function.Function 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenApply(fn) end
 
 ---@async
----@param fn java.util.function.Function 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenApplyAsync(fn) end
 
 ---@async
----@param fn java.util.function.Function 
+---@param fn function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenApplyAsync(fn, executor) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenAccept(action) end
 
 ---@async
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenAcceptAsync(action) end
 
 ---@async
----@param action java.util.function.Consumer 
+---@param action function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenAcceptAsync(action, executor) end
 
----@param action java.lang.Runnable 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenRun(action) end
 
 ---@async
----@param action java.lang.Runnable 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenRunAsync(action) end
 
 ---@async
----@param action java.lang.Runnable 
+---@param action function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenRunAsync(action, executor) end
 
 ---@param other java.util.concurrent.CompletionStage 
----@param fn java.util.function.BiFunction 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenCombine(other, fn) end
 
 ---@async
 ---@param other java.util.concurrent.CompletionStage 
----@param fn java.util.function.BiFunction 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenCombineAsync(other, fn) end
 
 ---@async
 ---@param other java.util.concurrent.CompletionStage 
----@param fn java.util.function.BiFunction 
+---@param fn function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenCombineAsync(other, fn, executor) end
 
 ---@param other java.util.concurrent.CompletionStage 
----@param action java.util.function.BiConsumer 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenAcceptBoth(other, action) end
 
 ---@async
 ---@param other java.util.concurrent.CompletionStage 
----@param action java.util.function.BiConsumer 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenAcceptBothAsync(other, action) end
 
 ---@async
 ---@param other java.util.concurrent.CompletionStage 
----@param action java.util.function.BiConsumer 
+---@param action function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenAcceptBothAsync(other, action, executor) end
 
 ---@param other java.util.concurrent.CompletionStage 
----@param action java.lang.Runnable 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:runAfterBoth(other, action) end
 
 ---@async
 ---@param other java.util.concurrent.CompletionStage 
----@param action java.lang.Runnable 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:runAfterBothAsync(other, action) end
 
 ---@async
 ---@param other java.util.concurrent.CompletionStage 
----@param action java.lang.Runnable 
+---@param action function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:runAfterBothAsync(other, action, executor) end
 
 ---@param other java.util.concurrent.CompletionStage 
----@param fn java.util.function.Function 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:applyToEither(other, fn) end
 
 ---@async
 ---@param other java.util.concurrent.CompletionStage 
----@param fn java.util.function.Function 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:applyToEitherAsync(other, fn) end
 
 ---@async
 ---@param other java.util.concurrent.CompletionStage 
----@param fn java.util.function.Function 
+---@param fn function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:applyToEitherAsync(other, fn, executor) end
 
 ---@param other java.util.concurrent.CompletionStage 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:acceptEither(other, action) end
 
 ---@async
 ---@param other java.util.concurrent.CompletionStage 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:acceptEitherAsync(other, action) end
 
 ---@async
 ---@param other java.util.concurrent.CompletionStage 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:acceptEitherAsync(other, action, executor) end
 
 ---@param other java.util.concurrent.CompletionStage 
----@param action java.lang.Runnable 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:runAfterEither(other, action) end
 
 ---@async
 ---@param other java.util.concurrent.CompletionStage 
----@param action java.lang.Runnable 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:runAfterEitherAsync(other, action) end
 
 ---@async
 ---@param other java.util.concurrent.CompletionStage 
----@param action java.lang.Runnable 
+---@param action function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:runAfterEitherAsync(other, action, executor) end
 
----@param fn java.util.function.Function 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenCompose(fn) end
 
 ---@async
----@param fn java.util.function.Function 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenComposeAsync(fn) end
 
 ---@async
----@param fn java.util.function.Function 
+---@param fn function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:thenComposeAsync(fn, executor) end
 
----@param action java.util.function.BiConsumer 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:whenComplete(action) end
 
 ---@async
----@param action java.util.function.BiConsumer 
+---@param action function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:whenCompleteAsync(action) end
 
 ---@async
----@param action java.util.function.BiConsumer 
+---@param action function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:whenCompleteAsync(action, executor) end
 
----@param fn java.util.function.BiFunction 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:handle(fn) end
 
 ---@async
----@param fn java.util.function.BiFunction 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:handleAsync(fn) end
 
 ---@async
----@param fn java.util.function.BiFunction 
+---@param fn function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
@@ -715,37 +715,37 @@ function CompletableFuture:handleAsync(fn, executor) end
 --- Returns this CompletableFuture.
 function CompletableFuture:toCompletableFuture() end
 
----@param fn java.util.function.Function 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:exceptionally(fn) end
 
 ---@async
----@param fn java.util.function.Function 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:exceptionallyAsync(fn) end
 
 ---@async
----@param fn java.util.function.Function 
+---@param fn function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:exceptionallyAsync(fn, executor) end
 
----@param fn java.util.function.Function 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:exceptionallyCompose(fn) end
 
 ---@async
----@param fn java.util.function.Function 
+---@param fn function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function CompletableFuture:exceptionallyComposeAsync(fn) end
 
 ---@async
----@param fn java.util.function.Function 
+---@param fn function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
@@ -826,7 +826,7 @@ function CompletableFuture:copy() end
 function CompletableFuture:minimalCompletionStage() end
 
 ---@async
----@param supplier java.util.function.Supplier a function returning the value to be used to complete this CompletableFuture
+---@param supplier function a function returning the value to be used to complete this CompletableFuture
 ---@param executor java.util.concurrent.Executor the executor to use for asynchronous execution
 ---@public
 ---@return java.util.concurrent.CompletableFuture this CompletableFuture
@@ -834,7 +834,7 @@ function CompletableFuture:minimalCompletionStage() end
 function CompletableFuture:completeAsync(supplier, executor) end
 
 ---@async
----@param supplier java.util.function.Supplier a function returning the value to be used to complete this CompletableFuture
+---@param supplier function a function returning the value to be used to complete this CompletableFuture
 ---@public
 ---@return java.util.concurrent.CompletableFuture this CompletableFuture
 --- Completes this CompletableFuture with the result of the given Supplier function invoked from an asynchronous task using the default executor.

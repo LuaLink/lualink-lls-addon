@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.RegistryBuilderFactory
----@class io.papermc.paper.registry.RegistryBuilderFactory
+---@class io.papermc.paper.registry.RegistryBuilderFactory: java.lang.Object
 local RegistryBuilderFactory = {}
 
 ---@public

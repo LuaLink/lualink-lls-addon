@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.PotionContents.Builder
----@class io.papermc.paper.datacomponent.item.PotionContents.Builder: io.papermc.paper.datacomponent.DataComponentBuilder
+---@class io.papermc.paper.datacomponent.item.PotionContents.Builder: io.papermc.paper.datacomponent.DataComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param type org.bukkit.potion.PotionType builder

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.chat.ChatRenderer.ViewerUnaware
----@class io.papermc.paper.chat.ChatRenderer.ViewerUnaware
+---@class io.papermc.paper.chat.ChatRenderer.ViewerUnaware: java.lang.Object
 local ViewerUnaware = {}
 
 ---@param source org.bukkit.entity.Player the message source

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.PluginNameConversationPrefix
----@class org.bukkit.conversations.PluginNameConversationPrefix: org.bukkit.conversations.ConversationPrefix
+---@class org.bukkit.conversations.PluginNameConversationPrefix: org.bukkit.conversations.ConversationPrefix, java.lang.Object
 ---@field protected separator string
 ---@field protected prefixColor org.bukkit.ChatColor
 ---@field protected plugin org.bukkit.plugin.Plugin

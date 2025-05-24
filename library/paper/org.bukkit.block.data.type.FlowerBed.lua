@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.FlowerBed
----@class org.bukkit.block.data.type.FlowerBed: org.bukkit.block.data.Directional
+---@class org.bukkit.block.data.type.FlowerBed: org.bukkit.block.data.Directional, java.lang.Object
 local FlowerBed = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.translation.AbstractTranslationStore.StringBased
----@class net.kyori.adventure.translation.AbstractTranslationStore.StringBased: net.kyori.adventure.translation.AbstractTranslationStore, net.kyori.adventure.translation.TranslationStore.StringBased
+---@class net.kyori.adventure.translation.AbstractTranslationStore.StringBased: net.kyori.adventure.translation.AbstractTranslationStore, net.kyori.adventure.translation.TranslationStore.StringBased, java.lang.Object
 ---@field private SINGLE_QUOTE_PATTERN java.util.regex.Pattern
 ---@overload fun(name: any): net.kyori.adventure.translation.AbstractTranslationStore.StringBased
 local StringBased = {}

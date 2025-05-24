@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.BlockChangeDelegate
----@class org.bukkit.BlockChangeDelegate
+---@class org.bukkit.BlockChangeDelegate: java.lang.Object
 local BlockChangeDelegate = {}
 
 ---@param x number X coordinate

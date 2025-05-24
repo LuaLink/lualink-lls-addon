@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.ServicesManager
----@class org.bukkit.plugin.ServicesManager
+---@class org.bukkit.plugin.ServicesManager: java.lang.Object
 local ServicesManager = {}
 
 ---@param service java.lang.Class service class

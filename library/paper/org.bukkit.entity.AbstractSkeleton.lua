@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.AbstractSkeleton
----@class org.bukkit.entity.AbstractSkeleton: org.bukkit.entity.Monster, com.destroystokyo.paper.entity.RangedEntity
+---@class org.bukkit.entity.AbstractSkeleton: org.bukkit.entity.Monster, com.destroystokyo.paper.entity.RangedEntity, java.lang.Object
 local AbstractSkeleton = {}
 
 ---@deprecated

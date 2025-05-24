@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.chat.ChatType
----@class net.kyori.adventure.chat.ChatType: any, any
+---@class net.kyori.adventure.chat.ChatType: any, any, java.lang.Object
 ---@field public CHAT net.kyori.adventure.chat.ChatType
 ---@field public SAY_COMMAND net.kyori.adventure.chat.ChatType
 ---@field public MSG_COMMAND_INCOMING net.kyori.adventure.chat.ChatType

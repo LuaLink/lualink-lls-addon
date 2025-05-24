@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Bogged
----@class org.bukkit.entity.Bogged: org.bukkit.entity.AbstractSkeleton, org.bukkit.entity.Shearable, io.papermc.paper.entity.Shearable
+---@class org.bukkit.entity.Bogged: org.bukkit.entity.AbstractSkeleton, org.bukkit.entity.Shearable, io.papermc.paper.entity.Shearable, java.lang.Object
 local Bogged = {}
 
 ---@public

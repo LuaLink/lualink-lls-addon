@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.Cancellable
----@class org.bukkit.event.Cancellable
+---@class org.bukkit.event.Cancellable: java.lang.Object
 local Cancellable = {}
 
 ---@public

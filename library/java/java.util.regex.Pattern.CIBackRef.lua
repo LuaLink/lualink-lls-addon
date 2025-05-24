@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.regex.Pattern.CIBackRef
----@class java.util.regex.Pattern.CIBackRef: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.CIBackRef: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public groupIndex number
 ---@field public doUnicodeCase boolean
 ---@overload fun(groupCount: number, doUnicodeCase: boolean): java.util.regex.Pattern.CIBackRef

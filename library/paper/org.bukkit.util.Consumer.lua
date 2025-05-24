@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.util.Consumer
----@class org.bukkit.util.Consumer: java.util.function.Consumer
+---@class org.bukkit.util.Consumer: function, java.lang.Object
 local Consumer = {}
 
 ---@param t T the input argument

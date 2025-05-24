@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.bossbar.BossBarImpl
----@class net.kyori.adventure.bossbar.BossBarImpl: net.kyori.adventure.bossbar.HackyBossBarPlatformBridge, net.kyori.adventure.bossbar.BossBar
+---@class net.kyori.adventure.bossbar.BossBarImpl: net.kyori.adventure.bossbar.HackyBossBarPlatformBridge, net.kyori.adventure.bossbar.BossBar, java.lang.Object
 ---@field private listeners java.util.List
 ---@field private name net.kyori.adventure.text.Component
 ---@field private progress number
@@ -79,8 +79,8 @@ function BossBarImpl:addFlag(flag) end
 function BossBarImpl:removeFlag(flag) end
 
 ---@param flag net.kyori.adventure.bossbar.BossBar.Flag 
----@param predicate java.util.function.BiPredicate 
----@param onChange java.util.function.BiConsumer 
+---@param predicate function 
+---@param onChange function 
 ---@private
 ---@return net.kyori.adventure.bossbar.BossBar 
 function BossBarImpl:editFlags(flag, predicate, onChange) end
@@ -96,8 +96,8 @@ function BossBarImpl:addFlags(flags) end
 function BossBarImpl:removeFlags(flags) end
 
 ---@param flags table<Flag> 
----@param predicate java.util.function.BiPredicate 
----@param onChange java.util.function.BiConsumer 
+---@param predicate function 
+---@param onChange function 
 ---@private
 ---@return net.kyori.adventure.bossbar.BossBar 
 function BossBarImpl:editFlags(flags, predicate, onChange) end
@@ -113,8 +113,8 @@ function BossBarImpl:addFlags(flags) end
 function BossBarImpl:removeFlags(flags) end
 
 ---@param flags java.lang.Iterable 
----@param predicate java.util.function.BiPredicate 
----@param onChange java.util.function.BiConsumer 
+---@param predicate function 
+---@param onChange function 
 ---@private
 ---@return net.kyori.adventure.bossbar.BossBar 
 function BossBarImpl:editFlags(flags, predicate, onChange) end
@@ -133,7 +133,7 @@ function BossBarImpl:removeListener(listener) end
 ---@return java.lang.Iterable 
 function BossBarImpl:viewers() end
 
----@param consumer java.util.function.Consumer 
+---@param consumer function 
 ---@private
 ---@return nil 
 function BossBarImpl:forEachListener(consumer) end

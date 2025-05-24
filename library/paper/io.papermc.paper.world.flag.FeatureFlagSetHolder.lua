@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.world.flag.FeatureFlagSetHolder
----@class io.papermc.paper.world.flag.FeatureFlagSetHolder
+---@class io.papermc.paper.world.flag.FeatureFlagSetHolder: java.lang.Object
 local FeatureFlagSetHolder = {}
 
 ---@param featureDependant io.papermc.paper.world.flag.FeatureDependant 

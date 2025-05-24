@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.identity.Identified
----@class net.kyori.adventure.identity.Identified
+---@class net.kyori.adventure.identity.Identified: java.lang.Object
 local Identified = {}
 
 ---@public

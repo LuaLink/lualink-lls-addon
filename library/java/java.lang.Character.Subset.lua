@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.lang.Character.Subset
----@class java.lang.Character.Subset
+---@class java.lang.Character.Subset: java.lang.Object
 ---@field private name string
 ---@overload fun(name: string): java.lang.Character.Subset
 local Subset = {}

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Coal
----@class org.bukkit.material.Coal: org.bukkit.material.MaterialData
+---@class org.bukkit.material.Coal: org.bukkit.material.MaterialData, java.lang.Object
 ---@overload fun(): org.bukkit.material.Coal
 ---@overload fun(type: org.bukkit.CoalType): org.bukkit.material.Coal
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Coal

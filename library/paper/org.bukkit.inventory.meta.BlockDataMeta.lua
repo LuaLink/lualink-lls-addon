@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.inventory.meta.BlockDataMeta
----@class org.bukkit.inventory.meta.BlockDataMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.BlockDataMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local BlockDataMeta = {}
 
 ---@public

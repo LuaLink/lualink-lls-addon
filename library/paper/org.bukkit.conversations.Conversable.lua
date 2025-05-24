@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.Conversable
----@class org.bukkit.conversations.Conversable
+---@class org.bukkit.conversations.Conversable: java.lang.Object
 local Conversable = {}
 
 ---@public

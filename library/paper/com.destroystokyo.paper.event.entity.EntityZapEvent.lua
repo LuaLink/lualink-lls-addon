@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.entity.EntityZapEvent
----@class com.destroystokyo.paper.event.entity.EntityZapEvent: org.bukkit.event.entity.EntityTransformEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.entity.EntityZapEvent: org.bukkit.event.entity.EntityTransformEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private bolt org.bukkit.entity.LightningStrike
 ---@field private cancelled boolean

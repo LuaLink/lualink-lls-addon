@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.format.ShadowColorImpl
----@class net.kyori.adventure.text.format.ShadowColorImpl: net.kyori.adventure.text.format.ShadowColor, any
+---@class net.kyori.adventure.text.format.ShadowColorImpl: net.kyori.adventure.text.format.ShadowColor, any, java.lang.Object
 ---@field public NONE_VALUE number
 ---@field public NONE net.kyori.adventure.text.format.ShadowColorImpl
 ---@field private value number

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.inventory.InventoryEvent
----@class org.bukkit.event.inventory.InventoryEvent: org.bukkit.event.Event
+---@class org.bukkit.event.inventory.InventoryEvent: org.bukkit.event.Event, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field protected transaction org.bukkit.inventory.InventoryView
 ---@overload fun(transaction: org.bukkit.inventory.InventoryView): org.bukkit.event.inventory.InventoryEvent

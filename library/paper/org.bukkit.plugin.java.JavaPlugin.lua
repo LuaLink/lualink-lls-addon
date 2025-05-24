@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.java.JavaPlugin
----@class org.bukkit.plugin.java.JavaPlugin: org.bukkit.plugin.PluginBase
+---@class org.bukkit.plugin.java.JavaPlugin: org.bukkit.plugin.PluginBase, java.lang.Object
 ---@field private isEnabled boolean
 ---@field private loader org.bukkit.plugin.PluginLoader
 ---@field private server org.bukkit.Server

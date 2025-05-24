@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.WanderingTrader
----@class org.bukkit.entity.WanderingTrader: org.bukkit.entity.AbstractVillager
+---@class org.bukkit.entity.WanderingTrader: org.bukkit.entity.AbstractVillager, java.lang.Object
 local WanderingTrader = {}
 
 ---@public

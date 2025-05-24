@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.damage.DamageEffect
----@class org.bukkit.damage.DamageEffect
+---@class org.bukkit.damage.DamageEffect: java.lang.Object
 ---@field public HURT org.bukkit.damage.DamageEffect
 ---@field public THORNS org.bukkit.damage.DamageEffect
 ---@field public DROWNING org.bukkit.damage.DamageEffect

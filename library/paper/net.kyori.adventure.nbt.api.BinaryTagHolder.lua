@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.nbt.api.BinaryTagHolder
----@class net.kyori.adventure.nbt.api.BinaryTagHolder: net.kyori.adventure.text.event.DataComponentValue.TagSerializable
+---@class net.kyori.adventure.nbt.api.BinaryTagHolder: net.kyori.adventure.text.event.DataComponentValue.TagSerializable, java.lang.Object
 local BinaryTagHolder = {}
 
 ---@param nbt T the binary tag

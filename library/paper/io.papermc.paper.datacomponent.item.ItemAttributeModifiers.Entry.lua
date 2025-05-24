@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.ItemAttributeModifiers.Entry
----@class io.papermc.paper.datacomponent.item.ItemAttributeModifiers.Entry
+---@class io.papermc.paper.datacomponent.item.ItemAttributeModifiers.Entry: java.lang.Object
 local Entry = {}
 
 ---@public

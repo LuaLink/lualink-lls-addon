@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.tag.PostFlattenTagRegistrar
----@class io.papermc.paper.tag.PostFlattenTagRegistrar: io.papermc.paper.plugin.lifecycle.event.registrar.Registrar
+---@class io.papermc.paper.tag.PostFlattenTagRegistrar: io.papermc.paper.plugin.lifecycle.event.registrar.Registrar, java.lang.Object
 local PostFlattenTagRegistrar = {}
 
 ---@public

@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.ComponentCompaction
----@class net.kyori.adventure.text.ComponentCompaction
+---@class net.kyori.adventure.text.ComponentCompaction: java.lang.Object
 ---@field public SIMPLIFY_STYLE_FOR_BLANK_COMPONENTS boolean
 ---@overload fun(): net.kyori.adventure.text.ComponentCompaction
 local ComponentCompaction = {}

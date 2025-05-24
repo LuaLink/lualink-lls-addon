@@ -1,6 +1,6 @@
 ---@meta
 -- co.aikar.timings.TimingIdentifier.TimingGroup
----@class co.aikar.timings.TimingIdentifier.TimingGroup
+---@class co.aikar.timings.TimingIdentifier.TimingGroup: java.lang.Object
 ---@field private idPool java.util.concurrent.atomic.AtomicInteger
 ---@field public id number
 ---@field public name string

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.UTF8ResourceBundleControl
----@class net.kyori.adventure.util.UTF8ResourceBundleControl: java.util.ResourceBundle.Control
+---@class net.kyori.adventure.util.UTF8ResourceBundleControl: java.util.ResourceBundle.Control, java.lang.Object
 ---@field private INSTANCE net.kyori.adventure.util.UTF8ResourceBundleControl
 local UTF8ResourceBundleControl = {}
 

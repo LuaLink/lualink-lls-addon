@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.persistence.PersistentDataType
----@class org.bukkit.persistence.PersistentDataType
+---@class org.bukkit.persistence.PersistentDataType: java.lang.Object
 ---@field public BYTE org.bukkit.persistence.PersistentDataType
 ---@field public SHORT org.bukkit.persistence.PersistentDataType
 ---@field public INTEGER org.bukkit.persistence.PersistentDataType

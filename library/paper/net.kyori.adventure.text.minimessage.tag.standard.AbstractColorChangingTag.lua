@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag
----@class net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag: net.kyori.adventure.text.minimessage.tag.Modifying, any
+---@class net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag: net.kyori.adventure.text.minimessage.tag.Modifying, any, java.lang.Object
 ---@field private visited boolean
 ---@field private size number
 ---@field private disableApplyingColorDepth number

@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.Guardian
----@class org.bukkit.entity.Guardian: org.bukkit.entity.Monster
+---@class org.bukkit.entity.Guardian: org.bukkit.entity.Monster, java.lang.Object
 local Guardian = {}
 
 ---@param activated boolean whether the laser is active

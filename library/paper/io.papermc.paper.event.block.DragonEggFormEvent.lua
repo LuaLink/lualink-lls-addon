@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.block.DragonEggFormEvent
----@class io.papermc.paper.event.block.DragonEggFormEvent: org.bukkit.event.block.BlockFormEvent
+---@class io.papermc.paper.event.block.DragonEggFormEvent: org.bukkit.event.block.BlockFormEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private dragonBattle org.bukkit.boss.DragonBattle
 ---@overload fun(block: org.bukkit.block.Block, newState: org.bukkit.block.BlockState, dragonBattle: org.bukkit.boss.DragonBattle): io.papermc.paper.event.block.DragonEggFormEvent

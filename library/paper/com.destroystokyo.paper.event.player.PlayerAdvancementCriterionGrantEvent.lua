@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerAdvancementCriterionGrantEvent
----@class com.destroystokyo.paper.event.player.PlayerAdvancementCriterionGrantEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.player.PlayerAdvancementCriterionGrantEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private advancement org.bukkit.advancement.Advancement
 ---@field private criterion string

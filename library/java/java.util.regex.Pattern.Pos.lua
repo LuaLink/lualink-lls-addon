@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.Pos
----@class java.util.regex.Pattern.Pos: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.Pos: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public cond java.util.regex.Pattern.Node
 ---@overload fun(cond: java.util.regex.Pattern.Node): java.util.regex.Pattern.Pos
 local Pos = {}

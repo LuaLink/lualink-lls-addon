@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.map.MapView
----@class org.bukkit.map.MapView
+---@class org.bukkit.map.MapView: java.lang.Object
 ---@field public Scale org.bukkit.map.MapView.Scale
 local MapView = {}
 

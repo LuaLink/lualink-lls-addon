@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.StructureType
----@class org.bukkit.StructureType: org.bukkit.Keyed
+---@class org.bukkit.StructureType: org.bukkit.Keyed, java.lang.Object
 ---@field private structureTypeMap java.util.Map
 ---@field public MINESHAFT org.bukkit.StructureType
 ---@field public VILLAGE org.bukkit.StructureType

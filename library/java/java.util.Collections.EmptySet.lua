@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.EmptySet
----@class java.util.Collections.EmptySet: java.util.AbstractSet, java.io.Serializable
+---@class java.util.Collections.EmptySet: java.util.AbstractSet, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 local EmptySet = {}
 
@@ -40,12 +40,12 @@ function EmptySet:toArray() end
 ---@return table<T> 
 function EmptySet:toArray(a) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function EmptySet:forEach(action) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return boolean 
 function EmptySet:removeIf(filter) end

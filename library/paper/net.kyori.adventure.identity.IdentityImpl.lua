@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.identity.IdentityImpl
----@class net.kyori.adventure.identity.IdentityImpl: any, net.kyori.adventure.identity.Identity
+---@class net.kyori.adventure.identity.IdentityImpl: any, net.kyori.adventure.identity.Identity, java.lang.Object
 ---@field private uuid java.util.UUID
 ---@overload fun(uuid: java.util.UUID): net.kyori.adventure.identity.IdentityImpl
 local IdentityImpl = {}

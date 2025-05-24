@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.WorldBorder
----@class org.bukkit.WorldBorder
+---@class org.bukkit.WorldBorder: java.lang.Object
 local WorldBorder = {}
 
 ---@public

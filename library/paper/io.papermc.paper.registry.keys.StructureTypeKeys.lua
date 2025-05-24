@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.StructureTypeKeys
----@class io.papermc.paper.registry.keys.StructureTypeKeys
+---@class io.papermc.paper.registry.keys.StructureTypeKeys: java.lang.Object
 ---@field public BURIED_TREASURE io.papermc.paper.registry.TypedKey
 ---@field public DESERT_PYRAMID io.papermc.paper.registry.TypedKey
 ---@field public END_CITY io.papermc.paper.registry.TypedKey

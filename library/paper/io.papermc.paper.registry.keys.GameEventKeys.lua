@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.GameEventKeys
----@class io.papermc.paper.registry.keys.GameEventKeys
+---@class io.papermc.paper.registry.keys.GameEventKeys: java.lang.Object
 ---@field public BLOCK_ACTIVATE io.papermc.paper.registry.TypedKey
 ---@field public BLOCK_ATTACH io.papermc.paper.registry.TypedKey
 ---@field public BLOCK_CHANGE io.papermc.paper.registry.TypedKey

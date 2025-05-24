@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Tadpole
----@class org.bukkit.entity.Tadpole: org.bukkit.entity.Fish
+---@class org.bukkit.entity.Tadpole: org.bukkit.entity.Fish, java.lang.Object
 local Tadpole = {}
 
 ---@public

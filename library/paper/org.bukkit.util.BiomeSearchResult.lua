@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.BiomeSearchResult
----@class org.bukkit.util.BiomeSearchResult
+---@class org.bukkit.util.BiomeSearchResult: java.lang.Object
 local BiomeSearchResult = {}
 
 ---@public

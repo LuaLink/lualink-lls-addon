@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BlockShearEntityEvent
----@class org.bukkit.event.block.BlockShearEntityEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.block.BlockShearEntityEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private sheared org.bukkit.entity.Entity
 ---@field private tool org.bukkit.inventory.ItemStack

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.ExtendedRails
----@class org.bukkit.material.ExtendedRails: org.bukkit.material.Rails
+---@class org.bukkit.material.ExtendedRails: org.bukkit.material.Rails, java.lang.Object
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.ExtendedRails
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.ExtendedRails
 local ExtendedRails = {}

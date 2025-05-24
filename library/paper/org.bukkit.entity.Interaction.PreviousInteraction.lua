@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Interaction.PreviousInteraction
----@class org.bukkit.entity.Interaction.PreviousInteraction
+---@class org.bukkit.entity.Interaction.PreviousInteraction: java.lang.Object
 local PreviousInteraction = {}
 
 ---@public

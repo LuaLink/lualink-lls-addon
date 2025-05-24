@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.event.entity.VillagerCareerChangeEvent
----@class org.bukkit.event.entity.VillagerCareerChangeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.VillagerCareerChangeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private profession org.bukkit.entity.Villager.Profession
 ---@field private reason org.bukkit.event.entity.VillagerCareerChangeEvent.ChangeReason

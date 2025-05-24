@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.ItemEnchantments
----@class io.papermc.paper.datacomponent.item.ItemEnchantments
+---@class io.papermc.paper.datacomponent.item.ItemEnchantments: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.ItemEnchantments.Builder
 local ItemEnchantments = {}
 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.entity.ai.Goal
----@class com.destroystokyo.paper.entity.ai.Goal
+---@class com.destroystokyo.paper.entity.ai.Goal: java.lang.Object
 local Goal = {}
 
 ---@public

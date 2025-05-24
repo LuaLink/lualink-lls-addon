@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.exception.ServerEventException
----@class com.destroystokyo.paper.exception.ServerEventException: com.destroystokyo.paper.exception.ServerPluginException
+---@class com.destroystokyo.paper.exception.ServerEventException: com.destroystokyo.paper.exception.ServerPluginException, java.lang.Object
 ---@field private listener org.bukkit.event.Listener
 ---@field private event org.bukkit.event.Event
 ---@overload fun(message: string, cause: java.lang.Throwable, responsiblePlugin: org.bukkit.plugin.Plugin, listener: org.bukkit.event.Listener, event: org.bukkit.event.Event): com.destroystokyo.paper.exception.ServerEventException

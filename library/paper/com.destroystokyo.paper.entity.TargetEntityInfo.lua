@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.entity.TargetEntityInfo
----@class com.destroystokyo.paper.entity.TargetEntityInfo
+---@class com.destroystokyo.paper.entity.TargetEntityInfo: java.lang.Object
 ---@field private entity org.bukkit.entity.Entity
 ---@field private hitVec org.bukkit.util.Vector
 ---@overload fun(entity: org.bukkit.entity.Entity, hitVec: org.bukkit.util.Vector): com.destroystokyo.paper.entity.TargetEntityInfo

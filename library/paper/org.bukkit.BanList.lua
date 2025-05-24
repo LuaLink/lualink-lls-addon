@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.BanList
----@class org.bukkit.BanList
+---@class org.bukkit.BanList: java.lang.Object
 ---@field public Type org.bukkit.BanList.Type
 local BanList = {}
 

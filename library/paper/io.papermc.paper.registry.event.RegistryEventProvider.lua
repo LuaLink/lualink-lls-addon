@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.event.RegistryEventProvider
----@class io.papermc.paper.registry.event.RegistryEventProvider
+---@class io.papermc.paper.registry.event.RegistryEventProvider: java.lang.Object
 local RegistryEventProvider = {}
 
 ---@public

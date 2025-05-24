@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.scoreboard.ScoreboardManager
----@class org.bukkit.scoreboard.ScoreboardManager
+---@class org.bukkit.scoreboard.ScoreboardManager: java.lang.Object
 local ScoreboardManager = {}
 
 ---@public

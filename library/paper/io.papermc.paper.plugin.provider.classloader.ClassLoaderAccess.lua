@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.provider.classloader.ClassLoaderAccess
----@class io.papermc.paper.plugin.provider.classloader.ClassLoaderAccess
+---@class io.papermc.paper.plugin.provider.classloader.ClassLoaderAccess: java.lang.Object
 local ClassLoaderAccess = {}
 
 ---@param classLoader io.papermc.paper.plugin.provider.classloader.ConfiguredPluginClassLoader the class loader for which access should be evaluated

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.translation.AbstractTranslationStore
----@class net.kyori.adventure.translation.AbstractTranslationStore: any, net.kyori.adventure.translation.TranslationStore
+---@class net.kyori.adventure.translation.AbstractTranslationStore: any, net.kyori.adventure.translation.TranslationStore, java.lang.Object
 ---@field private name any
 ---@field private translations java.util.Map
 ---@field private defaultLocale java.util.Locale
@@ -54,7 +54,7 @@ function AbstractTranslationStore:registerAll(locale, translations) end
 
 ---@param locale java.util.Locale 
 ---@param keys java.util.Set 
----@param function java.util.function.Function 
+---@param function function 
 ---@public
 ---@return nil 
 function AbstractTranslationStore:registerAll(locale, keys, function) end

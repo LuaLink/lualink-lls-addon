@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.tags.FluidTagKeys
----@class io.papermc.paper.registry.keys.tags.FluidTagKeys
+---@class io.papermc.paper.registry.keys.tags.FluidTagKeys: java.lang.Object
 ---@field public LAVA io.papermc.paper.registry.tag.TagKey
 ---@field public WATER io.papermc.paper.registry.tag.TagKey
 ---@overload fun(): io.papermc.paper.registry.keys.tags.FluidTagKeys

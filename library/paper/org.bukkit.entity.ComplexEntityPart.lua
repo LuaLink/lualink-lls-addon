@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.ComplexEntityPart
----@class org.bukkit.entity.ComplexEntityPart: org.bukkit.entity.Entity
+---@class org.bukkit.entity.ComplexEntityPart: org.bukkit.entity.Entity, java.lang.Object
 local ComplexEntityPart = {}
 
 ---@public

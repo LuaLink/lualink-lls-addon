@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Creaking
----@class org.bukkit.entity.Creaking: org.bukkit.entity.Monster
+---@class org.bukkit.entity.Creaking: org.bukkit.entity.Monster, java.lang.Object
 local Creaking = {}
 
 ---@public

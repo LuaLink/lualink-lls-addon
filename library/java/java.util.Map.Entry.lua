@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Map.Entry
----@class java.util.Map.Entry
+---@class java.util.Map.Entry: java.lang.Object
 local Entry = {}
 
 ---@public

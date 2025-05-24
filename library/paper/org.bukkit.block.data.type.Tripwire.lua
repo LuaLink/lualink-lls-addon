@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Tripwire
----@class org.bukkit.block.data.type.Tripwire: org.bukkit.block.data.Attachable, org.bukkit.block.data.MultipleFacing, org.bukkit.block.data.Powerable
+---@class org.bukkit.block.data.type.Tripwire: org.bukkit.block.data.Attachable, org.bukkit.block.data.MultipleFacing, org.bukkit.block.data.Powerable, java.lang.Object
 local Tripwire = {}
 
 ---@public

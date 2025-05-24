@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.bossbar.BossBarViewer
----@class net.kyori.adventure.bossbar.BossBarViewer
+---@class net.kyori.adventure.bossbar.BossBarViewer: java.lang.Object
 local BossBarViewer = {}
 
 ---@public

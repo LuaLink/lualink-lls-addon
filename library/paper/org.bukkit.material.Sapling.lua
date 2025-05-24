@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Sapling
----@class org.bukkit.material.Sapling: org.bukkit.material.Wood
+---@class org.bukkit.material.Sapling: org.bukkit.material.Wood, java.lang.Object
 ---@overload fun(): org.bukkit.material.Sapling
 ---@overload fun(species: org.bukkit.TreeSpecies): org.bukkit.material.Sapling
 ---@overload fun(species: org.bukkit.TreeSpecies, isInstantGrowable: boolean): org.bukkit.material.Sapling

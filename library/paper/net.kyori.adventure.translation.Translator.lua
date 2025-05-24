@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.translation.Translator
----@class net.kyori.adventure.translation.Translator
+---@class net.kyori.adventure.translation.Translator: java.lang.Object
 local Translator = {}
 
 ---@param string string the string

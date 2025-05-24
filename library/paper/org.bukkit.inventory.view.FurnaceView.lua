@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.view.FurnaceView
----@class org.bukkit.inventory.view.FurnaceView: org.bukkit.inventory.InventoryView
+---@class org.bukkit.inventory.view.FurnaceView: org.bukkit.inventory.InventoryView, java.lang.Object
 local FurnaceView = {}
 
 ---@public

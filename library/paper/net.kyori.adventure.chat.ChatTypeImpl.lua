@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.chat.ChatTypeImpl
----@class net.kyori.adventure.chat.ChatTypeImpl: net.kyori.adventure.chat.ChatType
+---@class net.kyori.adventure.chat.ChatTypeImpl: net.kyori.adventure.chat.ChatType, java.lang.Object
 ---@field private key any
 ---@field public BoundImpl net.kyori.adventure.chat.ChatTypeImpl.BoundImpl
 ---@overload fun(key: any): net.kyori.adventure.chat.ChatTypeImpl

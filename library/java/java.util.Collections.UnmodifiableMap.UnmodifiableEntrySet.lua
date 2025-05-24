@@ -1,19 +1,19 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet
----@class java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet: java.util.Collections.UnmodifiableSet
+---@class java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet: java.util.Collections.UnmodifiableSet, java.lang.Object
 ---@field private serialVersionUID number
 ---@field public UnmodifiableEntrySetSpliterator java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet.UnmodifiableEntrySetSpliterator
 ---@field private UnmodifiableEntry java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet.UnmodifiableEntry
 ---@overload fun(s: java.util.Set): java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet
 local UnmodifiableEntrySet = {}
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
----@return java.util.function.Consumer 
+---@return function 
 function UnmodifiableEntrySet:entryConsumer(action) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function UnmodifiableEntrySet:forEach(action) end

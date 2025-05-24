@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.EntityKnockbackEvent
----@class org.bukkit.event.entity.EntityKnockbackEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.EntityKnockbackEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cause org.bukkit.event.entity.EntityKnockbackEvent.KnockbackCause
 ---@field private force number

@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.pointer.PointersSupplierImpl.ForwardingPointers
----@class net.kyori.adventure.pointer.PointersSupplierImpl.ForwardingPointers: net.kyori.adventure.pointer.Pointers
+---@class net.kyori.adventure.pointer.PointersSupplierImpl.ForwardingPointers: net.kyori.adventure.pointer.Pointers, java.lang.Object
 ---@field private instance U
 ---@field private supplier net.kyori.adventure.pointer.PointersSupplierImpl
 ---@overload fun(instance: U, supplier: net.kyori.adventure.pointer.PointersSupplierImpl): net.kyori.adventure.pointer.PointersSupplierImpl.ForwardingPointers

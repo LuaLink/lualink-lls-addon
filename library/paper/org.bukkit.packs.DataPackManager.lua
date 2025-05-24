@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.packs.DataPackManager
----@class org.bukkit.packs.DataPackManager
+---@class org.bukkit.packs.DataPackManager: java.lang.Object
 local DataPackManager = {}
 
 ---@public

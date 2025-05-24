@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.tags.ItemTagAdapterContext
----@class org.bukkit.inventory.meta.tags.ItemTagAdapterContext
+---@class org.bukkit.inventory.meta.tags.ItemTagAdapterContext: java.lang.Object
 local ItemTagAdapterContext = {}
 
 ---@public

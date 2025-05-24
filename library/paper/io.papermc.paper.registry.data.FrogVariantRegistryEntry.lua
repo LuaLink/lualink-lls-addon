@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.FrogVariantRegistryEntry
----@class io.papermc.paper.registry.data.FrogVariantRegistryEntry
+---@class io.papermc.paper.registry.data.FrogVariantRegistryEntry: java.lang.Object
 ---@field public Builder io.papermc.paper.registry.data.FrogVariantRegistryEntry.Builder
 local FrogVariantRegistryEntry = {}
 

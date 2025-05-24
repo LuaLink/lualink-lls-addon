@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Jukebox
----@class org.bukkit.block.Jukebox: io.papermc.paper.block.TileStateInventoryHolder
+---@class org.bukkit.block.Jukebox: io.papermc.paper.block.TileStateInventoryHolder, java.lang.Object
 local Jukebox = {}
 
 ---@public

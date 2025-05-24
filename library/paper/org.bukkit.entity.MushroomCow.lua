@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.MushroomCow
----@class org.bukkit.entity.MushroomCow: org.bukkit.entity.AbstractCow, io.papermc.paper.entity.Shearable
+---@class org.bukkit.entity.MushroomCow: org.bukkit.entity.AbstractCow, io.papermc.paper.entity.Shearable, java.lang.Object
 ---@field public Variant org.bukkit.entity.MushroomCow.Variant
 local MushroomCow = {}
 

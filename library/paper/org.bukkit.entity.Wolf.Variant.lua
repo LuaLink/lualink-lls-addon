@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Wolf.Variant
----@class org.bukkit.entity.Wolf.Variant: org.bukkit.Keyed
+---@class org.bukkit.entity.Wolf.Variant: org.bukkit.Keyed, java.lang.Object
 ---@field public ASHEN org.bukkit.entity.Wolf.Variant
 ---@field public BLACK org.bukkit.entity.Wolf.Variant
 ---@field public CHESTNUT org.bukkit.entity.Wolf.Variant

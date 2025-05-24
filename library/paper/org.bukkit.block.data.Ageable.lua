@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Ageable
----@class org.bukkit.block.data.Ageable: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.Ageable: org.bukkit.block.data.BlockData, java.lang.Object
 local Ageable = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.ShadyPines
----@class net.kyori.adventure.util.ShadyPines
+---@class net.kyori.adventure.util.ShadyPines: java.lang.Object
 ---@overload fun(): net.kyori.adventure.util.ShadyPines
 local ShadyPines = {}
 

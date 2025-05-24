@@ -1,12 +1,12 @@
 ---@meta
 -- net.kyori.adventure.internal.properties.AdventurePropertiesImpl.PropertyImpl
----@class net.kyori.adventure.internal.properties.AdventurePropertiesImpl.PropertyImpl: net.kyori.adventure.internal.properties.AdventureProperties.Property
+---@class net.kyori.adventure.internal.properties.AdventurePropertiesImpl.PropertyImpl: net.kyori.adventure.internal.properties.AdventureProperties.Property, java.lang.Object
 ---@field private name string
----@field private parser java.util.function.Function
+---@field private parser function
 ---@field private defaultValue T
 ---@field private valueCalculated boolean
 ---@field private value T
----@overload fun(name: string, parser: java.util.function.Function, defaultValue: T): net.kyori.adventure.internal.properties.AdventurePropertiesImpl.PropertyImpl
+---@overload fun(name: string, parser: function, defaultValue: T): net.kyori.adventure.internal.properties.AdventurePropertiesImpl.PropertyImpl
 local PropertyImpl = {}
 
 ---@public

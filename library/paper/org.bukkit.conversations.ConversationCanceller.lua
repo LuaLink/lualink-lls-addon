@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.ConversationCanceller
----@class org.bukkit.conversations.ConversationCanceller: java.lang.Cloneable
+---@class org.bukkit.conversations.ConversationCanceller: java.lang.Cloneable, java.lang.Object
 local ConversationCanceller = {}
 
 ---@param conversation org.bukkit.conversations.Conversation A conversation.

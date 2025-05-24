@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.structure.Palette
----@class org.bukkit.structure.Palette
+---@class org.bukkit.structure.Palette: java.lang.Object
 local Palette = {}
 
 ---@public

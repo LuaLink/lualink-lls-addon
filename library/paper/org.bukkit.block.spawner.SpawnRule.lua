@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.spawner.SpawnRule
----@class org.bukkit.block.spawner.SpawnRule: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.block.spawner.SpawnRule: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 ---@field private minBlockLight number
 ---@field private maxBlockLight number
 ---@field private minSkyLight number

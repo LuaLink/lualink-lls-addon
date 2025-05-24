@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.TextReplacementConfig
----@class net.kyori.adventure.text.TextReplacementConfig: net.kyori.adventure.util.Buildable, any
+---@class net.kyori.adventure.text.TextReplacementConfig: net.kyori.adventure.util.Buildable, any, java.lang.Object
 ---@field public Builder net.kyori.adventure.text.TextReplacementConfig.Builder
 ---@field public Condition net.kyori.adventure.text.TextReplacementConfig.Condition
 local TextReplacementConfig = {}

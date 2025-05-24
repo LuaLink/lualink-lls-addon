@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.MenuType
----@class org.bukkit.inventory.MenuType: org.bukkit.Keyed, io.papermc.paper.world.flag.FeatureDependant
+---@class org.bukkit.inventory.MenuType: org.bukkit.Keyed, io.papermc.paper.world.flag.FeatureDependant, java.lang.Object
 ---@field public GENERIC_9X1 org.bukkit.inventory.MenuType.Typed
 ---@field public GENERIC_9X2 org.bukkit.inventory.MenuType.Typed
 ---@field public GENERIC_9X3 org.bukkit.inventory.MenuType.Typed

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.BigDripleaf
----@class org.bukkit.block.data.type.BigDripleaf: org.bukkit.block.data.type.Dripleaf
+---@class org.bukkit.block.data.type.BigDripleaf: org.bukkit.block.data.type.Dripleaf, java.lang.Object
 ---@field public Tilt org.bukkit.block.data.type.BigDripleaf.Tilt
 local BigDripleaf = {}
 

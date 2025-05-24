@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.PotionSplashEvent
----@class org.bukkit.event.entity.PotionSplashEvent: org.bukkit.event.entity.ProjectileHitEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.PotionSplashEvent: org.bukkit.event.entity.ProjectileHitEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field protected affectedEntities java.util.Map
 ---@field private cancelled boolean

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Display
----@class org.bukkit.entity.Display: org.bukkit.entity.Entity
+---@class org.bukkit.entity.Display: org.bukkit.entity.Entity, java.lang.Object
 ---@field public Brightness org.bukkit.entity.Display.Brightness
 ---@field public Billboard org.bukkit.entity.Display.Billboard
 local Display = {}

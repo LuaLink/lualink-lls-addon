@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.Shulker
----@class org.bukkit.entity.Shulker: org.bukkit.entity.Golem, org.bukkit.material.Colorable, org.bukkit.entity.Enemy
+---@class org.bukkit.entity.Shulker: org.bukkit.entity.Golem, org.bukkit.material.Colorable, org.bukkit.entity.Enemy, java.lang.Object
 local Shulker = {}
 
 ---@public

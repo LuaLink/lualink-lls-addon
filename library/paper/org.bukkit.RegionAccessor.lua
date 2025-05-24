@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.RegionAccessor
----@class org.bukkit.RegionAccessor: org.bukkit.Keyed, io.papermc.paper.world.flag.FeatureFlagSetHolder
+---@class org.bukkit.RegionAccessor: org.bukkit.Keyed, io.papermc.paper.world.flag.FeatureFlagSetHolder, java.lang.Object
 local RegionAccessor = {}
 
 ---@param location org.bukkit.Location the location of the biome
@@ -147,7 +147,7 @@ function RegionAccessor:generateTree(location, random, type) end
 ---@param location org.bukkit.Location Location to spawn the tree
 ---@param random java.util.Random Random to use to generate the tree
 ---@param type org.bukkit.TreeType Type of the tree to create
----@param stateConsumer java.util.function.Consumer The consumer which should get called for every block which gets changed
+---@param stateConsumer function The consumer which should get called for every block which gets changed
 ---@public
 ---@return boolean true if the tree was created successfully, otherwise false
 --- Creates a tree at the given {@link Location} <p> The provided consumer gets called for every block which gets changed as a result of the tree generation. When the consumer gets called no modifications to the world are done yet. Which means, that calling {@link #getBlockState(Location)} in the consumer will return the state of the block before the generation. <p> Modifications done to the {@link BlockState} in the consumer are respected, which means that it is not necessary to call {@link BlockState#update()}
@@ -156,7 +156,7 @@ function RegionAccessor:generateTree(location, random, type, stateConsumer) end
 ---@param location org.bukkit.Location Location to spawn the tree
 ---@param random java.util.Random Random to use to generate the tree
 ---@param type org.bukkit.TreeType Type of the tree to create
----@param statePredicate java.util.function.Predicate The predicate which should get used to test if a block should be set or not.
+---@param statePredicate function The predicate which should get used to test if a block should be set or not.
 ---@public
 ---@return boolean true if the tree was created successfully, otherwise false
 --- Creates a tree at the given {@link Location} <p> The provided predicate gets called for every block which gets changed as a result of the tree generation. When the predicate gets called no modifications to the world are done yet. Which means, that calling {@link #getBlockState(Location)} in the predicate will return the state of the block before the generation. <p> If the predicate returns {@code true} the block gets set in the world. If it returns {@code false} the block won't get set in the world.
@@ -215,7 +215,7 @@ function RegionAccessor:spawn(location, clazz) end
 
 ---@param location org.bukkit.Location 
 ---@param clazz java.lang.Class 
----@param function java.util.function.Consumer 
+---@param function function 
 ---@public
 ---@return T 
 function RegionAccessor:spawn(location, clazz, function) end
@@ -230,7 +230,7 @@ function RegionAccessor:spawn(location, clazz, reason) end
 ---@param location org.bukkit.Location 
 ---@param clazz java.lang.Class 
 ---@param reason org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason 
----@param function java.util.function.Consumer 
+---@param function function 
 ---@public
 ---@return T 
 function RegionAccessor:spawn(location, clazz, reason, function) end
@@ -245,14 +245,14 @@ function RegionAccessor:spawnEntity(loc, type, reason) end
 ---@param loc org.bukkit.Location 
 ---@param type org.bukkit.entity.EntityType 
 ---@param reason org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason 
----@param function java.util.function.Consumer 
+---@param function function 
 ---@public
 ---@return org.bukkit.entity.Entity 
 function RegionAccessor:spawnEntity(loc, type, reason, function) end
 
 ---@param location org.bukkit.Location 
 ---@param clazz java.lang.Class 
----@param function java.util.function.Consumer 
+---@param function function 
 ---@param reason org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason 
 ---@public
 ---@return T 
@@ -261,7 +261,7 @@ function RegionAccessor:spawn(location, clazz, function, reason) end
 ---@param location org.bukkit.Location the location at which the entity will be spawned.
 ---@param clazz java.lang.Class the class of the {@link Entity} that is to be spawned.
 ---@param randomizeData boolean whether or not the entity's data should be randomised                      before spawning. By default entities are randomised                      before spawning in regards to their equipment, age,                      attributes, etc.                      An example of this randomization would be the color of                      a sheep, random enchantments on the equipment of mobs                      or even a zombie becoming a chicken jockey.                      If set to false, the entity will not be randomised                      before spawning, meaning all their data will remain                      in their default state and not further modifications                      to the entity will be made.                      Notably only entities that extend the                      {@link org.bukkit.entity.Mob} interface provide                      randomisation logic for their spawn.                      This parameter is hence useless for any other type                      of entity.
----@param function java.util.function.Consumer the function to be run before the entity is spawned.
+---@param function function the function to be run before the entity is spawned.
 ---@public
 ---@return T the spawned entity instance.
 --- Creates a new entity at the given {@link Location} with the supplied function run before the entity is added to the world. <br> Note that when the function is run, the entity will not be actually in the world. Any operation involving such as teleporting the entity is undefined until after this function returns. The passed function however is run after the potential entity's spawn randomization and hence already allows access to the values of the mob, whether or not those were randomized, such as attributes or the entity equipment.

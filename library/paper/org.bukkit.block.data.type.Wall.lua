@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Wall
----@class org.bukkit.block.data.type.Wall: org.bukkit.block.data.Waterlogged
+---@class org.bukkit.block.data.type.Wall: org.bukkit.block.data.Waterlogged, java.lang.Object
 ---@field public Height org.bukkit.block.data.type.Wall.Height
 local Wall = {}
 

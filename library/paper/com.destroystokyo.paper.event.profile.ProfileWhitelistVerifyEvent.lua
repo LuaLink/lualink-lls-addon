@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.profile.ProfileWhitelistVerifyEvent
----@class com.destroystokyo.paper.event.profile.ProfileWhitelistVerifyEvent: org.bukkit.event.Event
+---@class com.destroystokyo.paper.event.profile.ProfileWhitelistVerifyEvent: org.bukkit.event.Event, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private profile com.destroystokyo.paper.profile.PlayerProfile
 ---@field private whitelistEnabled boolean

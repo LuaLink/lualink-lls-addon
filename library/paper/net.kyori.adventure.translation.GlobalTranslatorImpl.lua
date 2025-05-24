@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.translation.GlobalTranslatorImpl
----@class net.kyori.adventure.translation.GlobalTranslatorImpl: net.kyori.adventure.translation.GlobalTranslator
+---@class net.kyori.adventure.translation.GlobalTranslatorImpl: net.kyori.adventure.translation.GlobalTranslator, java.lang.Object
 ---@field private NAME any
 ---@field public INSTANCE net.kyori.adventure.translation.GlobalTranslatorImpl
 ---@field public renderer net.kyori.adventure.text.renderer.TranslatableComponentRenderer

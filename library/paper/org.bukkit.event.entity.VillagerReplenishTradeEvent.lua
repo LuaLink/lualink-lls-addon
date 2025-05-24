@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.VillagerReplenishTradeEvent
----@class org.bukkit.event.entity.VillagerReplenishTradeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.VillagerReplenishTradeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private recipe org.bukkit.inventory.MerchantRecipe
 ---@field private cancelled boolean

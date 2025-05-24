@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.MiniMessageSerializer.Collector
----@class net.kyori.adventure.text.minimessage.MiniMessageSerializer.Collector: net.kyori.adventure.text.minimessage.internal.serializer.TokenEmitter, net.kyori.adventure.text.minimessage.internal.serializer.ClaimConsumer
+---@class net.kyori.adventure.text.minimessage.MiniMessageSerializer.Collector: net.kyori.adventure.text.minimessage.internal.serializer.TokenEmitter, function, java.lang.Object
 ---@field private MARK string
 ---@field private TEXT_ESCAPES string
 ---@field private TAG_TOKENS string

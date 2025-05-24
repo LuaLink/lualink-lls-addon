@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.SynchronizedList
----@class java.util.Collections.SynchronizedList: java.util.Collections.SynchronizedCollection, java.util.List
+---@class java.util.Collections.SynchronizedList: java.util.Collections.SynchronizedCollection, java.util.List, java.lang.Object
 ---@field private serialVersionUID number
 ---@field public list java.util.List
 ---@overload fun(list: java.util.List): java.util.Collections.SynchronizedList

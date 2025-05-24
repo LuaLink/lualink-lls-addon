@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.Reference
----@class io.papermc.paper.registry.Reference: org.bukkit.Keyed
+---@class io.papermc.paper.registry.Reference: org.bukkit.Keyed, java.lang.Object
 local Reference = {}
 
 ---@deprecated

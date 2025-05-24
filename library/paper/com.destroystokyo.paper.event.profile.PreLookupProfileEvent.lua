@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.profile.PreLookupProfileEvent
----@class com.destroystokyo.paper.event.profile.PreLookupProfileEvent: org.bukkit.event.Event
+---@class com.destroystokyo.paper.event.profile.PreLookupProfileEvent: org.bukkit.event.Event, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private name string
 ---@field private uuid java.util.UUID

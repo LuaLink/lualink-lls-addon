@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.ItemTypeKeys
----@class io.papermc.paper.registry.keys.ItemTypeKeys
+---@class io.papermc.paper.registry.keys.ItemTypeKeys: java.lang.Object
 ---@field public ACACIA_BOAT io.papermc.paper.registry.TypedKey
 ---@field public ACACIA_BUTTON io.papermc.paper.registry.TypedKey
 ---@field public ACACIA_CHEST_BOAT io.papermc.paper.registry.TypedKey

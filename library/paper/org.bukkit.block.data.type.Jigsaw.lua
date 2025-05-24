@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Jigsaw
----@class org.bukkit.block.data.type.Jigsaw: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.type.Jigsaw: org.bukkit.block.data.BlockData, java.lang.Object
 ---@field public Orientation org.bukkit.block.data.type.Jigsaw.Orientation
 local Jigsaw = {}
 

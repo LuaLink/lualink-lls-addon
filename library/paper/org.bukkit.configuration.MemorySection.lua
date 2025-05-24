@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.configuration.MemorySection
----@class org.bukkit.configuration.MemorySection: org.bukkit.configuration.ConfigurationSection
+---@class org.bukkit.configuration.MemorySection: org.bukkit.configuration.ConfigurationSection, java.lang.Object
 ---@field protected map java.util.Map
 ---@field private root org.bukkit.configuration.Configuration
 ---@field private parent org.bukkit.configuration.ConfigurationSection

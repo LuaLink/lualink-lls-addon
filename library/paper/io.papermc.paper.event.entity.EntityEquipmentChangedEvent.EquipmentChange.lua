@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.entity.EntityEquipmentChangedEvent.EquipmentChange
----@class io.papermc.paper.event.entity.EntityEquipmentChangedEvent.EquipmentChange
+---@class io.papermc.paper.event.entity.EntityEquipmentChangedEvent.EquipmentChange: java.lang.Object
 local EquipmentChange = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Cake
----@class org.bukkit.material.Cake: org.bukkit.material.MaterialData
+---@class org.bukkit.material.Cake: org.bukkit.material.MaterialData, java.lang.Object
 ---@overload fun(): org.bukkit.material.Cake
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Cake
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Cake

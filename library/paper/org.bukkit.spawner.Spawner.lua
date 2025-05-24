@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.spawner.Spawner
----@class org.bukkit.spawner.Spawner: org.bukkit.spawner.BaseSpawner
+---@class org.bukkit.spawner.Spawner: org.bukkit.spawner.BaseSpawner, java.lang.Object
 local Spawner = {}
 
 ---@param delay number The delay.

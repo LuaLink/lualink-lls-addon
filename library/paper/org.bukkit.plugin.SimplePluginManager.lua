@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.SimplePluginManager
----@class org.bukkit.plugin.SimplePluginManager: org.bukkit.plugin.PluginManager
+---@class org.bukkit.plugin.SimplePluginManager: org.bukkit.plugin.PluginManager, java.lang.Object
 ---@field private server org.bukkit.Server
 ---@field private fileAssociations java.util.Map
 ---@field private plugins java.util.List

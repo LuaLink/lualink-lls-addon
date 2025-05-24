@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.ban.BanListType
----@class io.papermc.paper.ban.BanListType
+---@class io.papermc.paper.ban.BanListType: java.lang.Object
 ---@field public IP io.papermc.paper.ban.BanListType
 ---@field public PROFILE io.papermc.paper.ban.BanListType
 local BanListType = {}

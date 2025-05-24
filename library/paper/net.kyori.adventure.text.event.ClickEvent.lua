@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.event.ClickEvent
----@class net.kyori.adventure.text.event.ClickEvent: any, net.kyori.adventure.text.format.StyleBuilderApplicable
+---@class net.kyori.adventure.text.event.ClickEvent: any, net.kyori.adventure.text.format.StyleBuilderApplicable, java.lang.Object
 ---@field private action net.kyori.adventure.text.event.ClickEvent.Action
 ---@field private value string
 ---@field public Action net.kyori.adventure.text.event.ClickEvent.Action
@@ -70,7 +70,7 @@ function ClickEvent:callback(function) end
 function ClickEvent:callback(function, options) end
 
 ---@param function net.kyori.adventure.text.event.ClickCallback the function to execute
----@param optionsBuilder java.util.function.Consumer function that will be called to configure the click callback options
+---@param optionsBuilder function function that will be called to configure the click callback options
 ---@public
 ---@return net.kyori.adventure.text.event.ClickEvent a callback click event
 --- Create a click event that, when clicked, will schedule a callback function to be executed on the server.

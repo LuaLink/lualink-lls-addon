@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.SynchronizedNavigableSet
----@class java.util.Collections.SynchronizedNavigableSet: java.util.Collections.SynchronizedSortedSet, java.util.NavigableSet
+---@class java.util.Collections.SynchronizedNavigableSet: java.util.Collections.SynchronizedSortedSet, java.util.NavigableSet, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private ns java.util.NavigableSet
 ---@overload fun(s: java.util.NavigableSet): java.util.Collections.SynchronizedNavigableSet

@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.regex.Pattern.StartS
----@class java.util.regex.Pattern.StartS: java.util.regex.Pattern.Start
+---@class java.util.regex.Pattern.StartS: java.util.regex.Pattern.Start, java.lang.Object
 ---@overload fun(node: java.util.regex.Pattern.Node): java.util.regex.Pattern.StartS
 local StartS = {}
 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.HashMap.Node
----@class java.util.HashMap.Node: java.util.Map.Entry
+---@class java.util.HashMap.Node: java.util.Map.Entry, java.lang.Object
 ---@field public hash number
 ---@field public key K
 ---@field public value V

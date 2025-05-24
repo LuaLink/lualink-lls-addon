@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.view.BeaconView
----@class org.bukkit.inventory.view.BeaconView: org.bukkit.inventory.InventoryView
+---@class org.bukkit.inventory.view.BeaconView: org.bukkit.inventory.InventoryView, java.lang.Object
 local BeaconView = {}
 
 ---@public

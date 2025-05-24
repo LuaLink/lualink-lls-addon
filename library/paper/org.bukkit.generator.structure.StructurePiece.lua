@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.generator.structure.StructurePiece
----@class org.bukkit.generator.structure.StructurePiece
+---@class org.bukkit.generator.structure.StructurePiece: java.lang.Object
 local StructurePiece = {}
 
 ---@public

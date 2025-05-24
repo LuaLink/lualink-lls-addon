@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.OminousBottleMeta
----@class org.bukkit.inventory.meta.OminousBottleMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.OminousBottleMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local OminousBottleMeta = {}
 
 ---@public

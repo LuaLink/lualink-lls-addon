@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Display.Brightness
----@class org.bukkit.entity.Display.Brightness
+---@class org.bukkit.entity.Display.Brightness: java.lang.Object
 ---@field private blockLight number
 ---@field private skyLight number
 ---@overload fun(blockLight: number, skyLight: number): org.bukkit.entity.Display.Brightness

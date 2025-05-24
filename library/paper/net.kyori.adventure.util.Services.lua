@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.Services
----@class net.kyori.adventure.util.Services
+---@class net.kyori.adventure.util.Services: java.lang.Object
 ---@field private SERVICE_LOAD_FAILURES_ARE_FATAL boolean
 ---@field public Fallback net.kyori.adventure.util.Services.Fallback
 ---@overload fun(): net.kyori.adventure.util.Services

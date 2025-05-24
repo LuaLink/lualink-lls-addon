@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerRecipeBookClickEvent
----@class org.bukkit.event.player.PlayerRecipeBookClickEvent: org.bukkit.event.player.PlayerEvent
+---@class org.bukkit.event.player.PlayerRecipeBookClickEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private originalRecipe org.bukkit.inventory.Recipe
 ---@field private recipe org.bukkit.inventory.Recipe

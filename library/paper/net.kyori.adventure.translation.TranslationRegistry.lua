@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.translation.TranslationRegistry
----@class net.kyori.adventure.translation.TranslationRegistry: net.kyori.adventure.translation.Translator, net.kyori.adventure.translation.TranslationStore.StringBased
+---@class net.kyori.adventure.translation.TranslationRegistry: net.kyori.adventure.translation.Translator, net.kyori.adventure.translation.TranslationStore.StringBased, java.lang.Object
 ---@field public SINGLE_QUOTE_PATTERN java.util.regex.Pattern
 local TranslationRegistry = {}
 
@@ -72,7 +72,7 @@ function TranslationRegistry:registerAll(locale, bundle, escapeSingleQuotes) end
 ---@deprecated
 ---@param locale java.util.Locale a locale
 ---@param keys java.util.Set the translation keys to register
----@param function java.util.function.Function a function to transform a key into a message format
+---@param function function a function to transform a key into a message format
 ---@public
 ---@return nil 
 --- Registers a resource bundle of translations.

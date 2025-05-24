@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Beacon
----@class org.bukkit.block.Beacon: io.papermc.paper.block.LockableTileState
+---@class org.bukkit.block.Beacon: io.papermc.paper.block.LockableTileState, java.lang.Object
 local Beacon = {}
 
 ---@public

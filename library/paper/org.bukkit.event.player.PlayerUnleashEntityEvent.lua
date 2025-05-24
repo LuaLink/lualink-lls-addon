@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerUnleashEntityEvent
----@class org.bukkit.event.player.PlayerUnleashEntityEvent: org.bukkit.event.entity.EntityUnleashEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.player.PlayerUnleashEntityEvent: org.bukkit.event.entity.EntityUnleashEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private player org.bukkit.entity.Player
 ---@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field private cancelled boolean

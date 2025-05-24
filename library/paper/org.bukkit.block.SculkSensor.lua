@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.SculkSensor
----@class org.bukkit.block.SculkSensor: org.bukkit.block.TileState
+---@class org.bukkit.block.SculkSensor: org.bukkit.block.TileState, java.lang.Object
 local SculkSensor = {}
 
 ---@public

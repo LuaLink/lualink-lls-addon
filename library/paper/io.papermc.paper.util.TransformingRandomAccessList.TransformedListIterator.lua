@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.util.TransformingRandomAccessList.TransformedListIterator
----@class io.papermc.paper.util.TransformingRandomAccessList.TransformedListIterator: java.util.ListIterator, java.util.Iterator
+---@class io.papermc.paper.util.TransformingRandomAccessList.TransformedListIterator: java.util.ListIterator, java.util.Iterator, java.lang.Object
 ---@field public backingIterator java.util.Iterator
 ---@overload fun(backingIterator: java.util.ListIterator): io.papermc.paper.util.TransformingRandomAccessList.TransformedListIterator
 local TransformedListIterator = {}

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Bed
----@class org.bukkit.block.data.type.Bed: org.bukkit.block.data.Directional
+---@class org.bukkit.block.data.type.Bed: org.bukkit.block.data.Directional, java.lang.Object
 ---@field public Part org.bukkit.block.data.type.Bed.Part
 local Bed = {}
 

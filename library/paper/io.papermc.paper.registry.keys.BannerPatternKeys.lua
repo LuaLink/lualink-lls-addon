@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.BannerPatternKeys
----@class io.papermc.paper.registry.keys.BannerPatternKeys
+---@class io.papermc.paper.registry.keys.BannerPatternKeys: java.lang.Object
 ---@field public BASE io.papermc.paper.registry.TypedKey
 ---@field public BORDER io.papermc.paper.registry.TypedKey
 ---@field public BRICKS io.papermc.paper.registry.TypedKey

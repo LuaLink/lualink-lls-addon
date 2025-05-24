@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.entity.ProjectileCollideEvent
----@class com.destroystokyo.paper.event.entity.ProjectileCollideEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.entity.ProjectileCollideEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private collidedWith org.bukkit.entity.Entity
 ---@field private cancelled boolean

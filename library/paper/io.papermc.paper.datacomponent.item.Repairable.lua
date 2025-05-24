@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.Repairable
----@class io.papermc.paper.datacomponent.item.Repairable
+---@class io.papermc.paper.datacomponent.item.Repairable: java.lang.Object
 local Repairable = {}
 
 ---@param types io.papermc.paper.registry.set.RegistryKeySet 

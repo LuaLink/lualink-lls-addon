@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.minecart.PoweredMinecart
----@class org.bukkit.entity.minecart.PoweredMinecart: org.bukkit.entity.Minecart
+---@class org.bukkit.entity.minecart.PoweredMinecart: org.bukkit.entity.Minecart, java.lang.Object
 local PoweredMinecart = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.view.builder.InventoryViewBuilder
----@class org.bukkit.inventory.view.builder.InventoryViewBuilder
+---@class org.bukkit.inventory.view.builder.InventoryViewBuilder: java.lang.Object
 local InventoryViewBuilder = {}
 
 ---@public

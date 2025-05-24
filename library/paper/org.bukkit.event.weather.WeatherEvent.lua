@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.weather.WeatherEvent
----@class org.bukkit.event.weather.WeatherEvent: org.bukkit.event.Event
+---@class org.bukkit.event.weather.WeatherEvent: org.bukkit.event.Event, java.lang.Object
 ---@field protected world org.bukkit.World
 ---@overload fun(where: org.bukkit.World): org.bukkit.event.weather.WeatherEvent
 local WeatherEvent = {}

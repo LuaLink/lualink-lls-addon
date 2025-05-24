@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.AsyncPlayerPreLoginEvent
----@class org.bukkit.event.player.AsyncPlayerPreLoginEvent: org.bukkit.event.Event
+---@class org.bukkit.event.player.AsyncPlayerPreLoginEvent: org.bukkit.event.Event, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private ipAddress java.net.InetAddress
 ---@field private rawAddress java.net.InetAddress

@@ -1,8 +1,8 @@
 ---@meta
 -- net.kyori.adventure.text.TextReplacementConfigImpl
----@class net.kyori.adventure.text.TextReplacementConfigImpl: net.kyori.adventure.text.TextReplacementConfig
+---@class net.kyori.adventure.text.TextReplacementConfigImpl: net.kyori.adventure.text.TextReplacementConfig, java.lang.Object
 ---@field private matchPattern java.util.regex.Pattern
----@field private replacement java.util.function.BiFunction
+---@field private replacement function
 ---@field private continuer net.kyori.adventure.text.TextReplacementConfig.Condition
 ---@field private replaceInsideHoverEvents boolean
 ---@field public Builder net.kyori.adventure.text.TextReplacementConfigImpl.Builder

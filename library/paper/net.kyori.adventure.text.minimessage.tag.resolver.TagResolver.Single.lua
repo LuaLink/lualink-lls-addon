@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Single
----@class net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Single: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments
+---@class net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Single: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments, java.lang.Object
 local Single = {}
 
 ---@public

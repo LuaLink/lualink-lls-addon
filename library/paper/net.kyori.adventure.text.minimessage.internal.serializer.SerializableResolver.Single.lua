@@ -1,11 +1,11 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver.Single
----@class net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver.Single: net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver
+---@class net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver.Single: net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver, java.lang.Object
 local Single = {}
 
 ---@param serializable net.kyori.adventure.text.Component 
----@param consumer net.kyori.adventure.text.minimessage.internal.serializer.ClaimConsumer 
+---@param consumer function 
 ---@public
 ---@return nil 
 function Single:handle(serializable, consumer) end

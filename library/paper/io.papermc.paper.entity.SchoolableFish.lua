@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.entity.SchoolableFish
----@class io.papermc.paper.entity.SchoolableFish: org.bukkit.entity.Fish
+---@class io.papermc.paper.entity.SchoolableFish: org.bukkit.entity.Fish, java.lang.Object
 local SchoolableFish = {}
 
 ---@param leader io.papermc.paper.entity.SchoolableFish fish to follow

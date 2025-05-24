@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.ServerLinks.ServerLink
----@class org.bukkit.ServerLinks.ServerLink
+---@class org.bukkit.ServerLinks.ServerLink: java.lang.Object
 local ServerLink = {}
 
 ---@public

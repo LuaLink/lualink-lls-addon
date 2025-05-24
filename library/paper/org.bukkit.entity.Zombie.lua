@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Zombie
----@class org.bukkit.entity.Zombie: org.bukkit.entity.Monster, org.bukkit.entity.Ageable
+---@class org.bukkit.entity.Zombie: org.bukkit.entity.Monster, org.bukkit.entity.Ageable, java.lang.Object
 local Zombie = {}
 
 ---@deprecated
@@ -47,13 +47,13 @@ function Zombie:isConverting() end
 
 ---@public
 ---@return number conversion time
---- Gets the amount of ticks until this entity will be converted to a Drowned as a result of being underwater.  When this reaches 0, the entity will be converted.
+--- Gets the amount of ticks until this entity will be converted to a Drowned as a result of being underwater. <br> When this reaches 0, the entity will be converted.
 function Zombie:getConversionTime() end
 
 ---@param time number new conversion time
 ---@public
 ---@return nil 
---- Sets the amount of ticks until this entity will be converted to a Drowned as a result of being underwater.  When this reaches 0, the entity will be converted. A value of less than 0 will stop the current conversion process without converting the current entity.
+--- Sets the amount of ticks until this entity will be converted to a Drowned as a result of being underwater. <br> When this reaches 0, the entity will be converted. A value of less than 0 will stop the current conversion process without converting the current entity.
 function Zombie:setConversionTime(time) end
 
 ---@public

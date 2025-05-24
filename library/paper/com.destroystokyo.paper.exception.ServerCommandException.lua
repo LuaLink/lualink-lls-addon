@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.exception.ServerCommandException
----@class com.destroystokyo.paper.exception.ServerCommandException: com.destroystokyo.paper.exception.ServerException
+---@class com.destroystokyo.paper.exception.ServerCommandException: com.destroystokyo.paper.exception.ServerException, java.lang.Object
 ---@field private command org.bukkit.command.Command
 ---@field private commandSender org.bukkit.command.CommandSender
 ---@field private arguments string

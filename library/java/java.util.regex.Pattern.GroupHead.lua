@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.GroupHead
----@class java.util.regex.Pattern.GroupHead: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.GroupHead: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public localIndex number
 ---@field public tail java.util.regex.Pattern.GroupTail
 ---@overload fun(localCount: number): java.util.regex.Pattern.GroupHead

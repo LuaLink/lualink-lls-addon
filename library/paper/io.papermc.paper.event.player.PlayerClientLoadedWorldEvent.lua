@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.PlayerClientLoadedWorldEvent
----@class io.papermc.paper.event.player.PlayerClientLoadedWorldEvent: org.bukkit.event.player.PlayerEvent
+---@class io.papermc.paper.event.player.PlayerClientLoadedWorldEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private timeout boolean
 ---@overload fun(player: org.bukkit.entity.Player, timeout: boolean): io.papermc.paper.event.player.PlayerClientLoadedWorldEvent

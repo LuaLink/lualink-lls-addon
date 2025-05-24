@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.Collections.EmptyListIterator
----@class java.util.Collections.EmptyListIterator: java.util.Collections.EmptyIterator, java.util.ListIterator
+---@class java.util.Collections.EmptyListIterator: java.util.Collections.EmptyIterator, java.util.ListIterator, java.lang.Object
 ---@field public EMPTY_ITERATOR java.util.Collections.EmptyListIterator
 local EmptyListIterator = {}
 

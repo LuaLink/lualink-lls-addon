@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.RegisteredListener
----@class org.bukkit.plugin.RegisteredListener
+---@class org.bukkit.plugin.RegisteredListener: java.lang.Object
 ---@field private listener org.bukkit.event.Listener
 ---@field private priority org.bukkit.event.EventPriority
 ---@field private plugin org.bukkit.plugin.Plugin

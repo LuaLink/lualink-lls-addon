@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.BannerPatternRegistryEntry.Builder
----@class io.papermc.paper.registry.data.BannerPatternRegistryEntry.Builder: io.papermc.paper.registry.data.BannerPatternRegistryEntry, io.papermc.paper.registry.RegistryBuilder
+---@class io.papermc.paper.registry.data.BannerPatternRegistryEntry.Builder: io.papermc.paper.registry.data.BannerPatternRegistryEntry, io.papermc.paper.registry.RegistryBuilder, java.lang.Object
 local Builder = {}
 
 ---@param assetId any the asset id.

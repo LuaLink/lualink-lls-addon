@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.inventory.meta.BookMeta.Spigot
----@class org.bukkit.inventory.meta.BookMeta.Spigot
+---@class org.bukkit.inventory.meta.BookMeta.Spigot: java.lang.Object
 local Spigot = {}
 
 ---@deprecated

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.pointer.PointersSupplier
----@class net.kyori.adventure.pointer.PointersSupplier
+---@class net.kyori.adventure.pointer.PointersSupplier: java.lang.Object
 ---@field public Builder net.kyori.adventure.pointer.PointersSupplier.Builder
 local PointersSupplier = {}
 
@@ -24,7 +24,7 @@ function PointersSupplier:supports(pointer) end
 
 ---@param pointer net.kyori.adventure.pointer.Pointer the pointer
 ---@public
----@return java.util.function.Function the resolver, if any
+---@return function the resolver, if any
 --- Returns the resolver for a given pointer (if any).
 function PointersSupplier:resolver(pointer) end
 

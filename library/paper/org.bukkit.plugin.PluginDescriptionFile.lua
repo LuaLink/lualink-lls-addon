@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.PluginDescriptionFile
----@class org.bukkit.plugin.PluginDescriptionFile: io.papermc.paper.plugin.configuration.PluginMeta
+---@class org.bukkit.plugin.PluginDescriptionFile: io.papermc.paper.plugin.configuration.PluginMeta, java.lang.Object
 ---@field private VALID_NAME java.util.regex.Pattern
 ---@field private YAML any
 ---@field public rawName string

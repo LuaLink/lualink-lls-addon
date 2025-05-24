@@ -1,6 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.ClientOption
----@class com.destroystokyo.paper.ClientOption
+---@class com.destroystokyo.paper.ClientOption: java.lang.Object
 ---@field public SKIN_PARTS com.destroystokyo.paper.ClientOption
 ---@field public CHAT_COLORS_ENABLED com.destroystokyo.paper.ClientOption
 ---@field public CHAT_VISIBILITY com.destroystokyo.paper.ClientOption

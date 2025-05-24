@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.noise.SimplexOctaveGenerator
----@class org.bukkit.util.noise.SimplexOctaveGenerator: org.bukkit.util.noise.OctaveGenerator
+---@class org.bukkit.util.noise.SimplexOctaveGenerator: org.bukkit.util.noise.OctaveGenerator, java.lang.Object
 ---@field private wScale number
 ---@overload fun(world: org.bukkit.World, octaves: number): org.bukkit.util.noise.SimplexOctaveGenerator
 ---@overload fun(seed: number, octaves: number): org.bukkit.util.noise.SimplexOctaveGenerator

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.map.MapFont.CharacterSprite
----@class org.bukkit.map.MapFont.CharacterSprite
+---@class org.bukkit.map.MapFont.CharacterSprite: java.lang.Object
 ---@field private width number
 ---@field private height number
 ---@field private data boolean

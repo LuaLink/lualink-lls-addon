@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.format.Style
----@class net.kyori.adventure.text.format.Style: net.kyori.adventure.util.Buildable, any, net.kyori.adventure.text.format.StyleGetter, net.kyori.adventure.text.format.StyleSetter
+---@class net.kyori.adventure.text.format.Style: net.kyori.adventure.util.Buildable, any, net.kyori.adventure.text.format.StyleGetter, net.kyori.adventure.text.format.StyleSetter, java.lang.Object
 ---@field public DEFAULT_FONT any
 ---@field public Builder net.kyori.adventure.text.format.Style.Builder
 ---@field public Merge net.kyori.adventure.text.format.Style.Merge
@@ -17,7 +17,7 @@ function Style:empty() end
 --- Creates a builder.
 function Style:style() end
 
----@param consumer java.util.function.Consumer the builder consumer
+---@param consumer function the builder consumer
 ---@public
 ---@return net.kyori.adventure.text.format.Style a style
 --- Creates a style.
@@ -61,13 +61,13 @@ function Style:style(applicables) end
 --- Creates a style with {@code applicables} applied.
 function Style:style(applicables) end
 
----@param consumer java.util.function.Consumer the consumer
+---@param consumer function the consumer
 ---@public
 ---@return net.kyori.adventure.text.format.Style a new style
 --- Edits this style.  <p>The old style will be merge into the new style before {@code consumer} is called.</p>
 function Style:edit(consumer) end
 
----@param consumer java.util.function.Consumer the consumer
+---@param consumer function the consumer
 ---@param strategy net.kyori.adventure.text.format.Style.Merge.Strategy the merge strategy
 ---@public
 ---@return net.kyori.adventure.text.format.Style a new style

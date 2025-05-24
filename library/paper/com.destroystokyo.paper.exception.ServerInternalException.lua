@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.exception.ServerInternalException
----@class com.destroystokyo.paper.exception.ServerInternalException: com.destroystokyo.paper.exception.ServerException
+---@class com.destroystokyo.paper.exception.ServerInternalException: com.destroystokyo.paper.exception.ServerException, java.lang.Object
 ---@overload fun(message: string): com.destroystokyo.paper.exception.ServerInternalException
 ---@overload fun(message: string, cause: java.lang.Throwable): com.destroystokyo.paper.exception.ServerInternalException
 ---@overload fun(cause: java.lang.Throwable): com.destroystokyo.paper.exception.ServerInternalException

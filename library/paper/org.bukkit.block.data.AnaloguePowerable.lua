@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.AnaloguePowerable
----@class org.bukkit.block.data.AnaloguePowerable: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.AnaloguePowerable: org.bukkit.block.data.BlockData, java.lang.Object
 local AnaloguePowerable = {}
 
 ---@public

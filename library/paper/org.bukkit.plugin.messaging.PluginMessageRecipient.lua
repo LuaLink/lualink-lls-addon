@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.messaging.PluginMessageRecipient
----@class org.bukkit.plugin.messaging.PluginMessageRecipient
+---@class org.bukkit.plugin.messaging.PluginMessageRecipient: java.lang.Object
 local PluginMessageRecipient = {}
 
 ---@param source org.bukkit.plugin.Plugin The plugin that sent this message.

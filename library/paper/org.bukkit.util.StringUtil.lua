@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.util.StringUtil
----@class org.bukkit.util.StringUtil
+---@class org.bukkit.util.StringUtil: java.lang.Object
 local StringUtil = {}
 
 ---@param token string String to search for

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.loottable.LootableInventory
----@class com.destroystokyo.paper.loottable.LootableInventory: org.bukkit.loot.Lootable
+---@class com.destroystokyo.paper.loottable.LootableInventory: org.bukkit.loot.Lootable, java.lang.Object
 local LootableInventory = {}
 
 ---@public

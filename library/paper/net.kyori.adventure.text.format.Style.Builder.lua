@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.format.Style.Builder
----@class net.kyori.adventure.text.format.Style.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder, net.kyori.adventure.text.format.MutableStyleSetter
+---@class net.kyori.adventure.text.format.Style.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder, net.kyori.adventure.text.format.MutableStyleSetter, java.lang.Object
 local Builder = {}
 
 ---@param font any the font

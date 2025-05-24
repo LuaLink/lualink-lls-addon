@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.MobEffectKeys
----@class io.papermc.paper.registry.keys.MobEffectKeys
+---@class io.papermc.paper.registry.keys.MobEffectKeys: java.lang.Object
 ---@field public ABSORPTION io.papermc.paper.registry.TypedKey
 ---@field public BAD_OMEN io.papermc.paper.registry.TypedKey
 ---@field public BLINDNESS io.papermc.paper.registry.TypedKey

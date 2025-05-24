@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue
----@class net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue
+---@class net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue: java.lang.Object
 local ArgumentQueue = {}
 
 ---@public
@@ -15,7 +15,7 @@ function ArgumentQueue:pop() end
 --- Pop an argument, throwing an exception if no argument was present.  <p>After an invocation of {@code popOr()}, the internal argument pointer will be advanced to the next argument.</p>
 function ArgumentQueue:popOr(errorMessage) end
 
----@param errorMessage java.util.function.Supplier the error to throw if the argument is not present
+---@param errorMessage function the error to throw if the argument is not present
 ---@public
 ---@return net.kyori.adventure.text.minimessage.tag.Tag.Argument the popped argument
 --- Pop an argument, throwing an exception if no argument was present.  <p>After an invocation of {@code popOr()}, the internal argument pointer will be advanced to the next argument.</p>

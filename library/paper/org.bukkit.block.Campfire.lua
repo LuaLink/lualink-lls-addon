@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Campfire
----@class org.bukkit.block.Campfire: org.bukkit.block.TileState
+---@class org.bukkit.block.Campfire: org.bukkit.block.TileState, java.lang.Object
 local Campfire = {}
 
 ---@public

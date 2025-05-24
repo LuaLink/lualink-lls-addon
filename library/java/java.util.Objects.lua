@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Objects
----@class java.util.Objects
+---@class java.util.Objects: java.lang.Object
 ---@overload fun(): java.util.Objects
 local Objects = {}
 
@@ -91,14 +91,14 @@ function Objects:nonNull(obj) end
 function Objects:requireNonNullElse(obj, defaultObj) end
 
 ---@param obj T an object
----@param supplier java.util.function.Supplier of a non-{@code null} object to return if the first argument                 is {@code null}
+---@param supplier function of a non-{@code null} object to return if the first argument                 is {@code null}
 ---@public
 ---@return T the first argument if it is non-{@code null} and otherwise         the value from {@code supplier.get()} if it is non-{@code null}
 --- Returns the first argument if it is non-{@code null} and otherwise returns the non-{@code null} value of {@code supplier.get()}.
 function Objects:requireNonNullElseGet(obj, supplier) end
 
 ---@param obj T the object reference to check for nullity
----@param messageSupplier java.util.function.Supplier supplier of the detail message to be used in the event that a {@code NullPointerException} is thrown
+---@param messageSupplier function supplier of the detail message to be used in the event that a {@code NullPointerException} is thrown
 ---@public
 ---@return T {@code obj} if not {@code null}
 --- Checks that the specified object reference is not {@code null} and throws a customized {@link NullPointerException} if it is.  <p>Unlike the method {@link #requireNonNull(Object, String)}, this method allows creation of the message to be deferred until after the null check is made. While this may confer a performance advantage in the non-null case, when deciding to call this method care should be taken that the costs of creating the message supplier are less than the cost of just creating the string message directly.

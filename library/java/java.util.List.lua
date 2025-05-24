@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.List
----@class java.util.List: java.util.SequencedCollection
+---@class java.util.List: java.util.SequencedCollection, java.lang.Object
 local List = {}
 
 ---@public

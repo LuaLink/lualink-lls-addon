@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.serializer.ComponentEncoder
----@class net.kyori.adventure.text.serializer.ComponentEncoder
+---@class net.kyori.adventure.text.serializer.ComponentEncoder: java.lang.Object
 local ComponentEncoder = {}
 
 ---@param component I the component

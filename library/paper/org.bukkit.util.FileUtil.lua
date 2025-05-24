@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.FileUtil
----@class org.bukkit.util.FileUtil
+---@class org.bukkit.util.FileUtil: java.lang.Object
 local FileUtil = {}
 
 ---@param inFile java.io.File the source filename

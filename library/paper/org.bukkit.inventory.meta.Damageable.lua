@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.Damageable
----@class org.bukkit.inventory.meta.Damageable: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.Damageable: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local Damageable = {}
 
 ---@public

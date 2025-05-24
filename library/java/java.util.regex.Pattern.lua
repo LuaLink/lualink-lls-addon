@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.regex.Pattern
----@class java.util.regex.Pattern: java.io.Serializable
+---@class java.util.regex.Pattern: java.io.Serializable, java.lang.Object
 ---@field public UNIX_LINES number
 ---@field public CASE_INSENSITIVE number
 ---@field public COMMENTS number
@@ -20,7 +20,7 @@
 ---@field public root java.util.regex.Pattern.Node
 ---@field public matchRoot java.util.regex.Pattern.Node
 ---@field public buffer number
----@field public predicate java.util.regex.Pattern.CharPredicate
+---@field public predicate function
 ---@field public namedGroups java.util.Map
 ---@field public groupNodes java.util.regex.Pattern.GroupHead
 ---@field public topClosureNodes java.util.List
@@ -86,8 +86,8 @@
 ---@field public Bound java.util.regex.Pattern.Bound
 ---@field public BnM java.util.regex.Pattern.BnM
 ---@field public BnMS java.util.regex.Pattern.BnMS
----@field public CharPredicate java.util.regex.Pattern.CharPredicate
----@field public BmpCharPredicate java.util.regex.Pattern.BmpCharPredicate
+---@field public CharPredicate function
+---@field public BmpCharPredicate function
 ---@field public Qtype java.util.regex.Pattern.Qtype
 ---@overload fun(p: string, f: number): java.util.regex.Pattern
 local Pattern = {}
@@ -375,36 +375,36 @@ function Pattern:escape(inclass, create, isrange) end
 
 ---@param consume boolean 
 ---@private
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 --- Parse a character class, and return the node that matches it.  Consumes a ] on the way out if consume is true. Usually consume is true except for the case of [abc&&def] where def is a separate right hand node with "understood" brackets.
 function Pattern:clazz(consume) end
 
 ---@param bits java.util.regex.Pattern.BitClass 
 ---@param ch number 
 ---@private
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 function Pattern:bitsOrSingle(bits, ch) end
 
 ---@param ch number 
 ---@private
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 ---  Returns a suitably optimized, single character predicate
 function Pattern:single(ch) end
 
 ---@param bits java.util.regex.Pattern.BitClass 
 ---@private
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 --- Parse a single character or a character range in a character class and return its representative node.
 function Pattern:range(bits) end
 
 ---@param singleLetter boolean 
 ---@param isComplement boolean 
 ---@private
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 --- Parses a Unicode character family and returns its representative node.
 function Pattern:family(singleLetter, isComplement) end
 
----@param p java.util.regex.Pattern.CharPredicate 
+---@param p function 
 ---@private
 ---@return java.util.regex.Pattern.CharProperty 
 function Pattern:newCharProperty(p) end
@@ -515,80 +515,80 @@ function Pattern:newSlice(buf, count, hasSupplementary) end
 --- Non spacing marks only count as word characters in bounds calculations if they have a base character.
 function Pattern:hasBaseCharacter(matcher, i, seq) end
 
----@param p1 java.util.regex.Pattern.CharPredicate 
----@param p2 java.util.regex.Pattern.CharPredicate 
+---@param p1 function 
+---@param p2 function 
 ---@param bmpChar boolean 
 ---@private
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 function Pattern:and(p1, p2, bmpChar) end
 
----@param p1 java.util.regex.Pattern.CharPredicate 
----@param p2 java.util.regex.Pattern.CharPredicate 
+---@param p1 function 
+---@param p2 function 
 ---@param bmpChar boolean 
 ---@private
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 function Pattern:union(p1, p2, bmpChar) end
 
----@param p1 java.util.regex.Pattern.CharPredicate 
----@param p2 java.util.regex.Pattern.CharPredicate 
----@param p3 java.util.regex.Pattern.CharPredicate 
+---@param p1 function 
+---@param p2 function 
+---@param p3 function 
 ---@param bmpChar boolean 
 ---@private
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 function Pattern:union(p1, p2, p3, bmpChar) end
 
----@param p1 java.util.regex.Pattern.CharPredicate 
+---@param p1 function 
 ---@private
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 function Pattern:negate(p1) end
 
 ---@public
----@return java.util.regex.Pattern.BmpCharPredicate 
+---@return function 
 --- matches a Perl vertical whitespace
 function Pattern:VertWS() end
 
 ---@public
----@return java.util.regex.Pattern.BmpCharPredicate 
+---@return function 
 --- matches a Perl horizontal whitespace
 function Pattern:HorizWS() end
 
 ---@public
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 ---  for the Unicode category ALL and the dot metacharacter when  in dotall mode.
 function Pattern:ALL() end
 
 ---@public
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 --- for the dot metacharacter when dotall is not enabled.
 function Pattern:DOT() end
 
 ---@public
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 ---  the dot metacharacter when dotall is not enabled but UNIX_LINES is enabled.
 function Pattern:UNIXDOT() end
 
 ---@param c number 
 ---@public
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 --- Indicate that matches a Supplementary Unicode character
 function Pattern:SingleS(c) end
 
 ---@param c number 
 ---@public
----@return java.util.regex.Pattern.BmpCharPredicate 
+---@return function 
 --- A bmp/optimized predicate of single
 function Pattern:Single(c) end
 
 ---@param lower number 
 ---@param upper number 
 ---@public
----@return java.util.regex.Pattern.BmpCharPredicate 
+---@return function 
 --- Case insensitive matches a given BMP character
 function Pattern:SingleI(lower, upper) end
 
 ---@param lower number 
 ---@public
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 --- Unicode case insensitive matches a given Unicode character
 function Pattern:SingleU(lower) end
 
@@ -602,30 +602,30 @@ function Pattern:inRange(lower, ch, upper) end
 ---@param lower number 
 ---@param upper number 
 ---@public
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 --- Characters within a explicit value range
 function Pattern:Range(lower, upper) end
 
 ---@param lower number 
 ---@param upper number 
 ---@public
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 --- Characters within a explicit value range in a case insensitive manner.
 function Pattern:CIRange(lower, upper) end
 
 ---@param lower number 
 ---@param upper number 
 ---@public
----@return java.util.regex.Pattern.CharPredicate 
+---@return function 
 function Pattern:CIRangeU(lower, upper) end
 
 ---@public
----@return java.util.function.Predicate The predicate which can be used for finding a match on a          subsequence of a string
+---@return function The predicate which can be used for finding a match on a          subsequence of a string
 --- Creates a predicate that tests if this pattern is found in a given input string.
 function Pattern:asPredicate() end
 
 ---@public
----@return java.util.function.Predicate The predicate which can be used for matching an input string          against this pattern.
+---@return function The predicate which can be used for matching an input string          against this pattern.
 --- Creates a predicate that tests if this pattern matches a given input string.
 function Pattern:asMatchPredicate() end
 

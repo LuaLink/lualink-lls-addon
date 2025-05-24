@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.PotionMeta
----@class org.bukkit.inventory.meta.PotionMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.PotionMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local PotionMeta = {}
 
 ---@deprecated

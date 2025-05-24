@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.HumanEntity
----@class org.bukkit.entity.HumanEntity: org.bukkit.entity.LivingEntity, org.bukkit.entity.AnimalTamer, org.bukkit.inventory.InventoryHolder
+---@class org.bukkit.entity.HumanEntity: org.bukkit.entity.LivingEntity, org.bukkit.entity.AnimalTamer, org.bukkit.inventory.InventoryHolder, java.lang.Object
 local HumanEntity = {}
 
 ---@public
@@ -426,7 +426,7 @@ function HumanEntity:dropItem(slot, amount) end
 ---@param slot number the slot to drop
 ---@param amount number the number of items to drop from this slot. Values below one always return null
 ---@param throwRandomly boolean controls the randomness of the dropped items velocity, where {@code true} mimics dropped                        items during a player's death, while {@code false} acts like a normal item drop.
----@param entityOperation java.util.function.Consumer the function to be run before adding the entity into the world
+---@param entityOperation function the function to be run before adding the entity into the world
 ---@public
 ---@return org.bukkit.entity.Item the dropped item entity, or null if the action was unsuccessful
 --- Makes the player drop an item from their inventory based on the inventory slot.
@@ -448,7 +448,7 @@ function HumanEntity:dropItem(slot, amount) end
 ---@param slot org.bukkit.inventory.EquipmentSlot the equipment slot to drop
 ---@param amount number The amount of items to drop from this equipment slot. Values below one always return null
 ---@param throwRandomly boolean controls the randomness of the dropped items velocity, where {@code true} mimics dropped                        items during a player's death, while {@code false} acts like a normal item drop.
----@param entityOperation java.util.function.Consumer the function to be run before adding the entity into the world
+---@param entityOperation function the function to be run before adding the entity into the world
 ---@public
 ---@return org.bukkit.entity.Item the dropped item entity, or null if the action was unsuccessful
 --- Makes the player drop an item from their inventory based on the equipment slot.
@@ -462,7 +462,7 @@ function HumanEntity:dropItem(itemStack) end
 
 ---@param itemStack org.bukkit.inventory.ItemStack the itemstack to drop
 ---@param throwRandomly boolean controls the randomness of the dropped items velocity, where {@code true} mimics dropped                        items during a player's death, while {@code false} acts like a normal item drop.
----@param entityOperation java.util.function.Consumer the function to be run before adding the entity into the world
+---@param entityOperation function the function to be run before adding the entity into the world
 ---@public
 ---@return org.bukkit.entity.Item the dropped item entity, or null if the action was unsuccessful
 --- Makes the player drop any arbitrary {@link ItemStack}, independently of whether the player actually has that item in their inventory. <p> This method modifies neither the item nor the player's inventory. Item removal has to be handled by the method caller.

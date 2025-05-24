@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.block.fluid.FluidData
----@class io.papermc.paper.block.fluid.FluidData: java.lang.Cloneable
+---@class io.papermc.paper.block.fluid.FluidData: java.lang.Cloneable, java.lang.Object
 local FluidData = {}
 
 ---@public

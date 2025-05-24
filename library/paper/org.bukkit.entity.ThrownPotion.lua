@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.ThrownPotion
----@class org.bukkit.entity.ThrownPotion: org.bukkit.entity.ThrowableProjectile
+---@class org.bukkit.entity.ThrownPotion: org.bukkit.entity.ThrowableProjectile, java.lang.Object
 local ThrownPotion = {}
 
 ---@public

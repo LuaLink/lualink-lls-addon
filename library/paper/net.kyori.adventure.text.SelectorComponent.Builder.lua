@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.SelectorComponent.Builder
----@class net.kyori.adventure.text.SelectorComponent.Builder: net.kyori.adventure.text.ComponentBuilder
+---@class net.kyori.adventure.text.SelectorComponent.Builder: net.kyori.adventure.text.ComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param pattern string the selector pattern

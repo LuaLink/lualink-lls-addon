@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.entity.EntityKnockbackEvent
----@class io.papermc.paper.event.entity.EntityKnockbackEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.entity.EntityKnockbackEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cause io.papermc.paper.event.entity.EntityKnockbackEvent.Cause
 ---@field protected knockback org.bukkit.util.Vector

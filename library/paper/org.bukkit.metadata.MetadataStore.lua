@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.metadata.MetadataStore
----@class org.bukkit.metadata.MetadataStore
+---@class org.bukkit.metadata.MetadataStore: java.lang.Object
 local MetadataStore = {}
 
 ---@param subject T The object receiving the metadata.

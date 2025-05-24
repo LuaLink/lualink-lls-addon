@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.Tag
----@class net.kyori.adventure.text.minimessage.tag.Tag
+---@class net.kyori.adventure.text.minimessage.tag.Tag: java.lang.Object
 ---@field public Argument net.kyori.adventure.text.minimessage.tag.Tag.Argument
 local Tag = {}
 
@@ -35,7 +35,7 @@ function Tag:selfClosingInserting(content) end
 --- Create a tag that will insert a certain component into the output.  <p>This tag is self-closing, so its contents will not influence the style of following content.</p>
 function Tag:selfClosingInserting(value) end
 
----@param styles java.util.function.Consumer the action applied to the component style
+---@param styles function the action applied to the component style
 ---@public
 ---@return net.kyori.adventure.text.minimessage.tag.Tag a tag for this action
 --- Create a tag that will apply a certain style to components.

@@ -1,12 +1,12 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.util.TransformingRandomAccessList
----@class io.papermc.paper.util.TransformingRandomAccessList: java.util.AbstractList, java.util.RandomAccess
+---@class io.papermc.paper.util.TransformingRandomAccessList: java.util.AbstractList, java.util.RandomAccess, java.lang.Object
 ---@field public fromList java.util.List
----@field public toFunction java.util.function.Function
----@field public fromFunction java.util.function.Function
+---@field public toFunction function
+---@field public fromFunction function
 ---@field public TransformedListIterator io.papermc.paper.util.TransformingRandomAccessList.TransformedListIterator
----@overload fun(fromList: java.util.List, toFunction: java.util.function.Function, fromFunction: java.util.function.Function): io.papermc.paper.util.TransformingRandomAccessList
+---@overload fun(fromList: java.util.List, toFunction: function, fromFunction: function): io.papermc.paper.util.TransformingRandomAccessList
 local TransformingRandomAccessList = {}
 
 ---@public
@@ -31,7 +31,7 @@ function TransformingRandomAccessList:listIterator(index) end
 ---@return boolean 
 function TransformingRandomAccessList:isEmpty() end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return boolean 
 function TransformingRandomAccessList:removeIf(filter) end

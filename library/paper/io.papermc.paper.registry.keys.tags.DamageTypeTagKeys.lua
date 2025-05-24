@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.tags.DamageTypeTagKeys
----@class io.papermc.paper.registry.keys.tags.DamageTypeTagKeys
+---@class io.papermc.paper.registry.keys.tags.DamageTypeTagKeys: java.lang.Object
 ---@field public ALWAYS_HURTS_ENDER_DRAGONS io.papermc.paper.registry.tag.TagKey
 ---@field public ALWAYS_KILLS_ARMOR_STANDS io.papermc.paper.registry.tag.TagKey
 ---@field public ALWAYS_MOST_SIGNIFICANT_FALL io.papermc.paper.registry.tag.TagKey

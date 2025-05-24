@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.EntityFactory
----@class org.bukkit.entity.EntityFactory
+---@class org.bukkit.entity.EntityFactory: java.lang.Object
 local EntityFactory = {}
 
 ---@param input string the input string

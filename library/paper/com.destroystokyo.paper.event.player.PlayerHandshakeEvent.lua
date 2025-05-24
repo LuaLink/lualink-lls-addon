@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerHandshakeEvent
----@class com.destroystokyo.paper.event.player.PlayerHandshakeEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.player.PlayerHandshakeEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private originalHandshake string
 ---@field private originalSocketAddressHostname string

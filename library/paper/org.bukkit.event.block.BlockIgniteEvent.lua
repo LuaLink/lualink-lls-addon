@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BlockIgniteEvent
----@class org.bukkit.event.block.BlockIgniteEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.block.BlockIgniteEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cause org.bukkit.event.block.BlockIgniteEvent.IgniteCause
 ---@field private ignitingEntity org.bukkit.entity.Entity

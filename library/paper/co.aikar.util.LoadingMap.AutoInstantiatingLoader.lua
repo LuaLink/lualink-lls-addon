@@ -1,6 +1,6 @@
 ---@meta
 -- co.aikar.util.LoadingMap.AutoInstantiatingLoader
----@class co.aikar.util.LoadingMap.AutoInstantiatingLoader: java.util.function.Function
+---@class co.aikar.util.LoadingMap.AutoInstantiatingLoader: function, java.lang.Object
 ---@field public constructor java.lang.reflect.Constructor
 ---@field private valueClass java.lang.Class
 ---@overload fun(keyClass: java.lang.Class, valueClass: java.lang.Class): co.aikar.util.LoadingMap.AutoInstantiatingLoader

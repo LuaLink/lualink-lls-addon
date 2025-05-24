@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.ComponentBuilder
----@class net.kyori.adventure.text.ComponentBuilder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder, net.kyori.adventure.text.ComponentBuilderApplicable, net.kyori.adventure.text.ComponentLike, net.kyori.adventure.text.format.MutableStyleSetter
+---@class net.kyori.adventure.text.ComponentBuilder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder, net.kyori.adventure.text.ComponentBuilderApplicable, net.kyori.adventure.text.ComponentLike, net.kyori.adventure.text.format.MutableStyleSetter, java.lang.Object
 local ComponentBuilder = {}
 
 ---@param component net.kyori.adventure.text.Component the component to append
@@ -50,25 +50,25 @@ function ComponentBuilder:appendNewline() end
 --- Appends a space to this component.
 function ComponentBuilder:appendSpace() end
 
----@param consumer java.util.function.Consumer the action
+---@param consumer function the action
 ---@public
 ---@return B this builder
 --- Applies an action to this builder.
 function ComponentBuilder:apply(consumer) end
 
----@param action java.util.function.Consumer the action
+---@param action function the action
 ---@public
 ---@return B this builder
 --- Applies an action to this component and all child components if they are an instance of {@link BuildableComponent}.
 function ComponentBuilder:applyDeep(action) end
 
----@param function java.util.function.Function the mapping function
+---@param function function the mapping function
 ---@public
 ---@return B this builder
 --- Replaces each child of this component with the resultant component from the function.
 function ComponentBuilder:mapChildren(function) end
 
----@param function java.util.function.Function the mapping function
+---@param function function the mapping function
 ---@public
 ---@return B this builder
 --- Replaces each child and sub-child of this component with the resultant component of the function.
@@ -85,7 +85,7 @@ function ComponentBuilder:children() end
 --- Sets the style.
 function ComponentBuilder:style(style) end
 
----@param consumer java.util.function.Consumer the style consumer
+---@param consumer function the style consumer
 ---@public
 ---@return B this builder
 --- Configures the style.

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.EntityPortalEvent
----@class org.bukkit.event.entity.EntityPortalEvent: org.bukkit.event.entity.EntityTeleportEvent
+---@class org.bukkit.event.entity.EntityPortalEvent: org.bukkit.event.entity.EntityTeleportEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private type org.bukkit.PortalType
 ---@field private searchRadius number

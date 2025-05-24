@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.PlayerNamePrompt
----@class org.bukkit.conversations.PlayerNamePrompt: org.bukkit.conversations.ValidatingPrompt
+---@class org.bukkit.conversations.PlayerNamePrompt: org.bukkit.conversations.ValidatingPrompt, java.lang.Object
 ---@field private plugin org.bukkit.plugin.Plugin
 ---@overload fun(plugin: org.bukkit.plugin.Plugin): org.bukkit.conversations.PlayerNamePrompt
 local PlayerNamePrompt = {}

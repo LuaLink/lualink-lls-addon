@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.chat.ViewerUnawareImpl
----@class io.papermc.paper.chat.ViewerUnawareImpl: io.papermc.paper.chat.ChatRenderer, io.papermc.paper.chat.ChatRenderer.ViewerUnaware
+---@class io.papermc.paper.chat.ViewerUnawareImpl: io.papermc.paper.chat.ChatRenderer, io.papermc.paper.chat.ChatRenderer.ViewerUnaware, java.lang.Object
 ---@field private unaware io.papermc.paper.chat.ChatRenderer.ViewerUnaware
 ---@field private message net.kyori.adventure.text.Component
 ---@field public Default io.papermc.paper.chat.ViewerUnawareImpl.Default

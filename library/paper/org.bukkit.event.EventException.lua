@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.event.EventException
----@class org.bukkit.event.EventException: java.lang.Exception
+---@class org.bukkit.event.EventException: java.lang.Exception, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private cause java.lang.Throwable
 ---@overload fun(throwable: java.lang.Throwable): org.bukkit.event.EventException

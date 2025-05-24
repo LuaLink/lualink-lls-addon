@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.LlamaInventory
----@class org.bukkit.inventory.LlamaInventory: org.bukkit.inventory.SaddledHorseInventory
+---@class org.bukkit.inventory.LlamaInventory: org.bukkit.inventory.SaddledHorseInventory, java.lang.Object
 local LlamaInventory = {}
 
 ---@public

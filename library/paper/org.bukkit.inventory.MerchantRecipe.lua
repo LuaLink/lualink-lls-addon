@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.MerchantRecipe
----@class org.bukkit.inventory.MerchantRecipe: org.bukkit.inventory.Recipe
+---@class org.bukkit.inventory.MerchantRecipe: org.bukkit.inventory.Recipe, java.lang.Object
 ---@field private result org.bukkit.inventory.ItemStack
 ---@field private ingredients java.util.List
 ---@field private uses number

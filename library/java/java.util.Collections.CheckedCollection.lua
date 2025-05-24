@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.CheckedCollection
----@class java.util.Collections.CheckedCollection: java.util.Collection, java.io.Serializable
+---@class java.util.Collections.CheckedCollection: java.util.Collection, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field public c java.util.Collection
 ---@field public type java.lang.Class
@@ -41,7 +41,7 @@ function CheckedCollection:toArray() end
 ---@return table<T> 
 function CheckedCollection:toArray(a) end
 
----@param f java.util.function.IntFunction 
+---@param f function 
 ---@public
 ---@return table<T> 
 function CheckedCollection:toArray(f) end
@@ -97,12 +97,12 @@ function CheckedCollection:checkedCopyOf(coll) end
 ---@return boolean 
 function CheckedCollection:addAll(coll) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function CheckedCollection:forEach(action) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return boolean 
 function CheckedCollection:removeIf(filter) end

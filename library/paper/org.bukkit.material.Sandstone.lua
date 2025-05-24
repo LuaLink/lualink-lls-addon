@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Sandstone
----@class org.bukkit.material.Sandstone: org.bukkit.material.MaterialData
+---@class org.bukkit.material.Sandstone: org.bukkit.material.MaterialData, java.lang.Object
 ---@overload fun(): org.bukkit.material.Sandstone
 ---@overload fun(type: org.bukkit.SandstoneType): org.bukkit.material.Sandstone
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Sandstone

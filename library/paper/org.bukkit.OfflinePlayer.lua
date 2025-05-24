@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.OfflinePlayer
----@class org.bukkit.OfflinePlayer: org.bukkit.permissions.ServerOperator, org.bukkit.entity.AnimalTamer, org.bukkit.configuration.serialization.ConfigurationSerializable, io.papermc.paper.persistence.PersistentDataViewHolder
+---@class org.bukkit.OfflinePlayer: org.bukkit.permissions.ServerOperator, org.bukkit.entity.AnimalTamer, org.bukkit.configuration.serialization.ConfigurationSerializable, io.papermc.paper.persistence.PersistentDataViewHolder, java.lang.Object
 local OfflinePlayer = {}
 
 ---@public

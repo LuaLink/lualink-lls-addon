@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Hopper
----@class org.bukkit.block.data.type.Hopper: org.bukkit.block.data.Directional
+---@class org.bukkit.block.data.type.Hopper: org.bukkit.block.data.Directional, java.lang.Object
 local Hopper = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.event.HoverEvent
----@class net.kyori.adventure.text.event.HoverEvent: any, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.text.format.StyleBuilderApplicable
+---@class net.kyori.adventure.text.event.HoverEvent: any, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.text.format.StyleBuilderApplicable, java.lang.Object
 ---@field private action net.kyori.adventure.text.event.HoverEvent.Action
 ---@field private value V
 ---@field public ShowItem net.kyori.adventure.text.event.HoverEvent.ShowItem

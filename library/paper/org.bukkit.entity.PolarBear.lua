@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.PolarBear
----@class org.bukkit.entity.PolarBear: org.bukkit.entity.Animals
+---@class org.bukkit.entity.PolarBear: org.bukkit.entity.Animals, java.lang.Object
 local PolarBear = {}
 
 ---@public

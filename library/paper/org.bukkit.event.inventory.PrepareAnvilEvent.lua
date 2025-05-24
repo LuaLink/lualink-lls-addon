@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.inventory.PrepareAnvilEvent
----@class org.bukkit.event.inventory.PrepareAnvilEvent: com.destroystokyo.paper.event.inventory.PrepareResultEvent
+---@class org.bukkit.event.inventory.PrepareAnvilEvent: com.destroystokyo.paper.event.inventory.PrepareResultEvent, java.lang.Object
 ---@overload fun(inventory: org.bukkit.inventory.view.AnvilView, result: org.bukkit.inventory.ItemStack): org.bukkit.event.inventory.PrepareAnvilEvent
 local PrepareAnvilEvent = {}
 

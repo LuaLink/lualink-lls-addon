@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.block.banner.PatternType
----@class org.bukkit.block.banner.PatternType: org.bukkit.util.OldEnum, org.bukkit.Keyed
+---@class org.bukkit.block.banner.PatternType: org.bukkit.util.OldEnum, org.bukkit.Keyed, java.lang.Object
 ---@field public BASE org.bukkit.block.banner.PatternType
 ---@field public BORDER org.bukkit.block.banner.PatternType
 ---@field public BRICKS org.bukkit.block.banner.PatternType

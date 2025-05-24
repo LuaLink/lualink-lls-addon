@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.HandlerList
----@class org.bukkit.event.HandlerList
+---@class org.bukkit.event.HandlerList: java.lang.Object
 ---@field private handlers org.bukkit.plugin.RegisteredListener
 ---@field private handlerslots java.util.EnumMap
 ---@field private allLists java.util.ArrayList

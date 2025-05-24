@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.plugin.PluginDescriptionResolver
----@class org.bukkit.plugin.PluginDescriptionResolver: any
+---@class org.bukkit.plugin.PluginDescriptionResolver: any, java.lang.Object
 local PluginDescriptionResolver = {}
 
 ---@protected

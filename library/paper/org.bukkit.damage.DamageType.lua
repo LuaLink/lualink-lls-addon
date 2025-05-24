@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.damage.DamageType
----@class org.bukkit.damage.DamageType: org.bukkit.Keyed, org.bukkit.Translatable
+---@class org.bukkit.damage.DamageType: org.bukkit.Keyed, org.bukkit.Translatable, java.lang.Object
 ---@field public ARROW org.bukkit.damage.DamageType
 ---@field public BAD_RESPAWN_POINT org.bukkit.damage.DamageType
 ---@field public CACTUS org.bukkit.damage.DamageType

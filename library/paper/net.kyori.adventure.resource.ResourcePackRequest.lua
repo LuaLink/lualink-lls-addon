@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.resource.ResourcePackRequest
----@class net.kyori.adventure.resource.ResourcePackRequest: any, net.kyori.adventure.resource.ResourcePackRequestLike
+---@class net.kyori.adventure.resource.ResourcePackRequest: any, net.kyori.adventure.resource.ResourcePackRequestLike, java.lang.Object
 ---@field public Builder net.kyori.adventure.resource.ResourcePackRequest.Builder
 local ResourcePackRequest = {}
 

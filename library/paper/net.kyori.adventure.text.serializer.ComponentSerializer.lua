@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.serializer.ComponentSerializer
----@class net.kyori.adventure.text.serializer.ComponentSerializer: net.kyori.adventure.text.serializer.ComponentEncoder, net.kyori.adventure.text.serializer.ComponentDecoder
+---@class net.kyori.adventure.text.serializer.ComponentSerializer: net.kyori.adventure.text.serializer.ComponentEncoder, net.kyori.adventure.text.serializer.ComponentDecoder, java.lang.Object
 local ComponentSerializer = {}
 
 ---@param input R the input

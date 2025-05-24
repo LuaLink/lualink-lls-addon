@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.JukeboxSong
----@class org.bukkit.JukeboxSong: org.bukkit.Keyed, org.bukkit.Translatable
+---@class org.bukkit.JukeboxSong: org.bukkit.Keyed, org.bukkit.Translatable, java.lang.Object
 ---@field public ELEVEN org.bukkit.JukeboxSong
 ---@field public THIRTEEN org.bukkit.JukeboxSong
 ---@field public FIVE org.bukkit.JukeboxSong

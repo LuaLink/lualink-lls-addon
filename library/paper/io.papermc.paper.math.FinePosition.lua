@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.math.FinePosition
----@class io.papermc.paper.math.FinePosition: io.papermc.paper.math.Position
+---@class io.papermc.paper.math.FinePosition: io.papermc.paper.math.Position, java.lang.Object
 local FinePosition = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.generator.structure.Structure
----@class org.bukkit.generator.structure.Structure: org.bukkit.Keyed
+---@class org.bukkit.generator.structure.Structure: org.bukkit.Keyed, java.lang.Object
 ---@field public ANCIENT_CITY org.bukkit.generator.structure.Structure
 ---@field public BASTION_REMNANT org.bukkit.generator.structure.Structure
 ---@field public BURIED_TREASURE org.bukkit.generator.structure.Structure

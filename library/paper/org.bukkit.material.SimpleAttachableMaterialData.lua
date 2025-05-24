@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.SimpleAttachableMaterialData
----@class org.bukkit.material.SimpleAttachableMaterialData: org.bukkit.material.MaterialData, org.bukkit.material.Attachable
+---@class org.bukkit.material.SimpleAttachableMaterialData: org.bukkit.material.MaterialData, org.bukkit.material.Attachable, java.lang.Object
 ---@overload fun(type: org.bukkit.Material, direction: org.bukkit.block.BlockFace): org.bukkit.material.SimpleAttachableMaterialData
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.SimpleAttachableMaterialData
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.SimpleAttachableMaterialData

@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.registry.event.RegistryEventTypeProvider
----@class io.papermc.paper.registry.event.RegistryEventTypeProvider
+---@class io.papermc.paper.registry.event.RegistryEventTypeProvider: java.lang.Object
 ---@field public PROVIDER java.util.Optional
 local RegistryEventTypeProvider = {}
 

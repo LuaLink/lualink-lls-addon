@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.VoxelShape
----@class org.bukkit.util.VoxelShape
+---@class org.bukkit.util.VoxelShape: java.lang.Object
 local VoxelShape = {}
 
 ---@public

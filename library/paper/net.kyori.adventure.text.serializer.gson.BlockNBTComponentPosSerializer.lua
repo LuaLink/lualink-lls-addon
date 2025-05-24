@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.BlockNBTComponentPosSerializer
----@class net.kyori.adventure.text.serializer.gson.BlockNBTComponentPosSerializer: any
+---@class net.kyori.adventure.text.serializer.gson.BlockNBTComponentPosSerializer: any, java.lang.Object
 ---@field public INSTANCE any
 ---@overload fun(): net.kyori.adventure.text.serializer.gson.BlockNBTComponentPosSerializer
 local BlockNBTComponentPosSerializer = {}

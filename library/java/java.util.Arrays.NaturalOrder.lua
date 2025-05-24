@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Arrays.NaturalOrder
----@class java.util.Arrays.NaturalOrder: java.util.Comparator
+---@class java.util.Arrays.NaturalOrder: java.util.Comparator, java.lang.Object
 ---@field public INSTANCE java.util.Arrays.NaturalOrder
 local NaturalOrder = {}
 

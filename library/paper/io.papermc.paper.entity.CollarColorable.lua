@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.entity.CollarColorable
----@class io.papermc.paper.entity.CollarColorable: org.bukkit.entity.LivingEntity
+---@class io.papermc.paper.entity.CollarColorable: org.bukkit.entity.LivingEntity, java.lang.Object
 local CollarColorable = {}
 
 ---@public

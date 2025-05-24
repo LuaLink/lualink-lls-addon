@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.map.MapPalette.MapColorCache
----@class org.bukkit.map.MapPalette.MapColorCache
+---@class org.bukkit.map.MapPalette.MapColorCache: java.lang.Object
 local MapColorCache = {}
 
 ---@public

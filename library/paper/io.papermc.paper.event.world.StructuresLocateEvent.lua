@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.world.StructuresLocateEvent
----@class io.papermc.paper.event.world.StructuresLocateEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.world.StructuresLocateEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private origin org.bukkit.Location
 ---@field private result io.papermc.paper.event.world.StructuresLocateEvent.Result

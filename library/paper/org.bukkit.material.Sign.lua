@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Sign
----@class org.bukkit.material.Sign: org.bukkit.material.MaterialData, org.bukkit.material.Attachable
+---@class org.bukkit.material.Sign: org.bukkit.material.MaterialData, org.bukkit.material.Attachable, java.lang.Object
 ---@overload fun(): org.bukkit.material.Sign
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Sign
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Sign

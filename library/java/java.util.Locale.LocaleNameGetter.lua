@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Locale.LocaleNameGetter
----@class java.util.Locale.LocaleNameGetter: any
+---@class java.util.Locale.LocaleNameGetter: any, java.lang.Object
 ---@field private INSTANCE java.util.Locale.LocaleNameGetter
 local LocaleNameGetter = {}
 

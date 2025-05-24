@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.Ques
----@class java.util.regex.Pattern.Ques: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.Ques: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public atom java.util.regex.Pattern.Node
 ---@field public type java.util.regex.Pattern.Qtype
 ---@overload fun(node: java.util.regex.Pattern.Node, type: java.util.regex.Pattern.Qtype): java.util.regex.Pattern.Ques

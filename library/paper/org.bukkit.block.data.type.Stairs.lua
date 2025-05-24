@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Stairs
----@class org.bukkit.block.data.type.Stairs: org.bukkit.block.data.Bisected, org.bukkit.block.data.Directional, org.bukkit.block.data.Waterlogged
+---@class org.bukkit.block.data.type.Stairs: org.bukkit.block.data.Bisected, org.bukkit.block.data.Directional, org.bukkit.block.data.Waterlogged, java.lang.Object
 ---@field public Shape org.bukkit.block.data.type.Stairs.Shape
 local Stairs = {}
 

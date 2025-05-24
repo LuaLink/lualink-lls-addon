@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.DecorationTag
----@class net.kyori.adventure.text.minimessage.tag.standard.DecorationTag
+---@class net.kyori.adventure.text.minimessage.tag.standard.DecorationTag: java.lang.Object
 ---@field private B string
 ---@field private I string
 ---@field private EM string
@@ -34,7 +34,7 @@ function DecorationTag:create(toApply, args, ctx) end
 function DecorationTag:createNegated(toApply) end
 
 ---@param decoration net.kyori.adventure.text.format.TextDecoration 
----@param emitable java.util.function.BiConsumer 
+---@param emitable function 
 ---@public
 ---@return net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim 
 function DecorationTag:claim(decoration, emitable) end

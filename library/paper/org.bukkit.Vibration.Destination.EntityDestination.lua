@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.Vibration.Destination.EntityDestination
----@class org.bukkit.Vibration.Destination.EntityDestination: org.bukkit.Vibration.Destination
+---@class org.bukkit.Vibration.Destination.EntityDestination: org.bukkit.Vibration.Destination, java.lang.Object
 ---@field private entity org.bukkit.entity.Entity
 ---@overload fun(entity: org.bukkit.entity.Entity): org.bukkit.Vibration.Destination.EntityDestination
 local EntityDestination = {}

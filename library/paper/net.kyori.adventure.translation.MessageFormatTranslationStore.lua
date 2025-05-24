@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.translation.MessageFormatTranslationStore
----@class net.kyori.adventure.translation.MessageFormatTranslationStore: net.kyori.adventure.translation.AbstractTranslationStore.StringBased, net.kyori.adventure.translation.TranslationRegistry
+---@class net.kyori.adventure.translation.MessageFormatTranslationStore: net.kyori.adventure.translation.AbstractTranslationStore.StringBased, net.kyori.adventure.translation.TranslationRegistry, java.lang.Object
 ---@overload fun(name: any): net.kyori.adventure.translation.MessageFormatTranslationStore
 local MessageFormatTranslationStore = {}
 

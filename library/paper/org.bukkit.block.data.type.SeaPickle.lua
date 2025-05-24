@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.SeaPickle
----@class org.bukkit.block.data.type.SeaPickle: org.bukkit.block.data.Waterlogged
+---@class org.bukkit.block.data.type.SeaPickle: org.bukkit.block.data.Waterlogged, java.lang.Object
 local SeaPickle = {}
 
 ---@public

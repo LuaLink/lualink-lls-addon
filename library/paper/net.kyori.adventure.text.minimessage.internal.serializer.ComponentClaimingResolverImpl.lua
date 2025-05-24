@@ -1,10 +1,10 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.serializer.ComponentClaimingResolverImpl
----@class net.kyori.adventure.text.minimessage.internal.serializer.ComponentClaimingResolverImpl: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver.Single
+---@class net.kyori.adventure.text.minimessage.internal.serializer.ComponentClaimingResolverImpl: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver.Single, java.lang.Object
 ---@field private names java.util.Set
----@field private handler java.util.function.BiFunction
----@field private componentClaim java.util.function.Function
----@overload fun(names: java.util.Set, handler: java.util.function.BiFunction, componentClaim: java.util.function.Function?): net.kyori.adventure.text.minimessage.internal.serializer.ComponentClaimingResolverImpl
+---@field private handler function
+---@field private componentClaim function
+---@overload fun(names: java.util.Set, handler: function, componentClaim: function?): net.kyori.adventure.text.minimessage.internal.serializer.ComponentClaimingResolverImpl
 local ComponentClaimingResolverImpl = {}
 
 ---@param name string 

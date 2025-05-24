@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.Collections
----@class java.util.Collections
+---@class java.util.Collections: java.lang.Object
 ---@field private BINARYSEARCH_THRESHOLD number
 ---@field private REVERSE_THRESHOLD number
 ---@field private SHUFFLE_THRESHOLD number

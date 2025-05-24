@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.ConversationPrefix
----@class org.bukkit.conversations.ConversationPrefix
+---@class org.bukkit.conversations.ConversationPrefix: java.lang.Object
 local ConversationPrefix = {}
 
 ---@param context org.bukkit.conversations.ConversationContext Context information about the conversation.

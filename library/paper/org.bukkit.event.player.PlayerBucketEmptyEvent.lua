@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerBucketEmptyEvent
----@class org.bukkit.event.player.PlayerBucketEmptyEvent: org.bukkit.event.player.PlayerBucketEvent
+---@class org.bukkit.event.player.PlayerBucketEmptyEvent: org.bukkit.event.player.PlayerBucketEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@overload fun(player: org.bukkit.entity.Player, blockClicked: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, bucket: org.bukkit.Material, itemInHand: org.bukkit.inventory.ItemStack): org.bukkit.event.player.PlayerBucketEmptyEvent
 ---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, blockClicked: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, bucket: org.bukkit.Material, itemInHand: org.bukkit.inventory.ItemStack): org.bukkit.event.player.PlayerBucketEmptyEvent

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.CheckedMap
----@class java.util.Collections.CheckedMap: java.util.Map, java.io.Serializable
+---@class java.util.Collections.CheckedMap: java.util.Map, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private m java.util.Map
 ---@field public keyType java.lang.Class
@@ -17,9 +17,9 @@ local CheckedMap = {}
 ---@return nil 
 function CheckedMap:typeCheck(key, value) end
 
----@param func java.util.function.BiFunction 
+---@param func function 
 ---@private
----@return java.util.function.BiFunction 
+---@return function 
 function CheckedMap:typeCheck(func) end
 
 ---@param key java.lang.Object 
@@ -100,12 +100,12 @@ function CheckedMap:putAll(t) end
 ---@return java.util.Set 
 function CheckedMap:entrySet() end
 
----@param action java.util.function.BiConsumer 
+---@param action function 
 ---@public
 ---@return nil 
 function CheckedMap:forEach(action) end
 
----@param function java.util.function.BiFunction 
+---@param function function 
 ---@public
 ---@return nil 
 function CheckedMap:replaceAll(function) end
@@ -136,26 +136,26 @@ function CheckedMap:replace(key, oldValue, newValue) end
 function CheckedMap:replace(key, value) end
 
 ---@param key K 
----@param mappingFunction java.util.function.Function 
+---@param mappingFunction function 
 ---@public
 ---@return V 
 function CheckedMap:computeIfAbsent(key, mappingFunction) end
 
 ---@param key K 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function CheckedMap:computeIfPresent(key, remappingFunction) end
 
 ---@param key K 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function CheckedMap:compute(key, remappingFunction) end
 
 ---@param key K 
 ---@param value V 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function CheckedMap:merge(key, value, remappingFunction) end

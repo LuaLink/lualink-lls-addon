@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.SelectorComponent
----@class net.kyori.adventure.text.SelectorComponent: net.kyori.adventure.text.BuildableComponent, net.kyori.adventure.text.ScopedComponent
+---@class net.kyori.adventure.text.SelectorComponent: net.kyori.adventure.text.BuildableComponent, net.kyori.adventure.text.ScopedComponent, java.lang.Object
 ---@field public Builder net.kyori.adventure.text.SelectorComponent.Builder
 local SelectorComponent = {}
 

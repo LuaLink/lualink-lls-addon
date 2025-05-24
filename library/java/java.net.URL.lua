@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.net.URL
----@class java.net.URL: java.io.Serializable
+---@class java.net.URL: java.io.Serializable, java.lang.Object
 ---@field public BUILTIN_HANDLERS_PREFIX string
 ---@field public serialVersionUID number
 ---@field private protocolPathProp string

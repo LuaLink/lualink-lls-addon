@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Painting
----@class org.bukkit.entity.Painting: org.bukkit.entity.Hanging
+---@class org.bukkit.entity.Painting: org.bukkit.entity.Hanging, java.lang.Object
 local Painting = {}
 
 ---@public

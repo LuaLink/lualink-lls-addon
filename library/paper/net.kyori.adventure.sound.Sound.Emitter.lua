@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.sound.Sound.Emitter
----@class net.kyori.adventure.sound.Sound.Emitter
+---@class net.kyori.adventure.sound.Sound.Emitter: java.lang.Object
 local Emitter = {}
 
 ---@public

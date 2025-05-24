@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.EndGateway
----@class org.bukkit.block.EndGateway: org.bukkit.block.TileState
+---@class org.bukkit.block.EndGateway: org.bukkit.block.TileState, java.lang.Object
 local EndGateway = {}
 
 ---@public

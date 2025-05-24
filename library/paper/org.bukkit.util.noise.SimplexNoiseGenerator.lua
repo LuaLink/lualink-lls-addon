@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.noise.SimplexNoiseGenerator
----@class org.bukkit.util.noise.SimplexNoiseGenerator: org.bukkit.util.noise.PerlinNoiseGenerator
+---@class org.bukkit.util.noise.SimplexNoiseGenerator: org.bukkit.util.noise.PerlinNoiseGenerator, java.lang.Object
 ---@field protected SQRT_3 number
 ---@field protected SQRT_5 number
 ---@field protected F2 number

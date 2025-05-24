@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.inventory.InventoryHolder
----@class org.bukkit.inventory.InventoryHolder
+---@class org.bukkit.inventory.InventoryHolder: java.lang.Object
 local InventoryHolder = {}
 
 ---@public

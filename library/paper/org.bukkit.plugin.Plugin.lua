@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.Plugin
----@class org.bukkit.plugin.Plugin: org.bukkit.command.TabExecutor, io.papermc.paper.plugin.lifecycle.event.LifecycleEventOwner
+---@class org.bukkit.plugin.Plugin: org.bukkit.command.TabExecutor, io.papermc.paper.plugin.lifecycle.event.LifecycleEventOwner, java.lang.Object
 local Plugin = {}
 
 ---@public

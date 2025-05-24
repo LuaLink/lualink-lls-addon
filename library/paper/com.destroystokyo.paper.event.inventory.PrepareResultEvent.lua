@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.inventory.PrepareResultEvent
----@class com.destroystokyo.paper.event.inventory.PrepareResultEvent: org.bukkit.event.inventory.PrepareInventoryResultEvent
+---@class com.destroystokyo.paper.event.inventory.PrepareResultEvent: org.bukkit.event.inventory.PrepareInventoryResultEvent, java.lang.Object
 ---@overload fun(inventory: org.bukkit.inventory.InventoryView, result: org.bukkit.inventory.ItemStack): com.destroystokyo.paper.event.inventory.PrepareResultEvent
 local PrepareResultEvent = {}
 

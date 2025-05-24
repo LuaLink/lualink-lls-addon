@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.ban.ProfileBanList
----@class org.bukkit.ban.ProfileBanList: org.bukkit.BanList
+---@class org.bukkit.ban.ProfileBanList: org.bukkit.BanList, java.lang.Object
 local ProfileBanList = {}
 
 ---@deprecated

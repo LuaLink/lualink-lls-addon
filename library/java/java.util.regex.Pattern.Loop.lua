@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.Loop
----@class java.util.regex.Pattern.Loop: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.Loop: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public body java.util.regex.Pattern.Node
 ---@field public countIndex number
 ---@field public beginIndex number

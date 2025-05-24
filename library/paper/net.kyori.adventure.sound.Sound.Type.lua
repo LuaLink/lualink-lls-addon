@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.sound.Sound.Type
----@class net.kyori.adventure.sound.Sound.Type: any
+---@class net.kyori.adventure.sound.Sound.Type: any, java.lang.Object
 local Type = {}
 
 ---@public

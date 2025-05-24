@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- co.aikar.timings.TimingsManager
----@class co.aikar.timings.TimingsManager
+---@class co.aikar.timings.TimingsManager: java.lang.Object
 ---@field public TIMING_MAP java.util.Map
 ---@field public FULL_SERVER_TICK co.aikar.timings.FullServerTickHandler
 ---@field public TIMINGS_TICK co.aikar.timings.TimingHandler

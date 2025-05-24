@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.math.Rotations
----@class io.papermc.paper.math.Rotations
+---@class io.papermc.paper.math.Rotations: java.lang.Object
 ---@field public ZERO io.papermc.paper.math.Rotations
 local Rotations = {}
 

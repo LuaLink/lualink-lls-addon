@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.KeybindTag
----@class net.kyori.adventure.text.minimessage.tag.standard.KeybindTag
+---@class net.kyori.adventure.text.minimessage.tag.standard.KeybindTag: java.lang.Object
 ---@field public KEYBIND string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.KeybindTag

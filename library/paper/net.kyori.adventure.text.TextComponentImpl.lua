@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.TextComponentImpl
----@class net.kyori.adventure.text.TextComponentImpl: net.kyori.adventure.text.AbstractComponent, net.kyori.adventure.text.TextComponent
+---@class net.kyori.adventure.text.TextComponentImpl: net.kyori.adventure.text.AbstractComponent, net.kyori.adventure.text.TextComponent, java.lang.Object
 ---@field private WARN_WHEN_LEGACY_FORMATTING_DETECTED boolean
 ---@field public SECTION_CHAR string
 ---@field public EMPTY net.kyori.adventure.text.TextComponent

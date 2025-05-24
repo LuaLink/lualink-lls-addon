@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.loader.PluginClasspathBuilder
----@class io.papermc.paper.plugin.loader.PluginClasspathBuilder
+---@class io.papermc.paper.plugin.loader.PluginClasspathBuilder: java.lang.Object
 local PluginClasspathBuilder = {}
 
 ---@param classPathLibrary io.papermc.paper.plugin.loader.library.ClassPathLibrary the library instance to add to this builder

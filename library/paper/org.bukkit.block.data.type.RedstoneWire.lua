@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.RedstoneWire
----@class org.bukkit.block.data.type.RedstoneWire: org.bukkit.block.data.AnaloguePowerable
+---@class org.bukkit.block.data.type.RedstoneWire: org.bukkit.block.data.AnaloguePowerable, java.lang.Object
 ---@field public Connection org.bukkit.block.data.type.RedstoneWire.Connection
 local RedstoneWire = {}
 

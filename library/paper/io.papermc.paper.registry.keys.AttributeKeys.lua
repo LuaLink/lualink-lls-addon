@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.AttributeKeys
----@class io.papermc.paper.registry.keys.AttributeKeys
+---@class io.papermc.paper.registry.keys.AttributeKeys: java.lang.Object
 ---@field public ARMOR io.papermc.paper.registry.TypedKey
 ---@field public ARMOR_TOUGHNESS io.papermc.paper.registry.TypedKey
 ---@field public ATTACK_DAMAGE io.papermc.paper.registry.TypedKey

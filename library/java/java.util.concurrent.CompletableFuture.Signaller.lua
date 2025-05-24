@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.concurrent.CompletableFuture.Signaller
----@class java.util.concurrent.CompletableFuture.Signaller: java.util.concurrent.CompletableFuture.Completion, java.util.concurrent.ForkJoinPool.ManagedBlocker
+---@class java.util.concurrent.CompletableFuture.Signaller: java.util.concurrent.CompletableFuture.Completion, java.util.concurrent.ForkJoinPool.ManagedBlocker, java.lang.Object
 ---@field public nanos number
 ---@field public deadline number
 ---@field public interruptible boolean

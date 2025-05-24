@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.KeySerializer
----@class net.kyori.adventure.text.serializer.gson.KeySerializer: any
+---@class net.kyori.adventure.text.serializer.gson.KeySerializer: any, java.lang.Object
 ---@field public INSTANCE any
 ---@overload fun(): net.kyori.adventure.text.serializer.gson.KeySerializer
 local KeySerializer = {}

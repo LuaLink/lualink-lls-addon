@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.tag.EntityTags
----@class io.papermc.paper.tag.EntityTags
+---@class io.papermc.paper.tag.EntityTags: java.lang.Object
 ---@field public UNDEADS io.papermc.paper.tag.EntitySetTag
 ---@field public HORSES io.papermc.paper.tag.EntitySetTag
 ---@field public MINECARTS io.papermc.paper.tag.EntitySetTag

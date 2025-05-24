@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.entity.ai.VanillaGoal
----@class com.destroystokyo.paper.entity.ai.VanillaGoal: com.destroystokyo.paper.entity.ai.Goal
+---@class com.destroystokyo.paper.entity.ai.VanillaGoal: com.destroystokyo.paper.entity.ai.Goal, java.lang.Object
 ---@field public RANDOM_STAND com.destroystokyo.paper.entity.ai.GoalKey
 ---@field public RUN_AROUND_LIKE_CRAZY com.destroystokyo.paper.entity.ai.GoalKey
 ---@field public ABSTRACT_SKELETON_MELEE com.destroystokyo.paper.entity.ai.GoalKey

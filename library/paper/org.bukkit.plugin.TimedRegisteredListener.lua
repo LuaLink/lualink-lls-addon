@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.TimedRegisteredListener
----@class org.bukkit.plugin.TimedRegisteredListener: org.bukkit.plugin.RegisteredListener
+---@class org.bukkit.plugin.TimedRegisteredListener: org.bukkit.plugin.RegisteredListener, java.lang.Object
 ---@field private count number
 ---@field private totalTime number
 ---@field private eventClass java.lang.Class

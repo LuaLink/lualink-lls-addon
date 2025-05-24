@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.MapTagResolver
----@class net.kyori.adventure.text.minimessage.tag.resolver.MapTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments, net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver
+---@class net.kyori.adventure.text.minimessage.tag.resolver.MapTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments, net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver, java.lang.Object
 ---@field private tagMap java.util.Map
 ---@overload fun(placeholderMap: java.util.Map): net.kyori.adventure.text.minimessage.tag.resolver.MapTagResolver
 local MapTagResolver = {}

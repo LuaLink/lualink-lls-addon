@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.raid.RaidFinishEvent
----@class org.bukkit.event.raid.RaidFinishEvent: org.bukkit.event.raid.RaidEvent
+---@class org.bukkit.event.raid.RaidFinishEvent: org.bukkit.event.raid.RaidEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private winners java.util.List
 ---@overload fun(raid: org.bukkit.Raid, world: org.bukkit.World, winners: java.util.List): org.bukkit.event.raid.RaidFinishEvent

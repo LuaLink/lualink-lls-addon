@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.consumable.ConsumeEffect.ApplyStatusEffects
----@class io.papermc.paper.datacomponent.item.consumable.ConsumeEffect.ApplyStatusEffects: io.papermc.paper.datacomponent.item.consumable.ConsumeEffect
+---@class io.papermc.paper.datacomponent.item.consumable.ConsumeEffect.ApplyStatusEffects: io.papermc.paper.datacomponent.item.consumable.ConsumeEffect, java.lang.Object
 local ApplyStatusEffects = {}
 
 ---@public

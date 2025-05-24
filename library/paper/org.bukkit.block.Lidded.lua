@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.block.Lidded
----@class org.bukkit.block.Lidded
+---@class org.bukkit.block.Lidded: java.lang.Object
 local Lidded = {}
 
 ---@public

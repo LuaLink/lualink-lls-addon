@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.TextColorWrapper.Serializer
----@class net.kyori.adventure.text.serializer.gson.TextColorWrapper.Serializer: any
+---@class net.kyori.adventure.text.serializer.gson.TextColorWrapper.Serializer: any, java.lang.Object
 ---@field public INSTANCE net.kyori.adventure.text.serializer.gson.TextColorWrapper.Serializer
 ---@overload fun(): net.kyori.adventure.text.serializer.gson.TextColorWrapper.Serializer
 local Serializer = {}

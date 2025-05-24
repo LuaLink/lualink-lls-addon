@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.SpongeAbsorbEvent
----@class org.bukkit.event.block.SpongeAbsorbEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.block.SpongeAbsorbEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private blocks java.util.List
 ---@field private cancelled boolean

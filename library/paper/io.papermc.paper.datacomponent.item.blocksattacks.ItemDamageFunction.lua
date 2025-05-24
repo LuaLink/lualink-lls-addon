@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.blocksattacks.ItemDamageFunction
----@class io.papermc.paper.datacomponent.item.blocksattacks.ItemDamageFunction
+---@class io.papermc.paper.datacomponent.item.blocksattacks.ItemDamageFunction: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.blocksattacks.ItemDamageFunction.Builder
 local ItemDamageFunction = {}
 

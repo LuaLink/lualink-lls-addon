@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.block.BeaconDeactivatedEvent
----@class io.papermc.paper.event.block.BeaconDeactivatedEvent: org.bukkit.event.block.BlockEvent
+---@class io.papermc.paper.event.block.BeaconDeactivatedEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@overload fun(beacon: org.bukkit.block.Block): io.papermc.paper.event.block.BeaconDeactivatedEvent
 local BeaconDeactivatedEvent = {}

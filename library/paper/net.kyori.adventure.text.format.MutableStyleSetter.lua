@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.format.MutableStyleSetter
----@class net.kyori.adventure.text.format.MutableStyleSetter: net.kyori.adventure.text.format.StyleSetter
+---@class net.kyori.adventure.text.format.MutableStyleSetter: net.kyori.adventure.text.format.StyleSetter, java.lang.Object
 local MutableStyleSetter = {}
 
 ---@param decorations net.kyori.adventure.text.format.TextDecoration the decorations

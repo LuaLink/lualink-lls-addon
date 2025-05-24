@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.potion.SuspiciousEffectEntry
----@class io.papermc.paper.potion.SuspiciousEffectEntry
+---@class io.papermc.paper.potion.SuspiciousEffectEntry: java.lang.Object
 local SuspiciousEffectEntry = {}
 
 ---@public

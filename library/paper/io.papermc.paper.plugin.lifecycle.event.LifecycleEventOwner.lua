@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.lifecycle.event.LifecycleEventOwner
----@class io.papermc.paper.plugin.lifecycle.event.LifecycleEventOwner
+---@class io.papermc.paper.plugin.lifecycle.event.LifecycleEventOwner: java.lang.Object
 local LifecycleEventOwner = {}
 
 ---@public

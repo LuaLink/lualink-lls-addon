@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.BlockState
----@class org.bukkit.block.BlockState: org.bukkit.metadata.Metadatable
+---@class org.bukkit.block.BlockState: org.bukkit.metadata.Metadatable, java.lang.Object
 local BlockState = {}
 
 ---@public

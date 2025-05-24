@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.ScoreComponent.Builder
----@class net.kyori.adventure.text.ScoreComponent.Builder: net.kyori.adventure.text.ComponentBuilder
+---@class net.kyori.adventure.text.ScoreComponent.Builder: net.kyori.adventure.text.ComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param name string the score name

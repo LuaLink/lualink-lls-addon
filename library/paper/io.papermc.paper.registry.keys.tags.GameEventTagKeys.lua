@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.tags.GameEventTagKeys
----@class io.papermc.paper.registry.keys.tags.GameEventTagKeys
+---@class io.papermc.paper.registry.keys.tags.GameEventTagKeys: java.lang.Object
 ---@field public ALLAY_CAN_LISTEN io.papermc.paper.registry.tag.TagKey
 ---@field public IGNORE_VIBRATIONS_SNEAKING io.papermc.paper.registry.tag.TagKey
 ---@field public SHRIEKER_CAN_LISTEN io.papermc.paper.registry.tag.TagKey

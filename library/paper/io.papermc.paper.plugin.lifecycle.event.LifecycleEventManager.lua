@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.lifecycle.event.LifecycleEventManager
----@class io.papermc.paper.plugin.lifecycle.event.LifecycleEventManager
+---@class io.papermc.paper.plugin.lifecycle.event.LifecycleEventManager: java.lang.Object
 local LifecycleEventManager = {}
 
 ---@param eventType io.papermc.paper.plugin.lifecycle.event.types.LifecycleEventType the event type to listen to

@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.TooltipDisplay
----@class io.papermc.paper.datacomponent.item.TooltipDisplay
+---@class io.papermc.paper.datacomponent.item.TooltipDisplay: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.TooltipDisplay.Builder
 local TooltipDisplay = {}
 

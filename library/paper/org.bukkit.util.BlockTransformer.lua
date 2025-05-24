@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.BlockTransformer
----@class org.bukkit.util.BlockTransformer
+---@class org.bukkit.util.BlockTransformer: java.lang.Object
 ---@field public TransformationState org.bukkit.util.BlockTransformer.TransformationState
 local BlockTransformer = {}
 

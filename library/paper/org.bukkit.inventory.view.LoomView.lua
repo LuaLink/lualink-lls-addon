@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.view.LoomView
----@class org.bukkit.inventory.view.LoomView: org.bukkit.inventory.InventoryView
+---@class org.bukkit.inventory.view.LoomView: org.bukkit.inventory.InventoryView, java.lang.Object
 local LoomView = {}
 
 ---@public

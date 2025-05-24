@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.noise.OctaveGenerator
----@class org.bukkit.util.noise.OctaveGenerator
+---@class org.bukkit.util.noise.OctaveGenerator: java.lang.Object
 ---@field protected octaves org.bukkit.util.noise.NoiseGenerator
 ---@field protected xScale number
 ---@field protected yScale number

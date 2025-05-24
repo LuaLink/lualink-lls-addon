@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.TextComponent.Builder
----@class net.kyori.adventure.text.TextComponent.Builder: net.kyori.adventure.text.ComponentBuilder
+---@class net.kyori.adventure.text.TextComponent.Builder: net.kyori.adventure.text.ComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@public

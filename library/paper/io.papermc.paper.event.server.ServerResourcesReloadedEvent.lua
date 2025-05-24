@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.server.ServerResourcesReloadedEvent
----@class io.papermc.paper.event.server.ServerResourcesReloadedEvent: org.bukkit.event.server.ServerEvent
+---@class io.papermc.paper.event.server.ServerResourcesReloadedEvent: org.bukkit.event.server.ServerEvent, java.lang.Object
 ---@field public HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cause io.papermc.paper.event.server.ServerResourcesReloadedEvent.Cause
 ---@field public Cause io.papermc.paper.event.server.ServerResourcesReloadedEvent.Cause

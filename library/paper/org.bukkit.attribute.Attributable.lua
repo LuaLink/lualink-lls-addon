@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.attribute.Attributable
----@class org.bukkit.attribute.Attributable
+---@class org.bukkit.attribute.Attributable: java.lang.Object
 local Attributable = {}
 
 ---@param attribute org.bukkit.attribute.Attribute the attribute to get

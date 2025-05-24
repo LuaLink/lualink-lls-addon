@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.Endermite
----@class org.bukkit.entity.Endermite: org.bukkit.entity.Monster
+---@class org.bukkit.entity.Endermite: org.bukkit.entity.Monster, java.lang.Object
 local Endermite = {}
 
 ---@deprecated

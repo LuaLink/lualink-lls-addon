@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.resource.ResourcePackRequest.Builder
----@class net.kyori.adventure.resource.ResourcePackRequest.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.resource.ResourcePackRequestLike
+---@class net.kyori.adventure.resource.ResourcePackRequest.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.resource.ResourcePackRequestLike, java.lang.Object
 local Builder = {}
 
 ---@param first net.kyori.adventure.resource.ResourcePackInfoLike the first pack to apply

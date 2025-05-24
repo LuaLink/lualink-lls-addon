@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.CreakingHeart
----@class org.bukkit.block.data.type.CreakingHeart: org.bukkit.block.data.Orientable
+---@class org.bukkit.block.data.type.CreakingHeart: org.bukkit.block.data.Orientable, java.lang.Object
 ---@field public State org.bukkit.block.data.type.CreakingHeart.State
 local CreakingHeart = {}
 

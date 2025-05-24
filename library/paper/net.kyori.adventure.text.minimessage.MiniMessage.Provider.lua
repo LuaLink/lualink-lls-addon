@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.MiniMessage.Provider
----@class net.kyori.adventure.text.minimessage.MiniMessage.Provider
+---@class net.kyori.adventure.text.minimessage.MiniMessage.Provider: java.lang.Object
 local Provider = {}
 
 ---@public
@@ -10,7 +10,7 @@ local Provider = {}
 function Provider:miniMessage() end
 
 ---@public
----@return java.util.function.Consumer a {@link Consumer} modifying a {@link Builder}
+---@return function a {@link Consumer} modifying a {@link Builder}
 --- Initialize a {@link Builder} before it is returned to the API caller.
 function Provider:builder() end
 

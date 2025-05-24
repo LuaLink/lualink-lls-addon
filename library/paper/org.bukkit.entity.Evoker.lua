@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Evoker
----@class org.bukkit.entity.Evoker: org.bukkit.entity.Spellcaster
+---@class org.bukkit.entity.Evoker: org.bukkit.entity.Spellcaster, java.lang.Object
 ---@field public Spell org.bukkit.entity.Evoker.Spell
 local Evoker = {}
 

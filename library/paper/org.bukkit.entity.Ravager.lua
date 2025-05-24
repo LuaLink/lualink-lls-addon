@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Ravager
----@class org.bukkit.entity.Ravager: org.bukkit.entity.Raider
+---@class org.bukkit.entity.Ravager: org.bukkit.entity.Raider, java.lang.Object
 local Ravager = {}
 
 ---@public

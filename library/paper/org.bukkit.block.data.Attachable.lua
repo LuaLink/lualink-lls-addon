@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Attachable
----@class org.bukkit.block.data.Attachable: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.Attachable: org.bukkit.block.data.BlockData, java.lang.Object
 local Attachable = {}
 
 ---@public

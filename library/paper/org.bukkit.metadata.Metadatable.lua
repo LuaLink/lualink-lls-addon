@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.metadata.Metadatable
----@class org.bukkit.metadata.Metadatable
+---@class org.bukkit.metadata.Metadatable: java.lang.Object
 local Metadatable = {}
 
 ---@param metadataKey string A unique key to identify this metadata.

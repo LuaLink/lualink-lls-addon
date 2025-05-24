@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.weather.WeatherChangeEvent
----@class org.bukkit.event.weather.WeatherChangeEvent: org.bukkit.event.weather.WeatherEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.weather.WeatherChangeEvent: org.bukkit.event.weather.WeatherEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private newWeatherState boolean
 ---@field private cause org.bukkit.event.weather.WeatherChangeEvent.Cause

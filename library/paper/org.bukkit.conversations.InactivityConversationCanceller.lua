@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.InactivityConversationCanceller
----@class org.bukkit.conversations.InactivityConversationCanceller: org.bukkit.conversations.ConversationCanceller
+---@class org.bukkit.conversations.InactivityConversationCanceller: org.bukkit.conversations.ConversationCanceller, java.lang.Object
 ---@field protected plugin org.bukkit.plugin.Plugin
 ---@field protected timeoutSeconds number
 ---@field protected conversation org.bukkit.conversations.Conversation

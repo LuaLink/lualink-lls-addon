@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.Merchant
----@class org.bukkit.inventory.Merchant
+---@class org.bukkit.inventory.Merchant: java.lang.Object
 local Merchant = {}
 
 ---@public

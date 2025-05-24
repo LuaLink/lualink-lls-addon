@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.conversations.ConversationFactory.NotPlayerMessagePrompt
----@class org.bukkit.conversations.ConversationFactory.NotPlayerMessagePrompt: org.bukkit.conversations.MessagePrompt
+---@class org.bukkit.conversations.ConversationFactory.NotPlayerMessagePrompt: org.bukkit.conversations.MessagePrompt, java.lang.Object
 local NotPlayerMessagePrompt = {}
 
 ---@param context org.bukkit.conversations.ConversationContext 

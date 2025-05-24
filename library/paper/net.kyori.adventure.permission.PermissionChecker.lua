@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.permission.PermissionChecker
----@class net.kyori.adventure.permission.PermissionChecker: java.util.function.Predicate
+---@class net.kyori.adventure.permission.PermissionChecker: function, java.lang.Object
 ---@field public POINTER net.kyori.adventure.pointer.Pointer
 local PermissionChecker = {}
 

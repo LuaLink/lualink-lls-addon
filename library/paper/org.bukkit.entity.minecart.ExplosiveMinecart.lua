@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.minecart.ExplosiveMinecart
----@class org.bukkit.entity.minecart.ExplosiveMinecart: org.bukkit.entity.Minecart, org.bukkit.entity.Explosive
+---@class org.bukkit.entity.minecart.ExplosiveMinecart: org.bukkit.entity.Minecart, org.bukkit.entity.Explosive, java.lang.Object
 local ExplosiveMinecart = {}
 
 ---@param ticks number the ticks

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.help.GenericCommandHelpTopic
----@class org.bukkit.help.GenericCommandHelpTopic: org.bukkit.help.HelpTopic
+---@class org.bukkit.help.GenericCommandHelpTopic: org.bukkit.help.HelpTopic, java.lang.Object
 ---@field protected command org.bukkit.command.Command
 ---@overload fun(command: org.bukkit.command.Command): org.bukkit.help.GenericCommandHelpTopic
 local GenericCommandHelpTopic = {}

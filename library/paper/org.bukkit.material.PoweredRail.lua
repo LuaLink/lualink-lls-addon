@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.PoweredRail
----@class org.bukkit.material.PoweredRail: org.bukkit.material.ExtendedRails, org.bukkit.material.Redstone
+---@class org.bukkit.material.PoweredRail: org.bukkit.material.ExtendedRails, org.bukkit.material.Redstone, java.lang.Object
 ---@overload fun(): org.bukkit.material.PoweredRail
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.PoweredRail
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.PoweredRail

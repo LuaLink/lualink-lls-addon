@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.TransitionTag
----@class net.kyori.adventure.text.minimessage.tag.standard.TransitionTag: net.kyori.adventure.text.minimessage.tag.Inserting, any
+---@class net.kyori.adventure.text.minimessage.tag.standard.TransitionTag: net.kyori.adventure.text.minimessage.tag.Inserting, any, java.lang.Object
 ---@field public TRANSITION string
 ---@field private colors net.kyori.adventure.text.format.TextColor
 ---@field private phase number

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.lifecycle.event.handler.configuration.MonitorLifecycleEventHandlerConfiguration
----@class io.papermc.paper.plugin.lifecycle.event.handler.configuration.MonitorLifecycleEventHandlerConfiguration: io.papermc.paper.plugin.lifecycle.event.handler.configuration.LifecycleEventHandlerConfiguration
+---@class io.papermc.paper.plugin.lifecycle.event.handler.configuration.MonitorLifecycleEventHandlerConfiguration: io.papermc.paper.plugin.lifecycle.event.handler.configuration.LifecycleEventHandlerConfiguration, java.lang.Object
 local MonitorLifecycleEventHandlerConfiguration = {}
 
 ---@public

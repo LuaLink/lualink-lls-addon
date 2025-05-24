@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.AbstractChatEvent
----@class io.papermc.paper.event.player.AbstractChatEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.player.AbstractChatEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private viewers java.util.Set
 ---@field private originalMessage net.kyori.adventure.text.Component
 ---@field private signedMessage net.kyori.adventure.chat.SignedMessage

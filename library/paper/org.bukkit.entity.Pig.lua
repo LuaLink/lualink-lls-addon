@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Pig
----@class org.bukkit.entity.Pig: org.bukkit.entity.Steerable, org.bukkit.entity.Vehicle
+---@class org.bukkit.entity.Pig: org.bukkit.entity.Steerable, org.bukkit.entity.Vehicle, java.lang.Object
 ---@field public Variant org.bukkit.entity.Pig.Variant
 local Pig = {}
 

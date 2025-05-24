@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Builder
----@class net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Builder
+---@class net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Builder: java.lang.Object
 local Builder = {}
 
 ---@param name string the tag identifier
@@ -12,14 +12,14 @@ local Builder = {}
 function Builder:tag(name, tag) end
 
 ---@param name string the name to respond to
----@param handler java.util.function.BiFunction the tag handler, may throw {@link ParsingException} if provided arguments are in an invalid format
+---@param handler function the tag handler, may throw {@link ParsingException} if provided arguments are in an invalid format
 ---@public
 ---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Builder this builder
 --- Add a single dynamically created tag to this resolver.
 function Builder:tag(name, handler) end
 
 ---@param names java.util.Set the names to respond to
----@param handler java.util.function.BiFunction the tag handler, may throw {@link ParsingException} if provided arguments are in an invalid format
+---@param handler function the tag handler, may throw {@link ParsingException} if provided arguments are in an invalid format
 ---@public
 ---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Builder this builder
 --- Add a single dynamically created tag to this resolver.

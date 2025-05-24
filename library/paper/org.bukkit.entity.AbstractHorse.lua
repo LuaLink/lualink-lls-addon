@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.AbstractHorse
----@class org.bukkit.entity.AbstractHorse: org.bukkit.entity.Vehicle, org.bukkit.inventory.InventoryHolder, org.bukkit.entity.Tameable
+---@class org.bukkit.entity.AbstractHorse: org.bukkit.entity.Vehicle, org.bukkit.inventory.InventoryHolder, org.bukkit.entity.Tameable, java.lang.Object
 local AbstractHorse = {}
 
 ---@deprecated

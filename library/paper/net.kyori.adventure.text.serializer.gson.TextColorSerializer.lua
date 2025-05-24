@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.TextColorSerializer
----@class net.kyori.adventure.text.serializer.gson.TextColorSerializer: any
+---@class net.kyori.adventure.text.serializer.gson.TextColorSerializer: any, java.lang.Object
 ---@field public INSTANCE any
 ---@field public DOWNSAMPLE_COLOR any
 ---@field private downsampleColor boolean

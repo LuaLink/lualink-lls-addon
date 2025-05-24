@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.BlockType
----@class org.bukkit.block.BlockType: org.bukkit.Keyed, org.bukkit.Translatable, net.kyori.adventure.translation.Translatable, io.papermc.paper.world.flag.FeatureDependant
+---@class org.bukkit.block.BlockType: org.bukkit.Keyed, org.bukkit.Translatable, net.kyori.adventure.translation.Translatable, io.papermc.paper.world.flag.FeatureDependant, java.lang.Object
 ---@field public ACACIA_BUTTON org.bukkit.block.BlockType.Typed
 ---@field public ACACIA_DOOR org.bukkit.block.BlockType.Typed
 ---@field public ACACIA_FENCE org.bukkit.block.BlockType.Typed

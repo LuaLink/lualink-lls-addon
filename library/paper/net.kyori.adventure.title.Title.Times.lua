@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.title.Title.Times
----@class net.kyori.adventure.title.Title.Times: any
+---@class net.kyori.adventure.title.Title.Times: any, java.lang.Object
 local Times = {}
 
 ---@deprecated

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.EmptyList
----@class java.util.Collections.EmptyList: java.util.AbstractList, java.util.RandomAccess, java.io.Serializable
+---@class java.util.Collections.EmptyList: java.util.AbstractList, java.util.RandomAccess, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 local EmptyList = {}
 
@@ -58,7 +58,7 @@ function EmptyList:equals(o) end
 ---@return number 
 function EmptyList:hashCode() end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return boolean 
 function EmptyList:removeIf(filter) end
@@ -73,7 +73,7 @@ function EmptyList:replaceAll(operator) end
 ---@return nil 
 function EmptyList:sort(c) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function EmptyList:forEach(action) end

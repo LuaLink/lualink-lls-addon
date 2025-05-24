@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.translation.TranslationStore
----@class net.kyori.adventure.translation.TranslationStore: net.kyori.adventure.translation.Translator
+---@class net.kyori.adventure.translation.TranslationStore: net.kyori.adventure.translation.Translator, java.lang.Object
 ---@field public StringBased net.kyori.adventure.translation.TranslationStore.StringBased
 local TranslationStore = {}
 
@@ -60,7 +60,7 @@ function TranslationStore:registerAll(locale, translations) end
 
 ---@param locale java.util.Locale a locale
 ---@param keys java.util.Set the translation keys to register
----@param function java.util.function.Function a function to transform a key into a message format
+---@param function function a function to transform a key into a message format
 ---@public
 ---@return nil 
 --- Registers translations with a set of keys and a mapping function to produce the translation from the key.

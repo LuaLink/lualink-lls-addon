@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.generator.structure.GeneratedStructure
----@class org.bukkit.generator.structure.GeneratedStructure: org.bukkit.persistence.PersistentDataHolder
+---@class org.bukkit.generator.structure.GeneratedStructure: org.bukkit.persistence.PersistentDataHolder, java.lang.Object
 local GeneratedStructure = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.utils.PaperPluginLogger
----@class com.destroystokyo.paper.utils.PaperPluginLogger: java.util.logging.Logger
+---@class com.destroystokyo.paper.utils.PaperPluginLogger: java.util.logging.Logger, java.lang.Object
 ---@overload fun(meta: io.papermc.paper.plugin.configuration.PluginMeta): com.destroystokyo.paper.utils.PaperPluginLogger
 local PaperPluginLogger = {}
 

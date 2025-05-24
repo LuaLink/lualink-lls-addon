@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.packs.ResourcePack
----@class org.bukkit.packs.ResourcePack
+---@class org.bukkit.packs.ResourcePack: java.lang.Object
 local ResourcePack = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.impl.JSONComponentSerializerProviderImpl
----@class net.kyori.adventure.text.serializer.gson.impl.JSONComponentSerializerProviderImpl: any, net.kyori.adventure.util.Services.Fallback
+---@class net.kyori.adventure.text.serializer.gson.impl.JSONComponentSerializerProviderImpl: any, net.kyori.adventure.util.Services.Fallback, java.lang.Object
 local JSONComponentSerializerProviderImpl = {}
 
 ---@public

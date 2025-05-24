@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Biome
----@class org.bukkit.block.Biome: org.bukkit.util.OldEnum, org.bukkit.Keyed, net.kyori.adventure.translation.Translatable
+---@class org.bukkit.block.Biome: org.bukkit.util.OldEnum, org.bukkit.Keyed, net.kyori.adventure.translation.Translatable, java.lang.Object
 ---@field public BADLANDS org.bukkit.block.Biome
 ---@field public BAMBOO_JUNGLE org.bukkit.block.Biome
 ---@field public BASALT_DELTAS org.bukkit.block.Biome

@@ -1,6 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.utils.CachedSizeConcurrentLinkedQueue
----@class com.destroystokyo.paper.utils.CachedSizeConcurrentLinkedQueue: java.util.concurrent.ConcurrentLinkedQueue
+---@class com.destroystokyo.paper.utils.CachedSizeConcurrentLinkedQueue: java.util.concurrent.ConcurrentLinkedQueue, java.lang.Object
 ---@field private cachedSize java.util.concurrent.atomic.LongAdder
 local CachedSizeConcurrentLinkedQueue = {}
 

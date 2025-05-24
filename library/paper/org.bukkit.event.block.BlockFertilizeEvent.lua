@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BlockFertilizeEvent
----@class org.bukkit.event.block.BlockFertilizeEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.block.BlockFertilizeEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private player org.bukkit.entity.Player
 ---@field private blocks java.util.List

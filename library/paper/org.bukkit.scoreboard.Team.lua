@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.scoreboard.Team
----@class org.bukkit.scoreboard.Team: net.kyori.adventure.audience.ForwardingAudience
+---@class org.bukkit.scoreboard.Team: net.kyori.adventure.audience.ForwardingAudience, java.lang.Object
 ---@field public Option org.bukkit.scoreboard.Team.Option
 ---@field public OptionStatus org.bukkit.scoreboard.Team.OptionStatus
 local Team = {}

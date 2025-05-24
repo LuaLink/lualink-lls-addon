@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Wool
----@class org.bukkit.material.Wool: org.bukkit.material.MaterialData, org.bukkit.material.Colorable
+---@class org.bukkit.material.Wool: org.bukkit.material.MaterialData, org.bukkit.material.Colorable, java.lang.Object
 ---@overload fun(): org.bukkit.material.Wool
 ---@overload fun(color: org.bukkit.DyeColor): org.bukkit.material.Wool
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Wool

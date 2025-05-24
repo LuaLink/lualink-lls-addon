@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.tag.DamageTypeTags
----@class org.bukkit.tag.DamageTypeTags
+---@class org.bukkit.tag.DamageTypeTags: java.lang.Object
 ---@field public ALWAYS_HURTS_ENDER_DRAGONS org.bukkit.Tag
 ---@field public ALWAYS_KILLS_ARMOR_STANDS org.bukkit.Tag
 ---@field public ALWAYS_MOST_SIGNIFICANT_FALL org.bukkit.Tag

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.help.IndexHelpTopic
----@class org.bukkit.help.IndexHelpTopic: org.bukkit.help.HelpTopic
+---@class org.bukkit.help.IndexHelpTopic: org.bukkit.help.HelpTopic, java.lang.Object
 ---@field protected permission string
 ---@field protected preamble string
 ---@field protected allTopics java.util.Collection

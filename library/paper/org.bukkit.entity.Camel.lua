@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Camel
----@class org.bukkit.entity.Camel: org.bukkit.entity.AbstractHorse, org.bukkit.entity.Sittable
+---@class org.bukkit.entity.Camel: org.bukkit.entity.AbstractHorse, org.bukkit.entity.Sittable, java.lang.Object
 local Camel = {}
 
 ---@public

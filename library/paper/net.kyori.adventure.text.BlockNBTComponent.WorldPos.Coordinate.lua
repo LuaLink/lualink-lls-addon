@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.BlockNBTComponent.WorldPos.Coordinate
----@class net.kyori.adventure.text.BlockNBTComponent.WorldPos.Coordinate: any
+---@class net.kyori.adventure.text.BlockNBTComponent.WorldPos.Coordinate: any, java.lang.Object
 ---@field public Type net.kyori.adventure.text.BlockNBTComponent.WorldPos.Coordinate.Type
 local Coordinate = {}
 

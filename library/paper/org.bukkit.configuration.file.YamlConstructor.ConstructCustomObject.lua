@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.configuration.file.YamlConstructor.ConstructCustomObject
----@class org.bukkit.configuration.file.YamlConstructor.ConstructCustomObject: any
+---@class org.bukkit.configuration.file.YamlConstructor.ConstructCustomObject: any, java.lang.Object
 local ConstructCustomObject = {}
 
 ---@param node any 

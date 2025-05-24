@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.WolfSoundVariantKeys
----@class io.papermc.paper.registry.keys.WolfSoundVariantKeys
+---@class io.papermc.paper.registry.keys.WolfSoundVariantKeys: java.lang.Object
 ---@field public ANGRY io.papermc.paper.registry.TypedKey
 ---@field public BIG io.papermc.paper.registry.TypedKey
 ---@field public CLASSIC io.papermc.paper.registry.TypedKey

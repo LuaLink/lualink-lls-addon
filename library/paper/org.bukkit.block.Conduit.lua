@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Conduit
----@class org.bukkit.block.Conduit: org.bukkit.block.TileState
+---@class org.bukkit.block.Conduit: org.bukkit.block.TileState, java.lang.Object
 local Conduit = {}
 
 ---@public

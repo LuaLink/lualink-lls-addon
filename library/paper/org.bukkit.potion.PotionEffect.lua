@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.potion.PotionEffect
----@class org.bukkit.potion.PotionEffect: org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.potion.PotionEffect: org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 ---@field public INFINITE_DURATION number
 ---@field private HIDDEN_EFFECT string
 ---@field private AMPLIFIER string

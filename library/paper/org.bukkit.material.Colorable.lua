@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Colorable
----@class org.bukkit.material.Colorable
+---@class org.bukkit.material.Colorable: java.lang.Object
 local Colorable = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.inventory.PrepareGrindstoneEvent
----@class org.bukkit.event.inventory.PrepareGrindstoneEvent: com.destroystokyo.paper.event.inventory.PrepareGrindstoneEvent
+---@class org.bukkit.event.inventory.PrepareGrindstoneEvent: com.destroystokyo.paper.event.inventory.PrepareGrindstoneEvent, java.lang.Object
 ---@overload fun(inventory: org.bukkit.inventory.InventoryView, result: org.bukkit.inventory.ItemStack): org.bukkit.event.inventory.PrepareGrindstoneEvent
 local PrepareGrindstoneEvent = {}
 

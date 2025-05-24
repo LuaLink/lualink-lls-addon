@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.XGrapheme
----@class java.util.regex.Pattern.XGrapheme: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.XGrapheme: java.util.regex.Pattern.Node, java.lang.Object
 local XGrapheme = {}
 
 ---@param matcher java.util.regex.Matcher 

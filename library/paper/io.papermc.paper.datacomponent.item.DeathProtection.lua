@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.DeathProtection
----@class io.papermc.paper.datacomponent.item.DeathProtection
+---@class io.papermc.paper.datacomponent.item.DeathProtection: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.DeathProtection.Builder
 local DeathProtection = {}
 

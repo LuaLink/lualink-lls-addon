@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.attribute.Attribute
----@class org.bukkit.attribute.Attribute: org.bukkit.util.OldEnum, org.bukkit.Keyed, org.bukkit.Translatable, net.kyori.adventure.translation.Translatable
+---@class org.bukkit.attribute.Attribute: org.bukkit.util.OldEnum, org.bukkit.Keyed, org.bukkit.Translatable, net.kyori.adventure.translation.Translatable, java.lang.Object
 ---@field public MAX_HEALTH org.bukkit.attribute.Attribute
 ---@field public FOLLOW_RANGE org.bukkit.attribute.Attribute
 ---@field public KNOCKBACK_RESISTANCE org.bukkit.attribute.Attribute

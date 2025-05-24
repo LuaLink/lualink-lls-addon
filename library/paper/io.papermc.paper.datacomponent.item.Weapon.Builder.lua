@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.Weapon.Builder
----@class io.papermc.paper.datacomponent.item.Weapon.Builder: io.papermc.paper.datacomponent.DataComponentBuilder
+---@class io.papermc.paper.datacomponent.item.Weapon.Builder: io.papermc.paper.datacomponent.DataComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param damage number the damage value.

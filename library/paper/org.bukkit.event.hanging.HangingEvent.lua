@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.hanging.HangingEvent
----@class org.bukkit.event.hanging.HangingEvent: org.bukkit.event.Event
+---@class org.bukkit.event.hanging.HangingEvent: org.bukkit.event.Event, java.lang.Object
 ---@field protected hanging org.bukkit.entity.Hanging
 ---@overload fun(painting: org.bukkit.entity.Hanging): org.bukkit.event.hanging.HangingEvent
 local HangingEvent = {}

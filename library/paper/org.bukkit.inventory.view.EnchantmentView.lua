@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.view.EnchantmentView
----@class org.bukkit.inventory.view.EnchantmentView: org.bukkit.inventory.InventoryView
+---@class org.bukkit.inventory.view.EnchantmentView: org.bukkit.inventory.InventoryView, java.lang.Object
 local EnchantmentView = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.tags.EnchantmentTagKeys
----@class io.papermc.paper.registry.keys.tags.EnchantmentTagKeys
+---@class io.papermc.paper.registry.keys.tags.EnchantmentTagKeys: java.lang.Object
 ---@field public CURSE io.papermc.paper.registry.tag.TagKey
 ---@field public DOUBLE_TRADE_PRICE io.papermc.paper.registry.tag.TagKey
 ---@field public EXCLUSIVE_SET_ARMOR io.papermc.paper.registry.tag.TagKey

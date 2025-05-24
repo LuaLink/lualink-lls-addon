@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.command.brigadier.argument.VanillaArgumentProvider
----@class io.papermc.paper.command.brigadier.argument.VanillaArgumentProvider
+---@class io.papermc.paper.command.brigadier.argument.VanillaArgumentProvider: java.lang.Object
 ---@field public PROVIDER java.util.Optional
 local VanillaArgumentProvider = {}
 

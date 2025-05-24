@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.chat.SignedMessageImpl
----@class net.kyori.adventure.chat.SignedMessageImpl: net.kyori.adventure.chat.SignedMessage
+---@class net.kyori.adventure.chat.SignedMessageImpl: net.kyori.adventure.chat.SignedMessage, java.lang.Object
 ---@field public RANDOM java.security.SecureRandom
 ---@field private instant java.time.Instant
 ---@field private salt number

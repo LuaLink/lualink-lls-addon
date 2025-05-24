@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.WrittenBookContent
----@class io.papermc.paper.datacomponent.item.WrittenBookContent
+---@class io.papermc.paper.datacomponent.item.WrittenBookContent: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.WrittenBookContent.Builder
 local WrittenBookContent = {}
 

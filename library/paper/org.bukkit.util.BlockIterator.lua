@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.BlockIterator
----@class org.bukkit.util.BlockIterator: java.util.Iterator
+---@class org.bukkit.util.BlockIterator: java.util.Iterator, java.lang.Object
 ---@field private world org.bukkit.World
 ---@field private maxDistance number
 ---@field private gridSize number

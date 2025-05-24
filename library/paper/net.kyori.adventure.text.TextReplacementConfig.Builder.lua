@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.TextReplacementConfig.Builder
----@class net.kyori.adventure.text.TextReplacementConfig.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder
+---@class net.kyori.adventure.text.TextReplacementConfig.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder, java.lang.Object
 local Builder = {}
 
 ---@param literal string the literal string to match
@@ -57,13 +57,13 @@ function Builder:replacement(replacement) end
 --- Supply a literal replacement for the matched pattern.
 function Builder:replacement(replacement) end
 
----@param replacement? java.util.function.Function the replacement function
+---@param replacement? function the replacement function
 ---@public
 ---@return net.kyori.adventure.text.TextReplacementConfig.Builder this builder
 --- Supply a function that provides replacements for each match.
 function Builder:replacement(replacement) end
 
----@param replacement? java.util.function.BiFunction the replacement function, taking a match result and a text component pre-populated with
+---@param replacement? function the replacement function, taking a match result and a text component pre-populated with
 ---@public
 ---@return net.kyori.adventure.text.TextReplacementConfig.Builder this builder
 --- Supply a function that provides replacements for each match, with access to group information.

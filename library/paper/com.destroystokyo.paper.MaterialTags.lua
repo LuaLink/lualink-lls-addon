@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.MaterialTags
----@class com.destroystokyo.paper.MaterialTags
+---@class com.destroystokyo.paper.MaterialTags: java.lang.Object
 ---@field public ARROWS com.destroystokyo.paper.MaterialSetTag
 ---@field public BEDS com.destroystokyo.paper.MaterialSetTag
 ---@field public BUCKETS com.destroystokyo.paper.MaterialSetTag

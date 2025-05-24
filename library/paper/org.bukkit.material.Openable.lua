@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.material.Openable
----@class org.bukkit.material.Openable
+---@class org.bukkit.material.Openable: java.lang.Object
 local Openable = {}
 
 ---@public

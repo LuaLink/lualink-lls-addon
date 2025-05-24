@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.raid.RaidStopEvent
----@class org.bukkit.event.raid.RaidStopEvent: org.bukkit.event.raid.RaidEvent
+---@class org.bukkit.event.raid.RaidStopEvent: org.bukkit.event.raid.RaidEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private reason org.bukkit.event.raid.RaidStopEvent.Reason
 ---@field public Reason org.bukkit.event.raid.RaidStopEvent.Reason

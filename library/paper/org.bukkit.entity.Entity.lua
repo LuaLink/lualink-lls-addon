@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Entity
----@class org.bukkit.entity.Entity: org.bukkit.metadata.Metadatable, org.bukkit.command.CommandSender, org.bukkit.Nameable, org.bukkit.persistence.PersistentDataHolder, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.sound.Sound.Emitter, io.papermc.paper.datacomponent.DataComponentView
+---@class org.bukkit.entity.Entity: org.bukkit.metadata.Metadatable, org.bukkit.command.CommandSender, org.bukkit.Nameable, org.bukkit.persistence.PersistentDataHolder, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.sound.Sound.Emitter, io.papermc.paper.datacomponent.DataComponentView, java.lang.Object
 ---@field public Spigot org.bukkit.entity.Entity.Spigot
 local Entity = {}
 

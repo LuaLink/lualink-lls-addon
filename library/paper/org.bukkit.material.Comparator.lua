@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Comparator
----@class org.bukkit.material.Comparator: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Redstone
+---@class org.bukkit.material.Comparator: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Redstone, java.lang.Object
 ---@field protected DEFAULT_DIRECTION org.bukkit.block.BlockFace
 ---@field protected DEFAULT_SUBTRACTION_MODE boolean
 ---@field protected DEFAULT_STATE boolean

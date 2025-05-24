@@ -1,23 +1,23 @@
 ---@meta
 -- net.kyori.adventure.pointer.PointersSupplierImpl.BuilderImpl
----@class net.kyori.adventure.pointer.PointersSupplierImpl.BuilderImpl: net.kyori.adventure.pointer.PointersSupplier.Builder
----@field private parent net.kyori.adventure.pointer.PointersSupplier
+---@class net.kyori.adventure.pointer.PointersSupplierImpl.BuilderImpl: net.kyori.adventure.pointer.PointersSupplier.Builder, java.lang.Object
+---@field private parent function
 ---@field private resolvers java.util.Map
 ---@overload fun(): net.kyori.adventure.pointer.PointersSupplierImpl.BuilderImpl
 local BuilderImpl = {}
 
----@param parent net.kyori.adventure.pointer.PointersSupplier 
+---@param parent function 
 ---@public
 ---@return net.kyori.adventure.pointer.PointersSupplier.Builder 
 function BuilderImpl:parent(parent) end
 
 ---@param pointer net.kyori.adventure.pointer.Pointer 
----@param resolver java.util.function.Function 
+---@param resolver function 
 ---@public
 ---@return net.kyori.adventure.pointer.PointersSupplier.Builder 
 function BuilderImpl:resolving(pointer, resolver) end
 
 ---@public
----@return net.kyori.adventure.pointer.PointersSupplier 
+---@return function 
 function BuilderImpl:build() end
 

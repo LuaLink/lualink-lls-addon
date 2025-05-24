@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.regex.Pattern.BmpCharPropertyGreedy
----@class java.util.regex.Pattern.BmpCharPropertyGreedy: java.util.regex.Pattern.CharPropertyGreedy
+---@class java.util.regex.Pattern.BmpCharPropertyGreedy: java.util.regex.Pattern.CharPropertyGreedy, java.lang.Object
 ---@overload fun(bcp: java.util.regex.Pattern.BmpCharProperty, cmin: number): java.util.regex.Pattern.BmpCharPropertyGreedy
 local BmpCharPropertyGreedy = {}
 

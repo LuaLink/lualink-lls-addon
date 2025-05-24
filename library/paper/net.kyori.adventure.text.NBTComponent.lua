@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.NBTComponent
----@class net.kyori.adventure.text.NBTComponent: net.kyori.adventure.text.BuildableComponent
+---@class net.kyori.adventure.text.NBTComponent: net.kyori.adventure.text.BuildableComponent, java.lang.Object
 local NBTComponent = {}
 
 ---@public

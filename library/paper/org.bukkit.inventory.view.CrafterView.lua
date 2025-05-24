@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.view.CrafterView
----@class org.bukkit.inventory.view.CrafterView: org.bukkit.inventory.InventoryView
+---@class org.bukkit.inventory.view.CrafterView: org.bukkit.inventory.InventoryView, java.lang.Object
 local CrafterView = {}
 
 ---@public

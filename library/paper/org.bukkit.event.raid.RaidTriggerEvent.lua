@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.raid.RaidTriggerEvent
----@class org.bukkit.event.raid.RaidTriggerEvent: org.bukkit.event.raid.RaidEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.raid.RaidTriggerEvent: org.bukkit.event.raid.RaidEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private player org.bukkit.entity.Player
 ---@field private cancelled boolean

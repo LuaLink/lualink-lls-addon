@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.block.TNTPrimeEvent
----@class com.destroystokyo.paper.event.block.TNTPrimeEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.block.TNTPrimeEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private reason com.destroystokyo.paper.event.block.TNTPrimeEvent.PrimeReason
 ---@field private primerEntity org.bukkit.entity.Entity

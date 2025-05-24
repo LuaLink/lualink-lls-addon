@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.translation.GlobalTranslator
----@class net.kyori.adventure.translation.GlobalTranslator: net.kyori.adventure.translation.Translator, any
+---@class net.kyori.adventure.translation.GlobalTranslator: net.kyori.adventure.translation.Translator, any, java.lang.Object
 local GlobalTranslator = {}
 
 ---@public

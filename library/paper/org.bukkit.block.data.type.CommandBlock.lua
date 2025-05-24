@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.CommandBlock
----@class org.bukkit.block.data.type.CommandBlock: org.bukkit.block.data.Directional
+---@class org.bukkit.block.data.type.CommandBlock: org.bukkit.block.data.Directional, java.lang.Object
 local CommandBlock = {}
 
 ---@public

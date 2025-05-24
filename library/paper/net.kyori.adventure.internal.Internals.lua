@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.internal.Internals
----@class net.kyori.adventure.internal.Internals
+---@class net.kyori.adventure.internal.Internals: java.lang.Object
 ---@overload fun(): net.kyori.adventure.internal.Internals
 local Internals = {}
 

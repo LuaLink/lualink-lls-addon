@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Bee
----@class org.bukkit.entity.Bee: org.bukkit.entity.Animals
+---@class org.bukkit.entity.Bee: org.bukkit.entity.Animals, java.lang.Object
 local Bee = {}
 
 ---@public

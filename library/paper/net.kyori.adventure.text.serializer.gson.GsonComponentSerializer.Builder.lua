@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Builder
----@class net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder, net.kyori.adventure.util.Buildable.Builder
+---@class net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder, net.kyori.adventure.util.Buildable.Builder, java.lang.Object
 local Builder = {}
 
 ---@param flags any 
@@ -9,7 +9,7 @@ local Builder = {}
 ---@return net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Builder 
 function Builder:options(flags) end
 
----@param optionEditor java.util.function.Consumer 
+---@param optionEditor function 
 ---@public
 ---@return net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Builder 
 function Builder:editOptions(optionEditor) end

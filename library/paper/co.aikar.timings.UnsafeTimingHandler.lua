@@ -1,6 +1,6 @@
 ---@meta
 -- co.aikar.timings.UnsafeTimingHandler
----@class co.aikar.timings.UnsafeTimingHandler: co.aikar.timings.TimingHandler
+---@class co.aikar.timings.UnsafeTimingHandler: co.aikar.timings.TimingHandler, java.lang.Object
 ---@overload fun(id: co.aikar.timings.TimingIdentifier): co.aikar.timings.UnsafeTimingHandler
 local UnsafeTimingHandler = {}
 

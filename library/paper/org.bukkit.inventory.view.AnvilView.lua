@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.view.AnvilView
----@class org.bukkit.inventory.view.AnvilView: org.bukkit.inventory.InventoryView
+---@class org.bukkit.inventory.view.AnvilView: org.bukkit.inventory.InventoryView, java.lang.Object
 local AnvilView = {}
 
 ---@public

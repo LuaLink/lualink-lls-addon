@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@class net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
+---@class net.kyori.adventure.text.minimessage.tag.resolver.TagResolver: java.lang.Object
 ---@field public Single net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Single
 ---@field public WithoutArguments net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments
 ---@field public Builder net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Builder
@@ -30,14 +30,14 @@ function TagResolver:empty() end
 function TagResolver:resolver(name, tag) end
 
 ---@param name string the name to respond to
----@param handler java.util.function.BiFunction the tag handler, may throw {@link ParsingException} if provided arguments are in an invalid format
+---@param handler function the tag handler, may throw {@link ParsingException} if provided arguments are in an invalid format
 ---@public
 ---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a resolver that creates tags using the provided handler
 --- Create a tag resolver that only responds to a single tag name, and whose value does not depend on that name.
 function TagResolver:resolver(name, handler) end
 
 ---@param names java.util.Set the names to respond to
----@param handler java.util.function.BiFunction the tag handler, may throw {@link ParsingException} if provided arguments are in an invalid format
+---@param handler function the tag handler, may throw {@link ParsingException} if provided arguments are in an invalid format
 ---@public
 ---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a resolver that creates tags using the provided handler
 --- Create a tag resolver that only responds to certain tag names, and whose value does not depend on that name.

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.Inserting
----@class net.kyori.adventure.text.minimessage.tag.Inserting: net.kyori.adventure.text.minimessage.tag.Tag
+---@class net.kyori.adventure.text.minimessage.tag.Inserting: net.kyori.adventure.text.minimessage.tag.Tag, java.lang.Object
 local Inserting = {}
 
 ---@public

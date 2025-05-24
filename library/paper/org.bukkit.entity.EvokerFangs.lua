@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.EvokerFangs
----@class org.bukkit.entity.EvokerFangs: org.bukkit.entity.Entity
+---@class org.bukkit.entity.EvokerFangs: org.bukkit.entity.Entity, java.lang.Object
 local EvokerFangs = {}
 
 ---@public

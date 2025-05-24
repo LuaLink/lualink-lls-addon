@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.DecoratedPotInventory
----@class org.bukkit.inventory.DecoratedPotInventory: org.bukkit.inventory.Inventory
+---@class org.bukkit.inventory.DecoratedPotInventory: org.bukkit.inventory.Inventory, java.lang.Object
 local DecoratedPotInventory = {}
 
 ---@param item org.bukkit.inventory.ItemStack the new item stack

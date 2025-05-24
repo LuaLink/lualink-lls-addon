@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.scoreboard.numbers.NumberFormat
----@class io.papermc.paper.scoreboard.numbers.NumberFormat
+---@class io.papermc.paper.scoreboard.numbers.NumberFormat: java.lang.Object
 local NumberFormat = {}
 
 ---@public

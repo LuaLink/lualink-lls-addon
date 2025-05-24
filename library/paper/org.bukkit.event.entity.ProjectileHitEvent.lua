@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.ProjectileHitEvent
----@class org.bukkit.event.entity.ProjectileHitEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.ProjectileHitEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private hitEntity org.bukkit.entity.Entity
 ---@field private hitBlock org.bukkit.block.Block

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Frog.Variant
----@class org.bukkit.entity.Frog.Variant: org.bukkit.util.OldEnum, org.bukkit.Keyed
+---@class org.bukkit.entity.Frog.Variant: org.bukkit.util.OldEnum, org.bukkit.Keyed, java.lang.Object
 ---@field public COLD org.bukkit.entity.Frog.Variant
 ---@field public TEMPERATE org.bukkit.entity.Frog.Variant
 ---@field public WARM org.bukkit.entity.Frog.Variant

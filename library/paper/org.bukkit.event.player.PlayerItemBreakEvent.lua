@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerItemBreakEvent
----@class org.bukkit.event.player.PlayerItemBreakEvent: org.bukkit.event.player.PlayerEvent
+---@class org.bukkit.event.player.PlayerItemBreakEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private brokenItem org.bukkit.inventory.ItemStack
 ---@overload fun(player: org.bukkit.entity.Player, brokenItem: org.bukkit.inventory.ItemStack): org.bukkit.event.player.PlayerItemBreakEvent

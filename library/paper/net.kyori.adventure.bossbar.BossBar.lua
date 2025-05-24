@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.bossbar.BossBar
----@class net.kyori.adventure.bossbar.BossBar: any
+---@class net.kyori.adventure.bossbar.BossBar: any, java.lang.Object
 ---@field public MIN_PROGRESS number
 ---@field public MAX_PROGRESS number
 ---@field public MIN_PERCENT number

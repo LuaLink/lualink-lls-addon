@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.lang.Object
----@class java.lang.Object
+---@class java.lang.Object: java.lang.Object
 ---@overload fun(): java.lang.Object
 local Object = {}
 

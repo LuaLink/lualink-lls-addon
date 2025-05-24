@@ -761,6 +761,7 @@
 ---| '"io.papermc.paper.event.packet.ClientTickEndEvent"' 
 ---| '"io.papermc.paper.event.packet.PlayerChunkLoadEvent"' 
 ---| '"io.papermc.paper.event.packet.PlayerChunkUnloadEvent"' 
+---| '"io.papermc.paper.event.packet.UncheckedSignChangeEvent"' 
 ---| '"io.papermc.paper.event.player.AbstractChatEvent"' 
 ---| '"io.papermc.paper.event.player.AbstractRespawnEvent"' 
 ---| '"io.papermc.paper.event.player.AsyncChatCommandDecorateEvent"' 

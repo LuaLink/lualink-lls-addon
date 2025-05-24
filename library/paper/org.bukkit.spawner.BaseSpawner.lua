@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.spawner.BaseSpawner
----@class org.bukkit.spawner.BaseSpawner
+---@class org.bukkit.spawner.BaseSpawner: java.lang.Object
 local BaseSpawner = {}
 
 ---@public

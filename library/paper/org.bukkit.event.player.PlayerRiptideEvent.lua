@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerRiptideEvent
----@class org.bukkit.event.player.PlayerRiptideEvent: org.bukkit.event.player.PlayerEvent
+---@class org.bukkit.event.player.PlayerRiptideEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private item org.bukkit.inventory.ItemStack
 ---@field private velocity org.bukkit.util.Vector

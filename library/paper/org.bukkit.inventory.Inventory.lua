@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.Inventory
----@class org.bukkit.inventory.Inventory: java.lang.Iterable
+---@class org.bukkit.inventory.Inventory: java.lang.Iterable, java.lang.Object
 local Inventory = {}
 
 ---@public

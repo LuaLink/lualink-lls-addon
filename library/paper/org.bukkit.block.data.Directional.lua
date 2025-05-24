@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Directional
----@class org.bukkit.block.data.Directional: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.Directional: org.bukkit.block.data.BlockData, java.lang.Object
 local Directional = {}
 
 ---@public

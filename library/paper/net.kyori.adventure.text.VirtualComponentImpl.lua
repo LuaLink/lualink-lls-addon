@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.VirtualComponentImpl
----@class net.kyori.adventure.text.VirtualComponentImpl: net.kyori.adventure.text.TextComponentImpl, net.kyori.adventure.text.VirtualComponent
+---@class net.kyori.adventure.text.VirtualComponentImpl: net.kyori.adventure.text.TextComponentImpl, net.kyori.adventure.text.VirtualComponent, java.lang.Object
 ---@field private contextType java.lang.Class
 ---@field private renderer net.kyori.adventure.text.VirtualComponentRenderer
 ---@field public BuilderImpl net.kyori.adventure.text.VirtualComponentImpl.BuilderImpl

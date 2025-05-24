@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.projectiles.BlockProjectileSource
----@class org.bukkit.projectiles.BlockProjectileSource: org.bukkit.projectiles.ProjectileSource
+---@class org.bukkit.projectiles.BlockProjectileSource: org.bukkit.projectiles.ProjectileSource, java.lang.Object
 local BlockProjectileSource = {}
 
 ---@public

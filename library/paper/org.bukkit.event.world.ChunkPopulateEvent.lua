@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.world.ChunkPopulateEvent
----@class org.bukkit.event.world.ChunkPopulateEvent: org.bukkit.event.world.ChunkEvent
+---@class org.bukkit.event.world.ChunkPopulateEvent: org.bukkit.event.world.ChunkEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@overload fun(chunk: org.bukkit.Chunk): org.bukkit.event.world.ChunkPopulateEvent
 local ChunkPopulateEvent = {}

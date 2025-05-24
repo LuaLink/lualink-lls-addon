@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.advancement.AdvancementDisplay
----@class org.bukkit.advancement.AdvancementDisplay
+---@class org.bukkit.advancement.AdvancementDisplay: java.lang.Object
 local AdvancementDisplay = {}
 
 ---@public

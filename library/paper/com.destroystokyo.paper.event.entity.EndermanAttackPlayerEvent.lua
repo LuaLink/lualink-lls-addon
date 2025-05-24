@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.entity.EndermanAttackPlayerEvent
----@class com.destroystokyo.paper.event.entity.EndermanAttackPlayerEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.entity.EndermanAttackPlayerEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private player org.bukkit.entity.Player
 ---@field private cancelled boolean

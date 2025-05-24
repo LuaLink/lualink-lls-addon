@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.command.MultipleCommandAlias
----@class org.bukkit.command.MultipleCommandAlias: org.bukkit.command.Command
+---@class org.bukkit.command.MultipleCommandAlias: org.bukkit.command.Command, java.lang.Object
 ---@field private commands org.bukkit.command.Command
 ---@overload fun(name: string, commands: table<Command>): org.bukkit.command.MultipleCommandAlias
 local MultipleCommandAlias = {}

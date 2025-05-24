@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.SynchronizedMap
----@class java.util.Collections.SynchronizedMap: java.util.Map, java.io.Serializable
+---@class java.util.Collections.SynchronizedMap: java.util.Map, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private m java.util.Map
 ---@field public mutex java.lang.Object
@@ -86,12 +86,12 @@ function SynchronizedMap:toString() end
 ---@return V 
 function SynchronizedMap:getOrDefault(k, defaultValue) end
 
----@param action java.util.function.BiConsumer 
+---@param action function 
 ---@public
 ---@return nil 
 function SynchronizedMap:forEach(action) end
 
----@param function java.util.function.BiFunction 
+---@param function function 
 ---@public
 ---@return nil 
 function SynchronizedMap:replaceAll(function) end
@@ -122,26 +122,26 @@ function SynchronizedMap:replace(key, oldValue, newValue) end
 function SynchronizedMap:replace(key, value) end
 
 ---@param key K 
----@param mappingFunction java.util.function.Function 
+---@param mappingFunction function 
 ---@public
 ---@return V 
 function SynchronizedMap:computeIfAbsent(key, mappingFunction) end
 
 ---@param key K 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function SynchronizedMap:computeIfPresent(key, remappingFunction) end
 
 ---@param key K 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function SynchronizedMap:compute(key, remappingFunction) end
 
 ---@param key K 
 ---@param value V 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function SynchronizedMap:merge(key, value, remappingFunction) end

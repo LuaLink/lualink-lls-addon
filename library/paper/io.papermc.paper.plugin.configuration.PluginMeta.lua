@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.configuration.PluginMeta
----@class io.papermc.paper.plugin.configuration.PluginMeta
+---@class io.papermc.paper.plugin.configuration.PluginMeta: java.lang.Object
 local PluginMeta = {}
 
 ---@public

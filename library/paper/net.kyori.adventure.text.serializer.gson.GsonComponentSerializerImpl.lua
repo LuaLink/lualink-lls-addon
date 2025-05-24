@@ -1,8 +1,8 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl
----@class net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl: net.kyori.adventure.text.serializer.gson.GsonComponentSerializer
+---@class net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl: net.kyori.adventure.text.serializer.gson.GsonComponentSerializer, java.lang.Object
 ---@field private SERVICE java.util.Optional
----@field public BUILDER java.util.function.Consumer
+---@field public BUILDER function
 ---@field private serializer any
 ---@field private populator any
 ---@field private legacyHoverSerializer any

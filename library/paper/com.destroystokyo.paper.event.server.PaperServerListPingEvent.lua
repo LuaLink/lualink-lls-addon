@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.server.PaperServerListPingEvent
----@class com.destroystokyo.paper.event.server.PaperServerListPingEvent: org.bukkit.event.server.ServerListPingEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.server.PaperServerListPingEvent: org.bukkit.event.server.ServerListPingEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private client com.destroystokyo.paper.network.StatusClient
 ---@field private numPlayers number
 ---@field private hidePlayers boolean

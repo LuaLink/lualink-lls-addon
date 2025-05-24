@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.ZombieVillager
----@class org.bukkit.entity.ZombieVillager: org.bukkit.entity.Zombie
+---@class org.bukkit.entity.ZombieVillager: org.bukkit.entity.Zombie, java.lang.Object
 local ZombieVillager = {}
 
 ---@param profession org.bukkit.entity.Villager.Profession 

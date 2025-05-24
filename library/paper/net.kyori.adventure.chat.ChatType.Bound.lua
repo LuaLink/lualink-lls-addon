@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.chat.ChatType.Bound
----@class net.kyori.adventure.chat.ChatType.Bound: any
+---@class net.kyori.adventure.chat.ChatType.Bound: any, java.lang.Object
 local Bound = {}
 
 ---@public

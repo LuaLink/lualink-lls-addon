@@ -1,9 +1,9 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.MiniMessageImpl.BuilderImpl
----@class net.kyori.adventure.text.minimessage.MiniMessageImpl.BuilderImpl: net.kyori.adventure.text.minimessage.MiniMessage.Builder
+---@class net.kyori.adventure.text.minimessage.MiniMessageImpl.BuilderImpl: net.kyori.adventure.text.minimessage.MiniMessage.Builder, java.lang.Object
 ---@field private tagResolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@field private strict boolean
----@field private debug java.util.function.Consumer
+---@field private debug function
 ---@field private postProcessor java.util.function.UnaryOperator
 ---@overload fun(): net.kyori.adventure.text.minimessage.MiniMessageImpl.BuilderImpl
 ---@overload fun(serializer: net.kyori.adventure.text.minimessage.MiniMessageImpl): net.kyori.adventure.text.minimessage.MiniMessageImpl.BuilderImpl
@@ -14,7 +14,7 @@ local BuilderImpl = {}
 ---@return net.kyori.adventure.text.minimessage.MiniMessage.Builder 
 function BuilderImpl:tags(tags) end
 
----@param adder java.util.function.Consumer 
+---@param adder function 
 ---@public
 ---@return net.kyori.adventure.text.minimessage.MiniMessage.Builder 
 function BuilderImpl:editTags(adder) end
@@ -24,7 +24,7 @@ function BuilderImpl:editTags(adder) end
 ---@return net.kyori.adventure.text.minimessage.MiniMessage.Builder 
 function BuilderImpl:strict(strict) end
 
----@param debugOutput java.util.function.Consumer 
+---@param debugOutput function 
 ---@public
 ---@return net.kyori.adventure.text.minimessage.MiniMessage.Builder 
 function BuilderImpl:debug(debugOutput) end

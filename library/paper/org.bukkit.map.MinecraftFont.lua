@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.map.MinecraftFont
----@class org.bukkit.map.MinecraftFont: org.bukkit.map.MapFont
+---@class org.bukkit.map.MinecraftFont: org.bukkit.map.MapFont, java.lang.Object
 ---@field private spaceSize number
 ---@field private fontChars string
 ---@field private fontData number

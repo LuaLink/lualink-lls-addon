@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Provider
----@class net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Provider
+---@class net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Provider: java.lang.Object
 local Provider = {}
 
 ---@public
@@ -15,7 +15,7 @@ function Provider:gson() end
 function Provider:gsonLegacy() end
 
 ---@public
----@return java.util.function.Consumer a {@link Consumer}
+---@return function a {@link Consumer}
 --- Completes the building process of {@link Builder}.
 function Provider:builder() end
 

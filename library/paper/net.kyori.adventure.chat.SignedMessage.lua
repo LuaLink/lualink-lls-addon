@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.chat.SignedMessage
----@class net.kyori.adventure.chat.SignedMessage: net.kyori.adventure.identity.Identified, any
+---@class net.kyori.adventure.chat.SignedMessage: net.kyori.adventure.identity.Identified, any, java.lang.Object
 ---@field public Signature net.kyori.adventure.chat.SignedMessage.Signature
 local SignedMessage = {}
 

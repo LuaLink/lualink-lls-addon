@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.JoinConfiguration.Builder
----@class net.kyori.adventure.text.JoinConfiguration.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder
+---@class net.kyori.adventure.text.JoinConfiguration.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder, java.lang.Object
 local Builder = {}
 
 ---@param prefix net.kyori.adventure.text.ComponentLike the prefix
@@ -34,13 +34,13 @@ function Builder:lastSeparator(lastSeparator) end
 --- Sets the last separator that will be used instead of the normal last separator in the case where there are more than two components being joined.  <p>This can be used to mimic a serial (or Oxford) comma.</p>
 function Builder:lastSeparatorIfSerial(lastSeparatorIfSerial) end
 
----@param convertor java.util.function.Function the convertor
+---@param convertor function the convertor
 ---@public
 ---@return net.kyori.adventure.text.JoinConfiguration.Builder this builder
 --- Sets the convertor of this join configuration builder.  <p>This is used to mutate the components that are going to be joined. It does not touch the prefix, suffix or any of the separators.</p>
 function Builder:convertor(convertor) end
 
----@param predicate java.util.function.Predicate the predicate
+---@param predicate function the predicate
 ---@public
 ---@return net.kyori.adventure.text.JoinConfiguration.Builder this builder
 --- Sets the predicate of this join configuration builder.  <p>This is used to determine if a component is to be included in the join process. It does not touch the prefix, suffix or any of the separators.</p>

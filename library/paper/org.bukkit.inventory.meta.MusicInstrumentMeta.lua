@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.inventory.meta.MusicInstrumentMeta
----@class org.bukkit.inventory.meta.MusicInstrumentMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.MusicInstrumentMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local MusicInstrumentMeta = {}
 
 ---@param instrument org.bukkit.MusicInstrument the instrument to set

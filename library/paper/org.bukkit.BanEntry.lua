@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.BanEntry
----@class org.bukkit.BanEntry
+---@class org.bukkit.BanEntry: java.lang.Object
 local BanEntry = {}
 
 ---@deprecated

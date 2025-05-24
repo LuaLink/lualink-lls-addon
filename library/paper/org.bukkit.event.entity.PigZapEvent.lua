@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.PigZapEvent
----@class org.bukkit.event.entity.PigZapEvent: com.destroystokyo.paper.event.entity.EntityZapEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.PigZapEvent: com.destroystokyo.paper.event.entity.EntityZapEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private zombifiedPiglin org.bukkit.entity.PigZombie
 ---@field private bolt org.bukkit.entity.LightningStrike
 ---@field private cancelled boolean

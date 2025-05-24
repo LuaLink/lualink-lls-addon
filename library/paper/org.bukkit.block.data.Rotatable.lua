@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Rotatable
----@class org.bukkit.block.data.Rotatable: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.Rotatable: org.bukkit.block.data.BlockData, java.lang.Object
 local Rotatable = {}
 
 ---@public

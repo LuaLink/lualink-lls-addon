@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.BoundingBox
----@class org.bukkit.util.BoundingBox: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.util.BoundingBox: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 ---@field private minX number
 ---@field private minY number
 ---@field private minZ number

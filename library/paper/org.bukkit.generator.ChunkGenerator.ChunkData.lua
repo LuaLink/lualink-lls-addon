@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.generator.ChunkGenerator.ChunkData
----@class org.bukkit.generator.ChunkGenerator.ChunkData
+---@class org.bukkit.generator.ChunkGenerator.ChunkData: java.lang.Object
 local ChunkData = {}
 
 ---@public

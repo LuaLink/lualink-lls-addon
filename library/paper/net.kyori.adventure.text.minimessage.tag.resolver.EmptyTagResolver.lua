@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.EmptyTagResolver
----@class net.kyori.adventure.text.minimessage.tag.resolver.EmptyTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver
+---@class net.kyori.adventure.text.minimessage.tag.resolver.EmptyTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver, java.lang.Object
 ---@field public INSTANCE net.kyori.adventure.text.minimessage.tag.resolver.EmptyTagResolver
 ---@overload fun(): net.kyori.adventure.text.minimessage.tag.resolver.EmptyTagResolver
 local EmptyTagResolver = {}
@@ -23,7 +23,7 @@ function EmptyTagResolver:has(name) end
 function EmptyTagResolver:contributeToMap(map) end
 
 ---@param serializable net.kyori.adventure.text.Component 
----@param consumer net.kyori.adventure.text.minimessage.internal.serializer.ClaimConsumer 
+---@param consumer function 
 ---@public
 ---@return nil 
 function EmptyTagResolver:handle(serializable, consumer) end

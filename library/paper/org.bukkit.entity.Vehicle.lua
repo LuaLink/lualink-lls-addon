@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Vehicle
----@class org.bukkit.entity.Vehicle: org.bukkit.entity.Entity
+---@class org.bukkit.entity.Vehicle: org.bukkit.entity.Entity, java.lang.Object
 local Vehicle = {}
 
 ---@public

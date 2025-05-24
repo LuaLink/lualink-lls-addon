@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.SoundGroup
----@class org.bukkit.SoundGroup
+---@class org.bukkit.SoundGroup: java.lang.Object
 local SoundGroup = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.event.DataComponentValue.TagSerializable
----@class net.kyori.adventure.text.event.DataComponentValue.TagSerializable: net.kyori.adventure.text.event.DataComponentValue
+---@class net.kyori.adventure.text.event.DataComponentValue.TagSerializable: net.kyori.adventure.text.event.DataComponentValue, java.lang.Object
 local TagSerializable = {}
 
 ---@public

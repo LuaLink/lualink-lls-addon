@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.PlayerChangeBeaconEffectEvent
----@class io.papermc.paper.event.player.PlayerChangeBeaconEffectEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.player.PlayerChangeBeaconEffectEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private beacon org.bukkit.block.Block
 ---@field private primary org.bukkit.potion.PotionEffectType

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.configuration.serialization.ConfigurationSerializable
----@class org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.configuration.serialization.ConfigurationSerializable: java.lang.Object
 local ConfigurationSerializable = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerGameModeChangeEvent
----@class org.bukkit.event.player.PlayerGameModeChangeEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.player.PlayerGameModeChangeEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private newGameMode org.bukkit.GameMode
 ---@field private cause org.bukkit.event.player.PlayerGameModeChangeEvent.Cause

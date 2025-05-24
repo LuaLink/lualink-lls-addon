@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerPortalEvent
----@class org.bukkit.event.player.PlayerPortalEvent: org.bukkit.event.player.PlayerTeleportEvent
+---@class org.bukkit.event.player.PlayerPortalEvent: org.bukkit.event.player.PlayerTeleportEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private searchRadius number
 ---@field private canCreatePortal boolean

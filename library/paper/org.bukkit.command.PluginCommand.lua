@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.command.PluginCommand
----@class org.bukkit.command.PluginCommand: org.bukkit.command.Command, org.bukkit.command.PluginIdentifiableCommand
+---@class org.bukkit.command.PluginCommand: org.bukkit.command.Command, org.bukkit.command.PluginIdentifiableCommand, java.lang.Object
 ---@field private owningPlugin org.bukkit.plugin.Plugin
 ---@field private executor org.bukkit.command.CommandExecutor
 ---@field private completer org.bukkit.command.TabCompleter

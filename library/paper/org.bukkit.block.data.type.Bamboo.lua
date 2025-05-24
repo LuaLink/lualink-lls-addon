@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Bamboo
----@class org.bukkit.block.data.type.Bamboo: org.bukkit.block.data.Ageable, org.bukkit.block.data.type.Sapling
+---@class org.bukkit.block.data.type.Bamboo: org.bukkit.block.data.Ageable, org.bukkit.block.data.type.Sapling, java.lang.Object
 ---@field public Leaves org.bukkit.block.data.type.Bamboo.Leaves
 local Bamboo = {}
 

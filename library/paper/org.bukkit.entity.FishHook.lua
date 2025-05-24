@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.FishHook
----@class org.bukkit.entity.FishHook: org.bukkit.entity.Projectile
+---@class org.bukkit.entity.FishHook: org.bukkit.entity.Projectile, java.lang.Object
 ---@field public HookState org.bukkit.entity.FishHook.HookState
 local FishHook = {}
 

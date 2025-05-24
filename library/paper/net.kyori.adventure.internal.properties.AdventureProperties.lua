@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.internal.properties.AdventureProperties
----@class net.kyori.adventure.internal.properties.AdventureProperties
+---@class net.kyori.adventure.internal.properties.AdventureProperties: java.lang.Object
 ---@field public DEBUG net.kyori.adventure.internal.properties.AdventureProperties.Property
 ---@field public DEFAULT_TRANSLATION_LOCALE net.kyori.adventure.internal.properties.AdventureProperties.Property
 ---@field public SERVICE_LOAD_FAILURES_ARE_FATAL net.kyori.adventure.internal.properties.AdventureProperties.Property
@@ -11,7 +11,7 @@
 local AdventureProperties = {}
 
 ---@param name string the property name
----@param parser java.util.function.Function the value parser
+---@param parser function the value parser
 ---@param defaultValue T the default value
 ---@public
 ---@return net.kyori.adventure.internal.properties.AdventureProperties.Property a property

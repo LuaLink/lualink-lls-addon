@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.PlayerUntrackEntityEvent
----@class io.papermc.paper.event.player.PlayerUntrackEntityEvent: org.bukkit.event.player.PlayerEvent
+---@class io.papermc.paper.event.player.PlayerUntrackEntityEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private entity org.bukkit.entity.Entity
 ---@overload fun(player: org.bukkit.entity.Player, entity: org.bukkit.entity.Entity): io.papermc.paper.event.player.PlayerUntrackEntityEvent

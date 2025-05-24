@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.components.ToolComponent
----@class org.bukkit.inventory.meta.components.ToolComponent: org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.inventory.meta.components.ToolComponent: org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 ---@field public ToolRule org.bukkit.inventory.meta.components.ToolComponent.ToolRule
 local ToolComponent = {}
 

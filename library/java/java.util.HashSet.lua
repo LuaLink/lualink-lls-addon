@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.HashSet
----@class java.util.HashSet: java.util.AbstractSet, java.util.Set, java.lang.Cloneable, java.io.Serializable
+---@class java.util.HashSet: java.util.AbstractSet, java.util.Set, java.lang.Cloneable, java.io.Serializable, java.lang.Object
 ---@field public serialVersionUID number
 ---@field public map java.util.HashMap
 ---@field public PRESENT java.lang.Object

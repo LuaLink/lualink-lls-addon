@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Mushroom
----@class org.bukkit.material.Mushroom: org.bukkit.material.MaterialData
+---@class org.bukkit.material.Mushroom: org.bukkit.material.MaterialData, java.lang.Object
 ---@field private NORTH_LIMIT number
 ---@field private SOUTH_LIMIT number
 ---@field private EAST_WEST_LIMIT number

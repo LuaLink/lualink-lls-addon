@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.NetherWarts
----@class org.bukkit.material.NetherWarts: org.bukkit.material.MaterialData
+---@class org.bukkit.material.NetherWarts: org.bukkit.material.MaterialData, java.lang.Object
 ---@overload fun(): org.bukkit.material.NetherWarts
 ---@overload fun(state: org.bukkit.NetherWartsState): org.bukkit.material.NetherWarts
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.NetherWarts

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.event.RegistryEntryAddEvent
----@class io.papermc.paper.registry.event.RegistryEntryAddEvent: io.papermc.paper.registry.event.RegistryEvent
+---@class io.papermc.paper.registry.event.RegistryEntryAddEvent: io.papermc.paper.registry.event.RegistryEvent, java.lang.Object
 local RegistryEntryAddEvent = {}
 
 ---@public

@@ -1,6 +1,6 @@
 ---@meta
 -- java.lang.Class.AnnotationData
----@class java.lang.Class.AnnotationData
+---@class java.lang.Class.AnnotationData: java.lang.Object
 ---@field public annotations java.util.Map
 ---@field public declaredAnnotations java.util.Map
 ---@field public redefinedCount number

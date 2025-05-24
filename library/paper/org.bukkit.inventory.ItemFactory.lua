@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.ItemFactory
----@class org.bukkit.inventory.ItemFactory
+---@class org.bukkit.inventory.ItemFactory: java.lang.Object
 local ItemFactory = {}
 
 ---@param material org.bukkit.Material The material to consider as base for the meta

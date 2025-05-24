@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.tags.PaintingVariantTagKeys
----@class io.papermc.paper.registry.keys.tags.PaintingVariantTagKeys
+---@class io.papermc.paper.registry.keys.tags.PaintingVariantTagKeys: java.lang.Object
 ---@field public PLACEABLE io.papermc.paper.registry.tag.TagKey
 ---@overload fun(): io.papermc.paper.registry.keys.tags.PaintingVariantTagKeys
 local PaintingVariantTagKeys = {}

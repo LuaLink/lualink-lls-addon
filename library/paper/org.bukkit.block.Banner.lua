@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Banner
----@class org.bukkit.block.Banner: org.bukkit.block.TileState, org.bukkit.Nameable
+---@class org.bukkit.block.Banner: org.bukkit.block.TileState, org.bukkit.Nameable, java.lang.Object
 local Banner = {}
 
 ---@public

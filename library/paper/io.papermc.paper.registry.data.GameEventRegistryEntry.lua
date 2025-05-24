@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.GameEventRegistryEntry
----@class io.papermc.paper.registry.data.GameEventRegistryEntry
+---@class io.papermc.paper.registry.data.GameEventRegistryEntry: java.lang.Object
 ---@field public Builder io.papermc.paper.registry.data.GameEventRegistryEntry.Builder
 local GameEventRegistryEntry = {}
 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.Vector
----@class org.bukkit.util.Vector: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.util.Vector: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private random java.util.Random
 ---@field private epsilon number

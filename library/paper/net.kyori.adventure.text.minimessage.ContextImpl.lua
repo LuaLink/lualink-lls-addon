@@ -1,19 +1,19 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.ContextImpl
----@class net.kyori.adventure.text.minimessage.ContextImpl: net.kyori.adventure.text.minimessage.Context
+---@class net.kyori.adventure.text.minimessage.ContextImpl: net.kyori.adventure.text.minimessage.Context, java.lang.Object
 ---@field private EMPTY_TOKEN_ARRAY net.kyori.adventure.text.minimessage.internal.parser.Token
 ---@field private strict boolean
----@field private debugOutput java.util.function.Consumer
+---@field private debugOutput function
 ---@field private message string
 ---@field private miniMessage net.kyori.adventure.text.minimessage.MiniMessage
 ---@field private tagResolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@field private postProcessor java.util.function.UnaryOperator
----@overload fun(strict: boolean, debugOutput: java.util.function.Consumer, message: string, miniMessage: net.kyori.adventure.text.minimessage.MiniMessage, extraTags: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, postProcessor: java.util.function.UnaryOperator): net.kyori.adventure.text.minimessage.ContextImpl
+---@overload fun(strict: boolean, debugOutput: function, message: string, miniMessage: net.kyori.adventure.text.minimessage.MiniMessage, extraTags: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, postProcessor: java.util.function.UnaryOperator): net.kyori.adventure.text.minimessage.ContextImpl
 local ContextImpl = {}
 
 ---@param strict boolean 
----@param debugOutput java.util.function.Consumer 
+---@param debugOutput function 
 ---@param input string 
 ---@param miniMessage net.kyori.adventure.text.minimessage.MiniMessageImpl 
 ---@param extraTags net.kyori.adventure.text.minimessage.tag.resolver.TagResolver 
@@ -27,7 +27,7 @@ function ContextImpl:of(strict, debugOutput, input, miniMessage, extraTags, post
 function ContextImpl:strict() end
 
 ---@public
----@return java.util.function.Consumer 
+---@return function 
 function ContextImpl:debugOutput() end
 
 ---@public

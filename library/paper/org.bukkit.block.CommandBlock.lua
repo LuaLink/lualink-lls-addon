@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.CommandBlock
----@class org.bukkit.block.CommandBlock: org.bukkit.block.TileState, io.papermc.paper.command.CommandBlockHolder
+---@class org.bukkit.block.CommandBlock: org.bukkit.block.TileState, io.papermc.paper.command.CommandBlockHolder, java.lang.Object
 local CommandBlock = {}
 
 ---@public

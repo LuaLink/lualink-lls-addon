@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.permission.PermissionCheckers.Always
----@class net.kyori.adventure.permission.PermissionCheckers.Always: net.kyori.adventure.permission.PermissionChecker
+---@class net.kyori.adventure.permission.PermissionCheckers.Always: net.kyori.adventure.permission.PermissionChecker, java.lang.Object
 ---@field private value net.kyori.adventure.util.TriState
 ---@overload fun(value: net.kyori.adventure.util.TriState): net.kyori.adventure.permission.PermissionCheckers.Always
 local Always = {}

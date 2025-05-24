@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.TranslationArgument
----@class net.kyori.adventure.text.TranslationArgument: net.kyori.adventure.text.TranslationArgumentLike, any
+---@class net.kyori.adventure.text.TranslationArgument: net.kyori.adventure.text.TranslationArgumentLike, any, java.lang.Object
 local TranslationArgument = {}
 
 ---@param value boolean the value

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Rail
----@class org.bukkit.block.data.Rail: org.bukkit.block.data.Waterlogged
+---@class org.bukkit.block.data.Rail: org.bukkit.block.data.Waterlogged, java.lang.Object
 ---@field public Shape org.bukkit.block.data.Rail.Shape
 local Rail = {}
 

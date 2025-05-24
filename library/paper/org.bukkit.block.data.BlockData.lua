@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.block.data.BlockData
----@class org.bukkit.block.data.BlockData: java.lang.Cloneable
+---@class org.bukkit.block.data.BlockData: java.lang.Cloneable, java.lang.Object
 local BlockData = {}
 
 ---@public

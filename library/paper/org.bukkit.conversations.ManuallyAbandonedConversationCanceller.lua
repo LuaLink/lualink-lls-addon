@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.ManuallyAbandonedConversationCanceller
----@class org.bukkit.conversations.ManuallyAbandonedConversationCanceller: org.bukkit.conversations.ConversationCanceller
+---@class org.bukkit.conversations.ManuallyAbandonedConversationCanceller: org.bukkit.conversations.ConversationCanceller, java.lang.Object
 local ManuallyAbandonedConversationCanceller = {}
 
 ---@param conversation org.bukkit.conversations.Conversation 

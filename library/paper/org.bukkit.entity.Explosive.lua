@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Explosive
----@class org.bukkit.entity.Explosive: org.bukkit.entity.Entity
+---@class org.bukkit.entity.Explosive: org.bukkit.entity.Entity, java.lang.Object
 local Explosive = {}
 
 ---@param yield number The explosive yield

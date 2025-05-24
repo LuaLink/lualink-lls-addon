@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerEggThrowEvent
----@class org.bukkit.event.player.PlayerEggThrowEvent: org.bukkit.event.player.PlayerEvent
+---@class org.bukkit.event.player.PlayerEggThrowEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private egg org.bukkit.entity.Egg
 ---@field private hatching boolean

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.DetectorRail
----@class org.bukkit.material.DetectorRail: org.bukkit.material.ExtendedRails, org.bukkit.material.PressureSensor
+---@class org.bukkit.material.DetectorRail: org.bukkit.material.ExtendedRails, org.bukkit.material.PressureSensor, java.lang.Object
 ---@overload fun(): org.bukkit.material.DetectorRail
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.DetectorRail
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.DetectorRail

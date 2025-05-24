@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Wolf.SoundVariant
----@class org.bukkit.entity.Wolf.SoundVariant: org.bukkit.Keyed
+---@class org.bukkit.entity.Wolf.SoundVariant: org.bukkit.Keyed, java.lang.Object
 ---@field public ANGRY org.bukkit.entity.Wolf.SoundVariant
 ---@field public BIG org.bukkit.entity.Wolf.SoundVariant
 ---@field public CLASSIC org.bukkit.entity.Wolf.SoundVariant

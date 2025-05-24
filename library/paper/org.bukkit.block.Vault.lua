@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Vault
----@class org.bukkit.block.Vault: org.bukkit.block.TileState
+---@class org.bukkit.block.Vault: org.bukkit.block.TileState, java.lang.Object
 local Vault = {}
 
 ---@public

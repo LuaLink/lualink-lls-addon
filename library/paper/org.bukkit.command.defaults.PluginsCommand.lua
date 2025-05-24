@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.command.defaults.PluginsCommand
----@class org.bukkit.command.defaults.PluginsCommand: org.bukkit.command.defaults.BukkitCommand
+---@class org.bukkit.command.defaults.PluginsCommand: org.bukkit.command.defaults.BukkitCommand, java.lang.Object
 ---@overload fun(name: string): org.bukkit.command.defaults.PluginsCommand
 local PluginsCommand = {}
 

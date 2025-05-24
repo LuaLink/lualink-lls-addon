@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.GrindstoneInventory
----@class org.bukkit.inventory.GrindstoneInventory: org.bukkit.inventory.Inventory
+---@class org.bukkit.inventory.GrindstoneInventory: org.bukkit.inventory.Inventory, java.lang.Object
 local GrindstoneInventory = {}
 
 ---@public

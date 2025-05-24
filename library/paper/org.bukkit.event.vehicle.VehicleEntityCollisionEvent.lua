@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.vehicle.VehicleEntityCollisionEvent
----@class org.bukkit.event.vehicle.VehicleEntityCollisionEvent: org.bukkit.event.vehicle.VehicleCollisionEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.vehicle.VehicleEntityCollisionEvent: org.bukkit.event.vehicle.VehicleCollisionEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private entity org.bukkit.entity.Entity
 ---@field private cancelledPickup boolean
 ---@field private cancelledCollision boolean

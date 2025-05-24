@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Command
----@class org.bukkit.material.Command: org.bukkit.material.MaterialData, org.bukkit.material.Redstone
+---@class org.bukkit.material.Command: org.bukkit.material.MaterialData, org.bukkit.material.Redstone, java.lang.Object
 ---@overload fun(): org.bukkit.material.Command
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Command
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Command

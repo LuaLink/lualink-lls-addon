@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.OminousItemSpawner
----@class org.bukkit.entity.OminousItemSpawner: org.bukkit.entity.Entity
+---@class org.bukkit.entity.OminousItemSpawner: org.bukkit.entity.Entity, java.lang.Object
 local OminousItemSpawner = {}
 
 ---@public

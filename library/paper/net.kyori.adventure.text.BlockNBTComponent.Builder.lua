@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.BlockNBTComponent.Builder
----@class net.kyori.adventure.text.BlockNBTComponent.Builder: net.kyori.adventure.text.NBTComponentBuilder
+---@class net.kyori.adventure.text.BlockNBTComponent.Builder: net.kyori.adventure.text.NBTComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param pos net.kyori.adventure.text.BlockNBTComponent.Pos the block position

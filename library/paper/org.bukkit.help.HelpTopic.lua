@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.help.HelpTopic
----@class org.bukkit.help.HelpTopic
+---@class org.bukkit.help.HelpTopic: java.lang.Object
 ---@field protected name string
 ---@field protected shortText string
 ---@field protected fullText string

@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.flattener.ComponentFlattenerImpl.Handler
----@class net.kyori.adventure.text.flattener.ComponentFlattenerImpl.Handler
+---@class net.kyori.adventure.text.flattener.ComponentFlattenerImpl.Handler: java.lang.Object
 local Handler = {}
 
 ---@param self net.kyori.adventure.text.flattener.ComponentFlattenerImpl 

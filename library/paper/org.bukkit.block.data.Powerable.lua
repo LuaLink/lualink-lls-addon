@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Powerable
----@class org.bukkit.block.data.Powerable: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.Powerable: org.bukkit.block.data.BlockData, java.lang.Object
 local Powerable = {}
 
 ---@public

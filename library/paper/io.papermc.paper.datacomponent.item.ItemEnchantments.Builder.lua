@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.ItemEnchantments.Builder
----@class io.papermc.paper.datacomponent.item.ItemEnchantments.Builder: io.papermc.paper.datacomponent.DataComponentBuilder
+---@class io.papermc.paper.datacomponent.item.ItemEnchantments.Builder: io.papermc.paper.datacomponent.DataComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param enchantment org.bukkit.enchantments.Enchantment enchantment

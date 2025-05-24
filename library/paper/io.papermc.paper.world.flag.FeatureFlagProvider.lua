@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.world.flag.FeatureFlagProvider
----@class io.papermc.paper.world.flag.FeatureFlagProvider
+---@class io.papermc.paper.world.flag.FeatureFlagProvider: java.lang.Object
 ---@field public PROVIDER java.util.Optional
 local FeatureFlagProvider = {}
 

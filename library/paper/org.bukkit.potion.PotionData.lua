@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.potion.PotionData
----@class org.bukkit.potion.PotionData
+---@class org.bukkit.potion.PotionData: java.lang.Object
 ---@field private type org.bukkit.potion.PotionType
 ---@field private extended boolean
 ---@field private upgraded boolean

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.text.SimpleDateFormat
----@class java.text.SimpleDateFormat: java.text.DateFormat
+---@class java.text.SimpleDateFormat: java.text.DateFormat, java.lang.Object
 ---@field public serialVersionUID number
 ---@field public currentSerialVersion number
 ---@field private serialVersionOnStream number

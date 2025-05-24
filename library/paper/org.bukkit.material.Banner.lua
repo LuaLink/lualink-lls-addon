@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Banner
----@class org.bukkit.material.Banner: org.bukkit.material.MaterialData, org.bukkit.material.Attachable
+---@class org.bukkit.material.Banner: org.bukkit.material.MaterialData, org.bukkit.material.Attachable, java.lang.Object
 ---@overload fun(): org.bukkit.material.Banner
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Banner
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Banner

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.command.CommandException
----@class org.bukkit.command.CommandException: java.lang.RuntimeException
+---@class org.bukkit.command.CommandException: java.lang.RuntimeException, java.lang.Object
 ---@overload fun(): org.bukkit.command.CommandException
 ---@overload fun(msg: string): org.bukkit.command.CommandException
 ---@overload fun(msg: string, cause: java.lang.Throwable): org.bukkit.command.CommandException

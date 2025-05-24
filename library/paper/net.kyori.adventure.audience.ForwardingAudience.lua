@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.audience.ForwardingAudience
----@class net.kyori.adventure.audience.ForwardingAudience: net.kyori.adventure.audience.Audience
+---@class net.kyori.adventure.audience.ForwardingAudience: net.kyori.adventure.audience.Audience, java.lang.Object
 ---@field public Single net.kyori.adventure.audience.ForwardingAudience.Single
 local ForwardingAudience = {}
 
@@ -14,12 +14,12 @@ function ForwardingAudience:audiences() end
 ---@return net.kyori.adventure.pointer.Pointers 
 function ForwardingAudience:pointers() end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return net.kyori.adventure.audience.Audience 
 function ForwardingAudience:filterAudience(filter) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function ForwardingAudience:forEachAudience(action) end

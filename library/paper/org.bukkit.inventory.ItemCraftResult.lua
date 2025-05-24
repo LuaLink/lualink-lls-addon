@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.ItemCraftResult
----@class org.bukkit.inventory.ItemCraftResult
+---@class org.bukkit.inventory.ItemCraftResult: java.lang.Object
 local ItemCraftResult = {}
 
 ---@public

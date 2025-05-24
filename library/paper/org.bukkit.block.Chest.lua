@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Chest
----@class org.bukkit.block.Chest: org.bukkit.block.Container, com.destroystokyo.paper.loottable.LootableBlockInventory, org.bukkit.block.Lidded
+---@class org.bukkit.block.Chest: org.bukkit.block.Container, com.destroystokyo.paper.loottable.LootableBlockInventory, org.bukkit.block.Lidded, java.lang.Object
 local Chest = {}
 
 ---@public

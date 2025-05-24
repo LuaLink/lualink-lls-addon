@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Arrays
----@class java.util.Arrays
+---@class java.util.Arrays: java.lang.Object
 ---@field private MIN_ARRAY_SORT_GRAN number
 ---@field private INSERTIONSORT_THRESHOLD number
 ---@field public NaturalOrder java.util.Arrays.NaturalOrder
@@ -1310,14 +1310,14 @@ function Arrays:deepToString(a) end
 function Arrays:deepToString(a, buf, dejaVu) end
 
 ---@param array table<T> array to be initialized
----@param generator java.util.function.IntFunction a function accepting an index and producing the desired        value for that position
+---@param generator function a function accepting an index and producing the desired        value for that position
 ---@public
 ---@return nil 
 --- Set all elements of the specified array, using the provided generator function to compute each element.  <p>If the generator function throws an exception, it is relayed to the caller and the array is left in an indeterminate state.
 function Arrays:setAll(array, generator) end
 
 ---@param array table<T> array to be initialized
----@param generator java.util.function.IntFunction a function accepting an index and producing the desired        value for that position
+---@param generator function a function accepting an index and producing the desired        value for that position
 ---@public
 ---@return nil 
 --- Set all elements of the specified array, in parallel, using the provided generator function to compute each element.  <p>If the generator function throws an exception, an unchecked exception is thrown from {@code parallelSetAll} and the array is left in an indeterminate state.
@@ -1338,28 +1338,28 @@ function Arrays:setAll(array, generator) end
 function Arrays:parallelSetAll(array, generator) end
 
 ---@param array table<number> array to be initialized
----@param generator java.util.function.IntToLongFunction a function accepting an index and producing the desired        value for that position
+---@param generator function a function accepting an index and producing the desired        value for that position
 ---@public
 ---@return nil 
 --- Set all elements of the specified array, using the provided generator function to compute each element.  <p>If the generator function throws an exception, it is relayed to the caller and the array is left in an indeterminate state.
 function Arrays:setAll(array, generator) end
 
 ---@param array table<number> array to be initialized
----@param generator java.util.function.IntToLongFunction a function accepting an index and producing the desired        value for that position
+---@param generator function a function accepting an index and producing the desired        value for that position
 ---@public
 ---@return nil 
 --- Set all elements of the specified array, in parallel, using the provided generator function to compute each element.  <p>If the generator function throws an exception, an unchecked exception is thrown from {@code parallelSetAll} and the array is left in an indeterminate state.
 function Arrays:parallelSetAll(array, generator) end
 
 ---@param array table<number> array to be initialized
----@param generator java.util.function.IntToDoubleFunction a function accepting an index and producing the desired        value for that position
+---@param generator function a function accepting an index and producing the desired        value for that position
 ---@public
 ---@return nil 
 --- Set all elements of the specified array, using the provided generator function to compute each element.  <p>If the generator function throws an exception, it is relayed to the caller and the array is left in an indeterminate state.
 function Arrays:setAll(array, generator) end
 
 ---@param array table<number> array to be initialized
----@param generator java.util.function.IntToDoubleFunction a function accepting an index and producing the desired        value for that position
+---@param generator function a function accepting an index and producing the desired        value for that position
 ---@public
 ---@return nil 
 --- Set all elements of the specified array, in parallel, using the provided generator function to compute each element.  <p>If the generator function throws an exception, an unchecked exception is thrown from {@code parallelSetAll} and the array is left in an indeterminate state.

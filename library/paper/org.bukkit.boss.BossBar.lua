@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.boss.BossBar
----@class org.bukkit.boss.BossBar
+---@class org.bukkit.boss.BossBar: java.lang.Object
 local BossBar = {}
 
 ---@public

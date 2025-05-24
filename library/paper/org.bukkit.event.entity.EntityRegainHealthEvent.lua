@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.EntityRegainHealthEvent
----@class org.bukkit.event.entity.EntityRegainHealthEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.EntityRegainHealthEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private amount number
 ---@field private regainReason org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason

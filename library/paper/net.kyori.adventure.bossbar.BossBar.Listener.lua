@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.bossbar.BossBar.Listener
----@class net.kyori.adventure.bossbar.BossBar.Listener
+---@class net.kyori.adventure.bossbar.BossBar.Listener: java.lang.Object
 local Listener = {}
 
 ---@param bar net.kyori.adventure.bossbar.BossBar the bossbar

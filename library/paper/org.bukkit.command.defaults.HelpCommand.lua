@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.command.defaults.HelpCommand
----@class org.bukkit.command.defaults.HelpCommand: org.bukkit.command.defaults.BukkitCommand
+---@class org.bukkit.command.defaults.HelpCommand: org.bukkit.command.defaults.BukkitCommand, java.lang.Object
 ---@overload fun(): org.bukkit.command.defaults.HelpCommand
 local HelpCommand = {}
 

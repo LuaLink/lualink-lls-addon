@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.advancement.Advancement
----@class org.bukkit.advancement.Advancement: org.bukkit.Keyed
+---@class org.bukkit.advancement.Advancement: org.bukkit.Keyed, java.lang.Object
 local Advancement = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.GlowSquid
----@class org.bukkit.entity.GlowSquid: org.bukkit.entity.Squid
+---@class org.bukkit.entity.GlowSquid: org.bukkit.entity.Squid, java.lang.Object
 local GlowSquid = {}
 
 ---@public

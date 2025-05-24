@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.chat.SignedMessage.Signature
----@class net.kyori.adventure.chat.SignedMessage.Signature: any
+---@class net.kyori.adventure.chat.SignedMessage.Signature: any, java.lang.Object
 local Signature = {}
 
 ---@public

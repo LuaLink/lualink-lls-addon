@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.BlockNBTComponentImpl.WorldPosImpl
----@class net.kyori.adventure.text.BlockNBTComponentImpl.WorldPosImpl: net.kyori.adventure.text.BlockNBTComponent.WorldPos
+---@class net.kyori.adventure.text.BlockNBTComponentImpl.WorldPosImpl: net.kyori.adventure.text.BlockNBTComponent.WorldPos, java.lang.Object
 ---@field private x net.kyori.adventure.text.BlockNBTComponent.WorldPos.Coordinate
 ---@field private y net.kyori.adventure.text.BlockNBTComponent.WorldPos.Coordinate
 ---@field private z net.kyori.adventure.text.BlockNBTComponent.WorldPos.Coordinate

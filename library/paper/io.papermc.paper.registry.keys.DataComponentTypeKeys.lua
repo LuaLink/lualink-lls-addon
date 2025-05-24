@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.DataComponentTypeKeys
----@class io.papermc.paper.registry.keys.DataComponentTypeKeys
+---@class io.papermc.paper.registry.keys.DataComponentTypeKeys: java.lang.Object
 ---@field public ATTRIBUTE_MODIFIERS io.papermc.paper.registry.TypedKey
 ---@field public AXOLOTL_VARIANT io.papermc.paper.registry.TypedKey
 ---@field public BANNER_PATTERNS io.papermc.paper.registry.TypedKey

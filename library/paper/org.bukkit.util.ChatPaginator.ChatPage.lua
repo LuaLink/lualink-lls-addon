@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.util.ChatPaginator.ChatPage
----@class org.bukkit.util.ChatPaginator.ChatPage
+---@class org.bukkit.util.ChatPaginator.ChatPage: java.lang.Object
 ---@field private lines string
 ---@field private pageNumber number
 ---@field private totalPages number

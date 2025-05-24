@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Hopper
----@class org.bukkit.block.Hopper: org.bukkit.block.Container, com.destroystokyo.paper.loottable.LootableBlockInventory
+---@class org.bukkit.block.Hopper: org.bukkit.block.Container, com.destroystokyo.paper.loottable.LootableBlockInventory, java.lang.Object
 local Hopper = {}
 
 ---@param cooldown number the cooldown in ticks

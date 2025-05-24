@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.metadata.MetadataStoreBase
----@class org.bukkit.metadata.MetadataStoreBase
+---@class org.bukkit.metadata.MetadataStoreBase: java.lang.Object
 ---@field private metadataMap java.util.Map
 local MetadataStoreBase = {}
 

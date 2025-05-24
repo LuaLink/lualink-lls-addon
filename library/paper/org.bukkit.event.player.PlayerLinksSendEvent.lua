@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerLinksSendEvent
----@class org.bukkit.event.player.PlayerLinksSendEvent: org.bukkit.event.player.PlayerEvent
+---@class org.bukkit.event.player.PlayerLinksSendEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private links org.bukkit.ServerLinks
 ---@overload fun(player: org.bukkit.entity.Player, links: org.bukkit.ServerLinks): org.bukkit.event.player.PlayerLinksSendEvent

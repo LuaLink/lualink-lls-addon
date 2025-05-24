@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Raid
----@class org.bukkit.Raid: org.bukkit.persistence.PersistentDataHolder
+---@class org.bukkit.Raid: org.bukkit.persistence.PersistentDataHolder, java.lang.Object
 ---@field public RaidStatus org.bukkit.Raid.RaidStatus
 local Raid = {}
 

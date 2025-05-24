@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.GameEvent
----@class org.bukkit.GameEvent: org.bukkit.Keyed
+---@class org.bukkit.GameEvent: org.bukkit.Keyed, java.lang.Object
 ---@field public BLOCK_ACTIVATE org.bukkit.GameEvent
 ---@field public BLOCK_ATTACH org.bukkit.GameEvent
 ---@field public BLOCK_CHANGE org.bukkit.GameEvent

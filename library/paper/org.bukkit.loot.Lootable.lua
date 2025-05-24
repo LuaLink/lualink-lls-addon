@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.loot.Lootable
----@class org.bukkit.loot.Lootable
+---@class org.bukkit.loot.Lootable: java.lang.Object
 local Lootable = {}
 
 ---@param table org.bukkit.loot.LootTable the Loot Table this {@link org.bukkit.block.Container} or {@link org.bukkit.entity.Mob} will have.

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.entity.WardenAngerChangeEvent
----@class io.papermc.paper.event.entity.WardenAngerChangeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.entity.WardenAngerChangeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private target org.bukkit.entity.Entity
 ---@field private oldAnger number

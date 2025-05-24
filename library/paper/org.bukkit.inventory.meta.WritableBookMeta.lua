@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.WritableBookMeta
----@class org.bukkit.inventory.meta.WritableBookMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.WritableBookMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local WritableBookMeta = {}
 
 ---@public

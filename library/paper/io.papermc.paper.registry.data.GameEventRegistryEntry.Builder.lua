@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.GameEventRegistryEntry.Builder
----@class io.papermc.paper.registry.data.GameEventRegistryEntry.Builder: io.papermc.paper.registry.data.GameEventRegistryEntry, io.papermc.paper.registry.RegistryBuilder
+---@class io.papermc.paper.registry.data.GameEventRegistryEntry.Builder: io.papermc.paper.registry.data.GameEventRegistryEntry, io.papermc.paper.registry.RegistryBuilder, java.lang.Object
 local Builder = {}
 
 ---@param range number the range of blocks.

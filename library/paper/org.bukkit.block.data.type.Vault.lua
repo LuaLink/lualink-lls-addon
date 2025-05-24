@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Vault
----@class org.bukkit.block.data.type.Vault: org.bukkit.block.data.Directional
+---@class org.bukkit.block.data.type.Vault: org.bukkit.block.data.Directional, java.lang.Object
 ---@field public State org.bukkit.block.data.type.Vault.State
 local Vault = {}
 

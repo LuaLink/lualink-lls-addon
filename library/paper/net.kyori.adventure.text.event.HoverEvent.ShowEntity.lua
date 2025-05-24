@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.event.HoverEvent.ShowEntity
----@class net.kyori.adventure.text.event.HoverEvent.ShowEntity: any
+---@class net.kyori.adventure.text.event.HoverEvent.ShowEntity: any, java.lang.Object
 ---@field private type any
 ---@field private id java.util.UUID
 ---@field private name net.kyori.adventure.text.Component

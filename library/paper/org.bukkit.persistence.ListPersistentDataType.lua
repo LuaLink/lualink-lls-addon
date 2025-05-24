@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.persistence.ListPersistentDataType
----@class org.bukkit.persistence.ListPersistentDataType: org.bukkit.persistence.PersistentDataType
+---@class org.bukkit.persistence.ListPersistentDataType: org.bukkit.persistence.PersistentDataType, java.lang.Object
 local ListPersistentDataType = {}
 
 ---@public

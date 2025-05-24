@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.command.PluginIdentifiableCommand
----@class org.bukkit.command.PluginIdentifiableCommand
+---@class org.bukkit.command.PluginIdentifiableCommand: java.lang.Object
 local PluginIdentifiableCommand = {}
 
 ---@public

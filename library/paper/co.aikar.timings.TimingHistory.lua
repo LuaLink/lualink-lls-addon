@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- co.aikar.timings.TimingHistory
----@class co.aikar.timings.TimingHistory
+---@class co.aikar.timings.TimingHistory: java.lang.Object
 ---@field public lastMinuteTime number
 ---@field public timedTicks number
 ---@field public playerTicks number

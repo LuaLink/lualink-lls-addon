@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.AbstractComponent
----@class net.kyori.adventure.text.AbstractComponent: net.kyori.adventure.text.Component
+---@class net.kyori.adventure.text.AbstractComponent: net.kyori.adventure.text.Component, java.lang.Object
 ---@field protected children java.util.List
 ---@field protected style net.kyori.adventure.text.format.Style
 ---@overload fun(children: java.util.List, style: net.kyori.adventure.text.format.Style): net.kyori.adventure.text.AbstractComponent

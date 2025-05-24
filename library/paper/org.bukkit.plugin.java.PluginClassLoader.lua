@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.java.PluginClassLoader
----@class org.bukkit.plugin.java.PluginClassLoader: java.net.URLClassLoader, io.papermc.paper.plugin.provider.classloader.ConfiguredPluginClassLoader
+---@class org.bukkit.plugin.java.PluginClassLoader: java.net.URLClassLoader, io.papermc.paper.plugin.provider.classloader.ConfiguredPluginClassLoader, java.lang.Object
 ---@field private loader org.bukkit.plugin.java.JavaPluginLoader
 ---@field private classes java.util.Map
 ---@field private description org.bukkit.plugin.PluginDescriptionFile

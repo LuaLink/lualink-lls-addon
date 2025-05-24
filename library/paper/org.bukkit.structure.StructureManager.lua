@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.structure.StructureManager
----@class org.bukkit.structure.StructureManager
+---@class org.bukkit.structure.StructureManager: java.lang.Object
 local StructureManager = {}
 
 ---@public

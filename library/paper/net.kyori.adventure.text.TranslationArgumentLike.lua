@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.TranslationArgumentLike
----@class net.kyori.adventure.text.TranslationArgumentLike: net.kyori.adventure.text.ComponentLike
+---@class net.kyori.adventure.text.TranslationArgumentLike: net.kyori.adventure.text.ComponentLike, java.lang.Object
 local TranslationArgumentLike = {}
 
 ---@public

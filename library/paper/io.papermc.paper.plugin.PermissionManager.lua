@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.PermissionManager
----@class io.papermc.paper.plugin.PermissionManager
+---@class io.papermc.paper.plugin.PermissionManager: java.lang.Object
 local PermissionManager = {}
 
 ---@param name string Name of the permission

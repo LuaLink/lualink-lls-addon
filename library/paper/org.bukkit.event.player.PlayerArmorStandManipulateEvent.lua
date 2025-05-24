@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerArmorStandManipulateEvent
----@class org.bukkit.event.player.PlayerArmorStandManipulateEvent: org.bukkit.event.player.PlayerInteractEntityEvent
+---@class org.bukkit.event.player.PlayerArmorStandManipulateEvent: org.bukkit.event.player.PlayerInteractEntityEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private playerItem org.bukkit.inventory.ItemStack
 ---@field private armorStandItem org.bukkit.inventory.ItemStack

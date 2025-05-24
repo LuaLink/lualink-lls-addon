@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.persistence.PersistentDataHolder
----@class org.bukkit.persistence.PersistentDataHolder: io.papermc.paper.persistence.PersistentDataViewHolder
+---@class org.bukkit.persistence.PersistentDataHolder: io.papermc.paper.persistence.PersistentDataViewHolder, java.lang.Object
 local PersistentDataHolder = {}
 
 ---@public

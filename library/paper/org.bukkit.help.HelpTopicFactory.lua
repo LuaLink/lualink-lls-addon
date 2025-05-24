@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.help.HelpTopicFactory
----@class org.bukkit.help.HelpTopicFactory
+---@class org.bukkit.help.HelpTopicFactory: java.lang.Object
 local HelpTopicFactory = {}
 
 ---@param command TCommand The custom command to build a help topic for.

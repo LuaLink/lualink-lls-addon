@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.command.brigadier.argument.SignedMessageResolver
----@class io.papermc.paper.command.brigadier.argument.SignedMessageResolver
+---@class io.papermc.paper.command.brigadier.argument.SignedMessageResolver: java.lang.Object
 local SignedMessageResolver = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.KeybindComponent.Builder
----@class net.kyori.adventure.text.KeybindComponent.Builder: net.kyori.adventure.text.ComponentBuilder
+---@class net.kyori.adventure.text.KeybindComponent.Builder: net.kyori.adventure.text.ComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param keybind string the keybind

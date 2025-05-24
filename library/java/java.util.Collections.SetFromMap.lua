@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.SetFromMap
----@class java.util.Collections.SetFromMap: java.util.AbstractSet, java.util.Set, java.io.Serializable
+---@class java.util.Collections.SetFromMap: java.util.AbstractSet, java.util.Set, java.io.Serializable, java.lang.Object
 ---@field public m java.util.Map
 ---@field private s java.util.Set
 ---@field private serialVersionUID number
@@ -76,12 +76,12 @@ function SetFromMap:removeAll(c) end
 ---@return boolean 
 function SetFromMap:retainAll(c) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function SetFromMap:forEach(action) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return boolean 
 function SetFromMap:removeIf(filter) end

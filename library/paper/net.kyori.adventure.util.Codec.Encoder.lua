@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.Codec.Encoder
----@class net.kyori.adventure.util.Codec.Encoder
+---@class net.kyori.adventure.util.Codec.Encoder: java.lang.Object
 local Encoder = {}
 
 ---@param decoded D the decoded value

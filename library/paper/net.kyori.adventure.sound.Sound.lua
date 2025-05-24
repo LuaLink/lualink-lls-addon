@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.sound.Sound
----@class net.kyori.adventure.sound.Sound: any
+---@class net.kyori.adventure.sound.Sound: any, java.lang.Object
 ---@field public Type net.kyori.adventure.sound.Sound.Type
 ---@field public Emitter net.kyori.adventure.sound.Sound.Emitter
 ---@field public Builder net.kyori.adventure.sound.Sound.Builder
@@ -19,7 +19,7 @@ function Sound:sound() end
 --- Create a new builder for {@link Sound} instances.
 function Sound:sound(existing) end
 
----@param configurer java.util.function.Consumer a function that configures a builder
+---@param configurer function a function that configures a builder
 ---@public
 ---@return net.kyori.adventure.sound.Sound a new builder
 --- Create a new {@link Sound} instance configured by the provided function.
@@ -43,7 +43,7 @@ function Sound:sound(name, source, volume, pitch) end
 --- Creates a new sound.
 function Sound:sound(type, source, volume, pitch) end
 
----@param type java.util.function.Supplier the type
+---@param type function the type
 ---@param source net.kyori.adventure.sound.Sound.Source the source
 ---@param volume number the volume
 ---@param pitch number the pitch
@@ -70,7 +70,7 @@ function Sound:sound(name, source, volume, pitch) end
 --- Creates a new sound.
 function Sound:sound(type, source, volume, pitch) end
 
----@param type java.util.function.Supplier the type
+---@param type function the type
 ---@param source net.kyori.adventure.sound.Sound.Source.Provider the source
 ---@param volume number the volume
 ---@param pitch number the pitch

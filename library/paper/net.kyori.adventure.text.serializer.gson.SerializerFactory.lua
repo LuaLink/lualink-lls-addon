@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.SerializerFactory
----@class net.kyori.adventure.text.serializer.gson.SerializerFactory: any
+---@class net.kyori.adventure.text.serializer.gson.SerializerFactory: any, java.lang.Object
 ---@field public KEY_TYPE any
 ---@field public COMPONENT_TYPE java.lang.Class
 ---@field public STYLE_TYPE java.lang.Class

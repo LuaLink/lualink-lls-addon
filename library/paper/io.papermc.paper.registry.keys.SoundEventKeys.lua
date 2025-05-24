@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.SoundEventKeys
----@class io.papermc.paper.registry.keys.SoundEventKeys
+---@class io.papermc.paper.registry.keys.SoundEventKeys: java.lang.Object
 ---@field public AMBIENT_BASALT_DELTAS_ADDITIONS io.papermc.paper.registry.TypedKey
 ---@field public AMBIENT_BASALT_DELTAS_LOOP io.papermc.paper.registry.TypedKey
 ---@field public AMBIENT_BASALT_DELTAS_MOOD io.papermc.paper.registry.TypedKey

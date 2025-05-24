@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.event.DataComponentValueConverterRegistry.ConversionCache
----@class net.kyori.adventure.text.event.DataComponentValueConverterRegistry.ConversionCache
+---@class net.kyori.adventure.text.event.DataComponentValueConverterRegistry.ConversionCache: java.lang.Object
 ---@field private CACHE java.util.concurrent.ConcurrentMap
 ---@field private CONVERSIONS java.util.Map
 local ConversionCache = {}

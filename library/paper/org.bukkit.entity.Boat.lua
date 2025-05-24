@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Boat
----@class org.bukkit.entity.Boat: org.bukkit.entity.Vehicle, io.papermc.paper.entity.Leashable
+---@class org.bukkit.entity.Boat: org.bukkit.entity.Vehicle, io.papermc.paper.entity.Leashable, java.lang.Object
 ---@field public Type org.bukkit.entity.Boat.Type
 ---@field public Status org.bukkit.entity.Boat.Status
 local Boat = {}

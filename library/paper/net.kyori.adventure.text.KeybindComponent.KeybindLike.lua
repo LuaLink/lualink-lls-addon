@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.KeybindComponent.KeybindLike
----@class net.kyori.adventure.text.KeybindComponent.KeybindLike
+---@class net.kyori.adventure.text.KeybindComponent.KeybindLike: java.lang.Object
 local KeybindLike = {}
 
 ---@public

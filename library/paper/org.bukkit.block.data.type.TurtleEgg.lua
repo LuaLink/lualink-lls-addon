@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.TurtleEgg
----@class org.bukkit.block.data.type.TurtleEgg: org.bukkit.block.data.Hatchable
+---@class org.bukkit.block.data.type.TurtleEgg: org.bukkit.block.data.Hatchable, java.lang.Object
 local TurtleEgg = {}
 
 ---@public

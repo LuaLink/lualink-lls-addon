@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.block.AnvilDamagedEvent
----@class com.destroystokyo.paper.event.block.AnvilDamagedEvent: org.bukkit.event.inventory.InventoryEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.block.AnvilDamagedEvent: org.bukkit.event.inventory.InventoryEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private damageState com.destroystokyo.paper.event.block.AnvilDamagedEvent.DamageState
 ---@field private cancelled boolean

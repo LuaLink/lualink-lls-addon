@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Vine
----@class org.bukkit.material.Vine: org.bukkit.material.MaterialData
+---@class org.bukkit.material.Vine: org.bukkit.material.MaterialData, java.lang.Object
 ---@field private VINE_NORTH number
 ---@field private VINE_EAST number
 ---@field private VINE_WEST number

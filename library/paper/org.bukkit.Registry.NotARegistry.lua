@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.Registry.NotARegistry
----@class org.bukkit.Registry.NotARegistry: org.bukkit.Registry
+---@class org.bukkit.Registry.NotARegistry: org.bukkit.Registry, java.lang.Object
 local NotARegistry = {}
 
 ---@public

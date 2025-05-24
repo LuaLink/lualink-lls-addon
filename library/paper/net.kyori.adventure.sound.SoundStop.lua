@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.sound.SoundStop
----@class net.kyori.adventure.sound.SoundStop: any
+---@class net.kyori.adventure.sound.SoundStop: any, java.lang.Object
 local SoundStop = {}
 
 ---@public
@@ -21,7 +21,7 @@ function SoundStop:named(sound) end
 --- Stops all sounds named {@code sound}.
 function SoundStop:named(sound) end
 
----@param sound java.util.function.Supplier the sound
+---@param sound function the sound
 ---@public
 ---@return net.kyori.adventure.sound.SoundStop a sound stopper
 --- Stops all sounds named {@code sound}.
@@ -47,7 +47,7 @@ function SoundStop:namedOnSource(sound, source) end
 --- Stops all sounds named {@code name} on source {@code source}.
 function SoundStop:namedOnSource(sound, source) end
 
----@param sound java.util.function.Supplier the sound
+---@param sound function the sound
 ---@param source net.kyori.adventure.sound.Sound.Source the source
 ---@public
 ---@return net.kyori.adventure.sound.SoundStop a sound stopper

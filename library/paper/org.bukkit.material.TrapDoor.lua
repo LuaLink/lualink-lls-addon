@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.TrapDoor
----@class org.bukkit.material.TrapDoor: org.bukkit.material.SimpleAttachableMaterialData, org.bukkit.material.Openable
+---@class org.bukkit.material.TrapDoor: org.bukkit.material.SimpleAttachableMaterialData, org.bukkit.material.Openable, java.lang.Object
 ---@overload fun(): org.bukkit.material.TrapDoor
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.TrapDoor
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.TrapDoor

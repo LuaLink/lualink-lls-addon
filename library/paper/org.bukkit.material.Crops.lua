@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Crops
----@class org.bukkit.material.Crops: org.bukkit.material.MaterialData
+---@class org.bukkit.material.Crops: org.bukkit.material.MaterialData, java.lang.Object
 ---@field protected DEFAULT_TYPE org.bukkit.Material
 ---@field protected DEFAULT_STATE org.bukkit.CropState
 ---@overload fun(): org.bukkit.material.Crops

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.UnmodifiableNavigableMap.EmptyNavigableMap
----@class java.util.Collections.UnmodifiableNavigableMap.EmptyNavigableMap: java.util.Collections.UnmodifiableNavigableMap, java.io.Serializable
+---@class java.util.Collections.UnmodifiableNavigableMap.EmptyNavigableMap: java.util.Collections.UnmodifiableNavigableMap, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@overload fun(): java.util.Collections.UnmodifiableNavigableMap.EmptyNavigableMap
 local EmptyNavigableMap = {}

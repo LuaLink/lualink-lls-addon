@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.NewlineTag
----@class net.kyori.adventure.text.minimessage.tag.standard.NewlineTag
+---@class net.kyori.adventure.text.minimessage.tag.standard.NewlineTag: java.lang.Object
 ---@field private BR string
 ---@field private NEWLINE string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.server.ServerCommandEvent
----@class org.bukkit.event.server.ServerCommandEvent: org.bukkit.event.server.ServerEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.server.ServerCommandEvent: org.bukkit.event.server.ServerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private sender org.bukkit.command.CommandSender
 ---@field private command string

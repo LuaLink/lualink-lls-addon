@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.Recipe
----@class org.bukkit.inventory.Recipe
+---@class org.bukkit.inventory.Recipe: java.lang.Object
 local Recipe = {}
 
 ---@public

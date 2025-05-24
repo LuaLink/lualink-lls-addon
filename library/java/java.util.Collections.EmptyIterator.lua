@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.Collections.EmptyIterator
----@class java.util.Collections.EmptyIterator: java.util.Iterator
+---@class java.util.Collections.EmptyIterator: java.util.Iterator, java.lang.Object
 ---@field public EMPTY_ITERATOR java.util.Collections.EmptyIterator
 local EmptyIterator = {}
 
@@ -16,7 +16,7 @@ function EmptyIterator:next() end
 ---@return nil 
 function EmptyIterator:remove() end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function EmptyIterator:forEachRemaining(action) end

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.event.HoverEventSource
----@class net.kyori.adventure.text.event.HoverEventSource
+---@class net.kyori.adventure.text.event.HoverEventSource: java.lang.Object
 local HoverEventSource = {}
 
 ---@param source net.kyori.adventure.text.event.HoverEventSource the hover event source

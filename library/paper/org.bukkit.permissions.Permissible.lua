@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.permissions.Permissible
----@class org.bukkit.permissions.Permissible: org.bukkit.permissions.ServerOperator
+---@class org.bukkit.permissions.Permissible: org.bukkit.permissions.ServerOperator, java.lang.Object
 local Permissible = {}
 
 ---@param name string Name of the permission

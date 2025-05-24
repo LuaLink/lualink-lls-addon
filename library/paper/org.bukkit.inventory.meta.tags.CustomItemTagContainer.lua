@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.tags.CustomItemTagContainer
----@class org.bukkit.inventory.meta.tags.CustomItemTagContainer
+---@class org.bukkit.inventory.meta.tags.CustomItemTagContainer: java.lang.Object
 local CustomItemTagContainer = {}
 
 ---@param key org.bukkit.NamespacedKey the key this value will be stored under

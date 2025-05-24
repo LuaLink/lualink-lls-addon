@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.text.PaperComponents
----@class io.papermc.paper.text.PaperComponents
+---@class io.papermc.paper.text.PaperComponents: java.lang.Object
 ---@overload fun(): io.papermc.paper.text.PaperComponents
 local PaperComponents = {}
 

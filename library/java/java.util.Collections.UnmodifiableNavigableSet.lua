@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.UnmodifiableNavigableSet
----@class java.util.Collections.UnmodifiableNavigableSet: java.util.Collections.UnmodifiableSortedSet, java.util.NavigableSet, java.io.Serializable
+---@class java.util.Collections.UnmodifiableNavigableSet: java.util.Collections.UnmodifiableSortedSet, java.util.NavigableSet, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private EMPTY_NAVIGABLE_SET java.util.NavigableSet
 ---@field private ns java.util.NavigableSet

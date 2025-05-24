@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.BlockInventoryHolder
----@class org.bukkit.inventory.BlockInventoryHolder: org.bukkit.inventory.InventoryHolder
+---@class org.bukkit.inventory.BlockInventoryHolder: org.bukkit.inventory.InventoryHolder, java.lang.Object
 local BlockInventoryHolder = {}
 
 ---@public

@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.sound.SoundStopImpl
----@class net.kyori.adventure.sound.SoundStopImpl: net.kyori.adventure.sound.SoundStop
+---@class net.kyori.adventure.sound.SoundStopImpl: net.kyori.adventure.sound.SoundStop, java.lang.Object
 ---@field public ALL net.kyori.adventure.sound.SoundStop
 ---@field private source net.kyori.adventure.sound.Sound.Source
 ---@overload fun(source: net.kyori.adventure.sound.Sound.Source?): net.kyori.adventure.sound.SoundStopImpl

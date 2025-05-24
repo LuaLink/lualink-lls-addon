@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.translation.ComponentTranslationStore
----@class net.kyori.adventure.translation.ComponentTranslationStore: net.kyori.adventure.translation.AbstractTranslationStore
+---@class net.kyori.adventure.translation.ComponentTranslationStore: net.kyori.adventure.translation.AbstractTranslationStore, java.lang.Object
 ---@overload fun(name: any): net.kyori.adventure.translation.ComponentTranslationStore
 local ComponentTranslationStore = {}
 

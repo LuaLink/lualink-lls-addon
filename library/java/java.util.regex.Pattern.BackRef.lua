@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.BackRef
----@class java.util.regex.Pattern.BackRef: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.BackRef: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public groupIndex number
 ---@overload fun(groupCount: number): java.util.regex.Pattern.BackRef
 local BackRef = {}

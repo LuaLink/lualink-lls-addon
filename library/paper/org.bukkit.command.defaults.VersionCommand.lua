@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.command.defaults.VersionCommand
----@class org.bukkit.command.defaults.VersionCommand: org.bukkit.command.defaults.BukkitCommand
+---@class org.bukkit.command.defaults.VersionCommand: org.bukkit.command.defaults.BukkitCommand, java.lang.Object
 ---@field private versionFetcher com.destroystokyo.paper.util.VersionFetcher
 ---@field private versionLock java.util.concurrent.locks.ReentrantLock
 ---@field private hasVersion boolean

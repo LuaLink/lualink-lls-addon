@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.UseCooldown
----@class io.papermc.paper.datacomponent.item.UseCooldown
+---@class io.papermc.paper.datacomponent.item.UseCooldown: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.UseCooldown.Builder
 local UseCooldown = {}
 

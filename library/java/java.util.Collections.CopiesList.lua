@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.CopiesList
----@class java.util.Collections.CopiesList: java.util.AbstractList, java.util.RandomAccess, java.io.Serializable
+---@class java.util.Collections.CopiesList: java.util.AbstractList, java.util.RandomAccess, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field public n number
 ---@field public element E
@@ -32,7 +32,7 @@ function CopiesList:lastIndexOf(o) end
 ---@return E 
 function CopiesList:get(index) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function CopiesList:forEach(action) end

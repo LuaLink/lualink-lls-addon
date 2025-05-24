@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.BlockVector
----@class org.bukkit.util.BlockVector: org.bukkit.util.Vector
+---@class org.bukkit.util.BlockVector: org.bukkit.util.Vector, java.lang.Object
 ---@overload fun(): org.bukkit.util.BlockVector
 ---@overload fun(vec: org.bukkit.util.Vector): org.bukkit.util.BlockVector
 ---@overload fun(x: number, y: number, z: number): org.bukkit.util.BlockVector

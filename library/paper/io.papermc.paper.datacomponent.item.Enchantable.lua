@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.Enchantable
----@class io.papermc.paper.datacomponent.item.Enchantable
+---@class io.papermc.paper.datacomponent.item.Enchantable: java.lang.Object
 local Enchantable = {}
 
 ---@param level number 

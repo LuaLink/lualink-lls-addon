@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.renderer.TranslatableComponentRenderer
----@class net.kyori.adventure.text.renderer.TranslatableComponentRenderer: net.kyori.adventure.text.renderer.AbstractComponentRenderer
+---@class net.kyori.adventure.text.renderer.TranslatableComponentRenderer: net.kyori.adventure.text.renderer.AbstractComponentRenderer, java.lang.Object
 ---@field private MERGES java.util.Set
 local TranslatableComponentRenderer = {}
 

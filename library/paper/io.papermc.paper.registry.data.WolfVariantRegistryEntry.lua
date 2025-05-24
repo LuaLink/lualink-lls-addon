@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.WolfVariantRegistryEntry
----@class io.papermc.paper.registry.data.WolfVariantRegistryEntry
+---@class io.papermc.paper.registry.data.WolfVariantRegistryEntry: java.lang.Object
 ---@field public Builder io.papermc.paper.registry.data.WolfVariantRegistryEntry.Builder
 local WolfVariantRegistryEntry = {}
 

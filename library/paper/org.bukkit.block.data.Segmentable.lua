@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Segmentable
----@class org.bukkit.block.data.Segmentable: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.Segmentable: org.bukkit.block.data.BlockData, java.lang.Object
 local Segmentable = {}
 
 ---@public

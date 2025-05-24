@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.entity.PhantomPreSpawnEvent
----@class com.destroystokyo.paper.event.entity.PhantomPreSpawnEvent: com.destroystokyo.paper.event.entity.PreCreatureSpawnEvent
+---@class com.destroystokyo.paper.event.entity.PhantomPreSpawnEvent: com.destroystokyo.paper.event.entity.PreCreatureSpawnEvent, java.lang.Object
 ---@field private entity org.bukkit.entity.Entity
 ---@overload fun(location: org.bukkit.Location, entity: org.bukkit.entity.Entity, reason: org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason): com.destroystokyo.paper.event.entity.PhantomPreSpawnEvent
 local PhantomPreSpawnEvent = {}

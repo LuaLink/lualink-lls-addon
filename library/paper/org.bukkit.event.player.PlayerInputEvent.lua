@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerInputEvent
----@class org.bukkit.event.player.PlayerInputEvent: org.bukkit.event.player.PlayerEvent
+---@class org.bukkit.event.player.PlayerInputEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private input org.bukkit.Input
 ---@overload fun(player: org.bukkit.entity.Player, input: org.bukkit.Input): org.bukkit.event.player.PlayerInputEvent

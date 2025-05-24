@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.datacomponent.BuildableDataComponent
----@class io.papermc.paper.datacomponent.BuildableDataComponent
+---@class io.papermc.paper.datacomponent.BuildableDataComponent: java.lang.Object
 local BuildableDataComponent = {}
 
 ---@public

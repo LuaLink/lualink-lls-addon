@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.CatVariantKeys
----@class io.papermc.paper.registry.keys.CatVariantKeys
+---@class io.papermc.paper.registry.keys.CatVariantKeys: java.lang.Object
 ---@field public ALL_BLACK io.papermc.paper.registry.TypedKey
 ---@field public BLACK io.papermc.paper.registry.TypedKey
 ---@field public BRITISH_SHORTHAIR io.papermc.paper.registry.TypedKey

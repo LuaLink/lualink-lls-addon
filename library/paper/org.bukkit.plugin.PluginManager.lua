@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.PluginManager
----@class org.bukkit.plugin.PluginManager: io.papermc.paper.plugin.PermissionManager
+---@class org.bukkit.plugin.PluginManager: io.papermc.paper.plugin.PermissionManager, java.lang.Object
 local PluginManager = {}
 
 ---@deprecated

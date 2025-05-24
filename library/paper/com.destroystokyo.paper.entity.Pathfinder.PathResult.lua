@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.entity.Pathfinder.PathResult
----@class com.destroystokyo.paper.entity.Pathfinder.PathResult
+---@class com.destroystokyo.paper.entity.Pathfinder.PathResult: java.lang.Object
 local PathResult = {}
 
 ---@public

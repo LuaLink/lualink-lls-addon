@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.persistence.PersistentDataViewHolder
----@class io.papermc.paper.persistence.PersistentDataViewHolder
+---@class io.papermc.paper.persistence.PersistentDataViewHolder: java.lang.Object
 local PersistentDataViewHolder = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Sheep
----@class org.bukkit.entity.Sheep: org.bukkit.entity.Animals, org.bukkit.material.Colorable, org.bukkit.entity.Shearable, io.papermc.paper.entity.Shearable
+---@class org.bukkit.entity.Sheep: org.bukkit.entity.Animals, org.bukkit.material.Colorable, org.bukkit.entity.Shearable, io.papermc.paper.entity.Shearable, java.lang.Object
 local Sheep = {}
 
 ---@public

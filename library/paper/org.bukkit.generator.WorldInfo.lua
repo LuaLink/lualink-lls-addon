@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.generator.WorldInfo
----@class org.bukkit.generator.WorldInfo: io.papermc.paper.world.flag.FeatureFlagSetHolder
+---@class org.bukkit.generator.WorldInfo: io.papermc.paper.world.flag.FeatureFlagSetHolder, java.lang.Object
 local WorldInfo = {}
 
 ---@public

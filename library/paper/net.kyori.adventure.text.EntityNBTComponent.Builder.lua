@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.EntityNBTComponent.Builder
----@class net.kyori.adventure.text.EntityNBTComponent.Builder: net.kyori.adventure.text.NBTComponentBuilder
+---@class net.kyori.adventure.text.EntityNBTComponent.Builder: net.kyori.adventure.text.NBTComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param selector string the entity selector

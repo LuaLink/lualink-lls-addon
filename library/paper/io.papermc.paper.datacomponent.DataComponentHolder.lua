@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.DataComponentHolder
----@class io.papermc.paper.datacomponent.DataComponentHolder: io.papermc.paper.datacomponent.DataComponentView
+---@class io.papermc.paper.datacomponent.DataComponentHolder: io.papermc.paper.datacomponent.DataComponentView, java.lang.Object
 local DataComponentHolder = {}
 
 ---@param type io.papermc.paper.datacomponent.DataComponentType.Valued the data component type

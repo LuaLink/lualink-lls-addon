@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Hopper
----@class org.bukkit.material.Hopper: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Redstone
+---@class org.bukkit.material.Hopper: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Redstone, java.lang.Object
 ---@field protected DEFAULT_DIRECTION org.bukkit.block.BlockFace
 ---@field protected DEFAULT_ACTIVE boolean
 ---@overload fun(): org.bukkit.material.Hopper

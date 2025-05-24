@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Projectile
----@class org.bukkit.entity.Projectile: org.bukkit.entity.Entity
+---@class org.bukkit.entity.Projectile: org.bukkit.entity.Entity, java.lang.Object
 local Projectile = {}
 
 ---@public

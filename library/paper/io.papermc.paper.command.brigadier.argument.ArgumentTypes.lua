@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.command.brigadier.argument.ArgumentTypes
----@class io.papermc.paper.command.brigadier.argument.ArgumentTypes
+---@class io.papermc.paper.command.brigadier.argument.ArgumentTypes: java.lang.Object
 ---@overload fun(): io.papermc.paper.command.brigadier.argument.ArgumentTypes
 local ArgumentTypes = {}
 

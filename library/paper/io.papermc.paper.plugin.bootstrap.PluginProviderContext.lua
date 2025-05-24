@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.bootstrap.PluginProviderContext
----@class io.papermc.paper.plugin.bootstrap.PluginProviderContext
+---@class io.papermc.paper.plugin.bootstrap.PluginProviderContext: java.lang.Object
 local PluginProviderContext = {}
 
 ---@public

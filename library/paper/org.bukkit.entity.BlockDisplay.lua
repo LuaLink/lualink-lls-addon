@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.BlockDisplay
----@class org.bukkit.entity.BlockDisplay: org.bukkit.entity.Display
+---@class org.bukkit.entity.BlockDisplay: org.bukkit.entity.Display, java.lang.Object
 local BlockDisplay = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.view.LecternView
----@class org.bukkit.inventory.view.LecternView: org.bukkit.inventory.InventoryView
+---@class org.bukkit.inventory.view.LecternView: org.bukkit.inventory.InventoryView, java.lang.Object
 local LecternView = {}
 
 ---@public

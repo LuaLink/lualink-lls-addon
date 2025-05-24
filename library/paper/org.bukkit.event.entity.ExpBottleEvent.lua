@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.ExpBottleEvent
----@class org.bukkit.event.entity.ExpBottleEvent: org.bukkit.event.entity.ProjectileHitEvent
+---@class org.bukkit.event.entity.ExpBottleEvent: org.bukkit.event.entity.ProjectileHitEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private exp number
 ---@field private showEffect boolean

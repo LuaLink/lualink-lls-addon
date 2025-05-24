@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- co.aikar.timings.Timings
----@class co.aikar.timings.Timings
+---@class co.aikar.timings.Timings: java.lang.Object
 ---@field public requestingReport java.util.List
 ---@field private MAX_HISTORY_FRAMES number
 ---@field public NULL_HANDLER co.aikar.timings.Timing

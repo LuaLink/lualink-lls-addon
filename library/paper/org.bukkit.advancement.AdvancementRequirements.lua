@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.advancement.AdvancementRequirements
----@class org.bukkit.advancement.AdvancementRequirements
+---@class org.bukkit.advancement.AdvancementRequirements: java.lang.Object
 local AdvancementRequirements = {}
 
 ---@public

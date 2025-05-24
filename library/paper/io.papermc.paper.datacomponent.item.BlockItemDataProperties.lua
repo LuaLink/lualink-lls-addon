@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.BlockItemDataProperties
----@class io.papermc.paper.datacomponent.item.BlockItemDataProperties
+---@class io.papermc.paper.datacomponent.item.BlockItemDataProperties: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.BlockItemDataProperties.Builder
 local BlockItemDataProperties = {}
 

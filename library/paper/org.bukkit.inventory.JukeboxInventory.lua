@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.JukeboxInventory
----@class org.bukkit.inventory.JukeboxInventory: org.bukkit.inventory.Inventory
+---@class org.bukkit.inventory.JukeboxInventory: org.bukkit.inventory.Inventory, java.lang.Object
 local JukeboxInventory = {}
 
 ---@param item org.bukkit.inventory.ItemStack the new record

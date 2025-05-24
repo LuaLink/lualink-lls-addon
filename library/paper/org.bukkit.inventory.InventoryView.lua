@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.InventoryView
----@class org.bukkit.inventory.InventoryView
+---@class org.bukkit.inventory.InventoryView: java.lang.Object
 ---@field public OUTSIDE number
 ---@field public Property org.bukkit.inventory.InventoryView.Property
 local InventoryView = {}

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.AsLIFOQueue
----@class java.util.Collections.AsLIFOQueue: java.util.AbstractQueue, java.util.Queue, java.io.Serializable
+---@class java.util.Collections.AsLIFOQueue: java.util.AbstractQueue, java.util.Queue, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private q java.util.Deque
 ---@overload fun(q: java.util.Deque): java.util.Collections.AsLIFOQueue
@@ -68,7 +68,7 @@ function AsLIFOQueue:toArray() end
 ---@return table<T> 
 function AsLIFOQueue:toArray(a) end
 
----@param f java.util.function.IntFunction 
+---@param f function 
 ---@public
 ---@return table<T> 
 function AsLIFOQueue:toArray(f) end
@@ -92,12 +92,12 @@ function AsLIFOQueue:removeAll(c) end
 ---@return boolean 
 function AsLIFOQueue:retainAll(c) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function AsLIFOQueue:forEach(action) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return boolean 
 function AsLIFOQueue:removeIf(filter) end

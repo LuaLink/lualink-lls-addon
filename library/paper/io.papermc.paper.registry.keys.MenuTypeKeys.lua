@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.MenuTypeKeys
----@class io.papermc.paper.registry.keys.MenuTypeKeys
+---@class io.papermc.paper.registry.keys.MenuTypeKeys: java.lang.Object
 ---@field public ANVIL io.papermc.paper.registry.TypedKey
 ---@field public BEACON io.papermc.paper.registry.TypedKey
 ---@field public BLAST_FURNACE io.papermc.paper.registry.TypedKey

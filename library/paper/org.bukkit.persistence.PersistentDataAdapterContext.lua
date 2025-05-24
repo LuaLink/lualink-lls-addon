@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.persistence.PersistentDataAdapterContext
----@class org.bukkit.persistence.PersistentDataAdapterContext
+---@class org.bukkit.persistence.PersistentDataAdapterContext: java.lang.Object
 local PersistentDataAdapterContext = {}
 
 ---@public

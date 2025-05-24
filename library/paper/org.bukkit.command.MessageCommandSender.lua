@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.command.MessageCommandSender
----@class org.bukkit.command.MessageCommandSender: org.bukkit.command.CommandSender
+---@class org.bukkit.command.MessageCommandSender: org.bukkit.command.CommandSender, java.lang.Object
 local MessageCommandSender = {}
 
 ---@param messages table<string> 

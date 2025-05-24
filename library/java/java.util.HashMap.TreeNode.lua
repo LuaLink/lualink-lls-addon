@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.HashMap.TreeNode
----@class java.util.HashMap.TreeNode: java.util.LinkedHashMap.Entry
+---@class java.util.HashMap.TreeNode: java.util.LinkedHashMap.Entry, java.lang.Object
 ---@field public parent java.util.HashMap.TreeNode
 ---@field public left java.util.HashMap.TreeNode
 ---@field public right java.util.HashMap.TreeNode

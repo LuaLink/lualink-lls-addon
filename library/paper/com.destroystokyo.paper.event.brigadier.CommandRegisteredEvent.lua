@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent
----@class com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent: org.bukkit.event.server.ServerEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent: org.bukkit.event.server.ServerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private handlers org.bukkit.event.HandlerList
 ---@field private commandLabel string
 ---@field private command org.bukkit.command.Command

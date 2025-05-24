@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Bed
----@class org.bukkit.material.Bed: org.bukkit.material.MaterialData, org.bukkit.material.Directional
+---@class org.bukkit.material.Bed: org.bukkit.material.MaterialData, org.bukkit.material.Directional, java.lang.Object
 ---@overload fun(): org.bukkit.material.Bed
 ---@overload fun(direction: org.bukkit.block.BlockFace): org.bukkit.material.Bed
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Bed

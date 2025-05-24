@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Gate
----@class org.bukkit.material.Gate: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Openable
+---@class org.bukkit.material.Gate: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Openable, java.lang.Object
 ---@field private OPEN_BIT number
 ---@field private DIR_BIT number
 ---@field private GATE_SOUTH number

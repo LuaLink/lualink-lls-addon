@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.logger.slf4j.ComponentLogger
----@class net.kyori.adventure.text.logger.slf4j.ComponentLogger: any
+---@class net.kyori.adventure.text.logger.slf4j.ComponentLogger: any, java.lang.Object
 local ComponentLogger = {}
 
 ---@public

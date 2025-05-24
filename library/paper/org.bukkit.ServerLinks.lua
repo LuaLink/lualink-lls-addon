@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.ServerLinks
----@class org.bukkit.ServerLinks
+---@class org.bukkit.ServerLinks: java.lang.Object
 ---@field public ServerLink org.bukkit.ServerLinks.ServerLink
 ---@field public Type org.bukkit.ServerLinks.Type
 local ServerLinks = {}

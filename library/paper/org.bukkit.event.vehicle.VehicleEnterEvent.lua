@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.vehicle.VehicleEnterEvent
----@class org.bukkit.event.vehicle.VehicleEnterEvent: org.bukkit.event.vehicle.VehicleEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.vehicle.VehicleEnterEvent: org.bukkit.event.vehicle.VehicleEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private entered org.bukkit.entity.Entity
 ---@field private cancelled boolean

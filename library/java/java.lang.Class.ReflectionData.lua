@@ -1,6 +1,6 @@
 ---@meta
 -- java.lang.Class.ReflectionData
----@class java.lang.Class.ReflectionData
+---@class java.lang.Class.ReflectionData: java.lang.Object
 ---@field public declaredFields java.lang.reflect.Field
 ---@field public publicFields java.lang.reflect.Field
 ---@field public declaredMethods java.lang.reflect.Method

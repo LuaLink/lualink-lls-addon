@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.TNTPrimeEvent
----@class org.bukkit.event.block.TNTPrimeEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.block.TNTPrimeEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private igniteCause org.bukkit.event.block.TNTPrimeEvent.PrimeCause
 ---@field private primingEntity org.bukkit.entity.Entity

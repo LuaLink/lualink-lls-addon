@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.PiglinAbstract
----@class org.bukkit.entity.PiglinAbstract: org.bukkit.entity.Monster, org.bukkit.entity.Ageable
+---@class org.bukkit.entity.PiglinAbstract: org.bukkit.entity.Monster, org.bukkit.entity.Ageable, java.lang.Object
 local PiglinAbstract = {}
 
 ---@public

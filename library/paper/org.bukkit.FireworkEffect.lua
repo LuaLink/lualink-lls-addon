@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.FireworkEffect
----@class org.bukkit.FireworkEffect: org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.FireworkEffect: org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 ---@field private FLICKER string
 ---@field private TRAIL string
 ---@field private COLORS string

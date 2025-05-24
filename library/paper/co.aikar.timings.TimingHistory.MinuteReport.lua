@@ -1,6 +1,6 @@
 ---@meta
 -- co.aikar.timings.TimingHistory.MinuteReport
----@class co.aikar.timings.TimingHistory.MinuteReport
+---@class co.aikar.timings.TimingHistory.MinuteReport: java.lang.Object
 ---@field public time number
 ---@field public ticksRecord co.aikar.timings.TimingHistory.TicksRecord
 ---@field public pingRecord co.aikar.timings.TimingHistory.PingRecord

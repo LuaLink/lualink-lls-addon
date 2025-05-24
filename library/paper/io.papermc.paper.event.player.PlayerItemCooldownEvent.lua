@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.PlayerItemCooldownEvent
----@class io.papermc.paper.event.player.PlayerItemCooldownEvent: io.papermc.paper.event.player.PlayerItemGroupCooldownEvent
+---@class io.papermc.paper.event.player.PlayerItemCooldownEvent: io.papermc.paper.event.player.PlayerItemGroupCooldownEvent, java.lang.Object
 ---@field private type org.bukkit.Material
 ---@overload fun(player: org.bukkit.entity.Player, type: org.bukkit.Material, cooldownGroup: org.bukkit.NamespacedKey, cooldown: number): io.papermc.paper.event.player.PlayerItemCooldownEvent
 local PlayerItemCooldownEvent = {}

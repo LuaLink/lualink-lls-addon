@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Vibration
----@class org.bukkit.Vibration
+---@class org.bukkit.Vibration: java.lang.Object
 ---@field private origin org.bukkit.Location
 ---@field private destination org.bukkit.Vibration.Destination
 ---@field private arrivalTime number

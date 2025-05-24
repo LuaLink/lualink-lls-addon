@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Brushable
----@class org.bukkit.block.data.Brushable: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.Brushable: org.bukkit.block.data.BlockData, java.lang.Object
 local Brushable = {}
 
 ---@public

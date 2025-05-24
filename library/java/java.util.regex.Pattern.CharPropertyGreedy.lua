@@ -1,8 +1,8 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.CharPropertyGreedy
----@class java.util.regex.Pattern.CharPropertyGreedy: java.util.regex.Pattern.Node
----@field public predicate java.util.regex.Pattern.CharPredicate
+---@class java.util.regex.Pattern.CharPropertyGreedy: java.util.regex.Pattern.Node, java.lang.Object
+---@field public predicate function
 ---@field public cmin number
 ---@overload fun(cp: java.util.regex.Pattern.CharProperty, cmin: number): java.util.regex.Pattern.CharPropertyGreedy
 local CharPropertyGreedy = {}

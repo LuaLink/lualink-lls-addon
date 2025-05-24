@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.lifecycle.event.registrar.RegistrarEvent
----@class io.papermc.paper.plugin.lifecycle.event.registrar.RegistrarEvent: io.papermc.paper.plugin.lifecycle.event.LifecycleEvent
+---@class io.papermc.paper.plugin.lifecycle.event.registrar.RegistrarEvent: io.papermc.paper.plugin.lifecycle.event.LifecycleEvent, java.lang.Object
 local RegistrarEvent = {}
 
 ---@public

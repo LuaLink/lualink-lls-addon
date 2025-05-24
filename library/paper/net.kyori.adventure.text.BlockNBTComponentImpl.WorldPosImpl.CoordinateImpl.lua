@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.BlockNBTComponentImpl.WorldPosImpl.CoordinateImpl
----@class net.kyori.adventure.text.BlockNBTComponentImpl.WorldPosImpl.CoordinateImpl: net.kyori.adventure.text.BlockNBTComponent.WorldPos.Coordinate
+---@class net.kyori.adventure.text.BlockNBTComponentImpl.WorldPosImpl.CoordinateImpl: net.kyori.adventure.text.BlockNBTComponent.WorldPos.Coordinate, java.lang.Object
 ---@field private value number
 ---@field private type net.kyori.adventure.text.BlockNBTComponent.WorldPos.Coordinate.Type
 ---@overload fun(value: number, type: net.kyori.adventure.text.BlockNBTComponent.WorldPos.Coordinate.Type): net.kyori.adventure.text.BlockNBTComponentImpl.WorldPosImpl.CoordinateImpl

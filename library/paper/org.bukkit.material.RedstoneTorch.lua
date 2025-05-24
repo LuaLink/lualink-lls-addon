@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.RedstoneTorch
----@class org.bukkit.material.RedstoneTorch: org.bukkit.material.Torch, org.bukkit.material.Redstone
+---@class org.bukkit.material.RedstoneTorch: org.bukkit.material.Torch, org.bukkit.material.Redstone, java.lang.Object
 ---@overload fun(): org.bukkit.material.RedstoneTorch
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.RedstoneTorch
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.RedstoneTorch

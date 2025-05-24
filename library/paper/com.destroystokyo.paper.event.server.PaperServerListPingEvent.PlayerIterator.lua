@@ -1,6 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.server.PaperServerListPingEvent.PlayerIterator
----@class com.destroystokyo.paper.event.server.PaperServerListPingEvent.PlayerIterator: java.util.Iterator
+---@class com.destroystokyo.paper.event.server.PaperServerListPingEvent.PlayerIterator: java.util.Iterator, java.lang.Object
 ---@field private next number
 ---@field private current number
 ---@field private player org.bukkit.entity.Player

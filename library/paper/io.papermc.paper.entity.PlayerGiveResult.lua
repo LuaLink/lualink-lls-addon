@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.entity.PlayerGiveResult
----@class io.papermc.paper.entity.PlayerGiveResult
+---@class io.papermc.paper.entity.PlayerGiveResult: java.lang.Object
 local PlayerGiveResult = {}
 
 ---@public

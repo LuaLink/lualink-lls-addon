@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Leaves
----@class org.bukkit.block.data.type.Leaves: org.bukkit.block.data.Waterlogged
+---@class org.bukkit.block.data.type.Leaves: org.bukkit.block.data.Waterlogged, java.lang.Object
 local Leaves = {}
 
 ---@public

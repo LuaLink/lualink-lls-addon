@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Campfire
----@class org.bukkit.block.data.type.Campfire: org.bukkit.block.data.Directional, org.bukkit.block.data.Lightable, org.bukkit.block.data.Waterlogged
+---@class org.bukkit.block.data.type.Campfire: org.bukkit.block.data.Directional, org.bukkit.block.data.Lightable, org.bukkit.block.data.Waterlogged, java.lang.Object
 local Campfire = {}
 
 ---@public

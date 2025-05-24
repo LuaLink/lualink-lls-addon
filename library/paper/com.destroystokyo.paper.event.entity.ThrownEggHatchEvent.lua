@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.entity.ThrownEggHatchEvent
----@class com.destroystokyo.paper.event.entity.ThrownEggHatchEvent: org.bukkit.event.Event
+---@class com.destroystokyo.paper.event.entity.ThrownEggHatchEvent: org.bukkit.event.Event, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private egg org.bukkit.entity.Egg
 ---@field private hatching boolean

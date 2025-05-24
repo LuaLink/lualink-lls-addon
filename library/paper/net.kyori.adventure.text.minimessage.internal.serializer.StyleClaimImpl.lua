@@ -1,11 +1,11 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.serializer.StyleClaimImpl
----@class net.kyori.adventure.text.minimessage.internal.serializer.StyleClaimImpl: net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim
+---@class net.kyori.adventure.text.minimessage.internal.serializer.StyleClaimImpl: net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim, java.lang.Object
 ---@field private claimKey string
----@field private lens java.util.function.Function
----@field private filter java.util.function.Predicate
----@field private emitable java.util.function.BiConsumer
----@overload fun(claimKey: string, lens: java.util.function.Function?, filter: java.util.function.Predicate, emitable: java.util.function.BiConsumer): net.kyori.adventure.text.minimessage.internal.serializer.StyleClaimImpl
+---@field private lens function
+---@field private filter function
+---@field private emitable function
+---@overload fun(claimKey: string, lens: function?, filter: function, emitable: function): net.kyori.adventure.text.minimessage.internal.serializer.StyleClaimImpl
 local StyleClaimImpl = {}
 
 ---@public

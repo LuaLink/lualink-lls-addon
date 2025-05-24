@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.ItemStack
----@class org.bukkit.inventory.ItemStack: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, org.bukkit.Translatable, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.translation.Translatable, io.papermc.paper.persistence.PersistentDataViewHolder, io.papermc.paper.datacomponent.DataComponentHolder
+---@class org.bukkit.inventory.ItemStack: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, org.bukkit.Translatable, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.translation.Translatable, io.papermc.paper.persistence.PersistentDataViewHolder, io.papermc.paper.datacomponent.DataComponentHolder, java.lang.Object
 ---@field private craftDelegate org.bukkit.inventory.ItemStack
 ---@field private data org.bukkit.material.MaterialData
 ---@field private ARRAY_SERIALIZATION_VERSION number
@@ -30,7 +30,7 @@ function ItemStack:of(type, amount) end
 ---@return io.papermc.paper.persistence.PersistentDataContainerView 
 function ItemStack:getPersistentDataContainer() end
 
----@param consumer java.util.function.Consumer the persistent data container consumer
+---@param consumer function the persistent data container consumer
 ---@public
 ---@return boolean {@code true} if the edit was successful, {@code false} otherwise. Failure to edit the persistent data container may be caused by empty or invalid itemstacks.
 --- Edits the {@link PersistentDataContainer} of this stack. The {@link PersistentDataContainer} instance is only valid inside the consumer.
@@ -188,14 +188,14 @@ function ItemStack:serialize() end
 --- Required method for configuration serialization
 function ItemStack:deserialize(args) end
 
----@param consumer java.util.function.Consumer the meta consumer
+---@param consumer function the meta consumer
 ---@public
 ---@return boolean {@code true} if the edit was successful, {@code false} otherwise
 --- Edits the {@link ItemMeta} of this stack. <p> The {@link java.util.function.Consumer} must only interact with this stack's {@link ItemMeta} through the provided {@link ItemMeta} instance. Calling this method or any other meta-related method of the {@link ItemStack} class (such as {@link #getItemMeta()}, {@link #addItemFlags(ItemFlag...)}, {@link #lore()}, etc.) from inside the consumer is disallowed and will produce undefined results or exceptions. </p>
 function ItemStack:editMeta(consumer) end
 
 ---@param metaClass java.lang.Class the type of meta to edit
----@param consumer java.util.function.Consumer the meta consumer
+---@param consumer function the meta consumer
 ---@public
 ---@return boolean {@code true} if the edit was successful, {@code false} otherwise
 --- Edits the {@link ItemMeta} of this stack if the meta is of the specified type. <p> The {@link java.util.function.Consumer} must only interact with this stack's {@link ItemMeta} through the provided {@link ItemMeta} instance. Calling this method or any other meta-related method of the {@link ItemStack} class (such as {@link #getItemMeta()}, {@link #addItemFlags(ItemFlag...)}, {@link #lore()}, etc.) from inside the consumer is disallowed and will produce undefined results or exceptions. </p>
@@ -488,7 +488,7 @@ function ItemStack:unsetData(type) end
 function ItemStack:resetData(type) end
 
 ---@param source org.bukkit.inventory.ItemStack the item stack to copy from
----@param filter java.util.function.Predicate predicate for which components to copy
+---@param filter function predicate for which components to copy
 ---@public
 ---@return nil 
 --- Copies component values and component removals from the provided ItemStack. <p> Example: <pre>{@code Set<DataComponentType> types = Set.of(     DataComponentTypes.CONSUMABLE,     DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE,     DataComponentTypes.RARITY );  ItemStack source = ItemStack.of(Material.ENCHANTED_GOLDEN_APPLE); ItemStack target = ItemStack.of(Material.GOLDEN_CARROT);  target.copyDataFrom(source, types::contains); }</pre>

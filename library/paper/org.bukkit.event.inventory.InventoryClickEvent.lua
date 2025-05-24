@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.inventory.InventoryClickEvent
----@class org.bukkit.event.inventory.InventoryClickEvent: org.bukkit.event.inventory.InventoryInteractEvent
+---@class org.bukkit.event.inventory.InventoryClickEvent: org.bukkit.event.inventory.InventoryInteractEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private click org.bukkit.event.inventory.ClickType
 ---@field private action org.bukkit.event.inventory.InventoryAction

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.SculkCatalyst
----@class org.bukkit.block.SculkCatalyst: org.bukkit.block.TileState
+---@class org.bukkit.block.SculkCatalyst: org.bukkit.block.TileState, java.lang.Object
 local SculkCatalyst = {}
 
 ---@param block org.bukkit.block.Block which block to spawn the cursor in

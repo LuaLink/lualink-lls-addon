@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.vehicle.VehicleUpdateEvent
----@class org.bukkit.event.vehicle.VehicleUpdateEvent: org.bukkit.event.vehicle.VehicleEvent
+---@class org.bukkit.event.vehicle.VehicleUpdateEvent: org.bukkit.event.vehicle.VehicleEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@overload fun(vehicle: org.bukkit.entity.Vehicle): org.bukkit.event.vehicle.VehicleUpdateEvent
 local VehicleUpdateEvent = {}

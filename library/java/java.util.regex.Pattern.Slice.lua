@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.Slice
----@class java.util.regex.Pattern.Slice: java.util.regex.Pattern.SliceNode
+---@class java.util.regex.Pattern.Slice: java.util.regex.Pattern.SliceNode, java.lang.Object
 ---@overload fun(buf: table<number>): java.util.regex.Pattern.Slice
 local Slice = {}
 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.VillagerProfessionKeys
----@class io.papermc.paper.registry.keys.VillagerProfessionKeys
+---@class io.papermc.paper.registry.keys.VillagerProfessionKeys: java.lang.Object
 ---@field public ARMORER io.papermc.paper.registry.TypedKey
 ---@field public BUTCHER io.papermc.paper.registry.TypedKey
 ---@field public CARTOGRAPHER io.papermc.paper.registry.TypedKey

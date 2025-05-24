@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.HashMap.Values
----@class java.util.HashMap.Values: java.util.AbstractCollection
+---@class java.util.HashMap.Values: java.util.AbstractCollection, java.lang.Object
 local Values = {}
 
 ---@public
@@ -33,7 +33,7 @@ function Values:toArray() end
 ---@return table<T> 
 function Values:toArray(a) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function Values:forEach(action) end

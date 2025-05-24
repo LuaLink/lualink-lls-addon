@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.Set
----@class java.util.Set: java.util.Collection
+---@class java.util.Set: java.util.Collection, java.lang.Object
 local Set = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.advancement.AdvancementDisplay
----@class io.papermc.paper.advancement.AdvancementDisplay
+---@class io.papermc.paper.advancement.AdvancementDisplay: java.lang.Object
 ---@field public Frame io.papermc.paper.advancement.AdvancementDisplay.Frame
 local AdvancementDisplay = {}
 

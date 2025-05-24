@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.audience.EmptyAudience
----@class net.kyori.adventure.audience.EmptyAudience: net.kyori.adventure.audience.Audience
+---@class net.kyori.adventure.audience.EmptyAudience: net.kyori.adventure.audience.Audience, java.lang.Object
 ---@field public INSTANCE net.kyori.adventure.audience.EmptyAudience
 local EmptyAudience = {}
 
@@ -16,17 +16,17 @@ function EmptyAudience:get(pointer) end
 function EmptyAudience:getOrDefault(pointer, defaultValue) end
 
 ---@param pointer net.kyori.adventure.pointer.Pointer 
----@param defaultValue java.util.function.Supplier 
+---@param defaultValue function 
 ---@public
 ---@return T 
 function EmptyAudience:getOrDefaultFrom(pointer, defaultValue) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return net.kyori.adventure.audience.Audience 
 function EmptyAudience:filterAudience(filter) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function EmptyAudience:forEachAudience(action) end

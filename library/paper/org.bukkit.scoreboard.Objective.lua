@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.scoreboard.Objective
----@class org.bukkit.scoreboard.Objective
+---@class org.bukkit.scoreboard.Objective: java.lang.Object
 local Objective = {}
 
 ---@public

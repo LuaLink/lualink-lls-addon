@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.ChunkSnapshot
----@class org.bukkit.ChunkSnapshot
+---@class org.bukkit.ChunkSnapshot: java.lang.Object
 local ChunkSnapshot = {}
 
 ---@public

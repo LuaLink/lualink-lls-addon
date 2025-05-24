@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.CowVariantRegistryEntry.Builder
----@class io.papermc.paper.registry.data.CowVariantRegistryEntry.Builder: io.papermc.paper.registry.data.CowVariantRegistryEntry, io.papermc.paper.registry.RegistryBuilder
+---@class io.papermc.paper.registry.data.CowVariantRegistryEntry.Builder: io.papermc.paper.registry.data.CowVariantRegistryEntry, io.papermc.paper.registry.RegistryBuilder, java.lang.Object
 local Builder = {}
 
 ---@param clientTextureAsset io.papermc.paper.registry.data.client.ClientTextureAsset the client texture asset.

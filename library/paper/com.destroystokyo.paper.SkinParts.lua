@@ -1,6 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.SkinParts
----@class com.destroystokyo.paper.SkinParts
+---@class com.destroystokyo.paper.SkinParts: java.lang.Object
 local SkinParts = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Chicken.Variant
----@class org.bukkit.entity.Chicken.Variant: org.bukkit.Keyed
+---@class org.bukkit.entity.Chicken.Variant: org.bukkit.Keyed, java.lang.Object
 ---@field public COLD org.bukkit.entity.Chicken.Variant
 ---@field public TEMPERATE org.bukkit.entity.Chicken.Variant
 ---@field public WARM org.bukkit.entity.Chicken.Variant

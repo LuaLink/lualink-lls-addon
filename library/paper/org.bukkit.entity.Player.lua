@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Player
----@class org.bukkit.entity.Player: org.bukkit.entity.HumanEntity, org.bukkit.conversations.Conversable, org.bukkit.OfflinePlayer, org.bukkit.plugin.messaging.PluginMessageRecipient, net.kyori.adventure.identity.Identified, net.kyori.adventure.bossbar.BossBarViewer, com.destroystokyo.paper.network.NetworkClient
+---@class org.bukkit.entity.Player: org.bukkit.entity.HumanEntity, org.bukkit.conversations.Conversable, org.bukkit.OfflinePlayer, org.bukkit.plugin.messaging.PluginMessageRecipient, net.kyori.adventure.identity.Identified, net.kyori.adventure.bossbar.BossBarViewer, com.destroystokyo.paper.network.NetworkClient, java.lang.Object
 ---@field public Spigot org.bukkit.entity.Player.Spigot
 local Player = {}
 
@@ -1818,6 +1818,13 @@ function Player:openSign(sign) end
 ---@return nil 
 --- Open a Sign for editing by the Player.  The Sign must be placed in the same world as the player.
 function Player:openSign(sign, side) end
+
+---@param block io.papermc.paper.math.Position The block where the client has a sign placed
+---@param side org.bukkit.block.sign.Side The side to edit
+---@public
+---@return nil 
+--- Open a sign for editing by the player. <p> The sign must only be placed locally for the player, which can be done with {@link #sendBlockChange(Location, BlockData)} and {@link #sendBlockUpdate(Location, TileState)}. A side-effect of this is that normal events, like {@link org.bukkit.event.block.SignChangeEvent} will not be called (unless there is an actual sign in the world). Additionally, the client may enforce distance limits to the opened position. </p>
+function Player:openVirtualSign(block, side) end
 
 ---@public
 ---@return nil 

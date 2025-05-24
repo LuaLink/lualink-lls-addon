@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerJumpEvent
----@class com.destroystokyo.paper.event.player.PlayerJumpEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.player.PlayerJumpEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private to org.bukkit.Location
 ---@field private from org.bukkit.Location

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.TrimMaterialKeys
----@class io.papermc.paper.registry.keys.TrimMaterialKeys
+---@class io.papermc.paper.registry.keys.TrimMaterialKeys: java.lang.Object
 ---@field public AMETHYST io.papermc.paper.registry.TypedKey
 ---@field public COPPER io.papermc.paper.registry.TypedKey
 ---@field public DIAMOND io.papermc.paper.registry.TypedKey

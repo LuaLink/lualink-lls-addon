@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Sniffer
----@class org.bukkit.entity.Sniffer: org.bukkit.entity.Animals
+---@class org.bukkit.entity.Sniffer: org.bukkit.entity.Animals, java.lang.Object
 ---@field public State org.bukkit.entity.Sniffer.State
 local Sniffer = {}
 

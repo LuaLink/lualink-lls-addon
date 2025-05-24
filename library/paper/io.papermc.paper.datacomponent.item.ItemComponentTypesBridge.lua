@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.ItemComponentTypesBridge
----@class io.papermc.paper.datacomponent.item.ItemComponentTypesBridge
+---@class io.papermc.paper.datacomponent.item.ItemComponentTypesBridge: java.lang.Object
 ---@field public BRIDGE java.util.Optional
 local ItemComponentTypesBridge = {}
 

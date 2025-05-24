@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.Dollar
----@class java.util.regex.Pattern.Dollar: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.Dollar: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public multiline boolean
 ---@overload fun(mul: boolean): java.util.regex.Pattern.Dollar
 local Dollar = {}

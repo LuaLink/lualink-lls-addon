@@ -1,14 +1,14 @@
 ---@meta
 -- io.papermc.paper.tag.BaseTag
----@class io.papermc.paper.tag.BaseTag: org.bukkit.Tag
+---@class io.papermc.paper.tag.BaseTag: org.bukkit.Tag, java.lang.Object
 ---@field protected key org.bukkit.NamespacedKey
 ---@field protected tagged java.util.Set
 ---@field private globalPredicates java.util.List
 ---@field private locked boolean
----@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, filter: java.util.function.Predicate): io.papermc.paper.tag.BaseTag
+---@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, filter: function): io.papermc.paper.tag.BaseTag
 ---@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, values: T): io.papermc.paper.tag.BaseTag
 ---@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, values: java.util.Collection): io.papermc.paper.tag.BaseTag
----@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, values: java.util.Collection, globalPredicates: java.util.function.Predicate): io.papermc.paper.tag.BaseTag
+---@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, values: java.util.Collection, globalPredicates: function): io.papermc.paper.tag.BaseTag
 local BaseTag = {}
 
 ---@param enumClass java.lang.Class 
@@ -56,7 +56,7 @@ function BaseTag:add(values) end
 ---@return C 
 function BaseTag:add(collection) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return C 
 function BaseTag:add(filter) end
@@ -91,7 +91,7 @@ function BaseTag:not(values) end
 ---@return C 
 function BaseTag:not(values) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return C 
 function BaseTag:not(filter) end

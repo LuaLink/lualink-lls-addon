@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Crafter
----@class org.bukkit.block.data.type.Crafter: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.type.Crafter: org.bukkit.block.data.BlockData, java.lang.Object
 ---@field public Orientation org.bukkit.block.data.type.Crafter.Orientation
 local Crafter = {}
 

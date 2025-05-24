@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.PlayerSignCommandPreprocessEvent
----@class io.papermc.paper.event.player.PlayerSignCommandPreprocessEvent: org.bukkit.event.player.PlayerCommandPreprocessEvent
+---@class io.papermc.paper.event.player.PlayerSignCommandPreprocessEvent: org.bukkit.event.player.PlayerCommandPreprocessEvent, java.lang.Object
 ---@field private sign org.bukkit.block.Sign
 ---@field private side org.bukkit.block.sign.Side
 ---@overload fun(player: org.bukkit.entity.Player, message: string, recipients: java.util.Set, sign: org.bukkit.block.Sign, side: org.bukkit.block.sign.Side): io.papermc.paper.event.player.PlayerSignCommandPreprocessEvent

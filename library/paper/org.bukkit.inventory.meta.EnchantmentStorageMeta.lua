@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.EnchantmentStorageMeta
----@class org.bukkit.inventory.meta.EnchantmentStorageMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.EnchantmentStorageMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local EnchantmentStorageMeta = {}
 
 ---@public

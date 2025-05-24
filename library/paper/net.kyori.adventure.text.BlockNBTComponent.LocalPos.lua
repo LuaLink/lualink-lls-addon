@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.BlockNBTComponent.LocalPos
----@class net.kyori.adventure.text.BlockNBTComponent.LocalPos: net.kyori.adventure.text.BlockNBTComponent.Pos
+---@class net.kyori.adventure.text.BlockNBTComponent.LocalPos: net.kyori.adventure.text.BlockNBTComponent.Pos, java.lang.Object
 local LocalPos = {}
 
 ---@param left number the left value

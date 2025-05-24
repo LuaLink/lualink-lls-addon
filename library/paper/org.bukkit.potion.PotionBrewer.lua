@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.potion.PotionBrewer
----@class org.bukkit.potion.PotionBrewer
+---@class org.bukkit.potion.PotionBrewer: java.lang.Object
 local PotionBrewer = {}
 
 ---@param potionMix io.papermc.paper.potion.PotionMix the potion mix to add

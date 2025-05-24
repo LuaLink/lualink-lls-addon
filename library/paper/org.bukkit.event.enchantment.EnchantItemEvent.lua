@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.enchantment.EnchantItemEvent
----@class org.bukkit.event.enchantment.EnchantItemEvent: org.bukkit.event.inventory.InventoryEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.enchantment.EnchantItemEvent: org.bukkit.event.inventory.InventoryEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private enchanter org.bukkit.entity.Player
 ---@field private table org.bukkit.block.Block

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.ColorableArmorMeta
----@class org.bukkit.inventory.meta.ColorableArmorMeta: org.bukkit.inventory.meta.ArmorMeta, org.bukkit.inventory.meta.LeatherArmorMeta
+---@class org.bukkit.inventory.meta.ColorableArmorMeta: org.bukkit.inventory.meta.ArmorMeta, org.bukkit.inventory.meta.LeatherArmorMeta, java.lang.Object
 local ColorableArmorMeta = {}
 
 ---@public

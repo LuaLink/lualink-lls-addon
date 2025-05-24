@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BlockMultiPlaceEvent
----@class org.bukkit.event.block.BlockMultiPlaceEvent: org.bukkit.event.block.BlockPlaceEvent
+---@class org.bukkit.event.block.BlockMultiPlaceEvent: org.bukkit.event.block.BlockPlaceEvent, java.lang.Object
 ---@field private states java.util.List
 ---@overload fun(states: java.util.List, clicked: org.bukkit.block.Block, itemInHand: org.bukkit.inventory.ItemStack, thePlayer: org.bukkit.entity.Player, canBuild: boolean): org.bukkit.event.block.BlockMultiPlaceEvent
 ---@overload fun(states: java.util.List, clicked: org.bukkit.block.Block, itemInHand: org.bukkit.inventory.ItemStack, thePlayer: org.bukkit.entity.Player, canBuild: boolean, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.block.BlockMultiPlaceEvent

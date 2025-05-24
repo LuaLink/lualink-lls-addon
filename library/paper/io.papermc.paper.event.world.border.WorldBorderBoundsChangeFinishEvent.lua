@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.world.border.WorldBorderBoundsChangeFinishEvent
----@class io.papermc.paper.event.world.border.WorldBorderBoundsChangeFinishEvent: io.papermc.paper.event.world.border.WorldBorderEvent
+---@class io.papermc.paper.event.world.border.WorldBorderBoundsChangeFinishEvent: io.papermc.paper.event.world.border.WorldBorderEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private oldSize number
 ---@field private newSize number

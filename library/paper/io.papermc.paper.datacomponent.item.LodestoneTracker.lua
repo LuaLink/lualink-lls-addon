@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.LodestoneTracker
----@class io.papermc.paper.datacomponent.item.LodestoneTracker
+---@class io.papermc.paper.datacomponent.item.LodestoneTracker: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.LodestoneTracker.Builder
 local LodestoneTracker = {}
 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Sound
----@class org.bukkit.Sound: org.bukkit.util.OldEnum, org.bukkit.Keyed, net.kyori.adventure.sound.Sound.Type
+---@class org.bukkit.Sound: org.bukkit.util.OldEnum, org.bukkit.Keyed, net.kyori.adventure.sound.Sound.Type, java.lang.Object
 ---@field public AMBIENT_BASALT_DELTAS_ADDITIONS org.bukkit.Sound
 ---@field public AMBIENT_BASALT_DELTAS_LOOP org.bukkit.Sound
 ---@field public AMBIENT_BASALT_DELTAS_MOOD org.bukkit.Sound

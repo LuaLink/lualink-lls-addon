@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.BooleanPrompt
----@class org.bukkit.conversations.BooleanPrompt: org.bukkit.conversations.ValidatingPrompt
+---@class org.bukkit.conversations.BooleanPrompt: org.bukkit.conversations.ValidatingPrompt, java.lang.Object
 ---@field private TRUE_INPUTS java.util.Set
 ---@field private FALSE_INPUTS java.util.Set
 ---@field private VALID_INPUTS java.util.Set

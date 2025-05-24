@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.ChargedProjectiles
----@class io.papermc.paper.datacomponent.item.ChargedProjectiles
+---@class io.papermc.paper.datacomponent.item.ChargedProjectiles: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.ChargedProjectiles.Builder
 local ChargedProjectiles = {}
 

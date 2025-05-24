@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.scoreboard.Scoreboard
----@class org.bukkit.scoreboard.Scoreboard
+---@class org.bukkit.scoreboard.Scoreboard: java.lang.Object
 local Scoreboard = {}
 
 ---@deprecated

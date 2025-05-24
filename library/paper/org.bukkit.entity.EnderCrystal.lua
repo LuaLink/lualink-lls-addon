@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.EnderCrystal
----@class org.bukkit.entity.EnderCrystal: org.bukkit.entity.Entity
+---@class org.bukkit.entity.EnderCrystal: org.bukkit.entity.Entity, java.lang.Object
 local EnderCrystal = {}
 
 ---@public

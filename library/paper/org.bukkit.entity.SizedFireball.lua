@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.SizedFireball
----@class org.bukkit.entity.SizedFireball: org.bukkit.entity.Fireball
+---@class org.bukkit.entity.SizedFireball: org.bukkit.entity.Fireball, java.lang.Object
 local SizedFireball = {}
 
 ---@public

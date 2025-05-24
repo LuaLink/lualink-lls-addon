@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.FeatureFlag
----@class org.bukkit.FeatureFlag: org.bukkit.Keyed
+---@class org.bukkit.FeatureFlag: org.bukkit.Keyed, java.lang.Object
 ---@field public MINECART_IMPROVEMENTS org.bukkit.FeatureFlag
 ---@field public REDSTONE_EXPERIMENTS org.bukkit.FeatureFlag
 ---@field public TRADE_REBALANCE org.bukkit.FeatureFlag

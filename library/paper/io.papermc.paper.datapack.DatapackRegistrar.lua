@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datapack.DatapackRegistrar
----@class io.papermc.paper.datapack.DatapackRegistrar: io.papermc.paper.plugin.lifecycle.event.registrar.Registrar
+---@class io.papermc.paper.datapack.DatapackRegistrar: io.papermc.paper.plugin.lifecycle.event.registrar.Registrar, java.lang.Object
 ---@field public Configurer io.papermc.paper.datapack.DatapackRegistrar.Configurer
 local DatapackRegistrar = {}
 
@@ -37,7 +37,7 @@ function DatapackRegistrar:discoverPack(uri, id) end
 
 ---@param uri java.net.URI the location of the pack
 ---@param id string a unique id (will be combined with plugin for the datapacks name)
----@param configurer java.util.function.Consumer a configurer for extra options
+---@param configurer function a configurer for extra options
 ---@public
 ---@return io.papermc.paper.datapack.DiscoveredDatapack the discovered datapack (or null if it failed)
 --- Discovers a datapack at the specified {@link URI} with the id. <p>Symlinks obey the {@code allowed_symlinks.txt} in the server root directory.</p>
@@ -52,7 +52,7 @@ function DatapackRegistrar:discoverPack(path, id) end
 
 ---@param path java.nio.file.Path the location of the pack
 ---@param id string a unique id (will be combined with plugin for the datapacks name)
----@param configurer java.util.function.Consumer a configurer for extra options
+---@param configurer function a configurer for extra options
 ---@public
 ---@return io.papermc.paper.datapack.DiscoveredDatapack the discovered datapack (or null if it failed)
 --- Discovers a datapack at the specified {@link Path} with the id. <p>Symlinks obey the {@code allowed_symlinks.txt} in the server root directory.</p>
@@ -61,7 +61,7 @@ function DatapackRegistrar:discoverPack(path, id, configurer) end
 ---@param pluginMeta io.papermc.paper.plugin.configuration.PluginMeta the plugin which will be the "owner" of this datapack
 ---@param uri java.net.URI the location of the pack
 ---@param id string a unique id (will be combined with plugin for the datapacks name)
----@param configurer java.util.function.Consumer a configurer for extra options
+---@param configurer function a configurer for extra options
 ---@public
 ---@return io.papermc.paper.datapack.DiscoveredDatapack the discovered datapack (or null if it failed)
 --- Discovers a datapack at the specified {@link URI} with the id. <p>Symlinks obey the {@code allowed_symlinks.txt} in the server root directory.</p>
@@ -70,7 +70,7 @@ function DatapackRegistrar:discoverPack(pluginMeta, uri, id, configurer) end
 ---@param pluginMeta io.papermc.paper.plugin.configuration.PluginMeta the plugin which will be the "owner" of this datapack
 ---@param path java.nio.file.Path the location of the pack
 ---@param id string a unique id (will be combined with plugin for the datapacks name)
----@param configurer java.util.function.Consumer a configurer for extra options
+---@param configurer function a configurer for extra options
 ---@public
 ---@return io.papermc.paper.datapack.DiscoveredDatapack the discovered datapack (or null if it failed)
 --- Discovers a datapack at the specified {@link Path} with the id. <p>Symlinks obey the {@code allowed_symlinks.txt} in the server root directory.</p>

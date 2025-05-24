@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.inventory.HopperInventorySearchEvent
----@class org.bukkit.event.inventory.HopperInventorySearchEvent: org.bukkit.event.block.BlockEvent
+---@class org.bukkit.event.inventory.HopperInventorySearchEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private inventory org.bukkit.inventory.Inventory
 ---@field private containerType org.bukkit.event.inventory.HopperInventorySearchEvent.ContainerType

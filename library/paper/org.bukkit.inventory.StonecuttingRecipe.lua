@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.StonecuttingRecipe
----@class org.bukkit.inventory.StonecuttingRecipe: org.bukkit.inventory.Recipe, org.bukkit.Keyed
+---@class org.bukkit.inventory.StonecuttingRecipe: org.bukkit.inventory.Recipe, org.bukkit.Keyed, java.lang.Object
 ---@field private key org.bukkit.NamespacedKey
 ---@field private output org.bukkit.inventory.ItemStack
 ---@field private ingredient org.bukkit.inventory.RecipeChoice

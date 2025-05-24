@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.PistonHead
----@class org.bukkit.block.data.type.PistonHead: org.bukkit.block.data.type.TechnicalPiston
+---@class org.bukkit.block.data.type.PistonHead: org.bukkit.block.data.type.TechnicalPiston, java.lang.Object
 local PistonHead = {}
 
 ---@public

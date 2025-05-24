@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.bootstrap.BootstrapContext
----@class io.papermc.paper.plugin.bootstrap.BootstrapContext: io.papermc.paper.plugin.bootstrap.PluginProviderContext, io.papermc.paper.plugin.lifecycle.event.LifecycleEventOwner
+---@class io.papermc.paper.plugin.bootstrap.BootstrapContext: io.papermc.paper.plugin.bootstrap.PluginProviderContext, io.papermc.paper.plugin.lifecycle.event.LifecycleEventOwner, java.lang.Object
 local BootstrapContext = {}
 
 ---@public

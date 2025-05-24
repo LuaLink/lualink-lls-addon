@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.format.NamedTextColor
----@class net.kyori.adventure.text.format.NamedTextColor: net.kyori.adventure.text.format.TextColor
+---@class net.kyori.adventure.text.format.NamedTextColor: net.kyori.adventure.text.format.TextColor, java.lang.Object
 ---@field private BLACK_VALUE number
 ---@field private DARK_BLUE_VALUE number
 ---@field private DARK_GREEN_VALUE number

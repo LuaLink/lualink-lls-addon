@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.TropicalFishBucketMeta
----@class org.bukkit.inventory.meta.TropicalFishBucketMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.TropicalFishBucketMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local TropicalFishBucketMeta = {}
 
 ---@public

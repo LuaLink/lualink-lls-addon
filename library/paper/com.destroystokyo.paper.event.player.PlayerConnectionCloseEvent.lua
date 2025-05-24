@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerConnectionCloseEvent
----@class com.destroystokyo.paper.event.player.PlayerConnectionCloseEvent: org.bukkit.event.Event
+---@class com.destroystokyo.paper.event.player.PlayerConnectionCloseEvent: org.bukkit.event.Event, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private playerUniqueId java.util.UUID
 ---@field private playerName string

@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.regex.Pattern.LastNode
----@class java.util.regex.Pattern.LastNode: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.LastNode: java.util.regex.Pattern.Node, java.lang.Object
 local LastNode = {}
 
 ---@param matcher java.util.regex.Matcher 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.SingletonSet
----@class java.util.Collections.SingletonSet: java.util.AbstractSet, java.io.Serializable
+---@class java.util.Collections.SingletonSet: java.util.AbstractSet, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private element E
 ---@overload fun(e: E): java.util.Collections.SingletonSet
@@ -20,7 +20,7 @@ function SingletonSet:size() end
 ---@return boolean 
 function SingletonSet:contains(o) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function SingletonSet:forEach(action) end
@@ -29,7 +29,7 @@ function SingletonSet:forEach(action) end
 ---@return java.util.Spliterator 
 function SingletonSet:spliterator() end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return boolean 
 function SingletonSet:removeIf(filter) end

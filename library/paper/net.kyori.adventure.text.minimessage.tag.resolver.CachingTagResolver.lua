@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.CachingTagResolver
----@class net.kyori.adventure.text.minimessage.tag.resolver.CachingTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments, net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver
+---@class net.kyori.adventure.text.minimessage.tag.resolver.CachingTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments, net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver, java.lang.Object
 ---@field private NULL_REPLACEMENT net.kyori.adventure.text.minimessage.tag.Tag
 ---@field private cache java.util.Map
 ---@field private resolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.WithoutArguments
@@ -28,7 +28,7 @@ function CachingTagResolver:has(name) end
 function CachingTagResolver:contributeToMap(map) end
 
 ---@param serializable net.kyori.adventure.text.Component 
----@param consumer net.kyori.adventure.text.minimessage.internal.serializer.ClaimConsumer 
+---@param consumer function 
 ---@public
 ---@return nil 
 function CachingTagResolver:handle(serializable, consumer) end

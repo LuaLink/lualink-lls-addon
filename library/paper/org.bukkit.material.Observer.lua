@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Observer
----@class org.bukkit.material.Observer: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Redstone
+---@class org.bukkit.material.Observer: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Redstone, java.lang.Object
 ---@overload fun(): org.bukkit.material.Observer
 ---@overload fun(direction: org.bukkit.block.BlockFace): org.bukkit.material.Observer
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Observer

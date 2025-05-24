@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.format.StyleImpl.BuilderImpl
----@class net.kyori.adventure.text.format.StyleImpl.BuilderImpl: net.kyori.adventure.text.format.Style.Builder
+---@class net.kyori.adventure.text.format.StyleImpl.BuilderImpl: net.kyori.adventure.text.format.Style.Builder, java.lang.Object
 ---@field public font any
 ---@field public color net.kyori.adventure.text.format.TextColor
 ---@field public shadowColor net.kyori.adventure.text.format.ShadowColor

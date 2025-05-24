@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.brigadier.BukkitBrigadierCommandSource
----@class com.destroystokyo.paper.brigadier.BukkitBrigadierCommandSource
+---@class com.destroystokyo.paper.brigadier.BukkitBrigadierCommandSource: java.lang.Object
 local BukkitBrigadierCommandSource = {}
 
 ---@public

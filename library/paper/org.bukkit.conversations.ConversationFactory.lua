@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.ConversationFactory
----@class org.bukkit.conversations.ConversationFactory
+---@class org.bukkit.conversations.ConversationFactory: java.lang.Object
 ---@field protected plugin org.bukkit.plugin.Plugin
 ---@field protected isModal boolean
 ---@field protected localEchoEnabled boolean

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.spigotmc.event.player.PlayerSpawnLocationEvent
----@class org.spigotmc.event.player.PlayerSpawnLocationEvent: org.bukkit.event.player.PlayerEvent
+---@class org.spigotmc.event.player.PlayerSpawnLocationEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private handlers org.bukkit.event.HandlerList
 ---@field private spawnLocation org.bukkit.Location
 ---@overload fun(player: org.bukkit.entity.Player, spawnLocation: org.bukkit.Location): org.spigotmc.event.player.PlayerSpawnLocationEvent

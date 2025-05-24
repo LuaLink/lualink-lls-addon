@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Villager.Type
----@class org.bukkit.entity.Villager.Type: org.bukkit.util.OldEnum, org.bukkit.Keyed
+---@class org.bukkit.entity.Villager.Type: org.bukkit.util.OldEnum, org.bukkit.Keyed, java.lang.Object
 ---@field public DESERT org.bukkit.entity.Villager.Type
 ---@field public JUNGLE org.bukkit.entity.Villager.Type
 ---@field public PLAINS org.bukkit.entity.Villager.Type

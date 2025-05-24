@@ -1,10 +1,10 @@
 ---@meta
 -- net.kyori.adventure.sound.SoundImpl.BuilderImpl
----@class net.kyori.adventure.sound.SoundImpl.BuilderImpl: net.kyori.adventure.sound.Sound.Builder
+---@class net.kyori.adventure.sound.SoundImpl.BuilderImpl: net.kyori.adventure.sound.Sound.Builder, java.lang.Object
 ---@field private DEFAULT_VOLUME number
 ---@field private DEFAULT_PITCH number
 ---@field private eagerType any
----@field private lazyType java.util.function.Supplier
+---@field private lazyType function
 ---@field private source net.kyori.adventure.sound.Sound.Source
 ---@field private volume number
 ---@field private pitch number
@@ -23,7 +23,7 @@ function BuilderImpl:type(type) end
 ---@return net.kyori.adventure.sound.Sound.Builder 
 function BuilderImpl:type(type) end
 
----@param typeSupplier java.util.function.Supplier 
+---@param typeSupplier function 
 ---@public
 ---@return net.kyori.adventure.sound.Sound.Builder 
 function BuilderImpl:type(typeSupplier) end

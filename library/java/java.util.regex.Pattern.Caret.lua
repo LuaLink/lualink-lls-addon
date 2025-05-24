@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.Caret
----@class java.util.regex.Pattern.Caret: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.Caret: java.util.regex.Pattern.Node, java.lang.Object
 local Caret = {}
 
 ---@param matcher java.util.regex.Matcher 

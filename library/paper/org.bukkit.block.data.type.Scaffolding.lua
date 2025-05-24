@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Scaffolding
----@class org.bukkit.block.data.type.Scaffolding: org.bukkit.block.data.Waterlogged
+---@class org.bukkit.block.data.type.Scaffolding: org.bukkit.block.data.Waterlogged, java.lang.Object
 local Scaffolding = {}
 
 ---@public

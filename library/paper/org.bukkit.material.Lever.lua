@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Lever
----@class org.bukkit.material.Lever: org.bukkit.material.SimpleAttachableMaterialData, org.bukkit.material.Redstone
+---@class org.bukkit.material.Lever: org.bukkit.material.SimpleAttachableMaterialData, org.bukkit.material.Redstone, java.lang.Object
 ---@overload fun(): org.bukkit.material.Lever
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Lever
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Lever

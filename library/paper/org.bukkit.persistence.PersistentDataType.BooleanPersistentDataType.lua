@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.persistence.PersistentDataType.BooleanPersistentDataType
----@class org.bukkit.persistence.PersistentDataType.BooleanPersistentDataType: org.bukkit.persistence.PersistentDataType
+---@class org.bukkit.persistence.PersistentDataType.BooleanPersistentDataType: org.bukkit.persistence.PersistentDataType, java.lang.Object
 local BooleanPersistentDataType = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.PistonBaseMaterial
----@class org.bukkit.material.PistonBaseMaterial: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Redstone
+---@class org.bukkit.material.PistonBaseMaterial: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Redstone, java.lang.Object
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.PistonBaseMaterial
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.PistonBaseMaterial
 local PistonBaseMaterial = {}

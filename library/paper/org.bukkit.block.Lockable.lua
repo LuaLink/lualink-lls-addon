@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Lockable
----@class org.bukkit.block.Lockable
+---@class org.bukkit.block.Lockable: java.lang.Object
 local Lockable = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Beehive
----@class org.bukkit.block.data.type.Beehive: org.bukkit.block.data.Directional
+---@class org.bukkit.block.data.type.Beehive: org.bukkit.block.data.Directional, java.lang.Object
 local Beehive = {}
 
 ---@public

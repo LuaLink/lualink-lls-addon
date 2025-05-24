@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.ComponentIterator
----@class net.kyori.adventure.text.ComponentIterator: java.util.Iterator
+---@class net.kyori.adventure.text.ComponentIterator: java.util.Iterator, java.lang.Object
 ---@field private component net.kyori.adventure.text.Component
 ---@field private type net.kyori.adventure.text.ComponentIteratorType
 ---@field private flags java.util.Set

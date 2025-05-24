@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- co.aikar.util.MRUMapCache
----@class co.aikar.util.MRUMapCache: java.util.AbstractMap
+---@class co.aikar.util.MRUMapCache: java.util.AbstractMap, java.lang.Object
 ---@field public backingMap java.util.Map
 ---@field public cacheKey java.lang.Object
 ---@field public cacheValue V

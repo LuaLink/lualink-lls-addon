@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Chicken
----@class org.bukkit.entity.Chicken: org.bukkit.entity.Animals
+---@class org.bukkit.entity.Chicken: org.bukkit.entity.Animals, java.lang.Object
 ---@field public Variant org.bukkit.entity.Chicken.Variant
 local Chicken = {}
 

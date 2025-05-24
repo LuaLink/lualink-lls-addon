@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.configuration.ConfigurationOptions
----@class org.bukkit.configuration.ConfigurationOptions
+---@class org.bukkit.configuration.ConfigurationOptions: java.lang.Object
 ---@field private pathSeparator string
 ---@field private copyDefaults boolean
 ---@field private configuration org.bukkit.configuration.Configuration

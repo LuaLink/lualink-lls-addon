@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.GradientTag
----@class net.kyori.adventure.text.minimessage.tag.standard.GradientTag: net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag
+---@class net.kyori.adventure.text.minimessage.tag.standard.GradientTag: net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag, java.lang.Object
 ---@field private GRADIENT string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@field private index number

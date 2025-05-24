@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.EntityDamageByEntityEvent
----@class org.bukkit.event.entity.EntityDamageByEntityEvent: org.bukkit.event.entity.EntityDamageEvent
+---@class org.bukkit.event.entity.EntityDamageByEntityEvent: org.bukkit.event.entity.EntityDamageEvent, java.lang.Object
 ---@field private damager org.bukkit.entity.Entity
 ---@field private critical boolean
 ---@overload fun(damager: org.bukkit.entity.Entity, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, damage: number): org.bukkit.event.entity.EntityDamageByEntityEvent

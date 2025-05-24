@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.server.WhitelistStateUpdateEvent
----@class io.papermc.paper.event.server.WhitelistStateUpdateEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.server.WhitelistStateUpdateEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private playerProfile com.destroystokyo.paper.profile.PlayerProfile
 ---@field private status io.papermc.paper.event.server.WhitelistStateUpdateEvent.WhitelistStatus

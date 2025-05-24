@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Minecart
----@class org.bukkit.entity.Minecart: org.bukkit.entity.Vehicle, io.papermc.paper.entity.Frictional
+---@class org.bukkit.entity.Minecart: org.bukkit.entity.Vehicle, io.papermc.paper.entity.Frictional, java.lang.Object
 local Minecart = {}
 
 ---@param damage number over 40 to "kill" a minecart

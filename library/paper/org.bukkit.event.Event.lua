@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.Event
----@class org.bukkit.event.Event
+---@class org.bukkit.event.Event: java.lang.Object
 ---@field private name string
 ---@field private isAsync boolean
 ---@field public Result org.bukkit.event.Event.Result

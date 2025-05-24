@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Locale
----@class java.util.Locale: java.lang.Cloneable, java.io.Serializable
+---@class java.util.Locale: java.lang.Cloneable, java.io.Serializable, java.lang.Object
 ---@field public ENGLISH java.util.Locale
 ---@field public FRENCH java.util.Locale
 ---@field public GERMAN java.util.Locale

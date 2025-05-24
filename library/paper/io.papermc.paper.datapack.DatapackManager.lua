@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.datapack.DatapackManager
----@class io.papermc.paper.datapack.DatapackManager
+---@class io.papermc.paper.datapack.DatapackManager: java.lang.Object
 local DatapackManager = {}
 
 ---@public

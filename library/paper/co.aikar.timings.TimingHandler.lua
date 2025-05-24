@@ -1,6 +1,6 @@
 ---@meta
 -- co.aikar.timings.TimingHandler
----@class co.aikar.timings.TimingHandler: co.aikar.timings.Timing
+---@class co.aikar.timings.TimingHandler: co.aikar.timings.Timing, java.lang.Object
 ---@field private idPool java.util.concurrent.atomic.AtomicInteger
 ---@field private TIMING_STACK java.util.Deque
 ---@field public id number

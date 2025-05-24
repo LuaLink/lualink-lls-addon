@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.block.BlockPredicate
----@class io.papermc.paper.block.BlockPredicate
+---@class io.papermc.paper.block.BlockPredicate: java.lang.Object
 ---@field public Builder io.papermc.paper.block.BlockPredicate.Builder
 local BlockPredicate = {}
 

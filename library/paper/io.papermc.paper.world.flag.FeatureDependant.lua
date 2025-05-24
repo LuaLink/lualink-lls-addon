@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.world.flag.FeatureDependant
----@class io.papermc.paper.world.flag.FeatureDependant
+---@class io.papermc.paper.world.flag.FeatureDependant: java.lang.Object
 local FeatureDependant = {}
 
 ---@public

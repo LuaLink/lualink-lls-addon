@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.bossbar.BossBarImpl.ImplementationAccessor
----@class net.kyori.adventure.bossbar.BossBarImpl.ImplementationAccessor
+---@class net.kyori.adventure.bossbar.BossBarImpl.ImplementationAccessor: java.lang.Object
 ---@field private SERVICE java.util.Optional
 ---@overload fun(): net.kyori.adventure.bossbar.BossBarImpl.ImplementationAccessor
 local ImplementationAccessor = {}

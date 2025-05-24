@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.structure.Structure
----@class org.bukkit.structure.Structure: org.bukkit.persistence.PersistentDataHolder
+---@class org.bukkit.structure.Structure: org.bukkit.persistence.PersistentDataHolder, java.lang.Object
 local Structure = {}
 
 ---@public

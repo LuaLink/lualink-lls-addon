@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.ShapelessRecipe
----@class org.bukkit.inventory.ShapelessRecipe: org.bukkit.inventory.CraftingRecipe
+---@class org.bukkit.inventory.ShapelessRecipe: org.bukkit.inventory.CraftingRecipe, java.lang.Object
 ---@field private ingredients java.util.List
 ---@overload fun(result: org.bukkit.inventory.ItemStack): org.bukkit.inventory.ShapelessRecipe
 ---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack): org.bukkit.inventory.ShapelessRecipe

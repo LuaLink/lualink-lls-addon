@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.profile.PlayerProfile
----@class org.bukkit.profile.PlayerProfile: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.profile.PlayerProfile: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 local PlayerProfile = {}
 
 ---@deprecated

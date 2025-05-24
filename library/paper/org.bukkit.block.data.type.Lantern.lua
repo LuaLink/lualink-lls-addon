@@ -1,5 +1,5 @@
 ---@meta
 -- org.bukkit.block.data.type.Lantern
----@class org.bukkit.block.data.type.Lantern: org.bukkit.block.data.Hangable, org.bukkit.block.data.Waterlogged
+---@class org.bukkit.block.data.type.Lantern: org.bukkit.block.data.Hangable, org.bukkit.block.data.Waterlogged, java.lang.Object
 local Lantern = {}
 

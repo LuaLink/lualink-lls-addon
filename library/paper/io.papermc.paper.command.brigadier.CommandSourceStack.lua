@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.command.brigadier.CommandSourceStack
----@class io.papermc.paper.command.brigadier.CommandSourceStack
+---@class io.papermc.paper.command.brigadier.CommandSourceStack: java.lang.Object
 local CommandSourceStack = {}
 
 ---@public

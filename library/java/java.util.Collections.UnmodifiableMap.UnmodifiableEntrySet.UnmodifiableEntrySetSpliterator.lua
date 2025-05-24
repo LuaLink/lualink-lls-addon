@@ -1,16 +1,16 @@
 ---@meta
 -- java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet.UnmodifiableEntrySetSpliterator
----@class java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet.UnmodifiableEntrySetSpliterator: java.util.Spliterator
+---@class java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet.UnmodifiableEntrySetSpliterator: java.util.Spliterator, java.lang.Object
 ---@field public s java.util.Spliterator
 ---@overload fun(s: java.util.Spliterator): java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet.UnmodifiableEntrySetSpliterator
 local UnmodifiableEntrySetSpliterator = {}
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return boolean 
 function UnmodifiableEntrySetSpliterator:tryAdvance(action) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function UnmodifiableEntrySetSpliterator:forEachRemaining(action) end

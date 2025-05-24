@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.profile.LookupProfileEvent
----@class com.destroystokyo.paper.event.profile.LookupProfileEvent: org.bukkit.event.Event
+---@class com.destroystokyo.paper.event.profile.LookupProfileEvent: org.bukkit.event.Event, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private profile com.destroystokyo.paper.profile.PlayerProfile
 ---@overload fun(profile: com.destroystokyo.paper.profile.PlayerProfile): com.destroystokyo.paper.event.profile.LookupProfileEvent

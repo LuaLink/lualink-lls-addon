@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Slime
----@class org.bukkit.entity.Slime: org.bukkit.entity.Mob, org.bukkit.entity.Enemy
+---@class org.bukkit.entity.Slime: org.bukkit.entity.Mob, org.bukkit.entity.Enemy, java.lang.Object
 local Slime = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.command.UnknownCommandEvent
----@class org.bukkit.event.command.UnknownCommandEvent: org.bukkit.event.Event
+---@class org.bukkit.event.command.UnknownCommandEvent: org.bukkit.event.Event, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private sender org.bukkit.command.CommandSender
 ---@field private commandLine string

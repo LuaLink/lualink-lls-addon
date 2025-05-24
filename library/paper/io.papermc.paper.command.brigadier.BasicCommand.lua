@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.command.brigadier.BasicCommand
----@class io.papermc.paper.command.brigadier.BasicCommand
+---@class io.papermc.paper.command.brigadier.BasicCommand: java.lang.Object
 local BasicCommand = {}
 
 ---@param commandSourceStack io.papermc.paper.command.brigadier.CommandSourceStack the commandSourceStack of the command

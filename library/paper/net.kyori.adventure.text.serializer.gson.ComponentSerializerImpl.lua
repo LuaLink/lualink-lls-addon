@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.ComponentSerializerImpl
----@class net.kyori.adventure.text.serializer.gson.ComponentSerializerImpl: any
+---@class net.kyori.adventure.text.serializer.gson.ComponentSerializerImpl: any, java.lang.Object
 ---@field public COMPONENT_LIST_TYPE java.lang.reflect.Type
 ---@field public TRANSLATABLE_ARGUMENT_LIST_TYPE java.lang.reflect.Type
 ---@field private emitCompactTextComponent boolean

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.event.DataComponentValueConverterRegistry
----@class net.kyori.adventure.text.event.DataComponentValueConverterRegistry
+---@class net.kyori.adventure.text.event.DataComponentValueConverterRegistry: java.lang.Object
 ---@field private PROVIDERS java.util.Set
 ---@field public Provider net.kyori.adventure.text.event.DataComponentValueConverterRegistry.Provider
 ---@field public Conversion net.kyori.adventure.text.event.DataComponentValueConverterRegistry.Conversion

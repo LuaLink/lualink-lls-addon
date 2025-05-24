@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.Placeholder
----@class net.kyori.adventure.text.minimessage.tag.resolver.Placeholder
+---@class net.kyori.adventure.text.minimessage.tag.resolver.Placeholder: java.lang.Object
 ---@overload fun(): net.kyori.adventure.text.minimessage.tag.resolver.Placeholder
 local Placeholder = {}
 

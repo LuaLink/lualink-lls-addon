@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.inventory.InventoryDragEvent
----@class org.bukkit.event.inventory.InventoryDragEvent: org.bukkit.event.inventory.InventoryInteractEvent
+---@class org.bukkit.event.inventory.InventoryDragEvent: org.bukkit.event.inventory.InventoryInteractEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private type org.bukkit.event.inventory.DragType
 ---@field private addedItems java.util.Map

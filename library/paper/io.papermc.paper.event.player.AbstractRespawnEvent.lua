@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.event.player.AbstractRespawnEvent
----@class io.papermc.paper.event.player.AbstractRespawnEvent: org.bukkit.event.player.PlayerEvent
+---@class io.papermc.paper.event.player.AbstractRespawnEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field protected respawnLocation org.bukkit.Location
 ---@field private isBedSpawn boolean
 ---@field private isAnchorSpawn boolean

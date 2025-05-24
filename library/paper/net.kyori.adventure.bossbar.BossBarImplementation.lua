@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.bossbar.BossBarImplementation
----@class net.kyori.adventure.bossbar.BossBarImplementation
+---@class net.kyori.adventure.bossbar.BossBarImplementation: java.lang.Object
 ---@field public Provider net.kyori.adventure.bossbar.BossBarImplementation.Provider
 local BossBarImplementation = {}
 

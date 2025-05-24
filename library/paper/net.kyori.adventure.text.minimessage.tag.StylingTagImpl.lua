@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.StylingTagImpl
----@class net.kyori.adventure.text.minimessage.tag.StylingTagImpl: net.kyori.adventure.text.minimessage.tag.AbstractTag, net.kyori.adventure.text.minimessage.tag.Inserting
+---@class net.kyori.adventure.text.minimessage.tag.StylingTagImpl: net.kyori.adventure.text.minimessage.tag.AbstractTag, net.kyori.adventure.text.minimessage.tag.Inserting, java.lang.Object
 ---@field private styles net.kyori.adventure.text.format.StyleBuilderApplicable
 ---@overload fun(styles: table<StyleBuilderApplicable>): net.kyori.adventure.text.minimessage.tag.StylingTagImpl
 local StylingTagImpl = {}

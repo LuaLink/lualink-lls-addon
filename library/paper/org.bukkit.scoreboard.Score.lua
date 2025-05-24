@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.scoreboard.Score
----@class org.bukkit.scoreboard.Score
+---@class org.bukkit.scoreboard.Score: java.lang.Object
 local Score = {}
 
 ---@deprecated

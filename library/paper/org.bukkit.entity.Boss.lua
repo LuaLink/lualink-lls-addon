@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Boss
----@class org.bukkit.entity.Boss: org.bukkit.entity.Entity
+---@class org.bukkit.entity.Boss: org.bukkit.entity.Entity, java.lang.Object
 local Boss = {}
 
 ---@public

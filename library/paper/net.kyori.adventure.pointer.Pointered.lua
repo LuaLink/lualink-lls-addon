@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.pointer.Pointered
----@class net.kyori.adventure.pointer.Pointered
+---@class net.kyori.adventure.pointer.Pointered: java.lang.Object
 local Pointered = {}
 
 ---@param pointer net.kyori.adventure.pointer.Pointer the pointer
@@ -18,7 +18,7 @@ function Pointered:get(pointer) end
 function Pointered:getOrDefault(pointer, defaultValue) end
 
 ---@param pointer net.kyori.adventure.pointer.Pointer the pointer
----@param defaultValue java.util.function.Supplier the default value supplier
+---@param defaultValue function the default value supplier
 ---@public
 ---@return T the value
 --- Gets the value of {@code pointer}.  <p>If this {@code Audience} is unable to provide a value for {@code pointer}, the value supplied by {@code defaultValue} will be returned.</p>

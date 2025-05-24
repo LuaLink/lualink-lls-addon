@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.HashMap
----@class java.util.HashMap: java.util.AbstractMap, java.util.Map, java.lang.Cloneable, java.io.Serializable
+---@class java.util.HashMap: java.util.AbstractMap, java.util.Map, java.lang.Cloneable, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field public DEFAULT_INITIAL_CAPACITY number
 ---@field public MAXIMUM_CAPACITY number
@@ -223,21 +223,21 @@ function HashMap:replace(key, oldValue, newValue) end
 function HashMap:replace(key, value) end
 
 ---@param key K 
----@param mappingFunction java.util.function.Function 
+---@param mappingFunction function 
 ---@public
 ---@return V 
 --- {@inheritDoc}  <p>This method will, on a best-effort basis, throw a {@link ConcurrentModificationException} if it is detected that the mapping function modifies this map during computation.
 function HashMap:computeIfAbsent(key, mappingFunction) end
 
 ---@param key K 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 --- {@inheritDoc}  <p>This method will, on a best-effort basis, throw a {@link ConcurrentModificationException} if it is detected that the remapping function modifies this map during computation.
 function HashMap:computeIfPresent(key, remappingFunction) end
 
 ---@param key K 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 --- {@inheritDoc}  <p>This method will, on a best-effort basis, throw a {@link ConcurrentModificationException} if it is detected that the remapping function modifies this map during computation.
@@ -245,18 +245,18 @@ function HashMap:compute(key, remappingFunction) end
 
 ---@param key K 
 ---@param value V 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 --- {@inheritDoc}  <p>This method will, on a best-effort basis, throw a {@link ConcurrentModificationException} if it is detected that the remapping function modifies this map during computation.
 function HashMap:merge(key, value, remappingFunction) end
 
----@param action java.util.function.BiConsumer 
+---@param action function 
 ---@public
 ---@return nil 
 function HashMap:forEach(action) end
 
----@param function java.util.function.BiFunction 
+---@param function function 
 ---@public
 ---@return nil 
 function HashMap:replaceAll(function) end

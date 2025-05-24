@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.permissions.PermissionAttachmentInfo
----@class org.bukkit.permissions.PermissionAttachmentInfo
+---@class org.bukkit.permissions.PermissionAttachmentInfo: java.lang.Object
 ---@field private permissible org.bukkit.permissions.Permissible
 ---@field private permission string
 ---@field private attachment org.bukkit.permissions.PermissionAttachment

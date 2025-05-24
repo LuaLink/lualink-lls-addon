@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.inventory.meta.ShieldMeta
----@class org.bukkit.inventory.meta.ShieldMeta: org.bukkit.inventory.meta.BannerMeta
+---@class org.bukkit.inventory.meta.ShieldMeta: org.bukkit.inventory.meta.BannerMeta, java.lang.Object
 local ShieldMeta = {}
 
 ---@public

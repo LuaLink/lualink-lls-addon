@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Ocelot
----@class org.bukkit.entity.Ocelot: org.bukkit.entity.Animals
+---@class org.bukkit.entity.Ocelot: org.bukkit.entity.Animals, java.lang.Object
 ---@field public Type org.bukkit.entity.Ocelot.Type
 local Ocelot = {}
 

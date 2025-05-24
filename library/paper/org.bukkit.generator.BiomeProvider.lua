@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.generator.BiomeProvider
----@class org.bukkit.generator.BiomeProvider
+---@class org.bukkit.generator.BiomeProvider: java.lang.Object
 local BiomeProvider = {}
 
 ---@param worldInfo org.bukkit.generator.WorldInfo The world info of the world the biome will be used for

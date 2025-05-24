@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.generator.BlockPopulator
----@class org.bukkit.generator.BlockPopulator
+---@class org.bukkit.generator.BlockPopulator: java.lang.Object
 local BlockPopulator = {}
 
 ---@deprecated

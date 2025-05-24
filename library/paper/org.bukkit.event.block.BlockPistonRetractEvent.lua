@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BlockPistonRetractEvent
----@class org.bukkit.event.block.BlockPistonRetractEvent: org.bukkit.event.block.BlockPistonEvent
+---@class org.bukkit.event.block.BlockPistonRetractEvent: org.bukkit.event.block.BlockPistonEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private blocks java.util.List
 ---@overload fun(block: org.bukkit.block.Block, blocks: java.util.List, direction: org.bukkit.block.BlockFace): org.bukkit.event.block.BlockPistonRetractEvent

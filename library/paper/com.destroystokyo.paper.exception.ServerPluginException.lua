@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.exception.ServerPluginException
----@class com.destroystokyo.paper.exception.ServerPluginException: com.destroystokyo.paper.exception.ServerException
+---@class com.destroystokyo.paper.exception.ServerPluginException: com.destroystokyo.paper.exception.ServerException, java.lang.Object
 ---@field private responsiblePlugin org.bukkit.plugin.Plugin
 ---@overload fun(message: string, cause: java.lang.Throwable, responsiblePlugin: org.bukkit.plugin.Plugin): com.destroystokyo.paper.exception.ServerPluginException
 ---@overload fun(cause: java.lang.Throwable, responsiblePlugin: org.bukkit.plugin.Plugin): com.destroystokyo.paper.exception.ServerPluginException

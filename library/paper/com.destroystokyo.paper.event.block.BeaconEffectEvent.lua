@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.block.BeaconEffectEvent
----@class com.destroystokyo.paper.event.block.BeaconEffectEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.block.BeaconEffectEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private player org.bukkit.entity.Player
 ---@field private primary boolean

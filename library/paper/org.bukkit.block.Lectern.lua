@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Lectern
----@class org.bukkit.block.Lectern: io.papermc.paper.block.TileStateInventoryHolder
+---@class org.bukkit.block.Lectern: io.papermc.paper.block.TileStateInventoryHolder, java.lang.Object
 local Lectern = {}
 
 ---@public

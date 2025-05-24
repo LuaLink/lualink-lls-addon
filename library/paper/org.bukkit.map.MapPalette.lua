@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.map.MapPalette
----@class org.bukkit.map.MapPalette
+---@class org.bukkit.map.MapPalette: java.lang.Object
 ---@field public colors java.awt.Color
 ---@field public TRANSPARENT number
 ---@field public LIGHT_GREEN number

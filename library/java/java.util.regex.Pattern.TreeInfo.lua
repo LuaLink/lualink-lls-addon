@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.TreeInfo
----@class java.util.regex.Pattern.TreeInfo
+---@class java.util.regex.Pattern.TreeInfo: java.lang.Object
 ---@field public minLength number
 ---@field public maxLength number
 ---@field public maxValid boolean

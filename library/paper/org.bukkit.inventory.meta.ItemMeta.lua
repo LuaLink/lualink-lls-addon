@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.ItemMeta
----@class org.bukkit.inventory.meta.ItemMeta: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, org.bukkit.persistence.PersistentDataHolder
+---@class org.bukkit.inventory.meta.ItemMeta: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, org.bukkit.persistence.PersistentDataHolder, java.lang.Object
 local ItemMeta = {}
 
 ---@public

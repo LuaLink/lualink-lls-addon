@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.event.DataComponentValueConverterRegistry.Provider
----@class net.kyori.adventure.text.event.DataComponentValueConverterRegistry.Provider
+---@class net.kyori.adventure.text.event.DataComponentValueConverterRegistry.Provider: java.lang.Object
 local Provider = {}
 
 ---@public

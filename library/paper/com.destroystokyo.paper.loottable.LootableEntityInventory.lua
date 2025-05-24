@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.loottable.LootableEntityInventory
----@class com.destroystokyo.paper.loottable.LootableEntityInventory: com.destroystokyo.paper.loottable.LootableInventory
+---@class com.destroystokyo.paper.loottable.LootableEntityInventory: com.destroystokyo.paper.loottable.LootableInventory, java.lang.Object
 local LootableEntityInventory = {}
 
 ---@public

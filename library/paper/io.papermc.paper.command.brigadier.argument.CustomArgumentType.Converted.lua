@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.command.brigadier.argument.CustomArgumentType.Converted
----@class io.papermc.paper.command.brigadier.argument.CustomArgumentType.Converted: io.papermc.paper.command.brigadier.argument.CustomArgumentType
+---@class io.papermc.paper.command.brigadier.argument.CustomArgumentType.Converted: io.papermc.paper.command.brigadier.argument.CustomArgumentType, java.lang.Object
 local Converted = {}
 
 ---@param reader any 

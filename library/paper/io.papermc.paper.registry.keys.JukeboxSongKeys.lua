@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.JukeboxSongKeys
----@class io.papermc.paper.registry.keys.JukeboxSongKeys
+---@class io.papermc.paper.registry.keys.JukeboxSongKeys: java.lang.Object
 ---@field public ELEVEN io.papermc.paper.registry.TypedKey
 ---@field public THIRTEEN io.papermc.paper.registry.TypedKey
 ---@field public FIVE io.papermc.paper.registry.TypedKey

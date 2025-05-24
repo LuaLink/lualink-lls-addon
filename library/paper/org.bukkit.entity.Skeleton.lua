@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Skeleton
----@class org.bukkit.entity.Skeleton: org.bukkit.entity.AbstractSkeleton
+---@class org.bukkit.entity.Skeleton: org.bukkit.entity.AbstractSkeleton, java.lang.Object
 ---@field public SkeletonType org.bukkit.entity.Skeleton.SkeletonType
 local Skeleton = {}
 

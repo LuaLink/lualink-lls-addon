@@ -1,10 +1,10 @@
 ---@meta
 -- net.kyori.adventure.text.flattener.ComponentFlattenerImpl.BuilderImpl
----@class net.kyori.adventure.text.flattener.ComponentFlattenerImpl.BuilderImpl: net.kyori.adventure.text.flattener.ComponentFlattener.Builder
+---@class net.kyori.adventure.text.flattener.ComponentFlattenerImpl.BuilderImpl: net.kyori.adventure.text.flattener.ComponentFlattener.Builder, java.lang.Object
 ---@field private flatteners net.kyori.adventure.util.InheritanceAwareMap.Builder
----@field private unknownHandler java.util.function.Function
+---@field private unknownHandler function
 ---@overload fun(): net.kyori.adventure.text.flattener.ComponentFlattenerImpl.BuilderImpl
----@overload fun(flatteners: net.kyori.adventure.util.InheritanceAwareMap, unknownHandler: java.util.function.Function): net.kyori.adventure.text.flattener.ComponentFlattenerImpl.BuilderImpl
+---@overload fun(flatteners: net.kyori.adventure.util.InheritanceAwareMap, unknownHandler: function): net.kyori.adventure.text.flattener.ComponentFlattenerImpl.BuilderImpl
 local BuilderImpl = {}
 
 ---@public
@@ -12,18 +12,18 @@ local BuilderImpl = {}
 function BuilderImpl:build() end
 
 ---@param type java.lang.Class 
----@param converter java.util.function.Function 
+---@param converter function 
 ---@public
 ---@return net.kyori.adventure.text.flattener.ComponentFlattener.Builder 
 function BuilderImpl:mapper(type, converter) end
 
 ---@param type java.lang.Class 
----@param converter java.util.function.BiConsumer 
+---@param converter function 
 ---@public
 ---@return net.kyori.adventure.text.flattener.ComponentFlattener.Builder 
 function BuilderImpl:complexMapper(type, converter) end
 
----@param converter java.util.function.Function 
+---@param converter function 
 ---@public
 ---@return net.kyori.adventure.text.flattener.ComponentFlattener.Builder 
 function BuilderImpl:unknownMapper(converter) end

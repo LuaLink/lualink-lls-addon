@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.lifecycle.event.types.TagEventTypeProvider
----@class io.papermc.paper.plugin.lifecycle.event.types.TagEventTypeProvider
+---@class io.papermc.paper.plugin.lifecycle.event.types.TagEventTypeProvider: java.lang.Object
 local TagEventTypeProvider = {}
 
 ---@param registryKey io.papermc.paper.registry.RegistryKey the registry key for the tag type

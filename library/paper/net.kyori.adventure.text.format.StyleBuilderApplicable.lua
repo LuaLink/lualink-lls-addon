@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.format.StyleBuilderApplicable
----@class net.kyori.adventure.text.format.StyleBuilderApplicable: net.kyori.adventure.text.ComponentBuilderApplicable
+---@class net.kyori.adventure.text.format.StyleBuilderApplicable: net.kyori.adventure.text.ComponentBuilderApplicable, java.lang.Object
 local StyleBuilderApplicable = {}
 
 ---@param style net.kyori.adventure.text.format.Style.Builder the style builder

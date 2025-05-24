@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.registry.tag.TagKey
----@class io.papermc.paper.registry.tag.TagKey: any
+---@class io.papermc.paper.registry.tag.TagKey: any, java.lang.Object
 local TagKey = {}
 
 ---@param registryKey io.papermc.paper.registry.RegistryKey the registry for the tag

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.set.RegistrySet
----@class io.papermc.paper.registry.set.RegistrySet
+---@class io.papermc.paper.registry.set.RegistrySet: java.lang.Object
 local RegistrySet = {}
 
 ---@param registryKey io.papermc.paper.registry.RegistryKey the registry key for the owner of these values

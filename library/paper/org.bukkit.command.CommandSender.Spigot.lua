@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.command.CommandSender.Spigot
----@class org.bukkit.command.CommandSender.Spigot
+---@class org.bukkit.command.CommandSender.Spigot: java.lang.Object
 local Spigot = {}
 
 ---@deprecated

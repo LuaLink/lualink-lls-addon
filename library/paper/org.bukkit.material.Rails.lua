@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Rails
----@class org.bukkit.material.Rails: org.bukkit.material.MaterialData
+---@class org.bukkit.material.Rails: org.bukkit.material.MaterialData, java.lang.Object
 ---@overload fun(): org.bukkit.material.Rails
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Rails
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Rails

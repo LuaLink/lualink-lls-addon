@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Openable
----@class org.bukkit.block.data.Openable: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.Openable: org.bukkit.block.data.BlockData, java.lang.Object
 local Openable = {}
 
 ---@public

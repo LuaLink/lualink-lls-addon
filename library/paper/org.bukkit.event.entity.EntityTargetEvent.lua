@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.EntityTargetEvent
----@class org.bukkit.event.entity.EntityTargetEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.EntityTargetEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private target org.bukkit.entity.Entity
 ---@field private reason org.bukkit.event.entity.EntityTargetEvent.TargetReason

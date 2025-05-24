@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.CatTypeRegistryEntry
----@class io.papermc.paper.registry.data.CatTypeRegistryEntry
+---@class io.papermc.paper.registry.data.CatTypeRegistryEntry: java.lang.Object
 ---@field public Builder io.papermc.paper.registry.data.CatTypeRegistryEntry.Builder
 local CatTypeRegistryEntry = {}
 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.entity.EntityKnockbackByEntityEvent
----@class com.destroystokyo.paper.event.entity.EntityKnockbackByEntityEvent: io.papermc.paper.event.entity.EntityPushedByEntityAttackEvent
+---@class com.destroystokyo.paper.event.entity.EntityKnockbackByEntityEvent: io.papermc.paper.event.entity.EntityPushedByEntityAttackEvent, java.lang.Object
 ---@field private knockbackStrength number
 ---@overload fun(entity: org.bukkit.entity.LivingEntity, hitBy: org.bukkit.entity.Entity, cause: io.papermc.paper.event.entity.EntityKnockbackEvent.Cause, knockbackStrength: number, knockback: org.bukkit.util.Vector): com.destroystokyo.paper.event.entity.EntityKnockbackByEntityEvent
 local EntityKnockbackByEntityEvent = {}

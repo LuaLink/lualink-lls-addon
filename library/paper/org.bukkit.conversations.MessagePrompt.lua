@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.MessagePrompt
----@class org.bukkit.conversations.MessagePrompt: org.bukkit.conversations.Prompt
+---@class org.bukkit.conversations.MessagePrompt: org.bukkit.conversations.Prompt, java.lang.Object
 ---@overload fun(): org.bukkit.conversations.MessagePrompt
 local MessagePrompt = {}
 

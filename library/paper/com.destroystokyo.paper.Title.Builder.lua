@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.Title.Builder
----@class com.destroystokyo.paper.Title.Builder
+---@class com.destroystokyo.paper.Title.Builder: java.lang.Object
 ---@field private title any
 ---@field private subtitle any
 ---@field private fadeIn number

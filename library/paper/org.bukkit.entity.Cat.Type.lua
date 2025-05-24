@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Cat.Type
----@class org.bukkit.entity.Cat.Type: org.bukkit.util.OldEnum, org.bukkit.Keyed
+---@class org.bukkit.entity.Cat.Type: org.bukkit.util.OldEnum, org.bukkit.Keyed, java.lang.Object
 ---@field public ALL_BLACK org.bukkit.entity.Cat.Type
 ---@field public BLACK org.bukkit.entity.Cat.Type
 ---@field public BRITISH_SHORTHAIR org.bukkit.entity.Cat.Type

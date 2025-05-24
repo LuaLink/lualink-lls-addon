@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.LongGrass
----@class org.bukkit.material.LongGrass: org.bukkit.material.MaterialData
+---@class org.bukkit.material.LongGrass: org.bukkit.material.MaterialData, java.lang.Object
 ---@overload fun(): org.bukkit.material.LongGrass
 ---@overload fun(species: org.bukkit.GrassSpecies): org.bukkit.material.LongGrass
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.LongGrass

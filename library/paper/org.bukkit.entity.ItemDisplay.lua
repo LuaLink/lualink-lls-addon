@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.ItemDisplay
----@class org.bukkit.entity.ItemDisplay: org.bukkit.entity.Display
+---@class org.bukkit.entity.ItemDisplay: org.bukkit.entity.Display, java.lang.Object
 ---@field public ItemDisplayTransform org.bukkit.entity.ItemDisplay.ItemDisplayTransform
 local ItemDisplay = {}
 

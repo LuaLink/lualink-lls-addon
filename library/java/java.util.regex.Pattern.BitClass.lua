@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.BitClass
----@class java.util.regex.Pattern.BitClass: java.util.regex.Pattern.BmpCharPredicate
+---@class java.util.regex.Pattern.BitClass: function, java.lang.Object
 ---@field public bits boolean
 ---@overload fun(): java.util.regex.Pattern.BitClass
 local BitClass = {}

@@ -1,35 +1,35 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.Index
----@class net.kyori.adventure.util.Index
+---@class net.kyori.adventure.util.Index: java.lang.Object
 ---@field private keyToValue java.util.Map
 ---@field private valueToKey java.util.Map
 ---@overload fun(keyToValue: java.util.Map, valueToKey: java.util.Map): net.kyori.adventure.util.Index
 local Index = {}
 
 ---@param type java.lang.Class the value type
----@param keyFunction java.util.function.Function the key function
+---@param keyFunction function the key function
 ---@public
 ---@return net.kyori.adventure.util.Index the key map
 --- Creates an index map.
 function Index:create(type, keyFunction) end
 
 ---@param type java.lang.Class the value type
----@param keyFunction java.util.function.Function the key function
+---@param keyFunction function the key function
 ---@param values V the values
 ---@public
 ---@return net.kyori.adventure.util.Index the key map
 --- Creates an index map.
 function Index:create(type, keyFunction, values) end
 
----@param keyFunction java.util.function.Function the key function
+---@param keyFunction function the key function
 ---@param values V the values
 ---@public
 ---@return net.kyori.adventure.util.Index the key map
 --- Creates an index map.
 function Index:create(keyFunction, values) end
 
----@param keyFunction java.util.function.Function the key function
+---@param keyFunction function the key function
 ---@param constants java.util.List the constants
 ---@public
 ---@return net.kyori.adventure.util.Index the key map
@@ -37,15 +37,15 @@ function Index:create(keyFunction, values) end
 function Index:create(keyFunction, constants) end
 
 ---@param values table<V> 
----@param valueToKeyFactory java.util.function.IntFunction 
----@param keyFunction java.util.function.Function 
+---@param valueToKeyFactory function 
+---@param keyFunction function 
 ---@private
 ---@return net.kyori.adventure.util.Index 
 function Index:create(values, valueToKeyFactory, keyFunction) end
 
 ---@param values java.util.List 
----@param valueToKeyFactory java.util.function.IntFunction 
----@param keyFunction java.util.function.Function 
+---@param valueToKeyFactory function 
+---@param keyFunction function 
 ---@private
 ---@return net.kyori.adventure.util.Index 
 function Index:create(values, valueToKeyFactory, keyFunction) end

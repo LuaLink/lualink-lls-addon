@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.generator.ChunkGenerator.BiomeGrid
----@class org.bukkit.generator.ChunkGenerator.BiomeGrid
+---@class org.bukkit.generator.ChunkGenerator.BiomeGrid: java.lang.Object
 local BiomeGrid = {}
 
 ---@deprecated

@@ -1,11 +1,11 @@
 ---@meta
 -- net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl
----@class net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl: net.kyori.adventure.text.logger.slf4j.ComponentLogger
+---@class net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl: net.kyori.adventure.text.logger.slf4j.ComponentLogger, java.lang.Object
 ---@field private FQCN string
 ---@field private logger any
 ---@field private isLocationAware boolean
----@field private serializer java.util.function.Function
----@overload fun(backing: any, serializer: java.util.function.Function): net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl
+---@field private serializer function
+---@overload fun(backing: any, serializer: function): net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl
 local WrappingComponentLoggerImpl = {}
 
 ---@param input net.kyori.adventure.text.Component 

@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.AbstractNBTComponentBuilder
----@class net.kyori.adventure.text.AbstractNBTComponentBuilder: net.kyori.adventure.text.AbstractComponentBuilder, net.kyori.adventure.text.NBTComponentBuilder
+---@class net.kyori.adventure.text.AbstractNBTComponentBuilder: net.kyori.adventure.text.AbstractComponentBuilder, net.kyori.adventure.text.NBTComponentBuilder, java.lang.Object
 ---@field protected nbtPath string
 ---@field protected interpret boolean
 ---@field protected separator net.kyori.adventure.text.Component

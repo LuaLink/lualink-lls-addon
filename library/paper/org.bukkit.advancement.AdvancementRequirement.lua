@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.advancement.AdvancementRequirement
----@class org.bukkit.advancement.AdvancementRequirement
+---@class org.bukkit.advancement.AdvancementRequirement: java.lang.Object
 local AdvancementRequirement = {}
 
 ---@public

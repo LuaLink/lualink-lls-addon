@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- co.aikar.timings.TimingData
----@class co.aikar.timings.TimingData
+---@class co.aikar.timings.TimingData: java.lang.Object
 ---@field private id number
 ---@field private count number
 ---@field private lagCount number

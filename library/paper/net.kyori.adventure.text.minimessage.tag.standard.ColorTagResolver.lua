@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.ColorTagResolver
----@class net.kyori.adventure.text.minimessage.tag.standard.ColorTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver.Single
+---@class net.kyori.adventure.text.minimessage.tag.standard.ColorTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver.Single, java.lang.Object
 ---@field private HEX string
 ---@field private COLOR_3 string
 ---@field private COLOR_2 string

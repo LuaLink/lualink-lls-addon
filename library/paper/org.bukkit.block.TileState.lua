@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.TileState
----@class org.bukkit.block.TileState: org.bukkit.block.BlockState, org.bukkit.persistence.PersistentDataHolder
+---@class org.bukkit.block.TileState: org.bukkit.block.BlockState, org.bukkit.persistence.PersistentDataHolder, java.lang.Object
 local TileState = {}
 
 ---@public

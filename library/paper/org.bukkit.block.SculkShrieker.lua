@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.SculkShrieker
----@class org.bukkit.block.SculkShrieker: org.bukkit.block.TileState
+---@class org.bukkit.block.SculkShrieker: org.bukkit.block.TileState, java.lang.Object
 local SculkShrieker = {}
 
 ---@public

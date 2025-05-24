@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.event.RegistryEvents
----@class io.papermc.paper.registry.event.RegistryEvents
+---@class io.papermc.paper.registry.event.RegistryEvents: java.lang.Object
 ---@field public GAME_EVENT io.papermc.paper.registry.event.RegistryEventProvider
 ---@field public DAMAGE_TYPE io.papermc.paper.registry.event.RegistryEventProvider
 ---@field public WOLF_VARIANT io.papermc.paper.registry.event.RegistryEventProvider

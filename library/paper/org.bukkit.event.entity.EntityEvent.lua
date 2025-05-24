@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.EntityEvent
----@class org.bukkit.event.entity.EntityEvent: org.bukkit.event.Event
+---@class org.bukkit.event.entity.EntityEvent: org.bukkit.event.Event, java.lang.Object
 ---@field protected entity org.bukkit.entity.Entity
 ---@overload fun(entity: org.bukkit.entity.Entity): org.bukkit.event.entity.EntityEvent
 local EntityEvent = {}

@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.Tameable
----@class org.bukkit.entity.Tameable: org.bukkit.entity.Animals
+---@class org.bukkit.entity.Tameable: org.bukkit.entity.Animals, java.lang.Object
 local Tameable = {}
 
 ---@public

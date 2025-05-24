@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse.Builder
----@class com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse.Builder
+---@class com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse.Builder: java.lang.Object
 ---@field private motd string
 ---@field private gameVersion string
 ---@field private map string

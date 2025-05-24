@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerItemConsumeEvent
----@class org.bukkit.event.player.PlayerItemConsumeEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.player.PlayerItemConsumeEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field private item org.bukkit.inventory.ItemStack

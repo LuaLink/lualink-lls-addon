@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.ValidatingPrompt
----@class org.bukkit.conversations.ValidatingPrompt: org.bukkit.conversations.Prompt
+---@class org.bukkit.conversations.ValidatingPrompt: org.bukkit.conversations.Prompt, java.lang.Object
 ---@overload fun(): org.bukkit.conversations.ValidatingPrompt
 local ValidatingPrompt = {}
 

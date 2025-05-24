@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datapack.DatapackRegistrar.Configurer
----@class io.papermc.paper.datapack.DatapackRegistrar.Configurer
+---@class io.papermc.paper.datapack.DatapackRegistrar.Configurer: java.lang.Object
 local Configurer = {}
 
 ---@param title net.kyori.adventure.text.Component the new title

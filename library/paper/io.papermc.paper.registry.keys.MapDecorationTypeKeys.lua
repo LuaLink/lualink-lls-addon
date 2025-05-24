@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.MapDecorationTypeKeys
----@class io.papermc.paper.registry.keys.MapDecorationTypeKeys
+---@class io.papermc.paper.registry.keys.MapDecorationTypeKeys: java.lang.Object
 ---@field public BANNER_BLACK io.papermc.paper.registry.TypedKey
 ---@field public BANNER_BLUE io.papermc.paper.registry.TypedKey
 ---@field public BANNER_BROWN io.papermc.paper.registry.TypedKey

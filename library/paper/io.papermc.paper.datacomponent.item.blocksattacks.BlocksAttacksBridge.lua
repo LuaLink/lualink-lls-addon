@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.blocksattacks.BlocksAttacksBridge
----@class io.papermc.paper.datacomponent.item.blocksattacks.BlocksAttacksBridge
+---@class io.papermc.paper.datacomponent.item.blocksattacks.BlocksAttacksBridge: java.lang.Object
 ---@field public BRIDGE java.util.Optional
 local BlocksAttacksBridge = {}
 

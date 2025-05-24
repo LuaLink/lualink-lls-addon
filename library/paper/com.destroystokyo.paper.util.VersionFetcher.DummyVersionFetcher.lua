@@ -1,6 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.util.VersionFetcher.DummyVersionFetcher
----@class com.destroystokyo.paper.util.VersionFetcher.DummyVersionFetcher: com.destroystokyo.paper.util.VersionFetcher
+---@class com.destroystokyo.paper.util.VersionFetcher.DummyVersionFetcher: com.destroystokyo.paper.util.VersionFetcher, java.lang.Object
 local DummyVersionFetcher = {}
 
 ---@public

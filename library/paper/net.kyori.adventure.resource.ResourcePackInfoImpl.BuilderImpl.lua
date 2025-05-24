@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.resource.ResourcePackInfoImpl.BuilderImpl
----@class net.kyori.adventure.resource.ResourcePackInfoImpl.BuilderImpl: net.kyori.adventure.resource.ResourcePackInfo.Builder
+---@class net.kyori.adventure.resource.ResourcePackInfoImpl.BuilderImpl: net.kyori.adventure.resource.ResourcePackInfo.Builder, java.lang.Object
 ---@field private id java.util.UUID
 ---@field private uri java.net.URI
 ---@field private hash string

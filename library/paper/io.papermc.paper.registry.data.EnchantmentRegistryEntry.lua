@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.EnchantmentRegistryEntry
----@class io.papermc.paper.registry.data.EnchantmentRegistryEntry
+---@class io.papermc.paper.registry.data.EnchantmentRegistryEntry: java.lang.Object
 ---@field public Builder io.papermc.paper.registry.data.EnchantmentRegistryEntry.Builder
 ---@field public EnchantmentCost io.papermc.paper.registry.data.EnchantmentRegistryEntry.EnchantmentCost
 local EnchantmentRegistryEntry = {}

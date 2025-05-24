@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.server.ServerListPingEvent
----@class org.bukkit.event.server.ServerListPingEvent: org.bukkit.event.server.ServerEvent, java.lang.Iterable
+---@class org.bukkit.event.server.ServerListPingEvent: org.bukkit.event.server.ServerEvent, java.lang.Iterable, java.lang.Object
 ---@field private MAGIC_PLAYER_COUNT number
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private hostname string

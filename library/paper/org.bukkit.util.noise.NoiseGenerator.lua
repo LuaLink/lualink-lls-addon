@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.noise.NoiseGenerator
----@class org.bukkit.util.noise.NoiseGenerator
+---@class org.bukkit.util.noise.NoiseGenerator: java.lang.Object
 ---@field protected perm number
 ---@field protected offsetX number
 ---@field protected offsetY number

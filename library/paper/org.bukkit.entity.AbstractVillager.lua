@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.AbstractVillager
----@class org.bukkit.entity.AbstractVillager: org.bukkit.entity.Breedable, org.bukkit.entity.NPC, org.bukkit.inventory.InventoryHolder, org.bukkit.inventory.Merchant
+---@class org.bukkit.entity.AbstractVillager: org.bukkit.entity.Breedable, org.bukkit.entity.NPC, org.bukkit.inventory.InventoryHolder, org.bukkit.inventory.Merchant, java.lang.Object
 local AbstractVillager = {}
 
 ---@public

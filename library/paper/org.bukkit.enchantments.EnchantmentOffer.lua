@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.enchantments.EnchantmentOffer
----@class org.bukkit.enchantments.EnchantmentOffer
+---@class org.bukkit.enchantments.EnchantmentOffer: java.lang.Object
 ---@field private enchantment org.bukkit.enchantments.Enchantment
 ---@field private enchantmentLevel number
 ---@field private cost number

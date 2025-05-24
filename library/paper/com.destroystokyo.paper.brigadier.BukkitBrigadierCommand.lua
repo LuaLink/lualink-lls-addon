@@ -1,6 +1,6 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.brigadier.BukkitBrigadierCommand
----@class com.destroystokyo.paper.brigadier.BukkitBrigadierCommand: any, java.util.function.Predicate, any
+---@class com.destroystokyo.paper.brigadier.BukkitBrigadierCommand: any, function, any, java.lang.Object
 local BukkitBrigadierCommand = {}
 

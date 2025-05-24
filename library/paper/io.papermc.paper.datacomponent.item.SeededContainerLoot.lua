@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.SeededContainerLoot
----@class io.papermc.paper.datacomponent.item.SeededContainerLoot
+---@class io.papermc.paper.datacomponent.item.SeededContainerLoot: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.SeededContainerLoot.Builder
 local SeededContainerLoot = {}
 

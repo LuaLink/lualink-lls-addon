@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.sign.SignSide
----@class org.bukkit.block.sign.SignSide: org.bukkit.material.Colorable
+---@class org.bukkit.block.sign.SignSide: org.bukkit.material.Colorable, java.lang.Object
 local SignSide = {}
 
 ---@public

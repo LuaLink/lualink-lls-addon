@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.entity.EntityAttemptSmashAttackEvent
----@class io.papermc.paper.event.entity.EntityAttemptSmashAttackEvent: org.bukkit.event.entity.EntityEvent
+---@class io.papermc.paper.event.entity.EntityAttemptSmashAttackEvent: org.bukkit.event.entity.EntityEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private target org.bukkit.entity.LivingEntity
 ---@field private weapon org.bukkit.inventory.ItemStack

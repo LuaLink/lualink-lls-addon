@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.spawner.SpawnerEntry
----@class org.bukkit.block.spawner.SpawnerEntry
+---@class org.bukkit.block.spawner.SpawnerEntry: java.lang.Object
 ---@field private snapshot org.bukkit.entity.EntitySnapshot
 ---@field private spawnWeight number
 ---@field private spawnRule org.bukkit.block.spawner.SpawnRule

@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.TranslationArgumentImpl
----@class net.kyori.adventure.text.TranslationArgumentImpl: net.kyori.adventure.text.TranslationArgument
+---@class net.kyori.adventure.text.TranslationArgumentImpl: net.kyori.adventure.text.TranslationArgument, java.lang.Object
 ---@field private TRUE net.kyori.adventure.text.Component
 ---@field private FALSE net.kyori.adventure.text.Component
 ---@field private value java.lang.Object

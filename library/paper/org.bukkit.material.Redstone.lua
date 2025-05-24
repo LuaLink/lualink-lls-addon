@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Redstone
----@class org.bukkit.material.Redstone
+---@class org.bukkit.material.Redstone: java.lang.Object
 local Redstone = {}
 
 ---@public

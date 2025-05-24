@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.event.executor.EventExecutorFactory
----@class io.papermc.paper.event.executor.EventExecutorFactory
+---@class io.papermc.paper.event.executor.EventExecutorFactory: java.lang.Object
 ---@field private TEMPLATE_CLASS_BYTES number
 ---@overload fun(): io.papermc.paper.event.executor.EventExecutorFactory
 local EventExecutorFactory = {}

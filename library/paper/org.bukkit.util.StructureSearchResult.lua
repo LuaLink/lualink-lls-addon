@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.StructureSearchResult
----@class org.bukkit.util.StructureSearchResult
+---@class org.bukkit.util.StructureSearchResult: java.lang.Object
 local StructureSearchResult = {}
 
 ---@public

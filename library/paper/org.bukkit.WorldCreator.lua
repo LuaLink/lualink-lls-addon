@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.WorldCreator
----@class org.bukkit.WorldCreator
+---@class org.bukkit.WorldCreator: java.lang.Object
 ---@field private key org.bukkit.NamespacedKey
 ---@field private name string
 ---@field private seed number

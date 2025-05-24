@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Note
----@class org.bukkit.Note
+---@class org.bukkit.Note: java.lang.Object
 ---@field private pitchArray number
 ---@field private note number
 ---@field public Tone org.bukkit.Note.Tone

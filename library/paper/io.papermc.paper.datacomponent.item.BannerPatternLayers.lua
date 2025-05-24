@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.BannerPatternLayers
----@class io.papermc.paper.datacomponent.item.BannerPatternLayers
+---@class io.papermc.paper.datacomponent.item.BannerPatternLayers: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.BannerPatternLayers.Builder
 local BannerPatternLayers = {}
 

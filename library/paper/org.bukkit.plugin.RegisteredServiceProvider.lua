@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.RegisteredServiceProvider
----@class org.bukkit.plugin.RegisteredServiceProvider: java.lang.Comparable
+---@class org.bukkit.plugin.RegisteredServiceProvider: java.lang.Comparable, java.lang.Object
 ---@field private service java.lang.Class
 ---@field private plugin org.bukkit.plugin.Plugin
 ---@field private provider T

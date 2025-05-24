@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.MapMeta
----@class org.bukkit.inventory.meta.MapMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.MapMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local MapMeta = {}
 
 ---@public

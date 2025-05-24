@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Dropper
----@class org.bukkit.block.Dropper: org.bukkit.block.Container, com.destroystokyo.paper.loottable.LootableBlockInventory
+---@class org.bukkit.block.Dropper: org.bukkit.block.Container, com.destroystokyo.paper.loottable.LootableBlockInventory, java.lang.Object
 local Dropper = {}
 
 ---@public

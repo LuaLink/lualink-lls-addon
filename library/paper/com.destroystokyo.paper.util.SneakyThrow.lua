@@ -1,6 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.util.SneakyThrow
----@class com.destroystokyo.paper.util.SneakyThrow
+---@class com.destroystokyo.paper.util.SneakyThrow: java.lang.Object
 local SneakyThrow = {}
 
 ---@param exception java.lang.Throwable 

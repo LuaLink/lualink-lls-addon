@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.inventory.FurnaceExtractEvent
----@class org.bukkit.event.inventory.FurnaceExtractEvent: org.bukkit.event.block.BlockExpEvent
+---@class org.bukkit.event.inventory.FurnaceExtractEvent: org.bukkit.event.block.BlockExpEvent, java.lang.Object
 ---@field private player org.bukkit.entity.Player
 ---@field private itemType org.bukkit.Material
 ---@field private itemAmount number

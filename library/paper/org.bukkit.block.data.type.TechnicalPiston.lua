@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.TechnicalPiston
----@class org.bukkit.block.data.type.TechnicalPiston: org.bukkit.block.data.Directional
+---@class org.bukkit.block.data.type.TechnicalPiston: org.bukkit.block.data.Directional, java.lang.Object
 ---@field public Type org.bukkit.block.data.type.TechnicalPiston.Type
 local TechnicalPiston = {}
 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.boss.DragonBattle
----@class org.bukkit.boss.DragonBattle
+---@class org.bukkit.boss.DragonBattle: java.lang.Object
 ---@field public RespawnPhase org.bukkit.boss.DragonBattle.RespawnPhase
 local DragonBattle = {}
 

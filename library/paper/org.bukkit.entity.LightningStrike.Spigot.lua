@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.LightningStrike.Spigot
----@class org.bukkit.entity.LightningStrike.Spigot: org.bukkit.entity.Entity.Spigot
+---@class org.bukkit.entity.LightningStrike.Spigot: org.bukkit.entity.Entity.Spigot, java.lang.Object
 local Spigot = {}
 
 ---@deprecated

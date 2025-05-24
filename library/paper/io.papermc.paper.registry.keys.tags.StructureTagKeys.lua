@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.tags.StructureTagKeys
----@class io.papermc.paper.registry.keys.tags.StructureTagKeys
+---@class io.papermc.paper.registry.keys.tags.StructureTagKeys: java.lang.Object
 ---@field public CATS_SPAWN_AS_BLACK io.papermc.paper.registry.tag.TagKey
 ---@field public CATS_SPAWN_IN io.papermc.paper.registry.tag.TagKey
 ---@field public DOLPHIN_LOCATED io.papermc.paper.registry.tag.TagKey

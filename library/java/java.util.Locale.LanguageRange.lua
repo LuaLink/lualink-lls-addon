@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Locale.LanguageRange
----@class java.util.Locale.LanguageRange
+---@class java.util.Locale.LanguageRange: java.lang.Object
 ---@field public MAX_WEIGHT number
 ---@field public MIN_WEIGHT number
 ---@field private range string

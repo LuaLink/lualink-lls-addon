@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.MiniMessageParser
----@class net.kyori.adventure.text.minimessage.MiniMessageParser
+---@class net.kyori.adventure.text.minimessage.MiniMessageParser: java.lang.Object
 ---@field public tagResolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@overload fun(): net.kyori.adventure.text.minimessage.MiniMessageParser
 ---@overload fun(tagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver): net.kyori.adventure.text.minimessage.MiniMessageParser
@@ -28,7 +28,7 @@ function MiniMessageParser:stripTokens(richMessage, context) end
 ---@param sb java.lang.StringBuilder 
 ---@param richMessage string 
 ---@param context net.kyori.adventure.text.minimessage.ContextImpl 
----@param tagHandler java.util.function.BiConsumer 
+---@param tagHandler function 
 ---@private
 ---@return nil 
 function MiniMessageParser:processTokens(sb, richMessage, context, tagHandler) end

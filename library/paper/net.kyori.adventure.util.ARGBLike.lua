@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.ARGBLike
----@class net.kyori.adventure.util.ARGBLike: net.kyori.adventure.util.RGBLike
+---@class net.kyori.adventure.util.ARGBLike: net.kyori.adventure.util.RGBLike, java.lang.Object
 local ARGBLike = {}
 
 ---@public

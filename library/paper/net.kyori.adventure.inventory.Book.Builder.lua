@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.inventory.Book.Builder
----@class net.kyori.adventure.inventory.Book.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder
+---@class net.kyori.adventure.inventory.Book.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.util.Buildable.Builder, java.lang.Object
 local Builder = {}
 
 ---@param title net.kyori.adventure.text.Component the title

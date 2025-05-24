@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.IntFunction2
----@class net.kyori.adventure.util.IntFunction2
+---@class net.kyori.adventure.util.IntFunction2: java.lang.Object
 local IntFunction2 = {}
 
 ---@param first number the first input argument

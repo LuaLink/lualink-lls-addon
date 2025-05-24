@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.HashMap.HashIterator
----@class java.util.HashMap.HashIterator
+---@class java.util.HashMap.HashIterator: java.lang.Object
 ---@field public next java.util.HashMap.Node
 ---@field public current java.util.HashMap.Node
 ---@field public expectedModCount number

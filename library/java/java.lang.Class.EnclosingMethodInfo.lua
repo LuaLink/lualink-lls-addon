@@ -1,6 +1,6 @@
 ---@meta
 -- java.lang.Class.EnclosingMethodInfo
----@class java.lang.Class.EnclosingMethodInfo
+---@class java.lang.Class.EnclosingMethodInfo: java.lang.Object
 ---@field private enclosingClass java.lang.Class
 ---@field private name string
 ---@field private descriptor string

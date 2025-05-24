@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.provider.entrypoint.DependencyContext
----@class io.papermc.paper.plugin.provider.entrypoint.DependencyContext
+---@class io.papermc.paper.plugin.provider.entrypoint.DependencyContext: java.lang.Object
 local DependencyContext = {}
 
 ---@param plugin io.papermc.paper.plugin.configuration.PluginMeta the plugin meta this computation should consider the requester of the dependency status for the               passed potential dependency.

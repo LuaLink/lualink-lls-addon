@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Crafter
----@class org.bukkit.block.Crafter: org.bukkit.block.Container, com.destroystokyo.paper.loottable.LootableBlockInventory
+---@class org.bukkit.block.Crafter: org.bukkit.block.Container, com.destroystokyo.paper.loottable.LootableBlockInventory, java.lang.Object
 local Crafter = {}
 
 ---@public

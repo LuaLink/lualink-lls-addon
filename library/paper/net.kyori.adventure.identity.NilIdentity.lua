@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.identity.NilIdentity
----@class net.kyori.adventure.identity.NilIdentity: net.kyori.adventure.identity.Identity
+---@class net.kyori.adventure.identity.NilIdentity: net.kyori.adventure.identity.Identity, java.lang.Object
 ---@field public NIL_UUID java.util.UUID
 ---@field public INSTANCE net.kyori.adventure.identity.Identity
 local NilIdentity = {}

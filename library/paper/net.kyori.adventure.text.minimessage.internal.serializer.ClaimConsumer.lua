@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.serializer.ClaimConsumer
----@class net.kyori.adventure.text.minimessage.internal.serializer.ClaimConsumer
+---@class net.kyori.adventure.text.minimessage.internal.serializer.ClaimConsumer: java.lang.Object
 local ClaimConsumer = {}
 
 ---@param claimKey string an identifier for the style element being claimed

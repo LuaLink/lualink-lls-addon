@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datapack.DiscoveredDatapack
----@class io.papermc.paper.datapack.DiscoveredDatapack
+---@class io.papermc.paper.datapack.DiscoveredDatapack: java.lang.Object
 local DiscoveredDatapack = {}
 
 ---@public

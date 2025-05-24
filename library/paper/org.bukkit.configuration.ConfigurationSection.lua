@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.configuration.ConfigurationSection
----@class org.bukkit.configuration.ConfigurationSection
+---@class org.bukkit.configuration.ConfigurationSection: java.lang.Object
 local ConfigurationSection = {}
 
 ---@param deep boolean Whether or not to get a deep list, as opposed to a shallow     list.

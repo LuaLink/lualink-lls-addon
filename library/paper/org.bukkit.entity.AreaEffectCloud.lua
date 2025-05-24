@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.AreaEffectCloud
----@class org.bukkit.entity.AreaEffectCloud: org.bukkit.entity.Entity
+---@class org.bukkit.entity.AreaEffectCloud: org.bukkit.entity.Entity, java.lang.Object
 local AreaEffectCloud = {}
 
 ---@public

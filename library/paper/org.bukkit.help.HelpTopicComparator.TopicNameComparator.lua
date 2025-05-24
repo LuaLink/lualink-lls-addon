@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.help.HelpTopicComparator.TopicNameComparator
----@class org.bukkit.help.HelpTopicComparator.TopicNameComparator: java.util.Comparator
+---@class org.bukkit.help.HelpTopicComparator.TopicNameComparator: java.util.Comparator, java.lang.Object
 ---@overload fun(): org.bukkit.help.HelpTopicComparator.TopicNameComparator
 local TopicNameComparator = {}
 

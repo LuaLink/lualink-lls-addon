@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Server
----@class org.bukkit.Server: org.bukkit.plugin.messaging.PluginMessageRecipient, net.kyori.adventure.audience.ForwardingAudience
+---@class org.bukkit.Server: org.bukkit.plugin.messaging.PluginMessageRecipient, net.kyori.adventure.audience.ForwardingAudience, java.lang.Object
 ---@field public BROADCAST_CHANNEL_ADMINISTRATIVE string
 ---@field public BROADCAST_CHANNEL_USERS string
 ---@field public Spigot org.bukkit.Server.Spigot
@@ -755,7 +755,7 @@ function Server:setDefaultGameMode(mode) end
 --- Gets a {@link ConsoleCommandSender} that may be used as an input source for this server.
 function Server:getConsoleSender() end
 
----@param feedback java.util.function.Consumer feedback listener
+---@param feedback function feedback listener
 ---@public
 ---@return org.bukkit.command.CommandSender a command sender
 --- Creates a special {@link CommandSender} which redirects command feedback (in the form of chat messages) to the specified listener. The returned sender will have the same effective permissions as {@link #getConsoleSender()}.
@@ -1091,7 +1091,7 @@ function Server:advancementIterator() end
 function Server:createBlockData(material) end
 
 ---@param material org.bukkit.Material the material
----@param consumer java.util.function.Consumer consumer to run on new instance before returning
+---@param consumer function consumer to run on new instance before returning
 ---@public
 ---@return org.bukkit.block.data.BlockData new data instance
 --- Creates a new {@link BlockData} instance for the specified Material, with all properties initialized to unspecified defaults.

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.concurrent.CompletableFuture.MinimalStage
----@class java.util.concurrent.CompletableFuture.MinimalStage: java.util.concurrent.CompletableFuture
+---@class java.util.concurrent.CompletableFuture.MinimalStage: java.util.concurrent.CompletableFuture, java.lang.Object
 ---@overload fun(): java.util.concurrent.CompletableFuture.MinimalStage
 ---@overload fun(r: java.lang.Object): java.util.concurrent.CompletableFuture.MinimalStage
 local MinimalStage = {}
@@ -83,14 +83,14 @@ function MinimalStage:state() end
 function MinimalStage:getNumberOfDependents() end
 
 ---@async
----@param supplier java.util.function.Supplier 
+---@param supplier function 
 ---@param executor java.util.concurrent.Executor 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function MinimalStage:completeAsync(supplier, executor) end
 
 ---@async
----@param supplier java.util.function.Supplier 
+---@param supplier function 
 ---@public
 ---@return java.util.concurrent.CompletableFuture 
 function MinimalStage:completeAsync(supplier) end

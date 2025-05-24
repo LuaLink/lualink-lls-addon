@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Ghast
----@class org.bukkit.entity.Ghast: org.bukkit.entity.Flying, org.bukkit.entity.Enemy
+---@class org.bukkit.entity.Ghast: org.bukkit.entity.Flying, org.bukkit.entity.Enemy, java.lang.Object
 local Ghast = {}
 
 ---@public

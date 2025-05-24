@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.WitherSkull
----@class org.bukkit.entity.WitherSkull: org.bukkit.entity.Fireball
+---@class org.bukkit.entity.WitherSkull: org.bukkit.entity.Fireball, java.lang.Object
 local WitherSkull = {}
 
 ---@param charged boolean whether it should be charged

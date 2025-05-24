@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.node.TagNode
----@class net.kyori.adventure.text.minimessage.internal.parser.node.TagNode: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode
+---@class net.kyori.adventure.text.minimessage.internal.parser.node.TagNode: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode, java.lang.Object
 ---@field private parts java.util.List
 ---@field private tag net.kyori.adventure.text.minimessage.tag.Tag
 ---@overload fun(parent: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode, token: net.kyori.adventure.text.minimessage.internal.parser.Token, sourceMessage: string, tagProvider: net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider): net.kyori.adventure.text.minimessage.internal.parser.node.TagNode

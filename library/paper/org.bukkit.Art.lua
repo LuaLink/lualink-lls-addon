@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Art
----@class org.bukkit.Art: org.bukkit.util.OldEnum, org.bukkit.Keyed
+---@class org.bukkit.Art: org.bukkit.util.OldEnum, org.bukkit.Keyed, java.lang.Object
 ---@field public ALBAN org.bukkit.Art
 ---@field public AZTEC org.bukkit.Art
 ---@field public AZTEC2 org.bukkit.Art
@@ -54,7 +54,7 @@
 ---@field public WITHER org.bukkit.Art
 local Art = {}
 
----@param value java.util.function.Consumer a consumer for the builder factory
+---@param value function a consumer for the builder factory
 ---@public
 ---@return org.bukkit.Art the created painting variant
 --- Create an inlined painting variant.

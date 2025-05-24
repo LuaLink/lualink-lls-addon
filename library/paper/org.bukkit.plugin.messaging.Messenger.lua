@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.messaging.Messenger
----@class org.bukkit.plugin.messaging.Messenger
+---@class org.bukkit.plugin.messaging.Messenger: java.lang.Object
 ---@field public MAX_MESSAGE_SIZE number
 ---@field public MAX_CHANNEL_SIZE number
 local Messenger = {}

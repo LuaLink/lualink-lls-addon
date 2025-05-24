@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.ServerTickManager
----@class org.bukkit.ServerTickManager
+---@class org.bukkit.ServerTickManager: java.lang.Object
 local ServerTickManager = {}
 
 ---@public

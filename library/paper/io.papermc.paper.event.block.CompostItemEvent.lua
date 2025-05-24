@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.block.CompostItemEvent
----@class io.papermc.paper.event.block.CompostItemEvent: org.bukkit.event.block.BlockEvent
+---@class io.papermc.paper.event.block.CompostItemEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private item org.bukkit.inventory.ItemStack
 ---@field private willRaiseLevel boolean

@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.inventory.meta.BookMeta.BookMetaBuilder
----@class org.bukkit.inventory.meta.BookMeta.BookMetaBuilder: net.kyori.adventure.inventory.Book.Builder
+---@class org.bukkit.inventory.meta.BookMeta.BookMetaBuilder: net.kyori.adventure.inventory.Book.Builder, java.lang.Object
 local BookMetaBuilder = {}
 
 ---@param title? net.kyori.adventure.text.Component 

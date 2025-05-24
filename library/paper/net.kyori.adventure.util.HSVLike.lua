@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.HSVLike
----@class net.kyori.adventure.util.HSVLike: any
+---@class net.kyori.adventure.util.HSVLike: any, java.lang.Object
 local HSVLike = {}
 
 ---@param h number hue color component

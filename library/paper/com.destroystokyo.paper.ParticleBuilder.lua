@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.ParticleBuilder
----@class com.destroystokyo.paper.ParticleBuilder: java.lang.Cloneable
+---@class com.destroystokyo.paper.ParticleBuilder: java.lang.Cloneable, java.lang.Object
 ---@field private particle org.bukkit.Particle
 ---@field private receivers java.util.List
 ---@field private source org.bukkit.entity.Player

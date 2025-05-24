@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.MenuType.Typed
----@class org.bukkit.inventory.MenuType.Typed: org.bukkit.inventory.MenuType
+---@class org.bukkit.inventory.MenuType.Typed: org.bukkit.inventory.MenuType, java.lang.Object
 local Typed = {}
 
 ---@param player org.bukkit.entity.HumanEntity the player the view belongs to

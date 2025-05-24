@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.format.ShadowColor
----@class net.kyori.adventure.text.format.ShadowColor: net.kyori.adventure.text.format.StyleBuilderApplicable, net.kyori.adventure.util.ARGBLike
+---@class net.kyori.adventure.text.format.ShadowColor: net.kyori.adventure.text.format.StyleBuilderApplicable, net.kyori.adventure.util.ARGBLike, java.lang.Object
 local ShadowColor = {}
 
 ---@param t number the interpolation value, between {@code 0.0} and {@code 1.0} (both inclusive)

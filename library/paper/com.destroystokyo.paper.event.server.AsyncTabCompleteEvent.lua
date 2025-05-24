@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.server.AsyncTabCompleteEvent
----@class com.destroystokyo.paper.event.server.AsyncTabCompleteEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.server.AsyncTabCompleteEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private sender org.bukkit.command.CommandSender
 ---@field private buffer string
@@ -30,7 +30,7 @@ function AsyncTabCompleteEvent:getCompletions() end
 ---@param completions java.util.List the new completions
 ---@public
 ---@return nil 
---- Set the completions offered, overriding any already set. If this collection is not empty after the event is fired, then the standard process of calling {@link Command#tabComplete(CommandSender, String, String[])} or current player names will not be called. <p> The passed collection will be cloned to a new {@code List}. You must call {{@link #getCompletions()}} to mutate from here
+--- Set the completions offered, overriding any already set. If this collection is not empty after the event is fired, then the standard process of calling {@link Command#tabComplete(CommandSender, String, String[])} or current player names will not be called. <p> The passed collection will be cloned to a new {@code List}. You must call {@link #getCompletions()} to mutate from here
 function AsyncTabCompleteEvent:setCompletions(completions) end
 
 ---@public

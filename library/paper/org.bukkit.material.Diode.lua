@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Diode
----@class org.bukkit.material.Diode: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Redstone
+---@class org.bukkit.material.Diode: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Redstone, java.lang.Object
 ---@field protected DEFAULT_DIRECTION org.bukkit.block.BlockFace
 ---@field protected DEFAULT_DELAY number
 ---@field protected DEFAULT_STATE boolean

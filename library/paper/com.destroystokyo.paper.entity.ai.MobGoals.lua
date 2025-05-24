@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.entity.ai.MobGoals
----@class com.destroystokyo.paper.entity.ai.MobGoals
+---@class com.destroystokyo.paper.entity.ai.MobGoals: java.lang.Object
 local MobGoals = {}
 
 ---@param mob T 

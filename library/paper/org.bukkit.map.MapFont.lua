@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.map.MapFont
----@class org.bukkit.map.MapFont
+---@class org.bukkit.map.MapFont: java.lang.Object
 ---@field private chars java.util.HashMap
 ---@field private height number
 ---@field protected malleable boolean

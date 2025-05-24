@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerInteractEntityEvent
----@class org.bukkit.event.player.PlayerInteractEntityEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.player.PlayerInteractEntityEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field protected clickedEntity org.bukkit.entity.Entity
 ---@field private hand org.bukkit.inventory.EquipmentSlot

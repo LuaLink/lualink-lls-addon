@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Furnace
----@class org.bukkit.material.Furnace: org.bukkit.material.FurnaceAndDispenser
+---@class org.bukkit.material.Furnace: org.bukkit.material.FurnaceAndDispenser, java.lang.Object
 ---@overload fun(): org.bukkit.material.Furnace
 ---@overload fun(direction: org.bukkit.block.BlockFace): org.bukkit.material.Furnace
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Furnace

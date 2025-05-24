@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.DoubleChestInventory
----@class org.bukkit.inventory.DoubleChestInventory: org.bukkit.inventory.Inventory
+---@class org.bukkit.inventory.DoubleChestInventory: org.bukkit.inventory.Inventory, java.lang.Object
 local DoubleChestInventory = {}
 
 ---@public

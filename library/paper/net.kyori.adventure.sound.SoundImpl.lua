@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.sound.SoundImpl
----@class net.kyori.adventure.sound.SoundImpl: net.kyori.adventure.sound.Sound
+---@class net.kyori.adventure.sound.SoundImpl: net.kyori.adventure.sound.Sound, java.lang.Object
 ---@field public EMITTER_SELF net.kyori.adventure.sound.Sound.Emitter
 ---@field private source net.kyori.adventure.sound.Sound.Source
 ---@field private volume number

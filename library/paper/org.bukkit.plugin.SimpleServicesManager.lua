@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.SimpleServicesManager
----@class org.bukkit.plugin.SimpleServicesManager: org.bukkit.plugin.ServicesManager
+---@class org.bukkit.plugin.SimpleServicesManager: org.bukkit.plugin.ServicesManager, java.lang.Object
 ---@field private providers java.util.Map
 local SimpleServicesManager = {}
 

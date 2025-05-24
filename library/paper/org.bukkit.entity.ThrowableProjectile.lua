@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.ThrowableProjectile
----@class org.bukkit.entity.ThrowableProjectile: org.bukkit.entity.Projectile
+---@class org.bukkit.entity.ThrowableProjectile: org.bukkit.entity.Projectile, java.lang.Object
 local ThrowableProjectile = {}
 
 ---@public

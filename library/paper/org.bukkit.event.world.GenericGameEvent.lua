@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.world.GenericGameEvent
----@class org.bukkit.event.world.GenericGameEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.world.GenericGameEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private event org.bukkit.GameEvent
 ---@field private location org.bukkit.Location

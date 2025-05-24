@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.PlayerFailMoveEvent
----@class io.papermc.paper.event.player.PlayerFailMoveEvent: org.bukkit.event.player.PlayerEvent
+---@class io.papermc.paper.event.player.PlayerFailMoveEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private failReason io.papermc.paper.event.player.PlayerFailMoveEvent.FailReason
 ---@field private from org.bukkit.Location

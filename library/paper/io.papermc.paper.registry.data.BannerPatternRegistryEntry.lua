@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.BannerPatternRegistryEntry
----@class io.papermc.paper.registry.data.BannerPatternRegistryEntry
+---@class io.papermc.paper.registry.data.BannerPatternRegistryEntry: java.lang.Object
 ---@field public Builder io.papermc.paper.registry.data.BannerPatternRegistryEntry.Builder
 local BannerPatternRegistryEntry = {}
 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.BnM
----@class java.util.regex.Pattern.BnM: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.BnM: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public buffer number
 ---@field public lastOcc number
 ---@field public optoSft number

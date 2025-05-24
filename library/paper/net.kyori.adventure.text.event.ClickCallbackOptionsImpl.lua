@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.event.ClickCallbackOptionsImpl
----@class net.kyori.adventure.text.event.ClickCallbackOptionsImpl: net.kyori.adventure.text.event.ClickCallback.Options
+---@class net.kyori.adventure.text.event.ClickCallbackOptionsImpl: net.kyori.adventure.text.event.ClickCallback.Options, java.lang.Object
 ---@field public DEFAULT net.kyori.adventure.text.event.ClickCallback.Options
 ---@field private uses number
 ---@field private lifetime java.time.Duration

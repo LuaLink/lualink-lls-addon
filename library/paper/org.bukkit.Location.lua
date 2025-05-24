@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Location
----@class org.bukkit.Location: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, io.papermc.paper.math.FinePosition
+---@class org.bukkit.Location: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, io.papermc.paper.math.FinePosition, java.lang.Object
 ---@field private world java.lang.ref.Reference
 ---@field private x number
 ---@field private y number
@@ -365,7 +365,7 @@ function Location:getNearbyLivingEntities(xzRadius, yRadius) end
 function Location:getNearbyLivingEntities(xRadius, yRadius, zRadius) end
 
 ---@param radius number Radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of living entities near location. This will always be a non-null collection.
 --- Gets nearby players within the specified radius (bounding box)
@@ -373,7 +373,7 @@ function Location:getNearbyLivingEntities(radius, predicate) end
 
 ---@param xzRadius number X/Z Radius
 ---@param yRadius number Y Radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of living entities near location. This will always be a non-null collection.
 --- Gets nearby players within the specified radius (bounding box)
@@ -382,7 +382,7 @@ function Location:getNearbyLivingEntities(xzRadius, yRadius, predicate) end
 ---@param xRadius number X Radius
 ---@param yRadius number Y Radius
 ---@param zRadius number Z radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of living entities near location. This will always be a non-null collection.
 --- Gets nearby players within the specified radius (bounding box)
@@ -410,7 +410,7 @@ function Location:getNearbyPlayers(xzRadius, yRadius) end
 function Location:getNearbyPlayers(xRadius, yRadius, zRadius) end
 
 ---@param radius number X/Y/Z Radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of players near location. This will always be a non-null collection.
 --- Gets nearby players within the specified radius (bounding box)
@@ -418,7 +418,7 @@ function Location:getNearbyPlayers(radius, predicate) end
 
 ---@param xzRadius number X/Z Radius
 ---@param yRadius number Y Radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of players near location. This will always be a non-null collection.
 --- Gets nearby players within the specified radius (bounding box)
@@ -427,7 +427,7 @@ function Location:getNearbyPlayers(xzRadius, yRadius, predicate) end
 ---@param xRadius number X Radius
 ---@param yRadius number Y Radius
 ---@param zRadius number Z Radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of players near location. This will always be a non-null collection.
 --- Gets nearby players within the specified radius (bounding box)
@@ -459,7 +459,7 @@ function Location:getNearbyEntitiesByType(clazz, xRadius, yRadius, zRadius) end
 
 ---@param clazz java.lang.Class Type to filter by
 ---@param radius number X/Y/Z radius to search within
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of entities near location. This will always be a non-null collection.
 --- Gets all nearby entities of the specified type, within the specified radius (bounding box)
@@ -468,7 +468,7 @@ function Location:getNearbyEntitiesByType(clazz, radius, predicate) end
 ---@param clazz java.lang.Class Type to filter by
 ---@param xzRadius number X/Z radius to search within
 ---@param yRadius number Y radius to search within
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of entities near location. This will always be a non-null collection.
 --- Gets all nearby entities of the specified type, within the specified radius, with x and x radius matching (bounding box)
@@ -478,7 +478,7 @@ function Location:getNearbyEntitiesByType(clazz, xzRadius, yRadius, predicate) e
 ---@param xRadius number X Radius
 ---@param yRadius number Y Radius
 ---@param zRadius number Z Radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of entities near location. This will always be a non-null collection.
 --- Gets all nearby entities of the specified type, within the specified radius (bounding box)

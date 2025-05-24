@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.End
----@class java.util.regex.Pattern.End: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.End: java.util.regex.Pattern.Node, java.lang.Object
 local End = {}
 
 ---@param matcher java.util.regex.Matcher 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BlockPlaceEvent
----@class org.bukkit.event.block.BlockPlaceEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.block.BlockPlaceEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field protected placedAgainst org.bukkit.block.Block
 ---@field protected itemInHand org.bukkit.inventory.ItemStack

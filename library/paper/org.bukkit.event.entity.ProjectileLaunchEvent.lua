@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.ProjectileLaunchEvent
----@class org.bukkit.event.entity.ProjectileLaunchEvent: org.bukkit.event.entity.EntitySpawnEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.ProjectileLaunchEvent: org.bukkit.event.entity.EntitySpawnEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity): org.bukkit.event.entity.ProjectileLaunchEvent
 local ProjectileLaunchEvent = {}

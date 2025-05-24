@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.NotBehind
----@class java.util.regex.Pattern.NotBehind: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.NotBehind: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public cond java.util.regex.Pattern.Node
 ---@field public rmax number
 ---@field public rmin number

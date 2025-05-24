@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.HoverTag.ShowEntity
----@class net.kyori.adventure.text.minimessage.tag.standard.HoverTag.ShowEntity: net.kyori.adventure.text.minimessage.tag.standard.HoverTag.ActionHandler
+---@class net.kyori.adventure.text.minimessage.tag.standard.HoverTag.ShowEntity: net.kyori.adventure.text.minimessage.tag.standard.HoverTag.ActionHandler, java.lang.Object
 ---@field public INSTANCE net.kyori.adventure.text.minimessage.tag.standard.HoverTag.ShowEntity
 ---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.HoverTag.ShowEntity
 local ShowEntity = {}

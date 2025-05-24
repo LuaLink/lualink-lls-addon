@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerBedFailEnterEvent
----@class io.papermc.paper.event.player.PlayerBedFailEnterEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.player.PlayerBedFailEnterEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private failReason io.papermc.paper.event.player.PlayerBedFailEnterEvent.FailReason
 ---@field private bed org.bukkit.block.Block

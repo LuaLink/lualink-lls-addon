@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- co.aikar.timings.TimedEventExecutor
----@class co.aikar.timings.TimedEventExecutor: org.bukkit.plugin.EventExecutor
+---@class co.aikar.timings.TimedEventExecutor: org.bukkit.plugin.EventExecutor, java.lang.Object
 ---@field private executor org.bukkit.plugin.EventExecutor
 ---@field private timings co.aikar.timings.Timing
 ---@overload fun(executor: org.bukkit.plugin.EventExecutor, plugin: org.bukkit.plugin.Plugin, method: java.lang.reflect.Method, eventClass: java.lang.Class): co.aikar.timings.TimedEventExecutor

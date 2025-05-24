@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.BrewingStand
----@class org.bukkit.block.data.type.BrewingStand: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.type.BrewingStand: org.bukkit.block.data.BlockData, java.lang.Object
 local BrewingStand = {}
 
 ---@param bottle number to check

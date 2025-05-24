@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.Transformation
----@class org.bukkit.util.Transformation
+---@class org.bukkit.util.Transformation: java.lang.Object
 ---@field private translation any
 ---@field private leftRotation any
 ---@field private scale any

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.RegistryKey
----@class io.papermc.paper.registry.RegistryKey: any
+---@class io.papermc.paper.registry.RegistryKey: any, java.lang.Object
 ---@field public GAME_EVENT io.papermc.paper.registry.RegistryKey
 ---@field public STRUCTURE_TYPE io.papermc.paper.registry.RegistryKey
 ---@field public MOB_EFFECT io.papermc.paper.registry.RegistryKey

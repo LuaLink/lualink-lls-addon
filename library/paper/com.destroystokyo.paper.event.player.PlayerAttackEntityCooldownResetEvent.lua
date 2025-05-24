@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerAttackEntityCooldownResetEvent
----@class com.destroystokyo.paper.event.player.PlayerAttackEntityCooldownResetEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.player.PlayerAttackEntityCooldownResetEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private attackedEntity org.bukkit.entity.Entity
 ---@field private cooledAttackStrength number

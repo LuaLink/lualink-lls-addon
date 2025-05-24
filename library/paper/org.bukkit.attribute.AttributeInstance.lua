@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.attribute.AttributeInstance
----@class org.bukkit.attribute.AttributeInstance
+---@class org.bukkit.attribute.AttributeInstance: java.lang.Object
 local AttributeInstance = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BlockBreakEvent
----@class org.bukkit.event.block.BlockBreakEvent: org.bukkit.event.block.BlockExpEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.block.BlockBreakEvent: org.bukkit.event.block.BlockExpEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private player org.bukkit.entity.Player
 ---@field private dropItems boolean
 ---@field private cancelled boolean

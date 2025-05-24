@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.DecoratedPot
----@class org.bukkit.block.DecoratedPot: io.papermc.paper.block.TileStateInventoryHolder, org.bukkit.loot.Lootable
+---@class org.bukkit.block.DecoratedPot: io.papermc.paper.block.TileStateInventoryHolder, org.bukkit.loot.Lootable, java.lang.Object
 ---@field public Side org.bukkit.block.DecoratedPot.Side
 local DecoratedPot = {}
 

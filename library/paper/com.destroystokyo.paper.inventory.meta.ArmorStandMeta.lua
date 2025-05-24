@@ -1,6 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.inventory.meta.ArmorStandMeta
----@class com.destroystokyo.paper.inventory.meta.ArmorStandMeta: org.bukkit.inventory.meta.ItemMeta
+---@class com.destroystokyo.paper.inventory.meta.ArmorStandMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local ArmorStandMeta = {}
 
 ---@public

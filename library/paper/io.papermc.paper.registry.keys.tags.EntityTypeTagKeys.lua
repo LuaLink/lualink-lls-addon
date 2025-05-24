@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.tags.EntityTypeTagKeys
----@class io.papermc.paper.registry.keys.tags.EntityTypeTagKeys
+---@class io.papermc.paper.registry.keys.tags.EntityTypeTagKeys: java.lang.Object
 ---@field public AQUATIC io.papermc.paper.registry.tag.TagKey
 ---@field public ARROWS io.papermc.paper.registry.tag.TagKey
 ---@field public ARTHROPOD io.papermc.paper.registry.tag.TagKey

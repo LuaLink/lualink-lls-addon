@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.inventory.InventoryMoveItemEvent
----@class org.bukkit.event.inventory.InventoryMoveItemEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable
+---@class org.bukkit.event.inventory.InventoryMoveItemEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private sourceInventory org.bukkit.inventory.Inventory
 ---@field private destinationInventory org.bukkit.inventory.Inventory

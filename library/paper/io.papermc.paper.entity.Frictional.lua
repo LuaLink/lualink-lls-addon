@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.entity.Frictional
----@class io.papermc.paper.entity.Frictional
+---@class io.papermc.paper.entity.Frictional: java.lang.Object
 local Frictional = {}
 
 ---@public

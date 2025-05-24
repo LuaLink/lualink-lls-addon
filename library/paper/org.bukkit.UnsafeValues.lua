@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.UnsafeValues
----@class org.bukkit.UnsafeValues
+---@class org.bukkit.UnsafeValues: java.lang.Object
 local UnsafeValues = {}
 
 ---@public
@@ -320,7 +320,7 @@ function UnsafeValues:getStatisticCriteriaKey(statistic) end
 function UnsafeValues:getSpawnEggLayerColor(entityType, layer) end
 
 ---@param plugin org.bukkit.plugin.java.JavaPlugin 
----@param registrationCheck java.util.function.BooleanSupplier 
+---@param registrationCheck function 
 ---@public
 ---@return io.papermc.paper.plugin.lifecycle.event.LifecycleEventManager 
 function UnsafeValues:createPluginLifecycleEventManager(plugin, registrationCheck) end

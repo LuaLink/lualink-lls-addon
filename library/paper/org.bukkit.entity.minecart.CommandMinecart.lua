@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.minecart.CommandMinecart
----@class org.bukkit.entity.minecart.CommandMinecart: org.bukkit.entity.Minecart, io.papermc.paper.command.CommandBlockHolder
+---@class org.bukkit.entity.minecart.CommandMinecart: org.bukkit.entity.Minecart, io.papermc.paper.command.CommandBlockHolder, java.lang.Object
 local CommandMinecart = {}
 
 ---@public

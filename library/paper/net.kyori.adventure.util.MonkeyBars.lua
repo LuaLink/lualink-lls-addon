@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.MonkeyBars
----@class net.kyori.adventure.util.MonkeyBars
+---@class net.kyori.adventure.util.MonkeyBars: java.lang.Object
 ---@overload fun(): net.kyori.adventure.util.MonkeyBars
 local MonkeyBars = {}
 
@@ -19,7 +19,7 @@ function MonkeyBars:enumSet(type, constants) end
 --- Adds an element to the end of the list, or returns a new list.  <p>The returned list is unmodifiable.</p>
 function MonkeyBars:addOne(oldList, newElement) end
 
----@param mapper java.util.function.Function a mapper to convert objects
+---@param mapper function a mapper to convert objects
 ---@param first I the first element
 ---@param others I any other elements
 ---@public
@@ -27,7 +27,7 @@ function MonkeyBars:addOne(oldList, newElement) end
 --- Create a list based on a first element plus array of additional elements.  <p>All elements must be non-null before and after mapping.</p>
 function MonkeyBars:nonEmptyArrayToList(mapper, first, others) end
 
----@param mapper java.util.function.Function element mapper
+---@param mapper function element mapper
 ---@param source java.lang.Iterable input elements
 ---@public
 ---@return java.util.List a mapped list

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.components.EquippableComponent
----@class org.bukkit.inventory.meta.components.EquippableComponent: org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.inventory.meta.components.EquippableComponent: org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 local EquippableComponent = {}
 
 ---@public

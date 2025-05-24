@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Stairs
----@class org.bukkit.material.Stairs: org.bukkit.material.MaterialData, org.bukkit.material.Directional
+---@class org.bukkit.material.Stairs: org.bukkit.material.MaterialData, org.bukkit.material.Directional, java.lang.Object
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Stairs
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Stairs
 local Stairs = {}

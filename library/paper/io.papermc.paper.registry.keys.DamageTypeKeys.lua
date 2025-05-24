@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.DamageTypeKeys
----@class io.papermc.paper.registry.keys.DamageTypeKeys
+---@class io.papermc.paper.registry.keys.DamageTypeKeys: java.lang.Object
 ---@field public ARROW io.papermc.paper.registry.TypedKey
 ---@field public BAD_RESPAWN_POINT io.papermc.paper.registry.TypedKey
 ---@field public CACTUS io.papermc.paper.registry.TypedKey

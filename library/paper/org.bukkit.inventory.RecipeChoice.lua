@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.RecipeChoice
----@class org.bukkit.inventory.RecipeChoice: java.util.function.Predicate, java.lang.Cloneable
+---@class org.bukkit.inventory.RecipeChoice: function, java.lang.Cloneable, java.lang.Object
 ---@field public MaterialChoice org.bukkit.inventory.RecipeChoice.MaterialChoice
 ---@field public ExactChoice org.bukkit.inventory.RecipeChoice.ExactChoice
 local RecipeChoice = {}

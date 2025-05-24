@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.command.brigadier.argument.CustomArgumentType
----@class io.papermc.paper.command.brigadier.argument.CustomArgumentType: any
+---@class io.papermc.paper.command.brigadier.argument.CustomArgumentType: any, java.lang.Object
 ---@field public Converted io.papermc.paper.command.brigadier.argument.CustomArgumentType.Converted
 local CustomArgumentType = {}
 

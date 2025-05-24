@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.ArrayList.SubList
----@class java.util.ArrayList.SubList: java.util.AbstractList, java.util.RandomAccess
+---@class java.util.ArrayList.SubList: java.util.AbstractList, java.util.RandomAccess, java.lang.Object
 ---@field private root java.util.ArrayList
 ---@field private parent java.util.ArrayList.SubList
 ---@field private offset number
@@ -73,7 +73,7 @@ function SubList:retainAll(c) end
 ---@return boolean 
 function SubList:batchRemove(c, complement) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return boolean 
 function SubList:removeIf(filter) end

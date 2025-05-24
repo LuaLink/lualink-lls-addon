@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Damageable
----@class org.bukkit.entity.Damageable: org.bukkit.entity.Entity
+---@class org.bukkit.entity.Damageable: org.bukkit.entity.Entity, java.lang.Object
 local Damageable = {}
 
 ---@param amount number Amount of damage to deal

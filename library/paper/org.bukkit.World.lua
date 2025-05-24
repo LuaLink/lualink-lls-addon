@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.World
----@class org.bukkit.World: org.bukkit.RegionAccessor, org.bukkit.generator.WorldInfo, org.bukkit.plugin.messaging.PluginMessageRecipient, org.bukkit.metadata.Metadatable, org.bukkit.persistence.PersistentDataHolder, org.bukkit.Keyed, net.kyori.adventure.audience.ForwardingAudience
+---@class org.bukkit.World: org.bukkit.RegionAccessor, org.bukkit.generator.WorldInfo, org.bukkit.plugin.messaging.PluginMessageRecipient, org.bukkit.metadata.Metadatable, org.bukkit.persistence.PersistentDataHolder, org.bukkit.Keyed, net.kyori.adventure.audience.ForwardingAudience, java.lang.Object
 ---@field public ChunkLoadCallback org.bukkit.World.ChunkLoadCallback
 ---@field public Spigot org.bukkit.World.Spigot
 ---@field public Environment org.bukkit.World.Environment
@@ -354,7 +354,7 @@ function World:dropItem(location, item) end
 
 ---@param location org.bukkit.Location Location to drop the item
 ---@param item org.bukkit.inventory.ItemStack ItemStack to drop
----@param function java.util.function.Consumer the function to be run before the entity is spawned.
+---@param function function the function to be run before the entity is spawned.
 ---@public
 ---@return org.bukkit.entity.Item ItemDrop entity created as a result of this method
 --- Drops an item at the specified {@link Location} Note that functions will run before the entity is spawned
@@ -369,7 +369,7 @@ function World:dropItemNaturally(location, item) end
 
 ---@param location org.bukkit.Location Location to drop the item
 ---@param item org.bukkit.inventory.ItemStack ItemStack to drop
----@param function java.util.function.Consumer the function to be run before the entity is spawned.
+---@param function function the function to be run before the entity is spawned.
 ---@public
 ---@return org.bukkit.entity.Item ItemDrop entity created as a result of this method
 --- Drops an item at the specified {@link Location} with a random offset Note that functions will run before the entity is spawned
@@ -489,7 +489,7 @@ function World:getNearbyLivingEntities(loc, xRadius, yRadius, zRadius) end
 
 ---@param loc org.bukkit.Location Center location
 ---@param radius number X Radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of living entities near location. This will always be a non-null collection
 --- Gets nearby LivingEntities within the specified radius (bounding box)
@@ -498,7 +498,7 @@ function World:getNearbyLivingEntities(loc, radius, predicate) end
 ---@param loc org.bukkit.Location Center location
 ---@param xzRadius number X/Z Radius
 ---@param yRadius number Y Radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of living entities near location. This will always be a non-null collection
 --- Gets nearby LivingEntities within the specified radius (bounding box)
@@ -508,7 +508,7 @@ function World:getNearbyLivingEntities(loc, xzRadius, yRadius, predicate) end
 ---@param xRadius number X Radius
 ---@param yRadius number Y Radius
 ---@param zRadius number Z radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of living entities near location. This will always be a non-null collection.
 --- Gets nearby LivingEntities within the specified radius (bounding box)
@@ -540,7 +540,7 @@ function World:getNearbyPlayers(loc, xRadius, yRadius, zRadius) end
 
 ---@param loc org.bukkit.Location Center location
 ---@param radius number X/Y/Z Radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of players near location. This will always be a non-null collection.
 --- Gets nearby players within the specified radius (bounding box)
@@ -549,7 +549,7 @@ function World:getNearbyPlayers(loc, radius, predicate) end
 ---@param loc org.bukkit.Location Center location
 ---@param xzRadius number X/Z Radius
 ---@param yRadius number Y Radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of players near location. This will always be a non-null collection.
 --- Gets nearby players within the specified radius (bounding box)
@@ -559,7 +559,7 @@ function World:getNearbyPlayers(loc, xzRadius, yRadius, predicate) end
 ---@param xRadius number X Radius
 ---@param yRadius number Y Radius
 ---@param zRadius number Z Radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of players near location. This will always be a non-null collection.
 --- Gets nearby players within the specified radius (bounding box)
@@ -595,7 +595,7 @@ function World:getNearbyEntitiesByType(clazz, loc, xRadius, yRadius, zRadius) en
 ---@param clazz java.lang.Class Type to filter by
 ---@param loc org.bukkit.Location Center location
 ---@param radius number X/Y/Z radius to search within
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of entities near location. This will always be a non-null collection.
 --- Gets all nearby entities of the specified type, within the specified radius (bounding box)
@@ -605,7 +605,7 @@ function World:getNearbyEntitiesByType(clazz, loc, radius, predicate) end
 ---@param loc org.bukkit.Location Center location
 ---@param xzRadius number X/Z radius to search within
 ---@param yRadius number Y radius to search within
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of entities near location. This will always be a non-null collection.
 --- Gets all nearby entities of the specified type, within the specified radius, with x and x radius matching (bounding box)
@@ -616,7 +616,7 @@ function World:getNearbyEntitiesByType(clazz, loc, xzRadius, yRadius, predicate)
 ---@param xRadius number X Radius
 ---@param yRadius number Y Radius
 ---@param zRadius number Z Radius
----@param predicate java.util.function.Predicate a predicate used to filter results
+---@param predicate function a predicate used to filter results
 ---@public
 ---@return java.util.Collection the collection of entities near location. This will always be a non-null collection.
 --- Gets all nearby entities of the specified type, within the specified radius (bounding box)
@@ -653,7 +653,7 @@ function World:getChunkAtAsync(block, cb) end
 ---@async
 ---@param x number Chunk x-coordinate
 ---@param z number Chunk z-coordinate
----@param cb java.util.function.Consumer Callback to receive the chunk when it is loaded.           will be executed synchronously
+---@param cb function Callback to receive the chunk when it is loaded.           will be executed synchronously
 ---@public
 ---@return nil 
 --- Requests a {@link Chunk} to be loaded at the given coordinates  This method makes no guarantee on how fast the chunk will load, and will return the chunk to the callback at a later time.  You should use this method if you need a chunk but do not need it immediately, and you wish to let the server control the speed of chunk loads, keeping performance in mind.  The {@link java.util.function.Consumer} will always be executed synchronously on the main Server Thread.
@@ -663,7 +663,7 @@ function World:getChunkAtAsync(x, z, cb) end
 ---@param x number Chunk x-coordinate
 ---@param z number Chunk z-coordinate
 ---@param gen boolean Should we generate a chunk if it doesn't exist or not
----@param cb java.util.function.Consumer Callback to receive the chunk when it is loaded.           will be executed synchronously
+---@param cb function Callback to receive the chunk when it is loaded.           will be executed synchronously
 ---@public
 ---@return nil 
 --- Requests a {@link Chunk} to be loaded at the given coordinates  This method makes no guarantee on how fast the chunk will load, and will return the chunk to the callback at a later time.  You should use this method if you need a chunk but do not need it immediately, and you wish to let the server control the speed of chunk loads, keeping performance in mind.  The {@link java.util.function.Consumer} will always be executed synchronously on the main Server Thread.
@@ -674,7 +674,7 @@ function World:getChunkAtAsync(x, z, gen, cb) end
 ---@param z number Chunk z-coordinate
 ---@param gen boolean Should we generate a chunk if it doesn't exist or not
 ---@param urgent boolean If true, the chunk may be prioritised to be loaded above other chunks in queue
----@param cb java.util.function.Consumer Callback to receive the chunk when it is loaded.           will be executed synchronously
+---@param cb function Callback to receive the chunk when it is loaded.           will be executed synchronously
 ---@public
 ---@return nil 
 --- Requests a {@link Chunk} to be loaded at the given coordinates  This method makes no guarantee on how fast the chunk will load, and will return the chunk to the callback at a later time.  You should use this method if you need a chunk but do not need it immediately, and you wish to let the server control the speed of chunk loads, keeping performance in mind.  The {@link java.util.function.Consumer} will always be executed synchronously on the main Server Thread.
@@ -686,7 +686,7 @@ function World:getChunkAtAsync(x, z, gen, urgent, cb) end
 ---@param maxX number Maximum Chunk x-coordinate
 ---@param maxZ number Maximum Chunk z-coordinate
 ---@param urgent boolean If true, the chunks may be prioritised to be loaded above other chunks in queue
----@param cb java.lang.Runnable Callback to invoke when all chunks are loaded.           Will be executed synchronously
+---@param cb function Callback to invoke when all chunks are loaded.           Will be executed synchronously
 ---@public
 ---@return nil 
 --- Requests all chunks with x between [minX, maxZ] and z between [minZ, maxZ] to be loaded.  This method makes no guarantee on how fast the chunk will load, and will invoke the callback at possibly a later time.  You should use this method if you need chunks loaded but do not need them immediately, and you wish to let the server control the speed of chunk loads, keeping performance in mind.  The {@link Runnable} will always be executed synchronously on the main Server Thread, and when invoked all chunks requested will be loaded.
@@ -694,7 +694,7 @@ function World:getChunksAtAsync(minX, minZ, maxX, maxZ, urgent, cb) end
 
 ---@async
 ---@param loc org.bukkit.Location Location of the chunk
----@param cb java.util.function.Consumer Callback to receive the chunk when it is loaded.           will be executed synchronously
+---@param cb function Callback to receive the chunk when it is loaded.           will be executed synchronously
 ---@public
 ---@return nil 
 --- Requests a {@link Chunk} to be loaded at the given {@link Location}  This method makes no guarantee on how fast the chunk will load, and will return the chunk to the callback at a later time.  You should use this method if you need a chunk but do not need it immediately, and you wish to let the server control the speed of chunk loads, keeping performance in mind.  The {@link java.util.function.Consumer} will always be executed synchronously on the main Server Thread.
@@ -703,7 +703,7 @@ function World:getChunkAtAsync(loc, cb) end
 ---@async
 ---@param loc org.bukkit.Location Location of the chunk
 ---@param gen boolean Should the chunk generate if it doesn't exist
----@param cb java.util.function.Consumer Callback to receive the chunk when it is loaded.           will be executed synchronously
+---@param cb function Callback to receive the chunk when it is loaded.           will be executed synchronously
 ---@public
 ---@return nil 
 --- Requests a {@link Chunk} to be loaded at the given {@link Location}  This method makes no guarantee on how fast the chunk will load, and will return the chunk to the callback at a later time.  You should use this method if you need a chunk but do not need it immediately, and you wish to let the server control the speed of chunk loads, keeping performance in mind.  The {@link java.util.function.Consumer} will always be executed synchronously on the main Server Thread.
@@ -711,7 +711,7 @@ function World:getChunkAtAsync(loc, gen, cb) end
 
 ---@async
 ---@param block org.bukkit.block.Block Block to get the containing chunk from
----@param cb java.util.function.Consumer Callback to receive the chunk when it is loaded.           will be executed synchronously
+---@param cb function Callback to receive the chunk when it is loaded.           will be executed synchronously
 ---@public
 ---@return nil 
 --- Requests {@link Chunk} to be loaded that contains the given {@link Block}  This method makes no guarantee on how fast the chunk will load, and will return the chunk to the callback at a later time.  You should use this method if you need a chunk but do not need it immediately, and you wish to let the server control the speed of chunk loads, keeping performance in mind.  The {@link java.util.function.Consumer} will always be executed synchronously on the main Server Thread.
@@ -720,7 +720,7 @@ function World:getChunkAtAsync(block, cb) end
 ---@async
 ---@param block org.bukkit.block.Block Block to get the containing chunk from
 ---@param gen boolean Should the chunk generate if it doesn't exist
----@param cb java.util.function.Consumer Callback to receive the chunk when it is loaded.           will be executed synchronously
+---@param cb function Callback to receive the chunk when it is loaded.           will be executed synchronously
 ---@public
 ---@return nil 
 --- Requests {@link Chunk} to be loaded that contains the given {@link Block}  This method makes no guarantee on how fast the chunk will load, and will return the chunk to the callback at a later time.  You should use this method if you need a chunk but do not need it immediately, and you wish to let the server control the speed of chunk loads, keeping performance in mind.  The {@link java.util.function.Consumer} will always be executed synchronously on the main Server Thread.
@@ -849,7 +849,7 @@ function World:getEntity(uuid) end
 ---@param x number 1/2 the size of the box along x axis
 ---@param y number 1/2 the size of the box along y axis
 ---@param z number 1/2 the size of the box along z axis
----@param filter java.util.function.Predicate only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
+---@param filter function only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
 ---@public
 ---@return java.util.Collection the collection of entities near location. This will always be a     non-null collection.
 --- Returns a list of entities within a bounding box centered around a Location. <p> This may not consider entities in currently unloaded chunks. Some implementations may impose artificial restrictions on the size of the search bounding box.
@@ -862,7 +862,7 @@ function World:getNearbyEntities(location, x, y, z, filter) end
 function World:getNearbyEntities(boundingBox) end
 
 ---@param boundingBox org.bukkit.util.BoundingBox the bounding box
----@param filter java.util.function.Predicate only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
+---@param filter function only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
 ---@public
 ---@return java.util.Collection the collection of entities within the bounding box, will always     be a non-null collection
 --- Returns a list of entities within the given bounding box. <p> This may not consider entities in currently unloaded chunks. Some implementations may impose artificial restrictions on the size of the search bounding box.
@@ -888,7 +888,7 @@ function World:rayTraceEntities(start, direction, maxDistance, raySize) end
 ---@param start org.bukkit.Location the start position
 ---@param direction org.bukkit.util.Vector the ray direction
 ---@param maxDistance number the maximum distance
----@param filter java.util.function.Predicate only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
+---@param filter function only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
 ---@public
 ---@return org.bukkit.util.RayTraceResult the closest ray trace hit result, or <code>null</code> if there     is no hit
 --- Performs a ray trace that checks for entity collisions. <p> This may not consider entities in currently unloaded chunks. Some implementations may impose artificial restrictions on the maximum distance. <p> <b>Note:</b> Due to display entities having a zero size hitbox, this method will not detect them. To detect display entities use {@link #rayTraceEntities(Location, Vector, double, double, Predicate)} with a positive raySize
@@ -898,7 +898,7 @@ function World:rayTraceEntities(start, direction, maxDistance, filter) end
 ---@param direction org.bukkit.util.Vector the ray direction
 ---@param maxDistance number the maximum distance
 ---@param raySize number entity bounding boxes will be uniformly expanded (or     shrunk) by this value before doing collision checks
----@param filter java.util.function.Predicate only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
+---@param filter function only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
 ---@public
 ---@return org.bukkit.util.RayTraceResult the closest ray trace hit result, or <code>null</code> if there     is no hit
 --- Performs a ray trace that checks for entity collisions. <p> This may not consider entities in currently unloaded chunks. Some implementations may impose artificial restrictions on the maximum distance.
@@ -908,7 +908,7 @@ function World:rayTraceEntities(start, direction, maxDistance, raySize, filter) 
 ---@param direction org.bukkit.util.Vector the ray direction
 ---@param maxDistance number the maximum distance
 ---@param raySize number entity bounding boxes will be uniformly expanded (or     shrinked) by this value before doing collision checks
----@param filter java.util.function.Predicate only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
+---@param filter function only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
 ---@public
 ---@return org.bukkit.util.RayTraceResult the closest ray trace hit result, or <code>null</code> if there     is no hit
 --- Performs a ray trace that checks for entity collisions. <p> This may not consider entities in currently unloaded chunks. Some implementations may impose artificial restrictions on the maximum distance.
@@ -946,7 +946,7 @@ function World:rayTraceBlocks(start, direction, maxDistance, fluidCollisionMode,
 ---@param maxDistance number the maximum distance
 ---@param fluidCollisionMode org.bukkit.FluidCollisionMode the fluid collision mode
 ---@param ignorePassableBlocks boolean whether to ignore passable but collidable     blocks (ex. tall grass, signs, fluids, ..)
----@param canCollide java.util.function.Predicate predicate for blocks the ray can potentially collide     with, or <code>null</code> to consider all blocks
+---@param canCollide function predicate for blocks the ray can potentially collide     with, or <code>null</code> to consider all blocks
 ---@public
 ---@return org.bukkit.util.RayTraceResult the ray trace hit result, or <code>null</code> if there is no hit
 --- Performs a ray trace that checks for block collisions using the blocks' precise collision shapes. <p> If collisions with passable blocks are ignored, fluid collisions are ignored as well regardless of the fluid collision mode. <p> Portal blocks are only considered passable if the ray starts within them. Apart from that collisions with portal blocks will be considered even if collisions with passable blocks are otherwise ignored. <p> This may cause loading of chunks! Some implementations may impose artificial restrictions on the maximum distance.
@@ -958,7 +958,7 @@ function World:rayTraceBlocks(start, direction, maxDistance, fluidCollisionMode,
 ---@param fluidCollisionMode org.bukkit.FluidCollisionMode the fluid collision mode
 ---@param ignorePassableBlocks boolean whether to ignore passable but collidable     blocks (ex. tall grass, signs, fluids, ..)
 ---@param raySize number entity bounding boxes will be uniformly expanded (or     shrunk) by this value before doing collision checks
----@param filter java.util.function.Predicate only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
+---@param filter function only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
 ---@public
 ---@return org.bukkit.util.RayTraceResult the closest ray trace hit result with either a block or an     entity, or <code>null</code> if there is no hit
 --- Performs a ray trace that checks for both block and entity collisions. <p> Block collisions use the blocks' precise collision shapes. The <code>raySize</code> parameter is only taken into account for entity collision checks. <p> If collisions with passable blocks are ignored, fluid collisions are ignored as well regardless of the fluid collision mode. <p> Portal blocks are only considered passable if the ray starts within them. Apart from that collisions with portal blocks will be considered even if collisions with passable blocks are otherwise ignored. <p> This may cause loading of chunks! Some implementations may impose artificial restrictions on the maximum distance.
@@ -970,14 +970,14 @@ function World:rayTrace(start, direction, maxDistance, fluidCollisionMode, ignor
 ---@param fluidCollisionMode org.bukkit.FluidCollisionMode the fluid collision mode
 ---@param ignorePassableBlocks boolean whether to ignore passable but collidable     blocks (ex. tall grass, signs, fluids, ..)
 ---@param raySize number entity bounding boxes will be uniformly expanded (or     shrinked) by this value before doing collision checks
----@param filter java.util.function.Predicate only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
----@param canCollide java.util.function.Predicate predicate for blocks the ray can potentially collide     with, or <code>null</code> to consider all blocks
+---@param filter function only entities that fulfill this predicate are considered,     or <code>null</code> to consider all entities
+---@param canCollide function predicate for blocks the ray can potentially collide     with, or <code>null</code> to consider all blocks
 ---@public
 ---@return org.bukkit.util.RayTraceResult the closest ray trace hit result with either a block or an     entity, or <code>null</code> if there is no hit
 --- Performs a ray trace that checks for both block and entity collisions. <p> Block collisions use the blocks' precise collision shapes. The <code>raySize</code> parameter is only taken into account for entity collision checks. <p> If collisions with passable blocks are ignored, fluid collisions are ignored as well regardless of the fluid collision mode. <p> Portal blocks are only considered passable if the ray starts within them. Apart from that collisions with portal blocks will be considered even if collisions with passable blocks are otherwise ignored. <p> This may cause loading of chunks! Some implementations may impose artificial restrictions on the maximum distance.
 function World:rayTrace(start, direction, maxDistance, fluidCollisionMode, ignorePassableBlocks, raySize, filter, canCollide) end
 
----@param builderConsumer java.util.function.Consumer a consumer to configure the ray trace configuration.     The received builder is not valid for use outside the consumer
+---@param builderConsumer function a consumer to configure the ray trace configuration.     The received builder is not valid for use outside the consumer
 ---@public
 ---@return org.bukkit.util.RayTraceResult the closest ray trace hit result with either a block or an     entity, or <code>null</code> if there is no hit
 --- Performs a ray trace that checks for collisions with the specified targets. <p> This may cause loading of chunks! Some implementations may impose artificial restrictions on the maximum distance.
@@ -1282,7 +1282,7 @@ function World:getPopulators() end
 ---@param clazz java.lang.Class the class of the {@link LivingEntity} that is to be spawned.
 ---@param spawnReason org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason the reason provided during the {@link CreatureSpawnEvent} call.
 ---@param randomizeData boolean whether or not the entity's data should be randomised                      before spawning. By default entities are randomised                      before spawning in regards to their equipment, age,                      attributes, etc.                      An example of this randomization would be the color of                      a sheep, random enchantments on the equipment of mobs                      or even a zombie becoming a chicken jockey.                      If set to false, the entity will not be randomised                      before spawning, meaning all their data will remain                      in their default state and not further modifications                      to the entity will be made.                      Notably only entities that extend the                      {@link org.bukkit.entity.Mob} interface provide                      randomisation logic for their spawn.                      This parameter is hence useless for any other type                      of entity.
----@param function java.util.function.Consumer the function to be run before the entity is spawned.
+---@param function function the function to be run before the entity is spawned.
 ---@public
 ---@return T the spawned entity instance.
 --- Creates a new entity at the given {@link Location} with the supplied function run before the entity is added to the world. <br> Note that when the function is run, the entity will not be actually in the world. Any operation involving such as teleporting the entity is undefined until after this function returns. The passed function however is run after the potential entity's spawn randomization and hence already allows access to the values of the mob, whether or not those were randomized, such as attributes or the entity equipment.

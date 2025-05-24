@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.BrushableBlock
----@class org.bukkit.block.BrushableBlock: org.bukkit.loot.Lootable, org.bukkit.block.TileState
+---@class org.bukkit.block.BrushableBlock: org.bukkit.loot.Lootable, org.bukkit.block.TileState, java.lang.Object
 local BrushableBlock = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.NumberConversions
----@class org.bukkit.util.NumberConversions
+---@class org.bukkit.util.NumberConversions: java.lang.Object
 ---@overload fun(): org.bukkit.util.NumberConversions
 local NumberConversions = {}
 

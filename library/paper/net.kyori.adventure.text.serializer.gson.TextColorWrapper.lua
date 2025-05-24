@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.TextColorWrapper
----@class net.kyori.adventure.text.serializer.gson.TextColorWrapper
+---@class net.kyori.adventure.text.serializer.gson.TextColorWrapper: java.lang.Object
 ---@field public color net.kyori.adventure.text.format.TextColor
 ---@field public decoration net.kyori.adventure.text.format.TextDecoration
 ---@field public reset boolean

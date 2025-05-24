@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.server.AsyncTabCompleteEvent.Completion
----@class com.destroystokyo.paper.event.server.AsyncTabCompleteEvent.Completion: any
+---@class com.destroystokyo.paper.event.server.AsyncTabCompleteEvent.Completion: any, java.lang.Object
 local Completion = {}
 
 ---@public

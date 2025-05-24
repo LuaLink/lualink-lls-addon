@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.format.DecorationMap
----@class net.kyori.adventure.text.format.DecorationMap: java.util.AbstractMap, any
+---@class net.kyori.adventure.text.format.DecorationMap: java.util.AbstractMap, any, java.lang.Object
 ---@field public DECORATIONS net.kyori.adventure.text.format.TextDecoration
 ---@field private STATES net.kyori.adventure.text.format.TextDecoration.State
 ---@field private MAP_SIZE number

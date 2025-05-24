@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.EulerAngle
----@class org.bukkit.util.EulerAngle
+---@class org.bukkit.util.EulerAngle: java.lang.Object
 ---@field public ZERO org.bukkit.util.EulerAngle
 ---@field private x number
 ---@field private y number

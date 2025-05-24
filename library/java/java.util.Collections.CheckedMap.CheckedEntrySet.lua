@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.CheckedMap.CheckedEntrySet
----@class java.util.Collections.CheckedMap.CheckedEntrySet: java.util.Set
+---@class java.util.Collections.CheckedMap.CheckedEntrySet: java.util.Set, java.lang.Object
 ---@field private s java.util.Set
 ---@field private valueType java.lang.Class
 ---@field private CheckedEntry java.util.Collections.CheckedMap.CheckedEntrySet.CheckedEntry

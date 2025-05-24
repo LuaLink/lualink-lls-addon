@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.Prompt
----@class org.bukkit.conversations.Prompt: java.lang.Cloneable
+---@class org.bukkit.conversations.Prompt: java.lang.Cloneable, java.lang.Object
 ---@field public END_OF_CONVERSATION org.bukkit.conversations.Prompt
 local Prompt = {}
 

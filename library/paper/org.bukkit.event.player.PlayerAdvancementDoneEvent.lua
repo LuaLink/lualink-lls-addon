@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerAdvancementDoneEvent
----@class org.bukkit.event.player.PlayerAdvancementDoneEvent: org.bukkit.event.player.PlayerEvent
+---@class org.bukkit.event.player.PlayerAdvancementDoneEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private advancement org.bukkit.advancement.Advancement
 ---@field private message net.kyori.adventure.text.Component

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.tags.ItemTagType
----@class org.bukkit.inventory.meta.tags.ItemTagType
+---@class org.bukkit.inventory.meta.tags.ItemTagType: java.lang.Object
 ---@field public BYTE org.bukkit.inventory.meta.tags.ItemTagType
 ---@field public SHORT org.bukkit.inventory.meta.tags.ItemTagType
 ---@field public INTEGER org.bukkit.inventory.meta.tags.ItemTagType

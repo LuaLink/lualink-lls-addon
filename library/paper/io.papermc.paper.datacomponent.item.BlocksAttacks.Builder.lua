@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.BlocksAttacks.Builder
----@class io.papermc.paper.datacomponent.item.BlocksAttacks.Builder: io.papermc.paper.datacomponent.DataComponentBuilder
+---@class io.papermc.paper.datacomponent.item.BlocksAttacks.Builder: io.papermc.paper.datacomponent.DataComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param delay number 
@@ -24,7 +24,7 @@ function Builder:addDamageReduction(reduction) end
 ---@return io.papermc.paper.datacomponent.item.BlocksAttacks.Builder 
 function Builder:damageReductions(reductions) end
 
----@param function io.papermc.paper.datacomponent.item.blocksattacks.ItemDamageFunction 
+---@param function function 
 ---@public
 ---@return io.papermc.paper.datacomponent.item.BlocksAttacks.Builder 
 function Builder:itemDamage(function) end

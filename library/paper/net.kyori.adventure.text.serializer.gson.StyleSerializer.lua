@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.StyleSerializer
----@class net.kyori.adventure.text.serializer.gson.StyleSerializer: any
+---@class net.kyori.adventure.text.serializer.gson.StyleSerializer: any, java.lang.Object
 ---@field private DECORATIONS net.kyori.adventure.text.format.TextDecoration
 ---@field private legacyHover any
 ---@field private emitValueFieldHover boolean

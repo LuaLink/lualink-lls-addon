@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.DamageTypeRegistryEntry.Builder
----@class io.papermc.paper.registry.data.DamageTypeRegistryEntry.Builder: io.papermc.paper.registry.data.DamageTypeRegistryEntry, io.papermc.paper.registry.RegistryBuilder
+---@class io.papermc.paper.registry.data.DamageTypeRegistryEntry.Builder: io.papermc.paper.registry.data.DamageTypeRegistryEntry, io.papermc.paper.registry.RegistryBuilder, java.lang.Object
 local Builder = {}
 
 ---@param messageId string 

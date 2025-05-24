@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.TranslatableComponentImpl.BuilderImpl
----@class net.kyori.adventure.text.TranslatableComponentImpl.BuilderImpl: net.kyori.adventure.text.AbstractComponentBuilder, net.kyori.adventure.text.TranslatableComponent.Builder
+---@class net.kyori.adventure.text.TranslatableComponentImpl.BuilderImpl: net.kyori.adventure.text.AbstractComponentBuilder, net.kyori.adventure.text.TranslatableComponent.Builder, java.lang.Object
 ---@field private key string
 ---@field private fallback string
 ---@field private args java.util.List

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.format.TextColor
----@class net.kyori.adventure.text.format.TextColor: java.lang.Comparable, any, net.kyori.adventure.util.RGBLike, net.kyori.adventure.text.format.StyleBuilderApplicable, net.kyori.adventure.text.format.TextFormat
+---@class net.kyori.adventure.text.format.TextColor: java.lang.Comparable, any, net.kyori.adventure.util.RGBLike, net.kyori.adventure.text.format.StyleBuilderApplicable, net.kyori.adventure.text.format.TextFormat, java.lang.Object
 ---@field public HEX_CHARACTER string
 ---@field public HEX_PREFIX string
 local TextColor = {}

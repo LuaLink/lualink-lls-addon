@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider
----@class net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider
+---@class net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider: java.lang.Object
 local TagProvider = {}
 
 ---@param name string the tag name, pre-sanitized

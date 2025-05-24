@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.ArrayList.ArrayListSpliterator
----@class java.util.ArrayList.ArrayListSpliterator: java.util.Spliterator
+---@class java.util.ArrayList.ArrayListSpliterator: java.util.Spliterator, java.lang.Object
 ---@field private index number
 ---@field private fence number
 ---@field private expectedModCount number
@@ -16,12 +16,12 @@ function ArrayListSpliterator:getFence() end
 ---@return java.util.ArrayList.ArrayListSpliterator 
 function ArrayListSpliterator:trySplit() end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return boolean 
 function ArrayListSpliterator:tryAdvance(action) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function ArrayListSpliterator:forEachRemaining(action) end

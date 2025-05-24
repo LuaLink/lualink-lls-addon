@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.HashMap.KeySet
----@class java.util.HashMap.KeySet: java.util.AbstractSet
+---@class java.util.HashMap.KeySet: java.util.AbstractSet, java.lang.Object
 local KeySet = {}
 
 ---@public
@@ -38,7 +38,7 @@ function KeySet:toArray() end
 ---@return table<T> 
 function KeySet:toArray(a) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function KeySet:forEach(action) end

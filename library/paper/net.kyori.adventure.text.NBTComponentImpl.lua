@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.NBTComponentImpl
----@class net.kyori.adventure.text.NBTComponentImpl: net.kyori.adventure.text.AbstractComponent, net.kyori.adventure.text.NBTComponent
+---@class net.kyori.adventure.text.NBTComponentImpl: net.kyori.adventure.text.AbstractComponent, net.kyori.adventure.text.NBTComponent, java.lang.Object
 ---@field public INTERPRET_DEFAULT boolean
 ---@field public nbtPath string
 ---@field public interpret boolean

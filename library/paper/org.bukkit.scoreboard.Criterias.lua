@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.scoreboard.Criterias
----@class org.bukkit.scoreboard.Criterias
+---@class org.bukkit.scoreboard.Criterias: java.lang.Object
 ---@field public HEALTH string
 ---@field public PLAYER_KILLS string
 ---@field public TOTAL_KILLS string

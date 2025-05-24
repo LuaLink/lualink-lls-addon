@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.Dolphin
----@class org.bukkit.entity.Dolphin: org.bukkit.entity.Ageable, org.bukkit.entity.WaterMob
+---@class org.bukkit.entity.Dolphin: org.bukkit.entity.Ageable, org.bukkit.entity.WaterMob, java.lang.Object
 local Dolphin = {}
 
 ---@public

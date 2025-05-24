@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.block.Bed
----@class org.bukkit.block.Bed: org.bukkit.block.TileState, org.bukkit.material.Colorable
+---@class org.bukkit.block.Bed: org.bukkit.block.TileState, org.bukkit.material.Colorable, java.lang.Object
 local Bed = {}
 
 ---@public

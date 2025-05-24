@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.stream.Stream.Builder
----@class java.util.stream.Stream.Builder: java.util.function.Consumer
+---@class java.util.stream.Stream.Builder: function, java.lang.Object
 local Builder = {}
 
 ---@param t T 

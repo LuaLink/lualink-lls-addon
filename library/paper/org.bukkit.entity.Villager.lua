@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Villager
----@class org.bukkit.entity.Villager: org.bukkit.entity.AbstractVillager
+---@class org.bukkit.entity.Villager: org.bukkit.entity.AbstractVillager, java.lang.Object
 ---@field public Type org.bukkit.entity.Villager.Type
 ---@field public Profession org.bukkit.entity.Villager.Profession
 local Villager = {}

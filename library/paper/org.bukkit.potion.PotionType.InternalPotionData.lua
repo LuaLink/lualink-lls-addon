@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.potion.PotionType.InternalPotionData
----@class org.bukkit.potion.PotionType.InternalPotionData
+---@class org.bukkit.potion.PotionType.InternalPotionData: java.lang.Object
 local InternalPotionData = {}
 
 ---@public

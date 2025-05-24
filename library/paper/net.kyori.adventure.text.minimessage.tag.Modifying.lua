@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.Modifying
----@class net.kyori.adventure.text.minimessage.tag.Modifying: net.kyori.adventure.text.minimessage.tag.Tag
+---@class net.kyori.adventure.text.minimessage.tag.Modifying: net.kyori.adventure.text.minimessage.tag.Tag, java.lang.Object
 local Modifying = {}
 
 ---@param current net.kyori.adventure.text.minimessage.tree.Node the current element in the subtree

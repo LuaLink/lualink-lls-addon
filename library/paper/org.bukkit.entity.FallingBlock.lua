@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.FallingBlock
----@class org.bukkit.entity.FallingBlock: org.bukkit.entity.Entity
+---@class org.bukkit.entity.FallingBlock: org.bukkit.entity.Entity, java.lang.Object
 local FallingBlock = {}
 
 ---@deprecated

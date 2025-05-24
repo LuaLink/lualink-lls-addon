@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.EquipmentSlotGroup
----@class org.bukkit.inventory.EquipmentSlotGroup: java.util.function.Predicate
+---@class org.bukkit.inventory.EquipmentSlotGroup: function, java.lang.Object
 ---@field private BY_NAME java.util.Map
 ---@field public ANY org.bukkit.inventory.EquipmentSlotGroup
 ---@field public MAINHAND org.bukkit.inventory.EquipmentSlotGroup
@@ -15,9 +15,9 @@
 ---@field public BODY org.bukkit.inventory.EquipmentSlotGroup
 ---@field public SADDLE org.bukkit.inventory.EquipmentSlotGroup
 ---@field private key string
----@field private predicate java.util.function.Predicate
+---@field private predicate function
 ---@field private example org.bukkit.inventory.EquipmentSlot
----@overload fun(key: string, predicate: java.util.function.Predicate, example: org.bukkit.inventory.EquipmentSlot): org.bukkit.inventory.EquipmentSlotGroup
+---@overload fun(key: string, predicate: function, example: org.bukkit.inventory.EquipmentSlot): org.bukkit.inventory.EquipmentSlotGroup
 local EquipmentSlotGroup = {}
 
 ---@param test org.bukkit.inventory.EquipmentSlot 
@@ -48,7 +48,7 @@ function EquipmentSlotGroup:getByName(name) end
 function EquipmentSlotGroup:get(key, slot) end
 
 ---@param key string 
----@param predicate java.util.function.Predicate 
+---@param predicate function 
 ---@param example org.bukkit.inventory.EquipmentSlot 
 ---@private
 ---@return org.bukkit.inventory.EquipmentSlotGroup 

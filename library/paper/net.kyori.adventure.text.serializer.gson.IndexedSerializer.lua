@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.IndexedSerializer
----@class net.kyori.adventure.text.serializer.gson.IndexedSerializer: any
+---@class net.kyori.adventure.text.serializer.gson.IndexedSerializer: any, java.lang.Object
 ---@field private name string
 ---@field private map net.kyori.adventure.util.Index
 ---@field private throwOnUnknownKey boolean

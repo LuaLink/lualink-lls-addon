@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.Tag.Argument
----@class net.kyori.adventure.text.minimessage.tag.Tag.Argument
+---@class net.kyori.adventure.text.minimessage.tag.Tag.Argument: java.lang.Object
 local Argument = {}
 
 ---@public

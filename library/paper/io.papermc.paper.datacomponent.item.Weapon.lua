@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.Weapon
----@class io.papermc.paper.datacomponent.item.Weapon
+---@class io.papermc.paper.datacomponent.item.Weapon: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.Weapon.Builder
 local Weapon = {}
 

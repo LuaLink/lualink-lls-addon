@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.command.brigadier.Commands
----@class io.papermc.paper.command.brigadier.Commands: io.papermc.paper.plugin.lifecycle.event.registrar.Registrar
+---@class io.papermc.paper.command.brigadier.Commands: io.papermc.paper.plugin.lifecycle.event.registrar.Registrar, java.lang.Object
 local Commands = {}
 
 ---@param literal string literal name

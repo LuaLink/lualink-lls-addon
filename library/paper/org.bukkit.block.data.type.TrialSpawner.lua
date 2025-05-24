@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.TrialSpawner
----@class org.bukkit.block.data.type.TrialSpawner: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.type.TrialSpawner: org.bukkit.block.data.BlockData, java.lang.Object
 ---@field public State org.bukkit.block.data.type.TrialSpawner.State
 local TrialSpawner = {}
 

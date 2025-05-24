@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.PlayerPickBlockEvent
----@class io.papermc.paper.event.player.PlayerPickBlockEvent: io.papermc.paper.event.player.PlayerPickItemEvent
+---@class io.papermc.paper.event.player.PlayerPickBlockEvent: io.papermc.paper.event.player.PlayerPickItemEvent, java.lang.Object
 ---@field private block org.bukkit.block.Block
 ---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, includeData: boolean, targetSlot: number, sourceSlot: number): io.papermc.paper.event.player.PlayerPickBlockEvent
 local PlayerPickBlockEvent = {}

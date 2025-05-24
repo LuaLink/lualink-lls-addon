@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.CreatureSpawner
----@class org.bukkit.block.CreatureSpawner: org.bukkit.block.TileState, org.bukkit.spawner.Spawner
+---@class org.bukkit.block.CreatureSpawner: org.bukkit.block.TileState, org.bukkit.spawner.Spawner, java.lang.Object
 local CreatureSpawner = {}
 
 ---@deprecated

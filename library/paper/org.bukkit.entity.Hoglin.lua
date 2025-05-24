@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Hoglin
----@class org.bukkit.entity.Hoglin: org.bukkit.entity.Animals, org.bukkit.entity.Enemy
+---@class org.bukkit.entity.Hoglin: org.bukkit.entity.Animals, org.bukkit.entity.Enemy, java.lang.Object
 local Hoglin = {}
 
 ---@public

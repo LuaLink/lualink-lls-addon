@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Vindicator
----@class org.bukkit.entity.Vindicator: org.bukkit.entity.Illager
+---@class org.bukkit.entity.Vindicator: org.bukkit.entity.Illager, java.lang.Object
 local Vindicator = {}
 
 ---@public

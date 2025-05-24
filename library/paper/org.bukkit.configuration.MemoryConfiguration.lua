@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.configuration.MemoryConfiguration
----@class org.bukkit.configuration.MemoryConfiguration: org.bukkit.configuration.MemorySection, org.bukkit.configuration.Configuration
+---@class org.bukkit.configuration.MemoryConfiguration: org.bukkit.configuration.MemorySection, org.bukkit.configuration.Configuration, java.lang.Object
 ---@field protected defaults org.bukkit.configuration.Configuration
 ---@field protected options org.bukkit.configuration.MemoryConfigurationOptions
 ---@overload fun(): org.bukkit.configuration.MemoryConfiguration

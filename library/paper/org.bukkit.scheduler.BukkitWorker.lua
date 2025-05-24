@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.scheduler.BukkitWorker
----@class org.bukkit.scheduler.BukkitWorker
+---@class org.bukkit.scheduler.BukkitWorker: java.lang.Object
 local BukkitWorker = {}
 
 ---@public

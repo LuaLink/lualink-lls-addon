@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.Prolog
----@class java.util.regex.Pattern.Prolog: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.Prolog: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public loop java.util.regex.Pattern.Loop
 ---@overload fun(loop: java.util.regex.Pattern.Loop): java.util.regex.Pattern.Prolog
 local Prolog = {}

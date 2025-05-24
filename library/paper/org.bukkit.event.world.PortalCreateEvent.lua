@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.world.PortalCreateEvent
----@class org.bukkit.event.world.PortalCreateEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.world.PortalCreateEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private blocks java.util.List
 ---@field private entity org.bukkit.entity.Entity

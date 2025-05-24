@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.World.ChunkLoadCallback
----@class org.bukkit.World.ChunkLoadCallback: java.util.function.Consumer
+---@class org.bukkit.World.ChunkLoadCallback: function, java.lang.Object
 local ChunkLoadCallback = {}
 
 ---@param chunk org.bukkit.Chunk 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Fireball
----@class org.bukkit.entity.Fireball: org.bukkit.entity.Projectile, org.bukkit.entity.Explosive
+---@class org.bukkit.entity.Fireball: org.bukkit.entity.Projectile, org.bukkit.entity.Explosive, java.lang.Object
 local Fireball = {}
 
 ---@param direction org.bukkit.util.Vector the direction this fireball should be flying towards

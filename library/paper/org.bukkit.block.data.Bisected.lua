@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Bisected
----@class org.bukkit.block.data.Bisected: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.Bisected: org.bukkit.block.data.BlockData, java.lang.Object
 ---@field public Half org.bukkit.block.data.Bisected.Half
 local Bisected = {}
 

@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.MusicInstrument
----@class org.bukkit.MusicInstrument: org.bukkit.Keyed, net.kyori.adventure.translation.Translatable
+---@class org.bukkit.MusicInstrument: org.bukkit.Keyed, net.kyori.adventure.translation.Translatable, java.lang.Object
 ---@field public ADMIRE_GOAT_HORN org.bukkit.MusicInstrument
 ---@field public CALL_GOAT_HORN org.bukkit.MusicInstrument
 ---@field public DREAM_GOAT_HORN org.bukkit.MusicInstrument

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.format.StyleSetter
----@class net.kyori.adventure.text.format.StyleSetter
+---@class net.kyori.adventure.text.format.StyleSetter: java.lang.Object
 local StyleSetter = {}
 
 ---@param font any the font

@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.ArmorStand
----@class org.bukkit.entity.ArmorStand: org.bukkit.entity.LivingEntity
+---@class org.bukkit.entity.ArmorStand: org.bukkit.entity.LivingEntity, java.lang.Object
 ---@field public LockType org.bukkit.entity.ArmorStand.LockType
 local ArmorStand = {}
 

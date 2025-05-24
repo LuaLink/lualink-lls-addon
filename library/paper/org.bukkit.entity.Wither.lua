@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Wither
----@class org.bukkit.entity.Wither: org.bukkit.entity.Monster, org.bukkit.entity.Boss, com.destroystokyo.paper.entity.RangedEntity
+---@class org.bukkit.entity.Wither: org.bukkit.entity.Monster, org.bukkit.entity.Boss, com.destroystokyo.paper.entity.RangedEntity, java.lang.Object
 ---@field public Head org.bukkit.entity.Wither.Head
 local Wither = {}
 

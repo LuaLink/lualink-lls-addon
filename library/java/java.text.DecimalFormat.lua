@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.text.DecimalFormat
----@class java.text.DecimalFormat: java.text.NumberFormat
+---@class java.text.DecimalFormat: java.text.NumberFormat, java.lang.Object
 ---@field private bigIntegerMultiplier java.math.BigInteger
 ---@field private bigDecimalMultiplier java.math.BigDecimal
 ---@field private STATUS_INFINITE number

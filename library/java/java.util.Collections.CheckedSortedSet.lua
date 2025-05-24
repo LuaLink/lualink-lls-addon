@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.CheckedSortedSet
----@class java.util.Collections.CheckedSortedSet: java.util.Collections.CheckedSet, java.util.SortedSet, java.io.Serializable
+---@class java.util.Collections.CheckedSortedSet: java.util.Collections.CheckedSet, java.util.SortedSet, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private ss java.util.SortedSet
 ---@overload fun(s: java.util.SortedSet, type: java.lang.Class): java.util.Collections.CheckedSortedSet

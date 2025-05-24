@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.resource.ResourcePackRequestImpl
----@class net.kyori.adventure.resource.ResourcePackRequestImpl: net.kyori.adventure.resource.ResourcePackRequest
+---@class net.kyori.adventure.resource.ResourcePackRequestImpl: net.kyori.adventure.resource.ResourcePackRequest, java.lang.Object
 ---@field private packs java.util.List
 ---@field private cb net.kyori.adventure.resource.ResourcePackCallback
 ---@field private replace boolean

@@ -1,10 +1,10 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.Component
----@class net.kyori.adventure.text.Component: net.kyori.adventure.text.ComponentBuilderApplicable, net.kyori.adventure.text.ComponentLike, any, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.text.format.StyleGetter, net.kyori.adventure.text.format.StyleSetter
----@field public EQUALS java.util.function.BiPredicate
----@field public EQUALS_IDENTITY java.util.function.BiPredicate
----@field public IS_NOT_EMPTY java.util.function.Predicate
+---@class net.kyori.adventure.text.Component: net.kyori.adventure.text.ComponentBuilderApplicable, net.kyori.adventure.text.ComponentLike, any, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.text.format.StyleGetter, net.kyori.adventure.text.format.StyleSetter, java.lang.Object
+---@field public EQUALS function
+---@field public EQUALS_IDENTITY function
+---@field public IS_NOT_EMPTY function
 local Component = {}
 
 ---@public
@@ -82,7 +82,7 @@ function Component:toComponent(separator) end
 --- Creates a block NBT component builder.
 function Component:blockNBT() end
 
----@param consumer java.util.function.Consumer the builder configurator
+---@param consumer function the builder configurator
 ---@public
 ---@return net.kyori.adventure.text.BlockNBTComponent a block NBT component
 --- Creates a block NBT component by applying configuration from {@code consumer}.
@@ -117,7 +117,7 @@ function Component:blockNBT(nbtPath, interpret, separator, pos) end
 --- Creates an entity NBT component builder.
 function Component:entityNBT() end
 
----@param consumer java.util.function.Consumer the builder configurator
+---@param consumer function the builder configurator
 ---@public
 ---@return net.kyori.adventure.text.EntityNBTComponent an entity NBT component
 --- Creates a entity NBT component by applying configuration from {@code consumer}.
@@ -135,7 +135,7 @@ function Component:entityNBT(nbtPath, selector) end
 --- Creates a keybind component builder.
 function Component:keybind() end
 
----@param consumer java.util.function.Consumer the builder configurator
+---@param consumer function the builder configurator
 ---@public
 ---@return net.kyori.adventure.text.KeybindComponent the keybind component
 --- Creates a keybind component by applying configuration from {@code consumer}.
@@ -218,7 +218,7 @@ function Component:keybind(keybind, color, decorations) end
 --- Creates a score component builder.
 function Component:score() end
 
----@param consumer java.util.function.Consumer the builder configurator
+---@param consumer function the builder configurator
 ---@public
 ---@return net.kyori.adventure.text.ScoreComponent a score component
 --- Creates a score component by applying configuration from {@code consumer}.
@@ -245,7 +245,7 @@ function Component:score(name, objective, value) end
 --- Creates a selector component builder.
 function Component:selector() end
 
----@param consumer java.util.function.Consumer the builder configurator
+---@param consumer function the builder configurator
 ---@public
 ---@return net.kyori.adventure.text.SelectorComponent a selector component
 --- Creates a selector component by applying configuration from {@code consumer}.
@@ -269,7 +269,7 @@ function Component:selector(pattern, separator) end
 --- Creates an storage NBT component builder.
 function Component:storageNBT() end
 
----@param consumer java.util.function.Consumer the builder configurator
+---@param consumer function the builder configurator
 ---@public
 ---@return net.kyori.adventure.text.StorageNBTComponent a storage NBT component
 --- Creates a storage NBT component by applying configuration from {@code consumer}.
@@ -310,7 +310,7 @@ function Component:text() end
 --- Creates a text component with {@code components} as the children.
 function Component:textOfChildren(components) end
 
----@param consumer java.util.function.Consumer the builder configurator
+---@param consumer function the builder configurator
 ---@public
 ---@return net.kyori.adventure.text.TextComponent the text component
 --- Creates a text component by applying configuration from {@code consumer}.
@@ -604,7 +604,7 @@ function Component:virtual(contextType, renderer, style) end
 --- Creates a translatable component builder.
 function Component:translatable() end
 
----@param consumer java.util.function.Consumer the builder configurator
+---@param consumer function the builder configurator
 ---@public
 ---@return net.kyori.adventure.text.TranslatableComponent a translatable component
 --- Creates a translatable component by applying configuration from {@code consumer}.
@@ -962,7 +962,7 @@ function Component:children(children) end
 function Component:contains(that) end
 
 ---@param that net.kyori.adventure.text.Component the other component
----@param equals java.util.function.BiPredicate the equality tester
+---@param equals function the equality tester
 ---@public
 ---@return boolean {@code true} if this component contains the provided     component, {@code false} otherwise
 --- Checks if this component contains a component.
@@ -1038,13 +1038,13 @@ function Component:style() end
 --- Sets the style of this component.
 function Component:style(style) end
 
----@param consumer java.util.function.Consumer the style consumer
+---@param consumer function the style consumer
 ---@public
 ---@return net.kyori.adventure.text.Component a component
 --- Sets the style of this component.
 function Component:style(consumer) end
 
----@param consumer java.util.function.Consumer the style consumer
+---@param consumer function the style consumer
 ---@param strategy net.kyori.adventure.text.format.Style.Merge.Strategy the merge strategy
 ---@public
 ---@return net.kyori.adventure.text.Component a component
@@ -1209,7 +1209,7 @@ function Component:insertion(insertion) end
 --- Tests if this component has any styling.
 function Component:hasStyling() end
 
----@param configurer java.util.function.Consumer the configurer
+---@param configurer function the configurer
 ---@public
 ---@return net.kyori.adventure.text.Component a modified copy of this component
 --- Finds and replaces any text with this or child {@link Component}s using the configured options.
@@ -1278,7 +1278,7 @@ function Component:replaceText(search, replacement) end
 
 ---@deprecated
 ---@param pattern java.util.regex.Pattern a regex pattern
----@param replacement? java.util.function.Function a function to replace each match
+---@param replacement? function a function to replace each match
 ---@public
 ---@return net.kyori.adventure.text.Component a modified copy of this component
 --- Finds and replaces text within any {@link TextComponent}s using a regex pattern.
@@ -1294,7 +1294,7 @@ function Component:replaceFirstText(search, replacement) end
 
 ---@deprecated
 ---@param pattern java.util.regex.Pattern a regex pattern
----@param replacement? java.util.function.Function a function to replace the first match
+---@param replacement? function a function to replace the first match
 ---@public
 ---@return net.kyori.adventure.text.Component a modified copy of this component
 --- Finds and replaces the first occurrence of text within any {@link TextComponent}s using a regex pattern.
@@ -1311,7 +1311,7 @@ function Component:replaceText(search, replacement, numberOfReplacements) end
 
 ---@deprecated
 ---@param pattern java.util.regex.Pattern a regex pattern
----@param replacement? java.util.function.Function a function to replace each match
+---@param replacement? function a function to replace each match
 ---@param numberOfReplacements number the amount of matches that should be replaced
 ---@public
 ---@return net.kyori.adventure.text.Component a modified copy of this component
@@ -1329,7 +1329,7 @@ function Component:replaceText(search, replacement, fn) end
 
 ---@deprecated
 ---@param pattern java.util.regex.Pattern a regex pattern
----@param replacement? java.util.function.Function a function to replace the first match
+---@param replacement? function a function to replace the first match
 ---@param fn net.kyori.adventure.util.IntFunction2 a function of (index, replaced) used to determine if matches should be replaced, where "replaced" is the number of successful replacements
 ---@public
 ---@return net.kyori.adventure.text.Component a modified copy of this component

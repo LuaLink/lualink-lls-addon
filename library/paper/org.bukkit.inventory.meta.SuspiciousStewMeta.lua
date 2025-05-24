@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.SuspiciousStewMeta
----@class org.bukkit.inventory.meta.SuspiciousStewMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.SuspiciousStewMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local SuspiciousStewMeta = {}
 
 ---@public

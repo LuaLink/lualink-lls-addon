@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.ItemLore
----@class io.papermc.paper.datacomponent.item.ItemLore
+---@class io.papermc.paper.datacomponent.item.ItemLore: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.ItemLore.Builder
 local ItemLore = {}
 

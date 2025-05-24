@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Salmon
----@class org.bukkit.entity.Salmon: io.papermc.paper.entity.SchoolableFish
+---@class org.bukkit.entity.Salmon: io.papermc.paper.entity.SchoolableFish, java.lang.Object
 ---@field public Variant org.bukkit.entity.Salmon.Variant
 local Salmon = {}
 

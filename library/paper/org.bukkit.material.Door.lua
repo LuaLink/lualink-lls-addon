@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Door
----@class org.bukkit.material.Door: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Openable
+---@class org.bukkit.material.Door: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Openable, java.lang.Object
 ---@overload fun(): org.bukkit.material.Door
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Door
 ---@overload fun(type: org.bukkit.Material, face: org.bukkit.block.BlockFace): org.bukkit.material.Door

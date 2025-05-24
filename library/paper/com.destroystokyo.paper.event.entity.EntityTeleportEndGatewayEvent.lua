@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.entity.EntityTeleportEndGatewayEvent
----@class com.destroystokyo.paper.event.entity.EntityTeleportEndGatewayEvent: org.bukkit.event.entity.EntityTeleportEvent
+---@class com.destroystokyo.paper.event.entity.EntityTeleportEndGatewayEvent: org.bukkit.event.entity.EntityTeleportEvent, java.lang.Object
 ---@field private gateway org.bukkit.block.EndGateway
 ---@overload fun(entity: org.bukkit.entity.Entity, from: org.bukkit.Location, to: org.bukkit.Location, gateway: org.bukkit.block.EndGateway): com.destroystokyo.paper.event.entity.EntityTeleportEndGatewayEvent
 local EntityTeleportEndGatewayEvent = {}

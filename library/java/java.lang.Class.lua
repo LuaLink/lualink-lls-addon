@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.lang.Class
----@class java.lang.Class: java.io.Serializable, java.lang.reflect.GenericDeclaration, java.lang.reflect.Type, java.lang.reflect.AnnotatedElement, java.lang.invoke.TypeDescriptor.OfField, java.lang.constant.Constable
+---@class java.lang.Class: java.io.Serializable, java.lang.reflect.GenericDeclaration, java.lang.reflect.Type, java.lang.reflect.AnnotatedElement, java.lang.invoke.TypeDescriptor.OfField, java.lang.constant.Constable, java.lang.Object
 ---@field private ANNOTATION number
 ---@field private ENUM number
 ---@field private SYNTHETIC number

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.EntityBlockStorage
----@class org.bukkit.block.EntityBlockStorage: org.bukkit.block.TileState
+---@class org.bukkit.block.EntityBlockStorage: org.bukkit.block.TileState, java.lang.Object
 local EntityBlockStorage = {}
 
 ---@public

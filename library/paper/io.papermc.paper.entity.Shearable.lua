@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.entity.Shearable
----@class io.papermc.paper.entity.Shearable: org.bukkit.entity.Entity
+---@class io.papermc.paper.entity.Shearable: org.bukkit.entity.Entity, java.lang.Object
 local Shearable = {}
 
 ---@public

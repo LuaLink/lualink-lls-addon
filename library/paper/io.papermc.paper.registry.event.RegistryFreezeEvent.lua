@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.event.RegistryFreezeEvent
----@class io.papermc.paper.registry.event.RegistryFreezeEvent: io.papermc.paper.registry.event.RegistryEvent
+---@class io.papermc.paper.registry.event.RegistryFreezeEvent: io.papermc.paper.registry.event.RegistryEvent, java.lang.Object
 local RegistryFreezeEvent = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.text.Filtered
----@class io.papermc.paper.text.Filtered
+---@class io.papermc.paper.text.Filtered: java.lang.Object
 local Filtered = {}
 
 ---@param raw T 

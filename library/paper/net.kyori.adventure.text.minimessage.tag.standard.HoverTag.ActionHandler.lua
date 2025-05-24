@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.HoverTag.ActionHandler
----@class net.kyori.adventure.text.minimessage.tag.standard.HoverTag.ActionHandler
+---@class net.kyori.adventure.text.minimessage.tag.standard.HoverTag.ActionHandler: java.lang.Object
 local ActionHandler = {}
 
 ---@param args net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue 

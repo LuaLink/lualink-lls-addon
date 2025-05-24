@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BlockRedstoneEvent
----@class org.bukkit.event.block.BlockRedstoneEvent: org.bukkit.event.block.BlockEvent
+---@class org.bukkit.event.block.BlockRedstoneEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private oldCurrent number
 ---@field private newCurrent number

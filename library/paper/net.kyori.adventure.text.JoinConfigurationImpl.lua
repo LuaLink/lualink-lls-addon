@@ -1,8 +1,8 @@
 ---@meta
 -- net.kyori.adventure.text.JoinConfigurationImpl
----@class net.kyori.adventure.text.JoinConfigurationImpl: net.kyori.adventure.text.JoinConfiguration
----@field public DEFAULT_CONVERTOR java.util.function.Function
----@field public DEFAULT_PREDICATE java.util.function.Predicate
+---@class net.kyori.adventure.text.JoinConfigurationImpl: net.kyori.adventure.text.JoinConfiguration, java.lang.Object
+---@field public DEFAULT_CONVERTOR function
+---@field public DEFAULT_PREDICATE function
 ---@field public NULL net.kyori.adventure.text.JoinConfigurationImpl
 ---@field public STANDARD_NEW_LINES net.kyori.adventure.text.JoinConfiguration
 ---@field public STANDARD_SPACES net.kyori.adventure.text.JoinConfiguration
@@ -14,8 +14,8 @@
 ---@field private separator net.kyori.adventure.text.Component
 ---@field private lastSeparator net.kyori.adventure.text.Component
 ---@field private lastSeparatorIfSerial net.kyori.adventure.text.Component
----@field private convertor java.util.function.Function
----@field private predicate java.util.function.Predicate
+---@field private convertor function
+---@field private predicate function
 ---@field private rootStyle net.kyori.adventure.text.format.Style
 ---@field public BuilderImpl net.kyori.adventure.text.JoinConfigurationImpl.BuilderImpl
 ---@overload fun(): net.kyori.adventure.text.JoinConfigurationImpl
@@ -43,11 +43,11 @@ function JoinConfigurationImpl:lastSeparator() end
 function JoinConfigurationImpl:lastSeparatorIfSerial() end
 
 ---@public
----@return java.util.function.Function 
+---@return function 
 function JoinConfigurationImpl:convertor() end
 
 ---@public
----@return java.util.function.Predicate 
+---@return function 
 function JoinConfigurationImpl:predicate() end
 
 ---@public

@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.concurrent.CompletableFuture.UniRelay
----@class java.util.concurrent.CompletableFuture.UniRelay: java.util.concurrent.CompletableFuture.UniCompletion
+---@class java.util.concurrent.CompletableFuture.UniRelay: java.util.concurrent.CompletableFuture.UniCompletion, java.lang.Object
 ---@overload fun(dep: java.util.concurrent.CompletableFuture, src: java.util.concurrent.CompletableFuture): java.util.concurrent.CompletableFuture.UniRelay
 local UniRelay = {}
 

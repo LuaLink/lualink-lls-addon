@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.configuration.file.YamlConfiguration
----@class org.bukkit.configuration.file.YamlConfiguration: org.bukkit.configuration.file.FileConfiguration
+---@class org.bukkit.configuration.file.YamlConfiguration: org.bukkit.configuration.file.FileConfiguration, java.lang.Object
 ---@field protected COMMENT_PREFIX string
 ---@field protected BLANK_CONFIG string
 ---@field private yamlDumperOptions any

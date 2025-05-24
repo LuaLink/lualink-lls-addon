@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.configuration.file.YamlConstructor
----@class org.bukkit.configuration.file.YamlConstructor: any
+---@class org.bukkit.configuration.file.YamlConstructor: any, java.lang.Object
 ---@field private ConstructCustomObject org.bukkit.configuration.file.YamlConstructor.ConstructCustomObject
 ---@overload fun(): org.bukkit.configuration.file.YamlConstructor
 ---@overload fun(loaderOptions: any): org.bukkit.configuration.file.YamlConstructor

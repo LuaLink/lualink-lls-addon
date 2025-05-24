@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.permissions.PermissionAttachment
----@class org.bukkit.permissions.PermissionAttachment
+---@class org.bukkit.permissions.PermissionAttachment: java.lang.Object
 ---@field private removed org.bukkit.permissions.PermissionRemovedExecutor
 ---@field private permissions java.util.Map
 ---@field private permissible org.bukkit.permissions.Permissible

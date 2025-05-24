@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.regex.Matcher.ImmutableMatchResult
----@class java.util.regex.Matcher.ImmutableMatchResult: java.util.regex.MatchResult
+---@class java.util.regex.Matcher.ImmutableMatchResult: java.util.regex.MatchResult, java.lang.Object
 ---@field private first number
 ---@field private last number
 ---@field private groupCount number

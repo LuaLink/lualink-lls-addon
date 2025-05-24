@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.CheckedList
----@class java.util.Collections.CheckedList: java.util.Collections.CheckedCollection, java.util.List
+---@class java.util.Collections.CheckedList: java.util.Collections.CheckedCollection, java.util.List, java.lang.Object
 ---@field private serialVersionUID number
 ---@field public list java.util.List
 ---@overload fun(list: java.util.List, type: java.lang.Class): java.util.Collections.CheckedList

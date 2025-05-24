@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Structure
----@class org.bukkit.block.Structure: org.bukkit.block.TileState
+---@class org.bukkit.block.Structure: org.bukkit.block.TileState, java.lang.Object
 local Structure = {}
 
 ---@public

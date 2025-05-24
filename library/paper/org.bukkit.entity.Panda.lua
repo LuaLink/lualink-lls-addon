@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Panda
----@class org.bukkit.entity.Panda: org.bukkit.entity.Animals, org.bukkit.entity.Sittable
+---@class org.bukkit.entity.Panda: org.bukkit.entity.Animals, org.bukkit.entity.Sittable, java.lang.Object
 ---@field public Gene org.bukkit.entity.Panda.Gene
 local Panda = {}
 

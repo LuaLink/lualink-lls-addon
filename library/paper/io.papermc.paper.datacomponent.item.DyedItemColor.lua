@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.DyedItemColor
----@class io.papermc.paper.datacomponent.item.DyedItemColor
+---@class io.papermc.paper.datacomponent.item.DyedItemColor: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.DyedItemColor.Builder
 local DyedItemColor = {}
 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Map
----@class java.util.Map
+---@class java.util.Map: java.lang.Object
 ---@field public Entry java.util.Map.Entry
 local Map = {}
 
@@ -90,13 +90,13 @@ function Map:hashCode() end
 --- Returns the value to which the specified key is mapped, or {@code defaultValue} if this map contains no mapping for the key.
 function Map:getOrDefault(key, defaultValue) end
 
----@param action java.util.function.BiConsumer The action to be performed for each entry
+---@param action function The action to be performed for each entry
 ---@public
 ---@return nil 
 --- Performs the given action for each entry in this map until all entries have been processed or the action throws an exception.   Unless otherwise specified by the implementing class, actions are performed in the order of entry set iteration (if an iteration order is specified.) Exceptions thrown by the action are relayed to the caller.
 function Map:forEach(action) end
 
----@param function java.util.function.BiFunction the function to apply to each entry
+---@param function function the function to apply to each entry
 ---@public
 ---@return nil 
 --- Replaces each entry's value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception.  Exceptions thrown by the function are relayed to the caller.
@@ -132,21 +132,21 @@ function Map:replace(key, oldValue, newValue) end
 function Map:replace(key, value) end
 
 ---@param key K key with which the specified value is to be associated
----@param mappingFunction java.util.function.Function the mapping function to compute a value
+---@param mappingFunction function the mapping function to compute a value
 ---@public
 ---@return V the current (existing or computed) value associated with         the specified key, or null if the computed value is null
 --- If the specified key is not already associated with a value (or is mapped to {@code null}), attempts to compute its value using the given mapping function and enters it into this map unless {@code null}.  <p>If the mapping function returns {@code null}, no mapping is recorded. If the mapping function itself throws an (unchecked) exception, the exception is rethrown, and no mapping is recorded.  The most common usage is to construct a new object serving as an initial mapped value or memoized result, as in:  <pre> {@code map.computeIfAbsent(key, k -> new Value(f(k))); }</pre>  <p>Or to implement a multi-value map, {@code Map<K,Collection<V>>}, supporting multiple values per key:  <pre> {@code map.computeIfAbsent(key, k -> new HashSet<V>()).add(v); }</pre>  <p>The mapping function should not modify this map during computation.
 function Map:computeIfAbsent(key, mappingFunction) end
 
 ---@param key K key with which the specified value is to be associated
----@param remappingFunction java.util.function.BiFunction the remapping function to compute a value
+---@param remappingFunction function the remapping function to compute a value
 ---@public
 ---@return V the new value associated with the specified key, or null if none
 --- If the value for the specified key is present and non-null, attempts to compute a new mapping given the key and its current mapped value.  <p>If the remapping function returns {@code null}, the mapping is removed. If the remapping function itself throws an (unchecked) exception, the exception is rethrown, and the current mapping is left unchanged.  <p>The remapping function should not modify this map during computation.
 function Map:computeIfPresent(key, remappingFunction) end
 
 ---@param key K key with which the specified value is to be associated
----@param remappingFunction java.util.function.BiFunction the remapping function to compute a value
+---@param remappingFunction function the remapping function to compute a value
 ---@public
 ---@return V the new value associated with the specified key, or null if none
 --- Attempts to compute a mapping for the specified key and its current mapped value (or {@code null} if there is no current mapping). For example, to either create or append a {@code String} msg to a value mapping:  <pre> {@code map.compute(key, (k, v) -> (v == null) ? msg : v.concat(msg))}</pre> (Method {@link #merge merge()} is often simpler to use for such purposes.)  <p>If the remapping function returns {@code null}, the mapping is removed (or remains absent if initially absent).  If the remapping function itself throws an (unchecked) exception, the exception is rethrown, and the current mapping is left unchanged.  <p>The remapping function should not modify this map during computation.
@@ -154,7 +154,7 @@ function Map:compute(key, remappingFunction) end
 
 ---@param key K key with which the resulting value is to be associated
 ---@param value V the non-null value to be merged with the existing value        associated with the key or, if no existing value or a null value        is associated with the key, to be associated with the key
----@param remappingFunction java.util.function.BiFunction the remapping function to recompute a value if        present
+---@param remappingFunction function the remapping function to recompute a value if        present
 ---@public
 ---@return V the new value associated with the specified key, or null if no         value is associated with the key
 --- If the specified key is not already associated with a value or is associated with null, associates it with the given non-null value. Otherwise, replaces the associated value with the results of the given remapping function, or removes if the result is {@code null}. This method may be of use when combining multiple mapped values for a key. For example, to either create or append a {@code String msg} to a value mapping:  <pre> {@code map.merge(key, msg, String::concat) }</pre>  <p>If the remapping function returns {@code null}, the mapping is removed. If the remapping function itself throws an (unchecked) exception, the exception is rethrown, and the current mapping is left unchanged.  <p>The remapping function should not modify this map during computation.

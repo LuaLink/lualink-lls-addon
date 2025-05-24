@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Sapling
----@class org.bukkit.block.data.type.Sapling: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.type.Sapling: org.bukkit.block.data.BlockData, java.lang.Object
 local Sapling = {}
 
 ---@public

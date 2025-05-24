@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.math.BlockPosition
----@class io.papermc.paper.math.BlockPosition: io.papermc.paper.math.Position
+---@class io.papermc.paper.math.BlockPosition: io.papermc.paper.math.Position, java.lang.Object
 local BlockPosition = {}
 
 ---@public

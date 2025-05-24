@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.command.Command
----@class org.bukkit.command.Command
+---@class org.bukkit.command.Command: java.lang.Object
 ---@field private name string
 ---@field private nextLabel string
 ---@field private label string

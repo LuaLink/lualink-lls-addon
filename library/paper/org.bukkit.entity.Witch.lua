@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Witch
----@class org.bukkit.entity.Witch: org.bukkit.entity.Raider, com.destroystokyo.paper.entity.RangedEntity
+---@class org.bukkit.entity.Witch: org.bukkit.entity.Raider, com.destroystokyo.paper.entity.RangedEntity, java.lang.Object
 local Witch = {}
 
 ---@public

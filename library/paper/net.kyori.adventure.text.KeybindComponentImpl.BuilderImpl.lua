@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.KeybindComponentImpl.BuilderImpl
----@class net.kyori.adventure.text.KeybindComponentImpl.BuilderImpl: net.kyori.adventure.text.AbstractComponentBuilder, net.kyori.adventure.text.KeybindComponent.Builder
+---@class net.kyori.adventure.text.KeybindComponentImpl.BuilderImpl: net.kyori.adventure.text.AbstractComponentBuilder, net.kyori.adventure.text.KeybindComponent.Builder, java.lang.Object
 ---@field private keybind string
 ---@overload fun(): net.kyori.adventure.text.KeybindComponentImpl.BuilderImpl
 ---@overload fun(component: net.kyori.adventure.text.KeybindComponent): net.kyori.adventure.text.KeybindComponentImpl.BuilderImpl

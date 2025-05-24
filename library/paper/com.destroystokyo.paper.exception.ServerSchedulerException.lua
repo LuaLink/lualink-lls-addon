@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.exception.ServerSchedulerException
----@class com.destroystokyo.paper.exception.ServerSchedulerException: com.destroystokyo.paper.exception.ServerPluginException
+---@class com.destroystokyo.paper.exception.ServerSchedulerException: com.destroystokyo.paper.exception.ServerPluginException, java.lang.Object
 ---@field private task org.bukkit.scheduler.BukkitTask
 ---@overload fun(message: string, cause: java.lang.Throwable, task: org.bukkit.scheduler.BukkitTask): com.destroystokyo.paper.exception.ServerSchedulerException
 ---@overload fun(cause: java.lang.Throwable, task: org.bukkit.scheduler.BukkitTask): com.destroystokyo.paper.exception.ServerSchedulerException

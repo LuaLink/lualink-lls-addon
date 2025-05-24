@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.generator.ChunkGenerator
----@class org.bukkit.generator.ChunkGenerator
+---@class org.bukkit.generator.ChunkGenerator: java.lang.Object
 ---@field public BiomeGrid org.bukkit.generator.ChunkGenerator.BiomeGrid
 ---@field public ChunkData org.bukkit.generator.ChunkGenerator.ChunkData
 local ChunkGenerator = {}

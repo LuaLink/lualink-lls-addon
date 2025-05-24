@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.BrewingStand
----@class org.bukkit.block.BrewingStand: org.bukkit.block.Container
+---@class org.bukkit.block.BrewingStand: org.bukkit.block.Container, java.lang.Object
 local BrewingStand = {}
 
 ---@public

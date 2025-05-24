@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Hanging
----@class org.bukkit.entity.Hanging: org.bukkit.entity.Entity, org.bukkit.material.Attachable
+---@class org.bukkit.entity.Hanging: org.bukkit.entity.Entity, org.bukkit.material.Attachable, java.lang.Object
 local Hanging = {}
 
 ---@param face org.bukkit.block.BlockFace The new direction.

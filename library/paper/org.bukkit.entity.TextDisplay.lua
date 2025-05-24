@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.TextDisplay
----@class org.bukkit.entity.TextDisplay: org.bukkit.entity.Display
+---@class org.bukkit.entity.TextDisplay: org.bukkit.entity.Display, java.lang.Object
 ---@field public TextAlignment org.bukkit.entity.TextDisplay.TextAlignment
 local TextDisplay = {}
 

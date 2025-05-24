@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.command.brigadier.argument.RegistryArgumentExtractor
----@class io.papermc.paper.command.brigadier.argument.RegistryArgumentExtractor
+---@class io.papermc.paper.command.brigadier.argument.RegistryArgumentExtractor: java.lang.Object
 ---@overload fun(): io.papermc.paper.command.brigadier.argument.RegistryArgumentExtractor
 local RegistryArgumentExtractor = {}
 

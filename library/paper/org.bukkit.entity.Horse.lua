@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Horse
----@class org.bukkit.entity.Horse: org.bukkit.entity.AbstractHorse
+---@class org.bukkit.entity.Horse: org.bukkit.entity.AbstractHorse, java.lang.Object
 ---@field public Variant org.bukkit.entity.Horse.Variant
 ---@field public Color org.bukkit.entity.Horse.Color
 ---@field public Style org.bukkit.entity.Horse.Style

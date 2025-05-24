@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.TestBlock
----@class org.bukkit.block.data.type.TestBlock: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.type.TestBlock: org.bukkit.block.data.BlockData, java.lang.Object
 ---@field public Mode org.bukkit.block.data.type.TestBlock.Mode
 local TestBlock = {}
 

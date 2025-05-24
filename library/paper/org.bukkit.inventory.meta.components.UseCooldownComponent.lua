@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.components.UseCooldownComponent
----@class org.bukkit.inventory.meta.components.UseCooldownComponent: org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.inventory.meta.components.UseCooldownComponent: org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 local UseCooldownComponent = {}
 
 ---@public

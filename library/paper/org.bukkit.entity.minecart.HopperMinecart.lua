@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.minecart.HopperMinecart
----@class org.bukkit.entity.minecart.HopperMinecart: org.bukkit.entity.Minecart, org.bukkit.inventory.InventoryHolder, com.destroystokyo.paper.loottable.LootableEntityInventory
+---@class org.bukkit.entity.minecart.HopperMinecart: org.bukkit.entity.Minecart, org.bukkit.inventory.InventoryHolder, com.destroystokyo.paper.loottable.LootableEntityInventory, java.lang.Object
 local HopperMinecart = {}
 
 ---@public

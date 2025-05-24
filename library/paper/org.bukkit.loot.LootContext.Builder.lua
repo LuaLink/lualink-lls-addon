@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.loot.LootContext.Builder
----@class org.bukkit.loot.LootContext.Builder
+---@class org.bukkit.loot.LootContext.Builder: java.lang.Object
 ---@field private location org.bukkit.Location
 ---@field private luck number
 ---@field private lootingModifier number

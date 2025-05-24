@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.Collection
----@class java.util.Collection: java.lang.Iterable
+---@class java.util.Collection: java.lang.Iterable, java.lang.Object
 local Collection = {}
 
 ---@public
@@ -35,7 +35,7 @@ function Collection:toArray() end
 --- Returns an array containing all of the elements in this collection; the runtime type of the returned array is that of the specified array. If the collection fits in the specified array, it is returned therein. Otherwise, a new array is allocated with the runtime type of the specified array and the size of this collection.  <p>If this collection fits in the specified array with room to spare (i.e., the array has more elements than this collection), the element in the array immediately following the end of the collection is set to {@code null}.  (This is useful in determining the length of this collection <i>only</i> if the caller knows that this collection does not contain any {@code null} elements.)  <p>If this collection makes any guarantees as to what order its elements are returned by its iterator, this method must return the elements in the same order.
 function Collection:toArray(a) end
 
----@param generator java.util.function.IntFunction a function which produces a new array of the desired                  type and the provided length
+---@param generator function a function which produces a new array of the desired                  type and the provided length
 ---@public
 ---@return table<T> an array containing all of the elements in this collection
 --- Returns an array containing all of the elements in this collection, using the provided {@code generator} function to allocate the returned array.  <p>If this collection makes any guarantees as to what order its elements are returned by its iterator, this method must return the elements in the same order.
@@ -71,7 +71,7 @@ function Collection:addAll(c) end
 --- Removes all of this collection's elements that are also contained in the specified collection (optional operation).  After this call returns, this collection will contain no elements in common with the specified collection.
 function Collection:removeAll(c) end
 
----@param filter java.util.function.Predicate a predicate which returns {@code true} for elements to be        removed
+---@param filter function a predicate which returns {@code true} for elements to be        removed
 ---@public
 ---@return boolean {@code true} if any elements were removed
 --- Removes all of the elements of this collection that satisfy the given predicate.  Errors or runtime exceptions thrown during iteration or by the predicate are relayed to the caller.

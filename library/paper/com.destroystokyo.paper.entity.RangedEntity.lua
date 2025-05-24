@@ -1,6 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.entity.RangedEntity
----@class com.destroystokyo.paper.entity.RangedEntity: org.bukkit.entity.Mob
+---@class com.destroystokyo.paper.entity.RangedEntity: org.bukkit.entity.Mob, java.lang.Object
 local RangedEntity = {}
 
 ---@param target org.bukkit.entity.LivingEntity the entity to target

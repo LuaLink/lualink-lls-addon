@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.provider.classloader.PluginClassLoaderGroup
----@class io.papermc.paper.plugin.provider.classloader.PluginClassLoaderGroup
+---@class io.papermc.paper.plugin.provider.classloader.PluginClassLoaderGroup: java.lang.Object
 local PluginClassLoaderGroup = {}
 
 ---@param name string the fully qualified name of the class to load

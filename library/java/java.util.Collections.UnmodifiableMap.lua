@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.UnmodifiableMap
----@class java.util.Collections.UnmodifiableMap: java.util.Map, java.io.Serializable
+---@class java.util.Collections.UnmodifiableMap: java.util.Map, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field public m java.util.Map
 ---@field private keySet java.util.Set
@@ -85,12 +85,12 @@ function UnmodifiableMap:toString() end
 ---@return V 
 function UnmodifiableMap:getOrDefault(k, defaultValue) end
 
----@param action java.util.function.BiConsumer 
+---@param action function 
 ---@public
 ---@return nil 
 function UnmodifiableMap:forEach(action) end
 
----@param function java.util.function.BiFunction 
+---@param function function 
 ---@public
 ---@return nil 
 function UnmodifiableMap:replaceAll(function) end
@@ -121,26 +121,26 @@ function UnmodifiableMap:replace(key, oldValue, newValue) end
 function UnmodifiableMap:replace(key, value) end
 
 ---@param key K 
----@param mappingFunction java.util.function.Function 
+---@param mappingFunction function 
 ---@public
 ---@return V 
 function UnmodifiableMap:computeIfAbsent(key, mappingFunction) end
 
 ---@param key K 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function UnmodifiableMap:computeIfPresent(key, remappingFunction) end
 
 ---@param key K 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function UnmodifiableMap:compute(key, remappingFunction) end
 
 ---@param key K 
 ---@param value V 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function UnmodifiableMap:merge(key, value, remappingFunction) end

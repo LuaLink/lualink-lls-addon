@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BrewingStartEvent
----@class org.bukkit.event.block.BrewingStartEvent: org.bukkit.event.block.InventoryBlockStartEvent
+---@class org.bukkit.event.block.BrewingStartEvent: org.bukkit.event.block.InventoryBlockStartEvent, java.lang.Object
 ---@field private brewingTime number
 ---@field private recipeBrewTime number
 ---@overload fun(furnace: org.bukkit.block.Block, source: org.bukkit.inventory.ItemStack, brewingTime: number): org.bukkit.event.block.BrewingStartEvent

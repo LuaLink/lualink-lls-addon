@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.server.TabCompleteEvent
----@class org.bukkit.event.server.TabCompleteEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable
+---@class org.bukkit.event.server.TabCompleteEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private sender org.bukkit.command.CommandSender
 ---@field private buffer string
@@ -31,7 +31,7 @@ function TabCompleteEvent:getCompletions() end
 ---@param completions java.util.List the new completions
 ---@public
 ---@return nil 
---- Set the completions offered, overriding any already set. <br> The passed collection will be cloned to a new List. You must call {{@link #getCompletions()}} to mutate from here
+--- Set the completions offered, overriding any already set. <br> The passed collection will be cloned to a new List. You must call {@link #getCompletions()} to mutate from here
 function TabCompleteEvent:setCompletions(completions) end
 
 ---@public

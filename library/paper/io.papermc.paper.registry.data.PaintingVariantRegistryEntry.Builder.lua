@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.PaintingVariantRegistryEntry.Builder
----@class io.papermc.paper.registry.data.PaintingVariantRegistryEntry.Builder: io.papermc.paper.registry.data.PaintingVariantRegistryEntry, io.papermc.paper.registry.RegistryBuilder
+---@class io.papermc.paper.registry.data.PaintingVariantRegistryEntry.Builder: io.papermc.paper.registry.data.PaintingVariantRegistryEntry, io.papermc.paper.registry.RegistryBuilder, java.lang.Object
 local Builder = {}
 
 ---@param width number the width in blocks.

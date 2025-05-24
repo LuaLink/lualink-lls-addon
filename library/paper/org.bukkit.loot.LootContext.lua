@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.loot.LootContext
----@class org.bukkit.loot.LootContext
+---@class org.bukkit.loot.LootContext: java.lang.Object
 ---@field public DEFAULT_LOOT_MODIFIER number
 ---@field private location org.bukkit.Location
 ---@field private luck number

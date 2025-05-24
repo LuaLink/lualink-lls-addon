@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.attribute.AttributeModifier
----@class org.bukkit.attribute.AttributeModifier: org.bukkit.configuration.serialization.ConfigurationSerializable, org.bukkit.Keyed
+---@class org.bukkit.attribute.AttributeModifier: org.bukkit.configuration.serialization.ConfigurationSerializable, org.bukkit.Keyed, java.lang.Object
 ---@field private UUID_PATTERN java.util.regex.Pattern
 ---@field private key org.bukkit.NamespacedKey
 ---@field private amount number

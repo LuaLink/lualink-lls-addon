@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.BlockNBTComponentImpl.Tokens
----@class net.kyori.adventure.text.BlockNBTComponentImpl.Tokens
+---@class net.kyori.adventure.text.BlockNBTComponentImpl.Tokens: java.lang.Object
 ---@field public LOCAL_PATTERN java.util.regex.Pattern
 ---@field public WORLD_PATTERN java.util.regex.Pattern
 ---@field public LOCAL_SYMBOL string

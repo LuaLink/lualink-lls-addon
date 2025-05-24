@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.format.DecorationMap.KeySet
----@class net.kyori.adventure.text.format.DecorationMap.KeySet: java.util.AbstractSet
+---@class net.kyori.adventure.text.format.DecorationMap.KeySet: java.util.AbstractSet, java.lang.Object
 local KeySet = {}
 
 ---@param o java.lang.Object 

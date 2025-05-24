@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.tags.ItemTypeTagKeys
----@class io.papermc.paper.registry.keys.tags.ItemTypeTagKeys
+---@class io.papermc.paper.registry.keys.tags.ItemTypeTagKeys: java.lang.Object
 ---@field public ACACIA_LOGS io.papermc.paper.registry.tag.TagKey
 ---@field public ANVIL io.papermc.paper.registry.tag.TagKey
 ---@field public ARMADILLO_FOOD io.papermc.paper.registry.tag.TagKey

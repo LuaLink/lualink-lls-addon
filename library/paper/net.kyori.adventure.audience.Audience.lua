@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.audience.Audience
----@class net.kyori.adventure.audience.Audience: net.kyori.adventure.pointer.Pointered
+---@class net.kyori.adventure.audience.Audience: net.kyori.adventure.pointer.Pointered, java.lang.Object
 local Audience = {}
 
 ---@public
@@ -26,13 +26,13 @@ function Audience:audience(audiences) end
 --- Provides a collector to create a forwarding audience from a stream of audiences.  <p>The audience produced is immutable and can be reused as desired.</p>
 function Audience:toAudience() end
 
----@param filter java.util.function.Predicate a filter that determines if an audience should be included
+---@param filter function a filter that determines if an audience should be included
 ---@public
 ---@return net.kyori.adventure.audience.Audience an audience providing a snapshot of all audiences that match the predicate when this method is invoked
 --- Filters this audience.  <p>The returned {@code Audience} may be the same, or a completely different one.</p>  <p>Container audiences such as {@link ForwardingAudience} may or may not have their own identity. If they do, they <em>may</em> test themselves against the provided {@code filter} first, and if the test fails return an empty audience skipping any contained children. If they do not, they <em>must not</em> test themselves against the filter, only testing their children.</p>
 function Audience:filterAudience(filter) end
 
----@param action java.util.function.Consumer the action
+---@param action function the action
 ---@public
 ---@return nil 
 --- Executes an action against all audiences.  <p>If you implement {@code Audience} and not {@link ForwardingAudience} in your own code, and your audience forwards to other audiences, then you <b>must</b> override this method and provide each audience to {@code action}.</p>  <p>If an implementation of {@code Audience} has its own identity distinct from its contained children, it <em>may</em> test itself against the provided {@code filter} first, and  if the test fails return an empty audience skipping any contained children. If it does not, it <em>must not</em> test itself against the filter, only testing its children.</p>

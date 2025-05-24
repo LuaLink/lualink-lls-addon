@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.translation.Translatable
----@class net.kyori.adventure.translation.Translatable
+---@class net.kyori.adventure.translation.Translatable: java.lang.Object
 local Translatable = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Vex
----@class org.bukkit.entity.Vex: org.bukkit.entity.Monster
+---@class org.bukkit.entity.Vex: org.bukkit.entity.Monster, java.lang.Object
 local Vex = {}
 
 ---@public

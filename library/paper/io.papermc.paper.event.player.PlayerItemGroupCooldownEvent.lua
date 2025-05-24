@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.player.PlayerItemGroupCooldownEvent
----@class io.papermc.paper.event.player.PlayerItemGroupCooldownEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.player.PlayerItemGroupCooldownEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cooldownGroup org.bukkit.NamespacedKey
 ---@field private cooldown number

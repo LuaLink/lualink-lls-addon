@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.world.TimeSkipEvent
----@class org.bukkit.event.world.TimeSkipEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.world.TimeSkipEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private skipReason org.bukkit.event.world.TimeSkipEvent.SkipReason
 ---@field private skipAmount number

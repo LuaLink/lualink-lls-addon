@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.TranslatableComponent.Builder
----@class net.kyori.adventure.text.TranslatableComponent.Builder: net.kyori.adventure.text.ComponentBuilder
+---@class net.kyori.adventure.text.TranslatableComponent.Builder: net.kyori.adventure.text.ComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param translatable net.kyori.adventure.translation.Translatable the translatable object to get the key from

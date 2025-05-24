@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.entity.EntityEquipmentChangedEvent
----@class io.papermc.paper.event.entity.EntityEquipmentChangedEvent: org.bukkit.event.entity.EntityEvent
+---@class io.papermc.paper.event.entity.EntityEquipmentChangedEvent: org.bukkit.event.entity.EntityEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private equipmentChanges java.util.Map
 ---@field public EquipmentChange io.papermc.paper.event.entity.EntityEquipmentChangedEvent.EquipmentChange

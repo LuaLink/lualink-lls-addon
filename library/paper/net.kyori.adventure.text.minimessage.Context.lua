@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.Context
----@class net.kyori.adventure.text.minimessage.Context
+---@class net.kyori.adventure.text.minimessage.Context: java.lang.Object
 local Context = {}
 
 ---@param message string the message to parse

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.RegistryAccess
----@class io.papermc.paper.registry.RegistryAccess
+---@class io.papermc.paper.registry.RegistryAccess: java.lang.Object
 local RegistryAccess = {}
 
 ---@public

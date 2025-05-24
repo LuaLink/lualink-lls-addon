@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.world.border.WorldBorderCenterChangeEvent
----@class io.papermc.paper.event.world.border.WorldBorderCenterChangeEvent: io.papermc.paper.event.world.border.WorldBorderEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.world.border.WorldBorderCenterChangeEvent: io.papermc.paper.event.world.border.WorldBorderEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private oldCenter org.bukkit.Location
 ---@field private newCenter org.bukkit.Location

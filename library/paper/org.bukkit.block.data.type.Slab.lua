@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Slab
----@class org.bukkit.block.data.type.Slab: org.bukkit.block.data.Waterlogged
+---@class org.bukkit.block.data.type.Slab: org.bukkit.block.data.Waterlogged, java.lang.Object
 ---@field public Type org.bukkit.block.data.type.Slab.Type
 local Slab = {}
 

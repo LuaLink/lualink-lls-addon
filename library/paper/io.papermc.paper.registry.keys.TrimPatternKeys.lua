@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.TrimPatternKeys
----@class io.papermc.paper.registry.keys.TrimPatternKeys
+---@class io.papermc.paper.registry.keys.TrimPatternKeys: java.lang.Object
 ---@field public BOLT io.papermc.paper.registry.TypedKey
 ---@field public COAST io.papermc.paper.registry.TypedKey
 ---@field public DUNE io.papermc.paper.registry.TypedKey

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.event.HoverEvent.Action
----@class net.kyori.adventure.text.event.HoverEvent.Action
+---@class net.kyori.adventure.text.event.HoverEvent.Action: java.lang.Object
 ---@field public SHOW_TEXT net.kyori.adventure.text.event.HoverEvent.Action
 ---@field public SHOW_ITEM net.kyori.adventure.text.event.HoverEvent.Action
 ---@field public SHOW_ENTITY net.kyori.adventure.text.event.HoverEvent.Action

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.conversations.StringPrompt
----@class org.bukkit.conversations.StringPrompt: org.bukkit.conversations.Prompt
+---@class org.bukkit.conversations.StringPrompt: org.bukkit.conversations.Prompt, java.lang.Object
 local StringPrompt = {}
 
 ---@param context org.bukkit.conversations.ConversationContext Context information about the conversation.

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.ChiseledBookshelf
----@class org.bukkit.block.ChiseledBookshelf: io.papermc.paper.block.TileStateInventoryHolder
+---@class org.bukkit.block.ChiseledBookshelf: io.papermc.paper.block.TileStateInventoryHolder, java.lang.Object
 local ChiseledBookshelf = {}
 
 ---@public

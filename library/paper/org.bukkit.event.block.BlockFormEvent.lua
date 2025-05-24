@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BlockFormEvent
----@class org.bukkit.event.block.BlockFormEvent: org.bukkit.event.block.BlockGrowEvent
+---@class org.bukkit.event.block.BlockFormEvent: org.bukkit.event.block.BlockGrowEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@overload fun(block: org.bukkit.block.Block, newState: org.bukkit.block.BlockState): org.bukkit.event.block.BlockFormEvent
 local BlockFormEvent = {}

@@ -1,10 +1,10 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.match.MatchedTokenConsumer
----@class net.kyori.adventure.text.minimessage.internal.parser.match.MatchedTokenConsumer
+---@class net.kyori.adventure.text.minimessage.internal.parser.match.MatchedTokenConsumer: java.lang.Object
 ---@field protected input string
 ---@field private lastIndex number
----@overload fun(input: string): net.kyori.adventure.text.minimessage.internal.parser.match.MatchedTokenConsumer
+---@overload fun(input: string): function
 local MatchedTokenConsumer = {}
 
 ---@param start number the start of the token

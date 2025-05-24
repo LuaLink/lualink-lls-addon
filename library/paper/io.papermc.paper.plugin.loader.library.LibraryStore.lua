@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.loader.library.LibraryStore
----@class io.papermc.paper.plugin.loader.library.LibraryStore
+---@class io.papermc.paper.plugin.loader.library.LibraryStore: java.lang.Object
 local LibraryStore = {}
 
 ---@param library java.nio.file.Path path to the libraries jar file on the disk

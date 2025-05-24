@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.util.JarManifests
----@class io.papermc.paper.util.JarManifests
+---@class io.papermc.paper.util.JarManifests: java.lang.Object
 ---@field private MANIFESTS java.util.Map
 ---@overload fun(): io.papermc.paper.util.JarManifests
 local JarManifests = {}

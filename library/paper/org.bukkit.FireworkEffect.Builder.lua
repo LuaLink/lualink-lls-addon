@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.FireworkEffect.Builder
----@class org.bukkit.FireworkEffect.Builder
+---@class org.bukkit.FireworkEffect.Builder: java.lang.Object
 ---@field public flicker boolean
 ---@field public trail boolean
 ---@field public colors any

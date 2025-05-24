@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Allay
----@class org.bukkit.entity.Allay: org.bukkit.entity.Creature, org.bukkit.inventory.InventoryHolder
+---@class org.bukkit.entity.Allay: org.bukkit.entity.Creature, org.bukkit.inventory.InventoryHolder, java.lang.Object
 local Allay = {}
 
 ---@public

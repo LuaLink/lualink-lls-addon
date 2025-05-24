@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.audience.ForwardingAudience.Single
----@class net.kyori.adventure.audience.ForwardingAudience.Single: net.kyori.adventure.audience.ForwardingAudience
+---@class net.kyori.adventure.audience.ForwardingAudience.Single: net.kyori.adventure.audience.ForwardingAudience, java.lang.Object
 local Single = {}
 
 ---@public
@@ -27,17 +27,17 @@ function Single:get(pointer) end
 function Single:getOrDefault(pointer, defaultValue) end
 
 ---@param pointer net.kyori.adventure.pointer.Pointer 
----@param defaultValue java.util.function.Supplier 
+---@param defaultValue function 
 ---@public
 ---@return T 
 function Single:getOrDefaultFrom(pointer, defaultValue) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return net.kyori.adventure.audience.Audience 
 function Single:filterAudience(filter) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function Single:forEachAudience(action) end

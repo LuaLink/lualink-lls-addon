@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.consumable.ConsumableTypesBridge
----@class io.papermc.paper.datacomponent.item.consumable.ConsumableTypesBridge
+---@class io.papermc.paper.datacomponent.item.consumable.ConsumableTypesBridge: java.lang.Object
 ---@field public BRIDGE java.util.Optional
 local ConsumableTypesBridge = {}
 

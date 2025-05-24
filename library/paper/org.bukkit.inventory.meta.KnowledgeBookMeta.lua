@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.inventory.meta.KnowledgeBookMeta
----@class org.bukkit.inventory.meta.KnowledgeBookMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.KnowledgeBookMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local KnowledgeBookMeta = {}
 
 ---@public

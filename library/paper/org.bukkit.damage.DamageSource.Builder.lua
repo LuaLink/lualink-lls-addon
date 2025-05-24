@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.damage.DamageSource.Builder
----@class org.bukkit.damage.DamageSource.Builder
+---@class org.bukkit.damage.DamageSource.Builder: java.lang.Object
 local Builder = {}
 
 ---@param entity org.bukkit.entity.Entity the entity

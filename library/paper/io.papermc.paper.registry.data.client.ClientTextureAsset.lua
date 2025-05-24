@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.client.ClientTextureAsset
----@class io.papermc.paper.registry.data.client.ClientTextureAsset
+---@class io.papermc.paper.registry.data.client.ClientTextureAsset: java.lang.Object
 local ClientTextureAsset = {}
 
 ---@public

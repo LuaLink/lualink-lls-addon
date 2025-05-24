@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.UseCooldown.Builder
----@class io.papermc.paper.datacomponent.item.UseCooldown.Builder: io.papermc.paper.datacomponent.DataComponentBuilder
+---@class io.papermc.paper.datacomponent.item.UseCooldown.Builder: io.papermc.paper.datacomponent.DataComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param key any the unique resource location; can be null

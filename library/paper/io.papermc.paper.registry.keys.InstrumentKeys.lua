@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.InstrumentKeys
----@class io.papermc.paper.registry.keys.InstrumentKeys
+---@class io.papermc.paper.registry.keys.InstrumentKeys: java.lang.Object
 ---@field public ADMIRE_GOAT_HORN io.papermc.paper.registry.TypedKey
 ---@field public CALL_GOAT_HORN io.papermc.paper.registry.TypedKey
 ---@field public DREAM_GOAT_HORN io.papermc.paper.registry.TypedKey

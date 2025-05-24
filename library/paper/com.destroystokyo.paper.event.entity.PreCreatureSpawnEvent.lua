@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.entity.PreCreatureSpawnEvent
----@class com.destroystokyo.paper.event.entity.PreCreatureSpawnEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.entity.PreCreatureSpawnEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private location org.bukkit.Location
 ---@field private type org.bukkit.entity.EntityType

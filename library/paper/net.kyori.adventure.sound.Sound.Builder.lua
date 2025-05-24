@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.sound.Sound.Builder
----@class net.kyori.adventure.sound.Sound.Builder: net.kyori.adventure.builder.AbstractBuilder
+---@class net.kyori.adventure.sound.Sound.Builder: net.kyori.adventure.builder.AbstractBuilder, java.lang.Object
 local Builder = {}
 
 ---@param type any resource location of the sound event to play
@@ -16,7 +16,7 @@ function Builder:type(type) end
 --- Set the type of this sound.  <p>Required.</p>
 function Builder:type(type) end
 
----@param typeSupplier java.util.function.Supplier a type of sound to play, evaluated lazily
+---@param typeSupplier function a type of sound to play, evaluated lazily
 ---@public
 ---@return net.kyori.adventure.sound.Sound.Builder this builder
 --- Set the type of this sound.  <p>Required.</p>

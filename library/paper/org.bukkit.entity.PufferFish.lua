@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.PufferFish
----@class org.bukkit.entity.PufferFish: org.bukkit.entity.Fish
+---@class org.bukkit.entity.PufferFish: org.bukkit.entity.Fish, java.lang.Object
 local PufferFish = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.SculkShrieker
----@class org.bukkit.block.data.type.SculkShrieker: org.bukkit.block.data.Waterlogged
+---@class org.bukkit.block.data.type.SculkShrieker: org.bukkit.block.data.Waterlogged, java.lang.Object
 local SculkShrieker = {}
 
 ---@public

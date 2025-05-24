@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.configuration.file.FileConfiguration
----@class org.bukkit.configuration.file.FileConfiguration: org.bukkit.configuration.MemoryConfiguration
+---@class org.bukkit.configuration.file.FileConfiguration: org.bukkit.configuration.MemoryConfiguration, java.lang.Object
 ---@overload fun(): org.bukkit.configuration.file.FileConfiguration
 ---@overload fun(defaults: org.bukkit.configuration.Configuration): org.bukkit.configuration.file.FileConfiguration
 local FileConfiguration = {}

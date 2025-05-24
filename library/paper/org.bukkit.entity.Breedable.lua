@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Breedable
----@class org.bukkit.entity.Breedable: org.bukkit.entity.Ageable
+---@class org.bukkit.entity.Breedable: org.bukkit.entity.Ageable, java.lang.Object
 local Breedable = {}
 
 ---@param lock boolean new lock

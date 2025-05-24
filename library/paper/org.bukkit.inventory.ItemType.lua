@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.ItemType
----@class org.bukkit.inventory.ItemType: org.bukkit.Keyed, org.bukkit.Translatable, net.kyori.adventure.translation.Translatable, io.papermc.paper.world.flag.FeatureDependant
+---@class org.bukkit.inventory.ItemType: org.bukkit.Keyed, org.bukkit.Translatable, net.kyori.adventure.translation.Translatable, io.papermc.paper.world.flag.FeatureDependant, java.lang.Object
 ---@field public ACACIA_BOAT org.bukkit.inventory.ItemType.Typed
 ---@field public ACACIA_BUTTON org.bukkit.inventory.ItemType.Typed
 ---@field public ACACIA_CHEST_BOAT org.bukkit.inventory.ItemType.Typed

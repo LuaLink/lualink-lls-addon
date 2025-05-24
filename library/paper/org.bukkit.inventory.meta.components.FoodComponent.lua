@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.components.FoodComponent
----@class org.bukkit.inventory.meta.components.FoodComponent: org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.inventory.meta.components.FoodComponent: org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 local FoodComponent = {}
 
 ---@public

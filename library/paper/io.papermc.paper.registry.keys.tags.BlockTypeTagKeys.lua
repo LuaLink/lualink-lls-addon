@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.tags.BlockTypeTagKeys
----@class io.papermc.paper.registry.keys.tags.BlockTypeTagKeys
+---@class io.papermc.paper.registry.keys.tags.BlockTypeTagKeys: java.lang.Object
 ---@field public ACACIA_LOGS io.papermc.paper.registry.tag.TagKey
 ---@field public AIR io.papermc.paper.registry.tag.TagKey
 ---@field public ALL_HANGING_SIGNS io.papermc.paper.registry.tag.TagKey

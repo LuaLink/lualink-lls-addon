@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.RecipeChoice.ExactChoice
----@class org.bukkit.inventory.RecipeChoice.ExactChoice: org.bukkit.inventory.RecipeChoice
+---@class org.bukkit.inventory.RecipeChoice.ExactChoice: org.bukkit.inventory.RecipeChoice, java.lang.Object
 ---@field private choices java.util.List
 ---@overload fun(stack: org.bukkit.inventory.ItemStack): org.bukkit.inventory.RecipeChoice.ExactChoice
 ---@overload fun(stacks: org.bukkit.inventory.ItemStack): org.bukkit.inventory.RecipeChoice.ExactChoice

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.brigadier.AsyncPlayerSendCommandsEvent
----@class com.destroystokyo.paper.event.brigadier.AsyncPlayerSendCommandsEvent: org.bukkit.event.player.PlayerEvent
+---@class com.destroystokyo.paper.event.brigadier.AsyncPlayerSendCommandsEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private node any
 ---@field private hasFiredAsync boolean

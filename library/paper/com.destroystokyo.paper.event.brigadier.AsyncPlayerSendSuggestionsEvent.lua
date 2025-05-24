@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.brigadier.AsyncPlayerSendSuggestionsEvent
----@class com.destroystokyo.paper.event.brigadier.AsyncPlayerSendSuggestionsEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.brigadier.AsyncPlayerSendSuggestionsEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cancelled boolean
 ---@field private suggestions any

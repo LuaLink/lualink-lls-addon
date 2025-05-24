@@ -1,10 +1,10 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.ItemAdventurePredicate.Builder
----@class io.papermc.paper.datacomponent.item.ItemAdventurePredicate.Builder: io.papermc.paper.datacomponent.DataComponentBuilder
+---@class io.papermc.paper.datacomponent.item.ItemAdventurePredicate.Builder: io.papermc.paper.datacomponent.DataComponentBuilder, java.lang.Object
 local Builder = {}
 
----@param predicate io.papermc.paper.block.BlockPredicate predicate
+---@param predicate function predicate
 ---@public
 ---@return io.papermc.paper.datacomponent.item.ItemAdventurePredicate.Builder the builder for chaining
 --- Adds a block predicate to this builder.

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.entity.Bucketable
----@class io.papermc.paper.entity.Bucketable: org.bukkit.entity.Entity
+---@class io.papermc.paper.entity.Bucketable: org.bukkit.entity.Entity, java.lang.Object
 local Bucketable = {}
 
 ---@public

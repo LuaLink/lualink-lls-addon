@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.tag.TagEntry
----@class io.papermc.paper.tag.TagEntry: any
+---@class io.papermc.paper.tag.TagEntry: any, java.lang.Object
 local TagEntry = {}
 
 ---@param entryKey io.papermc.paper.registry.TypedKey the key of the entry

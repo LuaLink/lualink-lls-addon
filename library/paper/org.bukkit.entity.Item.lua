@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Item
----@class org.bukkit.entity.Item: org.bukkit.entity.Entity, io.papermc.paper.entity.Frictional
+---@class org.bukkit.entity.Item: org.bukkit.entity.Entity, io.papermc.paper.entity.Frictional, java.lang.Object
 local Item = {}
 
 ---@public

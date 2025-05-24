@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.logger.slf4j.ComponentLoggerProvider
----@class net.kyori.adventure.text.logger.slf4j.ComponentLoggerProvider
+---@class net.kyori.adventure.text.logger.slf4j.ComponentLoggerProvider: java.lang.Object
 ---@field public LoggerHelper net.kyori.adventure.text.logger.slf4j.ComponentLoggerProvider.LoggerHelper
 local ComponentLoggerProvider = {}
 

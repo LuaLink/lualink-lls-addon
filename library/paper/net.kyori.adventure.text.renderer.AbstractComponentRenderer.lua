@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.renderer.AbstractComponentRenderer
----@class net.kyori.adventure.text.renderer.AbstractComponentRenderer: net.kyori.adventure.text.renderer.ComponentRenderer
+---@class net.kyori.adventure.text.renderer.AbstractComponentRenderer: net.kyori.adventure.text.renderer.ComponentRenderer, java.lang.Object
 local AbstractComponentRenderer = {}
 
 ---@param component net.kyori.adventure.text.Component 

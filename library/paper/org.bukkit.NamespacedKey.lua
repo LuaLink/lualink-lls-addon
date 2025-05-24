@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.NamespacedKey
----@class org.bukkit.NamespacedKey: any, com.destroystokyo.paper.Namespaced
+---@class org.bukkit.NamespacedKey: any, com.destroystokyo.paper.Namespaced, java.lang.Object
 ---@field public MINECRAFT string
 ---@field public BUKKIT string
 ---@field private namespace string

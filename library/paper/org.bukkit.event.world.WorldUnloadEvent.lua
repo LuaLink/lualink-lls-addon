@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.world.WorldUnloadEvent
----@class org.bukkit.event.world.WorldUnloadEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.world.WorldUnloadEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cancelled boolean
 ---@overload fun(world: org.bukkit.World): org.bukkit.event.world.WorldUnloadEvent

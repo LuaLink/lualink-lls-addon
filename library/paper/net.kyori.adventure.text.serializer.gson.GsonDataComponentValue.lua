@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.GsonDataComponentValue
----@class net.kyori.adventure.text.serializer.gson.GsonDataComponentValue: net.kyori.adventure.text.event.DataComponentValue
+---@class net.kyori.adventure.text.serializer.gson.GsonDataComponentValue: net.kyori.adventure.text.event.DataComponentValue, java.lang.Object
 local GsonDataComponentValue = {}
 
 ---@param data any the item data to hold

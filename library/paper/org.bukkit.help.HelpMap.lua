@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.help.HelpMap
----@class org.bukkit.help.HelpMap
+---@class org.bukkit.help.HelpMap: java.lang.Object
 local HelpMap = {}
 
 ---@param topicName string The help topic name to look up.

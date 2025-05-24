@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.TokenParser
----@class net.kyori.adventure.text.minimessage.internal.parser.TokenParser
+---@class net.kyori.adventure.text.minimessage.internal.parser.TokenParser: java.lang.Object
 ---@field private MAX_DEPTH number
 ---@field public TAG_START string
 ---@field public TAG_END string
@@ -15,7 +15,7 @@
 local TokenParser = {}
 
 ---@param tagProvider net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider provides tags based on the available information
----@param tagNameChecker java.util.function.Predicate checker for tag names, performing necessary tag normalization
+---@param tagNameChecker function checker for tag names, performing necessary tag normalization
 ---@param message string the minimessage string to parse, after processing for preprocess tags
 ---@param originalMessage string the string to parse, before preprocess tags
 ---@param strict boolean whether parsing in strict mode
@@ -38,7 +38,7 @@ function TokenParser:resolvePreProcessTags(message, provider) end
 function TokenParser:tokenize(message) end
 
 ---@param message string the message
----@param consumer net.kyori.adventure.text.minimessage.internal.parser.match.MatchedTokenConsumer the consumer
+---@param consumer function the consumer
 ---@public
 ---@return nil 
 --- Parses a string, providing information on matched tokens to the matched token consumer.
@@ -51,7 +51,7 @@ function TokenParser:parseString(message, consumer) end
 function TokenParser:parseSecondPass(message, tokens) end
 
 ---@param tagProvider net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider 
----@param tagNameChecker java.util.function.Predicate 
+---@param tagNameChecker function 
 ---@param tokens java.util.List 
 ---@param message string 
 ---@param originalMessage string 
@@ -85,7 +85,7 @@ function TokenParser:insert(token, value) end
 ---@param text string the input text
 ---@param startIndex number the starting index of the substring
 ---@param endIndex number the ending index of the substring
----@param escapes java.util.function.IntPredicate the predicate to determine if an escape happened
+---@param escapes function the predicate to determine if an escape happened
 ---@public
 ---@return string the output escaped substring
 --- Removes escaping {@code '\`} characters from a substring where the subsequent character matches a given predicate.

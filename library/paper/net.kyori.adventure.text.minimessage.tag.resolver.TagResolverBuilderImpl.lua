@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.TagResolverBuilderImpl
----@class net.kyori.adventure.text.minimessage.tag.resolver.TagResolverBuilderImpl: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Builder
+---@class net.kyori.adventure.text.minimessage.tag.resolver.TagResolverBuilderImpl: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Builder, java.lang.Object
 ---@field public COLLECTOR java.util.stream.Collector
 ---@field private replacements java.util.Map
 ---@field private resolvers java.util.List

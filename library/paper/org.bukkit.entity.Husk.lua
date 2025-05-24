@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Husk
----@class org.bukkit.entity.Husk: org.bukkit.entity.Zombie
+---@class org.bukkit.entity.Husk: org.bukkit.entity.Zombie, java.lang.Object
 local Husk = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Color
----@class org.bukkit.Color: org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.Color: org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 ---@field private BIT_MASK number
 ---@field private DEFAULT_ALPHA number
 ---@field public WHITE org.bukkit.Color

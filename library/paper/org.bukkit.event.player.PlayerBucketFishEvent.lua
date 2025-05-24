@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerBucketFishEvent
----@class org.bukkit.event.player.PlayerBucketFishEvent: org.bukkit.event.player.PlayerBucketEntityEvent
+---@class org.bukkit.event.player.PlayerBucketFishEvent: org.bukkit.event.player.PlayerBucketEntityEvent, java.lang.Object
 ---@overload fun(player: org.bukkit.entity.Player, fish: org.bukkit.entity.Fish, waterBucket: org.bukkit.inventory.ItemStack, fishBucket: org.bukkit.inventory.ItemStack, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.player.PlayerBucketFishEvent
 local PlayerBucketFishEvent = {}
 

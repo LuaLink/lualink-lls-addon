@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.network.NetworkClient
----@class com.destroystokyo.paper.network.NetworkClient
+---@class com.destroystokyo.paper.network.NetworkClient: java.lang.Object
 local NetworkClient = {}
 
 ---@public

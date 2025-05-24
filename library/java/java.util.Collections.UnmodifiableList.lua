@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.UnmodifiableList
----@class java.util.Collections.UnmodifiableList: java.util.Collections.UnmodifiableCollection, java.util.List
+---@class java.util.Collections.UnmodifiableList: java.util.Collections.UnmodifiableCollection, java.util.List, java.lang.Object
 ---@field private serialVersionUID number
 ---@field public list java.util.List
 ---@overload fun(list: java.util.List): java.util.Collections.UnmodifiableList

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.hanging.HangingBreakEvent
----@class org.bukkit.event.hanging.HangingBreakEvent: org.bukkit.event.hanging.HangingEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.hanging.HangingBreakEvent: org.bukkit.event.hanging.HangingEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private cause org.bukkit.event.hanging.HangingBreakEvent.RemoveCause
 ---@field private cancelled boolean

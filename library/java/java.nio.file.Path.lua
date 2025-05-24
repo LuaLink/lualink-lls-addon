@@ -1,6 +1,6 @@
 ---@meta
 -- java.nio.file.Path
----@class java.nio.file.Path: java.lang.Comparable, java.lang.Iterable, java.nio.file.Watchable
+---@class java.nio.file.Path: java.lang.Comparable, java.lang.Iterable, java.nio.file.Watchable, java.lang.Object
 local Path = {}
 
 ---@param first string the path string or initial part of the path string

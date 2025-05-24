@@ -1,6 +1,6 @@
 ---@meta
 -- co.aikar.util.Counter
----@class co.aikar.util.Counter: any
+---@class co.aikar.util.Counter: any, java.lang.Object
 ---@field private counts java.util.Map
 local Counter = {}
 

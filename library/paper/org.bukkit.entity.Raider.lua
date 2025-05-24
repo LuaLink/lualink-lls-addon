@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.Raider
----@class org.bukkit.entity.Raider: org.bukkit.entity.Monster
+---@class org.bukkit.entity.Raider: org.bukkit.entity.Monster, java.lang.Object
 local Raider = {}
 
 ---@param raid org.bukkit.Raid the raid to set

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.StorageNBTComponent.Builder
----@class net.kyori.adventure.text.StorageNBTComponent.Builder: net.kyori.adventure.text.NBTComponentBuilder
+---@class net.kyori.adventure.text.StorageNBTComponent.Builder: net.kyori.adventure.text.NBTComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param storage any the id of the NBT storage

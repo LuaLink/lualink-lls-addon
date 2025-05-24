@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.World.Spigot
----@class org.bukkit.World.Spigot
+---@class org.bukkit.World.Spigot: java.lang.Object
 local Spigot = {}
 
 ---@deprecated

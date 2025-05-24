@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.inventory.meta.CrossbowMeta
----@class org.bukkit.inventory.meta.CrossbowMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.CrossbowMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local CrossbowMeta = {}
 
 ---@public

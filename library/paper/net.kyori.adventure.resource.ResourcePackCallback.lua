@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.resource.ResourcePackCallback
----@class net.kyori.adventure.resource.ResourcePackCallback
+---@class net.kyori.adventure.resource.ResourcePackCallback: java.lang.Object
 local ResourcePackCallback = {}
 
 ---@public
@@ -9,8 +9,8 @@ local ResourcePackCallback = {}
 --- Create a pack callback that performs no operation.  <p>Multiple calls to this method are guaranteed to return callback functions with equal identity.</p>
 function ResourcePackCallback:noOp() end
 
----@param success java.util.function.BiConsumer the success callback
----@param failure java.util.function.BiConsumer the failure callback
+---@param success function the success callback
+---@param failure function the failure callback
 ---@public
 ---@return net.kyori.adventure.resource.ResourcePackCallback the created callback
 --- Create a pack callback that will only execute the provided functions when the pack application has completed, discarding all intermediate events.

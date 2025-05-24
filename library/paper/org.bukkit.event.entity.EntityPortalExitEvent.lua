@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.EntityPortalExitEvent
----@class org.bukkit.event.entity.EntityPortalExitEvent: org.bukkit.event.entity.EntityTeleportEvent
+---@class org.bukkit.event.entity.EntityPortalExitEvent: org.bukkit.event.entity.EntityTeleportEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private before org.bukkit.util.Vector
 ---@field private after org.bukkit.util.Vector

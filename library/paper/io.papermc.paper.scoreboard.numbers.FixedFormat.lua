@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.scoreboard.numbers.FixedFormat
----@class io.papermc.paper.scoreboard.numbers.FixedFormat: io.papermc.paper.scoreboard.numbers.NumberFormat, net.kyori.adventure.text.ComponentLike
+---@class io.papermc.paper.scoreboard.numbers.FixedFormat: io.papermc.paper.scoreboard.numbers.NumberFormat, net.kyori.adventure.text.ComponentLike, java.lang.Object
 local FixedFormat = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.command.brigadier.MessageComponentSerializer
----@class io.papermc.paper.command.brigadier.MessageComponentSerializer: any
+---@class io.papermc.paper.command.brigadier.MessageComponentSerializer: any, java.lang.Object
 local MessageComponentSerializer = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.lang.Character.UnicodeBlock
----@class java.lang.Character.UnicodeBlock: java.lang.Character.Subset
+---@class java.lang.Character.UnicodeBlock: java.lang.Character.Subset, java.lang.Object
 ---@field private NUM_ENTITIES number
 ---@field private map java.util.Map
 ---@field public BASIC_LATIN java.lang.Character.UnicodeBlock

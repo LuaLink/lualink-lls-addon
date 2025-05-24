@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.FaceAttachable
----@class org.bukkit.block.data.FaceAttachable: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.FaceAttachable: org.bukkit.block.data.BlockData, java.lang.Object
 ---@field public AttachedFace org.bukkit.block.data.FaceAttachable.AttachedFace
 local FaceAttachable = {}
 

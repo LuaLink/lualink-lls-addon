@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Locale.Builder
----@class java.util.Locale.Builder
+---@class java.util.Locale.Builder: java.lang.Object
 ---@field private localeBuilder any
 ---@overload fun(): java.util.Locale.Builder
 local Builder = {}

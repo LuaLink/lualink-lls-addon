@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.view.BrewingStandView
----@class org.bukkit.inventory.view.BrewingStandView: org.bukkit.inventory.InventoryView
+---@class org.bukkit.inventory.view.BrewingStandView: org.bukkit.inventory.InventoryView, java.lang.Object
 local BrewingStandView = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.PigZombie
----@class org.bukkit.entity.PigZombie: org.bukkit.entity.Zombie
+---@class org.bukkit.entity.PigZombie: org.bukkit.entity.Zombie, java.lang.Object
 local PigZombie = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.DataComponentTypes
----@class io.papermc.paper.datacomponent.DataComponentTypes
+---@class io.papermc.paper.datacomponent.DataComponentTypes: java.lang.Object
 ---@field public MAX_STACK_SIZE io.papermc.paper.datacomponent.DataComponentType.Valued
 ---@field public MAX_DAMAGE io.papermc.paper.datacomponent.DataComponentType.Valued
 ---@field public DAMAGE io.papermc.paper.datacomponent.DataComponentType.Valued

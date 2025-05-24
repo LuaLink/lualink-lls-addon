@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.enchantments.EnchantmentWrapper
----@class org.bukkit.enchantments.EnchantmentWrapper: org.bukkit.enchantments.Enchantment
+---@class org.bukkit.enchantments.EnchantmentWrapper: org.bukkit.enchantments.Enchantment, java.lang.Object
 ---@overload fun(): org.bukkit.enchantments.EnchantmentWrapper
 local EnchantmentWrapper = {}
 

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.event.DataComponentValueConverterRegistry.Conversion
----@class net.kyori.adventure.text.event.DataComponentValueConverterRegistry.Conversion: any
+---@class net.kyori.adventure.text.event.DataComponentValueConverterRegistry.Conversion: any, java.lang.Object
 local Conversion = {}
 
 ---@param src java.lang.Class the source type

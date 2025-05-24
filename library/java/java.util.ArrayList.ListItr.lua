@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.ArrayList.ListItr
----@class java.util.ArrayList.ListItr: java.util.ArrayList.Itr, java.util.ListIterator
+---@class java.util.ArrayList.ListItr: java.util.ArrayList.Itr, java.util.ListIterator, java.lang.Object
 ---@overload fun(index: number): java.util.ArrayList.ListItr
 local ListItr = {}
 

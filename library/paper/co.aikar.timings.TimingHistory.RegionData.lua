@@ -1,6 +1,6 @@
 ---@meta
 -- co.aikar.timings.TimingHistory.RegionData
----@class co.aikar.timings.TimingHistory.RegionData
+---@class co.aikar.timings.TimingHistory.RegionData: java.lang.Object
 ---@field public regionId co.aikar.timings.TimingHistory.RegionData.RegionId
 ---@field public LOADER any
 ---@field public entityCounts java.util.Map

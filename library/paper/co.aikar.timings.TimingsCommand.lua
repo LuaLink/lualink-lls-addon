@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- co.aikar.timings.TimingsCommand
----@class co.aikar.timings.TimingsCommand: org.bukkit.command.defaults.BukkitCommand
+---@class co.aikar.timings.TimingsCommand: org.bukkit.command.defaults.BukkitCommand, java.lang.Object
 ---@field private TIMINGS_SUBCOMMANDS java.util.List
 ---@field private lastResetAttempt number
 ---@overload fun(name: string): co.aikar.timings.TimingsCommand

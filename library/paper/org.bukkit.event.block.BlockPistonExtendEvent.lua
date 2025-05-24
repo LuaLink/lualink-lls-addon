@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.BlockPistonExtendEvent
----@class org.bukkit.event.block.BlockPistonExtendEvent: org.bukkit.event.block.BlockPistonEvent
+---@class org.bukkit.event.block.BlockPistonExtendEvent: org.bukkit.event.block.BlockPistonEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private length number
 ---@field private blocks java.util.List

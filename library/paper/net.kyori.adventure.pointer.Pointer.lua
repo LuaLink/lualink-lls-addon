@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.pointer.Pointer
----@class net.kyori.adventure.pointer.Pointer: any
+---@class net.kyori.adventure.pointer.Pointer: any, java.lang.Object
 local Pointer = {}
 
 ---@param type java.lang.Class the value type

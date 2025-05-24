@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.nbt.api.BinaryTagHolderImpl
----@class net.kyori.adventure.nbt.api.BinaryTagHolderImpl: net.kyori.adventure.nbt.api.BinaryTagHolder
+---@class net.kyori.adventure.nbt.api.BinaryTagHolderImpl: net.kyori.adventure.nbt.api.BinaryTagHolder, java.lang.Object
 ---@field private string string
 ---@overload fun(string: string): net.kyori.adventure.nbt.api.BinaryTagHolderImpl
 local BinaryTagHolderImpl = {}

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.world.damagesource.CombatTracker
----@class io.papermc.paper.world.damagesource.CombatTracker
+---@class io.papermc.paper.world.damagesource.CombatTracker: java.lang.Object
 local CombatTracker = {}
 
 ---@public

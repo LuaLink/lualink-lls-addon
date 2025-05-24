@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.BlocksAttacks
----@class io.papermc.paper.datacomponent.item.BlocksAttacks
+---@class io.papermc.paper.datacomponent.item.BlocksAttacks: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.BlocksAttacks.Builder
 local BlocksAttacks = {}
 
@@ -25,7 +25,7 @@ function BlocksAttacks:disableCooldownScale() end
 function BlocksAttacks:damageReductions() end
 
 ---@public
----@return io.papermc.paper.datacomponent.item.blocksattacks.ItemDamageFunction the damage function
+---@return function the damage function
 --- Gets how much damage should be applied to the item from a given attack.
 function BlocksAttacks:itemDamage() end
 

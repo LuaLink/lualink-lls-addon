@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Enderman
----@class org.bukkit.entity.Enderman: org.bukkit.entity.Monster
+---@class org.bukkit.entity.Enderman: org.bukkit.entity.Monster, java.lang.Object
 local Enderman = {}
 
 ---@public

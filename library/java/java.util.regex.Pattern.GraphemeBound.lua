@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.GraphemeBound
----@class java.util.regex.Pattern.GraphemeBound: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.GraphemeBound: java.util.regex.Pattern.Node, java.lang.Object
 local GraphemeBound = {}
 
 ---@param matcher java.util.regex.Matcher 

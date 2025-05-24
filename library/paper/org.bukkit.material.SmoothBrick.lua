@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.SmoothBrick
----@class org.bukkit.material.SmoothBrick: org.bukkit.material.TexturedMaterial
+---@class org.bukkit.material.SmoothBrick: org.bukkit.material.TexturedMaterial, java.lang.Object
 ---@field private textures java.util.List
 ---@overload fun(): org.bukkit.material.SmoothBrick
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.SmoothBrick

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.generator.structure.StructureType
----@class org.bukkit.generator.structure.StructureType: org.bukkit.Keyed
+---@class org.bukkit.generator.structure.StructureType: org.bukkit.Keyed, java.lang.Object
 ---@field public BURIED_TREASURE org.bukkit.generator.structure.StructureType
 ---@field public DESERT_PYRAMID org.bukkit.generator.structure.StructureType
 ---@field public END_CITY org.bukkit.generator.structure.StructureType

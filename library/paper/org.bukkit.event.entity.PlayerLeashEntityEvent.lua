@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.PlayerLeashEntityEvent
----@class org.bukkit.event.entity.PlayerLeashEntityEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable
+---@class org.bukkit.event.entity.PlayerLeashEntityEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private leashHolder org.bukkit.entity.Entity
 ---@field private entity org.bukkit.entity.Entity

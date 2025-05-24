@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.FluidKeys
----@class io.papermc.paper.registry.keys.FluidKeys
+---@class io.papermc.paper.registry.keys.FluidKeys: java.lang.Object
 ---@field public EMPTY io.papermc.paper.registry.TypedKey
 ---@field public FLOWING_LAVA io.papermc.paper.registry.TypedKey
 ---@field public FLOWING_WATER io.papermc.paper.registry.TypedKey

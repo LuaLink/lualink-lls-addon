@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.trim.TrimMaterial
----@class org.bukkit.inventory.meta.trim.TrimMaterial: org.bukkit.Keyed, org.bukkit.Translatable
+---@class org.bukkit.inventory.meta.trim.TrimMaterial: org.bukkit.Keyed, org.bukkit.Translatable, java.lang.Object
 ---@field public AMETHYST org.bukkit.inventory.meta.trim.TrimMaterial
 ---@field public COPPER org.bukkit.inventory.meta.trim.TrimMaterial
 ---@field public DIAMOND org.bukkit.inventory.meta.trim.TrimMaterial

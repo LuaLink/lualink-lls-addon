@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.Token
----@class net.kyori.adventure.text.minimessage.internal.parser.Token: any
+---@class net.kyori.adventure.text.minimessage.internal.parser.Token: any, java.lang.Object
 ---@field private startIndex number
 ---@field private endIndex number
 ---@field private type net.kyori.adventure.text.minimessage.internal.parser.TokenType

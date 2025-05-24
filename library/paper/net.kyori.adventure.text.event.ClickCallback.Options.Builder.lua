@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.event.ClickCallback.Options.Builder
----@class net.kyori.adventure.text.event.ClickCallback.Options.Builder: net.kyori.adventure.builder.AbstractBuilder
+---@class net.kyori.adventure.text.event.ClickCallback.Options.Builder: net.kyori.adventure.builder.AbstractBuilder, java.lang.Object
 local Builder = {}
 
 ---@param useCount number the number of allowed uses, or {@link ClickCallback#UNLIMITED_USES}

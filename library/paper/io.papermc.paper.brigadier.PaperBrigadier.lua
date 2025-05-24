@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.brigadier.PaperBrigadier
----@class io.papermc.paper.brigadier.PaperBrigadier
+---@class io.papermc.paper.brigadier.PaperBrigadier: java.lang.Object
 ---@overload fun(): io.papermc.paper.brigadier.PaperBrigadier
 local PaperBrigadier = {}
 

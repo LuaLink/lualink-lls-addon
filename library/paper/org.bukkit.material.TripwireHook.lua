@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.TripwireHook
----@class org.bukkit.material.TripwireHook: org.bukkit.material.SimpleAttachableMaterialData, org.bukkit.material.Redstone
+---@class org.bukkit.material.TripwireHook: org.bukkit.material.SimpleAttachableMaterialData, org.bukkit.material.Redstone, java.lang.Object
 ---@overload fun(): org.bukkit.material.TripwireHook
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.TripwireHook
 ---@overload fun(dir: org.bukkit.block.BlockFace): org.bukkit.material.TripwireHook

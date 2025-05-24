@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Bell
----@class org.bukkit.block.Bell: org.bukkit.block.TileState
+---@class org.bukkit.block.Bell: org.bukkit.block.TileState, java.lang.Object
 local Bell = {}
 
 ---@param entity org.bukkit.entity.Entity the entity ringing the bell

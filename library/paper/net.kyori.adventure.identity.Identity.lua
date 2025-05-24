@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.identity.Identity
----@class net.kyori.adventure.identity.Identity: any, net.kyori.adventure.identity.Identified
+---@class net.kyori.adventure.identity.Identity: any, net.kyori.adventure.identity.Identified, java.lang.Object
 ---@field public NAME net.kyori.adventure.pointer.Pointer
 ---@field public UUID net.kyori.adventure.pointer.Pointer
 ---@field public DISPLAY_NAME net.kyori.adventure.pointer.Pointer

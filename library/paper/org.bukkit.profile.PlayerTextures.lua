@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.profile.PlayerTextures
----@class org.bukkit.profile.PlayerTextures
+---@class org.bukkit.profile.PlayerTextures: java.lang.Object
 ---@field public SkinModel org.bukkit.profile.PlayerTextures.SkinModel
 local PlayerTextures = {}
 

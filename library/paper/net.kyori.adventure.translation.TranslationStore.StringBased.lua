@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.translation.TranslationStore.StringBased
----@class net.kyori.adventure.translation.TranslationStore.StringBased: net.kyori.adventure.translation.TranslationStore
+---@class net.kyori.adventure.translation.TranslationStore.StringBased: net.kyori.adventure.translation.TranslationStore, java.lang.Object
 local StringBased = {}
 
 ---@param locale java.util.Locale a locale

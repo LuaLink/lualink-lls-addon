@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.LivingEntity
----@class org.bukkit.entity.LivingEntity: org.bukkit.attribute.Attributable, org.bukkit.entity.Damageable, org.bukkit.projectiles.ProjectileSource, io.papermc.paper.entity.Frictional
+---@class org.bukkit.entity.LivingEntity: org.bukkit.attribute.Attributable, org.bukkit.entity.Damageable, org.bukkit.projectiles.ProjectileSource, io.papermc.paper.entity.Frictional, java.lang.Object
 local LivingEntity = {}
 
 ---@public

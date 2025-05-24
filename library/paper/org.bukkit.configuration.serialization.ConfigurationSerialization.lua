@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.configuration.serialization.ConfigurationSerialization
----@class org.bukkit.configuration.serialization.ConfigurationSerialization
+---@class org.bukkit.configuration.serialization.ConfigurationSerialization: java.lang.Object
 ---@field public SERIALIZED_TYPE_KEY string
 ---@field private clazz java.lang.Class
 ---@field private aliases java.util.Map

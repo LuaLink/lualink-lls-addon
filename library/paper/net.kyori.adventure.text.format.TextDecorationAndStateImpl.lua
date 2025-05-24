@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.format.TextDecorationAndStateImpl
----@class net.kyori.adventure.text.format.TextDecorationAndStateImpl: net.kyori.adventure.text.format.TextDecorationAndState
+---@class net.kyori.adventure.text.format.TextDecorationAndStateImpl: net.kyori.adventure.text.format.TextDecorationAndState, java.lang.Object
 ---@field private decoration net.kyori.adventure.text.format.TextDecoration
 ---@field private state net.kyori.adventure.text.format.TextDecoration.State
 ---@overload fun(decoration: net.kyori.adventure.text.format.TextDecoration, state: net.kyori.adventure.text.format.TextDecoration.State): net.kyori.adventure.text.format.TextDecorationAndStateImpl

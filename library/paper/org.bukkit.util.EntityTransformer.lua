@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.EntityTransformer
----@class org.bukkit.util.EntityTransformer
+---@class org.bukkit.util.EntityTransformer: java.lang.Object
 local EntityTransformer = {}
 
 ---@param region org.bukkit.generator.LimitedRegion the accessible region

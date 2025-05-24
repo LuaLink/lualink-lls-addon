@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.event.ClickCallback.Options
----@class net.kyori.adventure.text.event.ClickCallback.Options: any
+---@class net.kyori.adventure.text.event.ClickCallback.Options: any, java.lang.Object
 ---@field public Builder net.kyori.adventure.text.event.ClickCallback.Options.Builder
 local Options = {}
 

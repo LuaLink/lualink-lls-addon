@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.raid.RaidSpawnWaveEvent
----@class org.bukkit.event.raid.RaidSpawnWaveEvent: org.bukkit.event.raid.RaidEvent
+---@class org.bukkit.event.raid.RaidSpawnWaveEvent: org.bukkit.event.raid.RaidEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private raiders java.util.List
 ---@field private leader org.bukkit.entity.Raider

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerPickupExperienceEvent
----@class com.destroystokyo.paper.event.player.PlayerPickupExperienceEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class com.destroystokyo.paper.event.player.PlayerPickupExperienceEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private experienceOrb org.bukkit.entity.ExperienceOrb
 ---@field private cancelled boolean

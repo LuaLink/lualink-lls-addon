@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.math.Rotation
----@class io.papermc.paper.math.Rotation
+---@class io.papermc.paper.math.Rotation: java.lang.Object
 local Rotation = {}
 
 ---@param yaw number the yaw component of the rotation, measured in degrees

@@ -1,8 +1,8 @@
 ---@meta
 -- net.kyori.adventure.text.TextReplacementConfigImpl.Builder
----@class net.kyori.adventure.text.TextReplacementConfigImpl.Builder: net.kyori.adventure.text.TextReplacementConfig.Builder
+---@class net.kyori.adventure.text.TextReplacementConfigImpl.Builder: net.kyori.adventure.text.TextReplacementConfig.Builder, java.lang.Object
 ---@field public matchPattern java.util.regex.Pattern
----@field public replacement java.util.function.BiFunction
+---@field public replacement function
 ---@field public continuer net.kyori.adventure.text.TextReplacementConfig.Condition
 ---@field public replaceInsideHoverEvents boolean
 ---@overload fun(): net.kyori.adventure.text.TextReplacementConfigImpl.Builder
@@ -19,7 +19,7 @@ function Builder:match(pattern) end
 ---@return net.kyori.adventure.text.TextReplacementConfigImpl.Builder 
 function Builder:condition(condition) end
 
----@param replacement? java.util.function.BiFunction 
+---@param replacement? function 
 ---@public
 ---@return net.kyori.adventure.text.TextReplacementConfigImpl.Builder 
 function Builder:replacement(replacement) end

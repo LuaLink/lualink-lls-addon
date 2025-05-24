@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.block.PlayerShearBlockEvent
----@class io.papermc.paper.event.block.PlayerShearBlockEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.block.PlayerShearBlockEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private block org.bukkit.block.Block
 ---@field private item org.bukkit.inventory.ItemStack

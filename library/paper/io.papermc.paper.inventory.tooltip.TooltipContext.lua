@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.inventory.tooltip.TooltipContext
----@class io.papermc.paper.inventory.tooltip.TooltipContext
+---@class io.papermc.paper.inventory.tooltip.TooltipContext: java.lang.Object
 local TooltipContext = {}
 
 ---@param advanced boolean whether the context is for advanced tooltips

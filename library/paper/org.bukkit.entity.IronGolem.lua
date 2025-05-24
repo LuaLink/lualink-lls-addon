@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.IronGolem
----@class org.bukkit.entity.IronGolem: org.bukkit.entity.Golem
+---@class org.bukkit.entity.IronGolem: org.bukkit.entity.Golem, java.lang.Object
 local IronGolem = {}
 
 ---@public

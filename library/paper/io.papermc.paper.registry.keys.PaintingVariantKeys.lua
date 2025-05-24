@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.PaintingVariantKeys
----@class io.papermc.paper.registry.keys.PaintingVariantKeys
+---@class io.papermc.paper.registry.keys.PaintingVariantKeys: java.lang.Object
 ---@field public ALBAN io.papermc.paper.registry.TypedKey
 ---@field public AZTEC io.papermc.paper.registry.TypedKey
 ---@field public AZTEC2 io.papermc.paper.registry.TypedKey

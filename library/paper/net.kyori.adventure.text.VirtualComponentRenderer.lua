@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.VirtualComponentRenderer
----@class net.kyori.adventure.text.VirtualComponentRenderer
+---@class net.kyori.adventure.text.VirtualComponentRenderer: java.lang.Object
 local VirtualComponentRenderer = {}
 
 ---@param context C the context

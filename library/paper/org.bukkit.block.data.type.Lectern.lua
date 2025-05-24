@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Lectern
----@class org.bukkit.block.data.type.Lectern: org.bukkit.block.data.Directional, org.bukkit.block.data.Powerable
+---@class org.bukkit.block.data.type.Lectern: org.bukkit.block.data.Directional, org.bukkit.block.data.Powerable, java.lang.Object
 local Lectern = {}
 
 ---@public

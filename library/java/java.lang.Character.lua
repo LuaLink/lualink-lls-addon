@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.lang.Character
----@class java.lang.Character: java.io.Serializable, java.lang.Comparable, java.lang.constant.Constable
+---@class java.lang.Character: java.io.Serializable, java.lang.Comparable, java.lang.constant.Constable, java.lang.Object
 ---@field public MIN_RADIX number
 ---@field public MAX_RADIX number
 ---@field public MIN_VALUE string

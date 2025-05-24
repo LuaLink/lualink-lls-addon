@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datapack.DatapackSource
----@class io.papermc.paper.datapack.DatapackSource
+---@class io.papermc.paper.datapack.DatapackSource: java.lang.Object
 ---@field public DEFAULT io.papermc.paper.datapack.DatapackSource
 ---@field public BUILT_IN io.papermc.paper.datapack.DatapackSource
 ---@field public FEATURE io.papermc.paper.datapack.DatapackSource

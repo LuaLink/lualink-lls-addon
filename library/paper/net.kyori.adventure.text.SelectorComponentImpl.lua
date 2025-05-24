@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.SelectorComponentImpl
----@class net.kyori.adventure.text.SelectorComponentImpl: net.kyori.adventure.text.AbstractComponent, net.kyori.adventure.text.SelectorComponent
+---@class net.kyori.adventure.text.SelectorComponentImpl: net.kyori.adventure.text.AbstractComponent, net.kyori.adventure.text.SelectorComponent, java.lang.Object
 ---@field private pattern string
 ---@field private separator net.kyori.adventure.text.Component
 ---@field public BuilderImpl net.kyori.adventure.text.SelectorComponentImpl.BuilderImpl

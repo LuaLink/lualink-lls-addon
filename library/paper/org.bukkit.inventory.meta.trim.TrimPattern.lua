@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.trim.TrimPattern
----@class org.bukkit.inventory.meta.trim.TrimPattern: org.bukkit.Keyed, org.bukkit.Translatable
+---@class org.bukkit.inventory.meta.trim.TrimPattern: org.bukkit.Keyed, org.bukkit.Translatable, java.lang.Object
 ---@field public BOLT org.bukkit.inventory.meta.trim.TrimPattern
 ---@field public COAST org.bukkit.inventory.meta.trim.TrimPattern
 ---@field public DUNE org.bukkit.inventory.meta.trim.TrimPattern

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.ComponentIteratorType
----@class net.kyori.adventure.text.ComponentIteratorType
+---@class net.kyori.adventure.text.ComponentIteratorType: java.lang.Object
 ---@field public DEPTH_FIRST net.kyori.adventure.text.ComponentIteratorType
 ---@field public BREADTH_FIRST net.kyori.adventure.text.ComponentIteratorType
 local ComponentIteratorType = {}

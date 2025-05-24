@@ -1,10 +1,10 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.match.StringResolvingMatchedTokenConsumer
----@class net.kyori.adventure.text.minimessage.internal.parser.match.StringResolvingMatchedTokenConsumer: net.kyori.adventure.text.minimessage.internal.parser.match.MatchedTokenConsumer
+---@class net.kyori.adventure.text.minimessage.internal.parser.match.StringResolvingMatchedTokenConsumer: function, java.lang.Object
 ---@field private builder java.lang.StringBuilder
 ---@field private tagProvider net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider
----@overload fun(input: string, tagProvider: net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider): net.kyori.adventure.text.minimessage.internal.parser.match.StringResolvingMatchedTokenConsumer
+---@overload fun(input: string, tagProvider: net.kyori.adventure.text.minimessage.internal.parser.TokenParser.TagProvider): function
 local StringResolvingMatchedTokenConsumer = {}
 
 ---@param start number 

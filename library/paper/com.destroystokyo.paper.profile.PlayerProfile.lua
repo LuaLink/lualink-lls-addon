@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.profile.PlayerProfile
----@class com.destroystokyo.paper.profile.PlayerProfile: org.bukkit.profile.PlayerProfile
+---@class com.destroystokyo.paper.profile.PlayerProfile: org.bukkit.profile.PlayerProfile, java.lang.Object
 local PlayerProfile = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.ItemArmorTrim
----@class io.papermc.paper.datacomponent.item.ItemArmorTrim
+---@class io.papermc.paper.datacomponent.item.ItemArmorTrim: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.ItemArmorTrim.Builder
 local ItemArmorTrim = {}
 

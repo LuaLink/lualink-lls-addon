@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Hatchable
----@class org.bukkit.block.data.Hatchable: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.Hatchable: org.bukkit.block.data.BlockData, java.lang.Object
 local Hatchable = {}
 
 ---@public

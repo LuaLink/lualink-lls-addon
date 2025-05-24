@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.UnmodifiableSequencedSet
----@class java.util.Collections.UnmodifiableSequencedSet: java.util.Collections.UnmodifiableSequencedCollection, java.util.SequencedSet, java.io.Serializable
+---@class java.util.Collections.UnmodifiableSequencedSet: java.util.Collections.UnmodifiableSequencedCollection, java.util.SequencedSet, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@overload fun(s: java.util.SequencedSet): java.util.Collections.UnmodifiableSequencedSet
 local UnmodifiableSequencedSet = {}

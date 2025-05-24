@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.datacomponent.item.ItemContainerContents.Builder
----@class io.papermc.paper.datacomponent.item.ItemContainerContents.Builder: io.papermc.paper.datacomponent.DataComponentBuilder
+---@class io.papermc.paper.datacomponent.item.ItemContainerContents.Builder: io.papermc.paper.datacomponent.DataComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param stack org.bukkit.inventory.ItemStack the item stack

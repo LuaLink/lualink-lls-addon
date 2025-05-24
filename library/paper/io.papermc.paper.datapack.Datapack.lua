@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datapack.Datapack
----@class io.papermc.paper.datapack.Datapack: io.papermc.paper.datapack.DiscoveredDatapack
+---@class io.papermc.paper.datapack.Datapack: io.papermc.paper.datapack.DiscoveredDatapack, java.lang.Object
 ---@field public Compatibility io.papermc.paper.datapack.Datapack.Compatibility
 ---@field public Position io.papermc.paper.datapack.Datapack.Position
 local Datapack = {}

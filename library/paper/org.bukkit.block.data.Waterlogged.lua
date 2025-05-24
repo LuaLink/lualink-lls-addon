@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.Waterlogged
----@class org.bukkit.block.data.Waterlogged: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.Waterlogged: org.bukkit.block.data.BlockData, java.lang.Object
 local Waterlogged = {}
 
 ---@public

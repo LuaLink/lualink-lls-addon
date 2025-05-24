@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.title.Title
----@class net.kyori.adventure.title.Title: any
+---@class net.kyori.adventure.title.Title: any, java.lang.Object
 ---@field public DEFAULT_TIMES net.kyori.adventure.title.Title.Times
 ---@field public Times net.kyori.adventure.title.Title.Times
 local Title = {}

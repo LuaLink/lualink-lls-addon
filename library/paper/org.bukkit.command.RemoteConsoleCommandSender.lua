@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.command.RemoteConsoleCommandSender
----@class org.bukkit.command.RemoteConsoleCommandSender: org.bukkit.command.CommandSender
+---@class org.bukkit.command.RemoteConsoleCommandSender: org.bukkit.command.CommandSender, java.lang.Object
 local RemoteConsoleCommandSender = {}
 
 ---@public

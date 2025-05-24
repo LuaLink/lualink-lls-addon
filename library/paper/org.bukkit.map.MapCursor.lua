@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.map.MapCursor
----@class org.bukkit.map.MapCursor
+---@class org.bukkit.map.MapCursor: java.lang.Object
 ---@field private x number
 ---@field private y number
 ---@field private direction number

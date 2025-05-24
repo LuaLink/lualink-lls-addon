@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.Namespaced
----@class com.destroystokyo.paper.Namespaced
+---@class com.destroystokyo.paper.Namespaced: java.lang.Object
 local Namespaced = {}
 
 ---@public

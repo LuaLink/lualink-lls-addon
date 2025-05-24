@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Tag
----@class org.bukkit.Tag: org.bukkit.Keyed
+---@class org.bukkit.Tag: org.bukkit.Keyed, java.lang.Object
 ---@field public REGISTRY_BLOCKS string
 ---@field public ACACIA_LOGS org.bukkit.Tag
 ---@field public AIR org.bukkit.Tag

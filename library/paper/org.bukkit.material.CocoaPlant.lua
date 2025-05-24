@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.CocoaPlant
----@class org.bukkit.material.CocoaPlant: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Attachable
+---@class org.bukkit.material.CocoaPlant: org.bukkit.material.MaterialData, org.bukkit.material.Directional, org.bukkit.material.Attachable, java.lang.Object
 ---@field public CocoaPlantSize org.bukkit.material.CocoaPlant.CocoaPlantSize
 ---@overload fun(): org.bukkit.material.CocoaPlant
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.CocoaPlant

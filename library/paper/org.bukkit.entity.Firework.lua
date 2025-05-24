@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.Firework
----@class org.bukkit.entity.Firework: org.bukkit.entity.Projectile
+---@class org.bukkit.entity.Firework: org.bukkit.entity.Projectile, java.lang.Object
 local Firework = {}
 
 ---@public

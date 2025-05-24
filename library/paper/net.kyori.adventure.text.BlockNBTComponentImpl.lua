@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.BlockNBTComponentImpl
----@class net.kyori.adventure.text.BlockNBTComponentImpl: net.kyori.adventure.text.NBTComponentImpl, net.kyori.adventure.text.BlockNBTComponent
+---@class net.kyori.adventure.text.BlockNBTComponentImpl: net.kyori.adventure.text.NBTComponentImpl, net.kyori.adventure.text.BlockNBTComponent, java.lang.Object
 ---@field private pos net.kyori.adventure.text.BlockNBTComponent.Pos
 ---@field public BuilderImpl net.kyori.adventure.text.BlockNBTComponentImpl.BuilderImpl
 ---@field public LocalPosImpl net.kyori.adventure.text.BlockNBTComponentImpl.LocalPosImpl

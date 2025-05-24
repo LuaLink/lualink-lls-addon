@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerTeleportEvent
----@class org.bukkit.event.player.PlayerTeleportEvent: org.bukkit.event.player.PlayerMoveEvent
+---@class org.bukkit.event.player.PlayerTeleportEvent: org.bukkit.event.player.PlayerMoveEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private teleportFlags java.util.Set
 ---@field private cause org.bukkit.event.player.PlayerTeleportEvent.TeleportCause

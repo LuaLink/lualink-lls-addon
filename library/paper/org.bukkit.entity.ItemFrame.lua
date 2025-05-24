@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.ItemFrame
----@class org.bukkit.entity.ItemFrame: org.bukkit.entity.Hanging
+---@class org.bukkit.entity.ItemFrame: org.bukkit.entity.Hanging, java.lang.Object
 local ItemFrame = {}
 
 ---@public

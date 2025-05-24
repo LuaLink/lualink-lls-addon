@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.MultipleFacing
----@class org.bukkit.block.data.MultipleFacing: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.MultipleFacing: org.bukkit.block.data.BlockData, java.lang.Object
 local MultipleFacing = {}
 
 ---@param face org.bukkit.block.BlockFace to check

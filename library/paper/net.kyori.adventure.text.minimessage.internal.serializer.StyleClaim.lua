@@ -1,21 +1,21 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim
----@class net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim
+---@class net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim: java.lang.Object
 local StyleClaim = {}
 
 ---@param claimKey string claim key for de-duplication
----@param lens? java.util.function.Function value extractor from a {@link Style} instance
----@param emitable java.util.function.BiConsumer the function that handles emitting
+---@param lens? function value extractor from a {@link Style} instance
+---@param emitable function the function that handles emitting
 ---@public
 ---@return net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim a new claim
 --- Create a new style claim that will emit content for any non-null value.
 function StyleClaim:claim(claimKey, lens, emitable) end
 
 ---@param claimKey string claim key for de-duplication
----@param lens? java.util.function.Function value extractor from a {@link Style} instance
----@param filter java.util.function.Predicate a filter for values, will only receive non-null values
----@param emitable java.util.function.BiConsumer the function that handles emitting
+---@param lens? function value extractor from a {@link Style} instance
+---@param filter function a filter for values, will only receive non-null values
+---@param emitable function the function that handles emitting
 ---@public
 ---@return net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim a new claim
 --- Create a new style claim that will emit content for any non-null value that passes the filter.

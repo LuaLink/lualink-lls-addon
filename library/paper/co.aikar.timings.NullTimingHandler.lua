@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- co.aikar.timings.NullTimingHandler
----@class co.aikar.timings.NullTimingHandler: co.aikar.timings.Timing
+---@class co.aikar.timings.NullTimingHandler: co.aikar.timings.Timing, java.lang.Object
 ---@field public NULL co.aikar.timings.Timing
 local NullTimingHandler = {}
 

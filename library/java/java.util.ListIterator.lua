@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.ListIterator
----@class java.util.ListIterator: java.util.Iterator
+---@class java.util.ListIterator: java.util.Iterator, java.lang.Object
 local ListIterator = {}
 
 ---@public

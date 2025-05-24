@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl.BuilderImpl
----@class net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl.BuilderImpl: net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Builder
+---@class net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl.BuilderImpl: net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Builder, java.lang.Object
 ---@field private flags any
 ---@field private legacyHoverSerializer any
 ---@overload fun(): net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl.BuilderImpl
@@ -12,7 +12,7 @@ local BuilderImpl = {}
 ---@return net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Builder 
 function BuilderImpl:options(flags) end
 
----@param optionEditor java.util.function.Consumer 
+---@param optionEditor function 
 ---@public
 ---@return net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.Builder 
 function BuilderImpl:editOptions(optionEditor) end

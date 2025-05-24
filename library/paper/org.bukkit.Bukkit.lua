@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Bukkit
----@class org.bukkit.Bukkit
+---@class org.bukkit.Bukkit: java.lang.Object
 ---@field private server org.bukkit.Server
 ---@overload fun(): org.bukkit.Bukkit
 local Bukkit = {}
@@ -750,7 +750,7 @@ function Bukkit:setDefaultGameMode(mode) end
 --- Gets a {@link ConsoleCommandSender} that may be used as an input source for this server.
 function Bukkit:getConsoleSender() end
 
----@param feedback java.util.function.Consumer feedback listener
+---@param feedback function feedback listener
 ---@public
 ---@return org.bukkit.command.CommandSender a command sender
 --- Creates a special {@link CommandSender} which redirects command feedback (in the form of chat messages) to the specified listener. The returned sender will have the same effective permissions as {@link #getConsoleSender()}.
@@ -1081,7 +1081,7 @@ function Bukkit:advancementIterator() end
 function Bukkit:createBlockData(material) end
 
 ---@param material org.bukkit.Material the material
----@param consumer java.util.function.Consumer consumer to run on new instance before returning
+---@param consumer function consumer to run on new instance before returning
 ---@public
 ---@return org.bukkit.block.data.BlockData new data instance
 --- Creates a new {@link BlockData} instance for the specified Material, with all properties initialized to unspecified defaults.

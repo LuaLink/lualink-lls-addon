@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Optional
----@class java.util.Optional
+---@class java.util.Optional: java.lang.Object
 ---@field private EMPTY java.util.Optional
 ---@field private value T
 ---@overload fun(value: T): java.util.Optional
@@ -39,38 +39,38 @@ function Optional:isPresent() end
 --- If a value is  not present, returns {@code true}, otherwise {@code false}.
 function Optional:isEmpty() end
 
----@param action java.util.function.Consumer the action to be performed, if a value is present
+---@param action function the action to be performed, if a value is present
 ---@public
 ---@return nil 
 --- If a value is present, performs the given action with the value, otherwise does nothing.
 function Optional:ifPresent(action) end
 
----@param action java.util.function.Consumer the action to be performed, if a value is present
----@param emptyAction java.lang.Runnable the empty-based action to be performed, if no value is        present
+---@param action function the action to be performed, if a value is present
+---@param emptyAction function the empty-based action to be performed, if no value is        present
 ---@public
 ---@return nil 
 --- If a value is present, performs the given action with the value, otherwise performs the given empty-based action.
 function Optional:ifPresentOrElse(action, emptyAction) end
 
----@param predicate java.util.function.Predicate the predicate to apply to a value, if present
+---@param predicate function the predicate to apply to a value, if present
 ---@public
 ---@return java.util.Optional an {@code Optional} describing the value of this         {@code Optional}, if a value is present and the value matches the         given predicate, otherwise an empty {@code Optional}
 --- If a value is present, and the value matches the given predicate, returns an {@code Optional} describing the value, otherwise returns an empty {@code Optional}.
 function Optional:filter(predicate) end
 
----@param mapper java.util.function.Function the mapping function to apply to a value, if present
+---@param mapper function the mapping function to apply to a value, if present
 ---@public
 ---@return java.util.Optional an {@code Optional} describing the result of applying a mapping         function to the value of this {@code Optional}, if a value is         present, otherwise an empty {@code Optional}
 --- If a value is present, returns an {@code Optional} describing (as if by {@link #ofNullable}) the result of applying the given mapping function to the value, otherwise returns an empty {@code Optional}.  <p>If the mapping function returns a {@code null} result then this method returns an empty {@code Optional}.
 function Optional:map(mapper) end
 
----@param mapper java.util.function.Function the mapping function to apply to a value, if present
+---@param mapper function the mapping function to apply to a value, if present
 ---@public
 ---@return java.util.Optional the result of applying an {@code Optional}-bearing mapping         function to the value of this {@code Optional}, if a value is         present, otherwise an empty {@code Optional}
 --- If a value is present, returns the result of applying the given {@code Optional}-bearing mapping function to the value, otherwise returns an empty {@code Optional}.  <p>This method is similar to {@link #map(Function)}, but the mapping function is one whose result is already an {@code Optional}, and if invoked, {@code flatMap} does not wrap it within an additional {@code Optional}.
 function Optional:flatMap(mapper) end
 
----@param supplier java.util.function.Supplier the supplying function that produces an {@code Optional}        to be returned
+---@param supplier function the supplying function that produces an {@code Optional}        to be returned
 ---@public
 ---@return java.util.Optional returns an {@code Optional} describing the value of this         {@code Optional}, if a value is present, otherwise an         {@code Optional} produced by the supplying function.
 --- If a value is present, returns an {@code Optional} describing the value, otherwise returns an {@code Optional} produced by the supplying function.
@@ -87,7 +87,7 @@ function Optional:stream() end
 --- If a value is present, returns the value, otherwise returns {@code other}.
 function Optional:orElse(other) end
 
----@param supplier java.util.function.Supplier the supplying function that produces a value to be returned
+---@param supplier function the supplying function that produces a value to be returned
 ---@public
 ---@return T the value, if present, otherwise the result produced by the         supplying function
 --- If a value is present, returns the value, otherwise returns the result produced by the supplying function.
@@ -98,7 +98,7 @@ function Optional:orElseGet(supplier) end
 --- If a value is present, returns the value, otherwise throws {@code NoSuchElementException}.
 function Optional:orElseThrow() end
 
----@param exceptionSupplier java.util.function.Supplier the supplying function that produces an        exception to be thrown
+---@param exceptionSupplier function the supplying function that produces an        exception to be thrown
 ---@public
 ---@return T the value, if present
 --- If a value is present, returns the value, otherwise throws an exception produced by the exception supplying function.

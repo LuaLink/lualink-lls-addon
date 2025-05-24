@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.InheritanceAwareMap.Builder
----@class net.kyori.adventure.util.InheritanceAwareMap.Builder: net.kyori.adventure.builder.AbstractBuilder
+---@class net.kyori.adventure.util.InheritanceAwareMap.Builder: net.kyori.adventure.builder.AbstractBuilder, java.lang.Object
 local Builder = {}
 
 ---@param strict boolean whether to enable strict mode.

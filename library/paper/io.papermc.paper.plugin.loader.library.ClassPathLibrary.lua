@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.loader.library.ClassPathLibrary
----@class io.papermc.paper.plugin.loader.library.ClassPathLibrary
+---@class io.papermc.paper.plugin.loader.library.ClassPathLibrary: java.lang.Object
 local ClassPathLibrary = {}
 
 ---@param store io.papermc.paper.plugin.loader.library.LibraryStore the library store instance to register this library into

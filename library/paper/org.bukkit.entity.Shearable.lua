@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Shearable
----@class org.bukkit.entity.Shearable
+---@class org.bukkit.entity.Shearable: java.lang.Object
 local Shearable = {}
 
 ---@deprecated

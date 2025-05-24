@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Creeper
----@class org.bukkit.entity.Creeper: org.bukkit.entity.Monster
+---@class org.bukkit.entity.Creeper: org.bukkit.entity.Monster, java.lang.Object
 local Creeper = {}
 
 ---@public

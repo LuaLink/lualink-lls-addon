@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Mob
----@class org.bukkit.entity.Mob: org.bukkit.entity.LivingEntity, org.bukkit.loot.Lootable, io.papermc.paper.entity.Leashable
+---@class org.bukkit.entity.Mob: org.bukkit.entity.LivingEntity, org.bukkit.loot.Lootable, io.papermc.paper.entity.Leashable, java.lang.Object
 local Mob = {}
 
 ---@public

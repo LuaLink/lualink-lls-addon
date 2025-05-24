@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tree.Node.Root
----@class net.kyori.adventure.text.minimessage.tree.Node.Root: net.kyori.adventure.text.minimessage.tree.Node
+---@class net.kyori.adventure.text.minimessage.tree.Node.Root: net.kyori.adventure.text.minimessage.tree.Node, java.lang.Object
 local Root = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.view.StonecutterView
----@class org.bukkit.inventory.view.StonecutterView: org.bukkit.inventory.InventoryView
+---@class org.bukkit.inventory.view.StonecutterView: org.bukkit.inventory.InventoryView, java.lang.Object
 local StonecutterView = {}
 
 ---@public

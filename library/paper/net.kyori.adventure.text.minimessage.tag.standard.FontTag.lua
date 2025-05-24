@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.FontTag
----@class net.kyori.adventure.text.minimessage.tag.standard.FontTag
+---@class net.kyori.adventure.text.minimessage.tag.standard.FontTag: java.lang.Object
 ---@field public FONT string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.FontTag

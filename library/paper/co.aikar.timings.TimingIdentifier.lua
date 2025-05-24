@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- co.aikar.timings.TimingIdentifier
----@class co.aikar.timings.TimingIdentifier
+---@class co.aikar.timings.TimingIdentifier: java.lang.Object
 ---@field public GROUP_MAP java.util.Map
 ---@field private DEFAULT_GROUP co.aikar.timings.TimingIdentifier.TimingGroup
 ---@field public group string

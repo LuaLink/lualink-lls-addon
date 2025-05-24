@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.LookBehindEndNode
----@class java.util.regex.Pattern.LookBehindEndNode: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.LookBehindEndNode: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public INSTANCE java.util.regex.Pattern.LookBehindEndNode
 ---@overload fun(): java.util.regex.Pattern.LookBehindEndNode
 local LookBehindEndNode = {}

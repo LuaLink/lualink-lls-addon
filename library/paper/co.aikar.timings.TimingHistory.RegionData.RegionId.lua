@@ -1,6 +1,6 @@
 ---@meta
 -- co.aikar.timings.TimingHistory.RegionData.RegionId
----@class co.aikar.timings.TimingHistory.RegionData.RegionId
+---@class co.aikar.timings.TimingHistory.RegionData.RegionId: java.lang.Object
 ---@field public x number
 ---@field public z number
 ---@field public regionId number

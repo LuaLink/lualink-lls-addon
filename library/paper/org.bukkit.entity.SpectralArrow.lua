@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.SpectralArrow
----@class org.bukkit.entity.SpectralArrow: org.bukkit.entity.AbstractArrow
+---@class org.bukkit.entity.SpectralArrow: org.bukkit.entity.AbstractArrow, java.lang.Object
 local SpectralArrow = {}
 
 ---@public

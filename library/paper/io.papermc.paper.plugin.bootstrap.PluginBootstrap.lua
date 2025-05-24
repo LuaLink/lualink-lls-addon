@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.bootstrap.PluginBootstrap
----@class io.papermc.paper.plugin.bootstrap.PluginBootstrap
+---@class io.papermc.paper.plugin.bootstrap.PluginBootstrap: java.lang.Object
 local PluginBootstrap = {}
 
 ---@param context io.papermc.paper.plugin.bootstrap.BootstrapContext the server provided context

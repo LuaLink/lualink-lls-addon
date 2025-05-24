@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.JoinConfiguration
----@class net.kyori.adventure.text.JoinConfiguration: net.kyori.adventure.util.Buildable, any
+---@class net.kyori.adventure.text.JoinConfiguration: net.kyori.adventure.util.Buildable, any, java.lang.Object
 ---@field public Builder net.kyori.adventure.text.JoinConfiguration.Builder
 local JoinConfiguration = {}
 
@@ -75,12 +75,12 @@ function JoinConfiguration:lastSeparator() end
 function JoinConfiguration:lastSeparatorIfSerial() end
 
 ---@public
----@return java.util.function.Function the operator
+---@return function the operator
 --- Gets the convertor of this join configuration.  <p>This is used to change the components that are going to be joined. It does not touch the prefix, suffix or any of the separators.</p>
 function JoinConfiguration:convertor() end
 
 ---@public
----@return java.util.function.Predicate the predicate
+---@return function the predicate
 --- Gets the predicate of this join configuration.  <p>This is used to determine if a component is to be included in the join process. It does not touch the prefix, suffix or any of the separators.</p>
 function JoinConfiguration:predicate() end
 

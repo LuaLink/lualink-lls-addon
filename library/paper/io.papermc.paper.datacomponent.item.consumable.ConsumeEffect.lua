@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.consumable.ConsumeEffect
----@class io.papermc.paper.datacomponent.item.consumable.ConsumeEffect
+---@class io.papermc.paper.datacomponent.item.consumable.ConsumeEffect: java.lang.Object
 ---@field public TeleportRandomly io.papermc.paper.datacomponent.item.consumable.ConsumeEffect.TeleportRandomly
 ---@field public RemoveStatusEffects io.papermc.paper.datacomponent.item.consumable.ConsumeEffect.RemoveStatusEffects
 ---@field public PlaySound io.papermc.paper.datacomponent.item.consumable.ConsumeEffect.PlaySound

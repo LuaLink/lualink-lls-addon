@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.tags.InstrumentTagKeys
----@class io.papermc.paper.registry.keys.tags.InstrumentTagKeys
+---@class io.papermc.paper.registry.keys.tags.InstrumentTagKeys: java.lang.Object
 ---@field public GOAT_HORNS io.papermc.paper.registry.tag.TagKey
 ---@field public REGULAR_GOAT_HORNS io.papermc.paper.registry.tag.TagKey
 ---@field public SCREAMING_GOAT_HORNS io.papermc.paper.registry.tag.TagKey

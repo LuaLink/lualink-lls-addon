@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.Arrow
----@class org.bukkit.entity.Arrow: org.bukkit.entity.AbstractArrow
+---@class org.bukkit.entity.Arrow: org.bukkit.entity.AbstractArrow, java.lang.Object
 local Arrow = {}
 
 ---@deprecated

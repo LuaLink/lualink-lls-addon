@@ -1,12 +1,12 @@
 ---@meta
 -- org.bukkit.plugin.java.LibraryLoader
----@class org.bukkit.plugin.java.LibraryLoader
+---@class org.bukkit.plugin.java.LibraryLoader: java.lang.Object
 ---@field private logger java.util.logging.Logger
 ---@field private repository any
 ---@field private session any
 ---@field private repositories any
----@field public LIBRARY_LOADER_FACTORY java.util.function.BiFunction
----@field public REMAPPER java.util.function.Function
+---@field public LIBRARY_LOADER_FACTORY function
+---@field public REMAPPER function
 ---@overload fun(logger: java.util.logging.Logger): org.bukkit.plugin.java.LibraryLoader
 local LibraryLoader = {}
 

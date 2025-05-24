@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.SingletonList
----@class java.util.Collections.SingletonList: java.util.AbstractList, java.util.RandomAccess, java.io.Serializable
+---@class java.util.Collections.SingletonList: java.util.AbstractList, java.util.RandomAccess, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private element E
 ---@overload fun(obj: E): java.util.Collections.SingletonList
@@ -25,12 +25,12 @@ function SingletonList:contains(obj) end
 ---@return E 
 function SingletonList:get(index) end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function SingletonList:forEach(action) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return boolean 
 function SingletonList:removeIf(filter) end

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.BiomeKeys
----@class io.papermc.paper.registry.keys.BiomeKeys
+---@class io.papermc.paper.registry.keys.BiomeKeys: java.lang.Object
 ---@field public BADLANDS io.papermc.paper.registry.TypedKey
 ---@field public BAMBOO_JUNGLE io.papermc.paper.registry.TypedKey
 ---@field public BASALT_DELTAS io.papermc.paper.registry.TypedKey

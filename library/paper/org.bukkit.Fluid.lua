@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Fluid
----@class org.bukkit.Fluid: org.bukkit.util.OldEnum, org.bukkit.Keyed
+---@class org.bukkit.Fluid: org.bukkit.util.OldEnum, org.bukkit.Keyed, java.lang.Object
 ---@field public EMPTY org.bukkit.Fluid
 ---@field public FLOWING_LAVA org.bukkit.Fluid
 ---@field public FLOWING_WATER org.bukkit.Fluid

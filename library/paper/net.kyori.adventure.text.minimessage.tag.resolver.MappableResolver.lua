@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver
----@class net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver
+---@class net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver: java.lang.Object
 local MappableResolver = {}
 
 ---@param map java.util.Map the map to add to

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.SynchronizedCollection
----@class java.util.Collections.SynchronizedCollection: java.util.Collection, java.io.Serializable
+---@class java.util.Collections.SynchronizedCollection: java.util.Collection, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field public c java.util.Collection
 ---@field public mutex java.lang.Object
@@ -31,7 +31,7 @@ function SynchronizedCollection:toArray() end
 ---@return table<T> 
 function SynchronizedCollection:toArray(a) end
 
----@param f java.util.function.IntFunction 
+---@param f function 
 ---@public
 ---@return table<T> 
 function SynchronizedCollection:toArray(f) end
@@ -78,12 +78,12 @@ function SynchronizedCollection:clear() end
 ---@return string 
 function SynchronizedCollection:toString() end
 
----@param consumer java.util.function.Consumer 
+---@param consumer function 
 ---@public
 ---@return nil 
 function SynchronizedCollection:forEach(consumer) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return boolean 
 function SynchronizedCollection:removeIf(filter) end

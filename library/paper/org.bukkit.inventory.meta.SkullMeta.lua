@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.SkullMeta
----@class org.bukkit.inventory.meta.SkullMeta: org.bukkit.inventory.meta.ItemMeta
+---@class org.bukkit.inventory.meta.SkullMeta: org.bukkit.inventory.meta.ItemMeta, java.lang.Object
 local SkullMeta = {}
 
 ---@deprecated

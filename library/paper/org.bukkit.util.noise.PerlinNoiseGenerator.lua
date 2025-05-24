@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.util.noise.PerlinNoiseGenerator
----@class org.bukkit.util.noise.PerlinNoiseGenerator: org.bukkit.util.noise.NoiseGenerator
+---@class org.bukkit.util.noise.PerlinNoiseGenerator: org.bukkit.util.noise.NoiseGenerator, java.lang.Object
 ---@field protected grad3 number
 ---@field private instance org.bukkit.util.noise.PerlinNoiseGenerator
 ---@overload fun(): org.bukkit.util.noise.PerlinNoiseGenerator

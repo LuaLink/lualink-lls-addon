@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.UnmodifiableSortedMap
----@class java.util.Collections.UnmodifiableSortedMap: java.util.Collections.UnmodifiableMap, java.util.SortedMap, java.io.Serializable
+---@class java.util.Collections.UnmodifiableSortedMap: java.util.Collections.UnmodifiableMap, java.util.SortedMap, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private sm java.util.SortedMap
 ---@overload fun(m: java.util.SortedMap): java.util.Collections.UnmodifiableSortedMap

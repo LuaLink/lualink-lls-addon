@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Phantom
----@class org.bukkit.entity.Phantom: org.bukkit.entity.Flying, org.bukkit.entity.Enemy
+---@class org.bukkit.entity.Phantom: org.bukkit.entity.Flying, org.bukkit.entity.Enemy, java.lang.Object
 local Phantom = {}
 
 ---@public

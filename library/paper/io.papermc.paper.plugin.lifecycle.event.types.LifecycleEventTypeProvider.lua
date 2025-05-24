@@ -1,6 +1,6 @@
 ---@meta
 -- io.papermc.paper.plugin.lifecycle.event.types.LifecycleEventTypeProvider
----@class io.papermc.paper.plugin.lifecycle.event.types.LifecycleEventTypeProvider
+---@class io.papermc.paper.plugin.lifecycle.event.types.LifecycleEventTypeProvider: java.lang.Object
 ---@field public INSTANCE java.util.Optional
 local LifecycleEventTypeProvider = {}
 

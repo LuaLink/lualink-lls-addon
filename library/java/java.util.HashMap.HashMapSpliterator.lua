@@ -1,6 +1,6 @@
 ---@meta
 -- java.util.HashMap.HashMapSpliterator
----@class java.util.HashMap.HashMapSpliterator
+---@class java.util.HashMap.HashMapSpliterator: java.lang.Object
 ---@field public map java.util.HashMap
 ---@field public current java.util.HashMap.Node
 ---@field public index number

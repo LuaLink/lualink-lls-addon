@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.DamageTypeRegistryEntry
----@class io.papermc.paper.registry.data.DamageTypeRegistryEntry
+---@class io.papermc.paper.registry.data.DamageTypeRegistryEntry: java.lang.Object
 ---@field public Builder io.papermc.paper.registry.data.DamageTypeRegistryEntry.Builder
 local DamageTypeRegistryEntry = {}
 

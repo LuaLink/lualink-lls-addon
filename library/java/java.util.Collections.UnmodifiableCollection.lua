@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.UnmodifiableCollection
----@class java.util.Collections.UnmodifiableCollection: java.util.Collection, java.io.Serializable
+---@class java.util.Collections.UnmodifiableCollection: java.util.Collection, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@field public c java.util.Collection
 ---@overload fun(c: java.util.Collection): java.util.Collections.UnmodifiableCollection
@@ -29,7 +29,7 @@ function UnmodifiableCollection:toArray() end
 ---@return table<T> 
 function UnmodifiableCollection:toArray(a) end
 
----@param f java.util.function.IntFunction 
+---@param f function 
 ---@public
 ---@return table<T> 
 function UnmodifiableCollection:toArray(f) end
@@ -76,12 +76,12 @@ function UnmodifiableCollection:retainAll(coll) end
 ---@return nil 
 function UnmodifiableCollection:clear() end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function UnmodifiableCollection:forEach(action) end
 
----@param filter java.util.function.Predicate 
+---@param filter function 
 ---@public
 ---@return boolean 
 function UnmodifiableCollection:removeIf(filter) end

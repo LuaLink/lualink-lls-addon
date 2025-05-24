@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Warden
----@class org.bukkit.entity.Warden: org.bukkit.entity.Monster
+---@class org.bukkit.entity.Warden: org.bukkit.entity.Monster, java.lang.Object
 ---@field public AngerLevel org.bukkit.entity.Warden.AngerLevel
 local Warden = {}
 

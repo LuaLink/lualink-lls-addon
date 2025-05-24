@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.format.StyleGetter
----@class net.kyori.adventure.text.format.StyleGetter
+---@class net.kyori.adventure.text.format.StyleGetter: java.lang.Object
 local StyleGetter = {}
 
 ---@public

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Chunk
----@class org.bukkit.Chunk: org.bukkit.persistence.PersistentDataHolder
+---@class org.bukkit.Chunk: org.bukkit.persistence.PersistentDataHolder, java.lang.Object
 ---@field public LoadLevel org.bukkit.Chunk.LoadLevel
 local Chunk = {}
 
@@ -86,7 +86,7 @@ function Chunk:getTileEntities() end
 --- Get a list of all block entities in the chunk.
 function Chunk:getTileEntities(useSnapshot) end
 
----@param blockPredicate java.util.function.Predicate The predicate of blocks to return block entities for
+---@param blockPredicate function The predicate of blocks to return block entities for
 ---@param useSnapshot boolean Take snapshots or direct references
 ---@public
 ---@return java.util.Collection The block entities.

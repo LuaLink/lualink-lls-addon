@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.UnmodifiableSequencedMap
----@class java.util.Collections.UnmodifiableSequencedMap: java.util.Collections.UnmodifiableMap, java.util.SequencedMap, java.io.Serializable
+---@class java.util.Collections.UnmodifiableSequencedMap: java.util.Collections.UnmodifiableMap, java.util.SequencedMap, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 ---@overload fun(m: java.util.Map): java.util.Collections.UnmodifiableSequencedMap
 local UnmodifiableSequencedMap = {}

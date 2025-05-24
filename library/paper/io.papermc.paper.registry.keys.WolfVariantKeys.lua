@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.keys.WolfVariantKeys
----@class io.papermc.paper.registry.keys.WolfVariantKeys
+---@class io.papermc.paper.registry.keys.WolfVariantKeys: java.lang.Object
 ---@field public ASHEN io.papermc.paper.registry.TypedKey
 ---@field public BLACK io.papermc.paper.registry.TypedKey
 ---@field public CHESTNUT io.papermc.paper.registry.TypedKey

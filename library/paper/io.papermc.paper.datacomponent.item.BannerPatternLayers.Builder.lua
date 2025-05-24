@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.BannerPatternLayers.Builder
----@class io.papermc.paper.datacomponent.item.BannerPatternLayers.Builder: io.papermc.paper.datacomponent.DataComponentBuilder
+---@class io.papermc.paper.datacomponent.item.BannerPatternLayers.Builder: io.papermc.paper.datacomponent.DataComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param pattern org.bukkit.block.banner.Pattern the pattern

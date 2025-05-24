@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.First
----@class java.util.regex.Pattern.First: java.util.regex.Pattern.Node
+---@class java.util.regex.Pattern.First: java.util.regex.Pattern.Node, java.lang.Object
 ---@field public atom java.util.regex.Pattern.Node
 ---@overload fun(node: java.util.regex.Pattern.Node): java.util.regex.Pattern.First
 local First = {}

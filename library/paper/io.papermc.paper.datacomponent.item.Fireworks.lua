@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.Fireworks
----@class io.papermc.paper.datacomponent.item.Fireworks
+---@class io.papermc.paper.datacomponent.item.Fireworks: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.Fireworks.Builder
 local Fireworks = {}
 

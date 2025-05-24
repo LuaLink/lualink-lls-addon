@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.metadata.MetadataValue
----@class org.bukkit.metadata.MetadataValue
+---@class org.bukkit.metadata.MetadataValue: java.lang.Object
 local MetadataValue = {}
 
 ---@public

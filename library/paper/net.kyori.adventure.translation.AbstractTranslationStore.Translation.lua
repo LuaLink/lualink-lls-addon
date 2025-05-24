@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.translation.AbstractTranslationStore.Translation
----@class net.kyori.adventure.translation.AbstractTranslationStore.Translation: any
+---@class net.kyori.adventure.translation.AbstractTranslationStore.Translation: any, java.lang.Object
 ---@field private key string
 ---@field private translations java.util.Map
 ---@overload fun(key: string): net.kyori.adventure.translation.AbstractTranslationStore.Translation

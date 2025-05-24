@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.serializer.TokenEmitter
----@class net.kyori.adventure.text.minimessage.internal.serializer.TokenEmitter
+---@class net.kyori.adventure.text.minimessage.internal.serializer.TokenEmitter: java.lang.Object
 local TokenEmitter = {}
 
 ---@param token string 

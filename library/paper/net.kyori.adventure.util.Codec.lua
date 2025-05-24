@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.util.Codec
----@class net.kyori.adventure.util.Codec
+---@class net.kyori.adventure.util.Codec: java.lang.Object
 ---@field public Decoder net.kyori.adventure.util.Codec.Decoder
 ---@field public Encoder net.kyori.adventure.util.Codec.Encoder
 local Codec = {}

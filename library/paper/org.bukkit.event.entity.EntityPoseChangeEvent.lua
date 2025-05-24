@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.entity.EntityPoseChangeEvent
----@class org.bukkit.event.entity.EntityPoseChangeEvent: org.bukkit.event.entity.EntityEvent
+---@class org.bukkit.event.entity.EntityPoseChangeEvent: org.bukkit.event.entity.EntityEvent, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private pose org.bukkit.entity.Pose
 ---@overload fun(entity: org.bukkit.entity.Entity, pose: org.bukkit.entity.Pose): org.bukkit.event.entity.EntityPoseChangeEvent

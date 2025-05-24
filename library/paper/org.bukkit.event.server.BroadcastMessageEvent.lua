@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.server.BroadcastMessageEvent
----@class org.bukkit.event.server.BroadcastMessageEvent: org.bukkit.event.server.ServerEvent, org.bukkit.event.Cancellable
+---@class org.bukkit.event.server.BroadcastMessageEvent: org.bukkit.event.server.ServerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private recipients java.util.Set
 ---@field private message net.kyori.adventure.text.Component

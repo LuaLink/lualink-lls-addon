@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Candle
----@class org.bukkit.block.data.type.Candle: org.bukkit.block.data.Lightable, org.bukkit.block.data.Waterlogged
+---@class org.bukkit.block.data.type.Candle: org.bukkit.block.data.Lightable, org.bukkit.block.data.Waterlogged, java.lang.Object
 local Candle = {}
 
 ---@public

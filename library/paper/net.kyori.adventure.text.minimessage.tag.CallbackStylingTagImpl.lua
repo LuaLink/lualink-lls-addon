@@ -1,8 +1,8 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.CallbackStylingTagImpl
----@class net.kyori.adventure.text.minimessage.tag.CallbackStylingTagImpl: net.kyori.adventure.text.minimessage.tag.AbstractTag, net.kyori.adventure.text.minimessage.tag.Inserting
----@field private styles java.util.function.Consumer
----@overload fun(styles: java.util.function.Consumer): net.kyori.adventure.text.minimessage.tag.CallbackStylingTagImpl
+---@class net.kyori.adventure.text.minimessage.tag.CallbackStylingTagImpl: net.kyori.adventure.text.minimessage.tag.AbstractTag, net.kyori.adventure.text.minimessage.tag.Inserting, java.lang.Object
+---@field private styles function
+---@overload fun(styles: function): net.kyori.adventure.text.minimessage.tag.CallbackStylingTagImpl
 local CallbackStylingTagImpl = {}
 
 ---@public

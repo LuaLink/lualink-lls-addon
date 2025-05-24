@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.configuration.Configuration
----@class org.bukkit.configuration.Configuration: org.bukkit.configuration.ConfigurationSection
+---@class org.bukkit.configuration.Configuration: org.bukkit.configuration.ConfigurationSection, java.lang.Object
 local Configuration = {}
 
 ---@param path string Path of the value to set.

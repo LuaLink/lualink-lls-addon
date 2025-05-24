@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.logger.slf4j.CallerClassFinder
----@class net.kyori.adventure.text.logger.slf4j.CallerClassFinder
+---@class net.kyori.adventure.text.logger.slf4j.CallerClassFinder: java.lang.Object
 ---@overload fun(): net.kyori.adventure.text.logger.slf4j.CallerClassFinder
 local CallerClassFinder = {}
 

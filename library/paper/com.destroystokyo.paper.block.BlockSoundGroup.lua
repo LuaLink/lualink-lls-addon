@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.block.BlockSoundGroup
----@class com.destroystokyo.paper.block.BlockSoundGroup
+---@class com.destroystokyo.paper.block.BlockSoundGroup: java.lang.Object
 local BlockSoundGroup = {}
 
 ---@deprecated

@@ -1,9 +1,9 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.CharProperty
----@class java.util.regex.Pattern.CharProperty: java.util.regex.Pattern.Node
----@field public predicate java.util.regex.Pattern.CharPredicate
----@overload fun(predicate: java.util.regex.Pattern.CharPredicate): java.util.regex.Pattern.CharProperty
+---@class java.util.regex.Pattern.CharProperty: java.util.regex.Pattern.Node, java.lang.Object
+---@field public predicate function
+---@overload fun(predicate: function): java.util.regex.Pattern.CharProperty
 local CharProperty = {}
 
 ---@param matcher java.util.regex.Matcher 

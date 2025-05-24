@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.PluginBase
----@class org.bukkit.plugin.PluginBase: org.bukkit.plugin.Plugin
+---@class org.bukkit.plugin.PluginBase: org.bukkit.plugin.Plugin, java.lang.Object
 local PluginBase = {}
 
 ---@public

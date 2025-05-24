@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.entity.EntityCompostItemEvent
----@class io.papermc.paper.event.entity.EntityCompostItemEvent: io.papermc.paper.event.block.CompostItemEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.entity.EntityCompostItemEvent: io.papermc.paper.event.block.CompostItemEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private entity org.bukkit.entity.Entity
 ---@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, composter: org.bukkit.block.Block, item: org.bukkit.inventory.ItemStack, willRaiseLevel: boolean): io.papermc.paper.event.entity.EntityCompostItemEvent

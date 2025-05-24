@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.command.CommandExecutor
----@class org.bukkit.command.CommandExecutor
+---@class org.bukkit.command.CommandExecutor: java.lang.Object
 local CommandExecutor = {}
 
 ---@param sender org.bukkit.command.CommandSender Source of the command

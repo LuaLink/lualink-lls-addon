@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.block.data.type.Switch
----@class org.bukkit.block.data.type.Switch: org.bukkit.block.data.Directional, org.bukkit.block.data.FaceAttachable, org.bukkit.block.data.Powerable
+---@class org.bukkit.block.data.type.Switch: org.bukkit.block.data.Directional, org.bukkit.block.data.FaceAttachable, org.bukkit.block.data.Powerable, java.lang.Object
 ---@field public Face org.bukkit.block.data.type.Switch.Face
 local Switch = {}
 

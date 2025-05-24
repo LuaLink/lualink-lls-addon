@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Beehive
----@class org.bukkit.block.Beehive: org.bukkit.block.EntityBlockStorage
+---@class org.bukkit.block.Beehive: org.bukkit.block.EntityBlockStorage, java.lang.Object
 local Beehive = {}
 
 ---@public

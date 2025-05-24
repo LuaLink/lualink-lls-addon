@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.tags.ItemTagType.PrimitiveTagType
----@class org.bukkit.inventory.meta.tags.ItemTagType.PrimitiveTagType: org.bukkit.inventory.meta.tags.ItemTagType
+---@class org.bukkit.inventory.meta.tags.ItemTagType.PrimitiveTagType: org.bukkit.inventory.meta.tags.ItemTagType, java.lang.Object
 ---@field private primitiveType java.lang.Class
 ---@overload fun(primitiveType: java.lang.Class): org.bukkit.inventory.meta.tags.ItemTagType.PrimitiveTagType
 local PrimitiveTagType = {}

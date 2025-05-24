@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.command.TabCompleter
----@class org.bukkit.command.TabCompleter
+---@class org.bukkit.command.TabCompleter: java.lang.Object
 local TabCompleter = {}
 
 ---@param sender org.bukkit.command.CommandSender Source of the command.  For players tab-completing a     command inside of a command block, this will be the player, not     the command block.

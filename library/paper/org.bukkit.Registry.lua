@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Registry
----@class org.bukkit.Registry: java.lang.Iterable
+---@class org.bukkit.Registry: java.lang.Iterable, java.lang.Object
 ---@field public ADVANCEMENT org.bukkit.Registry
 ---@field public ART org.bukkit.Registry
 ---@field public ATTRIBUTE org.bukkit.Registry

@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.AnimalTamer
----@class org.bukkit.entity.AnimalTamer
+---@class org.bukkit.entity.AnimalTamer: java.lang.Object
 local AnimalTamer = {}
 
 ---@public

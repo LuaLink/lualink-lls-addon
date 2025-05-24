@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.DamageResistant
----@class io.papermc.paper.datacomponent.item.DamageResistant
+---@class io.papermc.paper.datacomponent.item.DamageResistant: java.lang.Object
 local DamageResistant = {}
 
 ---@param types io.papermc.paper.registry.tag.TagKey 

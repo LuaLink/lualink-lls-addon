@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.CaveVinesPlant
----@class org.bukkit.block.data.type.CaveVinesPlant: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.type.CaveVinesPlant: org.bukkit.block.data.BlockData, java.lang.Object
 local CaveVinesPlant = {}
 
 ---@deprecated

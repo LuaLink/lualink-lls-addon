@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.VirtualComponent
----@class net.kyori.adventure.text.VirtualComponent: net.kyori.adventure.text.TextComponent
+---@class net.kyori.adventure.text.VirtualComponent: net.kyori.adventure.text.TextComponent, java.lang.Object
 local VirtualComponent = {}
 
 ---@public

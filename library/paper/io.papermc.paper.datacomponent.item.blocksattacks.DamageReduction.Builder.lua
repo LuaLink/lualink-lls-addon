@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.blocksattacks.DamageReduction.Builder
----@class io.papermc.paper.datacomponent.item.blocksattacks.DamageReduction.Builder: io.papermc.paper.datacomponent.DataComponentBuilder
+---@class io.papermc.paper.datacomponent.item.blocksattacks.DamageReduction.Builder: io.papermc.paper.datacomponent.DataComponentBuilder, java.lang.Object
 local Builder = {}
 
 ---@param type io.papermc.paper.registry.set.RegistryKeySet 

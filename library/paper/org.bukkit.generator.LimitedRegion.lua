@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.generator.LimitedRegion
----@class org.bukkit.generator.LimitedRegion: org.bukkit.RegionAccessor
+---@class org.bukkit.generator.LimitedRegion: org.bukkit.RegionAccessor, java.lang.Object
 local LimitedRegion = {}
 
 ---@public

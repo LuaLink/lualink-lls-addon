@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.entity.Pathfinder
----@class com.destroystokyo.paper.entity.Pathfinder
+---@class com.destroystokyo.paper.entity.Pathfinder: java.lang.Object
 ---@field public PathResult com.destroystokyo.paper.entity.Pathfinder.PathResult
 local Pathfinder = {}
 

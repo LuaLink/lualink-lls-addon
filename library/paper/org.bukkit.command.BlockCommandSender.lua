@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.command.BlockCommandSender
----@class org.bukkit.command.BlockCommandSender: org.bukkit.command.CommandSender
+---@class org.bukkit.command.BlockCommandSender: org.bukkit.command.CommandSender, java.lang.Object
 local BlockCommandSender = {}
 
 ---@public

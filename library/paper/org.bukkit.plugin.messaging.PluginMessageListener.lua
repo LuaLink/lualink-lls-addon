@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.plugin.messaging.PluginMessageListener
----@class org.bukkit.plugin.messaging.PluginMessageListener
+---@class org.bukkit.plugin.messaging.PluginMessageListener: java.lang.Object
 local PluginMessageListener = {}
 
 ---@param channel string Channel that the message was sent through.

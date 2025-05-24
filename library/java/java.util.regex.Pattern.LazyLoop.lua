@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.regex.Pattern.LazyLoop
----@class java.util.regex.Pattern.LazyLoop: java.util.regex.Pattern.Loop
+---@class java.util.regex.Pattern.LazyLoop: java.util.regex.Pattern.Loop, java.lang.Object
 ---@overload fun(countIndex: number, beginIndex: number): java.util.regex.Pattern.LazyLoop
 local LazyLoop = {}
 

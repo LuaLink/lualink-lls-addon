@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.help.HelpTopicComparator
----@class org.bukkit.help.HelpTopicComparator: java.util.Comparator
+---@class org.bukkit.help.HelpTopicComparator: java.util.Comparator, java.lang.Object
 ---@field private tnc org.bukkit.help.HelpTopicComparator.TopicNameComparator
 ---@field private htc org.bukkit.help.HelpTopicComparator
 ---@field public TopicNameComparator org.bukkit.help.HelpTopicComparator.TopicNameComparator

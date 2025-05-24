@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.raytracing.PositionedRayTraceConfigurationBuilder
----@class io.papermc.paper.raytracing.PositionedRayTraceConfigurationBuilder
+---@class io.papermc.paper.raytracing.PositionedRayTraceConfigurationBuilder: java.lang.Object
 local PositionedRayTraceConfigurationBuilder = {}
 
 ---@param start org.bukkit.Location the new starting location
@@ -40,13 +40,13 @@ function PositionedRayTraceConfigurationBuilder:ignorePassableBlocks(ignorePassa
 --- Sets the size of the raytrace when looking for entity collisions.
 function PositionedRayTraceConfigurationBuilder:raySize(raySize) end
 
----@param entityFilter java.util.function.Predicate predicate for entities the ray can potentially collide with
+---@param entityFilter function predicate for entities the ray can potentially collide with
 ---@public
 ---@return io.papermc.paper.raytracing.PositionedRayTraceConfigurationBuilder a reference to this object
 --- Sets the current entity filter when looking for entity collisions.
 function PositionedRayTraceConfigurationBuilder:entityFilter(entityFilter) end
 
----@param blockFilter java.util.function.Predicate predicate for blocks the ray can potentially collide with
+---@param blockFilter function predicate for blocks the ray can potentially collide with
 ---@public
 ---@return io.papermc.paper.raytracing.PositionedRayTraceConfigurationBuilder a reference to this object
 --- Sets the current block filter when looking for block collisions.

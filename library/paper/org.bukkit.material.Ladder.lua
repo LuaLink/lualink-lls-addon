@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.Ladder
----@class org.bukkit.material.Ladder: org.bukkit.material.SimpleAttachableMaterialData
+---@class org.bukkit.material.Ladder: org.bukkit.material.SimpleAttachableMaterialData, java.lang.Object
 ---@overload fun(): org.bukkit.material.Ladder
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Ladder
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Ladder

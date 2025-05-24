@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.ResolvableProfile
----@class io.papermc.paper.datacomponent.item.ResolvableProfile
+---@class io.papermc.paper.datacomponent.item.ResolvableProfile: java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.ResolvableProfile.Builder
 local ResolvableProfile = {}
 

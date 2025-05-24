@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.command.CommandSender
----@class org.bukkit.command.CommandSender: net.kyori.adventure.audience.Audience, org.bukkit.permissions.Permissible
+---@class org.bukkit.command.CommandSender: net.kyori.adventure.audience.Audience, org.bukkit.permissions.Permissible, java.lang.Object
 ---@field public Spigot org.bukkit.command.CommandSender.Spigot
 local CommandSender = {}
 

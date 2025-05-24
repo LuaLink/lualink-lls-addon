@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.inventory.meta.components.CustomModelDataComponent
----@class org.bukkit.inventory.meta.components.CustomModelDataComponent: org.bukkit.configuration.serialization.ConfigurationSerializable
+---@class org.bukkit.inventory.meta.components.CustomModelDataComponent: org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
 local CustomModelDataComponent = {}
 
 ---@public

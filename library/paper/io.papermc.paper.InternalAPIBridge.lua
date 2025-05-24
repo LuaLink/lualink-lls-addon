@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.InternalAPIBridge
----@class io.papermc.paper.InternalAPIBridge
+---@class io.papermc.paper.InternalAPIBridge: java.lang.Object
 local InternalAPIBridge = {}
 
 ---@public

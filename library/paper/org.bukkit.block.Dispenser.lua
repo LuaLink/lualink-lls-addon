@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Dispenser
----@class org.bukkit.block.Dispenser: org.bukkit.block.Container, org.bukkit.Nameable, com.destroystokyo.paper.loottable.LootableBlockInventory
+---@class org.bukkit.block.Dispenser: org.bukkit.block.Container, org.bukkit.Nameable, com.destroystokyo.paper.loottable.LootableBlockInventory, java.lang.Object
 local Dispenser = {}
 
 ---@public

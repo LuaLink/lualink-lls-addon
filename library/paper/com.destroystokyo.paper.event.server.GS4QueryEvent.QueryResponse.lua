@@ -1,6 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse
----@class com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse
+---@class com.destroystokyo.paper.event.server.GS4QueryEvent.QueryResponse: java.lang.Object
 ---@field private motd string
 ---@field private gameVersion string
 ---@field private map string

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.generator.BiomeParameterPoint
----@class org.bukkit.generator.BiomeParameterPoint
+---@class org.bukkit.generator.BiomeParameterPoint: java.lang.Object
 local BiomeParameterPoint = {}
 
 ---@public

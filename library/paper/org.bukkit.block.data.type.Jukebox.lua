@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.Jukebox
----@class org.bukkit.block.data.type.Jukebox: org.bukkit.block.data.BlockData
+---@class org.bukkit.block.data.type.Jukebox: org.bukkit.block.data.BlockData, java.lang.Object
 local Jukebox = {}
 
 ---@public

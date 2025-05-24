@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.concurrent.CompletableFuture.CoCompletion
----@class java.util.concurrent.CompletableFuture.CoCompletion: java.util.concurrent.CompletableFuture.Completion
+---@class java.util.concurrent.CompletableFuture.CoCompletion: java.util.concurrent.CompletableFuture.Completion, java.lang.Object
 ---@field public base java.util.concurrent.CompletableFuture.BiCompletion
 ---@overload fun(base: java.util.concurrent.CompletableFuture.BiCompletion): java.util.concurrent.CompletableFuture.CoCompletion
 local CoCompletion = {}

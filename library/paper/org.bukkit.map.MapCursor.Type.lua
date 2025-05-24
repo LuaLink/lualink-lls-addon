@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.map.MapCursor.Type
----@class org.bukkit.map.MapCursor.Type: org.bukkit.util.OldEnum, org.bukkit.Keyed
+---@class org.bukkit.map.MapCursor.Type: org.bukkit.util.OldEnum, org.bukkit.Keyed, java.lang.Object
 ---@field public BANNER_BLACK org.bukkit.map.MapCursor.Type
 ---@field public BANNER_BLUE org.bukkit.map.MapCursor.Type
 ---@field public BANNER_BROWN org.bukkit.map.MapCursor.Type

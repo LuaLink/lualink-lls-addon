@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.util.HSVLikeImpl
----@class net.kyori.adventure.util.HSVLikeImpl: net.kyori.adventure.util.HSVLike
+---@class net.kyori.adventure.util.HSVLikeImpl: net.kyori.adventure.util.HSVLike, java.lang.Object
 ---@field private h number
 ---@field private s number
 ---@field private v number

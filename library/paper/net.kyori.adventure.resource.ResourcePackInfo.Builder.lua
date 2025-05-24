@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.resource.ResourcePackInfo.Builder
----@class net.kyori.adventure.resource.ResourcePackInfo.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.resource.ResourcePackInfoLike
+---@class net.kyori.adventure.resource.ResourcePackInfo.Builder: net.kyori.adventure.builder.AbstractBuilder, net.kyori.adventure.resource.ResourcePackInfoLike, java.lang.Object
 local Builder = {}
 
 ---@param id java.util.UUID the id

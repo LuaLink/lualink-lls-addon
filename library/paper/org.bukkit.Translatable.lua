@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.Translatable
----@class org.bukkit.Translatable
+---@class org.bukkit.Translatable: java.lang.Object
 local Translatable = {}
 
 ---@deprecated

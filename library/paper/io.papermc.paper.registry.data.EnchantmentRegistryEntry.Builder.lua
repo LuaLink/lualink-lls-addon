@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.data.EnchantmentRegistryEntry.Builder
----@class io.papermc.paper.registry.data.EnchantmentRegistryEntry.Builder: io.papermc.paper.registry.data.EnchantmentRegistryEntry, io.papermc.paper.registry.RegistryBuilder
+---@class io.papermc.paper.registry.data.EnchantmentRegistryEntry.Builder: io.papermc.paper.registry.data.EnchantmentRegistryEntry, io.papermc.paper.registry.RegistryBuilder, java.lang.Object
 local Builder = {}
 
 ---@param description net.kyori.adventure.text.Component the description component.

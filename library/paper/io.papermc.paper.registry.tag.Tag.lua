@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.registry.tag.Tag
----@class io.papermc.paper.registry.tag.Tag: io.papermc.paper.registry.set.RegistryKeySet
+---@class io.papermc.paper.registry.tag.Tag: io.papermc.paper.registry.set.RegistryKeySet, java.lang.Object
 local Tag = {}
 
 ---@public

@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.TextComponentImpl.BuilderImpl
----@class net.kyori.adventure.text.TextComponentImpl.BuilderImpl: net.kyori.adventure.text.AbstractComponentBuilder, net.kyori.adventure.text.TextComponent.Builder
+---@class net.kyori.adventure.text.TextComponentImpl.BuilderImpl: net.kyori.adventure.text.AbstractComponentBuilder, net.kyori.adventure.text.TextComponent.Builder, java.lang.Object
 ---@field private content string
 ---@overload fun(): net.kyori.adventure.text.TextComponentImpl.BuilderImpl
 ---@overload fun(component: net.kyori.adventure.text.TextComponent): net.kyori.adventure.text.TextComponentImpl.BuilderImpl

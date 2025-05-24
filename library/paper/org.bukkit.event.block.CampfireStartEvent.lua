@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.block.CampfireStartEvent
----@class org.bukkit.event.block.CampfireStartEvent: org.bukkit.event.block.InventoryBlockStartEvent
+---@class org.bukkit.event.block.CampfireStartEvent: org.bukkit.event.block.InventoryBlockStartEvent, java.lang.Object
 ---@field private campfireRecipe org.bukkit.inventory.CampfireRecipe
 ---@field private cookingTime number
 ---@overload fun(furnace: org.bukkit.block.Block, source: org.bukkit.inventory.ItemStack, recipe: org.bukkit.inventory.CampfireRecipe): org.bukkit.event.block.CampfireStartEvent

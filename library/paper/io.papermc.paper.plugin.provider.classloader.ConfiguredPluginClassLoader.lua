@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.provider.classloader.ConfiguredPluginClassLoader
----@class io.papermc.paper.plugin.provider.classloader.ConfiguredPluginClassLoader: java.io.Closeable
+---@class io.papermc.paper.plugin.provider.classloader.ConfiguredPluginClassLoader: java.io.Closeable, java.lang.Object
 local ConfiguredPluginClassLoader = {}
 
 ---@public

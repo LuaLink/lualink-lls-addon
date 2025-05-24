@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.data.type.DaylightDetector
----@class org.bukkit.block.data.type.DaylightDetector: org.bukkit.block.data.AnaloguePowerable
+---@class org.bukkit.block.data.type.DaylightDetector: org.bukkit.block.data.AnaloguePowerable, java.lang.Object
 local DaylightDetector = {}
 
 ---@public

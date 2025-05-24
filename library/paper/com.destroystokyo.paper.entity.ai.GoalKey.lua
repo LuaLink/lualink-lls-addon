@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.entity.ai.GoalKey
----@class com.destroystokyo.paper.entity.ai.GoalKey
+---@class com.destroystokyo.paper.entity.ai.GoalKey: java.lang.Object
 ---@field private entityClass java.lang.Class
 ---@field private namespacedKey org.bukkit.NamespacedKey
 ---@overload fun(entityClass: java.lang.Class, namespacedKey: org.bukkit.NamespacedKey): com.destroystokyo.paper.entity.ai.GoalKey

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Sittable
----@class org.bukkit.entity.Sittable: org.bukkit.entity.Entity
+---@class org.bukkit.entity.Sittable: org.bukkit.entity.Entity, java.lang.Object
 local Sittable = {}
 
 ---@public

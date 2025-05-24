@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.GameRule
----@class org.bukkit.GameRule: net.kyori.adventure.translation.Translatable, io.papermc.paper.world.flag.FeatureDependant
+---@class org.bukkit.GameRule: net.kyori.adventure.translation.Translatable, io.papermc.paper.world.flag.FeatureDependant, java.lang.Object
 ---@field private gameRules java.util.Map
 ---@field public ANNOUNCE_ADVANCEMENTS org.bukkit.GameRule
 ---@field public COMMAND_BLOCK_OUTPUT org.bukkit.GameRule

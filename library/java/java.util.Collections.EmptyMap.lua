@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.Collections.EmptyMap
----@class java.util.Collections.EmptyMap: java.util.AbstractMap, java.io.Serializable
+---@class java.util.Collections.EmptyMap: java.util.AbstractMap, java.io.Serializable, java.lang.Object
 ---@field private serialVersionUID number
 local EmptyMap = {}
 
@@ -59,12 +59,12 @@ function EmptyMap:hashCode() end
 ---@return V 
 function EmptyMap:getOrDefault(k, defaultValue) end
 
----@param action java.util.function.BiConsumer 
+---@param action function 
 ---@public
 ---@return nil 
 function EmptyMap:forEach(action) end
 
----@param function java.util.function.BiFunction 
+---@param function function 
 ---@public
 ---@return nil 
 function EmptyMap:replaceAll(function) end
@@ -95,26 +95,26 @@ function EmptyMap:replace(key, oldValue, newValue) end
 function EmptyMap:replace(key, value) end
 
 ---@param key K 
----@param mappingFunction java.util.function.Function 
+---@param mappingFunction function 
 ---@public
 ---@return V 
 function EmptyMap:computeIfAbsent(key, mappingFunction) end
 
 ---@param key K 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function EmptyMap:computeIfPresent(key, remappingFunction) end
 
 ---@param key K 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function EmptyMap:compute(key, remappingFunction) end
 
 ---@param key K 
 ---@param value V 
----@param remappingFunction java.util.function.BiFunction 
+---@param remappingFunction function 
 ---@public
 ---@return V 
 function EmptyMap:merge(key, value, remappingFunction) end

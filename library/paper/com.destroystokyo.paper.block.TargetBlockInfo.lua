@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.block.TargetBlockInfo
----@class com.destroystokyo.paper.block.TargetBlockInfo
+---@class com.destroystokyo.paper.block.TargetBlockInfo: java.lang.Object
 ---@field private block org.bukkit.block.Block
 ---@field private blockFace org.bukkit.block.BlockFace
 ---@field public FluidMode com.destroystokyo.paper.block.TargetBlockInfo.FluidMode

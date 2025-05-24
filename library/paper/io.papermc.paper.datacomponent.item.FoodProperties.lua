@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.FoodProperties
----@class io.papermc.paper.datacomponent.item.FoodProperties: io.papermc.paper.datacomponent.BuildableDataComponent
+---@class io.papermc.paper.datacomponent.item.FoodProperties: io.papermc.paper.datacomponent.BuildableDataComponent, java.lang.Object
 ---@field public Builder io.papermc.paper.datacomponent.item.FoodProperties.Builder
 local FoodProperties = {}
 

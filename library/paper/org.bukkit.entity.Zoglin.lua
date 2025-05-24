@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Zoglin
----@class org.bukkit.entity.Zoglin: org.bukkit.entity.Monster, org.bukkit.entity.Ageable
+---@class org.bukkit.entity.Zoglin: org.bukkit.entity.Monster, org.bukkit.entity.Ageable, java.lang.Object
 local Zoglin = {}
 
 ---@deprecated

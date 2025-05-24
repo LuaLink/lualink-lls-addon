@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- java.util.ArrayList.Itr
----@class java.util.ArrayList.Itr: java.util.Iterator
+---@class java.util.ArrayList.Itr: java.util.Iterator, java.lang.Object
 ---@field public cursor number
 ---@field public lastRet number
 ---@field public expectedModCount number
@@ -20,7 +20,7 @@ function Itr:next() end
 ---@return nil 
 function Itr:remove() end
 
----@param action java.util.function.Consumer 
+---@param action function 
 ---@public
 ---@return nil 
 function Itr:forEachRemaining(action) end

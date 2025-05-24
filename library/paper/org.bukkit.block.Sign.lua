@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.Sign
----@class org.bukkit.block.Sign: org.bukkit.block.TileState, org.bukkit.material.Colorable
+---@class org.bukkit.block.Sign: org.bukkit.block.TileState, org.bukkit.material.Colorable, java.lang.Object
 local Sign = {}
 
 ---@deprecated

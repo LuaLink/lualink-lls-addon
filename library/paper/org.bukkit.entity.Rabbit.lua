@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.entity.Rabbit
----@class org.bukkit.entity.Rabbit: org.bukkit.entity.Animals
+---@class org.bukkit.entity.Rabbit: org.bukkit.entity.Animals, java.lang.Object
 ---@field public Type org.bukkit.entity.Rabbit.Type
 local Rabbit = {}
 

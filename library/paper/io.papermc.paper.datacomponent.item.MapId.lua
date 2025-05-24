@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.datacomponent.item.MapId
----@class io.papermc.paper.datacomponent.item.MapId
+---@class io.papermc.paper.datacomponent.item.MapId: java.lang.Object
 local MapId = {}
 
 ---@param id number 

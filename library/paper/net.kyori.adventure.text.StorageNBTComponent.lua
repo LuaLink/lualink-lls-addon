@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.StorageNBTComponent
----@class net.kyori.adventure.text.StorageNBTComponent: net.kyori.adventure.text.NBTComponent, net.kyori.adventure.text.ScopedComponent
+---@class net.kyori.adventure.text.StorageNBTComponent: net.kyori.adventure.text.NBTComponent, net.kyori.adventure.text.ScopedComponent, java.lang.Object
 ---@field public Builder net.kyori.adventure.text.StorageNBTComponent.Builder
 local StorageNBTComponent = {}
 

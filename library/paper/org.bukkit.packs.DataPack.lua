@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.packs.DataPack
----@class org.bukkit.packs.DataPack: org.bukkit.Keyed
+---@class org.bukkit.packs.DataPack: org.bukkit.Keyed, java.lang.Object
 ---@field public Compatibility org.bukkit.packs.DataPack.Compatibility
 ---@field public Source org.bukkit.packs.DataPack.Source
 local DataPack = {}

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- com.destroystokyo.paper.profile.ProfileProperty
----@class com.destroystokyo.paper.profile.ProfileProperty
+---@class com.destroystokyo.paper.profile.ProfileProperty: java.lang.Object
 ---@field private name string
 ---@field private value string
 ---@field private signature string

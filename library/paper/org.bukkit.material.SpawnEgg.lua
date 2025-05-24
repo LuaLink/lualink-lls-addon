@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.SpawnEgg
----@class org.bukkit.material.SpawnEgg: org.bukkit.material.MaterialData
+---@class org.bukkit.material.SpawnEgg: org.bukkit.material.MaterialData, java.lang.Object
 ---@overload fun(): org.bukkit.material.SpawnEgg
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.SpawnEgg
 ---@overload fun(data: number): org.bukkit.material.SpawnEgg

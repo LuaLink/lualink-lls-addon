@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.inventory.ArmoredHorseInventory
----@class org.bukkit.inventory.ArmoredHorseInventory: org.bukkit.inventory.AbstractHorseInventory
+---@class org.bukkit.inventory.ArmoredHorseInventory: org.bukkit.inventory.AbstractHorseInventory, java.lang.Object
 local ArmoredHorseInventory = {}
 
 ---@public

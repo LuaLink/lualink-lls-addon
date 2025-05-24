@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.event.block.VaultChangeStateEvent
----@class io.papermc.paper.event.block.VaultChangeStateEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable
+---@class io.papermc.paper.event.block.VaultChangeStateEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field private player org.bukkit.entity.Player
 ---@field private currentState org.bukkit.block.data.type.Vault.State

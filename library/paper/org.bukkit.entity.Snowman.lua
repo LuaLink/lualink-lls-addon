@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.Snowman
----@class org.bukkit.entity.Snowman: org.bukkit.entity.Golem, com.destroystokyo.paper.entity.RangedEntity, io.papermc.paper.entity.Shearable
+---@class org.bukkit.entity.Snowman: org.bukkit.entity.Golem, com.destroystokyo.paper.entity.RangedEntity, io.papermc.paper.entity.Shearable, java.lang.Object
 local Snowman = {}
 
 ---@public

@@ -1,6 +1,6 @@
 ---@meta
 -- net.kyori.adventure.util.InheritanceAwareMapImpl
----@class net.kyori.adventure.util.InheritanceAwareMapImpl: net.kyori.adventure.util.InheritanceAwareMap
+---@class net.kyori.adventure.util.InheritanceAwareMapImpl: net.kyori.adventure.util.InheritanceAwareMap, java.lang.Object
 ---@field private NONE java.lang.Object
 ---@field public EMPTY net.kyori.adventure.util.InheritanceAwareMapImpl
 ---@field private declaredValues java.util.Map

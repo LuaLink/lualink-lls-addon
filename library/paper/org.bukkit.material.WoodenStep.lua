@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.material.WoodenStep
----@class org.bukkit.material.WoodenStep: org.bukkit.material.Wood
+---@class org.bukkit.material.WoodenStep: org.bukkit.material.Wood, java.lang.Object
 ---@field protected DEFAULT_TYPE org.bukkit.Material
 ---@field protected DEFAULT_INVERTED boolean
 ---@overload fun(): org.bukkit.material.WoodenStep

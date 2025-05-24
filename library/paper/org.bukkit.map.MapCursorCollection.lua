@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.map.MapCursorCollection
----@class org.bukkit.map.MapCursorCollection
+---@class org.bukkit.map.MapCursorCollection: java.lang.Object
 ---@field private cursors java.util.List
 local MapCursorCollection = {}
 

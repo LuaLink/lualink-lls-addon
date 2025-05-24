@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.block.BlockType.Typed
----@class org.bukkit.block.BlockType.Typed: org.bukkit.block.BlockType
+---@class org.bukkit.block.BlockType.Typed: org.bukkit.block.BlockType, java.lang.Object
 local Typed = {}
 
 ---@public
@@ -9,7 +9,7 @@ local Typed = {}
 --- Gets the BlockData class of this BlockType
 function Typed:getBlockDataClass() end
 
----@param consumer java.util.function.Consumer consumer to run on new instance before returning
+---@param consumer function consumer to run on new instance before returning
 ---@public
 ---@return B new data instance
 --- Creates a new {@link BlockData} instance for this block type, with all properties initialized to unspecified defaults.

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.ParsingExceptionImpl
----@class net.kyori.adventure.text.minimessage.internal.parser.ParsingExceptionImpl: net.kyori.adventure.text.minimessage.ParsingException
+---@class net.kyori.adventure.text.minimessage.internal.parser.ParsingExceptionImpl: net.kyori.adventure.text.minimessage.ParsingException, java.lang.Object
 ---@field private serialVersionUID number
 ---@field private originalText string
 ---@field private tokens net.kyori.adventure.text.minimessage.internal.parser.Token

@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.entity.TNTPrimed
----@class org.bukkit.entity.TNTPrimed: org.bukkit.entity.Explosive
+---@class org.bukkit.entity.TNTPrimed: org.bukkit.entity.Explosive, java.lang.Object
 local TNTPrimed = {}
 
 ---@param fuseTicks number The fuse ticks

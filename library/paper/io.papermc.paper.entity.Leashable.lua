@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.entity.Leashable
----@class io.papermc.paper.entity.Leashable: org.bukkit.entity.Entity
+---@class io.papermc.paper.entity.Leashable: org.bukkit.entity.Entity, java.lang.Object
 local Leashable = {}
 
 ---@public

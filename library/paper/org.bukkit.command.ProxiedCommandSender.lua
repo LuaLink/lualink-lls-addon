@@ -1,6 +1,6 @@
 ---@meta
 -- org.bukkit.command.ProxiedCommandSender
----@class org.bukkit.command.ProxiedCommandSender: org.bukkit.command.CommandSender, net.kyori.adventure.audience.ForwardingAudience.Single
+---@class org.bukkit.command.ProxiedCommandSender: org.bukkit.command.CommandSender, net.kyori.adventure.audience.ForwardingAudience.Single, java.lang.Object
 local ProxiedCommandSender = {}
 
 ---@public
