@@ -787,6 +787,7 @@
 ---| '"io.papermc.paper.event.player.PlayerLecternPageChangeEvent.PageChangeDirection"' 
 ---| '"io.papermc.paper.event.player.PlayerLecternPageChangeEvent"' 
 ---| '"io.papermc.paper.event.player.PlayerLoomPatternSelectEvent"' 
+---| '"io.papermc.paper.event.player.PlayerMapFilledEvent"' 
 ---| '"io.papermc.paper.event.player.PlayerNameEntityEvent"' 
 ---| '"io.papermc.paper.event.player.PlayerOpenSignEvent.Cause"' 
 ---| '"io.papermc.paper.event.player.PlayerOpenSignEvent"' 

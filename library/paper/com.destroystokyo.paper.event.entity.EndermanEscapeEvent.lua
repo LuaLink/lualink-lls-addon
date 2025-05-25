@@ -13,7 +13,8 @@ local EndermanEscapeEvent = {}
 function EndermanEscapeEvent:getEntity() end
 
 ---@public
----@return com.destroystokyo.paper.event.entity.EndermanEscapeEvent.Reason The reason the enderman is trying to escape
+---@return com.destroystokyo.paper.event.entity.EndermanEscapeEvent.Reason The reason
+--- Gets the reason the enderman is trying to escape.
 function EndermanEscapeEvent:getReason() end
 
 ---@public
@@ -23,7 +24,7 @@ function EndermanEscapeEvent:isCancelled() end
 ---@param cancel boolean 
 ---@public
 ---@return nil 
---- Cancels the escape. <p> If this escape normally had resulted in damage avoidance such as indirect, the enderman will now take damage.
+--- Cancels the escape. <p> If this escape normally had resulted in damage avoidance such as indirect, the enderman will now take damage. However, this does not change the Enderman's innate immunities or damage behavior like arrows where the damage never happens.
 function EndermanEscapeEvent:setCancelled(cancel) end
 
 ---@public

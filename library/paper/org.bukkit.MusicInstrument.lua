@@ -29,6 +29,26 @@ function MusicInstrument:values() end
 ---@return org.bukkit.MusicInstrument 
 function MusicInstrument:getInstrument(key) end
 
+---@public
+---@return number the duration expressed in seconds.
+--- Gets the use duration of this music instrument.
+function MusicInstrument:getDuration() end
+
+---@public
+---@return number the range of the sound.
+--- Gets the range of the sound.
+function MusicInstrument:getRange() end
+
+---@public
+---@return net.kyori.adventure.text.Component the description component.
+--- Provides the description of this instrument as displayed to the client.
+function MusicInstrument:description() end
+
+---@public
+---@return org.bukkit.Sound the sound
+--- Gets the sound for this instrument.
+function MusicInstrument:getSound() end
+
 ---@deprecated
 ---@public
 ---@return org.bukkit.NamespacedKey 
