@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.ExplosionPrimeEvent
 ---@class org.bukkit.event.entity.ExplosionPrimeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private radius number
----@field private fire boolean
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, radius: number, fire: boolean): org.bukkit.event.entity.ExplosionPrimeEvent
 ---@overload fun(explosive: org.bukkit.entity.Explosive): org.bukkit.event.entity.ExplosionPrimeEvent
 local ExplosionPrimeEvent = {}

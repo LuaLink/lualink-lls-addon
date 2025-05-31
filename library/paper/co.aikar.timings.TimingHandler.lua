@@ -1,20 +1,9 @@
 ---@meta
 -- co.aikar.timings.TimingHandler
 ---@class co.aikar.timings.TimingHandler: co.aikar.timings.Timing, java.lang.Object
----@field private idPool java.util.concurrent.atomic.AtomicInteger
----@field private TIMING_STACK java.util.Deque
 ---@field public id number
 ---@field public identifier co.aikar.timings.TimingIdentifier
----@field private verbose boolean
----@field private children any
 ---@field public record co.aikar.timings.TimingData
----@field private startParent co.aikar.timings.TimingHandler
----@field private groupHandler co.aikar.timings.TimingHandler
----@field private start number
----@field private timingDepth number
----@field private added boolean
----@field private timed boolean
----@field private enabled boolean
 ---@overload fun(id: co.aikar.timings.TimingIdentifier): co.aikar.timings.TimingHandler
 local TimingHandler = {}
 

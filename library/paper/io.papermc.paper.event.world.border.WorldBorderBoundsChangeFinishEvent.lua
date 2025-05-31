@@ -2,10 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.world.border.WorldBorderBoundsChangeFinishEvent
 ---@class io.papermc.paper.event.world.border.WorldBorderBoundsChangeFinishEvent: io.papermc.paper.event.world.border.WorldBorderEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private oldSize number
----@field private newSize number
----@field private duration number
 ---@overload fun(world: org.bukkit.World, worldBorder: org.bukkit.WorldBorder, oldSize: number, newSize: number, duration: number): io.papermc.paper.event.world.border.WorldBorderBoundsChangeFinishEvent
 local WorldBorderBoundsChangeFinishEvent = {}
 

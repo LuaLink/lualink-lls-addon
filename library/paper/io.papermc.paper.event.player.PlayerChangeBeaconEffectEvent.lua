@@ -2,12 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerChangeBeaconEffectEvent
 ---@class io.papermc.paper.event.player.PlayerChangeBeaconEffectEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private beacon org.bukkit.block.Block
----@field private primary org.bukkit.potion.PotionEffectType
----@field private secondary org.bukkit.potion.PotionEffectType
----@field private consumeItem boolean
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, primary: org.bukkit.potion.PotionEffectType, secondary: org.bukkit.potion.PotionEffectType, beacon: org.bukkit.block.Block): io.papermc.paper.event.player.PlayerChangeBeaconEffectEvent
 local PlayerChangeBeaconEffectEvent = {}
 

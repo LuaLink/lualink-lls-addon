@@ -2,11 +2,7 @@
 ---@meta
 -- java.util.Collections.UnmodifiableMap
 ---@class java.util.Collections.UnmodifiableMap: java.util.Map, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 ---@field public m java.util.Map
----@field private keySet java.util.Set
----@field private entrySet java.util.Set
----@field private values java.util.Collection
 ---@field public UnmodifiableEntrySet java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet
 ---@overload fun(m: java.util.Map): java.util.Collections.UnmodifiableMap
 local UnmodifiableMap = {}

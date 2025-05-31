@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.TNTPrimeEvent
 ---@class org.bukkit.event.block.TNTPrimeEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private igniteCause org.bukkit.event.block.TNTPrimeEvent.PrimeCause
----@field private primingEntity org.bukkit.entity.Entity
----@field private primingBlock org.bukkit.block.Block
----@field private cancelled boolean
 ---@field public PrimeCause org.bukkit.event.block.TNTPrimeEvent.PrimeCause
 ---@overload fun(block: org.bukkit.block.Block, igniteCause: org.bukkit.event.block.TNTPrimeEvent.PrimeCause, primingEntity: org.bukkit.entity.Entity, primingBlock: org.bukkit.block.Block): org.bukkit.event.block.TNTPrimeEvent
 local TNTPrimeEvent = {}

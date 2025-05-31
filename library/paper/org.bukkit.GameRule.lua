@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.GameRule
 ---@class org.bukkit.GameRule: net.kyori.adventure.translation.Translatable, io.papermc.paper.world.flag.FeatureDependant, java.lang.Object
----@field private gameRules java.util.Map
 ---@field public ANNOUNCE_ADVANCEMENTS org.bukkit.GameRule
 ---@field public COMMAND_BLOCK_OUTPUT org.bukkit.GameRule
 ---@field public DISABLE_PLAYER_MOVEMENT_CHECK org.bukkit.GameRule
@@ -58,8 +57,6 @@
 ---@field public PLAYERS_NETHER_PORTAL_CREATIVE_DELAY org.bukkit.GameRule
 ---@field public MINECART_MAX_SPEED org.bukkit.GameRule
 ---@field public SPAWN_CHUNK_RADIUS org.bukkit.GameRule
----@field private name string
----@field private type java.lang.Class
 ---@overload fun(name: string, clazz: java.lang.Class): org.bukkit.GameRule
 local GameRule = {}
 

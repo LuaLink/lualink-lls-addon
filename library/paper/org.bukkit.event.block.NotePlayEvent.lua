@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.NotePlayEvent
 ---@class org.bukkit.event.block.NotePlayEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private instrument org.bukkit.Instrument
----@field private note org.bukkit.Note
----@field private cancelled boolean
 ---@overload fun(block: org.bukkit.block.Block, instrument: org.bukkit.Instrument, note: org.bukkit.Note): org.bukkit.event.block.NotePlayEvent
 local NotePlayEvent = {}
 

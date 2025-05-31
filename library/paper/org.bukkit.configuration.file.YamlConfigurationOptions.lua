@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.configuration.file.YamlConfigurationOptions
 ---@class org.bukkit.configuration.file.YamlConfigurationOptions: org.bukkit.configuration.file.FileConfigurationOptions, java.lang.Object
----@field private indent number
----@field private width number
----@field private codePointLimit number
 ---@overload fun(configuration: org.bukkit.configuration.file.YamlConfiguration): org.bukkit.configuration.file.YamlConfigurationOptions
 local YamlConfigurationOptions = {}
 

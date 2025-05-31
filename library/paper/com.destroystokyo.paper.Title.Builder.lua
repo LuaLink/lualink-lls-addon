@@ -2,11 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.Title.Builder
 ---@class com.destroystokyo.paper.Title.Builder: java.lang.Object
----@field private title any
----@field private subtitle any
----@field private fadeIn number
----@field private stay number
----@field private fadeOut number
 local Builder = {}
 
 ---@param title any the title text

@@ -3,8 +3,6 @@
 -- java.util.Collections.SetFromMap
 ---@class java.util.Collections.SetFromMap: java.util.AbstractSet, java.util.Set, java.io.Serializable, java.lang.Object
 ---@field public m java.util.Map
----@field private s java.util.Set
----@field private serialVersionUID number
 ---@overload fun(map: java.util.Map): java.util.Collections.SetFromMap
 local SetFromMap = {}
 

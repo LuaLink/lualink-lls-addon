@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.permissions.PermissibleBase
 ---@class org.bukkit.permissions.PermissibleBase: org.bukkit.permissions.Permissible, java.lang.Object
----@field private opable org.bukkit.permissions.ServerOperator
----@field private parent org.bukkit.permissions.Permissible
----@field private attachments java.util.List
----@field private permissions java.util.Map
----@field private RemoveAttachmentRunnable org.bukkit.permissions.PermissibleBase.RemoveAttachmentRunnable
 ---@overload fun(opable: org.bukkit.permissions.ServerOperator): org.bukkit.permissions.PermissibleBase
 local PermissibleBase = {}
 

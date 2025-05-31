@@ -1,11 +1,7 @@
 ---@meta
 -- net.kyori.adventure.util.InheritanceAwareMapImpl
 ---@class net.kyori.adventure.util.InheritanceAwareMapImpl: net.kyori.adventure.util.InheritanceAwareMap, java.lang.Object
----@field private NONE java.lang.Object
 ---@field public EMPTY net.kyori.adventure.util.InheritanceAwareMapImpl
----@field private declaredValues java.util.Map
----@field private strict boolean
----@field private cache java.util.concurrent.ConcurrentMap
 ---@field public BuilderImpl net.kyori.adventure.util.InheritanceAwareMapImpl.BuilderImpl
 ---@overload fun(strict: boolean, declaredValues: java.util.Map): net.kyori.adventure.util.InheritanceAwareMapImpl
 local InheritanceAwareMapImpl = {}

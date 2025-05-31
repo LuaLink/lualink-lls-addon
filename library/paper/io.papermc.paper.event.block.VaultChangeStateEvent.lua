@@ -2,11 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.block.VaultChangeStateEvent
 ---@class io.papermc.paper.event.block.VaultChangeStateEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
----@field private currentState org.bukkit.block.data.type.Vault.State
----@field private newState org.bukkit.block.data.type.Vault.State
----@field private cancelled boolean
 ---@overload fun(vaultBlock: org.bukkit.block.Block, player: org.bukkit.entity.Player, currentState: org.bukkit.block.data.type.Vault.State, newState: org.bukkit.block.data.type.Vault.State): io.papermc.paper.event.block.VaultChangeStateEvent
 local VaultChangeStateEvent = {}
 

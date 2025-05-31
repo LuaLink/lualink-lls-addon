@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.HashMap
 ---@class java.util.HashMap: java.util.AbstractMap, java.util.Map, java.lang.Cloneable, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 ---@field public DEFAULT_INITIAL_CAPACITY number
 ---@field public MAXIMUM_CAPACITY number
 ---@field public DEFAULT_LOAD_FACTOR number
@@ -19,7 +18,6 @@
 ---@field public KeySet java.util.HashMap.KeySet
 ---@field public Values java.util.HashMap.Values
 ---@field public EntrySet java.util.HashMap.EntrySet
----@field private UnsafeHolder java.util.HashMap.UnsafeHolder
 ---@field public HashIterator java.util.HashMap.HashIterator
 ---@field public KeyIterator java.util.HashMap.KeyIterator
 ---@field public ValueIterator java.util.HashMap.ValueIterator

@@ -2,10 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerArmorChangeEvent
 ---@class com.destroystokyo.paper.event.player.PlayerArmorChangeEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private slotType com.destroystokyo.paper.event.player.PlayerArmorChangeEvent.SlotType
----@field private oldItem org.bukkit.inventory.ItemStack
----@field private newItem org.bukkit.inventory.ItemStack
 ---@field public SlotType com.destroystokyo.paper.event.player.PlayerArmorChangeEvent.SlotType
 ---@overload fun(player: org.bukkit.entity.Player, slotType: com.destroystokyo.paper.event.player.PlayerArmorChangeEvent.SlotType, oldItem: org.bukkit.inventory.ItemStack, newItem: org.bukkit.inventory.ItemStack): com.destroystokyo.paper.event.player.PlayerArmorChangeEvent
 local PlayerArmorChangeEvent = {}

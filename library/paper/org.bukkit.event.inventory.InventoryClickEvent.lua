@@ -2,14 +2,6 @@
 ---@meta
 -- org.bukkit.event.inventory.InventoryClickEvent
 ---@class org.bukkit.event.inventory.InventoryClickEvent: org.bukkit.event.inventory.InventoryInteractEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private click org.bukkit.event.inventory.ClickType
----@field private action org.bukkit.event.inventory.InventoryAction
----@field private slotType org.bukkit.event.inventory.InventoryType.SlotType
----@field private whichSlot number
----@field private rawSlot number
----@field private current org.bukkit.inventory.ItemStack
----@field private hotbarKey number
 ---@overload fun(view: org.bukkit.inventory.InventoryView, type: org.bukkit.event.inventory.InventoryType.SlotType, slot: number, click: org.bukkit.event.inventory.ClickType, action: org.bukkit.event.inventory.InventoryAction): org.bukkit.event.inventory.InventoryClickEvent
 ---@overload fun(view: org.bukkit.inventory.InventoryView, type: org.bukkit.event.inventory.InventoryType.SlotType, slot: number, click: org.bukkit.event.inventory.ClickType, action: org.bukkit.event.inventory.InventoryAction, key: number): org.bukkit.event.inventory.InventoryClickEvent
 local InventoryClickEvent = {}

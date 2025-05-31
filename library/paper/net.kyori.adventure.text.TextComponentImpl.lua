@@ -1,12 +1,10 @@
 ---@meta
 -- net.kyori.adventure.text.TextComponentImpl
 ---@class net.kyori.adventure.text.TextComponentImpl: net.kyori.adventure.text.AbstractComponent, net.kyori.adventure.text.TextComponent, java.lang.Object
----@field private WARN_WHEN_LEGACY_FORMATTING_DETECTED boolean
 ---@field public SECTION_CHAR string
 ---@field public EMPTY net.kyori.adventure.text.TextComponent
 ---@field public NEWLINE net.kyori.adventure.text.TextComponent
 ---@field public SPACE net.kyori.adventure.text.TextComponent
----@field private content string
 ---@field public BuilderImpl net.kyori.adventure.text.TextComponentImpl.BuilderImpl
 ---@overload fun(children: java.util.List, style: net.kyori.adventure.text.format.Style, content: string): net.kyori.adventure.text.TextComponentImpl
 local TextComponentImpl = {}

@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.plugin.RegisteredListener
 ---@class org.bukkit.plugin.RegisteredListener: java.lang.Object
----@field private listener org.bukkit.event.Listener
----@field private priority org.bukkit.event.EventPriority
----@field private plugin org.bukkit.plugin.Plugin
----@field private executor org.bukkit.plugin.EventExecutor
----@field private ignoreCancelled boolean
 ---@overload fun(listener: org.bukkit.event.Listener, executor: org.bukkit.plugin.EventExecutor, priority: org.bukkit.event.EventPriority, plugin: org.bukkit.plugin.Plugin, ignoreCancelled: boolean): org.bukkit.plugin.RegisteredListener
 local RegisteredListener = {}
 

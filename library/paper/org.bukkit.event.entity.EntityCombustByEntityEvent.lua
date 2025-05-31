@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityCombustByEntityEvent
 ---@class org.bukkit.event.entity.EntityCombustByEntityEvent: org.bukkit.event.entity.EntityCombustEvent, java.lang.Object
----@field private combuster org.bukkit.entity.Entity
 ---@overload fun(combuster: org.bukkit.entity.Entity, combustee: org.bukkit.entity.Entity, duration: number): org.bukkit.event.entity.EntityCombustByEntityEvent
 ---@overload fun(combuster: org.bukkit.entity.Entity, combustee: org.bukkit.entity.Entity, duration: number): org.bukkit.event.entity.EntityCombustByEntityEvent
 local EntityCombustByEntityEvent = {}

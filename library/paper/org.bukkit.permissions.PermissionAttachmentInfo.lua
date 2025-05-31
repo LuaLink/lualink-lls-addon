@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.permissions.PermissionAttachmentInfo
 ---@class org.bukkit.permissions.PermissionAttachmentInfo: java.lang.Object
----@field private permissible org.bukkit.permissions.Permissible
----@field private permission string
----@field private attachment org.bukkit.permissions.PermissionAttachment
----@field private value boolean
 ---@overload fun(permissible: org.bukkit.permissions.Permissible, permission: string, attachment: org.bukkit.permissions.PermissionAttachment, value: boolean): org.bukkit.permissions.PermissionAttachmentInfo
 local PermissionAttachmentInfo = {}
 

@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockGrowEvent
 ---@class org.bukkit.event.block.BlockGrowEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private newState org.bukkit.block.BlockState
----@field private cancelled boolean
 ---@overload fun(block: org.bukkit.block.Block, newState: org.bukkit.block.BlockState): org.bukkit.event.block.BlockGrowEvent
 local BlockGrowEvent = {}
 

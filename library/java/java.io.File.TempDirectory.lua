@@ -1,8 +1,6 @@
 ---@meta
 -- java.io.File.TempDirectory
 ---@class java.io.File.TempDirectory: java.lang.Object
----@field private TMPDIR java.io.File
----@field private RANDOM java.security.SecureRandom
 ---@overload fun(): java.io.File.TempDirectory
 local TempDirectory = {}
 

@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.plugin.messaging.StandardMessenger
 ---@class org.bukkit.plugin.messaging.StandardMessenger: org.bukkit.plugin.messaging.Messenger, java.lang.Object
----@field private incomingByChannel java.util.Map
----@field private incomingByPlugin java.util.Map
----@field private outgoingByChannel java.util.Map
----@field private outgoingByPlugin java.util.Map
----@field private incomingLock java.lang.Object
----@field private outgoingLock java.lang.Object
 local StandardMessenger = {}
 
 ---@param plugin org.bukkit.plugin.Plugin 

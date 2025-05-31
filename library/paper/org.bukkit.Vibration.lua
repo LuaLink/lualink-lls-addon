@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.Vibration
 ---@class org.bukkit.Vibration: java.lang.Object
----@field private origin org.bukkit.Location
----@field private destination org.bukkit.Vibration.Destination
----@field private arrivalTime number
 ---@field public Destination org.bukkit.Vibration.Destination
 ---@overload fun(destination: org.bukkit.Vibration.Destination, arrivalTime: number): org.bukkit.Vibration
 ---@overload fun(origin: org.bukkit.Location, destination: org.bukkit.Vibration.Destination, arrivalTime: number): org.bukkit.Vibration

@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.inventory.EquipmentSlotGroup
 ---@class org.bukkit.inventory.EquipmentSlotGroup: function, java.lang.Object
----@field private BY_NAME java.util.Map
 ---@field public ANY org.bukkit.inventory.EquipmentSlotGroup
 ---@field public MAINHAND org.bukkit.inventory.EquipmentSlotGroup
 ---@field public OFFHAND org.bukkit.inventory.EquipmentSlotGroup
@@ -14,9 +13,6 @@
 ---@field public ARMOR org.bukkit.inventory.EquipmentSlotGroup
 ---@field public BODY org.bukkit.inventory.EquipmentSlotGroup
 ---@field public SADDLE org.bukkit.inventory.EquipmentSlotGroup
----@field private key string
----@field private predicate function
----@field private example org.bukkit.inventory.EquipmentSlot
 ---@overload fun(key: string, predicate: function, example: org.bukkit.inventory.EquipmentSlot): org.bukkit.inventory.EquipmentSlotGroup
 local EquipmentSlotGroup = {}
 

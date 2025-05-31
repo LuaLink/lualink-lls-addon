@@ -2,12 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.block.BlockDestroyEvent
 ---@class com.destroystokyo.paper.event.block.BlockDestroyEvent: org.bukkit.event.block.BlockExpEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private newState org.bukkit.block.data.BlockData
----@field private willDrop boolean
----@field private playEffect boolean
----@field private effectBlock org.bukkit.block.data.BlockData
----@field private cancelled boolean
 ---@overload fun(block: org.bukkit.block.Block, newState: org.bukkit.block.data.BlockData, effectBlock: org.bukkit.block.data.BlockData, xp: number, willDrop: boolean): com.destroystokyo.paper.event.block.BlockDestroyEvent
 local BlockDestroyEvent = {}
 

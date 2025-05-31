@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityEnterBlockEvent
 ---@class org.bukkit.event.entity.EntityEnterBlockEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private block org.bukkit.block.Block
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, block: org.bukkit.block.Block): org.bukkit.event.entity.EntityEnterBlockEvent
 local EntityEnterBlockEvent = {}
 

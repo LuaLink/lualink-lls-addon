@@ -2,7 +2,6 @@
 ---@meta
 -- co.aikar.util.LoadingIntMap
 ---@class co.aikar.util.LoadingIntMap: any, java.lang.Object
----@field private loader any
 ---@field public Feeder co.aikar.util.LoadingIntMap.Feeder
 ---@overload fun(loader: any): co.aikar.util.LoadingIntMap
 ---@overload fun(expectedSize: number, loader: any): co.aikar.util.LoadingIntMap

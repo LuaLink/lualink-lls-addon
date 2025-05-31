@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockReceiveGameEvent
 ---@class org.bukkit.event.block.BlockReceiveGameEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private event org.bukkit.GameEvent
----@field private entity org.bukkit.entity.Entity
----@field private cancelled boolean
 ---@overload fun(event: org.bukkit.GameEvent, block: org.bukkit.block.Block, entity: org.bukkit.entity.Entity): org.bukkit.event.block.BlockReceiveGameEvent
 local BlockReceiveGameEvent = {}
 

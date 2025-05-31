@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.Location
 ---@class org.bukkit.Location: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, io.papermc.paper.math.FinePosition, java.lang.Object
----@field private world java.lang.ref.Reference
----@field private x number
----@field private y number
----@field private z number
----@field private pitch number
----@field private yaw number
 ---@overload fun(world: org.bukkit.World, x: number, y: number, z: number): org.bukkit.Location
 ---@overload fun(world: org.bukkit.World, x: number, y: number, z: number, yaw: number, pitch: number): org.bukkit.Location
 local Location = {}

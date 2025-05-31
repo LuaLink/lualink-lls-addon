@@ -2,9 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.block.AnvilDamagedEvent
 ---@class com.destroystokyo.paper.event.block.AnvilDamagedEvent: org.bukkit.event.inventory.InventoryEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private damageState com.destroystokyo.paper.event.block.AnvilDamagedEvent.DamageState
----@field private cancelled boolean
 ---@field public DamageState com.destroystokyo.paper.event.block.AnvilDamagedEvent.DamageState
 ---@overload fun(inventory: org.bukkit.inventory.InventoryView, blockData: org.bukkit.block.data.BlockData): com.destroystokyo.paper.event.block.AnvilDamagedEvent
 local AnvilDamagedEvent = {}

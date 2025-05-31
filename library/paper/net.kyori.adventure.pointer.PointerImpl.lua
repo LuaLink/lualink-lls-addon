@@ -1,8 +1,6 @@
 ---@meta
 -- net.kyori.adventure.pointer.PointerImpl
 ---@class net.kyori.adventure.pointer.PointerImpl: net.kyori.adventure.pointer.Pointer, java.lang.Object
----@field private type java.lang.Class
----@field private key any
 ---@overload fun(type: java.lang.Class, key: any): net.kyori.adventure.pointer.PointerImpl
 local PointerImpl = {}
 

@@ -2,13 +2,6 @@
 ---@meta
 -- org.bukkit.event.enchantment.PrepareItemEnchantEvent
 ---@class org.bukkit.event.enchantment.PrepareItemEnchantEvent: org.bukkit.event.inventory.InventoryEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private enchanter org.bukkit.entity.Player
----@field private table org.bukkit.block.Block
----@field private item org.bukkit.inventory.ItemStack
----@field private offers org.bukkit.enchantments.EnchantmentOffer
----@field private bonus number
----@field private cancelled boolean
 ---@overload fun(enchanter: org.bukkit.entity.Player, view: org.bukkit.inventory.view.EnchantmentView, table: org.bukkit.block.Block, item: org.bukkit.inventory.ItemStack, offers: table<EnchantmentOffer>, bonus: number): org.bukkit.event.enchantment.PrepareItemEnchantEvent
 local PrepareItemEnchantEvent = {}
 

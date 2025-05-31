@@ -2,9 +2,6 @@
 ---@meta
 -- java.util.ArrayList.ArrayListSpliterator
 ---@class java.util.ArrayList.ArrayListSpliterator: java.util.Spliterator, java.lang.Object
----@field private index number
----@field private fence number
----@field private expectedModCount number
 ---@overload fun(origin: number, fence: number, expectedModCount: number): java.util.ArrayList.ArrayListSpliterator
 local ArrayListSpliterator = {}
 

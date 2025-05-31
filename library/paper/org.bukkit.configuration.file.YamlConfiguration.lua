@@ -4,11 +4,6 @@
 ---@class org.bukkit.configuration.file.YamlConfiguration: org.bukkit.configuration.file.FileConfiguration, java.lang.Object
 ---@field protected COMMENT_PREFIX string
 ---@field protected BLANK_CONFIG string
----@field private yamlDumperOptions any
----@field private yamlLoaderOptions any
----@field private constructor org.bukkit.configuration.file.YamlConstructor
----@field private representer org.bukkit.configuration.file.YamlRepresenter
----@field private yaml any
 ---@overload fun(): org.bukkit.configuration.file.YamlConfiguration
 local YamlConfiguration = {}
 

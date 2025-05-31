@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.conversations.ConversationContext
 ---@class org.bukkit.conversations.ConversationContext: java.lang.Object
----@field private forWhom org.bukkit.conversations.Conversable
----@field private sessionData java.util.Map
----@field private plugin org.bukkit.plugin.Plugin
 ---@overload fun(plugin: org.bukkit.plugin.Plugin, forWhom: org.bukkit.conversations.Conversable, initialSessionData: java.util.Map): org.bukkit.conversations.ConversationContext
 local ConversationContext = {}
 

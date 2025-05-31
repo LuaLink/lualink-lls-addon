@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityPortalEnterEvent
 ---@class org.bukkit.event.entity.EntityPortalEnterEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private location org.bukkit.Location
----@field private portalType org.bukkit.PortalType
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, location: org.bukkit.Location): org.bukkit.event.entity.EntityPortalEnterEvent
 ---@overload fun(entity: org.bukkit.entity.Entity, location: org.bukkit.Location, portalType: org.bukkit.PortalType): org.bukkit.event.entity.EntityPortalEnterEvent
 local EntityPortalEnterEvent = {}

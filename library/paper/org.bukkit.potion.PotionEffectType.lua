@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.potion.PotionEffectType
 ---@class org.bukkit.potion.PotionEffectType: org.bukkit.Keyed, org.bukkit.Translatable, net.kyori.adventure.translation.Translatable, io.papermc.paper.world.flag.FeatureDependant, java.lang.Object
----@field private ID_MAP any
 ---@field public SPEED org.bukkit.potion.PotionEffectType
 ---@field public SLOWNESS org.bukkit.potion.PotionEffectType
 ---@field public HASTE org.bukkit.potion.PotionEffectType

@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.UnmodifiableRandomAccessList
 ---@class java.util.Collections.UnmodifiableRandomAccessList: java.util.Collections.UnmodifiableList, java.util.RandomAccess, java.lang.Object
----@field private serialVersionUID number
 ---@overload fun(list: java.util.List): java.util.Collections.UnmodifiableRandomAccessList
 local UnmodifiableRandomAccessList = {}
 

@@ -2,13 +2,6 @@
 ---@meta
 -- org.bukkit.event.server.TabCompleteEvent
 ---@class org.bukkit.event.server.TabCompleteEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private sender org.bukkit.command.CommandSender
----@field private buffer string
----@field private isCommand boolean
----@field private location org.bukkit.Location
----@field private completions java.util.List
----@field private cancelled boolean
 ---@overload fun(sender: org.bukkit.command.CommandSender, buffer: string, completions: java.util.List): org.bukkit.event.server.TabCompleteEvent
 ---@overload fun(sender: org.bukkit.command.CommandSender, buffer: string, completions: java.util.List, isCommand: boolean, location: org.bukkit.Location): org.bukkit.event.server.TabCompleteEvent
 local TabCompleteEvent = {}

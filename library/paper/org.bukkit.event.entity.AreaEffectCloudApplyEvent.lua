@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.AreaEffectCloudApplyEvent
 ---@class org.bukkit.event.entity.AreaEffectCloudApplyEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private affectedEntities java.util.List
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.AreaEffectCloud, affectedEntities: java.util.List): org.bukkit.event.entity.AreaEffectCloudApplyEvent
 local AreaEffectCloudApplyEvent = {}
 

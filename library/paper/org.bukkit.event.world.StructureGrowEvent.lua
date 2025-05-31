@@ -2,13 +2,6 @@
 ---@meta
 -- org.bukkit.event.world.StructureGrowEvent
 ---@class org.bukkit.event.world.StructureGrowEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private location org.bukkit.Location
----@field private species org.bukkit.TreeType
----@field private bonemeal boolean
----@field private player org.bukkit.entity.Player
----@field private blocks java.util.List
----@field private cancelled boolean
 ---@overload fun(location: org.bukkit.Location, species: org.bukkit.TreeType, bonemeal: boolean, player: org.bukkit.entity.Player, blocks: java.util.List): org.bukkit.event.world.StructureGrowEvent
 local StructureGrowEvent = {}
 

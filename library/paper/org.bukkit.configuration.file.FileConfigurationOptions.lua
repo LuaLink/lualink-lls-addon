@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.configuration.file.FileConfigurationOptions
 ---@class org.bukkit.configuration.file.FileConfigurationOptions: org.bukkit.configuration.MemoryConfigurationOptions, java.lang.Object
----@field private header java.util.List
----@field private footer java.util.List
----@field private PAPER_PARSE_COMMENTS_BY_DEFAULT boolean
----@field private parseComments boolean
 ---@overload fun(configuration: org.bukkit.configuration.MemoryConfiguration): org.bukkit.configuration.file.FileConfigurationOptions
 local FileConfigurationOptions = {}
 

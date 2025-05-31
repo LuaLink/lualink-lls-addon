@@ -1,11 +1,6 @@
 ---@meta
 -- org.bukkit.event.block.CauldronLevelChangeEvent
 ---@class org.bukkit.event.block.CauldronLevelChangeEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private entity org.bukkit.entity.Entity
----@field private reason org.bukkit.event.block.CauldronLevelChangeEvent.ChangeReason
----@field private newState org.bukkit.block.BlockState
----@field private cancelled boolean
 ---@field public ChangeReason org.bukkit.event.block.CauldronLevelChangeEvent.ChangeReason
 ---@overload fun(block: org.bukkit.block.Block, entity: org.bukkit.entity.Entity, reason: org.bukkit.event.block.CauldronLevelChangeEvent.ChangeReason, newBlock: org.bukkit.block.BlockState): org.bukkit.event.block.CauldronLevelChangeEvent
 local CauldronLevelChangeEvent = {}

@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerSignOpenEvent
 ---@class org.bukkit.event.player.PlayerSignOpenEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private sign org.bukkit.block.Sign
----@field private side org.bukkit.block.sign.Side
----@field private cause org.bukkit.event.player.PlayerSignOpenEvent.Cause
----@field private cancelled boolean
 ---@field public Cause org.bukkit.event.player.PlayerSignOpenEvent.Cause
 ---@overload fun(player: org.bukkit.entity.Player, sign: org.bukkit.block.Sign, side: org.bukkit.block.sign.Side, cause: org.bukkit.event.player.PlayerSignOpenEvent.Cause): org.bukkit.event.player.PlayerSignOpenEvent
 local PlayerSignOpenEvent = {}

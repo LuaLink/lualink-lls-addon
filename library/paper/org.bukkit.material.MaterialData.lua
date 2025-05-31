@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.material.MaterialData
 ---@class org.bukkit.material.MaterialData: java.lang.Cloneable, java.lang.Object
----@field private type org.bukkit.Material
----@field private data number
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.MaterialData
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.MaterialData
 local MaterialData = {}

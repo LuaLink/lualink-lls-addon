@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.inventory.ItemStack
 ---@class org.bukkit.inventory.ItemStack: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, org.bukkit.Translatable, net.kyori.adventure.text.event.HoverEventSource, net.kyori.adventure.translation.Translatable, io.papermc.paper.persistence.PersistentDataViewHolder, io.papermc.paper.datacomponent.DataComponentHolder, java.lang.Object
----@field private craftDelegate org.bukkit.inventory.ItemStack
----@field private data org.bukkit.material.MaterialData
----@field private ARRAY_SERIALIZATION_VERSION number
 ---@overload fun(): org.bukkit.inventory.ItemStack
 ---@overload fun(type: org.bukkit.Material): org.bukkit.inventory.ItemStack
 ---@overload fun(type: org.bukkit.Material, amount: number): org.bukkit.inventory.ItemStack

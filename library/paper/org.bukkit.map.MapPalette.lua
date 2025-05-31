@@ -17,7 +17,6 @@
 ---@field public DARK_GRAY number
 ---@field public BLUE number
 ---@field public DARK_BROWN number
----@field private mapColorCache org.bukkit.map.MapPalette.MapColorCache
 ---@field public MapColorCache org.bukkit.map.MapPalette.MapColorCache
 ---@overload fun(): org.bukkit.map.MapPalette
 local MapPalette = {}

@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerDropItemEvent
 ---@class org.bukkit.event.player.PlayerDropItemEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private drop org.bukkit.entity.Item
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, drop: org.bukkit.entity.Item): org.bukkit.event.player.PlayerDropItemEvent
 local PlayerDropItemEvent = {}
 

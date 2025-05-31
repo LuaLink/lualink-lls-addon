@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockExplodeEvent
 ---@class org.bukkit.event.block.BlockExplodeEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private blockState org.bukkit.block.BlockState
----@field private blocks java.util.List
----@field private yield number
----@field private result org.bukkit.ExplosionResult
----@field private cancelled boolean
 ---@overload fun(block: org.bukkit.block.Block, blockState: org.bukkit.block.BlockState, blocks: java.util.List, yield: number, result: org.bukkit.ExplosionResult): org.bukkit.event.block.BlockExplodeEvent
 local BlockExplodeEvent = {}
 

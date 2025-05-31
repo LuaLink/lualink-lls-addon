@@ -2,8 +2,6 @@
 ---@meta
 -- java.util.Optional
 ---@class java.util.Optional: java.lang.Object
----@field private EMPTY java.util.Optional
----@field private value T
 ---@overload fun(value: T): java.util.Optional
 local Optional = {}
 

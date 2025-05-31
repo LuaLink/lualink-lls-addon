@@ -3,9 +3,6 @@
 -- net.kyori.adventure.text.minimessage.tag.standard.TransitionTag
 ---@class net.kyori.adventure.text.minimessage.tag.standard.TransitionTag: net.kyori.adventure.text.minimessage.tag.Inserting, any, java.lang.Object
 ---@field public TRANSITION string
----@field private colors net.kyori.adventure.text.format.TextColor
----@field private phase number
----@field private negativePhase boolean
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@overload fun(phase: number, colors: java.util.List): net.kyori.adventure.text.minimessage.tag.standard.TransitionTag
 local TransitionTag = {}

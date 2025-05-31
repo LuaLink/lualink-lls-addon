@@ -2,11 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerPickItemEvent
 ---@class io.papermc.paper.event.player.PlayerPickItemEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private includeData boolean
----@field private targetSlot number
----@field private sourceSlot number
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, includeData: boolean, targetSlot: number, sourceSlot: number): io.papermc.paper.event.player.PlayerPickItemEvent
 local PlayerPickItemEvent = {}
 

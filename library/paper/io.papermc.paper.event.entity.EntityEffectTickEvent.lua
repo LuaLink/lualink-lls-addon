@@ -2,10 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.EntityEffectTickEvent
 ---@class io.papermc.paper.event.entity.EntityEffectTickEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private type org.bukkit.potion.PotionEffectType
----@field private amplifier number
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.LivingEntity, type: org.bukkit.potion.PotionEffectType, amplifier: number): io.papermc.paper.event.entity.EntityEffectTickEvent
 local EntityEffectTickEvent = {}
 

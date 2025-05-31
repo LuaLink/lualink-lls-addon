@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityRemoveEvent
 ---@class org.bukkit.event.entity.EntityRemoveEvent: org.bukkit.event.entity.EntityEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cause org.bukkit.event.entity.EntityRemoveEvent.Cause
 ---@field public Cause org.bukkit.event.entity.EntityRemoveEvent.Cause
 ---@overload fun(entity: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityRemoveEvent.Cause): org.bukkit.event.entity.EntityRemoveEvent
 local EntityRemoveEvent = {}

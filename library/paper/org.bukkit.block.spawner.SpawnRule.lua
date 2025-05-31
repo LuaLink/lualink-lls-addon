@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.block.spawner.SpawnRule
 ---@class org.bukkit.block.spawner.SpawnRule: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
----@field private minBlockLight number
----@field private maxBlockLight number
----@field private minSkyLight number
----@field private maxSkyLight number
 ---@overload fun(minBlockLight: number, maxBlockLight: number, minSkyLight: number, maxSkyLight: number): org.bukkit.block.spawner.SpawnRule
 local SpawnRule = {}
 

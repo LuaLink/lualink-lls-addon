@@ -1,11 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.ShowItemSerializer
 ---@class net.kyori.adventure.text.serializer.gson.ShowItemSerializer: any, java.lang.Object
----@field private LEGACY_SHOW_ITEM_TAG string
----@field private DATA_COMPONENT_REMOVAL_PREFIX string
----@field private gson any
----@field private emitDefaultQuantity boolean
----@field private itemDataMode any
 ---@overload fun(gson: any, emitDefaultQuantity: boolean, itemDataMode: any): net.kyori.adventure.text.serializer.gson.ShowItemSerializer
 local ShowItemSerializer = {}
 

@@ -2,12 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerInventorySlotChangeEvent
 ---@class io.papermc.paper.event.player.PlayerInventorySlotChangeEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private rawSlot number
----@field private slot number
----@field private oldItemStack org.bukkit.inventory.ItemStack
----@field private newItemStack org.bukkit.inventory.ItemStack
----@field private triggerAdvancements boolean
 ---@overload fun(player: org.bukkit.entity.Player, rawSlot: number, oldItemStack: org.bukkit.inventory.ItemStack, newItemStack: org.bukkit.inventory.ItemStack): io.papermc.paper.event.player.PlayerInventorySlotChangeEvent
 local PlayerInventorySlotChangeEvent = {}
 

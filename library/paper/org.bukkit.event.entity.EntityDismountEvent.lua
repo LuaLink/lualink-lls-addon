@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityDismountEvent
 ---@class org.bukkit.event.entity.EntityDismountEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private dismounted org.bukkit.entity.Entity
----@field private isCancellable boolean
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, dismounted: org.bukkit.entity.Entity): org.bukkit.event.entity.EntityDismountEvent
 ---@overload fun(entity: org.bukkit.entity.Entity, dismounted: org.bukkit.entity.Entity, isCancellable: boolean): org.bukkit.event.entity.EntityDismountEvent
 local EntityDismountEvent = {}

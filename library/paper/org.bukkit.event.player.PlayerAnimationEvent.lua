@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerAnimationEvent
 ---@class org.bukkit.event.player.PlayerAnimationEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private animationType org.bukkit.event.player.PlayerAnimationType
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player): org.bukkit.event.player.PlayerAnimationEvent
 ---@overload fun(player: org.bukkit.entity.Player, playerAnimationType: org.bukkit.event.player.PlayerAnimationType): org.bukkit.event.player.PlayerAnimationEvent
 local PlayerAnimationEvent = {}

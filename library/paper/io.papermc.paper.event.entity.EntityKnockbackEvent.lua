@@ -2,10 +2,7 @@
 ---@meta
 -- io.papermc.paper.event.entity.EntityKnockbackEvent
 ---@class io.papermc.paper.event.entity.EntityKnockbackEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cause io.papermc.paper.event.entity.EntityKnockbackEvent.Cause
 ---@field protected knockback org.bukkit.util.Vector
----@field private cancelled boolean
 ---@field public Cause io.papermc.paper.event.entity.EntityKnockbackEvent.Cause
 ---@overload fun(entity: org.bukkit.entity.Entity, cause: io.papermc.paper.event.entity.EntityKnockbackEvent.Cause, knockback: org.bukkit.util.Vector): io.papermc.paper.event.entity.EntityKnockbackEvent
 local EntityKnockbackEvent = {}

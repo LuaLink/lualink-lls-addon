@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.SpawnerSpawnEvent
 ---@class org.bukkit.event.entity.SpawnerSpawnEvent: org.bukkit.event.entity.EntitySpawnEvent, java.lang.Object
----@field private spawner org.bukkit.block.CreatureSpawner
 ---@overload fun(spawnee: org.bukkit.entity.Entity, spawner: org.bukkit.block.CreatureSpawner): org.bukkit.event.entity.SpawnerSpawnEvent
 local SpawnerSpawnEvent = {}
 

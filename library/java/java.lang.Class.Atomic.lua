@@ -2,10 +2,6 @@
 ---@meta
 -- java.lang.Class.Atomic
 ---@class java.lang.Class.Atomic: java.lang.Object
----@field private unsafe any
----@field private reflectionDataOffset number
----@field private annotationTypeOffset number
----@field private annotationDataOffset number
 local Atomic = {}
 
 ---@param clazz java.lang.Class 

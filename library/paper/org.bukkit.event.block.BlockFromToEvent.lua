@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockFromToEvent
 ---@class org.bukkit.event.block.BlockFromToEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field protected to org.bukkit.block.Block
 ---@field protected face org.bukkit.block.BlockFace
 ---@field protected cancelled boolean

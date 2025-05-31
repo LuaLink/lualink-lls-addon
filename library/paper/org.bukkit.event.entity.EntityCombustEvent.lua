@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityCombustEvent
 ---@class org.bukkit.event.entity.EntityCombustEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private duration number
----@field private cancelled boolean
 ---@overload fun(combustee: org.bukkit.entity.Entity, duration: number): org.bukkit.event.entity.EntityCombustEvent
 ---@overload fun(combustee: org.bukkit.entity.Entity, duration: number): org.bukkit.event.entity.EntityCombustEvent
 local EntityCombustEvent = {}

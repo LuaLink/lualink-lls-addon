@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.inventory.ShapedRecipe
 ---@class org.bukkit.inventory.ShapedRecipe: org.bukkit.inventory.CraftingRecipe, java.lang.Object
----@field private rows string
----@field private ingredients java.util.Map
 ---@overload fun(result: org.bukkit.inventory.ItemStack): org.bukkit.inventory.ShapedRecipe
 ---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack): org.bukkit.inventory.ShapedRecipe
 local ShapedRecipe = {}

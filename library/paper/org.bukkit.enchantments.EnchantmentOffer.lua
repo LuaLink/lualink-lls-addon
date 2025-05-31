@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.enchantments.EnchantmentOffer
 ---@class org.bukkit.enchantments.EnchantmentOffer: java.lang.Object
----@field private enchantment org.bukkit.enchantments.Enchantment
----@field private enchantmentLevel number
----@field private cost number
 ---@overload fun(enchantment: org.bukkit.enchantments.Enchantment, enchantmentLevel: number, cost: number): org.bukkit.enchantments.EnchantmentOffer
 local EnchantmentOffer = {}
 

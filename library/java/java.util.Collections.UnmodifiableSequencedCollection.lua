@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.UnmodifiableSequencedCollection
 ---@class java.util.Collections.UnmodifiableSequencedCollection: java.util.Collections.UnmodifiableCollection, java.util.SequencedCollection, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 ---@overload fun(c: java.util.SequencedCollection): java.util.Collections.UnmodifiableSequencedCollection
 local UnmodifiableSequencedCollection = {}
 

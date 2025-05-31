@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.conversations.ExactMatchConversationCanceller
 ---@class org.bukkit.conversations.ExactMatchConversationCanceller: org.bukkit.conversations.ConversationCanceller, java.lang.Object
----@field private escapeSequence string
 ---@overload fun(escapeSequence: string): org.bukkit.conversations.ExactMatchConversationCanceller
 local ExactMatchConversationCanceller = {}
 

@@ -2,11 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.EntityAttemptSmashAttackEvent
 ---@class io.papermc.paper.event.entity.EntityAttemptSmashAttackEvent: org.bukkit.event.entity.EntityEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private target org.bukkit.entity.LivingEntity
----@field private weapon org.bukkit.inventory.ItemStack
----@field private originalResult boolean
----@field private result org.bukkit.event.Event.Result
 ---@overload fun(attacker: org.bukkit.entity.LivingEntity, target: org.bukkit.entity.LivingEntity, weapon: org.bukkit.inventory.ItemStack, originalResult: boolean): io.papermc.paper.event.entity.EntityAttemptSmashAttackEvent
 local EntityAttemptSmashAttackEvent = {}
 

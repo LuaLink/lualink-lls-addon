@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.CheckedSet
 ---@class java.util.Collections.CheckedSet: java.util.Collections.CheckedCollection, java.util.Set, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 ---@overload fun(s: java.util.Set, elementType: java.lang.Class): java.util.Collections.CheckedSet
 local CheckedSet = {}
 

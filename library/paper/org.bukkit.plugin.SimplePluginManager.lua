@@ -2,19 +2,11 @@
 ---@meta
 -- org.bukkit.plugin.SimplePluginManager
 ---@class org.bukkit.plugin.SimplePluginManager: org.bukkit.plugin.PluginManager, java.lang.Object
----@field private server org.bukkit.Server
----@field private fileAssociations java.util.Map
----@field private plugins java.util.List
----@field private lookupNames java.util.Map
----@field private dependencyGraph any
----@field private updateDirectory java.io.File
----@field private commandMap org.bukkit.command.SimpleCommandMap
 ---@field public permissions java.util.Map
 ---@field public defaultPerms java.util.Map
 ---@field public permSubs java.util.Map
 ---@field public defSubs java.util.Map
 ---@field public paperPluginManager org.bukkit.plugin.PluginManager
----@field private useTimings boolean
 ---@overload fun(instance: org.bukkit.Server, commandMap: org.bukkit.command.SimpleCommandMap): org.bukkit.plugin.SimplePluginManager
 local SimplePluginManager = {}
 

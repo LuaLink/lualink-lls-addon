@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.PlayerLeashEntityEvent
 ---@class org.bukkit.event.entity.PlayerLeashEntityEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private leashHolder org.bukkit.entity.Entity
----@field private entity org.bukkit.entity.Entity
----@field private player org.bukkit.entity.Player
----@field private hand org.bukkit.inventory.EquipmentSlot
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, leashHolder: org.bukkit.entity.Entity, leasher: org.bukkit.entity.Player, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.entity.PlayerLeashEntityEvent
 ---@overload fun(entity: org.bukkit.entity.Entity, leashHolder: org.bukkit.entity.Entity, leasher: org.bukkit.entity.Player): org.bukkit.event.entity.PlayerLeashEntityEvent
 local PlayerLeashEntityEvent = {}

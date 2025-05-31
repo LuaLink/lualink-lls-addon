@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.Event
 ---@class org.bukkit.event.Event: java.lang.Object
----@field private name string
----@field private isAsync boolean
 ---@field public Result org.bukkit.event.Event.Result
 ---@overload fun(): org.bukkit.event.Event
 ---@overload fun(isAsync: boolean): org.bukkit.event.Event

@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.SynchronizedCollection
 ---@class java.util.Collections.SynchronizedCollection: java.util.Collection, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 ---@field public c java.util.Collection
 ---@field public mutex java.lang.Object
 ---@overload fun(c: java.util.Collection): java.util.Collections.SynchronizedCollection

@@ -1,9 +1,6 @@
 ---@meta
 -- org.bukkit.event.inventory.PrepareItemCraftEvent
 ---@class org.bukkit.event.inventory.PrepareItemCraftEvent: org.bukkit.event.inventory.InventoryEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private repair boolean
----@field private matrix org.bukkit.inventory.CraftingInventory
 ---@overload fun(matrix: org.bukkit.inventory.CraftingInventory, view: org.bukkit.inventory.InventoryView, isRepair: boolean): org.bukkit.event.inventory.PrepareItemCraftEvent
 local PrepareItemCraftEvent = {}
 

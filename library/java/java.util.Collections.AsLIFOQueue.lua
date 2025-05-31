@@ -2,8 +2,6 @@
 ---@meta
 -- java.util.Collections.AsLIFOQueue
 ---@class java.util.Collections.AsLIFOQueue: java.util.AbstractQueue, java.util.Queue, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
----@field private q java.util.Deque
 ---@overload fun(q: java.util.Deque): java.util.Collections.AsLIFOQueue
 local AsLIFOQueue = {}
 

@@ -3,8 +3,6 @@
 -- net.kyori.adventure.text.AbstractComponentBuilder
 ---@class net.kyori.adventure.text.AbstractComponentBuilder: net.kyori.adventure.text.ComponentBuilder, java.lang.Object
 ---@field protected children java.util.List
----@field private style net.kyori.adventure.text.format.Style
----@field private styleBuilder net.kyori.adventure.text.format.Style.Builder
 ---@overload fun(): net.kyori.adventure.text.AbstractComponentBuilder
 ---@overload fun(component: C): net.kyori.adventure.text.AbstractComponentBuilder
 local AbstractComponentBuilder = {}

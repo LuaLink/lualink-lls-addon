@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.vehicle.VehicleExitEvent
 ---@class org.bukkit.event.vehicle.VehicleExitEvent: org.bukkit.event.vehicle.VehicleEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private exited org.bukkit.entity.LivingEntity
----@field private isCancellable boolean
----@field private cancelled boolean
 ---@overload fun(vehicle: org.bukkit.entity.Vehicle, exited: org.bukkit.entity.LivingEntity, isCancellable: boolean): org.bukkit.event.vehicle.VehicleExitEvent
 ---@overload fun(vehicle: org.bukkit.entity.Vehicle, exited: org.bukkit.entity.LivingEntity): org.bukkit.event.vehicle.VehicleExitEvent
 local VehicleExitEvent = {}

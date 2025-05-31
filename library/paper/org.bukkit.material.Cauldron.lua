@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.material.Cauldron
 ---@class org.bukkit.material.Cauldron: org.bukkit.material.MaterialData, java.lang.Object
----@field private CAULDRON_FULL number
----@field private CAULDRON_EMPTY number
 ---@overload fun(): org.bukkit.material.Cauldron
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Cauldron
 ---@overload fun(data: number): org.bukkit.material.Cauldron

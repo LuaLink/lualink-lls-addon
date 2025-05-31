@@ -2,13 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.ContextImpl
 ---@class net.kyori.adventure.text.minimessage.ContextImpl: net.kyori.adventure.text.minimessage.Context, java.lang.Object
----@field private EMPTY_TOKEN_ARRAY net.kyori.adventure.text.minimessage.internal.parser.Token
----@field private strict boolean
----@field private debugOutput function
----@field private message string
----@field private miniMessage net.kyori.adventure.text.minimessage.MiniMessage
----@field private tagResolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@field private postProcessor java.util.function.UnaryOperator
 ---@overload fun(strict: boolean, debugOutput: function, message: string, miniMessage: net.kyori.adventure.text.minimessage.MiniMessage, extraTags: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, postProcessor: java.util.function.UnaryOperator): net.kyori.adventure.text.minimessage.ContextImpl
 local ContextImpl = {}
 

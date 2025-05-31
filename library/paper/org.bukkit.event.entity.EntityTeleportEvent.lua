@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityTeleportEvent
 ---@class org.bukkit.event.entity.EntityTeleportEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private from org.bukkit.Location
----@field private to org.bukkit.Location
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, from: org.bukkit.Location, to: org.bukkit.Location): org.bukkit.event.entity.EntityTeleportEvent
 local EntityTeleportEvent = {}
 

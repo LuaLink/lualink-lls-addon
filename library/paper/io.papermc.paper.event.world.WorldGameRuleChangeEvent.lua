@@ -2,11 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.world.WorldGameRuleChangeEvent
 ---@class io.papermc.paper.event.world.WorldGameRuleChangeEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private commandSender org.bukkit.command.CommandSender
----@field private gameRule org.bukkit.GameRule
----@field private value string
----@field private cancelled boolean
 ---@overload fun(world: org.bukkit.World, commandSender: org.bukkit.command.CommandSender, gameRule: org.bukkit.GameRule, value: string): io.papermc.paper.event.world.WorldGameRuleChangeEvent
 local WorldGameRuleChangeEvent = {}
 

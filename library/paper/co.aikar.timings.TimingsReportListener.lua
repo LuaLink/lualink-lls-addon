@@ -2,9 +2,6 @@
 ---@meta
 -- co.aikar.timings.TimingsReportListener
 ---@class co.aikar.timings.TimingsReportListener: net.kyori.adventure.audience.ForwardingAudience, org.bukkit.command.MessageCommandSender, java.lang.Object
----@field private senders java.util.List
----@field private onDone function
----@field private timingsURL string
 ---@overload fun(senders: org.bukkit.command.CommandSender): co.aikar.timings.TimingsReportListener
 ---@overload fun(sender: org.bukkit.command.CommandSender, onDone: function): co.aikar.timings.TimingsReportListener
 ---@overload fun(senders: java.util.List): co.aikar.timings.TimingsReportListener

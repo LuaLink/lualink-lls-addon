@@ -1,8 +1,6 @@
 ---@meta
 -- net.kyori.adventure.util.InheritanceAwareMapImpl.BuilderImpl
 ---@class net.kyori.adventure.util.InheritanceAwareMapImpl.BuilderImpl: net.kyori.adventure.util.InheritanceAwareMap.Builder, java.lang.Object
----@field private strict boolean
----@field private values java.util.Map
 local BuilderImpl = {}
 
 ---@public

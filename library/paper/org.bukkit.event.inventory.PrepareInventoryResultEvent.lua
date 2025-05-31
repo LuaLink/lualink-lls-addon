@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.inventory.PrepareInventoryResultEvent
 ---@class org.bukkit.event.inventory.PrepareInventoryResultEvent: org.bukkit.event.inventory.InventoryEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private result org.bukkit.inventory.ItemStack
 ---@overload fun(inventory: org.bukkit.inventory.InventoryView, result: org.bukkit.inventory.ItemStack): org.bukkit.event.inventory.PrepareInventoryResultEvent
 local PrepareInventoryResultEvent = {}
 

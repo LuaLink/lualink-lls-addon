@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.ExpBottleEvent
 ---@class org.bukkit.event.entity.ExpBottleEvent: org.bukkit.event.entity.ProjectileHitEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private exp number
----@field private showEffect boolean
 ---@overload fun(bottle: org.bukkit.entity.ThrownExpBottle, exp: number): org.bukkit.event.entity.ExpBottleEvent
 ---@overload fun(bottle: org.bukkit.entity.ThrownExpBottle, hitEntity: org.bukkit.entity.Entity, hitBlock: org.bukkit.block.Block, hitFace: org.bukkit.block.BlockFace, exp: number): org.bukkit.event.entity.ExpBottleEvent
 local ExpBottleEvent = {}

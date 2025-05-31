@@ -2,13 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityBreedEvent
 ---@class org.bukkit.event.entity.EntityBreedEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private mother org.bukkit.entity.LivingEntity
----@field private father org.bukkit.entity.LivingEntity
----@field private breeder org.bukkit.entity.LivingEntity
----@field private bredWith org.bukkit.inventory.ItemStack
----@field private experience number
----@field private cancelled boolean
 ---@overload fun(child: org.bukkit.entity.LivingEntity, mother: org.bukkit.entity.LivingEntity, father: org.bukkit.entity.LivingEntity, breeder: org.bukkit.entity.LivingEntity, bredWith: org.bukkit.inventory.ItemStack, experience: number): org.bukkit.event.entity.EntityBreedEvent
 local EntityBreedEvent = {}
 

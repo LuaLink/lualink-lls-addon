@@ -1,9 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.BlockNBTComponentImpl.LocalPosImpl
 ---@class net.kyori.adventure.text.BlockNBTComponentImpl.LocalPosImpl: net.kyori.adventure.text.BlockNBTComponent.LocalPos, java.lang.Object
----@field private left number
----@field private up number
----@field private forwards number
 ---@overload fun(left: number, up: number, forwards: number): net.kyori.adventure.text.BlockNBTComponentImpl.LocalPosImpl
 local LocalPosImpl = {}
 

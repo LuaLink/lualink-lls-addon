@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EnderDragonChangePhaseEvent
 ---@class org.bukkit.event.entity.EnderDragonChangePhaseEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private currentPhase org.bukkit.entity.EnderDragon.Phase
----@field private newPhase org.bukkit.entity.EnderDragon.Phase
----@field private cancelled boolean
 ---@overload fun(enderDragon: org.bukkit.entity.EnderDragon, currentPhase: org.bukkit.entity.EnderDragon.Phase, newPhase: org.bukkit.entity.EnderDragon.Phase): org.bukkit.event.entity.EnderDragonChangePhaseEvent
 local EnderDragonChangePhaseEvent = {}
 

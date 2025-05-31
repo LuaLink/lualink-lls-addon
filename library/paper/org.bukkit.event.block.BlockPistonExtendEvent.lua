@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockPistonExtendEvent
 ---@class org.bukkit.event.block.BlockPistonExtendEvent: org.bukkit.event.block.BlockPistonEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private length number
----@field private blocks java.util.List
 ---@overload fun(block: org.bukkit.block.Block, length: number, direction: org.bukkit.block.BlockFace): org.bukkit.event.block.BlockPistonExtendEvent
 ---@overload fun(block: org.bukkit.block.Block, blocks: java.util.List, direction: org.bukkit.block.BlockFace): org.bukkit.event.block.BlockPistonExtendEvent
 local BlockPistonExtendEvent = {}

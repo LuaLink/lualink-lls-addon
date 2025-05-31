@@ -2,8 +2,6 @@
 ---@meta
 -- java.util.Collections.SingletonList
 ---@class java.util.Collections.SingletonList: java.util.AbstractList, java.util.RandomAccess, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
----@field private element E
 ---@overload fun(obj: E): java.util.Collections.SingletonList
 local SingletonList = {}
 

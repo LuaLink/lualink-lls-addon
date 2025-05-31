@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.inventory.SmithingTrimRecipe
 ---@class org.bukkit.inventory.SmithingTrimRecipe: org.bukkit.inventory.SmithingRecipe, org.bukkit.inventory.ComplexRecipe, java.lang.Object
----@field private template org.bukkit.inventory.RecipeChoice
----@field private pattern org.bukkit.inventory.meta.trim.TrimPattern
 ---@overload fun(key: org.bukkit.NamespacedKey, template: org.bukkit.inventory.RecipeChoice, base: org.bukkit.inventory.RecipeChoice, addition: org.bukkit.inventory.RecipeChoice, pattern: org.bukkit.inventory.meta.trim.TrimPattern): org.bukkit.inventory.SmithingTrimRecipe
 ---@overload fun(key: org.bukkit.NamespacedKey, template: org.bukkit.inventory.RecipeChoice, base: org.bukkit.inventory.RecipeChoice, addition: org.bukkit.inventory.RecipeChoice, pattern: org.bukkit.inventory.meta.trim.TrimPattern, copyDataComponents: boolean): org.bukkit.inventory.SmithingTrimRecipe
 ---@overload fun(key: org.bukkit.NamespacedKey, template: org.bukkit.inventory.RecipeChoice, base: org.bukkit.inventory.RecipeChoice, addition: org.bukkit.inventory.RecipeChoice): org.bukkit.inventory.SmithingTrimRecipe

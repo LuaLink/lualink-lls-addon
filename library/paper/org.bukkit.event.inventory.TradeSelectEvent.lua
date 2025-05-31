@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.inventory.TradeSelectEvent
 ---@class org.bukkit.event.inventory.TradeSelectEvent: org.bukkit.event.inventory.InventoryInteractEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private index number
 ---@overload fun(transaction: org.bukkit.inventory.view.MerchantView, newIndex: number): org.bukkit.event.inventory.TradeSelectEvent
 local TradeSelectEvent = {}
 

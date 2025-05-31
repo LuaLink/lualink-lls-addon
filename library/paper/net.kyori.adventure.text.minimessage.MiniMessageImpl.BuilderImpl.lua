@@ -1,10 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.MiniMessageImpl.BuilderImpl
 ---@class net.kyori.adventure.text.minimessage.MiniMessageImpl.BuilderImpl: net.kyori.adventure.text.minimessage.MiniMessage.Builder, java.lang.Object
----@field private tagResolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@field private strict boolean
----@field private debug function
----@field private postProcessor java.util.function.UnaryOperator
 ---@overload fun(): net.kyori.adventure.text.minimessage.MiniMessageImpl.BuilderImpl
 ---@overload fun(serializer: net.kyori.adventure.text.minimessage.MiniMessageImpl): net.kyori.adventure.text.minimessage.MiniMessageImpl.BuilderImpl
 local BuilderImpl = {}

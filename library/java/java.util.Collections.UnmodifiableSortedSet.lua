@@ -2,8 +2,6 @@
 ---@meta
 -- java.util.Collections.UnmodifiableSortedSet
 ---@class java.util.Collections.UnmodifiableSortedSet: java.util.Collections.UnmodifiableSet, java.util.SortedSet, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
----@field private ss java.util.SortedSet
 ---@overload fun(s: java.util.SortedSet): java.util.Collections.UnmodifiableSortedSet
 local UnmodifiableSortedSet = {}
 

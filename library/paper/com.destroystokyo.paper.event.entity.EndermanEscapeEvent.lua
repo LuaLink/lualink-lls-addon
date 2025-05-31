@@ -1,9 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.EndermanEscapeEvent
 ---@class com.destroystokyo.paper.event.entity.EndermanEscapeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private reason com.destroystokyo.paper.event.entity.EndermanEscapeEvent.Reason
----@field private cancelled boolean
 ---@field public Reason com.destroystokyo.paper.event.entity.EndermanEscapeEvent.Reason
 ---@overload fun(entity: org.bukkit.entity.Enderman, reason: com.destroystokyo.paper.event.entity.EndermanEscapeEvent.Reason): com.destroystokyo.paper.event.entity.EndermanEscapeEvent
 local EndermanEscapeEvent = {}

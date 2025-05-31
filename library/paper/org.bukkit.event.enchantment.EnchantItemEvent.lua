@@ -2,16 +2,6 @@
 ---@meta
 -- org.bukkit.event.enchantment.EnchantItemEvent
 ---@class org.bukkit.event.enchantment.EnchantItemEvent: org.bukkit.event.inventory.InventoryEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private enchanter org.bukkit.entity.Player
----@field private table org.bukkit.block.Block
----@field private item org.bukkit.inventory.ItemStack
----@field private level number
----@field private enchants java.util.Map
----@field private enchantmentHint org.bukkit.enchantments.Enchantment
----@field private levelHint number
----@field private button number
----@field private cancelled boolean
 ---@overload fun(enchanter: org.bukkit.entity.Player, view: org.bukkit.inventory.InventoryView, table: org.bukkit.block.Block, item: org.bukkit.inventory.ItemStack, level: number, enchants: java.util.Map, enchantmentHint: org.bukkit.enchantments.Enchantment, levelHint: number, button: number): org.bukkit.event.enchantment.EnchantItemEvent
 local EnchantItemEvent = {}
 

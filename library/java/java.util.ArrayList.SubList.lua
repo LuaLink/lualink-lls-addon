@@ -1,10 +1,6 @@
 ---@meta
 -- java.util.ArrayList.SubList
 ---@class java.util.ArrayList.SubList: java.util.AbstractList, java.util.RandomAccess, java.lang.Object
----@field private root java.util.ArrayList
----@field private parent java.util.ArrayList.SubList
----@field private offset number
----@field private size number
 ---@overload fun(root: java.util.ArrayList, fromIndex: number, toIndex: number): java.util.ArrayList.SubList
 ---@overload fun(parent: java.util.ArrayList.SubList, fromIndex: number, toIndex: number): java.util.ArrayList.SubList
 local SubList = {}

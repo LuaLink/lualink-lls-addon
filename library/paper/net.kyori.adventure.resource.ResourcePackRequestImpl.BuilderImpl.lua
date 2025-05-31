@@ -1,11 +1,6 @@
 ---@meta
 -- net.kyori.adventure.resource.ResourcePackRequestImpl.BuilderImpl
 ---@class net.kyori.adventure.resource.ResourcePackRequestImpl.BuilderImpl: net.kyori.adventure.resource.ResourcePackRequest.Builder, java.lang.Object
----@field private packs java.util.List
----@field private cb net.kyori.adventure.resource.ResourcePackCallback
----@field private replace boolean
----@field private required boolean
----@field private prompt net.kyori.adventure.text.Component
 ---@overload fun(): net.kyori.adventure.resource.ResourcePackRequestImpl.BuilderImpl
 ---@overload fun(req: net.kyori.adventure.resource.ResourcePackRequest): net.kyori.adventure.resource.ResourcePackRequestImpl.BuilderImpl
 local BuilderImpl = {}

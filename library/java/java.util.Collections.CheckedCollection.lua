@@ -2,10 +2,8 @@
 ---@meta
 -- java.util.Collections.CheckedCollection
 ---@class java.util.Collections.CheckedCollection: java.util.Collection, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 ---@field public c java.util.Collection
 ---@field public type java.lang.Class
----@field private zeroLengthElementArray E
 ---@overload fun(c: java.util.Collection, type: java.lang.Class): java.util.Collections.CheckedCollection
 local CheckedCollection = {}
 

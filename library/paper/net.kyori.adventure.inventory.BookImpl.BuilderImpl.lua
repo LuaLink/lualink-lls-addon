@@ -1,9 +1,6 @@
 ---@meta
 -- net.kyori.adventure.inventory.BookImpl.BuilderImpl
 ---@class net.kyori.adventure.inventory.BookImpl.BuilderImpl: net.kyori.adventure.inventory.Book.Builder, java.lang.Object
----@field private title net.kyori.adventure.text.Component
----@field private author net.kyori.adventure.text.Component
----@field private pages java.util.List
 local BuilderImpl = {}
 
 ---@param title net.kyori.adventure.text.Component 

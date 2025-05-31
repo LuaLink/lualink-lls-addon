@@ -2,12 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.block.BlockLockCheckEvent
 ---@class io.papermc.paper.event.block.BlockLockCheckEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
----@field private lockedMessage net.kyori.adventure.text.Component
----@field private lockedSound net.kyori.adventure.sound.Sound
----@field private itemStack org.bukkit.inventory.ItemStack
----@field private result org.bukkit.event.Event.Result
 ---@overload fun(block: org.bukkit.block.Block, player: org.bukkit.entity.Player, lockedMessage: net.kyori.adventure.text.Component, lockedSound: net.kyori.adventure.sound.Sound): io.papermc.paper.event.block.BlockLockCheckEvent
 local BlockLockCheckEvent = {}
 

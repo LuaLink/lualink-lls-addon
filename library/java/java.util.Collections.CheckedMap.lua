@@ -2,11 +2,8 @@
 ---@meta
 -- java.util.Collections.CheckedMap
 ---@class java.util.Collections.CheckedMap: java.util.Map, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
----@field private m java.util.Map
 ---@field public keyType java.lang.Class
 ---@field public valueType java.lang.Class
----@field private entrySet java.util.Set
 ---@field public CheckedEntrySet java.util.Collections.CheckedMap.CheckedEntrySet
 ---@overload fun(m: java.util.Map, keyType: java.lang.Class, valueType: java.lang.Class): java.util.Collections.CheckedMap
 local CheckedMap = {}

@@ -1,13 +1,6 @@
 ---@meta
 -- java.util.regex.Matcher.ImmutableMatchResult
 ---@class java.util.regex.Matcher.ImmutableMatchResult: java.util.regex.MatchResult, java.lang.Object
----@field private first number
----@field private last number
----@field private groupCount number
----@field private groups number
----@field private text string
----@field private namedGroups java.util.Map
----@field private minStart number
 ---@overload fun(first: number, last: number, groupCount: number, groups: table<number>, text: string, namedGroups: java.util.Map, minStart: number): java.util.regex.Matcher.ImmutableMatchResult
 local ImmutableMatchResult = {}
 

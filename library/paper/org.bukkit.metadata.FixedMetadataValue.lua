@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.metadata.FixedMetadataValue
 ---@class org.bukkit.metadata.FixedMetadataValue: org.bukkit.metadata.LazyMetadataValue, java.lang.Object
----@field private internalValue java.lang.Object
 ---@overload fun(owningPlugin: org.bukkit.plugin.Plugin, value: java.lang.Object): org.bukkit.metadata.FixedMetadataValue
 local FixedMetadataValue = {}
 

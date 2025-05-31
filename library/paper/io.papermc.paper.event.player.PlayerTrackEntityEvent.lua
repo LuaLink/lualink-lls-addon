@@ -2,9 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerTrackEntityEvent
 ---@class io.papermc.paper.event.player.PlayerTrackEntityEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private entity org.bukkit.entity.Entity
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, entity: org.bukkit.entity.Entity): io.papermc.paper.event.player.PlayerTrackEntityEvent
 local PlayerTrackEntityEvent = {}
 

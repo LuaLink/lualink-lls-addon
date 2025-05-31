@@ -7,10 +7,6 @@
 ---@field public SHOW_ENTITY net.kyori.adventure.text.event.HoverEvent.Action
 ---@field public SHOW_ACHIEVEMENT net.kyori.adventure.text.event.HoverEvent.Action
 ---@field public NAMES net.kyori.adventure.util.Index
----@field private name string
----@field private type java.lang.Class
----@field private readable boolean
----@field private renderer net.kyori.adventure.text.event.HoverEvent.Action.Renderer
 ---@field public Renderer net.kyori.adventure.text.event.HoverEvent.Action.Renderer
 ---@overload fun(name: string, type: java.lang.Class, readable: boolean, renderer: net.kyori.adventure.text.event.HoverEvent.Action.Renderer): net.kyori.adventure.text.event.HoverEvent.Action
 local Action = {}

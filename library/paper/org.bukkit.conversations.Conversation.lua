@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.conversations.Conversation
 ---@class org.bukkit.conversations.Conversation: java.lang.Object
----@field private firstPrompt org.bukkit.conversations.Prompt
----@field private abandoned boolean
 ---@field protected currentPrompt org.bukkit.conversations.Prompt
 ---@field protected context org.bukkit.conversations.ConversationContext
 ---@field protected modal boolean

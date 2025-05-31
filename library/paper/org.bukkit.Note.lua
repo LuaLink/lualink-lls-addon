@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.Note
 ---@class org.bukkit.Note: java.lang.Object
----@field private pitchArray number
----@field private note number
 ---@field public Tone org.bukkit.Note.Tone
 ---@overload fun(note: number): org.bukkit.Note
 ---@overload fun(octave: number, tone: org.bukkit.Note.Tone, sharped: boolean): org.bukkit.Note

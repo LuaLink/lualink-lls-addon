@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerBedLeaveEvent
 ---@class org.bukkit.event.player.PlayerBedLeaveEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private bed org.bukkit.block.Block
----@field private setBedSpawn boolean
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, bed: org.bukkit.block.Block, setBedSpawn: boolean): org.bukkit.event.player.PlayerBedLeaveEvent
 local PlayerBedLeaveEvent = {}
 

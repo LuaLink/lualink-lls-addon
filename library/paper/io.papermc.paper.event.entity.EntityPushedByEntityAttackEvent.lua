@@ -2,7 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.EntityPushedByEntityAttackEvent
 ---@class io.papermc.paper.event.entity.EntityPushedByEntityAttackEvent: io.papermc.paper.event.entity.EntityKnockbackEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private pushedBy org.bukkit.entity.Entity
 ---@overload fun(entity: org.bukkit.entity.Entity, cause: io.papermc.paper.event.entity.EntityKnockbackEvent.Cause, pushedBy: org.bukkit.entity.Entity, knockback: org.bukkit.util.Vector): io.papermc.paper.event.entity.EntityPushedByEntityAttackEvent
 local EntityPushedByEntityAttackEvent = {}
 

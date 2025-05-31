@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.Bukkit
 ---@class org.bukkit.Bukkit: java.lang.Object
----@field private server org.bukkit.Server
 ---@overload fun(): org.bukkit.Bukkit
 local Bukkit = {}
 

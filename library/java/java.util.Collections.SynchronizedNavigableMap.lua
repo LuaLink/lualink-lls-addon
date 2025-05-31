@@ -2,8 +2,6 @@
 ---@meta
 -- java.util.Collections.SynchronizedNavigableMap
 ---@class java.util.Collections.SynchronizedNavigableMap: java.util.Collections.SynchronizedSortedMap, java.util.NavigableMap, java.lang.Object
----@field private serialVersionUID number
----@field private nm java.util.NavigableMap
 ---@overload fun(m: java.util.NavigableMap): java.util.Collections.SynchronizedNavigableMap
 ---@overload fun(m: java.util.NavigableMap, mutex: java.lang.Object): java.util.Collections.SynchronizedNavigableMap
 local SynchronizedNavigableMap = {}

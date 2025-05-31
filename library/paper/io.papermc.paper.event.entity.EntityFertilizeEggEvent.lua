@@ -2,12 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.EntityFertilizeEggEvent
 ---@class io.papermc.paper.event.entity.EntityFertilizeEggEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private father org.bukkit.entity.LivingEntity
----@field private breeder org.bukkit.entity.Player
----@field private bredWith org.bukkit.inventory.ItemStack
----@field private experience number
----@field private cancelled boolean
 ---@overload fun(mother: org.bukkit.entity.LivingEntity, father: org.bukkit.entity.LivingEntity, breeder: org.bukkit.entity.Player, bredWith: org.bukkit.inventory.ItemStack, experience: number): io.papermc.paper.event.entity.EntityFertilizeEggEvent
 local EntityFertilizeEggEvent = {}
 

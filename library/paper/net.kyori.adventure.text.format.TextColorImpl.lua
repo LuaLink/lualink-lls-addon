@@ -1,7 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.format.TextColorImpl
 ---@class net.kyori.adventure.text.format.TextColorImpl: net.kyori.adventure.text.format.TextColor, java.lang.Object
----@field private value number
 ---@overload fun(value: number): net.kyori.adventure.text.format.TextColorImpl
 local TextColorImpl = {}
 

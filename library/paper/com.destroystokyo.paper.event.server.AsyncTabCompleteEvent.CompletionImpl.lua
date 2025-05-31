@@ -1,8 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.server.AsyncTabCompleteEvent.CompletionImpl
 ---@class com.destroystokyo.paper.event.server.AsyncTabCompleteEvent.CompletionImpl: com.destroystokyo.paper.event.server.AsyncTabCompleteEvent.Completion, java.lang.Object
----@field private suggestion string
----@field private tooltip net.kyori.adventure.text.Component
 ---@overload fun(suggestion: string, tooltip: net.kyori.adventure.text.Component): com.destroystokyo.paper.event.server.AsyncTabCompleteEvent.CompletionImpl
 local CompletionImpl = {}
 

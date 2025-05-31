@@ -2,10 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.server.ServerTickEndEvent
 ---@class com.destroystokyo.paper.event.server.ServerTickEndEvent: org.bukkit.event.Event, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private tickNumber number
----@field private tickDuration number
----@field private timeEnd number
 ---@overload fun(tickNumber: number, tickDuration: number, timeRemaining: number): com.destroystokyo.paper.event.server.ServerTickEndEvent
 local ServerTickEndEvent = {}
 

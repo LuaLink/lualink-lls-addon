@@ -2,9 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.ShulkerDuplicateEvent
 ---@class io.papermc.paper.event.entity.ShulkerDuplicateEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private parent org.bukkit.entity.Shulker
----@field private cancelled boolean
 ---@overload fun(child: org.bukkit.entity.Shulker, parent: org.bukkit.entity.Shulker): io.papermc.paper.event.entity.ShulkerDuplicateEvent
 local ShulkerDuplicateEvent = {}
 

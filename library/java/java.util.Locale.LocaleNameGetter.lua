@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Locale.LocaleNameGetter
 ---@class java.util.Locale.LocaleNameGetter: any, java.lang.Object
----@field private INSTANCE java.util.Locale.LocaleNameGetter
 local LocaleNameGetter = {}
 
 ---@param localeNameProvider java.util.spi.LocaleNameProvider 

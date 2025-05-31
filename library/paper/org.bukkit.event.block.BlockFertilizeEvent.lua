@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockFertilizeEvent
 ---@class org.bukkit.event.block.BlockFertilizeEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
----@field private blocks java.util.List
----@field private cancelled boolean
 ---@overload fun(block: org.bukkit.block.Block, player: org.bukkit.entity.Player, blocks: java.util.List): org.bukkit.event.block.BlockFertilizeEvent
 local BlockFertilizeEvent = {}
 

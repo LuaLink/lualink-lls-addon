@@ -1,8 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.ShowEntitySerializer
 ---@class net.kyori.adventure.text.serializer.gson.ShowEntitySerializer: any, java.lang.Object
----@field private gson any
----@field private emitKeyAsTypeAndUuidAsId boolean
 ---@overload fun(gson: any, emitKeyAsTypeAndUuidAsId: boolean): net.kyori.adventure.text.serializer.gson.ShowEntitySerializer
 local ShowEntitySerializer = {}
 

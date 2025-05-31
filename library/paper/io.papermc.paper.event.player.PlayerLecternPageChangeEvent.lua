@@ -1,13 +1,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerLecternPageChangeEvent
 ---@class io.papermc.paper.event.player.PlayerLecternPageChangeEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private lectern org.bukkit.block.Lectern
----@field private book org.bukkit.inventory.ItemStack
----@field private pageChangeDirection io.papermc.paper.event.player.PlayerLecternPageChangeEvent.PageChangeDirection
----@field private oldPage number
----@field private newPage number
----@field private cancelled boolean
 ---@field public PageChangeDirection io.papermc.paper.event.player.PlayerLecternPageChangeEvent.PageChangeDirection
 ---@overload fun(player: org.bukkit.entity.Player, lectern: org.bukkit.block.Lectern, book: org.bukkit.inventory.ItemStack, pageChangeDirection: io.papermc.paper.event.player.PlayerLecternPageChangeEvent.PageChangeDirection, oldPage: number, newPage: number): io.papermc.paper.event.player.PlayerLecternPageChangeEvent
 local PlayerLecternPageChangeEvent = {}

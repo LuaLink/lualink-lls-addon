@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.StriderTemperatureChangeEvent
 ---@class org.bukkit.event.entity.StriderTemperatureChangeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private shivering boolean
----@field private cancelled boolean
 ---@overload fun(strider: org.bukkit.entity.Strider, shivering: boolean): org.bukkit.event.entity.StriderTemperatureChangeEvent
 local StriderTemperatureChangeEvent = {}
 

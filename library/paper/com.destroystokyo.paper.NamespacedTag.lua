@@ -3,10 +3,6 @@
 ---@class com.destroystokyo.paper.NamespacedTag: com.destroystokyo.paper.Namespaced, java.lang.Object
 ---@field public MINECRAFT string
 ---@field public BUKKIT string
----@field private VALID_NAMESPACE java.util.regex.Pattern
----@field private VALID_KEY java.util.regex.Pattern
----@field private namespace string
----@field private key string
 ---@overload fun(namespace: string, key: string): com.destroystokyo.paper.NamespacedTag
 ---@overload fun(plugin: org.bukkit.plugin.Plugin, key: string): com.destroystokyo.paper.NamespacedTag
 local NamespacedTag = {}

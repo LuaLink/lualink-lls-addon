@@ -2,11 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerLaunchProjectileEvent
 ---@class com.destroystokyo.paper.event.player.PlayerLaunchProjectileEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private projectile org.bukkit.entity.Projectile
----@field private itemStack org.bukkit.inventory.ItemStack
----@field private consumeItem boolean
----@field private cancelled boolean
 ---@overload fun(shooter: org.bukkit.entity.Player, itemStack: org.bukkit.inventory.ItemStack, projectile: org.bukkit.entity.Projectile): com.destroystokyo.paper.event.player.PlayerLaunchProjectileEvent
 local PlayerLaunchProjectileEvent = {}
 

@@ -2,11 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.player.IllegalPacketEvent
 ---@class com.destroystokyo.paper.event.player.IllegalPacketEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private type string
----@field private exceptionMessage string
----@field private kickMessage string
----@field private shouldKick boolean
 ---@overload fun(player: org.bukkit.entity.Player, type: string, kickMessage: string, e: java.lang.Exception): com.destroystokyo.paper.event.player.IllegalPacketEvent
 local IllegalPacketEvent = {}
 

@@ -2,8 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.FishHookStateChangeEvent
 ---@class io.papermc.paper.event.entity.FishHookStateChangeEvent: org.bukkit.event.entity.EntityEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private newHookState org.bukkit.entity.FishHook.HookState
 ---@overload fun(entity: org.bukkit.entity.FishHook, newHookState: org.bukkit.entity.FishHook.HookState): io.papermc.paper.event.entity.FishHookStateChangeEvent
 local FishHookStateChangeEvent = {}
 

@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.map.MapRenderer
 ---@class org.bukkit.map.MapRenderer: java.lang.Object
----@field private contextual boolean
 ---@overload fun(): org.bukkit.map.MapRenderer
 ---@overload fun(contextual: boolean): org.bukkit.map.MapRenderer
 local MapRenderer = {}

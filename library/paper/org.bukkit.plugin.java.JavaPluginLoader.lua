@@ -3,9 +3,6 @@
 -- org.bukkit.plugin.java.JavaPluginLoader
 ---@class org.bukkit.plugin.java.JavaPluginLoader: org.bukkit.plugin.PluginLoader, java.lang.Object
 ---@field public server org.bukkit.Server
----@field private fileFilters java.util.regex.Pattern
----@field private loaders java.util.List
----@field private libraryLoader org.bukkit.plugin.java.LibraryLoader
 ---@overload fun(instance: org.bukkit.Server): org.bukkit.plugin.java.JavaPluginLoader
 local JavaPluginLoader = {}
 

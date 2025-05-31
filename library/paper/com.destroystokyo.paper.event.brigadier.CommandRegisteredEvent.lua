@@ -2,15 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent
 ---@class com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent: org.bukkit.event.server.ServerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private handlers org.bukkit.event.HandlerList
----@field private commandLabel string
----@field private command org.bukkit.command.Command
----@field private brigadierCommand com.destroystokyo.paper.brigadier.BukkitBrigadierCommand
----@field private root any
----@field private defaultArgs any
----@field private literal any
----@field private rawCommand boolean
----@field private cancelled boolean
 ---@overload fun(commandLabel: string, brigadierCommand: com.destroystokyo.paper.brigadier.BukkitBrigadierCommand, command: org.bukkit.command.Command, root: any, literal: any, defaultArgs: any): com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent
 local CommandRegisteredEvent = {}
 

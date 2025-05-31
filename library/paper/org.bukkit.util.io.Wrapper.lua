@@ -1,7 +1,6 @@
 ---@meta
 -- org.bukkit.util.io.Wrapper
 ---@class org.bukkit.util.io.Wrapper: java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 ---@field public map T
 ---@overload fun(map: T): org.bukkit.util.io.Wrapper
 local Wrapper = {}

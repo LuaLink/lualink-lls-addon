@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.EntityBlockFormEvent
 ---@class org.bukkit.event.block.EntityBlockFormEvent: org.bukkit.event.block.BlockFormEvent, java.lang.Object
----@field private entity org.bukkit.entity.Entity
 ---@overload fun(entity: org.bukkit.entity.Entity, block: org.bukkit.block.Block, blockstate: org.bukkit.block.BlockState): org.bukkit.event.block.EntityBlockFormEvent
 local EntityBlockFormEvent = {}
 

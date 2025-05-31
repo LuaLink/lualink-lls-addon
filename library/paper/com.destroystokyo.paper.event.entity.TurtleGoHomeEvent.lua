@@ -2,8 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.TurtleGoHomeEvent
 ---@class com.destroystokyo.paper.event.entity.TurtleGoHomeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cancelled boolean
 ---@overload fun(turtle: org.bukkit.entity.Turtle): com.destroystokyo.paper.event.entity.TurtleGoHomeEvent
 local TurtleGoHomeEvent = {}
 

@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityPickupItemEvent
 ---@class org.bukkit.event.entity.EntityPickupItemEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private item org.bukkit.entity.Item
----@field private remaining number
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.LivingEntity, item: org.bukkit.entity.Item, remaining: number): org.bukkit.event.entity.EntityPickupItemEvent
 local EntityPickupItemEvent = {}
 

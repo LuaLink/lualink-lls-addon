@@ -4,9 +4,6 @@
 ---@class java.util.Locale.LanguageRange: java.lang.Object
 ---@field public MAX_WEIGHT number
 ---@field public MIN_WEIGHT number
----@field private range string
----@field private weight number
----@field private hash number
 ---@overload fun(range: string): java.util.Locale.LanguageRange
 ---@overload fun(range: string, weight: number): java.util.Locale.LanguageRange
 local LanguageRange = {}

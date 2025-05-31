@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.util.Transformation
 ---@class org.bukkit.util.Transformation: java.lang.Object
----@field private translation any
----@field private leftRotation any
----@field private scale any
----@field private rightRotation any
 ---@overload fun(translation: any, leftRotation: any, scale: any, rightRotation: any): org.bukkit.util.Transformation
 ---@overload fun(translation: any, leftRotation: any, scale: any, rightRotation: any): org.bukkit.util.Transformation
 local Transformation = {}

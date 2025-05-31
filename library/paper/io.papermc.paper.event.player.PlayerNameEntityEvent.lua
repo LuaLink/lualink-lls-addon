@@ -2,11 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerNameEntityEvent
 ---@class io.papermc.paper.event.player.PlayerNameEntityEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private entity org.bukkit.entity.LivingEntity
----@field private name net.kyori.adventure.text.Component
----@field private persistent boolean
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, entity: org.bukkit.entity.LivingEntity, name: net.kyori.adventure.text.Component, persistent: boolean): io.papermc.paper.event.player.PlayerNameEntityEvent
 local PlayerNameEntityEvent = {}
 

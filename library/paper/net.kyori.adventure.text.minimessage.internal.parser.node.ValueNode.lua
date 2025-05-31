@@ -1,7 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.node.ValueNode
 ---@class net.kyori.adventure.text.minimessage.internal.parser.node.ValueNode: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode, java.lang.Object
----@field private value string
 ---@overload fun(parent: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode, token: net.kyori.adventure.text.minimessage.internal.parser.Token, sourceMessage: string, value: string): net.kyori.adventure.text.minimessage.internal.parser.node.ValueNode
 local ValueNode = {}
 

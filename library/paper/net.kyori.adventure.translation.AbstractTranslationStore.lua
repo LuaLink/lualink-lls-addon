@@ -2,10 +2,6 @@
 ---@meta
 -- net.kyori.adventure.translation.AbstractTranslationStore
 ---@class net.kyori.adventure.translation.AbstractTranslationStore: any, net.kyori.adventure.translation.TranslationStore, java.lang.Object
----@field private name any
----@field private translations java.util.Map
----@field private defaultLocale java.util.Locale
----@field private Translation net.kyori.adventure.translation.AbstractTranslationStore.Translation
 ---@field public StringBased net.kyori.adventure.translation.AbstractTranslationStore.StringBased
 ---@overload fun(name: any): net.kyori.adventure.translation.AbstractTranslationStore
 local AbstractTranslationStore = {}

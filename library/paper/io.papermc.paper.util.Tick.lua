@@ -2,8 +2,6 @@
 ---@meta
 -- io.papermc.paper.util.Tick
 ---@class io.papermc.paper.util.Tick: java.time.temporal.TemporalUnit, java.lang.Object
----@field private INSTANCE io.papermc.paper.util.Tick
----@field private milliseconds number
 ---@overload fun(length: number): io.papermc.paper.util.Tick
 local Tick = {}
 

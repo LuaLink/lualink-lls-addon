@@ -2,19 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.server.PaperServerListPingEvent
 ---@class com.destroystokyo.paper.event.server.PaperServerListPingEvent: org.bukkit.event.server.ServerListPingEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private client com.destroystokyo.paper.network.StatusClient
----@field private numPlayers number
----@field private hidePlayers boolean
----@field private listedPlayers java.util.List
----@field private playerSample io.papermc.paper.util.TransformingRandomAccessList
----@field private version string
----@field private protocolVersion number
----@field private favicon org.bukkit.util.CachedServerIcon
----@field private cancelled boolean
----@field private originalPlayerCount boolean
----@field private players java.lang.Object
----@field private PlayerIterator com.destroystokyo.paper.event.server.PaperServerListPingEvent.PlayerIterator
----@field private UncheckedPlayerProfile com.destroystokyo.paper.event.server.PaperServerListPingEvent.UncheckedPlayerProfile
 ---@overload fun(client: com.destroystokyo.paper.network.StatusClient, motd: net.kyori.adventure.text.Component, numPlayers: number, maxPlayers: number, version: string, protocolVersion: number, favicon: org.bukkit.util.CachedServerIcon): com.destroystokyo.paper.event.server.PaperServerListPingEvent
 local PaperServerListPingEvent = {}
 

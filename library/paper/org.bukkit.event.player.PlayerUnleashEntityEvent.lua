@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerUnleashEntityEvent
 ---@class org.bukkit.event.player.PlayerUnleashEntityEvent: org.bukkit.event.entity.EntityUnleashEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private player org.bukkit.entity.Player
----@field private hand org.bukkit.inventory.EquipmentSlot
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, player: org.bukkit.entity.Player, hand: org.bukkit.inventory.EquipmentSlot, dropLeash: boolean): org.bukkit.event.player.PlayerUnleashEntityEvent
 ---@overload fun(entity: org.bukkit.entity.Entity, player: org.bukkit.entity.Player, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.player.PlayerUnleashEntityEvent
 ---@overload fun(entity: org.bukkit.entity.Entity, player: org.bukkit.entity.Player): org.bukkit.event.player.PlayerUnleashEntityEvent

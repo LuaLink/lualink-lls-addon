@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityPlaceEvent
 ---@class org.bukkit.event.entity.EntityPlaceEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
----@field private block org.bukkit.block.Block
----@field private blockFace org.bukkit.block.BlockFace
----@field private hand org.bukkit.inventory.EquipmentSlot
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, player: org.bukkit.entity.Player, block: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.entity.EntityPlaceEvent
 ---@overload fun(entity: org.bukkit.entity.Entity, player: org.bukkit.entity.Player, block: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace): org.bukkit.event.entity.EntityPlaceEvent
 local EntityPlaceEvent = {}

@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerToggleSprintEvent
 ---@class org.bukkit.event.player.PlayerToggleSprintEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private isSprinting boolean
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, isSprinting: boolean): org.bukkit.event.player.PlayerToggleSprintEvent
 local PlayerToggleSprintEvent = {}
 

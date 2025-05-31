@@ -2,8 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.server.WhitelistToggleEvent
 ---@class com.destroystokyo.paper.event.server.WhitelistToggleEvent: org.bukkit.event.Event, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private enabled boolean
 ---@overload fun(enabled: boolean): com.destroystokyo.paper.event.server.WhitelistToggleEvent
 local WhitelistToggleEvent = {}
 

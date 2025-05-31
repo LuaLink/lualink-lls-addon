@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockDamageEvent
 ---@class org.bukkit.event.block.BlockDamageEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private blockFace org.bukkit.block.BlockFace
----@field private itemInHand org.bukkit.inventory.ItemStack
----@field private player org.bukkit.entity.Player
----@field private instaBreak boolean
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, itemInHand: org.bukkit.inventory.ItemStack, instaBreak: boolean): org.bukkit.event.block.BlockDamageEvent
 ---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, itemInHand: org.bukkit.inventory.ItemStack, instaBreak: boolean): org.bukkit.event.block.BlockDamageEvent
 local BlockDamageEvent = {}

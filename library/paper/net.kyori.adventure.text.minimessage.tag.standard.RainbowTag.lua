@@ -2,15 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.RainbowTag
 ---@class net.kyori.adventure.text.minimessage.tag.standard.RainbowTag: net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag, java.lang.Object
----@field private REVERSE string
----@field private RAINBOW string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@field private reversed boolean
----@field private phase number
----@field private center number
----@field private width number
----@field private frequency number
----@field private colorIndex number
 ---@overload fun(reversed: boolean, phase: number): net.kyori.adventure.text.minimessage.tag.standard.RainbowTag
 local RainbowTag = {}
 

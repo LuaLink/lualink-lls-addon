@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.event.world.GenericGameEvent
 ---@class org.bukkit.event.world.GenericGameEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private event org.bukkit.GameEvent
----@field private location org.bukkit.Location
----@field private entity org.bukkit.entity.Entity
----@field private radius number
----@field private cancelled boolean
 ---@overload fun(event: org.bukkit.GameEvent, location: org.bukkit.Location, entity: org.bukkit.entity.Entity, radius: number, isAsync: boolean): org.bukkit.event.world.GenericGameEvent
 local GenericGameEvent = {}
 

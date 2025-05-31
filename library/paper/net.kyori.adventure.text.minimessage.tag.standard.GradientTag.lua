@@ -2,14 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.GradientTag
 ---@class net.kyori.adventure.text.minimessage.tag.standard.GradientTag: net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag, java.lang.Object
----@field private GRADIENT string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@field private index number
----@field private colorIndex number
----@field private factorStep number
----@field private colors net.kyori.adventure.text.format.TextColor
----@field private phase number
----@field private negativePhase boolean
 ---@overload fun(phase: number, colors: java.util.List): net.kyori.adventure.text.minimessage.tag.standard.GradientTag
 local GradientTag = {}
 

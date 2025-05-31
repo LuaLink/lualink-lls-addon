@@ -2,11 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.block.BeaconEffectEvent
 ---@class com.destroystokyo.paper.event.block.BeaconEffectEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
----@field private primary boolean
----@field private effect org.bukkit.potion.PotionEffect
----@field private cancelled boolean
 ---@overload fun(beacon: org.bukkit.block.Block, effect: org.bukkit.potion.PotionEffect, player: org.bukkit.entity.Player, primary: boolean): com.destroystokyo.paper.event.block.BeaconEffectEvent
 local BeaconEffectEvent = {}
 

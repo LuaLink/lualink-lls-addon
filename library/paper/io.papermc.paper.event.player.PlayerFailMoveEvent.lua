@@ -2,12 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerFailMoveEvent
 ---@class io.papermc.paper.event.player.PlayerFailMoveEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private failReason io.papermc.paper.event.player.PlayerFailMoveEvent.FailReason
----@field private from org.bukkit.Location
----@field private to org.bukkit.Location
----@field private allowed boolean
----@field private logWarning boolean
 ---@field public FailReason io.papermc.paper.event.player.PlayerFailMoveEvent.FailReason
 ---@overload fun(player: org.bukkit.entity.Player, failReason: io.papermc.paper.event.player.PlayerFailMoveEvent.FailReason, allowed: boolean, logWarning: boolean, from: org.bukkit.Location, to: org.bukkit.Location): io.papermc.paper.event.player.PlayerFailMoveEvent
 local PlayerFailMoveEvent = {}

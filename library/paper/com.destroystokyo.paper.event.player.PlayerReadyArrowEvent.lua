@@ -2,10 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerReadyArrowEvent
 ---@class com.destroystokyo.paper.event.player.PlayerReadyArrowEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private bow org.bukkit.inventory.ItemStack
----@field private arrow org.bukkit.inventory.ItemStack
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, bow: org.bukkit.inventory.ItemStack, arrow: org.bukkit.inventory.ItemStack): com.destroystokyo.paper.event.player.PlayerReadyArrowEvent
 local PlayerReadyArrowEvent = {}
 

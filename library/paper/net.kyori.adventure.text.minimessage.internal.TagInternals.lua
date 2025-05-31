@@ -2,7 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.TagInternals
 ---@class net.kyori.adventure.text.minimessage.internal.TagInternals: java.lang.Object
----@field private TAG_NAME_PATTERN java.util.regex.Pattern
 ---@overload fun(): net.kyori.adventure.text.minimessage.internal.TagInternals
 local TagInternals = {}
 

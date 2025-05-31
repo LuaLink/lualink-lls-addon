@@ -2,9 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.EntityInsideBlockEvent
 ---@class io.papermc.paper.event.entity.EntityInsideBlockEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private block org.bukkit.block.Block
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, block: org.bukkit.block.Block): io.papermc.paper.event.entity.EntityInsideBlockEvent
 local EntityInsideBlockEvent = {}
 

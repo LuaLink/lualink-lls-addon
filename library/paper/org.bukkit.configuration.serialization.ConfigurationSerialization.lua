@@ -3,8 +3,6 @@
 -- org.bukkit.configuration.serialization.ConfigurationSerialization
 ---@class org.bukkit.configuration.serialization.ConfigurationSerialization: java.lang.Object
 ---@field public SERIALIZED_TYPE_KEY string
----@field private clazz java.lang.Class
----@field private aliases java.util.Map
 ---@overload fun(clazz: java.lang.Class): org.bukkit.configuration.serialization.ConfigurationSerialization
 local ConfigurationSerialization = {}
 

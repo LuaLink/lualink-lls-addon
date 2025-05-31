@@ -2,9 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.PufferFishStateChangeEvent
 ---@class io.papermc.paper.event.entity.PufferFishStateChangeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private newPuffState number
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.PufferFish, newPuffState: number): io.papermc.paper.event.entity.PufferFishStateChangeEvent
 local PufferFishStateChangeEvent = {}
 

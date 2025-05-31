@@ -2,11 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerPurchaseEvent
 ---@class io.papermc.paper.event.player.PlayerPurchaseEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private rewardExp boolean
----@field private increaseTradeUses boolean
----@field private trade org.bukkit.inventory.MerchantRecipe
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, trade: org.bukkit.inventory.MerchantRecipe, rewardExp: boolean, increaseTradeUses: boolean): io.papermc.paper.event.player.PlayerPurchaseEvent
 local PlayerPurchaseEvent = {}
 

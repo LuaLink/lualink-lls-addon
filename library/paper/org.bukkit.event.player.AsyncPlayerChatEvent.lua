@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.AsyncPlayerChatEvent
 ---@class org.bukkit.event.player.AsyncPlayerChatEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private message string
----@field private format string
----@field private recipients java.util.Set
----@field private cancelled boolean
 ---@overload fun(async: boolean, player: org.bukkit.entity.Player, message: string, players: java.util.Set): org.bukkit.event.player.AsyncPlayerChatEvent
 local AsyncPlayerChatEvent = {}
 

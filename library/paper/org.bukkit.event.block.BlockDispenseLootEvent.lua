@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockDispenseLootEvent
 ---@class org.bukkit.event.block.BlockDispenseLootEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
----@field private dispensedLoot java.util.List
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, dispensedLoot: java.util.List): org.bukkit.event.block.BlockDispenseLootEvent
 local BlockDispenseLootEvent = {}
 

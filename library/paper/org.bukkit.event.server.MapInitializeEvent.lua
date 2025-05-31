@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.server.MapInitializeEvent
 ---@class org.bukkit.event.server.MapInitializeEvent: org.bukkit.event.server.ServerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private mapView org.bukkit.map.MapView
 ---@overload fun(mapView: org.bukkit.map.MapView): org.bukkit.event.server.MapInitializeEvent
 local MapInitializeEvent = {}
 

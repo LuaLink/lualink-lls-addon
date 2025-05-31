@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntitySpawnEvent
 ---@class org.bukkit.event.entity.EntitySpawnEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private canceled boolean
 ---@overload fun(spawnee: org.bukkit.entity.Entity): org.bukkit.event.entity.EntitySpawnEvent
 local EntitySpawnEvent = {}
 

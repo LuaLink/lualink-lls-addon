@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.event.inventory.FurnaceBurnEvent
 ---@class org.bukkit.event.inventory.FurnaceBurnEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private fuel org.bukkit.inventory.ItemStack
----@field private burnTime number
----@field private burning boolean
----@field private consumeFuel boolean
----@field private cancelled boolean
 ---@overload fun(furnace: org.bukkit.block.Block, fuel: org.bukkit.inventory.ItemStack, burnTime: number): org.bukkit.event.inventory.FurnaceBurnEvent
 local FurnaceBurnEvent = {}
 

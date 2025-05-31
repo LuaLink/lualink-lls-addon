@@ -2,10 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerShieldDisableEvent
 ---@class io.papermc.paper.event.player.PlayerShieldDisableEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private damager org.bukkit.entity.Entity
----@field private cooldown number
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, damager: org.bukkit.entity.Entity, cooldown: number): io.papermc.paper.event.player.PlayerShieldDisableEvent
 local PlayerShieldDisableEvent = {}
 

@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerLocaleChangeEvent
 ---@class org.bukkit.event.player.PlayerLocaleChangeEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private locale string
----@field private adventure$locale java.util.Locale
 ---@overload fun(player: org.bukkit.entity.Player, locale: string): org.bukkit.event.player.PlayerLocaleChangeEvent
 local PlayerLocaleChangeEvent = {}
 

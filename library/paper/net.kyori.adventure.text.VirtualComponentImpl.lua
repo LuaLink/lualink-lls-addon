@@ -1,8 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.VirtualComponentImpl
 ---@class net.kyori.adventure.text.VirtualComponentImpl: net.kyori.adventure.text.TextComponentImpl, net.kyori.adventure.text.VirtualComponent, java.lang.Object
----@field private contextType java.lang.Class
----@field private renderer net.kyori.adventure.text.VirtualComponentRenderer
 ---@field public BuilderImpl net.kyori.adventure.text.VirtualComponentImpl.BuilderImpl
 ---@overload fun(children: java.util.List, style: net.kyori.adventure.text.format.Style, content: string, contextType: java.lang.Class, renderer: net.kyori.adventure.text.VirtualComponentRenderer): net.kyori.adventure.text.VirtualComponentImpl
 local VirtualComponentImpl = {}

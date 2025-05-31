@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockShearEntityEvent
 ---@class org.bukkit.event.block.BlockShearEntityEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private sheared org.bukkit.entity.Entity
----@field private tool org.bukkit.inventory.ItemStack
----@field private drops java.util.List
----@field private cancelled boolean
 ---@overload fun(dispenser: org.bukkit.block.Block, sheared: org.bukkit.entity.Entity, tool: org.bukkit.inventory.ItemStack, drops: java.util.List): org.bukkit.event.block.BlockShearEntityEvent
 local BlockShearEntityEvent = {}
 

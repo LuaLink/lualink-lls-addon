@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityTameEvent
 ---@class org.bukkit.event.entity.EntityTameEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private owner org.bukkit.entity.AnimalTamer
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.LivingEntity, owner: org.bukkit.entity.AnimalTamer): org.bukkit.event.entity.EntityTameEvent
 local EntityTameEvent = {}
 

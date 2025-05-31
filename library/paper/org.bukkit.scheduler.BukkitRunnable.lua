@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.scheduler.BukkitRunnable
 ---@class org.bukkit.scheduler.BukkitRunnable: function, java.lang.Object
----@field private task org.bukkit.scheduler.BukkitTask
 local BukkitRunnable = {}
 
 ---@public

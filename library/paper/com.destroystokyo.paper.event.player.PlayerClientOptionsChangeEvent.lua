@@ -2,16 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerClientOptionsChangeEvent
 ---@class com.destroystokyo.paper.event.player.PlayerClientOptionsChangeEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private locale string
----@field private viewDistance number
----@field private chatVisibility com.destroystokyo.paper.ClientOption.ChatVisibility
----@field private chatColors boolean
----@field private skinparts com.destroystokyo.paper.SkinParts
----@field private mainHand org.bukkit.inventory.MainHand
----@field private allowsServerListings boolean
----@field private textFilteringEnabled boolean
----@field private particleVisibility com.destroystokyo.paper.ClientOption.ParticleVisibility
 ---@overload fun(player: org.bukkit.entity.Player, options: java.util.Map): com.destroystokyo.paper.event.player.PlayerClientOptionsChangeEvent
 local PlayerClientOptionsChangeEvent = {}
 

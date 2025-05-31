@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockCookEvent
 ---@class org.bukkit.event.block.BlockCookEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private source org.bukkit.inventory.ItemStack
----@field private result org.bukkit.inventory.ItemStack
----@field private recipe org.bukkit.inventory.CookingRecipe
----@field private cancelled boolean
 ---@overload fun(block: org.bukkit.block.Block, source: org.bukkit.inventory.ItemStack, result: org.bukkit.inventory.ItemStack): org.bukkit.event.block.BlockCookEvent
 ---@overload fun(block: org.bukkit.block.Block, source: org.bukkit.inventory.ItemStack, result: org.bukkit.inventory.ItemStack, recipe: org.bukkit.inventory.CookingRecipe): org.bukkit.event.block.BlockCookEvent
 local BlockCookEvent = {}

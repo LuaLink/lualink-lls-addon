@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityDamageByBlockEvent
 ---@class org.bukkit.event.entity.EntityDamageByBlockEvent: org.bukkit.event.entity.EntityDamageEvent, java.lang.Object
----@field private damager org.bukkit.block.Block
----@field private damagerState org.bukkit.block.BlockState
 ---@overload fun(damager: org.bukkit.block.Block, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, damage: number): org.bukkit.event.entity.EntityDamageByBlockEvent
 ---@overload fun(damager: org.bukkit.block.Block, damagerState: org.bukkit.block.BlockState, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, damageSource: org.bukkit.damage.DamageSource, damage: number): org.bukkit.event.entity.EntityDamageByBlockEvent
 ---@overload fun(damager: org.bukkit.block.Block, damagee: org.bukkit.entity.Entity, cause: org.bukkit.event.entity.EntityDamageEvent.DamageCause, modifiers: java.util.Map, modifierFunctions: any): org.bukkit.event.entity.EntityDamageByBlockEvent

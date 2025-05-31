@@ -2,9 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerMapFilledEvent
 ---@class io.papermc.paper.event.player.PlayerMapFilledEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private originalItem org.bukkit.inventory.ItemStack
----@field private createdMap org.bukkit.inventory.ItemStack
 ---@overload fun(player: org.bukkit.entity.Player, originalItem: org.bukkit.inventory.ItemStack, createdMap: org.bukkit.inventory.ItemStack): io.papermc.paper.event.player.PlayerMapFilledEvent
 local PlayerMapFilledEvent = {}
 

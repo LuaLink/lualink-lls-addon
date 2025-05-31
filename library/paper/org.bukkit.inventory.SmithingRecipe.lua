@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.inventory.SmithingRecipe
 ---@class org.bukkit.inventory.SmithingRecipe: org.bukkit.inventory.Recipe, org.bukkit.Keyed, java.lang.Object
----@field private key org.bukkit.NamespacedKey
----@field private result org.bukkit.inventory.ItemStack
----@field private base org.bukkit.inventory.RecipeChoice
----@field private addition org.bukkit.inventory.RecipeChoice
----@field private copyDataComponents boolean
 ---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack, base: org.bukkit.inventory.RecipeChoice, addition: org.bukkit.inventory.RecipeChoice): org.bukkit.inventory.SmithingRecipe
 ---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack, base: org.bukkit.inventory.RecipeChoice, addition: org.bukkit.inventory.RecipeChoice, copyDataComponents: boolean): org.bukkit.inventory.SmithingRecipe
 local SmithingRecipe = {}

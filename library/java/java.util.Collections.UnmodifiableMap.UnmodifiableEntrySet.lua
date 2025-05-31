@@ -2,9 +2,7 @@
 ---@meta
 -- java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet
 ---@class java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet: java.util.Collections.UnmodifiableSet, java.lang.Object
----@field private serialVersionUID number
 ---@field public UnmodifiableEntrySetSpliterator java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet.UnmodifiableEntrySetSpliterator
----@field private UnmodifiableEntry java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet.UnmodifiableEntry
 ---@overload fun(s: java.util.Set): java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet
 local UnmodifiableEntrySet = {}
 

@@ -2,19 +2,6 @@
 ---@meta
 -- org.bukkit.persistence.ListPersistentDataTypeProvider
 ---@class org.bukkit.persistence.ListPersistentDataTypeProvider: java.lang.Object
----@field private BYTE org.bukkit.persistence.ListPersistentDataType
----@field private SHORT org.bukkit.persistence.ListPersistentDataType
----@field private INTEGER org.bukkit.persistence.ListPersistentDataType
----@field private LONG org.bukkit.persistence.ListPersistentDataType
----@field private FLOAT org.bukkit.persistence.ListPersistentDataType
----@field private DOUBLE org.bukkit.persistence.ListPersistentDataType
----@field private BOOLEAN org.bukkit.persistence.ListPersistentDataType
----@field private STRING org.bukkit.persistence.ListPersistentDataType
----@field private BYTE_ARRAY org.bukkit.persistence.ListPersistentDataType
----@field private INTEGER_ARRAY org.bukkit.persistence.ListPersistentDataType
----@field private LONG_ARRAY org.bukkit.persistence.ListPersistentDataType
----@field private DATA_CONTAINER org.bukkit.persistence.ListPersistentDataType
----@field private ListPersistentDataTypeImpl org.bukkit.persistence.ListPersistentDataTypeProvider.ListPersistentDataTypeImpl
 ---@overload fun(): org.bukkit.persistence.ListPersistentDataTypeProvider
 local ListPersistentDataTypeProvider = {}
 

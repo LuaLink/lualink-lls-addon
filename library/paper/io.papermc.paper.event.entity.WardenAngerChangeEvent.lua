@@ -2,11 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.WardenAngerChangeEvent
 ---@class io.papermc.paper.event.entity.WardenAngerChangeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private target org.bukkit.entity.Entity
----@field private oldAnger number
----@field private newAnger number
----@field private cancelled boolean
 ---@overload fun(warden: org.bukkit.entity.Warden, target: org.bukkit.entity.Entity, oldAnger: number, newAnger: number): io.papermc.paper.event.entity.WardenAngerChangeEvent
 local WardenAngerChangeEvent = {}
 

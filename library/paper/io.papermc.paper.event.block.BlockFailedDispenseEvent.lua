@@ -2,8 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.block.BlockFailedDispenseEvent
 ---@class io.papermc.paper.event.block.BlockFailedDispenseEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private shouldPlayEffect boolean
 ---@overload fun(block: org.bukkit.block.Block): io.papermc.paper.event.block.BlockFailedDispenseEvent
 local BlockFailedDispenseEvent = {}
 

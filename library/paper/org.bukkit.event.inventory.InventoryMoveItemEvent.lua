@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.event.inventory.InventoryMoveItemEvent
 ---@class org.bukkit.event.inventory.InventoryMoveItemEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private sourceInventory org.bukkit.inventory.Inventory
----@field private destinationInventory org.bukkit.inventory.Inventory
----@field private itemStack org.bukkit.inventory.ItemStack
----@field private didSourceInitiate boolean
----@field private cancelled boolean
 ---@overload fun(sourceInventory: org.bukkit.inventory.Inventory, itemStack: org.bukkit.inventory.ItemStack, destinationInventory: org.bukkit.inventory.Inventory, didSourceInitiate: boolean): org.bukkit.event.inventory.InventoryMoveItemEvent
 local InventoryMoveItemEvent = {}
 

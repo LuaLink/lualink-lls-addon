@@ -1,12 +1,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerBedFailEnterEvent
 ---@class io.papermc.paper.event.player.PlayerBedFailEnterEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private failReason io.papermc.paper.event.player.PlayerBedFailEnterEvent.FailReason
----@field private bed org.bukkit.block.Block
----@field private willExplode boolean
----@field private message net.kyori.adventure.text.Component
----@field private cancelled boolean
 ---@field public FailReason io.papermc.paper.event.player.PlayerBedFailEnterEvent.FailReason
 ---@overload fun(player: org.bukkit.entity.Player, failReason: io.papermc.paper.event.player.PlayerBedFailEnterEvent.FailReason, bed: org.bukkit.block.Block, willExplode: boolean, message: net.kyori.adventure.text.Component): io.papermc.paper.event.player.PlayerBedFailEnterEvent
 local PlayerBedFailEnterEvent = {}

@@ -2,7 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.entity.villager.Reputation
 ---@class com.destroystokyo.paper.entity.villager.Reputation: java.lang.Object
----@field private reputation java.util.Map
 ---@overload fun(): com.destroystokyo.paper.entity.villager.Reputation
 ---@overload fun(reputation: java.util.Map): com.destroystokyo.paper.entity.villager.Reputation
 local Reputation = {}

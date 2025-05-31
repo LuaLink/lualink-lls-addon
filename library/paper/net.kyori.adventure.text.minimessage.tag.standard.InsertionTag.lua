@@ -2,7 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.InsertionTag
 ---@class net.kyori.adventure.text.minimessage.tag.standard.InsertionTag: java.lang.Object
----@field private INSERTION string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.InsertionTag
 local InsertionTag = {}

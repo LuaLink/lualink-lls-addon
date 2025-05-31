@@ -2,10 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode
 ---@class net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode: net.kyori.adventure.text.minimessage.tree.Node, java.lang.Object
----@field private parent net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode
----@field private token net.kyori.adventure.text.minimessage.internal.parser.Token
----@field private sourceMessage string
----@field private children java.util.List
 ---@overload fun(parent: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode, token: net.kyori.adventure.text.minimessage.internal.parser.Token, sourceMessage: string): net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode
 local ElementNode = {}
 

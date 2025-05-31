@@ -2,14 +2,6 @@
 ---@meta
 -- org.bukkit.event.world.LootGenerateEvent
 ---@class org.bukkit.event.world.LootGenerateEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private entity org.bukkit.entity.Entity
----@field private inventoryHolder org.bukkit.inventory.InventoryHolder
----@field private lootTable org.bukkit.loot.LootTable
----@field private lootContext org.bukkit.loot.LootContext
----@field private loot java.util.List
----@field private plugin boolean
----@field private cancelled boolean
 ---@overload fun(world: org.bukkit.World, entity: org.bukkit.entity.Entity, inventoryHolder: org.bukkit.inventory.InventoryHolder, lootTable: org.bukkit.loot.LootTable, lootContext: org.bukkit.loot.LootContext, items: java.util.List, plugin: boolean): org.bukkit.event.world.LootGenerateEvent
 local LootGenerateEvent = {}
 

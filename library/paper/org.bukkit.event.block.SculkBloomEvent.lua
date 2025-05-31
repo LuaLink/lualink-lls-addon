@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.SculkBloomEvent
 ---@class org.bukkit.event.block.SculkBloomEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private charge number
----@field private cancelled boolean
 ---@overload fun(block: org.bukkit.block.Block, charge: number): org.bukkit.event.block.SculkBloomEvent
 local SculkBloomEvent = {}
 

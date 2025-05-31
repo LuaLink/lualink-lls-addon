@@ -1,14 +1,6 @@
 ---@meta
 -- net.kyori.adventure.sound.SoundImpl.BuilderImpl
 ---@class net.kyori.adventure.sound.SoundImpl.BuilderImpl: net.kyori.adventure.sound.Sound.Builder, java.lang.Object
----@field private DEFAULT_VOLUME number
----@field private DEFAULT_PITCH number
----@field private eagerType any
----@field private lazyType function
----@field private source net.kyori.adventure.sound.Sound.Source
----@field private volume number
----@field private pitch number
----@field private seed java.util.OptionalLong
 ---@overload fun(): net.kyori.adventure.sound.SoundImpl.BuilderImpl
 ---@overload fun(existing: net.kyori.adventure.sound.Sound): net.kyori.adventure.sound.SoundImpl.BuilderImpl
 local BuilderImpl = {}

@@ -2,7 +2,6 @@
 ---@meta
 -- co.aikar.timings.FullServerTickHandler
 ---@class co.aikar.timings.FullServerTickHandler: co.aikar.timings.TimingHandler, java.lang.Object
----@field private IDENTITY co.aikar.timings.TimingIdentifier
 ---@field public minuteData co.aikar.timings.TimingData
 ---@field public avgFreeMemory number
 ---@field public avgUsedMemory number

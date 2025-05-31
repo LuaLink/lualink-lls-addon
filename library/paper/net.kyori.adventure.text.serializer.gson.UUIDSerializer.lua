@@ -1,7 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.UUIDSerializer
 ---@class net.kyori.adventure.text.serializer.gson.UUIDSerializer: any, java.lang.Object
----@field private emitIntArray boolean
 ---@overload fun(emitIntArray: boolean): net.kyori.adventure.text.serializer.gson.UUIDSerializer
 local UUIDSerializer = {}
 

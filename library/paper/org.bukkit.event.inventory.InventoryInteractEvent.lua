@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.event.inventory.InventoryInteractEvent
 ---@class org.bukkit.event.inventory.InventoryInteractEvent: org.bukkit.event.inventory.InventoryEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private result org.bukkit.event.Event.Result
 ---@overload fun(transaction: org.bukkit.inventory.InventoryView): org.bukkit.event.inventory.InventoryInteractEvent
 local InventoryInteractEvent = {}
 

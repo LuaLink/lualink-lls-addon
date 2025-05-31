@@ -1,9 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.serializer.StyleClaimingResolverImpl
 ---@class net.kyori.adventure.text.minimessage.internal.serializer.StyleClaimingResolverImpl: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver.Single, java.lang.Object
----@field private names java.util.Set
----@field private handler function
----@field private styleClaim net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim
 ---@overload fun(names: java.util.Set, handler: function, styleClaim: net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim): net.kyori.adventure.text.minimessage.internal.serializer.StyleClaimingResolverImpl
 local StyleClaimingResolverImpl = {}
 

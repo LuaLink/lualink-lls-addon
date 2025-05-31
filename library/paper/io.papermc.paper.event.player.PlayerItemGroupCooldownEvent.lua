@@ -2,10 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.player.PlayerItemGroupCooldownEvent
 ---@class io.papermc.paper.event.player.PlayerItemGroupCooldownEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cooldownGroup org.bukkit.NamespacedKey
----@field private cooldown number
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, cooldownGroup: org.bukkit.NamespacedKey, cooldown: number): io.papermc.paper.event.player.PlayerItemGroupCooldownEvent
 local PlayerItemGroupCooldownEvent = {}
 

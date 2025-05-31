@@ -1,9 +1,6 @@
 ---@meta
 -- net.kyori.adventure.resource.ResourcePackInfoImpl
 ---@class net.kyori.adventure.resource.ResourcePackInfoImpl: net.kyori.adventure.resource.ResourcePackInfo, java.lang.Object
----@field private id java.util.UUID
----@field private uri java.net.URI
----@field private hash string
 ---@field public BuilderImpl net.kyori.adventure.resource.ResourcePackInfoImpl.BuilderImpl
 ---@overload fun(id: java.util.UUID, uri: java.net.URI, hash: string): net.kyori.adventure.resource.ResourcePackInfoImpl
 local ResourcePackInfoImpl = {}

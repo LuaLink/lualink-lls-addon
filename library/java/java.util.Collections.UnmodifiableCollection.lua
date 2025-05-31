@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.UnmodifiableCollection
 ---@class java.util.Collections.UnmodifiableCollection: java.util.Collection, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 ---@field public c java.util.Collection
 ---@overload fun(c: java.util.Collection): java.util.Collections.UnmodifiableCollection
 local UnmodifiableCollection = {}

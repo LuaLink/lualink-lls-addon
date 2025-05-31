@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.potion.PotionData
 ---@class org.bukkit.potion.PotionData: java.lang.Object
----@field private type org.bukkit.potion.PotionType
----@field private extended boolean
----@field private upgraded boolean
 ---@overload fun(type: org.bukkit.potion.PotionType, extended: boolean, upgraded: boolean): org.bukkit.potion.PotionData
 ---@overload fun(type: org.bukkit.potion.PotionType): org.bukkit.potion.PotionData
 local PotionData = {}

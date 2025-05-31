@@ -1,7 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.TranslationArgumentSerializer
 ---@class net.kyori.adventure.text.serializer.gson.TranslationArgumentSerializer: any, java.lang.Object
----@field private gson any
 ---@overload fun(gson: any): net.kyori.adventure.text.serializer.gson.TranslationArgumentSerializer
 local TranslationArgumentSerializer = {}
 

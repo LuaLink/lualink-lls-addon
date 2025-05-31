@@ -2,7 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.ClickTag
 ---@class net.kyori.adventure.text.minimessage.tag.standard.ClickTag: java.lang.Object
----@field private CLICK string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.ClickTag
 local ClickTag = {}

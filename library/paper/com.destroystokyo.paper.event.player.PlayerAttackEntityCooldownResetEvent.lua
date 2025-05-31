@@ -2,10 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerAttackEntityCooldownResetEvent
 ---@class com.destroystokyo.paper.event.player.PlayerAttackEntityCooldownResetEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private attackedEntity org.bukkit.entity.Entity
----@field private cooledAttackStrength number
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, attackedEntity: org.bukkit.entity.Entity, cooledAttackStrength: number): com.destroystokyo.paper.event.player.PlayerAttackEntityCooldownResetEvent
 local PlayerAttackEntityCooldownResetEvent = {}
 

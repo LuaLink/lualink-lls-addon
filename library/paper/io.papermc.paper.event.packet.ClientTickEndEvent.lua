@@ -2,7 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.packet.ClientTickEndEvent
 ---@class io.papermc.paper.event.packet.ClientTickEndEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@overload fun(player: org.bukkit.entity.Player): io.papermc.paper.event.packet.ClientTickEndEvent
 local ClientTickEndEvent = {}
 

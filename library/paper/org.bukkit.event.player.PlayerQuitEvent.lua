@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerQuitEvent
 ---@class org.bukkit.event.player.PlayerQuitEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private reason org.bukkit.event.player.PlayerQuitEvent.QuitReason
----@field private quitMessage net.kyori.adventure.text.Component
 ---@field public QuitReason org.bukkit.event.player.PlayerQuitEvent.QuitReason
 ---@overload fun(player: org.bukkit.entity.Player, quitMessage: string): org.bukkit.event.player.PlayerQuitEvent
 ---@overload fun(player: org.bukkit.entity.Player, quitMessage: string, quitReason: org.bukkit.event.player.PlayerQuitEvent.QuitReason): org.bukkit.event.player.PlayerQuitEvent

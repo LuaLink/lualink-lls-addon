@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockSpreadEvent
 ---@class org.bukkit.event.block.BlockSpreadEvent: org.bukkit.event.block.BlockFormEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private source org.bukkit.block.Block
 ---@overload fun(block: org.bukkit.block.Block, source: org.bukkit.block.Block, newState: org.bukkit.block.BlockState): org.bukkit.event.block.BlockSpreadEvent
 local BlockSpreadEvent = {}
 

@@ -2,8 +2,6 @@
 ---@meta
 -- java.util.Collections.CheckedNavigableMap
 ---@class java.util.Collections.CheckedNavigableMap: java.util.Collections.CheckedSortedMap, java.util.NavigableMap, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
----@field private nm java.util.NavigableMap
 ---@overload fun(m: java.util.NavigableMap, keyType: java.lang.Class, valueType: java.lang.Class): java.util.Collections.CheckedNavigableMap
 local CheckedNavigableMap = {}
 

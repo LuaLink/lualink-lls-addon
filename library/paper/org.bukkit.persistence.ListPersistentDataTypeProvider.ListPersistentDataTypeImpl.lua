@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.persistence.ListPersistentDataTypeProvider.ListPersistentDataTypeImpl
 ---@class org.bukkit.persistence.ListPersistentDataTypeProvider.ListPersistentDataTypeImpl: org.bukkit.persistence.ListPersistentDataType, java.lang.Object
----@field private innerType org.bukkit.persistence.PersistentDataType
 ---@overload fun(innerType: org.bukkit.persistence.PersistentDataType): org.bukkit.persistence.ListPersistentDataTypeProvider.ListPersistentDataTypeImpl
 local ListPersistentDataTypeImpl = {}
 

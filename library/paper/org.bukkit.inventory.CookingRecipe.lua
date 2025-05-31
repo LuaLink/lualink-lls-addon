@@ -2,13 +2,6 @@
 ---@meta
 -- org.bukkit.inventory.CookingRecipe
 ---@class org.bukkit.inventory.CookingRecipe: org.bukkit.inventory.Recipe, org.bukkit.Keyed, java.lang.Object
----@field private key org.bukkit.NamespacedKey
----@field private output org.bukkit.inventory.ItemStack
----@field private ingredient org.bukkit.inventory.RecipeChoice
----@field private experience number
----@field private cookingTime number
----@field private group string
----@field private category org.bukkit.inventory.recipe.CookingBookCategory
 ---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack, source: org.bukkit.Material, experience: number, cookingTime: number): org.bukkit.inventory.CookingRecipe
 ---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack, input: org.bukkit.inventory.RecipeChoice, experience: number, cookingTime: number): org.bukkit.inventory.CookingRecipe
 local CookingRecipe = {}

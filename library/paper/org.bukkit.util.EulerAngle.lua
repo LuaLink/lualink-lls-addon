@@ -3,9 +3,6 @@
 -- org.bukkit.util.EulerAngle
 ---@class org.bukkit.util.EulerAngle: java.lang.Object
 ---@field public ZERO org.bukkit.util.EulerAngle
----@field private x number
----@field private y number
----@field private z number
 ---@overload fun(x: number, y: number, z: number): org.bukkit.util.EulerAngle
 local EulerAngle = {}
 

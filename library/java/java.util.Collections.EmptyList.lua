@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.EmptyList
 ---@class java.util.Collections.EmptyList: java.util.AbstractList, java.util.RandomAccess, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 local EmptyList = {}
 
 ---@public

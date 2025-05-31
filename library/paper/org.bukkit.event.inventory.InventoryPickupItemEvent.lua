@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.inventory.InventoryPickupItemEvent
 ---@class org.bukkit.event.inventory.InventoryPickupItemEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private inventory org.bukkit.inventory.Inventory
----@field private item org.bukkit.entity.Item
----@field private cancelled boolean
 ---@overload fun(inventory: org.bukkit.inventory.Inventory, item: org.bukkit.entity.Item): org.bukkit.event.inventory.InventoryPickupItemEvent
 local InventoryPickupItemEvent = {}
 

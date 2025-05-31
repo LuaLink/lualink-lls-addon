@@ -1,7 +1,6 @@
 ---@meta
 -- org.bukkit.command.FormattedCommandAlias
 ---@class org.bukkit.command.FormattedCommandAlias: org.bukkit.command.Command, java.lang.Object
----@field private formatStrings string
 ---@overload fun(alias: string, formatStrings: table<string>): org.bukkit.command.FormattedCommandAlias
 local FormattedCommandAlias = {}
 

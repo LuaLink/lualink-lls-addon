@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerArmorStandManipulateEvent
 ---@class org.bukkit.event.player.PlayerArmorStandManipulateEvent: org.bukkit.event.player.PlayerInteractEntityEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private playerItem org.bukkit.inventory.ItemStack
----@field private armorStandItem org.bukkit.inventory.ItemStack
----@field private slot org.bukkit.inventory.EquipmentSlot
 ---@overload fun(player: org.bukkit.entity.Player, clickedEntity: org.bukkit.entity.ArmorStand, playerItem: org.bukkit.inventory.ItemStack, armorStandItem: org.bukkit.inventory.ItemStack, slot: org.bukkit.inventory.EquipmentSlot, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.player.PlayerArmorStandManipulateEvent
 ---@overload fun(player: org.bukkit.entity.Player, clickedEntity: org.bukkit.entity.ArmorStand, playerItem: org.bukkit.inventory.ItemStack, armorStandItem: org.bukkit.inventory.ItemStack, slot: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.player.PlayerArmorStandManipulateEvent
 local PlayerArmorStandManipulateEvent = {}

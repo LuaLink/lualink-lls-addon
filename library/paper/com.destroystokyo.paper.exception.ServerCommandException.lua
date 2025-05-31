@@ -2,9 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.exception.ServerCommandException
 ---@class com.destroystokyo.paper.exception.ServerCommandException: com.destroystokyo.paper.exception.ServerException, java.lang.Object
----@field private command org.bukkit.command.Command
----@field private commandSender org.bukkit.command.CommandSender
----@field private arguments string
 ---@overload fun(message: string, cause: java.lang.Throwable, command: org.bukkit.command.Command, commandSender: org.bukkit.command.CommandSender, arguments: table<string>): com.destroystokyo.paper.exception.ServerCommandException
 ---@overload fun(cause: java.lang.Throwable, command: org.bukkit.command.Command, commandSender: org.bukkit.command.CommandSender, arguments: table<string>): com.destroystokyo.paper.exception.ServerCommandException
 ---@overload fun(message: string, cause: java.lang.Throwable, enableSuppression: boolean, writableStackTrace: boolean, command: org.bukkit.command.Command, commandSender: org.bukkit.command.CommandSender, arguments: table<string>): com.destroystokyo.paper.exception.ServerCommandException

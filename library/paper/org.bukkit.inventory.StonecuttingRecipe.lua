@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.inventory.StonecuttingRecipe
 ---@class org.bukkit.inventory.StonecuttingRecipe: org.bukkit.inventory.Recipe, org.bukkit.Keyed, java.lang.Object
----@field private key org.bukkit.NamespacedKey
----@field private output org.bukkit.inventory.ItemStack
----@field private ingredient org.bukkit.inventory.RecipeChoice
----@field private group string
 ---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack, source: org.bukkit.Material): org.bukkit.inventory.StonecuttingRecipe
 ---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack, input: org.bukkit.inventory.RecipeChoice): org.bukkit.inventory.StonecuttingRecipe
 local StonecuttingRecipe = {}

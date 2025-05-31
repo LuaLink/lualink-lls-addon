@@ -2,8 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.EntityJumpEvent
 ---@class com.destroystokyo.paper.event.entity.EntityJumpEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.LivingEntity): com.destroystokyo.paper.event.entity.EntityJumpEvent
 local EntityJumpEvent = {}
 

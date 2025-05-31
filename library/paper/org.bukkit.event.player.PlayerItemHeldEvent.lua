@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerItemHeldEvent
 ---@class org.bukkit.event.player.PlayerItemHeldEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private previous number
----@field private current number
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, previous: number, current: number): org.bukkit.event.player.PlayerItemHeldEvent
 local PlayerItemHeldEvent = {}
 

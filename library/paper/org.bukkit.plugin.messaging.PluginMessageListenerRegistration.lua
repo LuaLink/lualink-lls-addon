@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.plugin.messaging.PluginMessageListenerRegistration
 ---@class org.bukkit.plugin.messaging.PluginMessageListenerRegistration: java.lang.Object
----@field private messenger org.bukkit.plugin.messaging.Messenger
----@field private plugin org.bukkit.plugin.Plugin
----@field private channel string
----@field private listener org.bukkit.plugin.messaging.PluginMessageListener
 ---@overload fun(messenger: org.bukkit.plugin.messaging.Messenger, plugin: org.bukkit.plugin.Plugin, channel: string, listener: org.bukkit.plugin.messaging.PluginMessageListener): org.bukkit.plugin.messaging.PluginMessageListenerRegistration
 local PluginMessageListenerRegistration = {}
 

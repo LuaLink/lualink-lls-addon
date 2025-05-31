@@ -1,9 +1,6 @@
 ---@meta
 -- net.kyori.adventure.inventory.BookImpl
 ---@class net.kyori.adventure.inventory.BookImpl: net.kyori.adventure.inventory.Book, java.lang.Object
----@field private title net.kyori.adventure.text.Component
----@field private author net.kyori.adventure.text.Component
----@field private pages java.util.List
 ---@field public BuilderImpl net.kyori.adventure.inventory.BookImpl.BuilderImpl
 ---@overload fun(title: net.kyori.adventure.text.Component, author: net.kyori.adventure.text.Component, pages: java.util.List): net.kyori.adventure.inventory.BookImpl
 local BookImpl = {}

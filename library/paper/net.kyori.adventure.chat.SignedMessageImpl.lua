@@ -2,10 +2,6 @@
 -- net.kyori.adventure.chat.SignedMessageImpl
 ---@class net.kyori.adventure.chat.SignedMessageImpl: net.kyori.adventure.chat.SignedMessage, java.lang.Object
 ---@field public RANDOM java.security.SecureRandom
----@field private instant java.time.Instant
----@field private salt number
----@field private message string
----@field private unsignedContent net.kyori.adventure.text.Component
 ---@field public SignatureImpl net.kyori.adventure.chat.SignedMessageImpl.SignatureImpl
 ---@overload fun(message: string, unsignedContent: net.kyori.adventure.text.Component): net.kyori.adventure.chat.SignedMessageImpl
 local SignedMessageImpl = {}

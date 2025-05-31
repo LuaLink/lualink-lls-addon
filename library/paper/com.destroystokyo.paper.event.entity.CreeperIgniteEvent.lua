@@ -2,9 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.CreeperIgniteEvent
 ---@class com.destroystokyo.paper.event.entity.CreeperIgniteEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private ignited boolean
----@field private cancelled boolean
 ---@overload fun(creeper: org.bukkit.entity.Creeper, ignited: boolean): com.destroystokyo.paper.event.entity.CreeperIgniteEvent
 local CreeperIgniteEvent = {}
 

@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerCommandSendEvent
 ---@class org.bukkit.event.player.PlayerCommandSendEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private commands java.util.Collection
 ---@overload fun(player: org.bukkit.entity.Player, commands: java.util.Collection): org.bukkit.event.player.PlayerCommandSendEvent
 local PlayerCommandSendEvent = {}
 

@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.ItemDespawnEvent
 ---@class org.bukkit.event.entity.ItemDespawnEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private location org.bukkit.Location
----@field private cancelled boolean
 ---@overload fun(despawnee: org.bukkit.entity.Item, location: org.bukkit.Location): org.bukkit.event.entity.ItemDespawnEvent
 local ItemDespawnEvent = {}
 

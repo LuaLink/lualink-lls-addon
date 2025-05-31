@@ -1,10 +1,6 @@
 ---@meta
 -- io.papermc.paper.event.block.BlockPreDispenseEvent
 ---@class io.papermc.paper.event.block.BlockPreDispenseEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private itemStack org.bukkit.inventory.ItemStack
----@field private slot number
----@field private cancelled boolean
 ---@overload fun(block: org.bukkit.block.Block, itemStack: org.bukkit.inventory.ItemStack, slot: number): io.papermc.paper.event.block.BlockPreDispenseEvent
 local BlockPreDispenseEvent = {}
 

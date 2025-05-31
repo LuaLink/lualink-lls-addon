@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerRespawnEvent
 ---@class org.bukkit.event.player.PlayerRespawnEvent: io.papermc.paper.event.player.AbstractRespawnEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field public RespawnReason org.bukkit.event.player.PlayerRespawnEvent.RespawnReason
 ---@field public RespawnFlag org.bukkit.event.player.PlayerRespawnEvent.RespawnFlag
 ---@overload fun(respawnPlayer: org.bukkit.entity.Player, respawnLocation: org.bukkit.Location, isBedSpawn: boolean): org.bukkit.event.player.PlayerRespawnEvent

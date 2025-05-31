@@ -1,7 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.GsonDataComponentValueImpl
 ---@class net.kyori.adventure.text.serializer.gson.GsonDataComponentValueImpl: net.kyori.adventure.text.serializer.gson.GsonDataComponentValue, java.lang.Object
----@field private element any
 ---@field public RemovedGsonComponentValueImpl net.kyori.adventure.text.serializer.gson.GsonDataComponentValueImpl.RemovedGsonComponentValueImpl
 ---@overload fun(element: any): net.kyori.adventure.text.serializer.gson.GsonDataComponentValueImpl
 local GsonDataComponentValueImpl = {}

@@ -2,8 +2,6 @@
 ---@meta
 -- java.util.Collections.SynchronizedSortedSet
 ---@class java.util.Collections.SynchronizedSortedSet: java.util.Collections.SynchronizedSet, java.util.SortedSet, java.lang.Object
----@field private serialVersionUID number
----@field private ss java.util.SortedSet
 ---@overload fun(s: java.util.SortedSet): java.util.Collections.SynchronizedSortedSet
 ---@overload fun(s: java.util.SortedSet, mutex: java.lang.Object): java.util.Collections.SynchronizedSortedSet
 local SynchronizedSortedSet = {}

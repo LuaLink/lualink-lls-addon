@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.CheckedRandomAccessList
 ---@class java.util.Collections.CheckedRandomAccessList: java.util.Collections.CheckedList, java.util.RandomAccess, java.lang.Object
----@field private serialVersionUID number
 ---@overload fun(list: java.util.List, type: java.lang.Class): java.util.Collections.CheckedRandomAccessList
 local CheckedRandomAccessList = {}
 

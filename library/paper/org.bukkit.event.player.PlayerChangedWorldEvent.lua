@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerChangedWorldEvent
 ---@class org.bukkit.event.player.PlayerChangedWorldEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private from org.bukkit.World
 ---@overload fun(player: org.bukkit.entity.Player, from: org.bukkit.World): org.bukkit.event.player.PlayerChangedWorldEvent
 local PlayerChangedWorldEvent = {}
 

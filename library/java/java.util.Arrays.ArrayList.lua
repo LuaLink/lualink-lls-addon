@@ -2,8 +2,6 @@
 ---@meta
 -- java.util.Arrays.ArrayList
 ---@class java.util.Arrays.ArrayList: java.util.AbstractList, java.util.RandomAccess, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
----@field private a E
 ---@overload fun(array: table<E>): java.util.Arrays.ArrayList
 local ArrayList = {}
 

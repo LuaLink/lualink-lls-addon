@@ -2,9 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.exception.ServerPluginMessageException
 ---@class com.destroystokyo.paper.exception.ServerPluginMessageException: com.destroystokyo.paper.exception.ServerPluginException, java.lang.Object
----@field private player org.bukkit.entity.Player
----@field private channel string
----@field private data number
 ---@overload fun(message: string, cause: java.lang.Throwable, responsiblePlugin: org.bukkit.plugin.Plugin, player: org.bukkit.entity.Player, channel: string, data: table<number>): com.destroystokyo.paper.exception.ServerPluginMessageException
 ---@overload fun(cause: java.lang.Throwable, responsiblePlugin: org.bukkit.plugin.Plugin, player: org.bukkit.entity.Player, channel: string, data: table<number>): com.destroystokyo.paper.exception.ServerPluginMessageException
 ---@overload fun(message: string, cause: java.lang.Throwable, enableSuppression: boolean, writableStackTrace: boolean, responsiblePlugin: org.bukkit.plugin.Plugin, player: org.bukkit.entity.Player, channel: string, data: table<number>): com.destroystokyo.paper.exception.ServerPluginMessageException

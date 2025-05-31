@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BellRingEvent
 ---@class org.bukkit.event.block.BellRingEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private direction org.bukkit.block.BlockFace
----@field private entity org.bukkit.entity.Entity
----@field private cancelled boolean
 ---@overload fun(block: org.bukkit.block.Block, direction: org.bukkit.block.BlockFace, entity: org.bukkit.entity.Entity): org.bukkit.event.block.BellRingEvent
 local BellRingEvent = {}
 

@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.InventoryBlockStartEvent
 ---@class org.bukkit.event.block.InventoryBlockStartEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@field protected source org.bukkit.inventory.ItemStack
 ---@overload fun(block: org.bukkit.block.Block, source: org.bukkit.inventory.ItemStack): org.bukkit.event.block.InventoryBlockStartEvent
 local InventoryBlockStartEvent = {}

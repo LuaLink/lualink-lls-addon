@@ -1,13 +1,6 @@
 ---@meta
 -- org.bukkit.command.defaults.VersionCommand
 ---@class org.bukkit.command.defaults.VersionCommand: org.bukkit.command.defaults.BukkitCommand, java.lang.Object
----@field private versionFetcher com.destroystokyo.paper.util.VersionFetcher
----@field private versionLock java.util.concurrent.locks.ReentrantLock
----@field private hasVersion boolean
----@field private versionMessage net.kyori.adventure.text.Component
----@field private versionWaiters java.util.Set
----@field private versionTaskStarted boolean
----@field private lastCheck number
 ---@overload fun(name: string): org.bukkit.command.defaults.VersionCommand
 local VersionCommand = {}
 

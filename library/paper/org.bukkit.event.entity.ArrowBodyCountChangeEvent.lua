@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.ArrowBodyCountChangeEvent
 ---@class org.bukkit.event.entity.ArrowBodyCountChangeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private reset boolean
----@field private oldAmount number
----@field private newAmount number
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.LivingEntity, oldAmount: number, newAmount: number, reset: boolean): org.bukkit.event.entity.ArrowBodyCountChangeEvent
 local ArrowBodyCountChangeEvent = {}
 

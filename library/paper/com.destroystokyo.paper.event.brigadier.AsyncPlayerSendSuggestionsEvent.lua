@@ -2,10 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.brigadier.AsyncPlayerSendSuggestionsEvent
 ---@class com.destroystokyo.paper.event.brigadier.AsyncPlayerSendSuggestionsEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cancelled boolean
----@field private suggestions any
----@field private buffer string
 ---@overload fun(player: org.bukkit.entity.Player, suggestions: any, buffer: string): com.destroystokyo.paper.event.brigadier.AsyncPlayerSendSuggestionsEvent
 local AsyncPlayerSendSuggestionsEvent = {}
 

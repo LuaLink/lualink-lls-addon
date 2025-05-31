@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.material.Step
 ---@class org.bukkit.material.Step: org.bukkit.material.TexturedMaterial, java.lang.Object
----@field private textures java.util.List
 ---@overload fun(): org.bukkit.material.Step
 ---@overload fun(type: org.bukkit.Material): org.bukkit.material.Step
 ---@overload fun(type: org.bukkit.Material, data: number): org.bukkit.material.Step

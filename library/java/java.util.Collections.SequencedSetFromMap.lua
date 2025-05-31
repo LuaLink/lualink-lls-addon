@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.SequencedSetFromMap
 ---@class java.util.Collections.SequencedSetFromMap: java.util.Collections.SetFromMap, java.util.SequencedSet, java.lang.Object
----@field private serialVersionUID number
 ---@overload fun(map: java.util.SequencedMap): java.util.Collections.SequencedSetFromMap
 local SequencedSetFromMap = {}
 

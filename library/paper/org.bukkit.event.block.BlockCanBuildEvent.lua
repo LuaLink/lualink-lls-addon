@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockCanBuildEvent
 ---@class org.bukkit.event.block.BlockCanBuildEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
----@field private hand org.bukkit.inventory.EquipmentSlot
 ---@field protected blockData org.bukkit.block.data.BlockData
 ---@field protected buildable boolean
 ---@overload fun(block: org.bukkit.block.Block, type: org.bukkit.block.data.BlockData, canBuild: boolean): org.bukkit.event.block.BlockCanBuildEvent

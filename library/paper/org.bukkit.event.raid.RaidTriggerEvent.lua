@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.raid.RaidTriggerEvent
 ---@class org.bukkit.event.raid.RaidTriggerEvent: org.bukkit.event.raid.RaidEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
----@field private cancelled boolean
 ---@overload fun(raid: org.bukkit.Raid, world: org.bukkit.World, player: org.bukkit.entity.Player): org.bukkit.event.raid.RaidTriggerEvent
 local RaidTriggerEvent = {}
 

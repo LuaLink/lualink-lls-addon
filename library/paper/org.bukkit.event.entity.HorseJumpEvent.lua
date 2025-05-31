@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.HorseJumpEvent
 ---@class org.bukkit.event.entity.HorseJumpEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private power number
----@field private cancelled boolean
 ---@overload fun(horse: org.bukkit.entity.AbstractHorse, power: number): org.bukkit.event.entity.HorseJumpEvent
 local HorseJumpEvent = {}
 

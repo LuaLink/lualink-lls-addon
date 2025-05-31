@@ -2,17 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.ParticleBuilder
 ---@class com.destroystokyo.paper.ParticleBuilder: java.lang.Cloneable, java.lang.Object
----@field private particle org.bukkit.Particle
----@field private receivers java.util.List
----@field private source org.bukkit.entity.Player
----@field private location org.bukkit.Location
----@field private count number
----@field private offsetX number
----@field private offsetY number
----@field private offsetZ number
----@field private extra number
----@field private data java.lang.Object
----@field private force boolean
 ---@overload fun(particle: org.bukkit.Particle): com.destroystokyo.paper.ParticleBuilder
 local ParticleBuilder = {}
 

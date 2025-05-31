@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.FluidLevelChangeEvent
 ---@class org.bukkit.event.block.FluidLevelChangeEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private newData org.bukkit.block.data.BlockData
----@field private cancelled boolean
 ---@overload fun(fluid: org.bukkit.block.Block, newData: org.bukkit.block.data.BlockData): org.bukkit.event.block.FluidLevelChangeEvent
 local FluidLevelChangeEvent = {}
 

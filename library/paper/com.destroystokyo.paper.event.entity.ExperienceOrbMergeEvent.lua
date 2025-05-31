@@ -2,10 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.ExperienceOrbMergeEvent
 ---@class com.destroystokyo.paper.event.entity.ExperienceOrbMergeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private mergeTarget org.bukkit.entity.ExperienceOrb
----@field private mergeSource org.bukkit.entity.ExperienceOrb
----@field private cancelled boolean
 ---@overload fun(mergeTarget: org.bukkit.entity.ExperienceOrb, mergeSource: org.bukkit.entity.ExperienceOrb): com.destroystokyo.paper.event.entity.ExperienceOrbMergeEvent
 local ExperienceOrbMergeEvent = {}
 

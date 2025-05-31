@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.world.ChunkLoadEvent
 ---@class org.bukkit.event.world.ChunkLoadEvent: org.bukkit.event.world.ChunkEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private newChunk boolean
 ---@overload fun(chunk: org.bukkit.Chunk, newChunk: boolean): org.bukkit.event.world.ChunkLoadEvent
 local ChunkLoadEvent = {}
 

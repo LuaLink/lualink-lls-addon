@@ -2,9 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.block.BellRevealRaiderEvent
 ---@class io.papermc.paper.event.block.BellRevealRaiderEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private raider org.bukkit.entity.Raider
----@field private cancelled boolean
 ---@overload fun(bell: org.bukkit.block.Block, raider: org.bukkit.entity.Raider): io.papermc.paper.event.block.BellRevealRaiderEvent
 local BellRevealRaiderEvent = {}
 

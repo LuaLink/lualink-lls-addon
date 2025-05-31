@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.vehicle.VehicleEntityCollisionEvent
 ---@class org.bukkit.event.vehicle.VehicleEntityCollisionEvent: org.bukkit.event.vehicle.VehicleCollisionEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private entity org.bukkit.entity.Entity
----@field private cancelledPickup boolean
----@field private cancelledCollision boolean
----@field private cancelled boolean
 ---@overload fun(vehicle: org.bukkit.entity.Vehicle, entity: org.bukkit.entity.Entity): org.bukkit.event.vehicle.VehicleEntityCollisionEvent
 local VehicleEntityCollisionEvent = {}
 

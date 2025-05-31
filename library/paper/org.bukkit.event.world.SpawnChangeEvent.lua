@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.world.SpawnChangeEvent
 ---@class org.bukkit.event.world.SpawnChangeEvent: org.bukkit.event.world.WorldEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private previousLocation org.bukkit.Location
 ---@overload fun(world: org.bukkit.World, previousLocation: org.bukkit.Location): org.bukkit.event.world.SpawnChangeEvent
 local SpawnChangeEvent = {}
 

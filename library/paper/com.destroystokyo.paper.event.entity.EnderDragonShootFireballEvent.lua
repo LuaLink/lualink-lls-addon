@@ -2,9 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.EnderDragonShootFireballEvent
 ---@class com.destroystokyo.paper.event.entity.EnderDragonShootFireballEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private fireball org.bukkit.entity.DragonFireball
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.EnderDragon, fireball: org.bukkit.entity.DragonFireball): com.destroystokyo.paper.event.entity.EnderDragonShootFireballEvent
 local EnderDragonShootFireballEvent = {}
 

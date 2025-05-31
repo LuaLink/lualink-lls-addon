@@ -2,9 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.EntityZapEvent
 ---@class com.destroystokyo.paper.event.entity.EntityZapEvent: org.bukkit.event.entity.EntityTransformEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private bolt org.bukkit.entity.LightningStrike
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, bolt: org.bukkit.entity.LightningStrike, replacementEntity: org.bukkit.entity.Entity): com.destroystokyo.paper.event.entity.EntityZapEvent
 local EntityZapEvent = {}
 

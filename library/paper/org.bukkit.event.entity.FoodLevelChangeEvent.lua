@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.FoodLevelChangeEvent
 ---@class org.bukkit.event.entity.FoodLevelChangeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private level number
----@field private item org.bukkit.inventory.ItemStack
----@field private cancelled boolean
 ---@overload fun(human: org.bukkit.entity.HumanEntity, level: number): org.bukkit.event.entity.FoodLevelChangeEvent
 ---@overload fun(human: org.bukkit.entity.HumanEntity, level: number, item: org.bukkit.inventory.ItemStack): org.bukkit.event.entity.FoodLevelChangeEvent
 local FoodLevelChangeEvent = {}

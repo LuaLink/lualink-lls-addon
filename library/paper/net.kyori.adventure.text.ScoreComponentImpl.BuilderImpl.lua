@@ -1,9 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.ScoreComponentImpl.BuilderImpl
 ---@class net.kyori.adventure.text.ScoreComponentImpl.BuilderImpl: net.kyori.adventure.text.AbstractComponentBuilder, net.kyori.adventure.text.ScoreComponent.Builder, java.lang.Object
----@field private name string
----@field private objective string
----@field private value string
 ---@overload fun(): net.kyori.adventure.text.ScoreComponentImpl.BuilderImpl
 ---@overload fun(component: net.kyori.adventure.text.ScoreComponent): net.kyori.adventure.text.ScoreComponentImpl.BuilderImpl
 local BuilderImpl = {}

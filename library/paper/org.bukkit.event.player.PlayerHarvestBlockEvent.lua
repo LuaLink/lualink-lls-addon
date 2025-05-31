@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerHarvestBlockEvent
 ---@class org.bukkit.event.player.PlayerHarvestBlockEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private harvestedBlock org.bukkit.block.Block
----@field private hand org.bukkit.inventory.EquipmentSlot
----@field private itemsHarvested java.util.List
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, harvestedBlock: org.bukkit.block.Block, hand: org.bukkit.inventory.EquipmentSlot, itemsHarvested: java.util.List): org.bukkit.event.player.PlayerHarvestBlockEvent
 ---@overload fun(player: org.bukkit.entity.Player, harvestedBlock: org.bukkit.block.Block, itemsHarvested: java.util.List): org.bukkit.event.player.PlayerHarvestBlockEvent
 local PlayerHarvestBlockEvent = {}

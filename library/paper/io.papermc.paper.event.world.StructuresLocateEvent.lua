@@ -2,13 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.world.StructuresLocateEvent
 ---@class io.papermc.paper.event.world.StructuresLocateEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private origin org.bukkit.Location
----@field private result io.papermc.paper.event.world.StructuresLocateEvent.Result
----@field private structures java.util.List
----@field private radius number
----@field private findUnexplored boolean
----@field private cancelled boolean
 ---@overload fun(world: org.bukkit.World, origin: org.bukkit.Location, structures: java.util.List, radius: number, findUnexplored: boolean): io.papermc.paper.event.world.StructuresLocateEvent
 local StructuresLocateEvent = {}
 

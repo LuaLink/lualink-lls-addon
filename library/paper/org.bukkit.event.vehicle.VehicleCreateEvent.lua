@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.vehicle.VehicleCreateEvent
 ---@class org.bukkit.event.vehicle.VehicleCreateEvent: org.bukkit.event.vehicle.VehicleEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cancelled boolean
 ---@overload fun(vehicle: org.bukkit.entity.Vehicle): org.bukkit.event.vehicle.VehicleCreateEvent
 local VehicleCreateEvent = {}
 

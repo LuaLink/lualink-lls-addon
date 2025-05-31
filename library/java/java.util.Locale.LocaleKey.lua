@@ -1,9 +1,6 @@
 ---@meta
 -- java.util.Locale.LocaleKey
 ---@class java.util.Locale.LocaleKey: java.lang.Object
----@field private base any
----@field private exts any
----@field private hash number
 ---@overload fun(baseLocale: any, extensions: any): java.util.Locale.LocaleKey
 local LocaleKey = {}
 

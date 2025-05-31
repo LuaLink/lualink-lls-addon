@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.CrafterCraftEvent
 ---@class org.bukkit.event.block.CrafterCraftEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private recipe org.bukkit.inventory.CraftingRecipe
----@field private result org.bukkit.inventory.ItemStack
----@field private cancelled boolean
 ---@overload fun(crafter: org.bukkit.block.Block, recipe: org.bukkit.inventory.CraftingRecipe, result: org.bukkit.inventory.ItemStack): org.bukkit.event.block.CrafterCraftEvent
 local CrafterCraftEvent = {}
 

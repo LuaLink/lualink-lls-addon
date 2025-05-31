@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.EmptyMap
 ---@class java.util.Collections.EmptyMap: java.util.AbstractMap, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 local EmptyMap = {}
 
 ---@public

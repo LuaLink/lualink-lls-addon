@@ -16,8 +16,6 @@
 ---@field public BLOCK_NBT_POS_TYPE java.lang.Class
 ---@field public UUID_TYPE java.lang.Class
 ---@field public TRANSLATION_ARGUMENT_TYPE java.lang.Class
----@field private features any
----@field private legacyHoverSerializer any
 ---@overload fun(features: any, legacyHoverSerializer: any?): net.kyori.adventure.text.serializer.gson.SerializerFactory
 local SerializerFactory = {}
 

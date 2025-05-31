@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.PigZombieAngerEvent
 ---@class org.bukkit.event.entity.PigZombieAngerEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private target org.bukkit.entity.Entity
----@field private newAnger number
----@field private cancelled boolean
 ---@overload fun(zombifiedPiglin: org.bukkit.entity.PigZombie, target: org.bukkit.entity.Entity, newAnger: number): org.bukkit.event.entity.PigZombieAngerEvent
 local PigZombieAngerEvent = {}
 

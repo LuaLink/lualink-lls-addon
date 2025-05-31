@@ -2,8 +2,6 @@
 ---@meta
 -- java.util.Collections.SynchronizedSortedMap
 ---@class java.util.Collections.SynchronizedSortedMap: java.util.Collections.SynchronizedMap, java.util.SortedMap, java.lang.Object
----@field private serialVersionUID number
----@field private sm java.util.SortedMap
 ---@overload fun(m: java.util.SortedMap): java.util.Collections.SynchronizedSortedMap
 ---@overload fun(m: java.util.SortedMap, mutex: java.lang.Object): java.util.Collections.SynchronizedSortedMap
 local SynchronizedSortedMap = {}

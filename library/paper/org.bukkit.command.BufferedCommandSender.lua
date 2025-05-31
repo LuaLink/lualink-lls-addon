@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.command.BufferedCommandSender
 ---@class org.bukkit.command.BufferedCommandSender: org.bukkit.command.MessageCommandSender, java.lang.Object
----@field private buffer java.lang.StringBuffer
 local BufferedCommandSender = {}
 
 ---@param message string 

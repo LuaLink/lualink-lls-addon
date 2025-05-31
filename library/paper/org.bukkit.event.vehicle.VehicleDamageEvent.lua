@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.vehicle.VehicleDamageEvent
 ---@class org.bukkit.event.vehicle.VehicleDamageEvent: org.bukkit.event.vehicle.VehicleEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private attacker org.bukkit.entity.Entity
----@field private damage number
----@field private cancelled boolean
 ---@overload fun(vehicle: org.bukkit.entity.Vehicle, attacker: org.bukkit.entity.Entity, damage: number): org.bukkit.event.vehicle.VehicleDamageEvent
 local VehicleDamageEvent = {}
 

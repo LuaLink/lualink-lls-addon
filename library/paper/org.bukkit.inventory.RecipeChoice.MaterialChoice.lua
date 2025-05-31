@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.inventory.RecipeChoice.MaterialChoice
 ---@class org.bukkit.inventory.RecipeChoice.MaterialChoice: org.bukkit.inventory.RecipeChoice, java.lang.Object
----@field private choices java.util.List
 ---@overload fun(choice: org.bukkit.Material): org.bukkit.inventory.RecipeChoice.MaterialChoice
 ---@overload fun(choices: org.bukkit.Material): org.bukkit.inventory.RecipeChoice.MaterialChoice
 ---@overload fun(choices: org.bukkit.Tag): org.bukkit.inventory.RecipeChoice.MaterialChoice

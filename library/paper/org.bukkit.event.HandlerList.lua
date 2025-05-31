@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.HandlerList
 ---@class org.bukkit.event.HandlerList: java.lang.Object
----@field private handlers org.bukkit.plugin.RegisteredListener
----@field private handlerslots java.util.EnumMap
----@field private allLists java.util.ArrayList
----@field private EVENT_TYPES java.util.Set
 ---@overload fun(): org.bukkit.event.HandlerList
 local HandlerList = {}
 

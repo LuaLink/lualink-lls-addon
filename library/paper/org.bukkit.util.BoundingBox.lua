@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.util.BoundingBox
 ---@class org.bukkit.util.BoundingBox: java.lang.Cloneable, org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
----@field private minX number
----@field private minY number
----@field private minZ number
----@field private maxX number
----@field private maxY number
----@field private maxZ number
 ---@overload fun(): org.bukkit.util.BoundingBox
 ---@overload fun(x1: number, y1: number, z1: number, x2: number, y2: number, z2: number): org.bukkit.util.BoundingBox
 local BoundingBox = {}

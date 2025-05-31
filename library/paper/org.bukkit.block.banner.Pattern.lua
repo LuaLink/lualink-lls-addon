@@ -1,10 +1,6 @@
 ---@meta
 -- org.bukkit.block.banner.Pattern
 ---@class org.bukkit.block.banner.Pattern: org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
----@field private COLOR string
----@field private PATTERN string
----@field private color org.bukkit.DyeColor
----@field private pattern org.bukkit.block.banner.PatternType
 ---@overload fun(color: org.bukkit.DyeColor, pattern: org.bukkit.block.banner.PatternType): org.bukkit.block.banner.Pattern
 ---@overload fun(map: java.util.Map): org.bukkit.block.banner.Pattern
 local Pattern = {}

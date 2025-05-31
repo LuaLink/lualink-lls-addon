@@ -2,7 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.match.TokenListProducingMatchedTokenConsumer
 ---@class net.kyori.adventure.text.minimessage.internal.parser.match.TokenListProducingMatchedTokenConsumer: function, java.lang.Object
----@field private result java.util.List
 ---@overload fun(input: string): function
 local TokenListProducingMatchedTokenConsumer = {}
 

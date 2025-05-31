@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.ReverseComparator2
 ---@class java.util.Collections.ReverseComparator2: java.util.Comparator, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 ---@field public cmp java.util.Comparator
 ---@overload fun(cmp: java.util.Comparator): java.util.Collections.ReverseComparator2
 local ReverseComparator2 = {}

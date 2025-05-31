@@ -1,9 +1,7 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.ArgumentQueueImpl
 ---@class net.kyori.adventure.text.minimessage.ArgumentQueueImpl: net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue, java.lang.Object
----@field private context net.kyori.adventure.text.minimessage.Context
 ---@field public args java.util.List
----@field private ptr number
 ---@overload fun(context: net.kyori.adventure.text.minimessage.Context, args: java.util.List): net.kyori.adventure.text.minimessage.ArgumentQueueImpl
 local ArgumentQueueImpl = {}
 

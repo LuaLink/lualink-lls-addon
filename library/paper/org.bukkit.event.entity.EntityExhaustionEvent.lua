@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityExhaustionEvent
 ---@class org.bukkit.event.entity.EntityExhaustionEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private exhaustionReason org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason
----@field private exhaustion number
----@field private cancelled boolean
 ---@field public ExhaustionReason org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason
 ---@overload fun(human: org.bukkit.entity.HumanEntity, exhaustionReason: org.bukkit.event.entity.EntityExhaustionEvent.ExhaustionReason, exhaustion: number): org.bukkit.event.entity.EntityExhaustionEvent
 local EntityExhaustionEvent = {}

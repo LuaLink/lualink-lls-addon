@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.EmptySet
 ---@class java.util.Collections.EmptySet: java.util.AbstractSet, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 local EmptySet = {}
 
 ---@public

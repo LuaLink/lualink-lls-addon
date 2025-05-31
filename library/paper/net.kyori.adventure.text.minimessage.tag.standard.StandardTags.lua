@@ -2,7 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.StandardTags
 ---@class net.kyori.adventure.text.minimessage.tag.standard.StandardTags: java.lang.Object
----@field private ALL net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.StandardTags
 local StandardTags = {}
 

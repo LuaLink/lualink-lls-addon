@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockRedstoneEvent
 ---@class org.bukkit.event.block.BlockRedstoneEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private oldCurrent number
----@field private newCurrent number
 ---@overload fun(block: org.bukkit.block.Block, oldCurrent: number, newCurrent: number): org.bukkit.event.block.BlockRedstoneEvent
 local BlockRedstoneEvent = {}
 

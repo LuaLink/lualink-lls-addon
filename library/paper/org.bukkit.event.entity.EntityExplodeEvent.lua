@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityExplodeEvent
 ---@class org.bukkit.event.entity.EntityExplodeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private location org.bukkit.Location
----@field private blocks java.util.List
----@field private yield number
----@field private result org.bukkit.ExplosionResult
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, location: org.bukkit.Location, blocks: java.util.List, yield: number, result: org.bukkit.ExplosionResult): org.bukkit.event.entity.EntityExplodeEvent
 local EntityExplodeEvent = {}
 

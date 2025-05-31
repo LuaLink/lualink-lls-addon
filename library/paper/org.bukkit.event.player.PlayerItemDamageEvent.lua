@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerItemDamageEvent
 ---@class org.bukkit.event.player.PlayerItemDamageEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private item org.bukkit.inventory.ItemStack
----@field private originalDamage number
----@field private damage number
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, item: org.bukkit.inventory.ItemStack, damage: number): org.bukkit.event.player.PlayerItemDamageEvent
 ---@overload fun(player: org.bukkit.entity.Player, item: org.bukkit.inventory.ItemStack, damage: number, originalDamage: number): org.bukkit.event.player.PlayerItemDamageEvent
 local PlayerItemDamageEvent = {}

@@ -2,9 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.EntityToggleSitEvent
 ---@class io.papermc.paper.event.entity.EntityToggleSitEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private isSitting boolean
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, isSitting: boolean): io.papermc.paper.event.entity.EntityToggleSitEvent
 local EntityToggleSitEvent = {}
 

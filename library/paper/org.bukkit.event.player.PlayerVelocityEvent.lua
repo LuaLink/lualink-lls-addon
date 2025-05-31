@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerVelocityEvent
 ---@class org.bukkit.event.player.PlayerVelocityEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private velocity org.bukkit.util.Vector
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, velocity: org.bukkit.util.Vector): org.bukkit.event.player.PlayerVelocityEvent
 local PlayerVelocityEvent = {}
 

@@ -1,9 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.event.DataComponentValueConversionImpl
 ---@class net.kyori.adventure.text.event.DataComponentValueConversionImpl: net.kyori.adventure.text.event.DataComponentValueConverterRegistry.Conversion, java.lang.Object
----@field private source java.lang.Class
----@field private destination java.lang.Class
----@field private conversion any
 ---@overload fun(source: java.lang.Class, destination: java.lang.Class, conversion: any): net.kyori.adventure.text.event.DataComponentValueConversionImpl
 local DataComponentValueConversionImpl = {}
 

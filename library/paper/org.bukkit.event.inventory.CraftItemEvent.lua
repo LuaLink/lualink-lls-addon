@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.event.inventory.CraftItemEvent
 ---@class org.bukkit.event.inventory.CraftItemEvent: org.bukkit.event.inventory.InventoryClickEvent, java.lang.Object
----@field private recipe org.bukkit.inventory.Recipe
 ---@overload fun(recipe: org.bukkit.inventory.Recipe, view: org.bukkit.inventory.InventoryView, type: org.bukkit.event.inventory.InventoryType.SlotType, slot: number, click: org.bukkit.event.inventory.ClickType, action: org.bukkit.event.inventory.InventoryAction): org.bukkit.event.inventory.CraftItemEvent
 ---@overload fun(recipe: org.bukkit.inventory.Recipe, view: org.bukkit.inventory.InventoryView, type: org.bukkit.event.inventory.InventoryType.SlotType, slot: number, click: org.bukkit.event.inventory.ClickType, action: org.bukkit.event.inventory.InventoryAction, key: number): org.bukkit.event.inventory.CraftItemEvent
 local CraftItemEvent = {}

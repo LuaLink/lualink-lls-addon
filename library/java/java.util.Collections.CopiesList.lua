@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.CopiesList
 ---@class java.util.Collections.CopiesList: java.util.AbstractList, java.util.RandomAccess, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 ---@field public n number
 ---@field public element E
 ---@overload fun(n: number, e: E): java.util.Collections.CopiesList

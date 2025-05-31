@@ -2,12 +2,7 @@
 ---@meta
 -- java.util.Collections.SynchronizedMap
 ---@class java.util.Collections.SynchronizedMap: java.util.Map, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
----@field private m java.util.Map
 ---@field public mutex java.lang.Object
----@field private keySet java.util.Set
----@field private entrySet java.util.Set
----@field private values java.util.Collection
 ---@overload fun(m: java.util.Map): java.util.Collections.SynchronizedMap
 ---@overload fun(m: java.util.Map, mutex: java.lang.Object): java.util.Collections.SynchronizedMap
 local SynchronizedMap = {}

@@ -2,10 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.EntityDyeEvent
 ---@class io.papermc.paper.event.entity.EntityDyeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
----@field private dyeColor org.bukkit.DyeColor
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, dyeColor: org.bukkit.DyeColor, player: org.bukkit.entity.Player): io.papermc.paper.event.entity.EntityDyeEvent
 local EntityDyeEvent = {}
 

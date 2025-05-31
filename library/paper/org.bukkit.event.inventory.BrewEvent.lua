@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.event.inventory.BrewEvent
 ---@class org.bukkit.event.inventory.BrewEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private contents org.bukkit.inventory.BrewerInventory
----@field private results java.util.List
----@field private fuelLevel number
----@field private cancelled boolean
 ---@overload fun(brewer: org.bukkit.block.Block, contents: org.bukkit.inventory.BrewerInventory, results: java.util.List, fuelLevel: number): org.bukkit.event.inventory.BrewEvent
 local BrewEvent = {}
 

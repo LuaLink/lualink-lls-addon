@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.PigZapEvent
 ---@class org.bukkit.event.entity.PigZapEvent: com.destroystokyo.paper.event.entity.EntityZapEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private zombifiedPiglin org.bukkit.entity.PigZombie
----@field private bolt org.bukkit.entity.LightningStrike
----@field private cancelled boolean
 ---@overload fun(pig: org.bukkit.entity.Pig, bolt: org.bukkit.entity.LightningStrike, zombifiedPiglin: org.bukkit.entity.PigZombie): org.bukkit.event.entity.PigZapEvent
 local PigZapEvent = {}
 

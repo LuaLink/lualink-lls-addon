@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.ReverseComparator
 ---@class java.util.Collections.ReverseComparator: java.util.Comparator, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 ---@field public REVERSE_ORDER java.util.Collections.ReverseComparator
 local ReverseComparator = {}
 

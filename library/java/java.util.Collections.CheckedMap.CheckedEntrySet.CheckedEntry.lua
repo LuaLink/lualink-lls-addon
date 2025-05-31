@@ -2,8 +2,6 @@
 ---@meta
 -- java.util.Collections.CheckedMap.CheckedEntrySet.CheckedEntry
 ---@class java.util.Collections.CheckedMap.CheckedEntrySet.CheckedEntry: java.util.Map.Entry, java.lang.Object
----@field private e java.util.Map.Entry
----@field private valueType java.lang.Class
 ---@overload fun(e: java.util.Map.Entry, valueType: java.lang.Class): java.util.Collections.CheckedMap.CheckedEntrySet.CheckedEntry
 local CheckedEntry = {}
 

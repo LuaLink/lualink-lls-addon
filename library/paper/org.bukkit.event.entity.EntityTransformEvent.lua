@@ -2,11 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityTransformEvent
 ---@class org.bukkit.event.entity.EntityTransformEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private convertedList java.util.List
----@field private converted org.bukkit.entity.Entity
----@field private transformReason org.bukkit.event.entity.EntityTransformEvent.TransformReason
----@field private cancelled boolean
 ---@field public TransformReason org.bukkit.event.entity.EntityTransformEvent.TransformReason
 ---@overload fun(original: org.bukkit.entity.Entity, convertedList: java.util.List, transformReason: org.bukkit.event.entity.EntityTransformEvent.TransformReason): org.bukkit.event.entity.EntityTransformEvent
 local EntityTransformEvent = {}

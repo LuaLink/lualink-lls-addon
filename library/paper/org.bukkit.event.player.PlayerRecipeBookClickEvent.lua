@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerRecipeBookClickEvent
 ---@class org.bukkit.event.player.PlayerRecipeBookClickEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private originalRecipe org.bukkit.inventory.Recipe
----@field private recipe org.bukkit.inventory.Recipe
----@field private shiftClick boolean
 ---@overload fun(player: org.bukkit.entity.Player, recipe: org.bukkit.inventory.Recipe, shiftClick: boolean): org.bukkit.event.player.PlayerRecipeBookClickEvent
 local PlayerRecipeBookClickEvent = {}
 

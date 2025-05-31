@@ -2,13 +2,6 @@
 ---@meta
 -- org.bukkit.event.hanging.HangingPlaceEvent
 ---@class org.bukkit.event.hanging.HangingPlaceEvent: org.bukkit.event.hanging.HangingEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
----@field private block org.bukkit.block.Block
----@field private blockFace org.bukkit.block.BlockFace
----@field private hand org.bukkit.inventory.EquipmentSlot
----@field private itemStack org.bukkit.inventory.ItemStack
----@field private cancelled boolean
 ---@overload fun(hanging: org.bukkit.entity.Hanging, player: org.bukkit.entity.Player, block: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, hand: org.bukkit.inventory.EquipmentSlot): org.bukkit.event.hanging.HangingPlaceEvent
 ---@overload fun(hanging: org.bukkit.entity.Hanging, player: org.bukkit.entity.Player, block: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, hand: org.bukkit.inventory.EquipmentSlot, itemStack: org.bukkit.inventory.ItemStack): org.bukkit.event.hanging.HangingPlaceEvent
 local HangingPlaceEvent = {}

@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.block.spawner.SpawnerEntry.Equipment
 ---@class org.bukkit.block.spawner.SpawnerEntry.Equipment: java.lang.Object
----@field private equipmentLootTable org.bukkit.loot.LootTable
----@field private dropChances java.util.Map
 ---@overload fun(equipmentLootTable: org.bukkit.loot.LootTable, dropChances: java.util.Map): org.bukkit.block.spawner.SpawnerEntry.Equipment
 local Equipment = {}
 

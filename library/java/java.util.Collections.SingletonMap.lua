@@ -2,12 +2,6 @@
 ---@meta
 -- java.util.Collections.SingletonMap
 ---@class java.util.Collections.SingletonMap: java.util.AbstractMap, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
----@field private k K
----@field private v V
----@field private keySet java.util.Set
----@field private entrySet java.util.Set
----@field private values java.util.Collection
 ---@overload fun(key: K, value: V): java.util.Collections.SingletonMap
 local SingletonMap = {}
 

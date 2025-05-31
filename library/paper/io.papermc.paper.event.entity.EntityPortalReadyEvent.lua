@@ -2,10 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.EntityPortalReadyEvent
 ---@class io.papermc.paper.event.entity.EntityPortalReadyEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private portalType org.bukkit.PortalType
----@field private targetWorld org.bukkit.World
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, targetWorld: org.bukkit.World, portalType: org.bukkit.PortalType): io.papermc.paper.event.entity.EntityPortalReadyEvent
 local EntityPortalReadyEvent = {}
 

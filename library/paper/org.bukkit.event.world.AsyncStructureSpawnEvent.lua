@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.event.world.AsyncStructureSpawnEvent
 ---@class org.bukkit.event.world.AsyncStructureSpawnEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private structure org.bukkit.generator.structure.Structure
----@field private boundingBox org.bukkit.util.BoundingBox
----@field private chunkX number
----@field private chunkZ number
----@field private cancelled boolean
 ---@overload fun(world: org.bukkit.World, structure: org.bukkit.generator.structure.Structure, boundingBox: org.bukkit.util.BoundingBox, chunkX: number, chunkZ: number): org.bukkit.event.world.AsyncStructureSpawnEvent
 local AsyncStructureSpawnEvent = {}
 

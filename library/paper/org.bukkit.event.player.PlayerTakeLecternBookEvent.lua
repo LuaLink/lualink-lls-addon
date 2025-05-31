@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerTakeLecternBookEvent
 ---@class org.bukkit.event.player.PlayerTakeLecternBookEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private lectern org.bukkit.block.Lectern
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, lectern: org.bukkit.block.Lectern): org.bukkit.event.player.PlayerTakeLecternBookEvent
 local PlayerTakeLecternBookEvent = {}
 

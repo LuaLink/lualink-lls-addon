@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.inventory.CraftingRecipe
 ---@class org.bukkit.inventory.CraftingRecipe: org.bukkit.inventory.Recipe, org.bukkit.Keyed, java.lang.Object
----@field private key org.bukkit.NamespacedKey
----@field private output org.bukkit.inventory.ItemStack
----@field private group string
----@field private category org.bukkit.inventory.recipe.CraftingBookCategory
 ---@overload fun(key: org.bukkit.NamespacedKey, result: org.bukkit.inventory.ItemStack): org.bukkit.inventory.CraftingRecipe
 local CraftingRecipe = {}
 

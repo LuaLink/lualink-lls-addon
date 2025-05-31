@@ -2,13 +2,6 @@
 ---@meta
 -- co.aikar.timings.TimingData
 ---@class co.aikar.timings.TimingData: java.lang.Object
----@field private id number
----@field private count number
----@field private lagCount number
----@field private totalTime number
----@field private lagTotalTime number
----@field private curTickCount number
----@field private curTickTotal number
 ---@overload fun(id: number): co.aikar.timings.TimingData
 ---@overload fun(data: co.aikar.timings.TimingData): co.aikar.timings.TimingData
 local TimingData = {}

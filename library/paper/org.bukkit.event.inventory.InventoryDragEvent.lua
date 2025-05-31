@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.event.inventory.InventoryDragEvent
 ---@class org.bukkit.event.inventory.InventoryDragEvent: org.bukkit.event.inventory.InventoryInteractEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private type org.bukkit.event.inventory.DragType
----@field private addedItems java.util.Map
----@field private containerSlots java.util.Set
----@field private oldCursor org.bukkit.inventory.ItemStack
----@field private newCursor org.bukkit.inventory.ItemStack
 ---@overload fun(view: org.bukkit.inventory.InventoryView, newCursor: org.bukkit.inventory.ItemStack, oldCursor: org.bukkit.inventory.ItemStack, right: boolean, slots: java.util.Map): org.bukkit.event.inventory.InventoryDragEvent
 local InventoryDragEvent = {}
 

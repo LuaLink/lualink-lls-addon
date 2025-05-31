@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.SheepRegrowWoolEvent
 ---@class org.bukkit.event.entity.SheepRegrowWoolEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cancelled boolean
 ---@overload fun(sheep: org.bukkit.entity.Sheep): org.bukkit.event.entity.SheepRegrowWoolEvent
 local SheepRegrowWoolEvent = {}
 

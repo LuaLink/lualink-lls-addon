@@ -2,10 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.Token
 ---@class net.kyori.adventure.text.minimessage.internal.parser.Token: any, java.lang.Object
----@field private startIndex number
----@field private endIndex number
----@field private type net.kyori.adventure.text.minimessage.internal.parser.TokenType
----@field private childTokens java.util.List
 ---@overload fun(startIndex: number, endIndex: number, type: net.kyori.adventure.text.minimessage.internal.parser.TokenType): net.kyori.adventure.text.minimessage.internal.parser.Token
 local Token = {}
 

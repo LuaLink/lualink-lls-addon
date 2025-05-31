@@ -2,7 +2,6 @@
 ---@meta
 -- io.papermc.paper.plugin.loader.library.impl.JarLibrary
 ---@class io.papermc.paper.plugin.loader.library.impl.JarLibrary: io.papermc.paper.plugin.loader.library.ClassPathLibrary, java.lang.Object
----@field private path java.nio.file.Path
 ---@overload fun(path: java.nio.file.Path): io.papermc.paper.plugin.loader.library.impl.JarLibrary
 local JarLibrary = {}
 

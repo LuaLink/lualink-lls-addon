@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.event.server.PluginEnableEvent
 ---@class org.bukkit.event.server.PluginEnableEvent: org.bukkit.event.server.PluginEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
 ---@overload fun(plugin: org.bukkit.plugin.Plugin): org.bukkit.event.server.PluginEnableEvent
 local PluginEnableEvent = {}
 

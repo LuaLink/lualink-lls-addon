@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.permissions.PermissionAttachment
 ---@class org.bukkit.permissions.PermissionAttachment: java.lang.Object
----@field private removed org.bukkit.permissions.PermissionRemovedExecutor
----@field private permissions java.util.Map
----@field private permissible org.bukkit.permissions.Permissible
----@field private plugin org.bukkit.plugin.Plugin
 ---@overload fun(plugin: org.bukkit.plugin.Plugin, permissible: org.bukkit.permissions.Permissible): org.bukkit.permissions.PermissionAttachment
 local PermissionAttachment = {}
 

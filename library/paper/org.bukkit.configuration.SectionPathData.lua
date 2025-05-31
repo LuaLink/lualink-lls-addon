@@ -1,9 +1,6 @@
 ---@meta
 -- org.bukkit.configuration.SectionPathData
 ---@class org.bukkit.configuration.SectionPathData: java.lang.Object
----@field private data java.lang.Object
----@field private comments java.util.List
----@field private inlineComments java.util.List
 ---@overload fun(data: java.lang.Object): org.bukkit.configuration.SectionPathData
 local SectionPathData = {}
 

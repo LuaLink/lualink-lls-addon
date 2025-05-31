@@ -2,8 +2,6 @@
 ---@meta
 -- net.kyori.adventure.util.Index
 ---@class net.kyori.adventure.util.Index: java.lang.Object
----@field private keyToValue java.util.Map
----@field private valueToKey java.util.Map
 ---@overload fun(keyToValue: java.util.Map, valueToKey: java.util.Map): net.kyori.adventure.util.Index
 local Index = {}
 

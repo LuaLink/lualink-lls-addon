@@ -4,8 +4,6 @@
 ---@class org.bukkit.NamespacedKey: any, com.destroystokyo.paper.Namespaced, java.lang.Object
 ---@field public MINECRAFT string
 ---@field public BUKKIT string
----@field private namespace string
----@field private key string
 ---@overload fun(namespace: string, key: string): org.bukkit.NamespacedKey
 ---@overload fun(plugin: org.bukkit.plugin.Plugin, key: string): org.bukkit.NamespacedKey
 local NamespacedKey = {}

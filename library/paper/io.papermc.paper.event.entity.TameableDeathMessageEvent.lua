@@ -2,9 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.TameableDeathMessageEvent
 ---@class io.papermc.paper.event.entity.TameableDeathMessageEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private deathMessage net.kyori.adventure.text.Component
----@field private cancelled boolean
 ---@overload fun(tameable: org.bukkit.entity.Tameable, deathMessage: net.kyori.adventure.text.Component): io.papermc.paper.event.entity.TameableDeathMessageEvent
 local TameableDeathMessageEvent = {}
 

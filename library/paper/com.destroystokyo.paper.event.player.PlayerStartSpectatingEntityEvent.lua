@@ -2,10 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerStartSpectatingEntityEvent
 ---@class com.destroystokyo.paper.event.player.PlayerStartSpectatingEntityEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private currentSpectatorTarget org.bukkit.entity.Entity
----@field private newSpectatorTarget org.bukkit.entity.Entity
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, currentSpectatorTarget: org.bukkit.entity.Entity, newSpectatorTarget: org.bukkit.entity.Entity): com.destroystokyo.paper.event.player.PlayerStartSpectatingEntityEvent
 local PlayerStartSpectatingEntityEvent = {}
 

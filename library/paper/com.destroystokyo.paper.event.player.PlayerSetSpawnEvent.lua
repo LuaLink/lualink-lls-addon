@@ -2,13 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerSetSpawnEvent
 ---@class com.destroystokyo.paper.event.player.PlayerSetSpawnEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cause com.destroystokyo.paper.event.player.PlayerSetSpawnEvent.Cause
----@field private location org.bukkit.Location
----@field private forced boolean
----@field private notifyPlayer boolean
----@field private notification net.kyori.adventure.text.Component
----@field private cancelled boolean
 ---@field public Cause com.destroystokyo.paper.event.player.PlayerSetSpawnEvent.Cause
 ---@overload fun(player: org.bukkit.entity.Player, cause: com.destroystokyo.paper.event.player.PlayerSetSpawnEvent.Cause, location: org.bukkit.Location, forced: boolean, notifyPlayer: boolean, notification: net.kyori.adventure.text.Component): com.destroystokyo.paper.event.player.PlayerSetSpawnEvent
 local PlayerSetSpawnEvent = {}

@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.LingeringPotionSplashEvent
 ---@class org.bukkit.event.entity.LingeringPotionSplashEvent: org.bukkit.event.entity.ProjectileHitEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private effectCloud org.bukkit.entity.AreaEffectCloud
----@field private allowEmptyAreaEffectCreation boolean
----@field private cancelled boolean
 ---@overload fun(potion: org.bukkit.entity.ThrownPotion, effectCloud: org.bukkit.entity.AreaEffectCloud): org.bukkit.event.entity.LingeringPotionSplashEvent
 ---@overload fun(potion: org.bukkit.entity.ThrownPotion, hitEntity: org.bukkit.entity.Entity, hitBlock: org.bukkit.block.Block, hitFace: org.bukkit.block.BlockFace, effectCloud: org.bukkit.entity.AreaEffectCloud): org.bukkit.event.entity.LingeringPotionSplashEvent
 local LingeringPotionSplashEvent = {}

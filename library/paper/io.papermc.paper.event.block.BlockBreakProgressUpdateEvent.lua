@@ -2,9 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.block.BlockBreakProgressUpdateEvent
 ---@class io.papermc.paper.event.block.BlockBreakProgressUpdateEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private progress number
----@field private entity org.bukkit.entity.Entity
 ---@overload fun(block: org.bukkit.block.Block, progress: number, entity: org.bukkit.entity.Entity): io.papermc.paper.event.block.BlockBreakProgressUpdateEvent
 local BlockBreakProgressUpdateEvent = {}
 

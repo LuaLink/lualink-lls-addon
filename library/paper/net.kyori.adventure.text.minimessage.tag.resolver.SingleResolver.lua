@@ -1,8 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.resolver.SingleResolver
 ---@class net.kyori.adventure.text.minimessage.tag.resolver.SingleResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Single, net.kyori.adventure.text.minimessage.tag.resolver.MappableResolver, java.lang.Object
----@field private key string
----@field private tag net.kyori.adventure.text.minimessage.tag.Tag
 ---@overload fun(key: string, tag: net.kyori.adventure.text.minimessage.tag.Tag): net.kyori.adventure.text.minimessage.tag.resolver.SingleResolver
 local SingleResolver = {}
 

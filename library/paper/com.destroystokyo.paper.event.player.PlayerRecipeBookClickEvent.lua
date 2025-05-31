@@ -2,10 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerRecipeBookClickEvent
 ---@class com.destroystokyo.paper.event.player.PlayerRecipeBookClickEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private recipe org.bukkit.NamespacedKey
----@field private makeAll boolean
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, recipe: org.bukkit.NamespacedKey, makeAll: boolean): com.destroystokyo.paper.event.player.PlayerRecipeBookClickEvent
 local PlayerRecipeBookClickEvent = {}
 

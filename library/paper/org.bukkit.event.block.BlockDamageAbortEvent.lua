@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockDamageAbortEvent
 ---@class org.bukkit.event.block.BlockDamageAbortEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
----@field private itemstack org.bukkit.inventory.ItemStack
 ---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, itemInHand: org.bukkit.inventory.ItemStack): org.bukkit.event.block.BlockDamageAbortEvent
 local BlockDamageAbortEvent = {}
 

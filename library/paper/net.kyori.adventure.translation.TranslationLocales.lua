@@ -1,7 +1,6 @@
 ---@meta
 -- net.kyori.adventure.translation.TranslationLocales
 ---@class net.kyori.adventure.translation.TranslationLocales: java.lang.Object
----@field private GLOBAL function
 ---@overload fun(): net.kyori.adventure.translation.TranslationLocales
 local TranslationLocales = {}
 

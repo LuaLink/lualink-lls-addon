@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.block.BlockBurnEvent
 ---@class org.bukkit.event.block.BlockBurnEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private ignitingBlock org.bukkit.block.Block
----@field private cancelled boolean
 ---@overload fun(block: org.bukkit.block.Block): org.bukkit.event.block.BlockBurnEvent
 ---@overload fun(block: org.bukkit.block.Block, ignitingBlock: org.bukkit.block.Block): org.bukkit.event.block.BlockBurnEvent
 local BlockBurnEvent = {}

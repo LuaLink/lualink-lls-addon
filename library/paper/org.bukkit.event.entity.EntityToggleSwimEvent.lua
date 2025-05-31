@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityToggleSwimEvent
 ---@class org.bukkit.event.entity.EntityToggleSwimEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private isSwimming boolean
----@field private cancelled boolean
 ---@overload fun(livingEntity: org.bukkit.entity.LivingEntity, isSwimming: boolean): org.bukkit.event.entity.EntityToggleSwimEvent
 local EntityToggleSwimEvent = {}
 

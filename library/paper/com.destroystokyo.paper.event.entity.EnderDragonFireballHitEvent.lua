@@ -2,10 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.EnderDragonFireballHitEvent
 ---@class com.destroystokyo.paper.event.entity.EnderDragonFireballHitEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private targets java.util.Collection
----@field private areaEffectCloud org.bukkit.entity.AreaEffectCloud
----@field private cancelled boolean
 ---@overload fun(fireball: org.bukkit.entity.DragonFireball, targets: java.util.Collection, areaEffectCloud: org.bukkit.entity.AreaEffectCloud): com.destroystokyo.paper.event.entity.EnderDragonFireballHitEvent
 local EnderDragonFireballHitEvent = {}
 

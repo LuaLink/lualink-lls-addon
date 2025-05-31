@@ -2,7 +2,6 @@
 ---@meta
 -- net.kyori.adventure.util.Listenable
 ---@class net.kyori.adventure.util.Listenable: java.lang.Object
----@field private listeners java.util.List
 local Listenable = {}
 
 ---@param consumer function the consumer

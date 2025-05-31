@@ -2,7 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.internal.parser.TokenParser
 ---@class net.kyori.adventure.text.minimessage.internal.parser.TokenParser: java.lang.Object
----@field private MAX_DEPTH number
 ---@field public TAG_START string
 ---@field public TAG_END string
 ---@field public CLOSE_TAG string

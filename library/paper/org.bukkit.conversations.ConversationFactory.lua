@@ -11,7 +11,6 @@
 ---@field protected playerOnlyMessage string
 ---@field protected cancellers java.util.List
 ---@field protected abandonedListeners java.util.List
----@field private NotPlayerMessagePrompt org.bukkit.conversations.ConversationFactory.NotPlayerMessagePrompt
 ---@overload fun(plugin: org.bukkit.plugin.Plugin): org.bukkit.conversations.ConversationFactory
 local ConversationFactory = {}
 

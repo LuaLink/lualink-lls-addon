@@ -2,8 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.event.ClickEvent
 ---@class net.kyori.adventure.text.event.ClickEvent: any, net.kyori.adventure.text.format.StyleBuilderApplicable, java.lang.Object
----@field private action net.kyori.adventure.text.event.ClickEvent.Action
----@field private value string
 ---@field public Action net.kyori.adventure.text.event.ClickEvent.Action
 ---@overload fun(action: net.kyori.adventure.text.event.ClickEvent.Action, value: string): net.kyori.adventure.text.event.ClickEvent
 local ClickEvent = {}

@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityChangeBlockEvent
 ---@class org.bukkit.event.entity.EntityChangeBlockEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private block org.bukkit.block.Block
----@field private to org.bukkit.block.data.BlockData
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, block: org.bukkit.block.Block, to: org.bukkit.block.data.BlockData): org.bukkit.event.entity.EntityChangeBlockEvent
 local EntityChangeBlockEvent = {}
 

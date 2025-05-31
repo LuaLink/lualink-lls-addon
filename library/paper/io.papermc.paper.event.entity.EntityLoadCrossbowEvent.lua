@@ -2,11 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.entity.EntityLoadCrossbowEvent
 ---@class io.papermc.paper.event.entity.EntityLoadCrossbowEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private crossbow org.bukkit.inventory.ItemStack
----@field private hand org.bukkit.inventory.EquipmentSlot
----@field private consumeItem boolean
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.LivingEntity, crossbow: org.bukkit.inventory.ItemStack, hand: org.bukkit.inventory.EquipmentSlot): io.papermc.paper.event.entity.EntityLoadCrossbowEvent
 local EntityLoadCrossbowEvent = {}
 

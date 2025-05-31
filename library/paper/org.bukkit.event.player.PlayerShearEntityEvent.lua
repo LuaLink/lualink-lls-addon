@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerShearEntityEvent
 ---@class org.bukkit.event.player.PlayerShearEntityEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private entity org.bukkit.entity.Entity
----@field private item org.bukkit.inventory.ItemStack
----@field private hand org.bukkit.inventory.EquipmentSlot
----@field private drops java.util.List
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, entity: org.bukkit.entity.Entity, item: org.bukkit.inventory.ItemStack, hand: org.bukkit.inventory.EquipmentSlot, drops: java.util.List): org.bukkit.event.player.PlayerShearEntityEvent
 ---@overload fun(player: org.bukkit.entity.Player, entity: org.bukkit.entity.Entity): org.bukkit.event.player.PlayerShearEntityEvent
 local PlayerShearEntityEvent = {}

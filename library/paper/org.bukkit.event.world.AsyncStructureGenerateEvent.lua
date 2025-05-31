@@ -2,14 +2,6 @@
 ---@meta
 -- org.bukkit.event.world.AsyncStructureGenerateEvent
 ---@class org.bukkit.event.world.AsyncStructureGenerateEvent: org.bukkit.event.world.WorldEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cause org.bukkit.event.world.AsyncStructureGenerateEvent.Cause
----@field private structure org.bukkit.generator.structure.Structure
----@field private boundingBox org.bukkit.util.BoundingBox
----@field private chunkX number
----@field private chunkZ number
----@field private blockTransformers java.util.Map
----@field private entityTransformers java.util.Map
 ---@field public Cause org.bukkit.event.world.AsyncStructureGenerateEvent.Cause
 ---@overload fun(world: org.bukkit.World, async: boolean, cause: org.bukkit.event.world.AsyncStructureGenerateEvent.Cause, structure: org.bukkit.generator.structure.Structure, boundingBox: org.bukkit.util.BoundingBox, chunkX: number, chunkZ: number): org.bukkit.event.world.AsyncStructureGenerateEvent
 local AsyncStructureGenerateEvent = {}

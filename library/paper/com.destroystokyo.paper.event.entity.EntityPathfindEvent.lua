@@ -2,10 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.EntityPathfindEvent
 ---@class com.destroystokyo.paper.event.entity.EntityPathfindEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private targetEntity org.bukkit.entity.Entity
----@field private location org.bukkit.Location
----@field private cancelled boolean
 ---@overload fun(entity: org.bukkit.entity.Entity, location: org.bukkit.Location, targetEntity: org.bukkit.entity.Entity): com.destroystokyo.paper.event.entity.EntityPathfindEvent
 local EntityPathfindEvent = {}
 

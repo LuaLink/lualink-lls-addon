@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerLevelChangeEvent
 ---@class org.bukkit.event.player.PlayerLevelChangeEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private oldLevel number
----@field private newLevel number
 ---@overload fun(player: org.bukkit.entity.Player, oldLevel: number, newLevel: number): org.bukkit.event.player.PlayerLevelChangeEvent
 local PlayerLevelChangeEvent = {}
 

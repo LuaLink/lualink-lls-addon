@@ -2,8 +2,6 @@
 ---@meta
 -- java.util.Collections.CheckedSortedMap
 ---@class java.util.Collections.CheckedSortedMap: java.util.Collections.CheckedMap, java.util.SortedMap, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
----@field private sm java.util.SortedMap
 ---@overload fun(m: java.util.SortedMap, keyType: java.lang.Class, valueType: java.lang.Class): java.util.Collections.CheckedSortedMap
 local CheckedSortedMap = {}
 

@@ -2,12 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.block.PlayerShearBlockEvent
 ---@class io.papermc.paper.event.block.PlayerShearBlockEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private block org.bukkit.block.Block
----@field private item org.bukkit.inventory.ItemStack
----@field private hand org.bukkit.inventory.EquipmentSlot
----@field private drops java.util.List
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, item: org.bukkit.inventory.ItemStack, hand: org.bukkit.inventory.EquipmentSlot, drops: java.util.List): io.papermc.paper.event.block.PlayerShearBlockEvent
 local PlayerShearBlockEvent = {}
 

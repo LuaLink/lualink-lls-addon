@@ -3,8 +3,6 @@
 ---@class io.papermc.paper.tag.BaseTag: org.bukkit.Tag, java.lang.Object
 ---@field protected key org.bukkit.NamespacedKey
 ---@field protected tagged java.util.Set
----@field private globalPredicates java.util.List
----@field private locked boolean
 ---@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, filter: function): io.papermc.paper.tag.BaseTag
 ---@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, values: T): io.papermc.paper.tag.BaseTag
 ---@overload fun(clazz: java.lang.Class, key: org.bukkit.NamespacedKey, values: java.util.Collection): io.papermc.paper.tag.BaseTag

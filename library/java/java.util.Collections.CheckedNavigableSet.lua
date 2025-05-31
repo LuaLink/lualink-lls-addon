@@ -2,8 +2,6 @@
 ---@meta
 -- java.util.Collections.CheckedNavigableSet
 ---@class java.util.Collections.CheckedNavigableSet: java.util.Collections.CheckedSortedSet, java.util.NavigableSet, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
----@field private ns java.util.NavigableSet
 ---@overload fun(s: java.util.NavigableSet, type: java.lang.Class): java.util.Collections.CheckedNavigableSet
 local CheckedNavigableSet = {}
 

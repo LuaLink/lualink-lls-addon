@@ -1,8 +1,6 @@
 ---@meta
 -- net.kyori.adventure.text.flattener.ComponentFlattenerImpl.BuilderImpl
 ---@class net.kyori.adventure.text.flattener.ComponentFlattenerImpl.BuilderImpl: net.kyori.adventure.text.flattener.ComponentFlattener.Builder, java.lang.Object
----@field private flatteners net.kyori.adventure.util.InheritanceAwareMap.Builder
----@field private unknownHandler function
 ---@overload fun(): net.kyori.adventure.text.flattener.ComponentFlattenerImpl.BuilderImpl
 ---@overload fun(flatteners: net.kyori.adventure.util.InheritanceAwareMap, unknownHandler: function): net.kyori.adventure.text.flattener.ComponentFlattenerImpl.BuilderImpl
 local BuilderImpl = {}

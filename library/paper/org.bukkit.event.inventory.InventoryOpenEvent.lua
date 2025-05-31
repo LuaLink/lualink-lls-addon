@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.inventory.InventoryOpenEvent
 ---@class org.bukkit.event.inventory.InventoryOpenEvent: org.bukkit.event.inventory.InventoryEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private titleOverride net.kyori.adventure.text.Component
----@field private cancelled boolean
 ---@overload fun(transaction: org.bukkit.inventory.InventoryView): org.bukkit.event.inventory.InventoryOpenEvent
 local InventoryOpenEvent = {}
 

@@ -2,16 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerHandshakeEvent
 ---@class com.destroystokyo.paper.event.player.PlayerHandshakeEvent: org.bukkit.event.Event, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private originalHandshake string
----@field private originalSocketAddressHostname string
----@field private serverHostname string
----@field private socketAddressHostname string
----@field private uniqueId java.util.UUID
----@field private propertiesJson string
----@field private failed boolean
----@field private failMessage net.kyori.adventure.text.Component
----@field private cancelled boolean
 ---@overload fun(originalHandshake: string, cancelled: boolean): com.destroystokyo.paper.event.player.PlayerHandshakeEvent
 ---@overload fun(originalHandshake: string, originalSocketAddressHostname: string, cancelled: boolean): com.destroystokyo.paper.event.player.PlayerHandshakeEvent
 local PlayerHandshakeEvent = {}

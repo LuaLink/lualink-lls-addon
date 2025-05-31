@@ -2,11 +2,6 @@
 ---@meta
 -- io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver
 ---@class io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver: io.papermc.paper.plugin.loader.library.ClassPathLibrary, java.lang.Object
----@field private LOGGER any
----@field private repository any
----@field private session any
----@field private repositories any
----@field private dependencies any
 ---@overload fun(): io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver
 local MavenLibraryResolver = {}
 

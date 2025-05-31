@@ -2,7 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.ParsingException
 ---@class net.kyori.adventure.text.minimessage.ParsingException: java.lang.RuntimeException, java.lang.Object
----@field private serialVersionUID number
 ---@field public LOCATION_UNKNOWN number
 ---@overload fun(message: string): net.kyori.adventure.text.minimessage.ParsingException
 ---@overload fun(message: string, cause: java.lang.Throwable): net.kyori.adventure.text.minimessage.ParsingException

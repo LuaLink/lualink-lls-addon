@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.CheckedQueue
 ---@class java.util.Collections.CheckedQueue: java.util.Collections.CheckedCollection, java.util.Queue, java.io.Serializable, java.lang.Object
----@field private serialVersionUID number
 ---@field public queue java.util.Queue
 ---@overload fun(queue: java.util.Queue, elementType: java.lang.Class): java.util.Collections.CheckedQueue
 local CheckedQueue = {}

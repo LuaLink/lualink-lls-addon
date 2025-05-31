@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.Color
 ---@class org.bukkit.Color: org.bukkit.configuration.serialization.ConfigurationSerializable, java.lang.Object
----@field private BIT_MASK number
----@field private DEFAULT_ALPHA number
 ---@field public WHITE org.bukkit.Color
 ---@field public SILVER org.bukkit.Color
 ---@field public GRAY org.bukkit.Color
@@ -21,10 +19,6 @@
 ---@field public FUCHSIA org.bukkit.Color
 ---@field public PURPLE org.bukkit.Color
 ---@field public ORANGE org.bukkit.Color
----@field private alpha number
----@field private red number
----@field private green number
----@field private blue number
 ---@overload fun(red: number, green: number, blue: number): org.bukkit.Color
 ---@overload fun(alpha: number, red: number, green: number, blue: number): org.bukkit.Color
 local Color = {}

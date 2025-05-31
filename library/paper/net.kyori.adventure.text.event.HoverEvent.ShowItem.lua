@@ -2,10 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.event.HoverEvent.ShowItem
 ---@class net.kyori.adventure.text.event.HoverEvent.ShowItem: any, java.lang.Object
----@field private item any
----@field private count number
----@field private nbt net.kyori.adventure.nbt.api.BinaryTagHolder
----@field private dataComponents any
 ---@overload fun(item: any, count: number, nbt: net.kyori.adventure.nbt.api.BinaryTagHolder, dataComponents: any): net.kyori.adventure.text.event.HoverEvent.ShowItem
 local ShowItem = {}
 

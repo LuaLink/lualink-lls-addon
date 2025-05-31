@@ -1,8 +1,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.server.PaperServerListPingEvent.UncheckedPlayerProfile
 ---@class com.destroystokyo.paper.event.server.PaperServerListPingEvent.UncheckedPlayerProfile: com.destroystokyo.paper.profile.PlayerProfile, java.lang.Object
----@field private name string
----@field private uuid java.util.UUID
 ---@overload fun(name: string, uuid: java.util.UUID): com.destroystokyo.paper.event.server.PaperServerListPingEvent.UncheckedPlayerProfile
 local UncheckedPlayerProfile = {}
 

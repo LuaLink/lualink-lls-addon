@@ -2,7 +2,6 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.HoverTag
 ---@class net.kyori.adventure.text.minimessage.tag.standard.HoverTag: java.lang.Object
----@field private HOVER string
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 ---@field public ActionHandler net.kyori.adventure.text.minimessage.tag.standard.HoverTag.ActionHandler
 ---@field public ShowText net.kyori.adventure.text.minimessage.tag.standard.HoverTag.ShowText

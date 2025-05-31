@@ -2,8 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.SlimePathfindEvent
 ---@class com.destroystokyo.paper.event.entity.SlimePathfindEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cancelled boolean
 ---@overload fun(slime: org.bukkit.entity.Slime): com.destroystokyo.paper.event.entity.SlimePathfindEvent
 local SlimePathfindEvent = {}
 

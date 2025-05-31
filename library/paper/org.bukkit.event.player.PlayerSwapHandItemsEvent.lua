@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerSwapHandItemsEvent
 ---@class org.bukkit.event.player.PlayerSwapHandItemsEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private mainHandItem org.bukkit.inventory.ItemStack
----@field private offHandItem org.bukkit.inventory.ItemStack
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, mainHandItem: org.bukkit.inventory.ItemStack, offHandItem: org.bukkit.inventory.ItemStack): org.bukkit.event.player.PlayerSwapHandItemsEvent
 local PlayerSwapHandItemsEvent = {}
 

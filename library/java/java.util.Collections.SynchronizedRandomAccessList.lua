@@ -2,7 +2,6 @@
 ---@meta
 -- java.util.Collections.SynchronizedRandomAccessList
 ---@class java.util.Collections.SynchronizedRandomAccessList: java.util.Collections.SynchronizedList, java.util.RandomAccess, java.lang.Object
----@field private serialVersionUID number
 ---@overload fun(list: java.util.List): java.util.Collections.SynchronizedRandomAccessList
 ---@overload fun(list: java.util.List, mutex: java.lang.Object): java.util.Collections.SynchronizedRandomAccessList
 local SynchronizedRandomAccessList = {}

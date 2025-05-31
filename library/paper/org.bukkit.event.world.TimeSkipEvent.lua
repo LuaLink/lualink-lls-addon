@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.world.TimeSkipEvent
 ---@class org.bukkit.event.world.TimeSkipEvent: org.bukkit.event.world.WorldEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private skipReason org.bukkit.event.world.TimeSkipEvent.SkipReason
----@field private skipAmount number
----@field private cancelled boolean
 ---@field public SkipReason org.bukkit.event.world.TimeSkipEvent.SkipReason
 ---@overload fun(world: org.bukkit.World, skipReason: org.bukkit.event.world.TimeSkipEvent.SkipReason, skipAmount: number): org.bukkit.event.world.TimeSkipEvent
 local TimeSkipEvent = {}

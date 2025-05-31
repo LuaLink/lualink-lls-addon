@@ -2,11 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.player.AsyncChatDecorateEvent
 ---@class io.papermc.paper.event.player.AsyncChatDecorateEvent: org.bukkit.event.server.ServerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
----@field private originalMessage net.kyori.adventure.text.Component
----@field private result net.kyori.adventure.text.Component
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, originalMessage: net.kyori.adventure.text.Component): io.papermc.paper.event.player.AsyncChatDecorateEvent
 local AsyncChatDecorateEvent = {}
 

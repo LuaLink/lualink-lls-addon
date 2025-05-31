@@ -1,7 +1,6 @@
 ---@meta
 -- org.bukkit.StructureType
 ---@class org.bukkit.StructureType: org.bukkit.Keyed, java.lang.Object
----@field private structureTypeMap java.util.Map
 ---@field public MINESHAFT org.bukkit.StructureType
 ---@field public VILLAGE org.bukkit.StructureType
 ---@field public NETHER_FORTRESS org.bukkit.StructureType
@@ -20,8 +19,6 @@
 ---@field public NETHER_FOSSIL org.bukkit.StructureType
 ---@field public RUINED_PORTAL org.bukkit.StructureType
 ---@field public BASTION_REMNANT org.bukkit.StructureType
----@field private key org.bukkit.NamespacedKey
----@field private mapCursor org.bukkit.map.MapCursor.Type
 ---@overload fun(name: string, mapIcon: org.bukkit.map.MapCursor.Type): org.bukkit.StructureType
 local StructureType = {}
 

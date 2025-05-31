@@ -2,8 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.block.TargetHitEvent
 ---@class io.papermc.paper.event.block.TargetHitEvent: org.bukkit.event.entity.ProjectileHitEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private signalStrength number
 ---@overload fun(projectile: org.bukkit.entity.Projectile, block: org.bukkit.block.Block, blockFace: org.bukkit.block.BlockFace, signalStrength: number): io.papermc.paper.event.block.TargetHitEvent
 local TargetHitEvent = {}
 

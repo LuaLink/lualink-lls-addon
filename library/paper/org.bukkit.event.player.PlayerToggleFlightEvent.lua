@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerToggleFlightEvent
 ---@class org.bukkit.event.player.PlayerToggleFlightEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private isFlying boolean
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, isFlying: boolean): org.bukkit.event.player.PlayerToggleFlightEvent
 local PlayerToggleFlightEvent = {}
 

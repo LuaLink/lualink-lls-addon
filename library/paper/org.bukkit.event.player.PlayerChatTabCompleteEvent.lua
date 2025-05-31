@@ -2,10 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerChatTabCompleteEvent
 ---@class org.bukkit.event.player.PlayerChatTabCompleteEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private message string
----@field private lastToken string
----@field private completions java.util.Collection
 ---@overload fun(player: org.bukkit.entity.Player, message: string, completions: java.util.Collection): org.bukkit.event.player.PlayerChatTabCompleteEvent
 local PlayerChatTabCompleteEvent = {}
 

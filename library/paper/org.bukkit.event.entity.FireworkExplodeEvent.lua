@@ -2,8 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.FireworkExplodeEvent
 ---@class org.bukkit.event.entity.FireworkExplodeEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cancelled boolean
 ---@overload fun(firework: org.bukkit.entity.Firework): org.bukkit.event.entity.FireworkExplodeEvent
 local FireworkExplodeEvent = {}
 

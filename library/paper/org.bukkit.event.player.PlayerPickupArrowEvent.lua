@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerPickupArrowEvent
 ---@class org.bukkit.event.player.PlayerPickupArrowEvent: org.bukkit.event.player.PlayerPickupItemEvent, java.lang.Object
----@field private arrow org.bukkit.entity.AbstractArrow
 ---@overload fun(player: org.bukkit.entity.Player, item: org.bukkit.entity.Item, arrow: org.bukkit.entity.AbstractArrow): org.bukkit.event.player.PlayerPickupArrowEvent
 local PlayerPickupArrowEvent = {}
 

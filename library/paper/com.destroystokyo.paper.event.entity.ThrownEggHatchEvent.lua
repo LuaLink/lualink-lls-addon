@@ -2,11 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.ThrownEggHatchEvent
 ---@class com.destroystokyo.paper.event.entity.ThrownEggHatchEvent: org.bukkit.event.Event, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private egg org.bukkit.entity.Egg
----@field private hatching boolean
----@field private numHatches number
----@field private hatchType org.bukkit.entity.EntityType
 ---@overload fun(egg: org.bukkit.entity.Egg, hatching: boolean, numHatches: number, hatchingType: org.bukkit.entity.EntityType): com.destroystokyo.paper.event.entity.ThrownEggHatchEvent
 local ThrownEggHatchEvent = {}
 

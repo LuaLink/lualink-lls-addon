@@ -2,13 +2,7 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.ColorTagResolver
 ---@class net.kyori.adventure.text.minimessage.tag.standard.ColorTagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver, net.kyori.adventure.text.minimessage.internal.serializer.SerializableResolver.Single, java.lang.Object
----@field private HEX string
----@field private COLOR_3 string
----@field private COLOR_2 string
----@field private COLOR string
 ---@field public INSTANCE net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@field private STYLE net.kyori.adventure.text.minimessage.internal.serializer.StyleClaim
----@field private COLOR_ALIASES java.util.Map
 ---@overload fun(): net.kyori.adventure.text.minimessage.tag.standard.ColorTagResolver
 local ColorTagResolver = {}
 

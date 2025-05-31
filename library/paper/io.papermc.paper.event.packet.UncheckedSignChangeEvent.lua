@@ -2,11 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.packet.UncheckedSignChangeEvent
 ---@class io.papermc.paper.event.packet.UncheckedSignChangeEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private cancel boolean
----@field private editedBlockPosition io.papermc.paper.math.BlockPosition
----@field private side org.bukkit.block.sign.Side
----@field private lines java.util.List
 ---@overload fun(editor: org.bukkit.entity.Player, editedBlockPosition: io.papermc.paper.math.BlockPosition, side: org.bukkit.block.sign.Side, lines: java.util.List): io.papermc.paper.event.packet.UncheckedSignChangeEvent
 local UncheckedSignChangeEvent = {}
 

@@ -1,7 +1,6 @@
 ---@meta
 -- org.bukkit.metadata.MetadataStoreBase
 ---@class org.bukkit.metadata.MetadataStoreBase: java.lang.Object
----@field private metadataMap java.util.Map
 local MetadataStoreBase = {}
 
 ---@param subject T The object receiving the metadata.

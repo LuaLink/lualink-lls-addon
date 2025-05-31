@@ -2,7 +2,6 @@
 ---@meta
 -- org.bukkit.persistence.PersistentDataType.PrimitivePersistentDataType
 ---@class org.bukkit.persistence.PersistentDataType.PrimitivePersistentDataType: org.bukkit.persistence.PersistentDataType, java.lang.Object
----@field private primitiveType java.lang.Class
 ---@overload fun(primitiveType: java.lang.Class): org.bukkit.persistence.PersistentDataType.PrimitivePersistentDataType
 local PrimitivePersistentDataType = {}
 

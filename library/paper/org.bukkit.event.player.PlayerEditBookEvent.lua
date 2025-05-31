@@ -2,12 +2,6 @@
 ---@meta
 -- org.bukkit.event.player.PlayerEditBookEvent
 ---@class org.bukkit.event.player.PlayerEditBookEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private previousBookMeta org.bukkit.inventory.meta.BookMeta
----@field private slot number
----@field private newBookMeta org.bukkit.inventory.meta.BookMeta
----@field private isSigning boolean
----@field private cancelled boolean
 ---@overload fun(player: org.bukkit.entity.Player, slot: number, previousBookMeta: org.bukkit.inventory.meta.BookMeta, newBookMeta: org.bukkit.inventory.meta.BookMeta, isSigning: boolean): org.bukkit.event.player.PlayerEditBookEvent
 local PlayerEditBookEvent = {}
 

@@ -2,8 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.EntityRemoveFromWorldEvent
 ---@class com.destroystokyo.paper.event.entity.EntityRemoveFromWorldEvent: org.bukkit.event.entity.EntityEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private world org.bukkit.World
 ---@overload fun(entity: org.bukkit.entity.Entity, world: org.bukkit.World): com.destroystokyo.paper.event.entity.EntityRemoveFromWorldEvent
 local EntityRemoveFromWorldEvent = {}
 

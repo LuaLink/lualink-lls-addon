@@ -2,9 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.entity.SkeletonHorseTrapEvent
 ---@class com.destroystokyo.paper.event.entity.SkeletonHorseTrapEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private eligibleHumans java.util.List
----@field private cancelled boolean
 ---@overload fun(horse: org.bukkit.entity.SkeletonHorse, eligibleHumans: java.util.List): com.destroystokyo.paper.event.entity.SkeletonHorseTrapEvent
 local SkeletonHorseTrapEvent = {}
 

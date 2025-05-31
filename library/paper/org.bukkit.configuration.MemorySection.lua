@@ -3,10 +3,6 @@
 -- org.bukkit.configuration.MemorySection
 ---@class org.bukkit.configuration.MemorySection: org.bukkit.configuration.ConfigurationSection, java.lang.Object
 ---@field protected map java.util.Map
----@field private root org.bukkit.configuration.Configuration
----@field private parent org.bukkit.configuration.ConfigurationSection
----@field private path string
----@field private fullPath string
 ---@overload fun(): org.bukkit.configuration.MemorySection
 ---@overload fun(parent: org.bukkit.configuration.ConfigurationSection, path: string): org.bukkit.configuration.MemorySection
 local MemorySection = {}

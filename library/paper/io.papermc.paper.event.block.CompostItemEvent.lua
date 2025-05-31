@@ -2,9 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.block.CompostItemEvent
 ---@class io.papermc.paper.event.block.CompostItemEvent: org.bukkit.event.block.BlockEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private item org.bukkit.inventory.ItemStack
----@field private willRaiseLevel boolean
 ---@overload fun(composter: org.bukkit.block.Block, item: org.bukkit.inventory.ItemStack, willRaiseLevel: boolean): io.papermc.paper.event.block.CompostItemEvent
 local CompostItemEvent = {}
 

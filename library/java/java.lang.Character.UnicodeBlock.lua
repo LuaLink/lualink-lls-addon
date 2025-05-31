@@ -2,8 +2,6 @@
 ---@meta
 -- java.lang.Character.UnicodeBlock
 ---@class java.lang.Character.UnicodeBlock: java.lang.Character.Subset, java.lang.Object
----@field private NUM_ENTITIES number
----@field private map java.util.Map
 ---@field public BASIC_LATIN java.lang.Character.UnicodeBlock
 ---@field public LATIN_1_SUPPLEMENT java.lang.Character.UnicodeBlock
 ---@field public LATIN_EXTENDED_A java.lang.Character.UnicodeBlock
@@ -332,8 +330,6 @@
 ---@field public CYRILLIC_EXTENDED_D java.lang.Character.UnicodeBlock
 ---@field public NAG_MUNDARI java.lang.Character.UnicodeBlock
 ---@field public CJK_UNIFIED_IDEOGRAPHS_EXTENSION_H java.lang.Character.UnicodeBlock
----@field private blockStarts number
----@field private blocks java.lang.Character.UnicodeBlock
 ---@overload fun(idName: string): java.lang.Character.UnicodeBlock
 ---@overload fun(idName: string, alias: string): java.lang.Character.UnicodeBlock
 ---@overload fun(idName: string, aliases: string): java.lang.Character.UnicodeBlock

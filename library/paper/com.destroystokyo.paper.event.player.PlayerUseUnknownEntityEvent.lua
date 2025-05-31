@@ -2,11 +2,6 @@
 ---@meta
 -- com.destroystokyo.paper.event.player.PlayerUseUnknownEntityEvent
 ---@class com.destroystokyo.paper.event.player.PlayerUseUnknownEntityEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private entityId number
----@field private attack boolean
----@field private hand org.bukkit.inventory.EquipmentSlot
----@field private clickedPosition org.bukkit.util.Vector
 ---@overload fun(player: org.bukkit.entity.Player, entityId: number, attack: boolean, hand: org.bukkit.inventory.EquipmentSlot, clickedPosition: org.bukkit.util.Vector): com.destroystokyo.paper.event.player.PlayerUseUnknownEntityEvent
 local PlayerUseUnknownEntityEvent = {}
 

@@ -2,9 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.BatToggleSleepEvent
 ---@class org.bukkit.event.entity.BatToggleSleepEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private awake boolean
----@field private cancelled boolean
 ---@overload fun(bat: org.bukkit.entity.Bat, awake: boolean): org.bukkit.event.entity.BatToggleSleepEvent
 local BatToggleSleepEvent = {}
 

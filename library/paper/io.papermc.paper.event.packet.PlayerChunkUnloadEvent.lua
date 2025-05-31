@@ -2,8 +2,6 @@
 ---@meta
 -- io.papermc.paper.event.packet.PlayerChunkUnloadEvent
 ---@class io.papermc.paper.event.packet.PlayerChunkUnloadEvent: org.bukkit.event.world.ChunkEvent, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private player org.bukkit.entity.Player
 ---@overload fun(chunk: org.bukkit.Chunk, player: org.bukkit.entity.Player): io.papermc.paper.event.packet.PlayerChunkUnloadEvent
 local PlayerChunkUnloadEvent = {}
 

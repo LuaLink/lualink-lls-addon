@@ -2,17 +2,6 @@
 ---@meta
 -- org.bukkit.event.entity.EntityDeathEvent
 ---@class org.bukkit.event.entity.EntityDeathEvent: org.bukkit.event.entity.EntityEvent, org.bukkit.event.Cancellable, java.lang.Object
----@field private HANDLER_LIST org.bukkit.event.HandlerList
----@field private damageSource org.bukkit.damage.DamageSource
----@field private drops java.util.List
----@field private dropExp number
----@field private reviveHealth number
----@field private shouldPlayDeathSound boolean
----@field private deathSound org.bukkit.Sound
----@field private deathSoundCategory org.bukkit.SoundCategory
----@field private deathSoundVolume number
----@field private deathSoundPitch number
----@field private cancelled boolean
 ---@overload fun(livingEntity: org.bukkit.entity.LivingEntity, damageSource: org.bukkit.damage.DamageSource, drops: java.util.List): org.bukkit.event.entity.EntityDeathEvent
 ---@overload fun(livingEntity: org.bukkit.entity.LivingEntity, damageSource: org.bukkit.damage.DamageSource, drops: java.util.List, droppedExp: number): org.bukkit.event.entity.EntityDeathEvent
 local EntityDeathEvent = {}
