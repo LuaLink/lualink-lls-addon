@@ -109,6 +109,12 @@ function Registry:hasTag(key) end
 --- Gets the named registry set (tag) for the given key.
 function Registry:getTag(key) end
 
+---@param key io.papermc.paper.registry.tag.TagKey the key to get the tag for
+---@public
+---@return java.util.Collection the resolved values
+--- Gets the named registry set (tag) for the given key and resolves it with this registry.
+function Registry:getTagValues(key) end
+
 ---@public
 ---@return java.util.Collection a stream of all tags in this registry
 --- Gets all the tags in this registry.
