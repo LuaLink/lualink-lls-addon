@@ -219,6 +219,7 @@
 ---| '"java.util.function.Supplier"' 
 ---| '"java.util.Optional"' 
 ---| '"java.lang.Class.EnclosingMethodInfo"' 
+---| '"java.lang.Class.Holder"' 
 ---| '"java.lang.Class.Atomic"' 
 ---| '"java.lang.Class.ReflectionData"' 
 ---| '"java.lang.Class.AnnotationData"' 
