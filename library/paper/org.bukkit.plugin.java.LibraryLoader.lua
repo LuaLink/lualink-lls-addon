@@ -6,6 +6,10 @@
 ---@overload fun(logger: java.util.logging.Logger): org.bukkit.plugin.java.LibraryLoader
 local LibraryLoader = {}
 
+---@private
+---@return any 
+function LibraryLoader:getRepositories() end
+
 ---@param desc org.bukkit.plugin.PluginDescriptionFile 
 ---@public
 ---@return java.lang.ClassLoader 
