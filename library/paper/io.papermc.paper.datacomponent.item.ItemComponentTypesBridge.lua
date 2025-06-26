@@ -142,10 +142,10 @@ function ItemComponentTypesBridge:customModelData() end
 ---@return io.papermc.paper.datacomponent.item.MapId 
 function ItemComponentTypesBridge:mapId(id) end
 
----@param itemStack org.bukkit.inventory.ItemStack 
+---@param stack org.bukkit.inventory.ItemStack 
 ---@public
 ---@return io.papermc.paper.datacomponent.item.UseRemainder 
-function ItemComponentTypesBridge:useRemainder(itemStack) end
+function ItemComponentTypesBridge:useRemainder(stack) end
 
 ---@public
 ---@return io.papermc.paper.datacomponent.item.Consumable.Builder 

@@ -42,6 +42,11 @@ function StandardTags:keybind() end
 function StandardTags:translatable() end
 
 ---@public
+---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a resolver for the {@value TranslatableFallbackTag#TRANSLATE_OR} tag
+--- Get a resolver for the {@value TranslatableFallbackTag#TRANSLATE_OR} tag.  <p>This tag also responds to {@value TranslatableFallbackTag#LANG_OR} and {@value TranslatableFallbackTag#TR_OR}.</p>
+function StandardTags:translatableFallback() end
+
+---@public
 ---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a resolver for the {@value InsertionTag#INSERTION} tag
 --- Get a resolver for the {@value InsertionTag#INSERTION} tag.
 function StandardTags:insertion() end
@@ -75,6 +80,31 @@ function StandardTags:reset() end
 ---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a resolver for the {@value NewlineTag#NEWLINE} tag.
 --- Get a resolver for the {@value NewlineTag#NEWLINE} tag.  <p>This tag also responds to {@value NewlineTag#BR}.</p>
 function StandardTags:newline() end
+
+---@public
+---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a resolver for the {@value SelectorTag#SELECTOR} tag
+--- Get a resolver for the {@value SelectorTag#SELECTOR} tag.  <p>This tag also responds to {@value SelectorTag#SEL}.</p>
+function StandardTags:selector() end
+
+---@public
+---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a resolver for the {@value ScoreTag#SCORE} tag
+--- Get a resolver for the {@value ScoreTag#SCORE} tag.
+function StandardTags:score() end
+
+---@public
+---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a resolver for the {@value NbtTag#NBT} tag.
+--- Get a resolver for the {@value NbtTag#NBT} tag.  <p>This tag also responds to {@value NbtTag#DATA}.</p>
+function StandardTags:nbt() end
+
+---@public
+---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a resolver for the {@value PrideTag#PRIDE} tag
+--- Get a resolver for the {@value PrideTag#PRIDE} tag.
+function StandardTags:pride() end
+
+---@public
+---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a resolver for the {@value ShadowColorTag#SHADOW_COLOR} tags
+--- Get a resolver for the {@value ShadowColorTag#SHADOW_COLOR} tags.  <p>This tag support both hex string</p>
+function StandardTags:shadowColor() end
 
 ---@public
 ---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver the resolver for built-in tags

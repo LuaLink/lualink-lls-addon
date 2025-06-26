@@ -24,3 +24,9 @@ function Builder:complexMapper(type, converter) end
 --- Register a handler for unknown component types.  <p>This will be called if no other converter can be found.</p>
 function Builder:unknownMapper(converter) end
 
+---@param limit number the new limit (must be a positive integer, or {@link #NO_NESTING_LIMIT})
+---@public
+---@return net.kyori.adventure.text.flattener.ComponentFlattener.Builder this builder
+--- Sets the limit of nested flatten calls.  <p>The default value is {@link #NO_NESTING_LIMIT}, which means there is no limit on nesting.</p>
+function Builder:nestingLimit(limit) end
+

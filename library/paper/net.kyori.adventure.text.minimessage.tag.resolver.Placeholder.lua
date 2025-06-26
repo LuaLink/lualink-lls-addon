@@ -26,3 +26,10 @@ function Placeholder:unparsed(key, value) end
 --- Creates a replacement that inserts a component.  <p>This replacement is auto-closing, so its style will not influence the style of following components.</p>
 function Placeholder:component(key, value) end
 
+---@param key string the key
+---@param style net.kyori.adventure.text.format.StyleBuilderApplicable the style
+---@public
+---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver.Single the placeholder
+--- Creates a style tag which will modify the style of the component.  <p>This style can be used like other styles.</p>
+function Placeholder:styling(key, style) end
+

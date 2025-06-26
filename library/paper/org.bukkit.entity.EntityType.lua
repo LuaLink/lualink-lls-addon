@@ -63,6 +63,7 @@
 ---@field public GLOW_SQUID org.bukkit.entity.EntityType
 ---@field public GOAT org.bukkit.entity.EntityType
 ---@field public GUARDIAN org.bukkit.entity.EntityType
+---@field public HAPPY_GHAST org.bukkit.entity.EntityType
 ---@field public HOGLIN org.bukkit.entity.EntityType
 ---@field public HOPPER_MINECART org.bukkit.entity.EntityType
 ---@field public HORSE org.bukkit.entity.EntityType

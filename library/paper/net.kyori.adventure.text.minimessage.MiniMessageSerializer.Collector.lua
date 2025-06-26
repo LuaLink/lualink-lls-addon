@@ -109,6 +109,6 @@ function Collector:styleClaimed(claimId) end
 
 ---@param component net.kyori.adventure.text.Component 
 ---@public
----@return nil 
+---@return net.kyori.adventure.text.Component 
 function Collector:flushClaims(component) end
 

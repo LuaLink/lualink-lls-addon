@@ -352,6 +352,7 @@
 ---@field public DRAGON_EGG org.bukkit.block.BlockType.Typed
 ---@field public DRAGON_HEAD org.bukkit.block.BlockType.Typed
 ---@field public DRAGON_WALL_HEAD org.bukkit.block.BlockType.Typed
+---@field public DRIED_GHAST org.bukkit.block.BlockType.Typed
 ---@field public DRIED_KELP_BLOCK org.bukkit.block.BlockType.Typed
 ---@field public DRIPSTONE_BLOCK org.bukkit.block.BlockType.Typed
 ---@field public DROPPER org.bukkit.block.BlockType.Typed
@@ -1132,7 +1133,7 @@ function BlockType:hasItemType() end
 
 ---@public
 ---@return org.bukkit.inventory.ItemType the corresponding ItemType
---- Returns the corresponding {@link ItemType} for the given BlockType. <p> If there is no corresponding {@link ItemType} an error will be thrown.
+--- Returns the corresponding {@link ItemType} for the given BlockType. <p> If there is no corresponding {@link ItemType} an error will be thrown. <p>This is <b>NOT</b> the same as the {@link ItemType} with the same key, but instead is the item associated with this block if this block can be represented with an item.</p>
 function BlockType:getItemType() end
 
 ---@public

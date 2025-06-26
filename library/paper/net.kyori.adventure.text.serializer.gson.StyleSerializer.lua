@@ -1,7 +1,7 @@
 ---@meta
 -- net.kyori.adventure.text.serializer.gson.StyleSerializer
 ---@class net.kyori.adventure.text.serializer.gson.StyleSerializer: any, java.lang.Object
----@overload fun(legacyHover: any?, emitValueFieldHover: boolean, emitCamelCaseHover: boolean, emitSnakeCaseHover: boolean, emitCamelCaseClick: boolean, emitSnakeCaseClick: boolean, strictEventValues: boolean, emitShadowColor: boolean, gson: any): net.kyori.adventure.text.serializer.gson.StyleSerializer
+---@overload fun(legacyHover: any?, emitValueFieldHover: boolean, emitCamelCaseHover: boolean, emitSnakeCaseHover: boolean, emitCamelCaseClick: boolean, emitSnakeCaseClick: boolean, strictEventValues: boolean, emitShadowColor: boolean, emitStringPage: boolean, gson: any): net.kyori.adventure.text.serializer.gson.StyleSerializer
 local StyleSerializer = {}
 
 ---@param legacyHover? any 

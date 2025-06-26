@@ -6,8 +6,8 @@
 local SpongeAbsorbEvent = {}
 
 ---@public
----@return java.util.List list of the to be removed blocks.
---- Get a list of all blocks to be removed by the sponge. <br> This list is mutable and contains the blocks in their removed state, i.e. having a type of {@link Material#AIR}.
+---@return java.util.List list of the cleared blocks.
+--- Get a list of all blocks to be cleared by the sponge. <br> This list is mutable and contains the blocks in their removed state, i.e. having a type of {@link Material#AIR} or not waterlogged.
 function SpongeAbsorbEvent:getBlocks() end
 
 ---@public

@@ -10,6 +10,7 @@
 ---@field public BLOCK_BREAK_SPEED io.papermc.paper.registry.TypedKey
 ---@field public BLOCK_INTERACTION_RANGE io.papermc.paper.registry.TypedKey
 ---@field public BURNING_TIME io.papermc.paper.registry.TypedKey
+---@field public CAMERA_DISTANCE io.papermc.paper.registry.TypedKey
 ---@field public ENTITY_INTERACTION_RANGE io.papermc.paper.registry.TypedKey
 ---@field public EXPLOSION_KNOCKBACK_RESISTANCE io.papermc.paper.registry.TypedKey
 ---@field public FALL_DAMAGE_MULTIPLIER io.papermc.paper.registry.TypedKey
@@ -34,6 +35,8 @@
 ---@field public SWEEPING_DAMAGE_RATIO io.papermc.paper.registry.TypedKey
 ---@field public TEMPT_RANGE io.papermc.paper.registry.TypedKey
 ---@field public WATER_MOVEMENT_EFFICIENCY io.papermc.paper.registry.TypedKey
+---@field public WAYPOINT_RECEIVE_RANGE io.papermc.paper.registry.TypedKey
+---@field public WAYPOINT_TRANSMIT_RANGE io.papermc.paper.registry.TypedKey
 ---@overload fun(): io.papermc.paper.registry.keys.AttributeKeys
 local AttributeKeys = {}
 

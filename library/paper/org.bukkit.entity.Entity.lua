@@ -195,7 +195,7 @@ function Entity:isVisualFire() end
 
 ---@public
 ---@return net.kyori.adventure.util.TriState A TriState indicating the current visual fire state.
---- Retrieves the visual fire state of the object.
+--- Retrieves the visual fire state of the entity.
 function Entity:getVisualFire() end
 
 ---@public

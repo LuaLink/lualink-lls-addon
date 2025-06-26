@@ -23,3 +23,12 @@ function SequentialTagResolver:has(name) end
 ---@return nil 
 function SequentialTagResolver:handle(serializable, consumer) end
 
+---@param other java.lang.Object 
+---@public
+---@return boolean 
+function SequentialTagResolver:equals(other) end
+
+---@public
+---@return number 
+function SequentialTagResolver:hashCode() end
+

@@ -156,3 +156,8 @@ function ForwardingAudience:removeResourcePacks(id, others) end
 ---@return nil 
 function ForwardingAudience:clearResourcePacks() end
 
+---@param dialog net.kyori.adventure.dialog.DialogLike 
+---@public
+---@return nil 
+function ForwardingAudience:showDialog(dialog) end
+

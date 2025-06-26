@@ -6,24 +6,35 @@
 ---@overload fun(tagResolver: net.kyori.adventure.text.minimessage.tag.resolver.TagResolver): net.kyori.adventure.text.minimessage.MiniMessageParser
 local MiniMessageParser = {}
 
----@param richMessage string 
 ---@param context net.kyori.adventure.text.minimessage.ContextImpl 
 ---@public
 ---@return string 
-function MiniMessageParser:escapeTokens(richMessage, context) end
+function MiniMessageParser:escapeTokens(context) end
+
+---@param sb java.lang.StringBuilder 
+---@param context net.kyori.adventure.text.minimessage.ContextImpl 
+---@public
+---@return nil 
+function MiniMessageParser:escapeTokens(sb, context) end
 
 ---@param sb java.lang.StringBuilder 
 ---@param richMessage string 
 ---@param context net.kyori.adventure.text.minimessage.ContextImpl 
----@public
+---@private
 ---@return nil 
 function MiniMessageParser:escapeTokens(sb, richMessage, context) end
 
----@param richMessage string 
 ---@param context net.kyori.adventure.text.minimessage.ContextImpl 
 ---@public
 ---@return string 
-function MiniMessageParser:stripTokens(richMessage, context) end
+function MiniMessageParser:stripTokens(context) end
+
+---@param sb java.lang.StringBuilder 
+---@param context net.kyori.adventure.text.minimessage.ContextImpl 
+---@param tagHandler function 
+---@private
+---@return nil 
+function MiniMessageParser:processTokens(sb, context, tagHandler) end
 
 ---@param sb java.lang.StringBuilder 
 ---@param richMessage string 
@@ -33,17 +44,15 @@ function MiniMessageParser:stripTokens(richMessage, context) end
 ---@return nil 
 function MiniMessageParser:processTokens(sb, richMessage, context, tagHandler) end
 
----@param richMessage string 
 ---@param context net.kyori.adventure.text.minimessage.ContextImpl 
 ---@public
 ---@return net.kyori.adventure.text.minimessage.internal.parser.node.RootNode 
-function MiniMessageParser:parseToTree(richMessage, context) end
+function MiniMessageParser:parseToTree(context) end
 
----@param richMessage string 
 ---@param context net.kyori.adventure.text.minimessage.ContextImpl 
 ---@public
 ---@return net.kyori.adventure.text.Component 
-function MiniMessageParser:parseFormat(richMessage, context) end
+function MiniMessageParser:parseFormat(context) end
 
 ---@param node net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode 
 ---@param context net.kyori.adventure.text.minimessage.ContextImpl 

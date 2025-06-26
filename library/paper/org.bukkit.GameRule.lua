@@ -57,6 +57,7 @@
 ---@field public PLAYERS_NETHER_PORTAL_CREATIVE_DELAY org.bukkit.GameRule
 ---@field public MINECART_MAX_SPEED org.bukkit.GameRule
 ---@field public SPAWN_CHUNK_RADIUS org.bukkit.GameRule
+---@field public LOCATOR_BAR org.bukkit.GameRule
 ---@overload fun(name: string, clazz: java.lang.Class): org.bukkit.GameRule
 local GameRule = {}
 

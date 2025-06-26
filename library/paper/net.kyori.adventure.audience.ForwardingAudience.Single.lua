@@ -178,3 +178,8 @@ function Single:removeResourcePacks(id, others) end
 ---@return nil 
 function Single:clearResourcePacks() end
 
+---@param dialog net.kyori.adventure.dialog.DialogLike 
+---@public
+---@return nil 
+function Single:showDialog(dialog) end
+

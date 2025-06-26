@@ -12,5 +12,6 @@
 ---@field public PLAYER net.kyori.adventure.sound.Sound.Source
 ---@field public AMBIENT net.kyori.adventure.sound.Sound.Source
 ---@field public VOICE net.kyori.adventure.sound.Sound.Source
+---@field public UI net.kyori.adventure.sound.Sound.Source
 local Source = {}
 

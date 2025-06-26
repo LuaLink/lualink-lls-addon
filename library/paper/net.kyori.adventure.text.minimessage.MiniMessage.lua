@@ -52,6 +52,13 @@ function MiniMessage:stripTags(input, tagResolver) end
 function MiniMessage:stripTags(input, tagResolvers) end
 
 ---@param input string the input string
+---@param target net.kyori.adventure.pointer.Pointered the target of the deserialization
+---@public
+---@return net.kyori.adventure.text.Component the output component
+--- Deserializes a string into a component, with a target.
+function MiniMessage:deserialize(input, target) end
+
+---@param input string the input string
 ---@param tagResolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver the tag resolver for any additional tags to handle
 ---@public
 ---@return net.kyori.adventure.text.Component the output component
@@ -59,17 +66,40 @@ function MiniMessage:stripTags(input, tagResolvers) end
 function MiniMessage:deserialize(input, tagResolver) end
 
 ---@param input string the input string
+---@param target net.kyori.adventure.pointer.Pointered the target of the deserialization
+---@param tagResolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver the tag resolver for any additional tags to handle
+---@public
+---@return net.kyori.adventure.text.Component the output component
+--- Deserializes a string into a component, with a tag resolver to parse tags of the form {@code <key>} and a target.  <p>Tags will be resolved from the resolver parameter before the resolver provided in the builder is used.</p>
+function MiniMessage:deserialize(input, target, tagResolver) end
+
+---@param input string the input string
 ---@param tagResolvers net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a series of tag resolvers to apply extra tags from, last specified taking priority
 ---@public
 ---@return net.kyori.adventure.text.Component the output component
---- Deserializes a string into a component, with a tag resolver to parse tags of the form {@code <key>}.  <p>Tags will be resolved from the resolver parameters before the resolver provided in the builder is used.</p>
+--- Deserializes a string into a component, with tag resolvers to parse tags of the form {@code <key>}.  <p>Tags will be resolved from the resolver parameters before the resolver provided in the builder is used.</p>
 function MiniMessage:deserialize(input, tagResolvers) end
+
+---@param input string the input string
+---@param target net.kyori.adventure.pointer.Pointered the target of the deserialization
+---@param tagResolvers net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a series of tag resolvers to apply extra tags from, last specified taking priority
+---@public
+---@return net.kyori.adventure.text.Component the output component
+--- Deserializes a string into a component, with tag resolvers to parse tags of the form {@code <key>} and a target.  <p>Tags will be resolved from the resolver parameters before the resolver provided in the builder is used.</p>
+function MiniMessage:deserialize(input, target, tagResolvers) end
 
 ---@param input string the input string
 ---@public
 ---@return net.kyori.adventure.text.minimessage.tree.Node.Root the root of the resulting tree
---- Deserializes a string into a tree of parsed elements, This is intended for inspecting the output of the parser for debugging purposes.
+--- Deserializes a string into a tree of parsed elements. This is intended for inspecting the output of the parser for debugging purposes.
 function MiniMessage:deserializeToTree(input) end
+
+---@param input string the input string
+---@param target net.kyori.adventure.pointer.Pointered the target of the deserialization
+---@public
+---@return net.kyori.adventure.text.minimessage.tree.Node.Root the root of the resulting tree
+--- Deserializes a string into a tree of parsed elements, with a target. This is intended for inspecting the output of the parser for debugging purposes.
+function MiniMessage:deserializeToTree(input, target) end
 
 ---@param input string the input string
 ---@param tagResolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver the tag resolver for any additional tags to handle
@@ -79,11 +109,37 @@ function MiniMessage:deserializeToTree(input) end
 function MiniMessage:deserializeToTree(input, tagResolver) end
 
 ---@param input string the input string
+---@param target net.kyori.adventure.pointer.Pointered the target of the deserialization
+---@param tagResolver net.kyori.adventure.text.minimessage.tag.resolver.TagResolver the tag resolver for any additional tags to handle
+---@public
+---@return net.kyori.adventure.text.minimessage.tree.Node.Root the root of the resulting tree
+--- Deserializes a string into a tree of parsed elements, with a tag resolver to parse tags of the form {@code <key>} and a target. This is intended for inspecting the output of the parser for debugging purposes.  <p>Tags will be resolved from the resolver parameter before the resolver provided in the builder is used.</p>
+function MiniMessage:deserializeToTree(input, target, tagResolver) end
+
+---@param input string the input string
 ---@param tagResolvers net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a series of tag resolvers to apply extra tags from, last specified taking priority
 ---@public
 ---@return net.kyori.adventure.text.minimessage.tree.Node.Root the root of the resulting tree
 --- Deserializes a string into a tree of parsed elements, with a tag resolver to parse tags of the form {@code <key>}. This is intended for inspecting the output of the parser for debugging purposes.  <p>Tags will be resolved from the resolver parameter before the resolver provided in the builder is used.</p>
 function MiniMessage:deserializeToTree(input, tagResolvers) end
+
+---@param input string the input string
+---@param target net.kyori.adventure.pointer.Pointered the target of the deserialization
+---@param tagResolvers net.kyori.adventure.text.minimessage.tag.resolver.TagResolver a series of tag resolvers to apply extra tags from, last specified taking priority
+---@public
+---@return net.kyori.adventure.text.minimessage.tree.Node.Root the root of the resulting tree
+--- Deserializes a string into a tree of parsed elements, with a tag resolver to parse tags of the form {@code <key>}. This is intended for inspecting the output of the parser for debugging purposes.  <p>Tags will be resolved from the resolver parameter before the resolver provided in the builder is used.</p>
+function MiniMessage:deserializeToTree(input, target, tagResolvers) end
+
+---@public
+---@return boolean if the instance is in strict mode
+--- Returns if this MiniMessage instance is in strict mode.
+function MiniMessage:strict() end
+
+---@public
+---@return net.kyori.adventure.text.minimessage.tag.resolver.TagResolver the base tag resolver
+--- Returns the base tag resolver of this MiniMessage instance.
+function MiniMessage:tags() end
 
 ---@public
 ---@return net.kyori.adventure.text.minimessage.MiniMessage.Builder a builder

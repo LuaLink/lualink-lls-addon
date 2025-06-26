@@ -80,6 +80,18 @@ function TranslatableComponentRenderer:renderText(component, context) end
 ---@return net.kyori.adventure.text.Component 
 function TranslatableComponentRenderer:renderTranslatable(component, context) end
 
+---@param component net.kyori.adventure.text.TranslatableComponent 
+---@param context C 
+---@protected
+---@return net.kyori.adventure.text.Component 
+function TranslatableComponentRenderer:renderTranslatableInner(component, context) end
+
+---@param component net.kyori.adventure.text.Component 
+---@param context C 
+---@protected
+---@return net.kyori.adventure.text.Component 
+function TranslatableComponentRenderer:optionallyRenderChildrenAndStyle(component, context) end
+
 ---@param component net.kyori.adventure.text.Component 
 ---@param builder B 
 ---@param context C 

@@ -45,7 +45,7 @@ function Spawner:setSpawnCount(spawnCount) end
 
 ---@public
 ---@return number the maximum number of nearby, similar, entities
---- Set the new maximum amount of similar entities that are allowed to be within spawning range of this spawner. <br> If more than the maximum number of entities are within range, the spawner will not spawn and try again with a new {@link #getDelay()}. <br> Default value is 16.
+--- Get the maximum number of similar entities that are allowed to be within the spawning range of this spawner. <br> If more than the maximum number of entities are within range, the spawner will not spawn and try again with a new {@link #getDelay()}. <br> Default value is 6.
 function Spawner:getMaxNearbyEntities() end
 
 ---@param maxNearbyEntities number the maximum number of nearby, similar, entities
@@ -64,7 +64,7 @@ function Spawner:isActivated() end
 --- Resets the spawn delay timer within the min/max range
 function Spawner:resetTimer() end
 
----@param itemStack org.bukkit.inventory.ItemStack The item to spawn. Must not {@link org.bukkit.Material#isAir be air}.
+---@param itemStack org.bukkit.inventory.ItemStack The item to spawn. Must not {@link ItemStack#isEmpty() be empty}.
 ---@public
 ---@return nil 
 --- Sets the {@link EntityType} to {@link EntityType#ITEM} and sets the data to the given {@link org.bukkit.inventory.ItemStack ItemStack}. <p> {@link #setSpawnCount(int)} does not dictate the amount of items in the stack spawned, but rather how many stacks should be spawned.

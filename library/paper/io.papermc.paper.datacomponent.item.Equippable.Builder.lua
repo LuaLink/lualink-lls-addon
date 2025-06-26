@@ -52,3 +52,15 @@ function Builder:damageOnHurt(damageOnHurt) end
 --- Sets whether the item should be equipped when interacting with an entity.
 function Builder:equipOnInteract(equipOnInteract) end
 
+---@param canBeSheared boolean true if can be sheared off an entity
+---@public
+---@return io.papermc.paper.datacomponent.item.Equippable.Builder the builder for chaining
+--- Sets whether the item can be sheared off an entity.
+function Builder:canBeSheared(canBeSheared) end
+
+---@param shearSound any the shear sound key
+---@public
+---@return io.papermc.paper.datacomponent.item.Equippable.Builder the builder for chaining
+--- Sets the sound that is played when shearing this equipment off an entity.
+function Builder:shearSound(shearSound) end
+

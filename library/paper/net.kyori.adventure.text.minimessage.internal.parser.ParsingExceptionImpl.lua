@@ -35,10 +35,6 @@ function ParsingExceptionImpl:tokens(tokens) end
 function ParsingExceptionImpl:arrow() end
 
 ---@public
----@return java.lang.Throwable 
-function ParsingExceptionImpl:fillInStackTrace() end
-
----@public
 ---@return number 
 function ParsingExceptionImpl:startIndex() end
 

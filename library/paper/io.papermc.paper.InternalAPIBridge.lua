@@ -38,3 +38,9 @@ function InternalAPIBridge:createCombatEntry(entity, damageSource, damage) end
 --- Creates a new combat entry
 function InternalAPIBridge:createCombatEntry(damageSource, damage, fallLocationType, fallDistance) end
 
+---@param predicate function wrapped predicate
+---@public
+---@return function wrapped predicate
+--- Causes this predicate to be considered restricted. Applying this to a command node prevents this command from being executed from an unattended context, such as click events.
+function InternalAPIBridge:restricted(predicate) end
+

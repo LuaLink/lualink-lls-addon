@@ -12,5 +12,6 @@
 ---@field public PLAYERS org.bukkit.SoundCategory
 ---@field public AMBIENT org.bukkit.SoundCategory
 ---@field public VOICE org.bukkit.SoundCategory
+---@field public UI org.bukkit.SoundCategory
 local SoundCategory = {}
 

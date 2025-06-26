@@ -93,6 +93,6 @@ function PermissionManager:addPermissions(perm) end
 
 ---@public
 ---@return nil 
---- Clears the current registered permissinos. <p> This is used for reloading.
+--- Clears all the current registered permissions. <p> This is used for reloading.
 function PermissionManager:clearPermissions() end
 

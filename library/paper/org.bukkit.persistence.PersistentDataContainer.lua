@@ -22,12 +22,12 @@ function PersistentDataContainer:remove(key) end
 ---@param clear boolean if true, this {@link PersistentDataContainer} instance              will be cleared before reading
 ---@public
 ---@return nil 
---- Read values from a serialised byte array into this {@link PersistentDataContainer} instance.
+--- Read values from a serialized byte array into this {@link PersistentDataContainer} instance.
 function PersistentDataContainer:readFromBytes(bytes, clear) end
 
 ---@param bytes table<number> the byte array to read from
 ---@public
 ---@return nil 
---- Read values from a serialised byte array into this {@link PersistentDataContainer} instance. This method has the same effect as <code>PersistentDataContainer#readFromBytes(bytes, true)</code>
+--- Read values from a serialized byte array into this {@link PersistentDataContainer} instance. This method has the same effect as <code>PersistentDataContainer#readFromBytes(bytes, true)</code>
 function PersistentDataContainer:readFromBytes(bytes) end
 

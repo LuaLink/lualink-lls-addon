@@ -5,7 +5,7 @@
 ---@field public TEXT_ONLY net.kyori.adventure.text.flattener.ComponentFlattener
 ---@field public Handler net.kyori.adventure.text.flattener.ComponentFlattenerImpl.Handler
 ---@field public BuilderImpl net.kyori.adventure.text.flattener.ComponentFlattenerImpl.BuilderImpl
----@overload fun(flatteners: net.kyori.adventure.util.InheritanceAwareMap, unknownHandler: function): net.kyori.adventure.text.flattener.ComponentFlattenerImpl
+---@overload fun(flatteners: net.kyori.adventure.util.InheritanceAwareMap, unknownHandler: function, maxNestedDepth: number): net.kyori.adventure.text.flattener.ComponentFlattenerImpl
 local ComponentFlattenerImpl = {}
 
 ---@param input net.kyori.adventure.text.Component 
@@ -17,9 +17,10 @@ function ComponentFlattenerImpl:flatten(input, listener) end
 ---@param input net.kyori.adventure.text.Component 
 ---@param listener net.kyori.adventure.text.flattener.FlattenerListener 
 ---@param depth number 
+---@param nestedDepth number 
 ---@private
 ---@return nil 
-function ComponentFlattenerImpl:flatten0(input, listener, depth) end
+function ComponentFlattenerImpl:flatten0(input, listener, depth, nestedDepth) end
 
 ---@param test T 
 ---@private

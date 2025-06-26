@@ -271,7 +271,7 @@ function Audience:playSound(sound, x, y, z) end
 ---@param emitter net.kyori.adventure.sound.Sound.Emitter an emitter
 ---@public
 ---@return nil 
---- Plays a sound from an emitter, usually an entity.  <p>   Sounds played using this method will follow the emitter unless the sound is a custom sound.   In this case the sound will be played at the location of the emitter and will not follow them. </p>  <p>To play a sound that follows the recipient, use {@link Sound.Emitter#self()}.</p>  <p><b>Note</b>: Due to <a href="https://bugs.mojang.com/browse/MC-138832">MC-138832</a>, the volume and pitch may be ignored when using this method.</p>
+--- Plays a sound from an emitter, usually an entity.  <p>   Sounds played using this method will follow the emitter unless the sound is a custom sound.   In this case the sound will be played at the location of the emitter and will not follow them. </p>  <p>To play a sound that follows the recipient, use {@link Sound.Emitter#self()}.</p>
 function Audience:playSound(sound, emitter) end
 
 ---@param sound net.kyori.adventure.sound.Sound the sound
@@ -353,4 +353,10 @@ function Audience:removeResourcePacks(id, others) end
 ---@return nil 
 --- Clear all server-provided resource packs that have been sent to this user.
 function Audience:clearResourcePacks() end
+
+---@param dialog net.kyori.adventure.dialog.DialogLike the dialog
+---@public
+---@return nil 
+--- Shows a dialog to this audience.  <p>This method exists to allow initial native support for dialogs until Adventure has full API to support building and sending dialogs.</p>
+function Audience:showDialog(dialog) end
 

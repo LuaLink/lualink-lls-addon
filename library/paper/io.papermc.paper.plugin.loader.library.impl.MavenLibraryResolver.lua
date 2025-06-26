@@ -2,6 +2,7 @@
 ---@meta
 -- io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver
 ---@class io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver: io.papermc.paper.plugin.loader.library.ClassPathLibrary, java.lang.Object
+---@field public MAVEN_CENTRAL_DEFAULT_MIRROR string
 ---@overload fun(): io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver
 local MavenLibraryResolver = {}
 
@@ -22,4 +23,8 @@ function MavenLibraryResolver:addRepository(remoteRepository) end
 ---@return nil 
 --- Resolves the provided dependencies and adds them to the library store.
 function MavenLibraryResolver:register(store) end
+
+---@private
+---@return string 
+function MavenLibraryResolver:getDefaultMavenCentralMirror() end
 

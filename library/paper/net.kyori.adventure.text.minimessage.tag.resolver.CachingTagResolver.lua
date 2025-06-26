@@ -30,3 +30,12 @@ function CachingTagResolver:contributeToMap(map) end
 ---@return nil 
 function CachingTagResolver:handle(serializable, consumer) end
 
+---@param other java.lang.Object 
+---@public
+---@return boolean 
+function CachingTagResolver:equals(other) end
+
+---@public
+---@return number 
+function CachingTagResolver:hashCode() end
+

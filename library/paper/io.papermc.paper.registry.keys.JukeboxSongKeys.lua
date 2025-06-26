@@ -19,6 +19,7 @@
 ---@field public RELIC io.papermc.paper.registry.TypedKey
 ---@field public STAL io.papermc.paper.registry.TypedKey
 ---@field public STRAD io.papermc.paper.registry.TypedKey
+---@field public TEARS io.papermc.paper.registry.TypedKey
 ---@field public WAIT io.papermc.paper.registry.TypedKey
 ---@field public WARD io.papermc.paper.registry.TypedKey
 ---@overload fun(): io.papermc.paper.registry.keys.JukeboxSongKeys

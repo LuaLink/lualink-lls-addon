@@ -8,5 +8,7 @@
 ---@field public SUGGEST_COMMAND net.kyori.adventure.text.event.ClickEvent.Action
 ---@field public CHANGE_PAGE net.kyori.adventure.text.event.ClickEvent.Action
 ---@field public COPY_TO_CLIPBOARD net.kyori.adventure.text.event.ClickEvent.Action
+---@field public SHOW_DIALOG net.kyori.adventure.text.event.ClickEvent.Action
+---@field public CUSTOM net.kyori.adventure.text.event.ClickEvent.Action
 local Action = {}
 

@@ -3,7 +3,8 @@
 -- net.kyori.adventure.text.minimessage.tag.standard.GradientTag
 ---@class net.kyori.adventure.text.minimessage.tag.standard.GradientTag: net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag, java.lang.Object
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(phase: number, colors: java.util.List): net.kyori.adventure.text.minimessage.tag.standard.GradientTag
+---@field public phase number
+---@overload fun(phase: number, colors: java.util.List, ctx: net.kyori.adventure.text.minimessage.Context): net.kyori.adventure.text.minimessage.tag.standard.GradientTag
 local GradientTag = {}
 
 ---@param args net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue 
@@ -23,6 +24,10 @@ function GradientTag:advanceColor() end
 ---@protected
 ---@return net.kyori.adventure.text.format.TextColor 
 function GradientTag:color() end
+
+---@protected
+---@return function 
+function GradientTag:preserveData() end
 
 ---@public
 ---@return any 

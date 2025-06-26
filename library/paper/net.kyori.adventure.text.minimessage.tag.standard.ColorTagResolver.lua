@@ -19,6 +19,11 @@ function ColorTagResolver:isColorOrAbbreviation(name) end
 function ColorTagResolver:resolve(name, args, ctx) end
 
 ---@param colorName string 
+---@public
+---@return net.kyori.adventure.text.format.TextColor 
+function ColorTagResolver:resolveColorOrNull(colorName) end
+
+---@param colorName string 
 ---@param ctx net.kyori.adventure.text.minimessage.Context 
 ---@public
 ---@return net.kyori.adventure.text.format.TextColor 

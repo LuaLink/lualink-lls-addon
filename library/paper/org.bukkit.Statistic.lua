@@ -26,6 +26,7 @@
 ---@field public CAULDRON_FILLED org.bukkit.Statistic
 ---@field public FISH_CAUGHT org.bukkit.Statistic
 ---@field public FLY_ONE_CM org.bukkit.Statistic
+---@field public HAPPY_GHAST_ONE_CM org.bukkit.Statistic
 ---@field public HORSE_ONE_CM org.bukkit.Statistic
 ---@field public DISPENSER_INSPECTED org.bukkit.Statistic
 ---@field public DROPPER_INSPECTED org.bukkit.Statistic

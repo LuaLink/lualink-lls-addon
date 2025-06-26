@@ -54,12 +54,6 @@
 ---@field public WITHER org.bukkit.Art
 local Art = {}
 
----@param value function a consumer for the builder factory
----@public
----@return org.bukkit.Art the created painting variant
---- Create an inlined painting variant.
-function Art:create(value) end
-
 ---@param key string 
 ---@private
 ---@return org.bukkit.Art 

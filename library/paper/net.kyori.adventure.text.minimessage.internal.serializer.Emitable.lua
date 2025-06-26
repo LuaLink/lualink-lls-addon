@@ -10,3 +10,8 @@ local Emitable = {}
 --- Emit tags based on this emitable's data.
 function Emitable:emit(emitter) end
 
+---@public
+---@return net.kyori.adventure.text.Component a potential substitute
+--- Provide a substitute for this component's actual children.  <p>This allows modifying tags to output original data while still transforming the created components.</p>
+function Emitable:substitute() end
+

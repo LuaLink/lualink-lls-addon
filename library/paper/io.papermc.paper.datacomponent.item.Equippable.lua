@@ -56,3 +56,13 @@ function Equippable:damageOnHurt() end
 --- Checks if the item should be equipped when interacting with an entity.
 function Equippable:equipOnInteract() end
 
+---@public
+---@return boolean true if can be sheared off an entity, false otherwise
+--- Checks if the item can be sheared off an entity.
+function Equippable:canBeSheared() end
+
+---@public
+---@return any shear sound
+--- Returns the sound that is played when shearing this equipment off an entity.
+function Equippable:shearSound() end
+

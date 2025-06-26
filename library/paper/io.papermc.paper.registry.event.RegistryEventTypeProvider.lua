@@ -16,5 +16,5 @@ function RegistryEventTypeProvider:registryEntryAdd(type) end
 ---@param type io.papermc.paper.registry.event.RegistryEventProvider 
 ---@public
 ---@return io.papermc.paper.plugin.lifecycle.event.types.LifecycleEventType.Prioritizable 
-function RegistryEventTypeProvider:registryFreeze(type) end
+function RegistryEventTypeProvider:registryCompose(type) end
 

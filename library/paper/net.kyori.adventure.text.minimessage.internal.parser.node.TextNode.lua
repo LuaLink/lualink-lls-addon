@@ -5,6 +5,11 @@
 ---@overload fun(parent: net.kyori.adventure.text.minimessage.internal.parser.node.ElementNode, token: net.kyori.adventure.text.minimessage.internal.parser.Token, sourceMessage: string): net.kyori.adventure.text.minimessage.internal.parser.node.TextNode
 local TextNode = {}
 
+---@param escape number 
+---@private
+---@return boolean 
+function TextNode:isEscape(escape) end
+
 ---@public
 ---@return string 
 function TextNode:valueName() end

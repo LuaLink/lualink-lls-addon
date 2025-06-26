@@ -8,29 +8,17 @@
 ---@overload fun(plugin: org.bukkit.plugin.Plugin, key: string): org.bukkit.NamespacedKey
 local NamespacedKey = {}
 
----@param c string 
----@private
----@return boolean 
-function NamespacedKey:isValidNamespaceChar(c) end
-
----@param c string 
----@private
----@return boolean 
-function NamespacedKey:isValidKeyChar(c) end
-
----@param namespace string 
----@private
----@return boolean 
-function NamespacedKey:isValidNamespace(namespace) end
-
----@param key string 
----@private
----@return boolean 
-function NamespacedKey:isValidKey(key) end
-
 ---@private
 ---@return nil 
 function NamespacedKey:validate() end
+
+---@param pattern string 
+---@param name string 
+---@param value string 
+---@param index java.util.OptionalInt 
+---@private
+---@return nil 
+function NamespacedKey:checkError(pattern, name, value, index) end
 
 ---@public
 ---@return string 
@@ -75,7 +63,7 @@ function NamespacedKey:fromString(string, defaultNamespace) end
 ---@param key string the key to convert to a NamespacedKey
 ---@public
 ---@return org.bukkit.NamespacedKey the created NamespacedKey. null if invalid
---- Get a NamespacedKey from the supplied string.  The default namespace will be Minecraft's (i.e. {@link #minecraft(String)}).
+--- Get a NamespacedKey from the supplied string. <p> The default namespace will be Minecraft's (i.e. {@link #minecraft(String)}).
 function NamespacedKey:fromString(key) end
 
 ---@public

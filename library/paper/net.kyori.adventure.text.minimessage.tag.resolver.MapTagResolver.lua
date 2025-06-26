@@ -14,3 +14,12 @@ function MapTagResolver:resolve(name) end
 ---@return boolean 
 function MapTagResolver:contributeToMap(map) end
 
+---@param other java.lang.Object 
+---@public
+---@return boolean 
+function MapTagResolver:equals(other) end
+
+---@public
+---@return number 
+function MapTagResolver:hashCode() end
+

@@ -19,6 +19,7 @@
 ---@field public RELIC org.bukkit.JukeboxSong
 ---@field public STAL org.bukkit.JukeboxSong
 ---@field public STRAD org.bukkit.JukeboxSong
+---@field public TEARS org.bukkit.JukeboxSong
 ---@field public WAIT org.bukkit.JukeboxSong
 ---@field public WARD org.bukkit.JukeboxSong
 local JukeboxSong = {}

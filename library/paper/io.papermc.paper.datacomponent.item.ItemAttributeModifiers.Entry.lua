@@ -16,6 +16,11 @@ function Entry:modifier() end
 
 ---@public
 ---@return org.bukkit.inventory.EquipmentSlotGroup the slot group
---- Gets the slot group for this attribute.
+--- Gets the slot group for the paired attribute.
 function Entry:getGroup() end
+
+---@public
+---@return io.papermc.paper.datacomponent.item.attribute.AttributeModifierDisplay the display behavior
+--- The display behavior for the attribute modifier.
+function Entry:display() end
 

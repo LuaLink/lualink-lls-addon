@@ -20,6 +20,11 @@ function BuilderImpl:editTags(adder) end
 ---@return net.kyori.adventure.text.minimessage.MiniMessage.Builder 
 function BuilderImpl:strict(strict) end
 
+---@param emitVirtuals boolean 
+---@public
+---@return net.kyori.adventure.text.minimessage.MiniMessage.Builder 
+function BuilderImpl:emitVirtuals(emitVirtuals) end
+
 ---@param debugOutput function 
 ---@public
 ---@return net.kyori.adventure.text.minimessage.MiniMessage.Builder 
@@ -29,6 +34,11 @@ function BuilderImpl:debug(debugOutput) end
 ---@public
 ---@return net.kyori.adventure.text.minimessage.MiniMessage.Builder 
 function BuilderImpl:postProcessor(postProcessor) end
+
+---@param preProcessor java.util.function.UnaryOperator 
+---@public
+---@return net.kyori.adventure.text.minimessage.MiniMessage.Builder 
+function BuilderImpl:preProcessor(preProcessor) end
 
 ---@public
 ---@return net.kyori.adventure.text.minimessage.MiniMessage 

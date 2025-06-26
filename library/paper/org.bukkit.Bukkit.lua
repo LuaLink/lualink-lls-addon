@@ -745,6 +745,11 @@ function Bukkit:getDefaultGameMode() end
 function Bukkit:setDefaultGameMode(mode) end
 
 ---@public
+---@return boolean {@code true} if the default gamemode is being forced, {@code false} otherwise
+--- Gets whether the default gamemode is being enforced.
+function Bukkit:forcesDefaultGameMode() end
+
+---@public
 ---@return org.bukkit.command.ConsoleCommandSender a console command sender
 --- Gets a {@link ConsoleCommandSender} that may be used as an input source for this server.
 function Bukkit:getConsoleSender() end

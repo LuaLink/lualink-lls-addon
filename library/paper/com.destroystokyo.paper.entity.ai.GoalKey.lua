@@ -2,7 +2,7 @@
 ---@meta
 -- com.destroystokyo.paper.entity.ai.GoalKey
 ---@class com.destroystokyo.paper.entity.ai.GoalKey: java.lang.Object
----@overload fun(entityClass: java.lang.Class, namespacedKey: org.bukkit.NamespacedKey): com.destroystokyo.paper.entity.ai.GoalKey
+---@overload fun(type: java.lang.Class, key: org.bukkit.NamespacedKey): com.destroystokyo.paper.entity.ai.GoalKey
 local GoalKey = {}
 
 ---@public
@@ -26,9 +26,9 @@ function GoalKey:hashCode() end
 ---@return string 
 function GoalKey:toString() end
 
----@param entityClass java.lang.Class 
----@param namespacedKey org.bukkit.NamespacedKey 
+---@param type java.lang.Class 
+---@param key org.bukkit.NamespacedKey 
 ---@public
 ---@return com.destroystokyo.paper.entity.ai.GoalKey 
-function GoalKey:of(entityClass, namespacedKey) end
+function GoalKey:of(type, key) end
 

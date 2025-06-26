@@ -31,17 +31,19 @@ function TokenParser:parse(tagProvider, tagNameChecker, message, originalMessage
 function TokenParser:resolvePreProcessTags(message, provider) end
 
 ---@param message string the minimessage string to parse
+---@param lenient boolean whether to allow section symbols (for escaping/stripping/non-actual-parse stuff only)
 ---@public
 ---@return java.util.List the root tokens
 --- Tokenize a minimessage string into a list of tokens.
-function TokenParser:tokenize(message) end
+function TokenParser:tokenize(message, lenient) end
 
 ---@param message string the message
+---@param lenient boolean whether to allow section symbols
 ---@param consumer function the consumer
 ---@public
 ---@return nil 
 --- Parses a string, providing information on matched tokens to the matched token consumer.
-function TokenParser:parseString(message, consumer) end
+function TokenParser:parseString(message, lenient, consumer) end
 
 ---@param message string 
 ---@param tokens java.util.List 

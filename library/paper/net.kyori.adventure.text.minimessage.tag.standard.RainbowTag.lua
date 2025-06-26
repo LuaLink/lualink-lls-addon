@@ -3,7 +3,7 @@
 -- net.kyori.adventure.text.minimessage.tag.standard.RainbowTag
 ---@class net.kyori.adventure.text.minimessage.tag.standard.RainbowTag: net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag, java.lang.Object
 ---@field public RESOLVER net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
----@overload fun(reversed: boolean, phase: number): net.kyori.adventure.text.minimessage.tag.standard.RainbowTag
+---@overload fun(reversed: boolean, phase: number, ctx: net.kyori.adventure.text.minimessage.Context): net.kyori.adventure.text.minimessage.tag.standard.RainbowTag
 local RainbowTag = {}
 
 ---@param args net.kyori.adventure.text.minimessage.tag.resolver.ArgumentQueue 
@@ -23,6 +23,10 @@ function RainbowTag:advanceColor() end
 ---@protected
 ---@return net.kyori.adventure.text.format.TextColor 
 function RainbowTag:color() end
+
+---@protected
+---@return function 
+function RainbowTag:preserveData() end
 
 ---@public
 ---@return any 

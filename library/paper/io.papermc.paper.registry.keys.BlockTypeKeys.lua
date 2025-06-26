@@ -352,6 +352,7 @@
 ---@field public DRAGON_EGG io.papermc.paper.registry.TypedKey
 ---@field public DRAGON_HEAD io.papermc.paper.registry.TypedKey
 ---@field public DRAGON_WALL_HEAD io.papermc.paper.registry.TypedKey
+---@field public DRIED_GHAST io.papermc.paper.registry.TypedKey
 ---@field public DRIED_KELP_BLOCK io.papermc.paper.registry.TypedKey
 ---@field public DRIPSTONE_BLOCK io.papermc.paper.registry.TypedKey
 ---@field public DROPPER io.papermc.paper.registry.TypedKey

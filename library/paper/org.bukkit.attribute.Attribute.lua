@@ -21,6 +21,7 @@
 ---@field public GRAVITY org.bukkit.attribute.Attribute
 ---@field public JUMP_STRENGTH org.bukkit.attribute.Attribute
 ---@field public BURNING_TIME org.bukkit.attribute.Attribute
+---@field public CAMERA_DISTANCE org.bukkit.attribute.Attribute
 ---@field public EXPLOSION_KNOCKBACK_RESISTANCE org.bukkit.attribute.Attribute
 ---@field public MOVEMENT_EFFICIENCY org.bukkit.attribute.Attribute
 ---@field public OXYGEN_BONUS org.bukkit.attribute.Attribute
@@ -34,6 +35,8 @@
 ---@field public SUBMERGED_MINING_SPEED org.bukkit.attribute.Attribute
 ---@field public SWEEPING_DAMAGE_RATIO org.bukkit.attribute.Attribute
 ---@field public SPAWN_REINFORCEMENTS org.bukkit.attribute.Attribute
+---@field public WAYPOINT_TRANSMIT_RANGE org.bukkit.attribute.Attribute
+---@field public WAYPOINT_RECEIVE_RANGE org.bukkit.attribute.Attribute
 local Attribute = {}
 
 ---@param key string 

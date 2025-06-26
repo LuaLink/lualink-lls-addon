@@ -394,6 +394,7 @@ function World:spawnArrow(location, direction, speed, spread) end
 --- Creates an arrow entity of the given class at the given {@link Location}
 function World:spawnArrow(location, direction, speed, spread, clazz) end
 
+---@deprecated
 ---@param location org.bukkit.Location Location to spawn the tree
 ---@param type org.bukkit.TreeType Type of the tree to create
 ---@public

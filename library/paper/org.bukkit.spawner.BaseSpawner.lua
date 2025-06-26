@@ -70,7 +70,7 @@ function BaseSpawner:setSpawnedEntity(spawnerEntry) end
 ---@param spawnRule org.bukkit.block.spawner.SpawnRule the spawn rule for this entity, or null
 ---@public
 ---@return nil 
---- Adds a new {@link EntitySnapshot} to the list of entities this spawner can spawn. <p> The weight will determine how often this entry is chosen to spawn, higher weighted entries will spawn more often than lower weighted ones. <br> The {@link SpawnRule} will determine under what conditions this entry can spawn, passing null will use the default conditions for the given entity.
+--- Adds a new {@link EntitySnapshot} to the list of entities this spawner can spawn. <p> The weight will determine how often this entry is chosen to spawn, higher weighted entries will spawn more often than lower-weighted ones. <br> The {@link SpawnRule} will determine under what conditions this entry can spawn, passing null will use the default conditions for the given entity.
 function BaseSpawner:addPotentialSpawn(snapshot, weight, spawnRule) end
 
 ---@param spawnerEntry org.bukkit.block.spawner.SpawnerEntry the spawner entry to use

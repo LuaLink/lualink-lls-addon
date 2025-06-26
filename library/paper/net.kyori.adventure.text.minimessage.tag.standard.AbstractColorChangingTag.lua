@@ -2,6 +2,8 @@
 ---@meta
 -- net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag
 ---@class net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag: net.kyori.adventure.text.minimessage.tag.Modifying, any, java.lang.Object
+---@field public TagInfoHolder net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag.TagInfoHolder
+---@overload fun(ctx: net.kyori.adventure.text.minimessage.Context): net.kyori.adventure.text.minimessage.tag.standard.AbstractColorChangingTag
 local AbstractColorChangingTag = {}
 
 ---@protected
@@ -24,6 +26,11 @@ function AbstractColorChangingTag:postVisit() end
 ---@return net.kyori.adventure.text.Component 
 function AbstractColorChangingTag:apply(current, depth) end
 
+---@param content string 
+---@private
+---@return nil 
+function AbstractColorChangingTag:skipColorForLengthOf(content) end
+
 ---@protected
 ---@return nil 
 function AbstractColorChangingTag:init() end
@@ -37,6 +44,11 @@ function AbstractColorChangingTag:advanceColor() end
 ---@return net.kyori.adventure.text.format.TextColor the current color
 --- Get the current color, without side-effects.
 function AbstractColorChangingTag:color() end
+
+---@protected
+---@return function the emitable for this tag
+--- Return an emitable that will accurately reserialize the provided input data.
+function AbstractColorChangingTag:preserveData() end
 
 ---@public
 ---@return any 
@@ -54,4 +66,9 @@ function AbstractColorChangingTag:equals(other) end
 ---@public
 ---@return number 
 function AbstractColorChangingTag:hashCode() end
+
+---@param comp net.kyori.adventure.text.Component 
+---@public
+---@return net.kyori.adventure.text.minimessage.internal.serializer.Emitable 
+function AbstractColorChangingTag:claimComponent(comp) end
 

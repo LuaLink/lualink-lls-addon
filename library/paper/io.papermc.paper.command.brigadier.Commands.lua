@@ -17,6 +17,12 @@ function Commands:literal(literal) end
 --- Utility to create a required argument builder with the correct generic.
 function Commands:argument(name, argumentType) end
 
+---@param predicate function the original predicate to wrap
+---@public
+---@return function a new predicate with restricted execution behavior
+--- Creates a restricted {@link Predicate} that wraps the given predicate. <p> A restricted predicate prevents execution in unattended contexts, such as from chat click events. A warning is shown on the client before executing the command. <p> This is used by vanilla to prevent invocation of sensitive commands (like op) from players without their knowledge.
+function Commands:restricted(predicate) end
+
 ---@public
 ---@return any the dispatcher instance
 --- Gets the underlying {@link CommandDispatcher}.  <p><b>Note:</b> This is a delicate API that must be used with care to ensure a consistent user experience.</p>  <p>When registering commands, it should be preferred to use the {@link #register(PluginMeta, LiteralCommandNode, String, Collection) register methods} over directly registering to the dispatcher wherever possible. {@link #register(PluginMeta, LiteralCommandNode, String, Collection) Register methods} automatically handle command namespacing, command help, plugin association with commands, and more.</p>  <p>Example use cases for this method <b>may</b> include: <ul>   <li>Implementing integration between an external command framework and Paper (although {@link #register(PluginMeta, LiteralCommandNode, String, Collection) register methods} should still be preferred where possible)</li>   <li>Registering new child nodes to an existing plugin command (for example an "addon" plugin to another plugin may want to do this)</li>   <li>Retrieving existing command nodes to build redirects</li> </ul>

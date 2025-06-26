@@ -41,6 +41,15 @@ function Token:get(message) end
 ---@return any 
 function Token:examinableProperties() end
 
+---@param other java.lang.Object 
+---@public
+---@return boolean 
+function Token:equals(other) end
+
+---@public
+---@return number 
+function Token:hashCode() end
+
 ---@public
 ---@return string 
 function Token:toString() end

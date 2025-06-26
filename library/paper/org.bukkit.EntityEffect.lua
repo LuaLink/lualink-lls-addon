@@ -79,5 +79,6 @@
 ---@field public SHAKE org.bukkit.EntityEffect
 ---@field public DROWN_PARTICLES org.bukkit.EntityEffect
 ---@field public BREAK_EQUIPMENT_SADDLE org.bukkit.EntityEffect
+---@field public RAVAGER_ROARED org.bukkit.EntityEffect
 local EntityEffect = {}
 
