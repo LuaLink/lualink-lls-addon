@@ -48,7 +48,7 @@ function SimplePluginManager:checkUpdate(file) end
 ---@param name string Name of the plugin to check
 ---@public
 ---@return org.bukkit.plugin.Plugin Plugin if it exists, otherwise null
---- Checks if the given plugin is loaded and returns it when applicable <p> Please note that the name of the plugin is case-sensitive
+--- Checks if the given plugin is loaded and returns it when applicable <p> Please note that the name of the plugin is case-insensitive
 function SimplePluginManager:getPlugin(name) end
 
 ---@public
@@ -58,7 +58,7 @@ function SimplePluginManager:getPlugins() end
 ---@param name string Name of the plugin to check
 ---@public
 ---@return boolean true if the plugin is enabled, otherwise false
---- Checks if the given plugin is enabled or not <p> Please note that the name of the plugin is case-sensitive.
+--- Checks if the given plugin is enabled or not <p> Please note that the name of the plugin is case-insensitive.
 function SimplePluginManager:isPluginEnabled(name) end
 
 ---@param plugin org.bukkit.plugin.Plugin Plugin to check
