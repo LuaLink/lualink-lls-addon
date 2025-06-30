@@ -11,6 +11,7 @@
 ---@field public CREATOR io.papermc.paper.registry.TypedKey
 ---@field public CREATOR_MUSIC_BOX io.papermc.paper.registry.TypedKey
 ---@field public FAR io.papermc.paper.registry.TypedKey
+---@field public LAVA_CHICKEN io.papermc.paper.registry.TypedKey
 ---@field public MALL io.papermc.paper.registry.TypedKey
 ---@field public MELLOHI io.papermc.paper.registry.TypedKey
 ---@field public OTHERSIDE io.papermc.paper.registry.TypedKey

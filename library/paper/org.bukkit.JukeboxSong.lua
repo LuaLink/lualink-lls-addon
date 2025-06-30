@@ -11,6 +11,7 @@
 ---@field public CREATOR org.bukkit.JukeboxSong
 ---@field public CREATOR_MUSIC_BOX org.bukkit.JukeboxSong
 ---@field public FAR org.bukkit.JukeboxSong
+---@field public LAVA_CHICKEN org.bukkit.JukeboxSong
 ---@field public MALL org.bukkit.JukeboxSong
 ---@field public MELLOHI org.bukkit.JukeboxSong
 ---@field public OTHERSIDE org.bukkit.JukeboxSong

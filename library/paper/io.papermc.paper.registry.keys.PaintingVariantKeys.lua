@@ -16,6 +16,7 @@
 ---@field public COTAN io.papermc.paper.registry.TypedKey
 ---@field public COURBET io.papermc.paper.registry.TypedKey
 ---@field public CREEBET io.papermc.paper.registry.TypedKey
+---@field public DENNIS io.papermc.paper.registry.TypedKey
 ---@field public DONKEY_KONG io.papermc.paper.registry.TypedKey
 ---@field public EARTH io.papermc.paper.registry.TypedKey
 ---@field public ENDBOSS io.papermc.paper.registry.TypedKey

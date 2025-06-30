@@ -2041,3 +2041,8 @@ function Player:getDeathScreenScore() end
 --- Set the score that shows in the death screen of the player. <p>This amount is added to when the player gains experience.</p>
 function Player:setDeathScreenScore(score) end
 
+---@public
+---@return io.papermc.paper.connection.PlayerGameConnection the game connection
+--- Gets the game connection for this player.
+function Player:getConnection() end
+

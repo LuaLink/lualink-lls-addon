@@ -16,6 +16,7 @@
 ---@field public COTAN org.bukkit.Art
 ---@field public COURBET org.bukkit.Art
 ---@field public CREEBET org.bukkit.Art
+---@field public DENNIS org.bukkit.Art
 ---@field public DONKEY_KONG org.bukkit.Art
 ---@field public EARTH org.bukkit.Art
 ---@field public ENDBOSS org.bukkit.Art

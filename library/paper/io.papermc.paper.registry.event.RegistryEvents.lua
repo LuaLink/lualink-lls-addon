@@ -9,6 +9,7 @@
 ---@field public JUKEBOX_SONG io.papermc.paper.registry.event.RegistryEventProvider
 ---@field public BANNER_PATTERN io.papermc.paper.registry.event.RegistryEventProvider
 ---@field public PAINTING_VARIANT io.papermc.paper.registry.event.RegistryEventProvider
+---@field public INSTRUMENT io.papermc.paper.registry.event.RegistryEventProvider
 ---@field public CAT_VARIANT io.papermc.paper.registry.event.RegistryEventProvider
 ---@field public FROG_VARIANT io.papermc.paper.registry.event.RegistryEventProvider
 ---@field public CHICKEN_VARIANT io.papermc.paper.registry.event.RegistryEventProvider

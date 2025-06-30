@@ -7,3 +7,8 @@ local InlinedRegistryBuilderProvider = {}
 ---@return io.papermc.paper.registry.data.InlinedRegistryBuilderProvider 
 function InlinedRegistryBuilderProvider:instance() end
 
+---@param value function 
+---@public
+---@return org.bukkit.MusicInstrument 
+function InlinedRegistryBuilderProvider:createInstrument(value) end
+

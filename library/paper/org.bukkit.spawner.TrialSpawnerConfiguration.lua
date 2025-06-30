@@ -49,7 +49,7 @@ function TrialSpawnerConfiguration:getAdditionalSimultaneousEntities() end
 function TrialSpawnerConfiguration:setAdditionalSimultaneousEntities(amount) end
 
 ---@public
----@return java.util.Map a map of loot tables and their associated weight, or an empty         map if there are none
+---@return java.util.Map a map of loot tables and their associated weight, or an empty     map if there are none
 --- Gets a list of {@link LootTable}s this spawner can pick a reward from as well as their associated weight to be chosen.
 function TrialSpawnerConfiguration:getPossibleRewards() end
 
@@ -66,7 +66,7 @@ function TrialSpawnerConfiguration:addPossibleReward(table, weight) end
 --- Removes the provided {@link LootTable} from the list of tables this spawner can pick a reward from.
 function TrialSpawnerConfiguration:removePossibleReward(table) end
 
----@param rewards java.util.Map a map of loot tables and their weights, or null to clear all                possible tables
+---@param rewards java.util.Map a map of loot tables and their weights, or null to clear all     possible tables
 ---@public
 ---@return nil 
 --- Sets the list of {@link LootTable}s and their weights this spawner can pick a reward from. <br> All loot tables in the map must be non-null and all weights must be at least 1.

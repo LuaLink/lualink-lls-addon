@@ -274,6 +274,7 @@
 ---@field public MUSIC_DISC_CREATOR org.bukkit.Material
 ---@field public MUSIC_DISC_CREATOR_MUSIC_BOX org.bukkit.Material
 ---@field public MUSIC_DISC_FAR org.bukkit.Material
+---@field public MUSIC_DISC_LAVA_CHICKEN org.bukkit.Material
 ---@field public MUSIC_DISC_MALL org.bukkit.Material
 ---@field public MUSIC_DISC_MELLOHI org.bukkit.Material
 ---@field public MUSIC_DISC_OTHERSIDE org.bukkit.Material

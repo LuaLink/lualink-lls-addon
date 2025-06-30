@@ -75,11 +75,13 @@ function PluginMeta:getDescription() end
 function PluginMeta:getWebsite() end
 
 ---@public
----@return java.util.List 
+---@return java.util.List an immutable list of permissions
+--- Provides the list of permissions that are defined via the plugin meta instance.
 function PluginMeta:getPermissions() end
 
 ---@public
----@return org.bukkit.permissions.PermissionDefault 
+---@return org.bukkit.permissions.PermissionDefault the bukkit permission default container.
+--- Provides the default values that apply to the permissions defined in this plugin meta.
 function PluginMeta:getPermissionDefault() end
 
 ---@public

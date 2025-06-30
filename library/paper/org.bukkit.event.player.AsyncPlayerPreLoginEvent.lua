@@ -8,7 +8,7 @@
 ---@overload fun(name: string, ipAddress: java.net.InetAddress, uniqueId: java.util.UUID, transferred: boolean): org.bukkit.event.player.AsyncPlayerPreLoginEvent
 ---@overload fun(name: string, ipAddress: java.net.InetAddress, uniqueId: java.util.UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile): org.bukkit.event.player.AsyncPlayerPreLoginEvent
 ---@overload fun(name: string, ipAddress: java.net.InetAddress, rawAddress: java.net.InetAddress, uniqueId: java.util.UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile): org.bukkit.event.player.AsyncPlayerPreLoginEvent
----@overload fun(name: string, ipAddress: java.net.InetAddress, rawAddress: java.net.InetAddress, uniqueId: java.util.UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile, hostname: string): org.bukkit.event.player.AsyncPlayerPreLoginEvent
+---@overload fun(name: string, ipAddress: java.net.InetAddress, rawAddress: java.net.InetAddress, uniqueId: java.util.UUID, transferred: boolean, profile: com.destroystokyo.paper.profile.PlayerProfile, hostname: string, playerLoginConnection: io.papermc.paper.connection.PlayerLoginConnection): org.bukkit.event.player.AsyncPlayerPreLoginEvent
 local AsyncPlayerPreLoginEvent = {}
 
 ---@public
@@ -135,6 +135,11 @@ function AsyncPlayerPreLoginEvent:getHostname() end
 ---@return boolean {@code true} if the connection has been transferred
 --- Gets if this connection has been transferred from another server.
 function AsyncPlayerPreLoginEvent:isTransferred() end
+
+---@public
+---@return io.papermc.paper.connection.PlayerLoginConnection connection
+--- Gets the connection for the player logging in.
+function AsyncPlayerPreLoginEvent:getConnection() end
 
 ---@public
 ---@return org.bukkit.event.HandlerList 

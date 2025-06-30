@@ -1705,6 +1705,7 @@
 ---@field public MUSIC_DISC_CREATOR io.papermc.paper.registry.TypedKey
 ---@field public MUSIC_DISC_CREATOR_MUSIC_BOX io.papermc.paper.registry.TypedKey
 ---@field public MUSIC_DISC_FAR io.papermc.paper.registry.TypedKey
+---@field public MUSIC_DISC_LAVA_CHICKEN io.papermc.paper.registry.TypedKey
 ---@field public MUSIC_DISC_MALL io.papermc.paper.registry.TypedKey
 ---@field public MUSIC_DISC_MELLOHI io.papermc.paper.registry.TypedKey
 ---@field public MUSIC_DISC_OTHERSIDE io.papermc.paper.registry.TypedKey
