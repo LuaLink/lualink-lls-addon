@@ -122,11 +122,20 @@ function Messenger:isIncomingChannelRegistered(plugin, channel) end
 --- Checks if the specified plugin has registered to send outgoing messages through the requested channel.
 function Messenger:isOutgoingChannelRegistered(plugin, channel) end
 
+---@deprecated
 ---@param source org.bukkit.entity.Player Source of the message.
 ---@param channel string Channel that the message was sent by.
 ---@param message table<number> Raw payload of the message.
 ---@public
 ---@return nil 
 --- Dispatches the specified incoming message to any registered listeners.
+function Messenger:dispatchIncomingMessage(source, channel, message) end
+
+---@param source io.papermc.paper.connection.PlayerConnection Source of the message.
+---@param channel string Channel that the message was sent by.
+---@param message table<number> Raw payload of the message.
+---@public
+---@return nil 
+--- Dispatches the specified incoming message to any registered listeners. By default, also calls {@link PluginMessageListener#onPluginMessageReceived(String, Player, byte[])}.
 function Messenger:dispatchIncomingMessage(source, channel, message) end
 

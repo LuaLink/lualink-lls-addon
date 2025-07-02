@@ -140,7 +140,15 @@ function StandardMessenger:isIncomingChannelRegistered(plugin, channel) end
 ---@return boolean 
 function StandardMessenger:isOutgoingChannelRegistered(plugin, channel) end
 
+---@deprecated
 ---@param source org.bukkit.entity.Player 
+---@param channel string 
+---@param message table<number> 
+---@public
+---@return nil 
+function StandardMessenger:dispatchIncomingMessage(source, channel, message) end
+
+---@param source io.papermc.paper.connection.PlayerConnection 
 ---@param channel string 
 ---@param message table<number> 
 ---@public
