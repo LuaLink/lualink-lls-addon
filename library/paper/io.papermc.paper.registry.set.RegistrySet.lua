@@ -4,6 +4,13 @@
 ---@class io.papermc.paper.registry.set.RegistrySet: java.lang.Object
 local RegistrySet = {}
 
+---@param registryKey io.papermc.paper.registry.RegistryKey the registry key for the type of these values
+---@param values java.lang.Iterable the values
+---@public
+---@return io.papermc.paper.registry.set.RegistryValueSet a new registry set
+--- Creates a {@link RegistryValueSet} from anonymous values. <p>All values provided <b>must not</b> have keys in the given registry.</p>
+function RegistrySet:valueSet(registryKey, values) end
+
 ---@param registryKey io.papermc.paper.registry.RegistryKey the registry key for the owner of these values
 ---@param values java.lang.Iterable the values
 ---@public

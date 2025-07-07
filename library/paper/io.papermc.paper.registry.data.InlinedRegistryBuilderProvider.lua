@@ -12,3 +12,8 @@ function InlinedRegistryBuilderProvider:instance() end
 ---@return org.bukkit.MusicInstrument 
 function InlinedRegistryBuilderProvider:createInstrument(value) end
 
+---@param value function 
+---@public
+---@return io.papermc.paper.dialog.Dialog 
+function InlinedRegistryBuilderProvider:createDialog(value) end
+

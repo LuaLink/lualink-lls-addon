@@ -15,6 +15,7 @@
 ---@field public CHICKEN_VARIANT io.papermc.paper.registry.event.RegistryEventProvider
 ---@field public COW_VARIANT io.papermc.paper.registry.event.RegistryEventProvider
 ---@field public PIG_VARIANT io.papermc.paper.registry.event.RegistryEventProvider
+---@field public DIALOG io.papermc.paper.registry.event.RegistryEventProvider
 ---@overload fun(): io.papermc.paper.registry.event.RegistryEvents
 local RegistryEvents = {}
 

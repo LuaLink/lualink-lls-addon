@@ -32,6 +32,7 @@
 ---@field public CHICKEN_VARIANT io.papermc.paper.registry.RegistryKey
 ---@field public COW_VARIANT io.papermc.paper.registry.RegistryKey
 ---@field public PIG_VARIANT io.papermc.paper.registry.RegistryKey
+---@field public DIALOG io.papermc.paper.registry.RegistryKey
 ---@field public ENTITY_TYPE io.papermc.paper.registry.RegistryKey
 ---@field public PARTICLE_TYPE io.papermc.paper.registry.RegistryKey
 ---@field public POTION io.papermc.paper.registry.RegistryKey
