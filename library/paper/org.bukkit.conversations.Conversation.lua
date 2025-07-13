@@ -75,7 +75,7 @@ function Conversation:begin() end
 
 ---@public
 ---@return org.bukkit.conversations.Conversation.ConversationState The current state of the conversation.
---- Returns Returns the current state of the conversation.
+--- Returns the current state of the conversation.
 function Conversation:getState() end
 
 ---@param input string The user's chat text.

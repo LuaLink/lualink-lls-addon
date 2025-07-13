@@ -73,6 +73,11 @@ function ArgumentTypes:namedColor() end
 
 ---@public
 ---@return any argument
+--- A hex color argument.
+function ArgumentTypes:hexColor() end
+
+---@public
+---@return any argument
 --- A component argument.
 function ArgumentTypes:component() end
 

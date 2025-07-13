@@ -59,6 +59,10 @@ function VanillaArgumentProvider:namedColor() end
 
 ---@public
 ---@return any 
+function VanillaArgumentProvider:hexColor() end
+
+---@public
+---@return any 
 function VanillaArgumentProvider:component() end
 
 ---@public

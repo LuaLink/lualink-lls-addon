@@ -13,6 +13,6 @@ function PluginBootstrap:bootstrap(context) end
 ---@param context io.papermc.paper.plugin.bootstrap.PluginProviderContext the server created bootstrap object
 ---@public
 ---@return org.bukkit.plugin.java.JavaPlugin the server requested instance of the plugins main class.
---- Called by the server to instantiate your main class. Plugins may override this logic to define custom creation logic for said instance, like passing addition constructor arguments.
+--- Called by the server to instantiate your main class. Plugins may override this logic to define custom creation logic for said instance, like passing additional constructor arguments.
 function PluginBootstrap:createPlugin(context) end
 
