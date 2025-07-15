@@ -25,7 +25,7 @@ function AttributeInstance:setBaseValue(value) end
 --- Get all modifiers present on this instance.
 function AttributeInstance:getModifiers() end
 
----@param key any the jey of the modifier
+---@param key any the key of the modifier
 ---@public
 ---@return org.bukkit.attribute.AttributeModifier the modifier, if it exists
 --- Gets the modifier with the corresponding key.

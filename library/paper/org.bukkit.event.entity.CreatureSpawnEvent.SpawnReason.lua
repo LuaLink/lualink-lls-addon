@@ -44,6 +44,7 @@
 ---@field public OMINOUS_ITEM_SPAWNER org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
 ---@field public BUCKET org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
 ---@field public POTION_EFFECT org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
+---@field public REHYDRATION org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
 ---@field public CUSTOM org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
 ---@field public DEFAULT org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason
 local SpawnReason = {}
