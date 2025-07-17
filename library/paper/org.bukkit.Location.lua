@@ -146,6 +146,11 @@ function Location:addRotation(yaw, pitch) end
 --- Adds rotation to this location. Not world-aware.
 function Location:addRotation(rotation) end
 
+---@public
+---@return io.papermc.paper.math.Rotation a new {@code Rotation} object
+--- Retrieves the rotation of this location.
+function Location:getRotation() end
+
 ---@param vec org.bukkit.Location The other location
 ---@public
 ---@return org.bukkit.Location the same location

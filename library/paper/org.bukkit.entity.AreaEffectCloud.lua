@@ -162,7 +162,7 @@ function AreaEffectCloud:clearCustomEffects() end
 --- Gets the color of this cloud. Will be applied as a tint to its particles.
 function AreaEffectCloud:getColor() end
 
----@param color org.bukkit.Color cloud color
+---@param color org.bukkit.Color cloud color or {@code null} to reset to default
 ---@public
 ---@return nil 
 --- Sets the color of this cloud. Will be applied as a tint to its particles.
