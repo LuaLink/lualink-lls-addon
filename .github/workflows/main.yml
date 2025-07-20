@@ -128,6 +128,18 @@ jobs:
             java.base/share/classes/java/util/Optional.java
             java.base/share/classes/java/util/logging/Logger.java
             java.base/share/classes/java/lang/Class.java
+            java.base/share/classes/java/lang/String.java
+            java.base/share/classes/java/lang/StringBuilder.java
+            java.base/share/classes/java/lang/Number.java
+            java.base/share/classes/java/lang/Integer.java
+            java.base/share/classes/java/lang/Short.java
+            java.base/share/classes/java/lang/Byte.java
+            java.base/share/classes/java/lang/Double.java
+            java.base/share/classes/java/lang/Float.java
+            java.base/share/classes/java/lang/Boolean.java
+            java.base/share/classes/java/lang/Math.java
+            java.base/share/classes/java/math/BigInteger.java
+            java.base/share/classes/java/math/BigDecimal.java
           )
 
           FILES=""
