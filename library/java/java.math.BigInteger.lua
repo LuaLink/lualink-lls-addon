@@ -862,20 +862,27 @@ function BigInteger:stripLeadingZeroInts(val) end
 function BigInteger:trustedStripLeadingZeroInts(val) end
 
 ---@param a table<number> 
----@param off number 
+---@param from number 
 ---@param len number 
 ---@private
 ---@return table<number> 
---- Returns a copy of the input array stripped of any leading zero bytes.
-function BigInteger:stripLeadingZeroBytes(a, off, len) end
+function BigInteger:stripLeadingZeroBytes(a, from, len) end
 
+---@param b number 
 ---@param a table<number> 
----@param off number 
+---@param from number 
 ---@param len number 
 ---@private
 ---@return table<number> 
---- Takes an array a representing a negative 2's-complement number and returns the minimal (no leading zero bytes) unsigned whose value is -a.
-function BigInteger:makePositive(a, off, len) end
+function BigInteger:stripLeadingZeroBytes(b, a, from, len) end
+
+---@param b number 
+---@param a table<number> 
+---@param from number 
+---@param len number 
+---@private
+---@return table<number> 
+function BigInteger:makePositive(b, a, from, len) end
 
 ---@param a table<number> 
 ---@private
