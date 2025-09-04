@@ -21,5 +21,5 @@ function synchronized(func) end
 
 --- Let's you try-catch Java exceptions thrown when called from Lua
 --- @param try function
---- @param catch fun(throwable: java.lang.Object)
+--- @param catch fun(throwable: java.lang.Throwable)
 function exceptionally(try: function, catch: function)
