@@ -18,7 +18,7 @@ function TabCompleteEvent:getBuffer() end
 
 ---@public
 ---@return java.util.List a list of offered completions
---- The list of completions which will be offered to the sender, in order. This list is mutable and reflects what will be offered.
+--- The list of completions which will be offered to the sender. Completions may be ordered alphanumerically later on in the tab completion process. This list is mutable and reflects what will be offered.
 function TabCompleteEvent:getCompletions() end
 
 ---@param completions java.util.List the new completions

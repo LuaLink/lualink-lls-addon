@@ -28,7 +28,7 @@ function Builder:initial(initial) end
 --- Sets the maximum length of the input.
 function Builder:maxLength(maxLength) end
 
----@param multiline io.papermc.paper.registry.data.dialog.input.TextDialogInput.MultilineOptions the multiline options
+---@param multiline io.papermc.paper.registry.data.dialog.input.TextDialogInput.MultilineOptions the multiline options, or null if not set
 ---@public
 ---@return io.papermc.paper.registry.data.dialog.input.TextDialogInput.Builder this builder
 --- Sets the multiline options for the input.

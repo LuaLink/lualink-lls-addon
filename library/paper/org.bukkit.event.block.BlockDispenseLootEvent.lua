@@ -2,7 +2,7 @@
 ---@meta
 -- org.bukkit.event.block.BlockDispenseLootEvent
 ---@class org.bukkit.event.block.BlockDispenseLootEvent: org.bukkit.event.block.BlockEvent, org.bukkit.event.Cancellable, java.lang.Object
----@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, dispensedLoot: java.util.List): org.bukkit.event.block.BlockDispenseLootEvent
+---@overload fun(player: org.bukkit.entity.Player, block: org.bukkit.block.Block, dispensedLoot: java.util.List, lootTable: org.bukkit.loot.LootTable): org.bukkit.event.block.BlockDispenseLootEvent
 local BlockDispenseLootEvent = {}
 
 ---@public
@@ -15,6 +15,11 @@ function BlockDispenseLootEvent:getDispensedLoot() end
 ---@return nil 
 --- Sets the loot that will be dispensed.
 function BlockDispenseLootEvent:setDispensedLoot(dispensedLoot) end
+
+---@public
+---@return org.bukkit.loot.LootTable the loot table used to generate the initial loot to dispense
+--- Gets the loot table used to generate the initial loot to dispense.
+function BlockDispenseLootEvent:getLootTable() end
 
 ---@public
 ---@return org.bukkit.entity.Player the player who unlocked the vault

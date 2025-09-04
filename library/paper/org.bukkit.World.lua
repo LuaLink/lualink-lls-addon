@@ -1522,6 +1522,11 @@ function World:getSimulationDistance() end
 --- Gets the folder of this world on disk.
 function World:getWorldFolder() end
 
+---@public
+---@return java.nio.file.Path The path of this world.
+--- Gets the path of this world on disk.
+function World:getWorldPath() end
+
 ---@deprecated
 ---@public
 ---@return org.bukkit.WorldType Type of this world.

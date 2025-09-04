@@ -315,6 +315,15 @@ function Block:breakNaturally(tool, triggerEffect) end
 --- Breaks the block and spawns item drops as if a player had broken it with a specific tool
 function Block:breakNaturally(tool, triggerEffect, dropExperience) end
 
+---@param tool org.bukkit.inventory.ItemStack The tool or item in hand used for digging
+---@param triggerEffect boolean Play the block break particle effect and sound
+---@param dropExperience boolean drop exp if the block normally does so
+---@param forceEffect boolean Forces the break effect to be triggered even if the tool is not the correct tool for the block
+---@public
+---@return boolean true if the block was destroyed
+--- Breaks the block and spawns item drops as if a player had broken it with a specific tool
+function Block:breakNaturally(tool, triggerEffect, dropExperience, forceEffect) end
+
 ---@public
 ---@return nil 
 --- Causes the block to be ticked, this is different from {@link Block#randomTick()}, in that it is usually scheduled to occur, for example redstone components being activated, sand falling, etc. <p> This method may directly fire events relating to block ticking.

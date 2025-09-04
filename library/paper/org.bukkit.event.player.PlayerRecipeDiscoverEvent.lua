@@ -2,13 +2,24 @@
 ---@meta
 -- org.bukkit.event.player.PlayerRecipeDiscoverEvent
 ---@class org.bukkit.event.player.PlayerRecipeDiscoverEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
----@overload fun(player: org.bukkit.entity.Player, recipe: org.bukkit.NamespacedKey): org.bukkit.event.player.PlayerRecipeDiscoverEvent
+---@overload fun(player: org.bukkit.entity.Player, recipe: org.bukkit.NamespacedKey, showNotification: boolean): org.bukkit.event.player.PlayerRecipeDiscoverEvent
 local PlayerRecipeDiscoverEvent = {}
 
 ---@public
 ---@return org.bukkit.NamespacedKey the discovered recipe
 --- Get the namespaced key of the discovered recipe.
 function PlayerRecipeDiscoverEvent:getRecipe() end
+
+---@public
+---@return boolean true if the player should be notified
+--- Get if the player should be notified (toast) of the discovery.
+function PlayerRecipeDiscoverEvent:shouldShowNotification() end
+
+---@param showNotification boolean true if the player should be notified
+---@public
+---@return nil 
+--- Set if the player should be notified (toast) of the discovery.
+function PlayerRecipeDiscoverEvent:shouldShowNotification(showNotification) end
 
 ---@public
 ---@return boolean 

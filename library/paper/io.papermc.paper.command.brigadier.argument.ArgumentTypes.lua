@@ -36,6 +36,16 @@ function ArgumentTypes:playerProfiles() end
 function ArgumentTypes:blockPosition() end
 
 ---@public
+---@return any column block position argument
+--- A column block position argument.
+function ArgumentTypes:columnBlockPosition() end
+
+---@public
+---@return any block predicate argument
+--- A block predicate argument.
+function ArgumentTypes:blockInWorldPredicate() end
+
+---@public
 ---@return any fine position argument
 --- A fine position argument.
 function ArgumentTypes:finePosition() end
@@ -47,9 +57,30 @@ function ArgumentTypes:finePosition() end
 function ArgumentTypes:finePosition(centerIntegers) end
 
 ---@public
+---@return any column fine position argument
+--- A column fine position argument.
+function ArgumentTypes:columnFinePosition() end
+
+---@param centerIntegers boolean if whole numbers should be centered (+0.5)
+---@public
+---@return any column fine position argument
+--- A column fine position argument.
+function ArgumentTypes:columnFinePosition(centerIntegers) end
+
+---@public
 ---@return any rotation argument
 --- A rotation argument.
 function ArgumentTypes:rotation() end
+
+---@public
+---@return any angle argument
+--- An angle argument.
+function ArgumentTypes:angle() end
+
+---@public
+---@return any a set of axes.
+--- An argument used to resolve a set of axes.
+function ArgumentTypes:axes() end
 
 ---@public
 ---@return any argument

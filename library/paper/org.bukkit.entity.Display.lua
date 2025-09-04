@@ -97,7 +97,7 @@ function Display:getDisplayHeight() end
 ---@param height number new height
 ---@public
 ---@return nil 
---- Sets the height if this display.
+--- Sets the height of this display.
 function Display:setDisplayHeight(height) end
 
 ---@public

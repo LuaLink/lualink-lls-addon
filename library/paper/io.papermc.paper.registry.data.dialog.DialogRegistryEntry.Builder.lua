@@ -15,9 +15,9 @@ function Builder:registryValueSet() end
 --- Sets the base dialog for this entry.
 function Builder:base(dialogBase) end
 
----@param dialogType io.papermc.paper.registry.data.dialog.type.DialogType the specialty dialog
+---@param dialogType io.papermc.paper.registry.data.dialog.type.DialogType the type of dialog
 ---@public
 ---@return io.papermc.paper.registry.data.dialog.DialogRegistryEntry.Builder this builder instance
---- Sets the specialty dialog for this entry.
+--- Sets the type of dialog for this entry.
 function Builder:type(dialogType) end
 

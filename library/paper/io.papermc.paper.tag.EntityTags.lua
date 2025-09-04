@@ -14,3 +14,14 @@ local EntityTags = {}
 ---@return org.bukkit.NamespacedKey 
 function EntityTags:keyFor(key) end
 
+---@param vanillaTag org.bukkit.Tag 
+---@private
+---@return io.papermc.paper.tag.EntitySetTag 
+function EntityTags:replacedBy(vanillaTag) end
+
+---@param vanillaTag org.bukkit.Tag 
+---@param legacyKey string 
+---@private
+---@return io.papermc.paper.tag.EntitySetTag 
+function EntityTags:replacedBy(vanillaTag, legacyKey) end
+

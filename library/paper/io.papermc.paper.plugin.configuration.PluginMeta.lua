@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.plugin.configuration.PluginMeta
----@class io.papermc.paper.plugin.configuration.PluginMeta: java.lang.Object
+---@class io.papermc.paper.plugin.configuration.PluginMeta: any, java.lang.Object
 local PluginMeta = {}
 
 ---@public
@@ -88,4 +88,8 @@ function PluginMeta:getPermissionDefault() end
 ---@return string the version string made up of the major and minor version (e.g. 1.18 or 1.19). Minor versions like 1.18.2 are unified to their major release version (in this example 1.18)
 --- Gets the api version that this plugin supports. Nullable if this version is not specified, and should be considered legacy (spigot plugins only)
 function PluginMeta:getAPIVersion() end
+
+---@public
+---@return string 
+function PluginMeta:namespace() end
 

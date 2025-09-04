@@ -17,3 +17,7 @@ function PluginBase:equals(obj) end
 ---@return string 
 function PluginBase:getName() end
 
+---@public
+---@return string 
+function PluginBase:namespace() end
+

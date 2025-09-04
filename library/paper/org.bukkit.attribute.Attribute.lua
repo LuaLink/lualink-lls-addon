@@ -37,12 +37,18 @@
 ---@field public SPAWN_REINFORCEMENTS org.bukkit.attribute.Attribute
 ---@field public WAYPOINT_TRANSMIT_RANGE org.bukkit.attribute.Attribute
 ---@field public WAYPOINT_RECEIVE_RANGE org.bukkit.attribute.Attribute
+---@field public Sentiment org.bukkit.attribute.Attribute.Sentiment
 local Attribute = {}
 
 ---@param key string 
 ---@private
 ---@return org.bukkit.attribute.Attribute 
 function Attribute:getAttribute(key) end
+
+---@public
+---@return org.bukkit.attribute.Attribute.Sentiment 
+--- {@return the sentiment of this attribute}
+function Attribute:getSentiment() end
 
 ---@deprecated
 ---@param name string of the attribute.

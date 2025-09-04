@@ -132,3 +132,8 @@ function PlayerProfile:update() end
 --- Whether this Profile has textures associated to it
 function PlayerProfile:hasTextures() end
 
+---@public
+---@return com.destroystokyo.paper.profile.PlayerProfile the cloned player profile.
+--- {@inheritDoc}
+function PlayerProfile:clone() end
+

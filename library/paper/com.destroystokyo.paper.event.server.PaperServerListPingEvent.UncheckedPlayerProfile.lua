@@ -98,7 +98,7 @@ function UncheckedPlayerProfile:complete(textures, onlineMode) end
 function UncheckedPlayerProfile:update() end
 
 ---@public
----@return org.bukkit.profile.PlayerProfile 
+---@return com.destroystokyo.paper.profile.PlayerProfile 
 function UncheckedPlayerProfile:clone() end
 
 ---@public

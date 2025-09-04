@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- org.bukkit.event.player.PlayerRiptideEvent
----@class org.bukkit.event.player.PlayerRiptideEvent: org.bukkit.event.player.PlayerEvent, java.lang.Object
+---@class org.bukkit.event.player.PlayerRiptideEvent: org.bukkit.event.player.PlayerEvent, org.bukkit.event.Cancellable, java.lang.Object
 ---@overload fun(player: org.bukkit.entity.Player, item: org.bukkit.inventory.ItemStack, velocity: org.bukkit.util.Vector): org.bukkit.event.player.PlayerRiptideEvent
 ---@overload fun(player: org.bukkit.entity.Player, item: org.bukkit.inventory.ItemStack): org.bukkit.event.player.PlayerRiptideEvent
 local PlayerRiptideEvent = {}
@@ -15,6 +15,15 @@ function PlayerRiptideEvent:getItem() end
 ---@return org.bukkit.util.Vector the riptide velocity
 --- Get the velocity applied to the player as a result of this riptide.
 function PlayerRiptideEvent:getVelocity() end
+
+---@public
+---@return boolean 
+function PlayerRiptideEvent:isCancelled() end
+
+---@param cancel boolean 
+---@public
+---@return nil 
+function PlayerRiptideEvent:setCancelled(cancel) end
 
 ---@public
 ---@return org.bukkit.event.HandlerList 

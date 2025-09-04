@@ -12,13 +12,13 @@ local Position = {}
 function Position:blockX() end
 
 ---@public
----@return number the block x value
---- Gets the block x value for this position
+---@return number the block y value
+--- Gets the block y value for this position
 function Position:blockY() end
 
 ---@public
----@return number the block x value
---- Gets the block x value for this position
+---@return number the block z value
+--- Gets the block z value for this position
 function Position:blockZ() end
 
 ---@public

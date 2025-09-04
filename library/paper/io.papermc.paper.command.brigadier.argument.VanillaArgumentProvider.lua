@@ -32,10 +32,19 @@ function VanillaArgumentProvider:playerProfiles() end
 ---@return any 
 function VanillaArgumentProvider:blockPosition() end
 
+---@public
+---@return any 
+function VanillaArgumentProvider:columnBlockPosition() end
+
 ---@param centerIntegers boolean 
 ---@public
 ---@return any 
 function VanillaArgumentProvider:finePosition(centerIntegers) end
+
+---@param centerIntegers boolean 
+---@public
+---@return any 
+function VanillaArgumentProvider:columnFinePosition(centerIntegers) end
 
 ---@public
 ---@return any 
@@ -43,7 +52,19 @@ function VanillaArgumentProvider:rotation() end
 
 ---@public
 ---@return any 
+function VanillaArgumentProvider:angle() end
+
+---@public
+---@return any 
+function VanillaArgumentProvider:axes() end
+
+---@public
+---@return any 
 function VanillaArgumentProvider:blockState() end
+
+---@public
+---@return any 
+function VanillaArgumentProvider:blockInWorldPredicate() end
 
 ---@public
 ---@return any 

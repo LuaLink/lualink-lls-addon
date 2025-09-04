@@ -5,6 +5,22 @@
 local Mob = {}
 
 ---@public
+---@return boolean True if the entity should be removed in peaceful
+--- Check if a mob should be despawned when the world is set to peaceful difficulty. This also takes the {@link Mob#getDespawnInPeacefulOverride()} into account.
+function Mob:shouldDespawnInPeaceful() end
+
+---@param state net.kyori.adventure.util.TriState a TriState representing the state of the override
+---@public
+---@return nil 
+--- Sets if the entity should be despawned when the game is set to peaceful difficulty. <ul>     <li>{@link TriState#NOT_SET} – Use the default behavior for the entity</li>     <li>{@link TriState#TRUE} – The entity will be removed in Peaceful difficulty</li>     <li>{@link TriState#FALSE} – The entity will not automatically be removed in Peaceful difficulty</li> </ul>
+function Mob:setDespawnInPeacefulOverride(state) end
+
+---@public
+---@return net.kyori.adventure.util.TriState a TriState representing the state of the override
+--- Gets the current override value for whether this entity should despawn in peaceful difficulty. <ul>     <li>{@link TriState#NOT_SET} – Use the default behavior for the entity</li>     <li>{@link TriState#TRUE} – The entity will be removed in Peaceful difficulty</li>     <li>{@link TriState#FALSE} – The entity will not automatically be removed in Peaceful difficulty</li> </ul>
+function Mob:getDespawnInPeacefulOverride() end
+
+---@public
 ---@return org.bukkit.inventory.EntityEquipment 
 function Mob:getEquipment() end
 
@@ -88,7 +104,7 @@ function Mob:getTarget() end
 ---@param aware boolean whether the mob is aware
 ---@public
 ---@return nil 
---- Sets whether this mob is aware of its surroundings.  Unaware mobs will still move if pushed, attacked, etc. but will not move or perform any actions on their own. Unaware mobs may also have other unspecified behaviours disabled, such as drowning.
+--- Sets whether this mob is aware of its surroundings. <p> Unaware mobs will still move if pushed, attacked, etc. but will not move or perform any actions on their own. Unaware mobs may also have other unspecified behaviours disabled, such as drowning.
 function Mob:setAware(aware) end
 
 ---@public

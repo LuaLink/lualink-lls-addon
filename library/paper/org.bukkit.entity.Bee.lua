@@ -108,3 +108,14 @@ function Bee:setTicksSincePollination(ticks) end
 --- Gets how many ticks this bee has gone without pollinating
 function Bee:getTicksSincePollination() end
 
+---@param time number number of ticks since last sting
+---@public
+---@return nil 
+--- Sets how many ticks have passed since this bee last stung. This value is used to determine when the bee should die after stinging. <p> Note that bees don’t die at a fixed time. Instead, every few ticks, they have a random chance of dying, and that chance increases with this value.
+function Bee:setTimeSinceSting(time) end
+
+---@public
+---@return number number of ticks since last sting
+--- Gets how many ticks have passed since this bee last stung. This value increases each tick after the bee stings and is used to determine when the bee should die. <p> Note that bees don’t die at a fixed time. Instead, every few ticks, they have a random chance of dying, and that chance increases with this value.
+function Bee:getTimeSinceSting() end
+

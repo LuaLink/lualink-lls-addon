@@ -67,7 +67,7 @@ function DialogInput:singleOption(key, label, entries) end
 ---@param labelVisible boolean whether the label should be visible
 ---@param initial string the initial value of the input
 ---@param maxLength number the maximum length of the input
----@param multilineOptions? io.papermc.paper.registry.data.dialog.input.TextDialogInput.MultilineOptions the multiline options
+---@param multilineOptions? io.papermc.paper.registry.data.dialog.input.TextDialogInput.MultilineOptions the multiline options, or null if not set
 ---@public
 ---@return io.papermc.paper.registry.data.dialog.input.TextDialogInput a new text dialog input instance
 --- Creates a text dialog input.

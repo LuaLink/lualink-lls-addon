@@ -1,7 +1,7 @@
 --- Optional.empty
 ---@meta
 -- io.papermc.paper.connection.PlayerCommonConnection
----@class io.papermc.paper.connection.PlayerCommonConnection: io.papermc.paper.connection.WritablePlayerCookieConnection, io.papermc.paper.connection.ReadablePlayerCookieConnection, java.lang.Object
+---@class io.papermc.paper.connection.PlayerCommonConnection: io.papermc.paper.connection.WritablePlayerCookieConnection, io.papermc.paper.connection.ReadablePlayerCookieConnection, org.bukkit.plugin.messaging.PluginMessageRecipient, java.lang.Object
 local PlayerCommonConnection = {}
 
 ---@param details java.util.Map report details

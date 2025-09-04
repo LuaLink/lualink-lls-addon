@@ -105,3 +105,14 @@ local MaterialTags = {}
 ---@return org.bukkit.NamespacedKey 
 function MaterialTags:keyFor(key) end
 
+---@param vanillaTag org.bukkit.Tag 
+---@private
+---@return com.destroystokyo.paper.MaterialSetTag 
+function MaterialTags:replacedBy(vanillaTag) end
+
+---@param vanillaTag org.bukkit.Tag 
+---@param legacyKey string 
+---@private
+---@return com.destroystokyo.paper.MaterialSetTag 
+function MaterialTags:replacedBy(vanillaTag, legacyKey) end
+

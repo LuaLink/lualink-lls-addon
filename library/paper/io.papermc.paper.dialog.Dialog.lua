@@ -18,3 +18,13 @@ function Dialog:create(value) end
 ---@return io.papermc.paper.dialog.Dialog 
 function Dialog:getDialog(value) end
 
+---@deprecated
+---@public
+---@return org.bukkit.NamespacedKey 
+function Dialog:getKey() end
+
+---@deprecated
+---@public
+---@return any 
+function Dialog:key() end
+
